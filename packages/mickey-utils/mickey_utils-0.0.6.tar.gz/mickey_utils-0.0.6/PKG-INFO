@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mickey_utils
+Version: 0.0.6
+Summary: 个人日常工作工具集
+Author: fanghoujun
+Author-email: fanghoujun@126.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Project Name
+mickey-utils
+
+# Important Notice
+This project has been renamed to [mickey-utils](https://pypi.org/project/mickey-utils/). Please use the new name for future installations.
+
+# Installation
+pip install mickey-utils
