@@ -1,0 +1,2 @@
+[console_scripts]
+kam-reporter = Kam_Ultimate_Reporter.main:main

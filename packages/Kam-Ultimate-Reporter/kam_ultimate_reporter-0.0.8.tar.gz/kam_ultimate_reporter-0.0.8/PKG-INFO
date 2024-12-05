@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: Kam-Ultimate-Reporter
+Version: 0.0.8
+Summary: A CLI tool for generating reports from Medad library system
+Author: Ahmad Awada
+Author-email: ahmed.a.awada@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: inquirer>=3.4.0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: folioclient>=0.61.1
+Requires-Dist: httpx>=0.27.2
+
+
+# Kam-Ultimate-Reporter
+
+## Overview
+
+**Kam-Ultimate-Reporter** is a command-line interface (CLI) tool designed for generating reports from a library system. The tool allows users to pull bibliographic data and generate multiple reports, such as item loan summaries, books created by month, frequently updated titles, and more.
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Available Reports](#available-reports)
+
+## Installation
+
+### Prerequisites
+- Ensure you have Python 3.8+ installed.
+
+### Install Kam-Ultimate-Reporter
+Install the tool from PyPI with pip:
+
+```bash
+pip install Kam-Ultimate-Reporter
+```
+
+### Dependencies
+All dependencies (like `pandas`, `inquirer`, `openpyxl`, etc.) will be installed automatically when you install Kam-Ultimate-Reporter.
+
+## Usage
+
+### By Setting Up a New Environment
+To use Kam-Ultimate-Reporter, use the `kam-reporter` command from any terminal or command prompt:
+
+```bash
+kam-reporter --url <API_URL> --tenant <TENANT_ID> --username <USERNAME> --password <PASSWORD>
+```
+
+#### Example:
+```bash
+kam-reporter --url <Okapi URL> --tenant <Tenant> --username <Username> --password <Password>
+```
+
+### Without Setting Up a New Environment
+Run the script directly with Python:
+
+```bash
+python -m Kam_Ultimate_Reporter.main --url <URL> --tenant <Tenant> --username <Username> --password <Password>
+```
+
+## Available Reports
+
+Kam-Ultimate-Reporter includes a variety of reports. Hereâ€™s a list of available reports with brief descriptions:
+
+1. **Books by Created Month**: Counts books created each month.
+2. **Suppress Status Summary**: Summary of items by suppress status.
+3. **Top 10 Most Frequently Updated Titles**: List of top 10 titles most frequently updated.
+4. **Books by Material Type**: Counts books by material type.
+5. **Average Loan Count**: Calculates the average number of loans per item.
+6. **Recently Added Records**: Shows records added in the last 30 days.
+7. **Top 5 Most Loaned Titles**: Lists the top 5 titles with the most loans.
+8. **Staff Suppressed Records**: Summary of items by staff suppression status.
+9. **Suppressed Records Summary**: Lists records with suppression status.
+10. **Titles with Alternative Titles**: Lists titles that have alternative titles.
+11. **Records with High Loan Counts**: Shows items with loan counts above 10.
+12. **Titles by Updated User**: Counts titles updated by each user.
+13. **Edition Distribution**: Shows the distribution of editions across items.
+14. **Titles with Item Discovery Suppress**: Lists titles with item-level discovery suppress.
+15. **Loaned Items by Location**: Summarizes loan counts by location.
+16. **Books with Check-in Records**: Lists books with check-in records.
+17. **Titles with Copy Numbers**: Lists titles that have copy numbers.
+18. **Records Created by User**: Counts records created by each user.
+19. **Books by Loan Type**: Counts books by loan type.
+20. **Titles Without Loans**: Lists titles with zero loans.
+21. **Loan Activity by Material Type**: Summarizes loan counts by material type.
+22. **Recently Updated Records**: Shows records updated in the last 30 days.
+23. **Full Bibliographic Report**: Generates a comprehensive report with all bibliographic information.
