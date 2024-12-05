@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+syslexer/__init__.py
+syslexer/__meta__.py
+syslexer/test.py
+syslexer.egg-info/PKG-INFO
+syslexer.egg-info/SOURCES.txt
+syslexer.egg-info/dependency_links.txt
+syslexer.egg-info/top_level.txt
