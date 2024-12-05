@@ -1,0 +1,32 @@
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+
+data = pd.read_csv('/ML/ML_Ex3_Simple.csv')
+
+bins = [0, 50, 75, 100]
+labels = ['Low', 'Medium', 'High']
+data['exam_category'] = pd.cut(data['placement_exam_marks'], bins=bins, labels=labels)
+
+X = data[['cgpa', 'study_hours', 'previous_marks']]
+y = data['exam_category']
+
+y = y.cat.codes
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+model = LogisticRegression()
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
+accuracy = accuracy_score(y_test, y_pred)
+conf_matrix = confusion_matrix(y_test, y_pred)
+class_report = classification_report(y_test, y_pred)
+
+print(f"Accuracy: {accuracy:.2f}")
+print(f"Confusion Matrix:\n{conf_matrix}")
+print(f"Classification Report:\n{class_report}")
+
+test_data = np.array([[8.5, 5, 75], [7.0, 3, 60], [9.0, 4, 85]]) 
+predictions = model.predict(test_data)
+print(predictions)
