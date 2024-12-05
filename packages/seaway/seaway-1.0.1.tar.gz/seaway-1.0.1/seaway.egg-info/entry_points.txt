@@ -1,0 +1,2 @@
+[console_scripts]
+seaway = seaway:run
