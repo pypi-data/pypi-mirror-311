@@ -1,0 +1,9 @@
+README.md
+setup.py
+maya_mongodb_package/__init__.py
+maya_mongodb_package/mongodb_handler.py
+maya_mongodb_package.egg-info/PKG-INFO
+maya_mongodb_package.egg-info/SOURCES.txt
+maya_mongodb_package.egg-info/dependency_links.txt
+maya_mongodb_package.egg-info/requires.txt
+maya_mongodb_package.egg-info/top_level.txt
