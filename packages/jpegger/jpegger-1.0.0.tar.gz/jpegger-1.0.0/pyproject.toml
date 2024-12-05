@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "jpegger"
+version = "1.0.0"
+description = "Python Script to optimise images for websites"
+authors = ["valentinkolb <mail@valentin-kolb.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["cli", "image", "optimisation", "web"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+homepage = "https://github.com/ValentinKolb/jpegger"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^11.0.0"
+click = "^8.1.7"
+piexif = "^1.1.3"
+
+[tool.poetry.scripts]
+jpegger = "jpegger.converter:convert"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
