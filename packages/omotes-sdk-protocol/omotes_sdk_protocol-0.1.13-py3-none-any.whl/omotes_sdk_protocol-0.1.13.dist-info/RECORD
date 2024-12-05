@@ -1,0 +1,13 @@
+omotes_sdk_protocol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omotes_sdk_protocol/job_pb2.py,sha256=SO8tie-7DPNqJjvlUSRIm_xgEUH1gbEPdCTxcOgXLvU,3635
+omotes_sdk_protocol/job_pb2.pyi,sha256=gmanRpuIlaSWkjrji_RtBq2-5Wn0HZvl0Z8l9SZ4ohw,9582
+omotes_sdk_protocol/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omotes_sdk_protocol/workflow_pb2.py,sha256=AuZmosbK3avM9Sc351kLpbCRL1DkXnmwiPA56sMu6Jg,4387
+omotes_sdk_protocol/workflow_pb2.pyi,sha256=vX5jfIA7hAVApD6635P6_W5hoCHexmjtlHhI16wo0vQ,13296
+omotes_sdk_protocol/internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omotes_sdk_protocol/internal/task_pb2.py,sha256=uAdW9PLH_b0-gd5zn_X3EBfgtxSYVl-UEw223s3P9Wo,2409
+omotes_sdk_protocol/internal/task_pb2.pyi,sha256=z0ZrbqnG44GHC_llaa6mqxu9LWwPr7OH7InXgqji7HI,5210
+omotes_sdk_protocol-0.1.13.dist-info/METADATA,sha256=HyeIjrvb3Y7CnbUGpbeMBnMvMO09zGCkUalT1pdYJ-c,2145
+omotes_sdk_protocol-0.1.13.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+omotes_sdk_protocol-0.1.13.dist-info/top_level.txt,sha256=NXR3wqe1EnI4v_aaXPNnjSQMGE-Gmx-Z4pS7WuEqavc,20
+omotes_sdk_protocol-0.1.13.dist-info/RECORD,,
