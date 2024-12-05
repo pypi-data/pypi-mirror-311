@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.6
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: firezym@gmail.com
+author_name: ocean
+has_binder: false
+has_settings: true
+kind: frontend
+labextension_name: jupyterlab_nasadaily
+project_short_description: JupyterLab Extension to Show Astronomy Picture of the Day
+    from NASA
+python_name: jupyterlab_nasadaily
+repository: https://github.com/firezym/jupyterlab_nasadaily
+test: false
+
