@@ -1,0 +1,20 @@
+**/*.egg-info/
+.coverage*
+.idea
+.mypy_cache/
+.tox/
+.vscode/
+build/
+dist/
+docs/_build/
+docs/_static/
+docs/_templates/
+docs/*.gen.rst
+coverage.xml
+htmlcov/
+__pycache__/
+src/*/_version.py
+
+# Virtual environments
+.venv*/
+venv*/
