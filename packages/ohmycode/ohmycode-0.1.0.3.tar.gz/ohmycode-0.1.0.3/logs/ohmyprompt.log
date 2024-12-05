@@ -1,0 +1,1271 @@
+2024-11-26 11:28:35 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:28:35 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:28:35 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:28:35 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:28:35 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:28:35 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:28:35 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'build', '.git', 'env', 'dist', 'venv', '__pycache__', '.pytest_cache', 'node_modules', '.ruff_cache', '.idea', '.vscode', '.mypy_cache'}, 'files': {'*.dylib', '*.so', '*.pyd', '*.pyo', '*.dll', '*.pyc'}}
+2024-11-26 11:28:35 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:28:35 [INFO] ohmycode.core.tools.project_tools:103 - 开始新一轮项目分析...
+2024-11-26 11:28:35 [INFO] ohmycode.core.tools.project_tools:109 - 已启用的工具: ['ruff', 'mypy', 'radon']
+2024-11-26 11:28:35 [DEBUG] ohmycode.core.tools.project_tools:112 - 分析项目结构...
+2024-11-26 11:28:35 [DEBUG] ohmycode.core.tools.project_tools:118 - 项目结构分析完成
+2024-11-26 11:28:35 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: ruff
+2024-11-26 11:28:35 [ERROR] ohmycode.core.tools.project_tools:132 - ruff 运行失败: 'command'
+2024-11-26 11:28:35 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: mypy
+2024-11-26 11:28:35 [ERROR] ohmycode.core.tools.project_tools:132 - mypy 运行失败: 'command'
+2024-11-26 11:28:35 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: radon
+2024-11-26 11:28:39 [DEBUG] ohmycode.core.tools.project_tools:130 - radon 分析完成
+2024-11-26 11:28:39 [INFO] ohmycode.core.tools.project_tools:146 - 保存分析结果...
+2024-11-26 11:28:39 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732591719.md
+2024-11-26 11:28:39 [INFO] ohmycode.core.tools.project_tools:148 - 分析完成
+2024-11-26 11:28:51 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:28:51 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:28:51 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:28:51 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:28:51 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:28:51 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:28:51 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'build', 'venv', '.vscode', 'node_modules', 'env', '.ruff_cache', '__pycache__', '.idea', '.mypy_cache', '.pytest_cache', 'dist', '.git'}, 'files': {'*.pyd', '*.so', '*.pyo', '*.dylib', '*.pyc', '*.dll'}}
+2024-11-26 11:28:51 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:28:51 [INFO] ohmycode.core.tools.project_tools:103 - 开始新一轮项目分析...
+2024-11-26 11:28:51 [INFO] ohmycode.core.tools.project_tools:109 - 已启用的工具: ['ruff', 'mypy', 'radon']
+2024-11-26 11:28:51 [DEBUG] ohmycode.core.tools.project_tools:112 - 分析项目结构...
+2024-11-26 11:28:51 [DEBUG] ohmycode.core.tools.project_tools:118 - 项目结构分析完成
+2024-11-26 11:28:51 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: ruff
+2024-11-26 11:28:51 [ERROR] ohmycode.core.tools.project_tools:132 - ruff 运行失败: 'command'
+2024-11-26 11:28:51 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: mypy
+2024-11-26 11:28:51 [ERROR] ohmycode.core.tools.project_tools:132 - mypy 运行失败: 'command'
+2024-11-26 11:28:51 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: radon
+2024-11-26 11:28:53 [DEBUG] ohmycode.core.tools.project_tools:130 - radon 分析完成
+2024-11-26 11:28:53 [INFO] ohmycode.core.tools.project_tools:146 - 保存分析结果...
+2024-11-26 11:28:53 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732591733.md
+2024-11-26 11:28:53 [INFO] ohmycode.core.tools.project_tools:148 - 分析完成
+2024-11-26 11:31:15 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:31:15 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:31:15 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:31:15 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:31:15 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:31:15 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:31:15 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'venv', '.pytest_cache', '__pycache__', '.git', 'build', '.ruff_cache', '.mypy_cache', 'dist', 'env', '.idea', 'node_modules', '.vscode'}, 'files': {'*.pyc', '*.pyo', '*.dll', '*.dylib', '*.so', '*.pyd'}}
+2024-11-26 11:31:15 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:31:15 [INFO] ohmycode.core.tools.project_tools:103 - 开始新一轮项目分析...
+2024-11-26 11:31:15 [INFO] ohmycode.core.tools.project_tools:109 - 已启用的工具: ['ruff', 'mypy', 'radon']
+2024-11-26 11:31:15 [DEBUG] ohmycode.core.tools.project_tools:112 - 分析项目结构...
+2024-11-26 11:31:15 [DEBUG] ohmycode.core.tools.project_tools:118 - 项目结构分析完成
+2024-11-26 11:31:15 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: ruff
+2024-11-26 11:31:15 [ERROR] ohmycode.core.tools.base:105 - 构建命令失败: 工具 ruff 缺少命令配置
+2024-11-26 11:31:15 [ERROR] ohmycode.core.tools.project_tools:132 - ruff 运行失败: 构建命令失败: 工具 ruff 缺少命令配置
+2024-11-26 11:31:15 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: mypy
+2024-11-26 11:31:15 [ERROR] ohmycode.core.tools.base:105 - 构建命令失败: 工具 mypy 缺少命令配置
+2024-11-26 11:31:15 [ERROR] ohmycode.core.tools.project_tools:132 - mypy 运行失败: 构建命令失败: 工具 mypy 缺少命令配置
+2024-11-26 11:31:15 [INFO] ohmycode.core.tools.project_tools:126 - 运行工具: radon
+2024-11-26 11:31:18 [DEBUG] ohmycode.core.tools.project_tools:130 - radon 分析完成
+2024-11-26 11:31:18 [INFO] ohmycode.core.tools.project_tools:146 - 保存分析结果...
+2024-11-26 11:31:18 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732591878.md
+2024-11-26 11:31:18 [INFO] ohmycode.core.tools.project_tools:148 - 分析完成
+2024-11-26 11:33:11 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:33:11 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'.idea', '.vscode', '.git', '__pycache__', 'env', 'node_modules', 'venv', '.ruff_cache', '.pytest_cache', 'dist', 'build', '.mypy_cache'}, 'files': {'*.so', '*.dylib', '*.pyo', '*.pyd', '*.pyc', '*.dll'}}
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['ruff', 'mypy', 'radon']
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: ruff check src/
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check src/
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.ruff_tool:34 - Ruff 检查完成: 未发现问题
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 11:33:11 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 11:33:11 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: mypy src/
+2024-11-26 11:33:12 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 11:33:12 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 11:33:13 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 11:33:13 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 11:33:13 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732591993.md
+2024-11-26 11:33:13 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 11:33:13 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 11:33:37 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:33:37 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8001
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:33:37 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:33:37 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:33:37 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'build', '.pytest_cache', '.idea', 'env', '.git', '.vscode', '.ruff_cache', 'node_modules', '.mypy_cache', 'venv', 'dist', '__pycache__'}, 'files': {'*.dll', '*.pyd', '*.dylib', '*.pyo', '*.pyc', '*.so'}}
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['ruff', 'mypy', 'radon']
+2024-11-26 11:33:37 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 11:33:37 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 11:33:37 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: ruff check src/
+2024-11-26 11:33:37 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check src/
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.ruff_tool:34 - Ruff 检查完成: 未发现问题
+2024-11-26 11:33:37 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 11:33:37 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 11:33:38 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: mypy src/
+2024-11-26 11:33:38 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 11:33:38 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 11:33:40 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 11:33:40 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 11:33:40 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732592020.md
+2024-11-26 11:33:40 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 11:33:40 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 11:34:07 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:34:07 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8001
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:34:07 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:34:07 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:34:07 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'.vscode', 'venv', 'node_modules', 'dist', 'env', '.idea', '.git', '.mypy_cache', 'build', '.ruff_cache', '__pycache__', '.pytest_cache'}, 'files': {'*.pyd', '*.pyo', '*.so', '*.pyc', '*.dll', '*.dylib'}}
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['ruff', 'mypy', 'radon']
+2024-11-26 11:34:07 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 11:34:07 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 11:34:07 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: ruff check src/
+2024-11-26 11:34:07 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check src/
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.ruff_tool:34 - Ruff 检查完成: 未发现问题
+2024-11-26 11:34:07 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 11:34:07 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 11:34:08 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 11:34:08 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: mypy src/
+2024-11-26 11:34:08 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy src/
+2024-11-26 11:34:08 [WARNING] ohmycode.core.tools.mypy_tool:43 - Mypy 类型检查完成: 发现类型问题
+2024-11-26 11:34:08 [DEBUG] ohmycode.core.tools.mypy_tool:44 - 详细输出:
+src/ohmycode/services/config_service.py:66: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+src/ohmycode/services/config_service.py:67: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+src/ohmycode/web/api/exclude.py:36: error: Too many arguments for "save_config" of "ConfigService"  [call-arg]
+Found 1 error in 1 file (checked 35 source files)
+2024-11-26 11:34:08 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 11:34:08 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 11:34:08 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 11:34:08 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi']
+2024-11-26 11:34:08 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 11:34:08 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:34:09 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 11:34:09 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 11:34:09 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:34:09 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 11:34:09 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 11:34:09 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 11:34:09 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 11:34:09 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732592049.md
+2024-11-26 11:34:09 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 11:34:09 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 11:34:54 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:34:54 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:34:54 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:34:54 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:34:54 [DEBUG] ohmycode.utils.config_utils:54 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:34:54 [ERROR] ohmycode.core.tools.project_tools:56 - 配置服务初始化失败: 'ConfigService' object has no attribute 'logger'
+2024-11-26 11:35:25 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:25 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:25 [DEBUG] ohmycode.utils.config_utils:54 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:25 [INFO] ohmycode.services.config_service:97 - 未找到现有配置，使用默认配置
+2024-11-26 11:35:25 [DEBUG] ohmycode.utils.config_utils:106 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'node_modules', '.pytest_cache', '__pycache__', '.ruff_cache', 'venv', '.vscode', '.git', '.idea', 'env', '.mypy_cache', 'build', 'dist'}, 'files': {'*.pyo', '*.dll', '*.so', '*.pyd', '*.dylib', '*.pyc'}}
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['ruff', 'mypy', 'radon']
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: ruff check src/
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check src/
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.ruff_tool:34 - Ruff 检查完成: 未发现问题
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: mypy src/
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy src/
+2024-11-26 11:35:25 [WARNING] ohmycode.core.tools.mypy_tool:43 - Mypy 类型检查完成: 发现类型问题
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.mypy_tool:44 - 详细输出:
+src/ohmycode/services/config_service.py:67: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+src/ohmycode/services/config_service.py:68: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+src/ohmycode/web/api/exclude.py:36: error: Too many arguments for "save_config" of "ConfigService"  [call-arg]
+Found 1 error in 1 file (checked 35 source files)
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi']
+2024-11-26 11:35:25 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc']
+2024-11-26 11:35:25 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:26 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 11:35:26 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 11:35:26 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 11:35:26 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi']
+2024-11-26 11:35:26 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:31 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:31 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:35:31 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:31 [DEBUG] ohmycode.utils.config_utils:54 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:31 [INFO] ohmycode.services.config_service:97 - 未找到现有配置，使用默认配置
+2024-11-26 11:35:31 [DEBUG] ohmycode.utils.config_utils:106 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:35:31 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:35:31 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'dist', '__pycache__', 'build', 'node_modules', '.ruff_cache', '.mypy_cache', '.vscode', '.idea', '.pytest_cache', 'env', '.git', 'venv'}, 'files': {'*.pyc', '*.so', '*.dylib', '*.pyd', '*.dll', '*.pyo'}}
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['ruff', 'mypy', 'radon']
+2024-11-26 11:35:31 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 11:35:31 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 11:35:31 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 11:35:31 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: ruff check src/
+2024-11-26 11:35:31 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check src/
+2024-11-26 11:35:32 [INFO] ohmycode.core.tools.ruff_tool:34 - Ruff 检查完成: 未发现问题
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 11:35:32 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 11:35:32 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: mypy src/
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy src/
+2024-11-26 11:35:32 [WARNING] ohmycode.core.tools.mypy_tool:43 - Mypy 类型检查完成: 发现类型问题
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.mypy_tool:44 - 详细输出:
+src/ohmycode/services/config_service.py:67: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+src/ohmycode/services/config_service.py:68: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+src/ohmycode/web/api/exclude.py:36: error: Too many arguments for "save_config" of "ConfigService"  [call-arg]
+Found 1 error in 1 file (checked 35 source files)
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 11:35:32 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 11:35:32 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi']
+2024-11-26 11:35:32 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc']
+2024-11-26 11:35:32 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:33 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 11:35:33 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 11:35:33 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 11:35:33 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi']
+2024-11-26 11:35:33 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:35:33 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 11:35:33 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 11:35:33 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 11:35:33 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 11:35:33 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732592133.md
+2024-11-26 11:35:33 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 11:35:33 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 11:39:30 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:39:30 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:39:30 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:39:30 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:39:30 [DEBUG] ohmycode.utils.config_utils:54 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:39:30 [ERROR] ohmycode.utils.config_utils:108 - 保存配置出错: Object of type ToolOptionType is not JSON serializable
+2024-11-26 11:39:30 [ERROR] ohmycode.core.tools.project_tools:56 - 配置服务初始化失败: Object of type ToolOptionType is not JSON serializable
+2024-11-26 11:41:22 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:41:22 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:41:22 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:41:22 [DEBUG] ohmycode.utils.config_utils:56 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:41:22 [DEBUG] ohmycode.utils.config_utils:125 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 11:41:22 [DEBUG] ohmycode.services.config_service:58 - 已加载现有配置
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:41:22 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:41:22 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': ['.*', '__*', '.git', '.venv', '__pycache__', 'node_modules', 'dist', 'build'], 'files': ['*.pyc', '*.pyo', '*.pyd', '.DS_Store', '.env']}
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['mypy', 'radon', 'ruff']
+2024-11-26 11:41:22 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 11:41:22 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 11:41:22 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 11:41:22 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 11:41:22 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 11:41:22 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 11:41:25 [WARNING] ohmycode.core.tools.mypy_tool:43 - Mypy 类型检查完成: 发现类型问题
+2024-11-26 11:41:25 [DEBUG] ohmycode.core.tools.mypy_tool:44 - 详细输出:
+src/ohmycode/services/config_service.py: note: In member "_load_config" of class "ConfigService":
+src/ohmycode/services/config_service.py:55:32: error: Incompatible types in
+assignment (expression has type "DefaultConfigType", variable has type
+"dict[str, ExcludePatterns | Tools | int]")  [assignment]
+                    self._config = DEFAULT_CONFIG.copy()
+                                   ^~~~~~~~~~~~~~~~~~~~~
+src/ohmycode/services/config_service.py: note: In member "get_tool_config" of class "ConfigService":
+src/ohmycode/services/config_service.py:70:16: error: Item "int" of
+"ExcludePatterns | Tools | int" has no attribute "get"  [union-attr]
+            return self._config.get("tools", {}).get(tool_name, {})
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/ohmycode/services/config_service.py:70:16: error: Incompatible return
+value type (got "object | Any", expected "dict[str, Any]")  [return-value]
+            return self._config.get("tools", {}).get(tool_name, {})
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/ohmycode/services/config_service.py: note: In member "get_exclude_patterns" of class "ConfigService":
+src/ohmycode/services/config_service.py:74:16: error: Incompatible return
+value type (got "ExcludePatterns | Tools | int", expected "dict[str, set[str]]")
+ [return-value]
+            return self._config.get("exclude_patterns", DEFAULT_CONFIG["ex...
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...
+src/ohmycode/services/config_service.py: note: In member "get_update_interval" of class "ConfigService":
+src/ohmycode/services/config_service.py:78:16: error: Incompatible return
+value type (got "ExcludePatterns | Tools | int", expected "int")  [return-value]
+            return self._config.get("update_interval", DEFAULT_CONFIG["upd...
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...
+src/ohmycode/services/config_service.py: note: In member "save_config" of class "ConfigService":
+src/ohmycode/services/config_service.py:146:24: error: Unsupported right
+operand type for in ("ExcludePatterns | Tools | int")  [operator]
+                        if key in config_copy["exclude_patterns"]:
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/ohmycode/services/config_service.py:147:25: error: Unsupported target for
+indexed assignment ("ExcludePatterns | Tools | int")  [index]
+                            config_copy["exclude_patterns"][key] = list(
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/ohmycode/services/config_service.py:147:57: error: TypedDict key must be
+a string literal; expected one of ("directories", "files")  [literal-required]
+                            config_copy["exclude_patterns"][key] = list(
+                                                            ^~~
+src/ohmycode/services/config_service.py:147:57: error: TypedDict key must be
+a string literal; expected one of ("mypy", "radon", "ruff")  [literal-required]
+                            config_copy["exclude_patterns"][key] = list(
+                                                            ^~~
+src/ohmycode/services/config_service.py:148:29: error: Value of type
+"ExcludePatterns | Tools | int" is not indexable  [index]
+                                config_copy["exclude_patterns"][key]
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/ohmycode/services/config_service.py:148:61: error: TypedDict key must be
+a string literal; expected one of ("directories", "files")  [literal-required]
+                                config_copy["exclude_patterns"][key]
+                                                                ^~~
+src/ohmycode/services/config_service.py:148:61: error: TypedDict key must be
+a string literal; expected one of ("mypy", "radon", "ruff")  [literal-required]
+                                config_copy["exclude_patterns"][key]
+                                                                ^~~
+src/ohmycode/web/api/exclude.py: note: In function "update_exclude_patterns":
+src/ohmycode/web/api/exclude.py:36:9: error: Too many arguments for
+"save_config" of "ConfigService"  [call-arg]
+            config_service.save_config(cast(Config, config))
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Found 13 errors in 2 files (checked 36 source files)
+2024-11-26 11:41:25 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 11:41:25 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 11:41:25 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 11:41:25 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi', 'raw']
+2024-11-26 11:41:25 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 11:41:25 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 11:41:25 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc', '--cc-min', 'C', '--cc-max', 'F', '--show-complexity', '--average', '--total-average', '--json']
+2024-11-26 11:41:25 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc --cc-min C --cc-max F --show-complexity --average --total-average --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:41:26 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 11:41:26 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 11:41:26 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 11:41:26 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi', '--multi', '--json']
+2024-11-26 11:41:26 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi --multi --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:41:28 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 11:41:28 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 raw 分析...
+2024-11-26 11:41:28 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 raw 命令参数
+2024-11-26 11:41:28 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'raw', '--json']
+2024-11-26 11:41:28 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon raw --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:41:29 [DEBUG] ohmycode.core.tools.radon_tool:61 - raw 分析完成
+2024-11-26 11:41:29 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 11:41:29 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 11:41:29 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 11:41:29 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 11:41:29 [DEBUG] ohmycode.core.tools.base:100 - 执行命令: ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 11:41:29 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 11:41:29 [WARNING] ohmycode.core.tools.ruff_tool:36 - Ruff 检查完成: 发现代码问题
+2024-11-26 11:41:29 [DEBUG] ohmycode.core.tools.ruff_tool:37 - 详细输出:
+[
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 73,
+      "row": 64
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/core/tools/base.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "str | int | float",
+          "end_location": {
+            "column": 72,
+            "row": 64
+          },
+          "location": {
+            "column": 55,
+            "row": 64
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 30,
+      "row": 64
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 64,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 73,
+      "row": 69
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/core/tools/base.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "str | int | float",
+          "end_location": {
+            "column": 72,
+            "row": 69
+          },
+          "location": {
+            "column": 55,
+            "row": 69
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 30,
+      "row": 69
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 69,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 69,
+      "row": 71
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/core/tools/base.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "list | tuple",
+          "end_location": {
+            "column": 68,
+            "row": 71
+          },
+          "location": {
+            "column": 55,
+            "row": 71
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 30,
+      "row": 71
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 71,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 73,
+      "row": 76
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/core/tools/base.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "str | int | float",
+          "end_location": {
+            "column": 72,
+            "row": 76
+          },
+          "location": {
+            "column": 55,
+            "row": 76
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 30,
+      "row": 76
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 76,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 73,
+      "row": 84
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/core/tools/base.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "str | int | float",
+          "end_location": {
+            "column": 72,
+            "row": 84
+          },
+          "location": {
+            "column": 55,
+            "row": 84
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 30,
+      "row": 84
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 84,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 45,
+      "row": 106
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/core/tools/base.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 106
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 106,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 51,
+      "row": 46
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "Enum | ToolOptionType",
+          "end_location": {
+            "column": 50,
+            "row": 46
+          },
+          "location": {
+            "column": 28,
+            "row": 46
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 12,
+      "row": 46
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 46,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "SIM105",
+    "end_location": {
+      "column": 33,
+      "row": 87
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "import contextlib\n",
+          "end_location": {
+            "column": 1,
+            "row": 11
+          },
+          "location": {
+            "column": 1,
+            "row": 11
+          }
+        },
+        {
+          "content": "with contextlib.suppress(ValueError)",
+          "end_location": {
+            "column": 28,
+            "row": 84
+          },
+          "location": {
+            "column": 25,
+            "row": 84
+          }
+        },
+        {
+          "content": "",
+          "end_location": {
+            "column": 1,
+            "row": 88
+          },
+          "location": {
+            "column": 1,
+            "row": 86
+          }
+        }
+      ],
+      "message": "Replace with `contextlib.suppress(ValueError)`"
+    },
+    "location": {
+      "column": 25,
+      "row": 84
+    },
+    "message": "Use `contextlib.suppress(ValueError)` instead of `try`-`except`-`pass`",
+    "noqa_row": 84,
+    "url": "https://docs.astral.sh/ruff/rules/suppressible-exception"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 61,
+      "row": 112
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "Enum | ToolOptionType",
+          "end_location": {
+            "column": 60,
+            "row": 112
+          },
+          "location": {
+            "column": 38,
+            "row": 112
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 22,
+      "row": 112
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 112,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  }
+]
+2024-11-26 11:41:29 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 11:41:29 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 11:41:29 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732592489.md
+2024-11-26 11:41:29 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 11:41:29 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 11:57:47 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:57:47 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:57:47 [DEBUG] ohmycode.utils.config_utils:57 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:57:47 [DEBUG] ohmycode.utils.config_utils:124 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 11:57:47 [DEBUG] ohmycode.services.config_service:58 - 已加载现有配置
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'node_modules', '.venv', '__*', '__pycache__', 'build', '.*', 'dist', '.git'}, 'files': {'*.pyo', '*.pyd', '.DS_Store', '.env', '*.pyc'}}
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['mypy', 'radon', 'ruff']
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.base:81 - 执行命令: mypy --paths src/ --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy --paths src/ --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 11:57:47 [WARNING] ohmycode.core.tools.mypy_tool:43 - Mypy 类型检查完成: 发现类型问题
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.mypy_tool:44 - 详细输出:
+usage: mypy [-h] [-v] [-V] [more options; see below]
+            [-m MODULE] [-p PACKAGE] [-c PROGRAM_TEXT] [files ...]
+mypy: error: unrecognized arguments: --paths src/
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi', 'raw']
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc', '--cc-min', 'C', '--cc-max', 'F', '--show-complexity', '--average', '--total-average', '--json']
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc --cc-min C --cc-max F --show-complexity --average --total-average --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 11:57:47 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi', '--multi', '--json']
+2024-11-26 11:57:47 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi --multi --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:57:50 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 11:57:50 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 raw 分析...
+2024-11-26 11:57:50 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 raw 命令参数
+2024-11-26 11:57:50 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'raw', '--json']
+2024-11-26 11:57:50 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon raw --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:57:51 [DEBUG] ohmycode.core.tools.radon_tool:61 - raw 分析完成
+2024-11-26 11:57:51 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 11:57:51 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 11:57:51 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 11:57:51 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 11:57:51 [DEBUG] ohmycode.core.tools.base:81 - 执行命令: ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 11:57:51 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 11:57:51 [WARNING] ohmycode.core.tools.ruff_tool:36 - Ruff 检查完成: 发现代码问题
+2024-11-26 11:57:51 [DEBUG] ohmycode.core.tools.ruff_tool:37 - 详细输出:
+[
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 51,
+      "row": 47
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "Enum | ToolOptionType",
+          "end_location": {
+            "column": 50,
+            "row": 47
+          },
+          "location": {
+            "column": 28,
+            "row": 47
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 12,
+      "row": 47
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 47,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 61,
+      "row": 111
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "Enum | ToolOptionType",
+          "end_location": {
+            "column": 60,
+            "row": 111
+          },
+          "location": {
+            "column": 38,
+            "row": 111
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 22,
+      "row": 111
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 111,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  }
+]
+2024-11-26 11:57:51 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 11:57:51 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 11:57:51 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732593471.md
+2024-11-26 11:57:51 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 11:57:51 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 11:59:41 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:59:41 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8001
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 11:59:41 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:59:41 [DEBUG] ohmycode.utils.config_utils:57 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:59:41 [DEBUG] ohmycode.utils.config_utils:124 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 11:59:41 [DEBUG] ohmycode.services.config_service:58 - 已加载现有配置
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 11:59:41 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 11:59:41 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'.git', 'dist', '.*', 'node_modules', '__*', '__pycache__', 'build', '.venv'}, 'files': {'*.pyd', '.DS_Store', '.env', '*.pyo', '*.pyc'}}
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['mypy', 'radon', 'ruff']
+2024-11-26 11:59:41 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 11:59:41 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 11:59:41 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 11:59:41 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 11:59:42 [WARNING] ohmycode.core.tools.mypy_tool:43 - Mypy 类型检查完成: 发现类型问题
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.mypy_tool:44 - 详细输出:
+src/ohmycode/services/config_service.py: note: In member "_load_config" of class "ConfigService":
+src/ohmycode/services/config_service.py:55:32: error: Incompatible types in
+assignment (expression has type "DefaultConfigType", variable has type
+"dict[str, ExcludePatterns | Tools | int]")  [assignment]
+                    self._config = DEFAULT_CONFIG.copy()
+                                   ^~~~~~~~~~~~~~~~~~~~~
+src/ohmycode/services/config_service.py: note: In member "get_tool_config" of class "ConfigService":
+src/ohmycode/services/config_service.py:71:16: error: Incompatible return
+value type (got "object", expected "dict[str, Any]")  [return-value]
+            return tools.get(tool_name, {})
+                   ^~~~~~~~~~~~~~~~~~~~~~~~
+src/ohmycode/web/api/exclude.py: note: In function "update_exclude_patterns":
+src/ohmycode/web/api/exclude.py:36:9: error: Too many arguments for
+"save_config" of "ConfigService"  [call-arg]
+            config_service.save_config(cast(Config, config))
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Found 3 errors in 2 files (checked 36 source files)
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 11:59:42 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 11:59:42 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi', 'raw']
+2024-11-26 11:59:42 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc', '--cc-min', 'C', '--cc-max', 'F', '--show-complexity', '--average', '--total-average', '--json']
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc --cc-min C --cc-max F --show-complexity --average --total-average --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 11:59:42 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi', '--multi', '--json']
+2024-11-26 11:59:42 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi --multi --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:59:45 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 11:59:45 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 raw 分析...
+2024-11-26 11:59:45 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 raw 命令参数
+2024-11-26 11:59:45 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'raw', '--json']
+2024-11-26 11:59:45 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon raw --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 11:59:46 [DEBUG] ohmycode.core.tools.radon_tool:61 - raw 分析完成
+2024-11-26 11:59:46 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 11:59:46 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 11:59:46 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 11:59:46 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 11:59:46 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 11:59:46 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 11:59:46 [WARNING] ohmycode.core.tools.ruff_tool:36 - Ruff 检查完成: 发现代码问题
+2024-11-26 11:59:46 [DEBUG] ohmycode.core.tools.ruff_tool:37 - 详细输出:
+[
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 51,
+      "row": 47
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "Enum | ToolOptionType",
+          "end_location": {
+            "column": 50,
+            "row": 47
+          },
+          "location": {
+            "column": 28,
+            "row": 47
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 12,
+      "row": 47
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 47,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 61,
+      "row": 111
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "Enum | ToolOptionType",
+          "end_location": {
+            "column": 60,
+            "row": 111
+          },
+          "location": {
+            "column": 38,
+            "row": 111
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 22,
+      "row": 111
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 111,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  }
+]
+2024-11-26 11:59:46 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 11:59:46 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 11:59:46 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732593586.md
+2024-11-26 11:59:46 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 11:59:46 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 12:00:49 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:00:49 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 12:00:49 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:00:49 [DEBUG] ohmycode.utils.config_utils:57 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:00:49 [DEBUG] ohmycode.utils.config_utils:124 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 12:00:49 [DEBUG] ohmycode.services.config_service:58 - 已加载现有配置
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 12:00:49 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 12:00:49 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'__pycache__', 'node_modules', 'dist', '.venv', '.git', 'build', '__*', '.*'}, 'files': {'*.pyo', '.env', '.DS_Store', '*.pyc', '*.pyd'}}
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['mypy', 'radon', 'ruff']
+2024-11-26 12:00:49 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 12:00:49 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 12:00:49 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 12:00:49 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 12:00:49 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 12:00:49 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 12:00:50 [INFO] ohmycode.core.tools.mypy_tool:41 - Mypy 类型检查完成: 未发现问题
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 12:00:50 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 12:00:50 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi', 'raw']
+2024-11-26 12:00:50 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc', '--cc-min', 'C', '--cc-max', 'F', '--show-complexity', '--average', '--total-average', '--json']
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc --cc-min C --cc-max F --show-complexity --average --total-average --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 12:00:50 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi', '--multi', '--json']
+2024-11-26 12:00:50 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi --multi --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:00:53 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 12:00:53 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 raw 分析...
+2024-11-26 12:00:53 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 raw 命令参数
+2024-11-26 12:00:53 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'raw', '--json']
+2024-11-26 12:00:53 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon raw --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:00:53 [DEBUG] ohmycode.core.tools.radon_tool:61 - raw 分析完成
+2024-11-26 12:00:53 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 12:00:53 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 12:00:53 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 12:00:53 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 12:00:53 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 12:00:53 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 12:00:54 [WARNING] ohmycode.core.tools.ruff_tool:36 - Ruff 检查完成: 发现代码问题
+2024-11-26 12:00:54 [DEBUG] ohmycode.core.tools.ruff_tool:37 - 详细输出:
+[
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 51,
+      "row": 47
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "Enum | ToolOptionType",
+          "end_location": {
+            "column": 50,
+            "row": 47
+          },
+          "location": {
+            "column": 28,
+            "row": 47
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 12,
+      "row": 47
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 47,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  },
+  {
+    "cell": null,
+    "code": "UP038",
+    "end_location": {
+      "column": 61,
+      "row": 111
+    },
+    "filename": "/Users/throne/PycharmProjects/ohmycode/src/ohmycode/utils/config_utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "Enum | ToolOptionType",
+          "end_location": {
+            "column": 60,
+            "row": 111
+          },
+          "location": {
+            "column": 38,
+            "row": 111
+          }
+        }
+      ],
+      "message": "Convert to `X | Y`"
+    },
+    "location": {
+      "column": 22,
+      "row": 111
+    },
+    "message": "Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+    "noqa_row": 111,
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-isinstance"
+  }
+]
+2024-11-26 12:00:54 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 12:00:54 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 12:00:54 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732593654.md
+2024-11-26 12:00:54 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 12:00:54 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 12:01:56 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:01:56 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 12:01:56 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:01:56 [DEBUG] ohmycode.utils.config_utils:57 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:01:56 [DEBUG] ohmycode.utils.config_utils:124 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 12:01:56 [DEBUG] ohmycode.services.config_service:58 - 已加载现有配置
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 12:01:56 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 12:01:56 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'.git', 'node_modules', 'dist', '.*', 'build', '__pycache__', '__*', '.venv'}, 'files': {'*.pyd', '*.pyo', '.DS_Store', '.env', '*.pyc'}}
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['mypy', 'radon', 'ruff']
+2024-11-26 12:01:56 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 12:01:56 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 12:01:56 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 12:01:56 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 12:01:56 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 12:01:56 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 12:01:57 [INFO] ohmycode.core.tools.mypy_tool:41 - Mypy 类型检查完成: 未发现问题
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 12:01:57 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 12:01:57 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi', 'raw']
+2024-11-26 12:01:57 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc', '--cc-min', 'C', '--cc-max', 'F', '--show-complexity', '--average', '--total-average', '--json']
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc --cc-min C --cc-max F --show-complexity --average --total-average --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 12:01:57 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi', '--multi', '--json']
+2024-11-26 12:01:57 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi --multi --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:01:59 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 12:01:59 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 raw 分析...
+2024-11-26 12:01:59 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 raw 命令参数
+2024-11-26 12:01:59 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'raw', '--json']
+2024-11-26 12:01:59 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon raw --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:02:00 [DEBUG] ohmycode.core.tools.radon_tool:61 - raw 分析完成
+2024-11-26 12:02:00 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 12:02:00 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 12:02:00 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 12:02:00 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 12:02:00 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 12:02:00 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 12:02:00 [INFO] ohmycode.core.tools.ruff_tool:34 - Ruff 检查完成: 未发现问题
+2024-11-26 12:02:00 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 12:02:00 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 12:02:00 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732593720.md
+2024-11-26 12:02:00 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 12:02:00 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 12:02:26 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:02:26 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:02:26 [DEBUG] ohmycode.utils.config_utils:57 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:02:26 [DEBUG] ohmycode.utils.config_utils:124 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 12:02:26 [DEBUG] ohmycode.services.config_service:58 - 已加载现有配置
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'node_modules', '__*', '__pycache__', '.venv', 'build', '.git', 'dist', '.*'}, 'files': {'.DS_Store', '*.pyd', '*.pyc', '.env', '*.pyo'}}
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['mypy', 'radon', 'ruff']
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.mypy_tool:41 - Mypy 类型检查完成: 未发现问题
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi', 'raw']
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc', '--cc-min', 'C', '--cc-max', 'F', '--show-complexity', '--average', '--total-average', '--json']
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc --cc-min C --cc-max F --show-complexity --average --total-average --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 12:02:26 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi', '--multi', '--json']
+2024-11-26 12:02:26 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi --multi --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:02:28 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 12:02:28 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 raw 分析...
+2024-11-26 12:02:28 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 raw 命令参数
+2024-11-26 12:02:28 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'raw', '--json']
+2024-11-26 12:02:28 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon raw --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:02:29 [DEBUG] ohmycode.core.tools.radon_tool:61 - raw 分析完成
+2024-11-26 12:02:29 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 12:02:29 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 12:02:29 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 12:02:29 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 12:02:29 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 12:02:29 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 12:02:29 [INFO] ohmycode.core.tools.ruff_tool:34 - Ruff 检查完成: 未发现问题
+2024-11-26 12:02:29 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 12:02:29 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 12:02:29 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732593749.md
+2024-11-26 12:02:29 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 12:02:29 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
+2024-11-26 12:03:29 [INFO] ohmycode.cli:39 - 开始分析项目: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:03:29 [INFO] ohmycode.cli:47 - Web界面将启动在: http://127.0.0.1:8000
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:45 - 初始化项目分析工具...
+2024-11-26 12:03:29 [DEBUG] ohmycode.core.tools.project_tools:48 - 项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:03:29 [DEBUG] ohmycode.utils.config_utils:57 - 初始化配置管理器，项目根目录: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:03:29 [DEBUG] ohmycode.utils.config_utils:124 - 配置已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/config.json
+2024-11-26 12:03:29 [DEBUG] ohmycode.services.config_service:58 - 已加载现有配置
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:54 - 配置服务初始化成功
+2024-11-26 12:03:29 [DEBUG] ohmycode.core.tools.project_tools:61 - 更新间隔: 3600秒
+2024-11-26 12:03:29 [DEBUG] ohmycode.core.tools.project_tools:68 - 排除模式: {'directories': {'__pycache__', '__*', 'node_modules', 'dist', '.venv', '.*', '.git', 'build'}, 'files': {'*.pyd', '*.pyo', '.DS_Store', '*.pyc', '.env'}}
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:73 - 报告管理器初始化成功
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:81 - 启动项目监控...
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:86 - 开始新一轮项目分析: /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:104 - 监控线程已启动
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:108 - 开始新一轮项目分析...
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:114 - 已启用的工具: ['mypy', 'radon', 'ruff']
+2024-11-26 12:03:29 [DEBUG] ohmycode.core.tools.project_tools:117 - 分析项目结构...
+2024-11-26 12:03:29 [DEBUG] ohmycode.core.tools.project_tools:123 - 项目结构分析完成
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: mypy
+2024-11-26 12:03:29 [INFO] ohmycode.core.tools.mypy_tool:27 - 开始运行 Mypy 类型检查...
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.mypy_tool:18 - Mypy 已安装: mypy 1.13.0 (compiled: yes)
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.mypy_tool:35 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run mypy --show-error-codes --pretty --python-version 3.12 --ignore-missing-imports --check-untyped-defs --warn-unused-configs --follow-imports normal --show-column-numbers --show-error-context --incremental --cache-dir .mypy_cache --strict-optional --warn-redundant-casts --warn-unused-ignores --implicit-reexport --strict-equality --platform darwin src/
+2024-11-26 12:03:30 [INFO] ohmycode.core.tools.mypy_tool:41 - Mypy 类型检查完成: 未发现问题
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.project_tools:135 - mypy 分析完成
+2024-11-26 12:03:30 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: radon
+2024-11-26 12:03:30 [INFO] ohmycode.core.tools.radon_tool:42 - 开始运行 Radon 复杂度分析...
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.radon_tool:53 - 将执行的命令: ['cc', 'mi', 'raw']
+2024-11-26 12:03:30 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 cc 分析...
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 cc 命令参数
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'cc', '--cc-min', 'C', '--cc-max', 'F', '--show-complexity', '--average', '--total-average', '--json']
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon cc --cc-min C --cc-max F --show-complexity --average --total-average --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.radon_tool:61 - cc 分析完成
+2024-11-26 12:03:30 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 mi 分析...
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 mi 命令参数
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'mi', '--multi', '--json']
+2024-11-26 12:03:30 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon mi --multi --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.radon_tool:61 - mi 分析完成
+2024-11-26 12:03:33 [INFO] ohmycode.core.tools.radon_tool:57 - 运行 raw 分析...
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.radon_tool:86 - 准备 raw 命令参数
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.radon_tool:116 - 生成的命令参数: ['radon', 'raw', '--json']
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.radon_tool:79 - 执行命令: radon raw --json /Users/throne/PycharmProjects/ohmycode
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.radon_tool:61 - raw 分析完成
+2024-11-26 12:03:33 [INFO] ohmycode.core.tools.radon_tool:66 - Radon 分析完成
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.project_tools:135 - radon 分析完成
+2024-11-26 12:03:33 [INFO] ohmycode.core.tools.project_tools:131 - 运行工具: ruff
+2024-11-26 12:03:33 [INFO] ohmycode.core.tools.ruff_tool:20 - 开始运行 Ruff 代码检查...
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.base:88 - 执行命令: ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.ruff_tool:28 - 执行命令: cd /Users/throne/PycharmProjects/ohmycode && rye run ruff check --fix --select E,F,UP,B,SIM,I --line-length 120 --respect-gitignore --output-format json --target-version py312 src/
+2024-11-26 12:03:33 [INFO] ohmycode.core.tools.ruff_tool:34 - Ruff 检查完成: 未发现问题
+2024-11-26 12:03:33 [DEBUG] ohmycode.core.tools.project_tools:135 - ruff 分析完成
+2024-11-26 12:03:33 [INFO] ohmycode.core.tools.project_tools:151 - 保存分析结果...
+2024-11-26 12:03:33 [INFO] ohmycode.utils.report_manager:77 - 分析结果已保存到: /Users/throne/PycharmProjects/ohmycode/.ohmycode/history/1732593813.md
+2024-11-26 12:03:33 [INFO] ohmycode.core.tools.project_tools:153 - 分析完成
+2024-11-26 12:03:33 [INFO] ohmycode.core.tools.project_tools:88 - 分析完成，等待 3600 秒后进行下一轮分析
