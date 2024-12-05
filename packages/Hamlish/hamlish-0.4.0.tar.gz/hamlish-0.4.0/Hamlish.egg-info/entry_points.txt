@@ -1,0 +1,3 @@
+[console_scripts]
+haml2hamlish = hamlish.converter:haml2hamlish
+hamlish_convert = hamlish.__main__:main
