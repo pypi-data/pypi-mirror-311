@@ -1,0 +1,3 @@
+[console_scripts]
+haml2hamlish = hamlish_jinja.converter:haml2hamlish
+hamlish_convert = hamlish_jinja.__main__:main
