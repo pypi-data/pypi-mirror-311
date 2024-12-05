@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: pypomes_scheduling
+Version: 0.3.9
+Summary: A collection of Python pomes, penyeach (scheduling module)
+Project-URL: Homepage, https://github.com/TheWiseCoder/PyPomes-Scheduling
+Project-URL: Bug Tracker, https://github.com/TheWiseCoder/PyPomes-Scheduling/issues
+Author-email: GT Nunes <wisecoder01@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: apscheduler>=3.11.0
+Requires-Dist: pypomes-core>=1.6.4
