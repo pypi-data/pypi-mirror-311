@@ -1,0 +1,12 @@
+hyper_surrogate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hyper_surrogate/deformation_gradient.py,sha256=RWds3yOL3KSnFv2nX4zS3k6HMQyTtJIKI6L_OnInDQE,9566
+hyper_surrogate/generator.py,sha256=mN4hedgDAQsI45JfyOgVwfod3uIjdB4NmbN_e7PIuY0,4505
+hyper_surrogate/kinematics.py,sha256=T3qEwrHWSOkNNrityEFrPubNDJDqXlBdd2acNcLuPeQ,5239
+hyper_surrogate/materials.py,sha256=kAMYgBnQYFTxKbb1noTSKMpJw59zG-Mj6Qet0HehdK8,4256
+hyper_surrogate/reporter.py,sha256=UWiHNA1NGYbr10dPlWtHI2Yv8ckiaYYRBDBimYsxJ8Q,4222
+hyper_surrogate/symbolic.py,sha256=TrSaA0C9RnnFRYy9QR1JabsRLAnWhsUMtG7Q5gAFtFM,13035
+hyper_surrogate/umat_handler.py,sha256=TdBAcM2eAfMNxqNTF-7hrkC0cyL6LSFIqX4tdoP9IHo,8647
+hyper_surrogate-0.0.0a8.dist-info/LICENSE,sha256=PYkyKHwrjTiF6-eE2YeOqz_DPj8W7FCv4OXW7BMdBbc,1071
+hyper_surrogate-0.0.0a8.dist-info/METADATA,sha256=fGU0ExM7te7FXJSwKzfc-p1NUin7euMAsgt6KdYtqR4,1979
+hyper_surrogate-0.0.0a8.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+hyper_surrogate-0.0.0a8.dist-info/RECORD,,
