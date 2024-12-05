@@ -1,0 +1,13 @@
+[package]
+name = "linter"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+diagnostic.workspace = true
+parser.workspace = true
+schemars.workspace = true
+serde.workspace = true
+syntax.workspace = true
