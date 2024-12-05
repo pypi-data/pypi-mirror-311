@@ -1,0 +1,4 @@
+edge-tts>=6.1.18
+funmaterial>=1.0.3
+moviepy>=2.0.0
+openai>=1.54.5
