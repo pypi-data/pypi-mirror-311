@@ -1,0 +1,10 @@
+cypack/__init__.py,sha256=qDmc6n6mo12ZuDB-1BhPoRL0BVDfdL8H803SvmZOc7E,857
+cypack/build.py,sha256=Irg6Xv7dyoWP4N9TQcpzg4aJAj8O8DBdJWfidChJVcM,8847
+cypack/init.py,sha256=e41D3OJzHbnk2IOwuC_KjWRp9ax1fRlh-_tAmr2_F_c,2507
+cypack/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cypack-0.0.2.dev5.dist-info/METADATA,sha256=9s8yI1o7M2ScSO8T4u1qE7srH9DTU-cqiUsjpdqp2dk,1248
+cypack-0.0.2.dev5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cypack-0.0.2.dev5.dist-info/entry_points.txt,sha256=wcLPYkjN2jZrkqijIljsmO9iXvWlJPv1IKYPuX4E4WM,50
+cypack-0.0.2.dev5.dist-info/pbr.json,sha256=qMc_gRQwOI6UUKEKWCgajRyc82lr39vQ6IoUGm8k1S4,47
+cypack-0.0.2.dev5.dist-info/top_level.txt,sha256=XGzYuhyS8q26QR2GkSDr2CfACNTvWNgN8Mbfk1KPxYM,7
+cypack-0.0.2.dev5.dist-info/RECORD,,
