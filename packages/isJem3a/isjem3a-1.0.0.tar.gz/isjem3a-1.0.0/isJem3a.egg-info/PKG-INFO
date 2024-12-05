@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: isJem3a
+Version: 1.0.0
+Summary: A package to check if tomorrow is Friday
+Home-page: https://github.com/bounyan/isJem3a
+Author: chkoupey
+Author-email: bounemeryannis@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# isJem3a
+
+A package to check if tomorrow is Friday.
+
+## Installation
+
+```bash
+pip install isJem3a

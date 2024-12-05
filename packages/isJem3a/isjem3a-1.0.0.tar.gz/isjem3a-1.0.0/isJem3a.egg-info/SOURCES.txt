@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+isJem3a/__init__.py
+isJem3a/check.py
+isJem3a.egg-info/PKG-INFO
+isJem3a.egg-info/SOURCES.txt
+isJem3a.egg-info/dependency_links.txt
+isJem3a.egg-info/entry_points.txt
+isJem3a.egg-info/top_level.txt
