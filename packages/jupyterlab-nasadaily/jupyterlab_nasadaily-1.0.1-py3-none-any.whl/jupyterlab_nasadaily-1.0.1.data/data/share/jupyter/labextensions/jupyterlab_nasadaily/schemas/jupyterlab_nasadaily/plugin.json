@@ -1,0 +1,46 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "NASA Daily",
+  "description": "Settings for NASA Daily Image",
+  "jupyter.lab.setting-icon": "jupyterlab_nasadaily:rocket-icon",
+  "properties": {
+    "api_key": {
+      "type": "string",
+      "title": "NASA Daily Image API Key",
+      "description": "Your API key for NASA data access.",
+      "default": "DEMO_KEY"
+    },
+    "min_date": {
+      "type": "string",
+      "title": "Minimum Date",
+      "description": "The minimum date of daily image to fetch from NASA archive",
+      "default": "1995-07-01"
+    },
+    "use_openai": {
+      "type": "boolean",
+      "title": "Use OpenAI Language Model",
+      "description": "Enable OpenAI LLM for image description elaboration.",
+      "default": true
+    },
+    "openai_key": {
+      "type": "string",
+      "title": "OpenAI API Key",
+      "description": "Your API key for OpenAI data access.",
+      "default": "None"
+    },
+    "openai_model": {
+      "type": "string",
+      "title": "OpenAI LLM Model",
+      "description": "The model to use for OpenAI text generation.",
+      "default": "gpt-4o"
+    },
+    "prompt": {
+      "type": "string",
+      "title": "LLM Prompt",
+      "description": "Ask the LLM to translate or explain more about the image's information.",
+      "default": "This is the description of an image from NASA's Astronomy Picture of the Day. Elaborate more on relevant scientific discoveries, theories, narratives, or anecdotes behind the image and its description. Explain any technical or professional terms and names in simple language for better understanding. Generate an HTML snippet using only the simplest formatting elements, such as <b> for bold, <i> for italics, <p> for paragraphs, and <br> for line breaks. Avoid including any styles, colors, fonts, or size adjustments. Keep the structure clean and minimal."
+    }
+  },
+  "additionalProperties": false,
+  "type": "object"
+}
