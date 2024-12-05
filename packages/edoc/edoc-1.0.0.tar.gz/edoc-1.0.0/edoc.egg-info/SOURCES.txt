@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+edoc/__init__.py
+edoc/main.py
+edoc.egg-info/PKG-INFO
+edoc.egg-info/SOURCES.txt
+edoc.egg-info/dependency_links.txt
+edoc.egg-info/top_level.txt
