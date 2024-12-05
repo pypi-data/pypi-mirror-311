@@ -1,0 +1,355 @@
+# Changelog
+
+## django-slugify-processor 1.9.x (unreleased)
+
+- _Add your latest changes from PRs here_
+
+## django-slugify-processor 1.8.0 (2024-11-26)
+
+_Maintenance only, no bug fixes or features_
+
+### Breaking changes
+
+- Django 4.2+ is the new minimum version. Support for django 3.2 is dropped (#397).
+
+  v1.7.x is the final Django 3.2 versions.
+
+  Django 3.2's extended support has ended April 1st, 2024 [^DJ3_2_deprecation].
+
+  [^DJ3_2_deprecation]: Django Project. Unsupported previous releases. https://www.djangoproject.com/download/#unsupported-versions.
+
+### Development
+
+- Support for Django 5.1 in CI, trove classifiers (#398)
+- Project and package management: poetry to uv (#402)
+
+  [uv] is the new package and project manager for the project, replacing Poetry.
+
+[uv]: https://github.com/astral-sh/uv
+
+## django-slugify-processor 1.7.0 (2024-08-17)
+
+### Upcoming deprecations
+
+- 1.7.x is the last branch supporting Django 3.2.
+
+  1.8+ will drop Django 3.2.
+
+### Documentation
+
+- Automatically linkify links that were previously only text.
+
+### Development
+
+- Aggressive automated lint fixes via `ruff` (#388)
+
+  via ruff v0.3.4, all automated lint fixes, including unsafe and previews were applied:
+
+  ```sh
+  ruff check --select ALL . --fix --unsafe-fixes --preview --show-fixes; ruff format .
+  ```
+
+  Branches were treated with:
+
+  ```sh
+  git rebase \
+      --strategy-option=theirs \
+      --exec 'poetry run ruff check --select ALL . --fix --unsafe-fixes --preview --show-fixes; poetry run ruff format .; git add src tests; git commit --amend --no-edit' \
+      origin/master
+  ```
+
+- poetry: 1.7.1 -> 1.8.2
+
+  See also: https://github.com/python-poetry/poetry/blob/1.8.2/CHANGELOG.md
+
+- ruff 0.2.2 -> 0.3.0 (#386)
+
+  Related formattings. Update CI to use `ruff check .` instead of `ruff .`.
+
+  See also: https://github.com/astral-sh/ruff/blob/v0.3.0/CHANGELOG.md
+
+- Strengthen linting (#385)
+
+  - Add flake8-commas (COM)
+
+    - https://docs.astral.sh/ruff/rules/#flake8-commas-com
+    - https://pypi.org/project/flake8-commas/
+
+  - Add flake8-builtins (A)
+
+    - https://docs.astral.sh/ruff/rules/#flake8-builtins-a
+    - https://pypi.org/project/flake8-builtins/
+
+  - Add flake8-errmsg (EM)
+
+    - https://docs.astral.sh/ruff/rules/#flake8-errmsg-em
+    - https://pypi.org/project/flake8-errmsg/
+
+## django-slugify-processor 1.6.0 (2023-12-09)
+
+_Maintenance only, no bug fixes or features_
+
+### Packaging
+
+- pyproject.toml: Add django 5.0 (#382)
+- pyproject.toml: Remove django 4.0 and 4.1 from pyproject (#382)
+
+### Development
+
+- Remove `django_slugify_processor.settings`, which was unused (#381).
+
+### CI
+
+- Move CodeQL from advanced configuration file to GitHub's default
+- ci: Add pydocstyle rule to ruff (#380)
+- ci(tests): Remove django 4.0 and 4.1 from testgrid (#382)
+- ci(tests): Add django 5.0 to testgrid (#382)
+- ci(tests): Only test latest python (#382)
+
+  As django 5.0 drops python 3.8 and 3.9, just use `3.x` to reduce the amount of jobs created in the test matrix (and keep the workflow itself simple).
+
+### Documentation
+
+- Add docstrings to functions, methods, classes, and packages (#380)
+
+## django-slugify-processor 1.5.0 (2023-11-18)
+
+_Maintenance only, no bug fixes or features_
+
+### Development
+
+- Poetry: 1.6.1 -> 1.7.0
+
+  See also: https://github.com/python-poetry/poetry/blob/1.7.0/CHANGELOG.md
+
+- Move formatting from `black` to [`ruff format`] (#379)
+
+  This retains the same formatting style of `black` while eliminating a
+  dev dependency by using our existing rust-based `ruff` linter.
+
+  [`ruff format`]: https://docs.astral.sh/ruff/formatter/
+
+- Packaging (poetry): Fix development dependencies
+
+  Per [Poetry's docs on managing dependencies] and `poetry check`, we had it wrong: Instead of using extras, we should create these:
+
+  ```toml
+  [tool.poetry.group.group-name.dependencies]
+  dev-dependency = "1.0.0"
+  ```
+
+  Which we now do.
+
+  [Poetry's docs on managing dependencies]: https://python-poetry.org/docs/master/managing-dependencies/
+
+- Packaging: Add Python 3.12 to trove classifiers
+- CI: Update action packages to fix warnings
+
+  - [dorny/paths-filter]: 2.7.0 -> 2.11.1
+  - [codecov/codecov-action]: 2 -> 3
+
+  [dorny/paths-filter]: https://github.com/dorny/paths-filter
+  [codecov/codecov-action]: https://github.com/codecov/codecov-action
+
+## django-slugify-processor 1.4.0post0 (2023-10-07)
+
+### Documentation
+
+- README updates so links point to new django version
+
+## django-slugify-processor 1.4.0 (2023-10-07)
+
+### What's new
+
+- Now [`mypy --strict`] compliant (#376)
+
+  [`mypy --strict`]: https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-strict
+
+### Packaging
+
+- Move pytest configuration to `pyproject.toml` (#375)
+
+### Breaking changes
+
+- Drop Python 3.7 (#374)
+- Drop Django 2.2, 3.0, 3.1
+
+  Django 3.2+ is now supported
+
+## django-slugify-processor 1.3.1 (2023-07-04)
+
+_Maintenance only, no bug fixes or features_
+
+### Internal improvements
+
+- Move formatting, import sorting, and linting to [ruff].
+
+  This rust-based checker has dramatically improved performance. Linting and
+  formatting can be done almost instantly.
+
+  This change replaces isort, flake8 and flake8 plugins.
+
+  Including additional formatting rules for ruff in #372.
+
+[ruff]: https://ruff.rs
+
+### Infrastructure
+
+- Bump python to 3.11
+- CI speedups (#365)
+
+  - Split out release to separate job so the PyPI Upload docker image isn't pulled on normal runs
+  - Clean up CodeQL
+
+- poetry: 1.1.x -> 1.5.0
+
+  See also:
+
+  - <https://github.com/python-poetry/poetry/releases/tag/1.5.0>
+  - <https://github.com/python-poetry/poetry/releases/tag/1.4.0>
+  - <https://github.com/python-poetry/poetry/releases/tag/1.3.0>
+  - <https://github.com/python-poetry/poetry/releases/tag/1.2.0>
+
+- Typings: Fix django-stubs settings module issue on CI (#372)
+
+### Packaging
+
+- Remove `.tmuxp-before-script.sh` (was used by `.tmuxp.yaml`'s `before_script`)
+- Merge `.coveragerc` into `pyproject.toml` (#366)
+- Remove `MANIFEST.in` (#366)
+
+  This is made obsolete via poetry's `include` inside of pyproject.toml.
+
+## django-slugify-processor 1.3.0 (2022-09-11)
+
+### Documentation
+
+- Render changelog in [`linkify_issues`] (#360, #355)
+- Fix Table of contents rendering with sphinx autodoc with [`sphinx_toctree_autodoc_fix`] (#355)
+
+[`linkify_issues`]: https://gp-libs.git-pull.com/linkify_issues/
+[`sphinx_toctree_autodoc_fix`]: https://gp-libs.git-pull.com/sphinx_toctree_autodoc_fix/
+
+### Development
+
+- Add [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) (#361)
+- Add [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) (#362)
+
+## django-slugify-processor 1.2.0 (2022-08-16)
+
+### Development
+
+Infrastructure updates for static type checking and doctest examples.
+
+- Move project layout to `src/`, va #364
+- Initial [doctests] support added, via #359
+
+  [doctests]: https://docs.python.org/3/library/doctest.html
+
+- Initial [mypy] validation, via #359
+
+  [mypy]: https://github.com/python/mypy
+
+- CI (tests, docs): Improve caching of python dependencies via `action/setup-python`'s v3/4's new
+  poetry caching, via #359
+
+- CI (docs): Skip if no `PUBLISH` condition triggered, via #359
+
+- CI: Remove `.pre-commit-config.yaml`, users should know enough to handle these things themselves.
+
+## django-slugify-processor 1.1.1 (2022-03-08)
+
+### Documentation
+
+- README URL fixes
+
+### Development
+
+- CI: Remove tox and tox-poetry-installer
+
+  This would break the poetry command when used inside the virtualenv.
+
+## django-slugify-processor 1.1.0 (2022-03-08)
+
+Mainly an update for the new repo URL: https://github.com/tony/django-slugify-processor
+
+### Documentation
+
+- Switch to `furo` theme
+
+### Development
+
+- Run pyupdate @ 3.7
+- New repo URL: https://github.com/tony/django-slugify-processor
+
+## django-slugify-processor 1.0.0 (2022-01-08)
+
+### Compatibility
+
+- Python 3.6 support dropped (#350)
+- Python 3.10 support added (#350)
+- Django 4.0 support
+- Include tests/ in packages
+
+### Development
+
+- Poetry: Update poetry to 1.1
+  - CI: Use poetry 1.1.12 and `install-poetry.py` installer (#333 + #350)
+  - Relock poetry.lock at 1.1 (w/ 1.1.7's fix)
+- Add `.pre-commit-config.yaml` (#350)
+- Remove unused `requirements.txt`-related files
+- `.tool-versions`, `.python-version`
+
+  In an effort to work across multiple versions with `pyenv` and `asdf` with `asdf-python`, set
+  multiple of the latest patched releases for python if they're supported.
+
+- `tox` reorganization (#352)
+  - Add `tox` as a test dependency
+  - Add [enpaul/tox-poetry-installer](https://github.com/enpaul/tox-poetry-installer) to work with
+    our project dependencies
+  - Update tox.ini to use django's new `main` branch, python 3.8 minimum for django's main branch
+
+## django-slugify-processor 0.11.0 (2021-06-16)
+
+- #329: Move to markdown
+
+## django-slugify-processor 0.10.0 (2021-06-16)
+
+- Drop python 2.7, 3.5 and unsupported django versions
+- Remove unneeded `utf-8` versions
+
+## django-slugify-processor 0.9.0 (2020-08-08)
+
+- Move doc URL from to git-pull.com
+- Move travis -> gh actions
+- Move pipenv -> poetry
+- Move RTD -> self-hosted docs
+- Relax package constraints
+- Add package constraints for cases where python version / django effects things
+
+## django-slugify-processor 0.8.4 (2017-12-03)
+
+- Get docs online
+- Clean up API docs in code
+
+## django-slugify-processor 0.8.3 (2017-12-02)
+
+- Add test_app, and tests for django-extensions and django-autoslug
+
+## django-slugify-processor 0.8.2 (2017-12-02)
+
+- Try to tweak README / fix on PyPI
+
+## django-slugify-processor 0.8.1 (2017-12-01)
+
+- README updates
+- Support for overriding builtin slugify in templates
+- Move template filter to _templatetags/slugify_processor.py_
+
+## django-slugify-processor 0.8.0 (2017-11-26)
+
+- Initial commit
+
+<!---
+# vim: set filetype=markdown:
+-->
