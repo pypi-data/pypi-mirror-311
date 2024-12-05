@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: timetreeapi
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: autopep8>=2.3.1
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pylint>=3.3.1
+Requires-Dist: requests>=2.32.3
+Requires-Dist: tool>=0.8.0
+
+# TimeTree API Integration
+
+This project provides Python functions to interact with the TimeTree API. TimeTree is an online database of species divergence times based on molecular data. The project includes functions to retrieve pairwise divergence data, species-specific data, and timelines for evolutionary history.
+
+## Features
+
+- **Get Pairwise Divergence**: Fetches divergence data between two species using their NCBI taxon IDs.
+- **Get Species Data**: Retrieves species-specific information based on the species name.
+- **Get Timeline Data**: Fetches a timeline of evolutionary events for a given species ID.
+
+## Requirements
+
+- `requests` library
+- `pandas` library
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   pip install timetreeapi
