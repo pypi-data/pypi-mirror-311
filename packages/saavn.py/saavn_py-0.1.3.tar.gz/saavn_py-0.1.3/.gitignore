@@ -1,0 +1,10 @@
+venv
+.gitignore
+main.py
+test.json
+*.pyc
+dist
+*egg*
+*pysrc
+.pypirc
+x
