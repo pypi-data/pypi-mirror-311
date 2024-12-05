@@ -1,0 +1,15 @@
+.gitignore
+LICENSE.md
+README.md
+logo.svg
+pyproject.toml
+MatFold/__init__.py
+MatFold/_version.py
+MatFold/main.py
+MatFold/test.py
+MatFold/utils.py
+MatFold.egg-info/PKG-INFO
+MatFold.egg-info/SOURCES.txt
+MatFold.egg-info/dependency_links.txt
+MatFold.egg-info/requires.txt
+MatFold.egg-info/top_level.txt
