@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/__init__.py
+tests/test_udecimal.py
+udecimal/__init__.py
+udecimal/udecimal.py
+udecimal.egg-info/PKG-INFO
+udecimal.egg-info/SOURCES.txt
+udecimal.egg-info/dependency_links.txt
+udecimal.egg-info/requires.txt
+udecimal.egg-info/top_level.txt

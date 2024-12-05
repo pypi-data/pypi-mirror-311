@@ -1,0 +1,4 @@
+mpmath>=1.2.1
+
+[dev]
+pytest>=6.0
