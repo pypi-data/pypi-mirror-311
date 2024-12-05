@@ -1,0 +1,9 @@
+include remdex/**/*.so
+include remdex/**/*.c
+
+include remdex/*.so
+include remdex/*.c
+
+
+exclude remdex/**/*.pyx
+exclude remdex/*.pyx
