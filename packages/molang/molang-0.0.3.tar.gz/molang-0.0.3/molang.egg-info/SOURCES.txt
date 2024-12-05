@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+molang/__init__.py
+molang/__main__.py
+molang/cli.py
+molang/py.typed
+molang.egg-info/PKG-INFO
+molang.egg-info/SOURCES.txt
+molang.egg-info/dependency_links.txt
+molang.egg-info/entry_points.txt
+molang.egg-info/not-zip-safe
+molang.egg-info/requires.txt
+molang.egg-info/top_level.txt
