@@ -1,0 +1,2 @@
+[console_scripts]
+grami = grami.cli:main
