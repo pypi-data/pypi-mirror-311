@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mindsight-auth-api"
+version = "0.0.2"
+description = "This library have methods to use mindsight auth api in your python project."
+authors = ["stone_people_analytics <systems-techpeople@stone.com.br>"]
+maintainers = [
+    "diogo56 <diogo.amorim2001@gmail.com>",
+    "guilherme_lsilva <manager.guilherme.silva@gmail.com>",
+    "root-who <joaopaulo_gonzaga@outlook.com>",
+]
+license = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/people-analytics-tech/mindsight-auth-api"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-decouple = "^3.8"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

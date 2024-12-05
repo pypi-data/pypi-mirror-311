@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mindsight-auth-api
+Version: 0.0.2
+Summary: This library have methods to use mindsight auth api in your python project.
+Home-page: https://github.com/people-analytics-tech/mindsight-auth-api
+License: LICENSE
+Author: stone_people_analytics
+Author-email: systems-techpeople@stone.com.br
+Maintainer: diogo56
+Maintainer-email: diogo.amorim2001@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: python-decouple (>=3.8,<4.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/people-analytics-tech/mindsight-auth-api
+Description-Content-Type: text/markdown
+
+# mindsight-auth-api
+[![PyPI Latest Release](https://img.shields.io/pypi/v/mindsight-auth-api.svg)](https://pypi.org/project/mindsight-auth-api/)
+
+Use mindsight auth functionalities in your python application.
+## Instalation
+```sh
+pip install mindsight-auth-api
+```
+
+# Configuration
+## Environment variables
+To use mindsight-auth-api, you need to set two environment variables:
+```dotenv
+# ---DOTENV EXAMPLE---
+
+MINDSIGHT_AUTH_API_TOKEN= # Token to authenticate
+MINDSIGHT_AUTH_API_COMPANY=your-company
+MINDSIGHT_AUTH_API_SERVER=your.server # Example auth.mindsight.com.br
+MINDSIGHT_AUTH_API_VERSION=v1 # Default value is 'v1'
+```
+# Usage Example
+You can use mindsight-auth-api in order to create, update and delete records.
+
+## List registers
+You can use get methods to list registers of system table. See the following example:
+```python
+# Using this library to retrieve all users records
+import os
+os.environ["MINDSIGHT_AUTH_API_TOKEN"] = "token"
+os.environ["MINDSIGHT_AUTH_API_COMPANY"] = "your_company"
+os.environ["MINDSIGHT_AUTH_API_SERVER"] = "your.server"
+os.environ["MINDSIGHT_AUTH_API_VERSION"] = "v1"             # Default value "v1"
+
+from mindsight_auth_api import MindsightAuthApi
+
+
+users = MindsightAuthApi.users()
+
+data = users.get_list_users().get_all().results
+```
