@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+udyndns/__init__.py
+udyndns/__main__.py
+udyndns/version.py
+udyndns.egg-info/PKG-INFO
+udyndns.egg-info/SOURCES.txt
+udyndns.egg-info/dependency_links.txt
+udyndns.egg-info/requires.txt
+udyndns.egg-info/top_level.txt

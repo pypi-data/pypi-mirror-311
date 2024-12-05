@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: udyndns
+Version: 0.0.1
+Summary: A very simple OVH dyndns client to workaround difficulties with Ubiquity unadyn...
+Home-page: https://github.com/KurisuD/udyndns
+Author: KurisuD
+Author-email: KurisuD@pypi.darnand.net
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: Public Domain
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet :: Name Service (DNS)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiounifi
+Requires-Dist: pap_logger
