@@ -1,0 +1,10 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/examples_manychrome.py,sha256=wv3DwDvmxjcJ1f1dOVScKPR4dAWQFDY2rx2nZLTnf-4,120
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_manychrome.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manychrome-0.0.1.dist-info/LICENSE,sha256=geRRHX5nseKptYKXHvS4xR2kLWqlnruB1pB1IZocZxs,1069
+manychrome-0.0.1.dist-info/METADATA,sha256=1YVksEN1AsQY4JMoX1Wpr3_oB2kT0N13aRi6mTwBAQk,2831
+manychrome-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+manychrome-0.0.1.dist-info/entry_points.txt,sha256=q07uKXJlOTnrAzntBKtDOmUkSa68VCknvX_qL7wSJbI,69
+manychrome-0.0.1.dist-info/top_level.txt,sha256=0M_q4z1rcVnxMaWpKYLpD8k_V871rRuE8__boDbZHKI,15
+manychrome-0.0.1.dist-info/RECORD,,

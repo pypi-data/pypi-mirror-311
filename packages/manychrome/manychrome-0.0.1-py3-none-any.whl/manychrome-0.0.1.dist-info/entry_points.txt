@@ -1,0 +1,2 @@
+[console_scripts]
+manychrome_examples = manychrome.examples:function
