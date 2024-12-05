@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: share-df
+Version: 0.1.1
+Summary: Share and Edit Pandas Dataframes with a Link!
+Author: Rohan Adwankar
+Author-email: rohan.adwankar@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: bcrypt (>=4.2.1,<5.0.0)
+Requires-Dist: fastapi (>=0.115.5,<0.116.0)
+Requires-Dist: ngrok (>=1.4.0,<2.0.0)
+Requires-Dist: passlib (>=1.7.4,<2.0.0)
+Requires-Dist: pytest (>=8.3.3,<9.0.0)
+Requires-Dist: uvicorn (>=0.32.1,<0.33.0)
+Description-Content-Type: text/markdown
+
+# Functionality
+## On the Dev Side
+- pip install
+- one command to generate link to send ✅ 
+- changes made by client are recieved back ✅
+## On the Client Side
+- OAuth for easy google based login ✅ 
+- Seamless UI to modify the dataframe ✅
+- Send the results back with the click of a button ✅  
+## Future Functionality
+- True Asynchronicity with ipyparallel
+- Code Recreation (instead of overwriting the df just solve the code needed)
+
+# Examples
+```
+    df = pd.DataFrame({
+        'Name': ['John', 'Alice', 'Bob', 'Carol'],
+        'Age': [25, 30, 35, 28],
+        'City': ['New York', 'London', 'Paris', 'Tokyo'],
+        'Salary': [50000, 60000, 75000, 65000]
+    })
+    df2 = pandaBear(df)
+    print(df2)
+```
+```
+    df3 = pd.DataFrame({
+        'Name': ['Joe', 'Roger', 'Exponent', 'Yay!'],
+        'Age': [25, 30, 35, 28],
+        'City': ['New York', 'London', 'Paris', 'Tokyo'],
+        'Salary': [50000, 60000, 75000, 65000]
+    })
+    df3.pandaBear()
+    print(df3)
+```
