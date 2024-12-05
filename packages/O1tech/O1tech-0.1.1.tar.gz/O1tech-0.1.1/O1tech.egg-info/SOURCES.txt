@@ -1,0 +1,11 @@
+README.md
+setup.py
+O1tech/__init__.py
+O1tech/db_connectors.py
+O1tech/google_docs.py
+O1tech/helpers.py
+O1tech.egg-info/PKG-INFO
+O1tech.egg-info/SOURCES.txt
+O1tech.egg-info/dependency_links.txt
+O1tech.egg-info/requires.txt
+O1tech.egg-info/top_level.txt
