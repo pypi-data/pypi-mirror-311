@@ -1,0 +1,15 @@
+azauthlib/__init__.py,sha256=gFXPj9Hldgn7Oe64gd_EJRnItA1auJgkGhG5AF50bzs,534
+azauthlib/_configure.py,sha256=QV3mG-X6HFBhMWXrTzqU6OI-bLa-IJuHxS3e2LvvgXc,8518
+azauthlib/_def.py,sha256=92Zts4geFZDCpXhNViaip6bOa9CENzcsbA4Ld-pLFQU,112
+azauthlib/appdata.py,sha256=Fw-wwbhcw6IUs6KSqJ3uz8VdoPil-ig_41WWfsGWXo0,12589
+azauthlib/authentication.py,sha256=xXvOVmbXb2cPpnP9zbZ0_2g0sV4_NzsGDDxw_mDBe6Y,26654
+azauthlib/config_app.py,sha256=Z1Mwl911RzkFKPBId_HLDCWSLbg-4WI45ok6lgdC4yM,11713
+azauthlib/gui_utils.py,sha256=4Vk3U-RvWzqbMxCeARkv__O8jKQjvmpKtfpAozz72nM,1333
+azauthlib/permissions.py,sha256=Ey_nM3AIa8KtqvXmXESbx94QXAe_H5qvpOQnSvB4K4k,23334
+azauthlib/tokens.py,sha256=PHxOR1IA2tpul_td_g4Z4Zld3gKQj5pJCnxWROBFFIs,3737
+azauthlib/assets/gui_main.png,sha256=n5iFf4DsWkjChjFGqr48lTaCJW_UxNu7ROH2AcRpc7Y,17152
+azauthlib-1.0.1b1.dist-info/METADATA,sha256=bKbIRUKWq3582ohKwztBe5nn5mPoVvjyJZ_Ay6QjS8I,7097
+azauthlib-1.0.1b1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+azauthlib-1.0.1b1.dist-info/entry_points.txt,sha256=DeXqFuaFITJb9_T1gniCxzv1loRUKq2RwDKC9NiQJRk,60
+azauthlib-1.0.1b1.dist-info/top_level.txt,sha256=6JV38C3xuKNXqYi9eT7m6tbP3PutmHvURo2ZvTWjgOY,10
+azauthlib-1.0.1b1.dist-info/RECORD,,
