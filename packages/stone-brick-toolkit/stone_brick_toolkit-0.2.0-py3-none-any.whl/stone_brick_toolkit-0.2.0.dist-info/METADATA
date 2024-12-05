@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stone-brick-toolkit
+Version: 0.2.0
+Summary: Stone Brick is a toolkit providing some commonly used utilities.
+Author-Email: Yanli <mail@yanli.one>
+License: MIT
+Project-URL: Repository, https://github.com/BeautyyuYanli/Stone-Brick-Toolkit
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# stone-brick-toolkit
+
+Stone Brick is a toolkit providing some commonly used utilities.
