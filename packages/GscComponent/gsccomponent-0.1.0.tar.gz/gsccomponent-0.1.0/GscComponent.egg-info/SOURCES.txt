@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+GscComponent.egg-info/PKG-INFO
+GscComponent.egg-info/SOURCES.txt
+GscComponent.egg-info/dependency_links.txt
+GscComponent.egg-info/top_level.txt
+component/__init__.py
+tests/__init__.py
