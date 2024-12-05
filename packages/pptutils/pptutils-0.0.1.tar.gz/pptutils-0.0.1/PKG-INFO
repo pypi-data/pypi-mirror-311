@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: pptutils
+Version: 0.0.1
+Summary: Ppt utilities.
+Author-email: Valentin Calomme <dev@valentincalomme.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# pptutils
+
+Utilities to manipulate and analyze PowerPoint presentations.
