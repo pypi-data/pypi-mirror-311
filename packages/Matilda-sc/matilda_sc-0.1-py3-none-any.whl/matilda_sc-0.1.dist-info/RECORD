@@ -1,0 +1,15 @@
+matilda/__init__.py,sha256=4IEhUXLCiEm-ekQEbSVAfou0302YGjuJPS7VoD-Taak,405
+matilda/main_matilda_rna_task.py,sha256=Z8zyFZPhU0vFZVOLw79eu6EbzKTWFGp5OPZ6r1uAzCo,16500
+matilda/main_matilda_rna_train.py,sha256=kh5OrIN7uSrjqR0339cJIuBJaSOdTi8CdwJGMx56uxc,9371
+matilda/main_matilda_task.py,sha256=rd8bsM2YxeqvPPw1Q9Gk_zSPsJ6wUAqPzxZT7kzRCHw,27094
+matilda/main_matilda_train.py,sha256=ElwHXYWGDsy2Vg3A6AX9x7I65Z-SBn02wxPdxNFOlkw,13488
+matilda/util.py,sha256=nrSwJDvCIe-gdM6SV61oYRasaquLj4pRkMkZZpd0uPg,9093
+matilda/learn/__init__.py,sha256=eUMOKvbJq_WldeHLyx46Gojww9tv2dZKCH0zCrEJf7w,97
+matilda/learn/model.py,sha256=cRiMmokiM6ALiFk9dE4NKelg_jHajYCLnURI391aIqg,7650
+matilda/learn/model_rna.py,sha256=p2Wt0Zc5W0ltG0-tVHJMp9YL6OKPD9tc9Sp4qKV6Hm0,2656
+matilda/learn/predict.py,sha256=e0UWGCI2qz45sWL1cVAuY4anzAd9JOige3iBuN5ETS8,2605
+matilda/learn/train.py,sha256=BsZLoHOHTUJ_AgOtN2lObwD30s7LXDzF_vskHQcUaWw,5114
+matilda_sc-0.1.dist-info/METADATA,sha256=ZytQOt1pzxRb2g73npxzxc9otrDDxdHNavAZqfJXaD0,19921
+matilda_sc-0.1.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+matilda_sc-0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+matilda_sc-0.1.dist-info/RECORD,,
