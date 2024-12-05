@@ -1,0 +1,151 @@
+syntax = "proto3";
+
+import "SiLAFramework.proto";
+
+package sila2.org.silastandard.examples.ufcontroller.v1;
+
+/* This controller is intended to be a SiLA2 compliant controller for Ufactory robot arms. */
+service UFController {
+  /* Open the gripper as far as possible. */
+  rpc OpenGripper (sila2.org.silastandard.examples.ufcontroller.v1.OpenGripper_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.OpenGripper_Responses) {}
+  /* Close the gripper until it encounters a counter force. */
+  rpc CloseGripper (sila2.org.silastandard.examples.ufcontroller.v1.CloseGripper_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.CloseGripper_Responses) {}
+  /* Initialize the robotic arm and set it in a ready state. */
+  rpc InitializeArm (sila2.org.silastandard.examples.ufcontroller.v1.InitializeArm_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.InitializeArm_Responses) {}
+  /* Safely shut down and disconnect the robotic arm. */
+  rpc CloseArm (sila2.org.silastandard.examples.ufcontroller.v1.CloseArm_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.CloseArm_Responses) {}
+  /* Resets the arm by closing and reopening the connection. */
+  rpc ResetArm (sila2.org.silastandard.examples.ufcontroller.v1.ResetArm_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.ResetArm_Responses) {}
+  /* Switches the robotic arm to manual control mode. */
+  rpc SetManualMode (sila2.org.silastandard.examples.ufcontroller.v1.SetManualMode_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.SetManualMode_Responses) {}
+  /* Move the robot arm to a new position */
+  rpc MoveJoints (sila2.org.silastandard.examples.ufcontroller.v1.MoveJoints_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.MoveJoints_Responses) {}
+  /* Add the current position to the list of stored positions. Will return the number. */
+  rpc StorePosition (sila2.org.silastandard.examples.ufcontroller.v1.StorePosition_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.StorePosition_Responses) {}
+  /* Move the robot arm to a previously stored position */
+  rpc MoveToStoredPosition (sila2.org.silastandard.examples.ufcontroller.v1.MoveToStoredPosition_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.MoveToStoredPosition_Responses) {}
+  /* Return the joint positions to the client. */
+  rpc Subscribe_JointAngles (sila2.org.silastandard.examples.ufcontroller.v1.Subscribe_JointAngles_Parameters) returns (stream sila2.org.silastandard.examples.ufcontroller.v1.Subscribe_JointAngles_Responses) {}
+  /* Returns the current gripper position. */
+  rpc Subscribe_GripperPosition (sila2.org.silastandard.examples.ufcontroller.v1.Subscribe_GripperPosition_Parameters) returns (stream sila2.org.silastandard.examples.ufcontroller.v1.Subscribe_GripperPosition_Responses) {}
+  /* The IP Address of the connected robotic arm. */
+  rpc Get_ArmIPAddress (sila2.org.silastandard.examples.ufcontroller.v1.Get_ArmIPAddress_Parameters) returns (sila2.org.silastandard.examples.ufcontroller.v1.Get_ArmIPAddress_Responses) {}
+  /* Returns the velocities of each joint in real-time. */
+  rpc Subscribe_JointVelocities (sila2.org.silastandard.examples.ufcontroller.v1.Subscribe_JointVelocities_Parameters) returns (stream sila2.org.silastandard.examples.ufcontroller.v1.Subscribe_JointVelocities_Responses) {}
+}
+
+/* Parameters for OpenGripper */
+message OpenGripper_Parameters {
+}
+
+/* Responses of OpenGripper */
+message OpenGripper_Responses {
+}
+
+/* Parameters for CloseGripper */
+message CloseGripper_Parameters {
+}
+
+/* Responses of CloseGripper */
+message CloseGripper_Responses {
+}
+
+/* Parameters for InitializeArm */
+message InitializeArm_Parameters {
+}
+
+/* Responses of InitializeArm */
+message InitializeArm_Responses {
+  sila2.org.silastandard.Boolean Success = 1;  /* Indicates whether the initialization was successful. */
+}
+
+/* Parameters for CloseArm */
+message CloseArm_Parameters {
+}
+
+/* Responses of CloseArm */
+message CloseArm_Responses {
+  sila2.org.silastandard.Boolean Success = 1;  /* Indicates whether the shutdown was successful. */
+}
+
+/* Parameters for ResetArm */
+message ResetArm_Parameters {
+}
+
+/* Responses of ResetArm */
+message ResetArm_Responses {
+  sila2.org.silastandard.Boolean Success = 1;  /* Indicates whether the reset was successful. */
+}
+
+/* Parameters for SetManualMode */
+message SetManualMode_Parameters {
+}
+
+/* Responses of SetManualMode */
+message SetManualMode_Responses {
+  sila2.org.silastandard.Boolean Success = 1;  /* Indicates whether the arm was successfully switched to manual mode. */
+}
+
+/* Parameters for MoveJoints */
+message MoveJoints_Parameters {
+  repeated sila2.org.silastandard.Real JointAngles = 1;  /* The list of joint angles with their names and new positions. */
+}
+
+/* Responses of MoveJoints */
+message MoveJoints_Responses {
+  repeated sila2.org.silastandard.Real MoveJointsResponses = 1;  /* Response indicating the success of the move and the current joint angles. */
+}
+
+/* Parameters for StorePosition */
+message StorePosition_Parameters {
+}
+
+/* Responses of StorePosition */
+message StorePosition_Responses {
+  sila2.org.silastandard.Integer PositionIdentifier = 1;  /* The position in the list of stored poses */
+}
+
+/* Parameters for MoveToStoredPosition */
+message MoveToStoredPosition_Parameters {
+  sila2.org.silastandard.Integer PositionIdentifier = 1;  /* The position in the list of stored poses as previously returned by store position */
+}
+
+/* Responses of MoveToStoredPosition */
+message MoveToStoredPosition_Responses {
+}
+
+/* Parameters for JointAngles */
+message Subscribe_JointAngles_Parameters {
+}
+
+/* Responses of JointAngles */
+message Subscribe_JointAngles_Responses {
+  repeated sila2.org.silastandard.Real JointAngles = 1;  /* Return the joint positions to the client. */
+}
+
+/* Parameters for GripperPosition */
+message Subscribe_GripperPosition_Parameters {
+}
+
+/* Responses of GripperPosition */
+message Subscribe_GripperPosition_Responses {
+  sila2.org.silastandard.Real GripperPosition = 1;  /* Returns the current gripper position. */
+}
+
+/* Parameters for ArmIPAddress */
+message Get_ArmIPAddress_Parameters {
+}
+
+/* Responses of ArmIPAddress */
+message Get_ArmIPAddress_Responses {
+  sila2.org.silastandard.String ArmIPAddress = 1;  /* The IP Address of the connected robotic arm. */
+}
+
+/* Parameters for JointVelocities */
+message Subscribe_JointVelocities_Parameters {
+}
+
+/* Responses of JointVelocities */
+message Subscribe_JointVelocities_Responses {
+  repeated sila2.org.silastandard.Real JointVelocities = 1;  /* Returns the velocities of each joint in real-time. */
+}

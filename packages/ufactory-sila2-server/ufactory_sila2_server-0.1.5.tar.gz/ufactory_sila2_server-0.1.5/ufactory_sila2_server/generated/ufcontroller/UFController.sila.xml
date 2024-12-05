@@ -1,0 +1,186 @@
+<Feature xmlns="http://www.sila-standard.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Category="examples" FeatureVersion="1.0" MaturityLevel="Verified" Originator="org.silastandard" SiLA2Version="1.0" xsi:schemaLocation="http://www.sila-standard.org https://gitlab.com/SiLA2/sila_base/raw/master/schema/FeatureDefinition.xsd">
+  <Identifier>UFController</Identifier>
+  <DisplayName>Ufactory Lite 6 Controller</DisplayName>
+  <Description>This controller is intended to be a SiLA2 compliant controller for Ufactory robot arms.</Description>
+  <!-- Existing Properties -->
+  <Property>
+    <Identifier>JointAngles</Identifier>
+    <DisplayName>Current Joint Angles</DisplayName>
+    <Description>Return the joint positions to the client.</Description>
+    <Observable>Yes</Observable>
+    <DataType>
+      <List>
+        <DataType>
+          <Basic>Real</Basic>
+        </DataType>
+      </List>
+    </DataType>
+  </Property>
+  <Property>
+    <Identifier>GripperPosition</Identifier>
+    <DisplayName>Gripper Position</DisplayName>
+    <Description>Returns the current gripper position.</Description>
+    <Observable>Yes</Observable>
+    <DataType>
+      <Basic>Real</Basic>
+    </DataType>
+  </Property>
+  <!-- New Property for IP Address -->
+  <Property>
+    <Identifier>ArmIPAddress</Identifier>
+    <DisplayName>Robotic Arm IP Address</DisplayName>
+    <Description>The IP Address of the connected robotic arm.</Description>
+    <Observable>No</Observable>
+    <DataType>
+      <Basic>String</Basic>
+    </DataType>
+  </Property>
+  <!-- Existing Commands -->
+  <Command>
+    <Identifier>OpenGripper</Identifier>
+    <DisplayName>Open the gripper</DisplayName>
+    <Description>Open the gripper as far as possible.</Description>
+    <Observable>No</Observable>
+  </Command>
+  <Command>
+    <Identifier>CloseGripper</Identifier>
+    <DisplayName>Close the gripper</DisplayName>
+    <Description>Close the gripper until it encounters a counter force.</Description>
+    <Observable>No</Observable>
+  </Command>
+  <!-- New Initialization Command -->
+  <Command>
+    <Identifier>InitializeArm</Identifier>
+    <DisplayName>Initialize the Arm</DisplayName>
+    <Description>Initialize the robotic arm and set it in a ready state.</Description>
+    <Observable>No</Observable>
+    <Response>
+      <Identifier>Success</Identifier>
+      <DisplayName>Initialization Success</DisplayName>
+      <Description>Indicates whether the initialization was successful.</Description>
+      <DataType>
+        <Basic>Boolean</Basic>
+      </DataType>
+    </Response>
+  </Command>
+  <!-- New Close Command -->
+  <Command>
+    <Identifier>CloseArm</Identifier>
+    <DisplayName>Close the Arm</DisplayName>
+    <Description>Safely shut down and disconnect the robotic arm.</Description>
+    <Observable>No</Observable>
+    <Response>
+      <Identifier>Success</Identifier>
+      <DisplayName>Close Success</DisplayName>
+      <Description>Indicates whether the shutdown was successful.</Description>
+      <DataType>
+        <Basic>Boolean</Basic>
+      </DataType>
+    </Response>
+  </Command>
+  <!-- New Reset Command -->
+  <Command>
+    <Identifier>ResetArm</Identifier>
+    <DisplayName>Reset the Arm</DisplayName>
+    <Description>Resets the arm by closing and reopening the connection.</Description>
+    <Observable>No</Observable>
+    <Response>
+      <Identifier>Success</Identifier>
+      <DisplayName>Reset Success</DisplayName>
+      <Description>Indicates whether the reset was successful.</Description>
+      <DataType>
+        <Basic>Boolean</Basic>
+      </DataType>
+    </Response>
+  </Command>
+  <!-- New Command for Manual Mode -->
+  <Command>
+    <Identifier>SetManualMode</Identifier>
+    <DisplayName>Switch to Manual Mode</DisplayName>
+    <Description>Switches the robotic arm to manual control mode.</Description>
+    <Observable>No</Observable>
+    <Response>
+      <Identifier>Success</Identifier>
+      <DisplayName>Manual Mode Success</DisplayName>
+      <Description>Indicates whether the arm was successfully switched to manual mode.</Description>
+      <DataType>
+        <Basic>Boolean</Basic>
+      </DataType>
+    </Response>
+  </Command>
+  <!-- Existing MoveJoints Command -->
+  <Command>
+    <Identifier>MoveJoints</Identifier>
+    <DisplayName>Move joints to new position</DisplayName>
+    <Description>Move the robot arm to a new position</Description>
+    <Observable>No</Observable>
+    <Parameter>
+      <Identifier>JointAngles</Identifier>
+      <DisplayName>Joint Angles</DisplayName>
+      <Description>The list of joint angles with their names and new positions.</Description>
+      <DataType>
+        <List>
+          <DataType>
+            <Basic>Real</Basic>
+          </DataType>
+        </List>
+      </DataType>
+    </Parameter>
+    <Response>
+      <Identifier>MoveJointsResponses</Identifier>
+      <DisplayName>Move Joints Response</DisplayName>
+      <Description>Response indicating the success of the move and the current joint angles.</Description>
+      <DataType>
+        <List>
+          <DataType>
+            <Basic>Real</Basic>
+          </DataType>
+        </List>
+      </DataType>
+    </Response>
+  </Command>
+  <!-- Existing StorePosition Command -->
+  <Command>
+    <Identifier>StorePosition</Identifier>
+    <DisplayName>Store this position</DisplayName>
+    <Description>Add the current position to the list of stored positions. Will return the number.</Description>
+    <Observable>No</Observable>
+    <Response>
+      <Identifier>PositionIdentifier</Identifier>
+      <DisplayName>Position identifier</DisplayName>
+      <Description>The position in the list of stored poses</Description>
+      <DataType>
+        <Basic>Integer</Basic>
+      </DataType>
+    </Response>
+  </Command>
+  <!-- Existing MoveToStoredPosition Command -->
+  <Command>
+    <Identifier>MoveToStoredPosition</Identifier>
+    <DisplayName>Move to stored position</DisplayName>
+    <Description>Move the robot arm to a previously stored position</Description>
+    <Observable>No</Observable>
+    <Parameter>
+      <Identifier>PositionIdentifier</Identifier>
+      <DisplayName>Position identifier</DisplayName>
+      <Description>The position in the list of stored poses as previously returned by store position</Description>
+      <DataType>
+        <Basic>Integer</Basic>
+      </DataType>
+    </Parameter>
+  </Command>
+  <!-- Periodic Variable Property for Monitoring Joint Velocities -->
+  <Property>
+    <Identifier>JointVelocities</Identifier>
+    <DisplayName>Current Joint Velocities</DisplayName>
+    <Description>Returns the velocities of each joint in real-time.</Description>
+    <Observable>Yes</Observable>
+    <DataType>
+      <List>
+        <DataType>
+          <Basic>Real</Basic>
+        </DataType>
+      </List>
+    </DataType>
+  </Property>
+</Feature>
