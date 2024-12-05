@@ -1,0 +1,16 @@
+linmult/__init__.py,sha256=_EM6br2RAtdBXE5uCH-Siml2poPE7V1ORggPd4Oxk7o,207
+linmult/models/LinMulT.py,sha256=6_3OvsDErNEPbto946ys6pmjaQ3MKZ-WKwDWne9F1ug,13567
+linmult/models/LinT.py,sha256=i2QPUJfeJJ9I3DuDnmCskjCBUgTlI6Q_DygJE5BwUcI,4537
+linmult/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linmult/models/attention.py,sha256=Hl1f79WSrIPJnM703IOi54SZzidGs-CAM3Q7P4dELUY,19369
+linmult/models/config_loader.py,sha256=pv__5yEc0_R0z5XbEoHm_g_dmcY_SjEU6N7DqxO7N4g,140
+linmult/models/positional_embedding.py,sha256=1e98AZFwS46VcrRvgWiRMXO-YPp3dLGpxsCI9ee-Q8w,1067
+linmult/models/transformer.py,sha256=sjJASqDCajMdnlKDESoLSIXCsu5RfxlBHk0mVsvkkZU,17181
+linmult/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linmult/test/test_architecture.py,sha256=NE3thLAJfZh-8oG51PTUUwFnOs37LQ8NYMad5HzICAk,6300
+linmult/test/test_attention.py,sha256=4l-MOzX4pw15wubnjC5RWOuzAeGfDBtcGSRTjXTHxr8,7809
+linmult/test/test_inputs.py,sha256=mQQP3XCMV3TPFhJ4mt2F_1eQ8L-xx6JT7n4tFEfMFEE,8123
+linmult-1.4.0.dist-info/METADATA,sha256=H3l8eMQQZ1Ubq3ngR16-YR6KPNTqQJfNJUTHleJjgSY,4297
+linmult-1.4.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+linmult-1.4.0.dist-info/licenses/LICENSE,sha256=qUPdIyOZ9OC2tFVsA6qm5rxnYven6W7bZmlAS04k7KY,1063
+linmult-1.4.0.dist-info/RECORD,,
