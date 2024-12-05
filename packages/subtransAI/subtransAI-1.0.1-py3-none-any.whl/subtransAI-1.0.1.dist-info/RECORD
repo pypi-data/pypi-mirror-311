@@ -1,0 +1,13 @@
+subtitle_translator/__init__.py,sha256=LmY8KZxPCvZu1uizm9iG-94iMIInqbg4mIf94kmqq8s,149
+subtitle_translator/cli.py,sha256=gn6bEkhAFJkJlE3nSn_co40f3W1WkJDj_HZKX27WmJs,1374
+subtitle_translator/config.py,sha256=EWGu7nOlrpJfcc2ky28Q9Eg7kWMQhZorRBmNZ7YSgQs,3686
+subtitle_translator/logger.py,sha256=9u8tQKHqyxxxbonUKbih9mhmxK_gQ4zysmaQQzEDnu0,280
+subtitle_translator/openai_client.py,sha256=VaZ3xPZGWVyYcIXHxxc2BTFvIfmAhmXFyFHW4sVXny0,1012
+subtitle_translator/srt_translator.py,sha256=iaA8QnHvtfA3HaQo2VzNH3f-MepXs_zE_XqZHnESpRw,10136
+subtransAI-1.0.1.dist-info/AUTHORS.rst,sha256=eneoo931NL51gBoSld9XCHGOfgih4V2UBrDFX5KMu50,152
+subtransAI-1.0.1.dist-info/LICENSE,sha256=A5kKhoCfuRI5ueZRSrL7-ZorzFvHj_K_wmZ6vjESKLc,1065
+subtransAI-1.0.1.dist-info/METADATA,sha256=l9PZTWoQq9cPtQxWI1b4l6p9KpKMu95x30c-BsPsxbA,1838
+subtransAI-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+subtransAI-1.0.1.dist-info/entry_points.txt,sha256=tafZYjFK7UMF7ty-M3MScVJ61UNGIBKrybPMy7C5Das,59
+subtransAI-1.0.1.dist-info/top_level.txt,sha256=o17SIfzby8YWEsiZgr6-auiwMnTtc-iGWL5mhQ7MlFg,20
+subtransAI-1.0.1.dist-info/RECORD,,
