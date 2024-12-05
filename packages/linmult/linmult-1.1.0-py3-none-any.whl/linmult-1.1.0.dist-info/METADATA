@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: linmult
+Version: 1.1.0
+Summary: General-purpose Multimodal Transformer with Linear Complexity Attention Mechanism
+Author: fodorad
+License: MIT
+License-File: LICENSE
