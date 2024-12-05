@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+code2mermaid/__init__.py
+code2mermaid/converter.py
+code2mermaid/core.py
+code2mermaid/style.py
+code2mermaid.egg-info/PKG-INFO
+code2mermaid.egg-info/SOURCES.txt
+code2mermaid.egg-info/dependency_links.txt
+code2mermaid.egg-info/top_level.txt
