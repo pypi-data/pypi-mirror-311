@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+agentX/__init__.py
+agentX/agent_x.py
+agentxai.egg-info/PKG-INFO
+agentxai.egg-info/SOURCES.txt
+agentxai.egg-info/dependency_links.txt
+agentxai.egg-info/requires.txt
+agentxai.egg-info/top_level.txt
+example/__init__.py
+example/simple_agent.py
+xAI/__init__.py
+xAI/x_ai.py
