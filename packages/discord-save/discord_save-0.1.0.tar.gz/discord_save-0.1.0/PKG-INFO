@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: discord_save
+Version: 0.1.0
+Summary: A library for managing save files for Discord bots.
+Home-page: https://github.com/yourusername/discord_save
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# discord_save
+
+`discord_save` is a Python library designed to simplify the process of saving and loading user data in Discord bots. It allows you to easily manage user stats such as balance, games played, and more, without worrying about data loss when the bot restarts.
+
+## Features
+
+- **Persistent data storage**: Save user stats and other data in a file (e.g., JSON).
+- **Easy to use**: Simple functions to get, update, and reset user data.
+- **Customizable**: Easily adapt the structure to store different kinds of data.
+- **Error handling**: Ensures data is properly loaded and saved, with safety checks for missing or corrupted files.
+
+## Installation
+
+You can install the library using `pip`:
+
+```bash
+pip install discord_save
+
+Or you can manually clone this repository and install it:
+    git clone https://github.com/yourusername/discord_save.git
+    cd discord_save
+    pip install .
+
+Usage
+Here is a simple example of how to integrate discord_save into your Discord bot:
+
+    from discord.ext import commands
+    from discord_save import SaveManager
+
+    # Initialize bot and save manager
+    bot = commands.Bot(command_prefix="!")
+    save_manager = SaveManager("save_data.json")
+
+    @bot.event
+    async def on_ready():
+        print(f"Logged in as {bot.user}")
+
+    @bot.command()
+    async def balance(ctx):
+        user_id = str(ctx.author.id)
+        user_data = save_manager.get_user(user_id)
+        await ctx.send(f"{ctx.author.name}, your balance is {user_data['balance']}.")
+
+    @bot.command()
+    async def add_balance(ctx, amount: int):
+        user_id = str(ctx.author.id)
+        user_data = save_manager.get_user(user_id)
+        new_balance = user_data["balance"] + amount
+        save_manager.update_user(user_id, balance=new_balance)
+        save_manager.save()  # Don't forget to save after updates
+        await ctx.send(f"{ctx.author.name}, your new balance is {new_balance}.")
+
+API Reference
+SaveManager(save_file='save_data.json'): Initializes the SaveManager with a specified file. If no file is specified, the default "save_data.json" will be used.
+
+get_user(user_id): Retrieves the data for a specific user by their Discord user ID. If no data exists, it will create a new entry with default values.
+
+update_user(user_id, **kwargs): Updates a user's stats with the specified keyword arguments.
+
+save(): Saves all changes to the data file.
+
+reset_user(user_id): Resets a user's stats to their default values.
+
+Contributing
+If you'd like to contribute to discord_save, feel free to fork the repository and submit a pull request. We welcome any improvements, bug fixes, or suggestions!
+
+Fork the repository.
+Clone your fork locally.
+Create a branch (git checkout -b feature-name).
+Make your changes.
+Commit your changes (git commit -am 'Add feature').
+Push to your fork (git push origin feature-name).
+Open a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements
+discord.py - The library used to build the Discord bot.
+JSON - The format used for saving data.

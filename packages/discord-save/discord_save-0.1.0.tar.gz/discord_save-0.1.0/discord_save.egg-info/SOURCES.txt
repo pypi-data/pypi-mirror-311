@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+discord_save/__init__.py
+discord_save/save_manager.py
+discord_save.egg-info/PKG-INFO
+discord_save.egg-info/SOURCES.txt
+discord_save.egg-info/dependency_links.txt
+discord_save.egg-info/top_level.txt
