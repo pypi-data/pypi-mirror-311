@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: youtube_thumbnail_extractor
+Version: 0.1.0
+Summary: A Python library to extract thumbnails from YouTube videos without downloading and at required.
+Home-page: https://github.com/Quaxguy/youtube-thumbnail-extractor
+Author: Siddharth Lalwani
+Author-email: connectwithsid95@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
