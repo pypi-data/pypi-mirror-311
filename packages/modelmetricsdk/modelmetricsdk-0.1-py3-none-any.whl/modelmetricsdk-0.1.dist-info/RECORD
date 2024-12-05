@@ -1,0 +1,10 @@
+modelmetricsdk/__init__.py,sha256=6TuwdMhTL4gO0NuyH88EgDK3QHpFNNXFcbJE_QxBB1U,818
+modelmetricsdk/model_metrics_sdk.py,sha256=tVlko2SSGuDxS3j2yRTQwBsNgSEht5KK2zPmHk9Mdx4,16200
+modelmetricsdk/sdk_exception.py,sha256=JyvDY18WgS8CxLStMVc3im9Tn6psQ0UH5Xu_Wtf9W_k,1071
+modelmetricsdk/singleton_manager.py,sha256=sYHbGFzzLkvNGqkxBxA_5N3Yp3-m4gPY-_AfnGkmiWc,3295
+modelmetricsdk/config/config.json,sha256=VGXx5SPEss_JHt7KWxGmu7RnSeCOENdRnCTaim-yWtk,111
+modelmetricsdk-0.1.dist-info/LICENSES.txt,sha256=J_bmplpBCqUsWzjmCzyPkOjGk3XT1OglivI-We8ouuI,1415
+modelmetricsdk-0.1.dist-info/METADATA,sha256=m5mz_Pd2jXaO0xJKvEAJJsUwNtbNlfLyAloVj8x801w,277
+modelmetricsdk-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+modelmetricsdk-0.1.dist-info/top_level.txt,sha256=EPgMNZUC4XHdfRZTyyU2snGCUswOZYQTYl_9rGa9B1w,15
+modelmetricsdk-0.1.dist-info/RECORD,,
