@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mlchain_client/__init__.py
+mlchain_client/client.py
+mlchain_client.egg-info/PKG-INFO
+mlchain_client.egg-info/SOURCES.txt
+mlchain_client.egg-info/dependency_links.txt
+mlchain_client.egg-info/requires.txt
+mlchain_client.egg-info/top_level.txt
+tests/test_client.py
