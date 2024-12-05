@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: weighbridge-simulator
+Version: 0.1.0
+Summary: A command line tool continuously send data to a serial port to simulate weighbridge communicating.
+Home-page: https://github.com/garrett-he/weighbridge-simulator
+License: GPL-3.0
+Keywords: weighbridge,simulator,serial-communication
+Author: Garrett HE
+Author-email: garrett.he@outlook.com
+Requires-Python: >=3.10,<3.13
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Project-URL: Repository, https://github.com/garrett-he/weighbridge-simulator.git
+Description-Content-Type: text/markdown
+
+# weighbridge-simulator
+
+A command line tool continuously send data to a serial port to simulate
+weighbridge communicating.
+
+## License
+
+Copyright (C) 2024 Garrett HE <garrett.he@outlook.com>
+
+The GNU General Public License (GPL) version 3, see [COPYING](./COPYING).
+
