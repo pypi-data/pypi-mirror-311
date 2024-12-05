@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: RenderBirdCore
+Version: 0.1.0
+Summary: A easy to use 3D rendering engine for Python based on PyGame and OpenGL
+Home-page: https://github.com/Wojtekb30/RenderBird-Python-3D-engine
+Author: Wojtekb30 (Wojciech B)
+Author-email: wojtekb30.player@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame>=2.0.0
+Requires-Dist: PyOpenGL>=3.1.6
+Requires-Dist: Pillow>=8.0.0
+Requires-Dist: numpy>=1.18.0
+
+For documentation and examples refer to the project's GitHub page: 
+
+https://github.com/Wojtekb30/RenderBird-Python-3D-engine
