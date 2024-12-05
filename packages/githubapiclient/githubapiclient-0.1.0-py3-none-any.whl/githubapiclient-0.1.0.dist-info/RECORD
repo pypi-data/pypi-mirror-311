@@ -1,0 +1,9 @@
+githubapiclient/__init__.py,sha256=ERiXzSxYQkd_khw8P6d_A04RhM3CYYecSnnB-697q4w,33
+githubapiclient/core.py,sha256=sX5sjeCrjEXi6Ges7MFGZZqHmNDYGgmtQ-7u4As0g1s,5348
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=Xd9lWrxBayg7fxd8lRh4d2i0oUkg9wGqJYKXna22zF0,471
+githubapiclient-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+githubapiclient-0.1.0.dist-info/METADATA,sha256=ALyCzD2MfKxOar_bkBPAXwu8qLwZSw5HI6ozj462EX0,2443
+githubapiclient-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+githubapiclient-0.1.0.dist-info/top_level.txt,sha256=bgvZjgmfdvS7PNRrRbgzqcul4Mu_ossONrly_VTWfos,22
+githubapiclient-0.1.0.dist-info/RECORD,,
