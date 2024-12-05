@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+pynpre
+
+[docs]
+sphinx
+ipython
+runipy
