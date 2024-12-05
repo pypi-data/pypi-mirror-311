@@ -1,0 +1,9 @@
+opencv-python
+Pillow
+numpy
+chardet
+loguru
+pypinyin
+cn2an
+id-validator
+toollib
