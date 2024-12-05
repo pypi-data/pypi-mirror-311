@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ngawari/__init__.py
+ngawari/fIO.py
+ngawari/ftk.py
+ngawari/vtkfilters.py
+ngawari.egg-info/PKG-INFO
+ngawari.egg-info/SOURCES.txt
+ngawari.egg-info/dependency_links.txt
+ngawari.egg-info/requires.txt
+ngawari.egg-info/top_level.txt
