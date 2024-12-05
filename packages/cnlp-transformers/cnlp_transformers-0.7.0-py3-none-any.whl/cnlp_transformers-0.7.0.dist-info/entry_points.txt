@@ -1,0 +1,2 @@
+[console_scripts]
+cnlpt = cnlpt.__main__:main
