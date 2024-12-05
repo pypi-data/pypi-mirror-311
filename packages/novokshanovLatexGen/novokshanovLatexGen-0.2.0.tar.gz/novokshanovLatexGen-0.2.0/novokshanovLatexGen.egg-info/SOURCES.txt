@@ -1,0 +1,5 @@
+setup.py
+novokshanovLatexGen.egg-info/PKG-INFO
+novokshanovLatexGen.egg-info/SOURCES.txt
+novokshanovLatexGen.egg-info/dependency_links.txt
+novokshanovLatexGen.egg-info/top_level.txt
