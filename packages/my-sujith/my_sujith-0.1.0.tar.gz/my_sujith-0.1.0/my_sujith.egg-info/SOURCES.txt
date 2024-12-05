@@ -1,0 +1,8 @@
+licence1
+setup.py
+my_sujith/__init__.py
+my_sujith/module1.py
+my_sujith.egg-info/PKG-INFO
+my_sujith.egg-info/SOURCES.txt
+my_sujith.egg-info/dependency_links.txt
+my_sujith.egg-info/top_level.txt
