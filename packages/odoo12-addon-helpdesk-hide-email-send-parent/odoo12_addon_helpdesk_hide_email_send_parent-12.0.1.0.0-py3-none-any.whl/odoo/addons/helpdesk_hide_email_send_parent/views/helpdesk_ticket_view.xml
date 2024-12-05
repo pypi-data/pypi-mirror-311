@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="helpdesk_hide_email_send_parent_from_view" model="ir.ui.view">
+        <field name="name">helpdesk.hide.email.send.parent.from.view</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="helpdesk_mgmt.ticket_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']/button[@name='mail_compose_message_action']" position="attributes">
+                <attribute name="attrs">{'invisible':[('global_child_ticket_ids_count', '&gt;', 0)]}</attribute>
+            </xpath>
+
+            <xpath expr="//page[@name='communications']/field[@name='message_emails_ids']" position="replace">
+                <field name="message_emails_ids" widget="list_mail_icon_one2many" context="{'active_colors': False ,'limit_fields': ['body']}">
+                    <tree editable="false" create="false" delete="false" default_order='date_subject desc'>
+                        <field name="message_type_mail"/>
+                        <field name="date_subject"/>
+                        <field name="date" invisible="1"/>
+                        <field name="email_from" invisible="1"/>
+                        <field name="origin_email_to" invisible="1"/>
+                        <field name="body"/>
+                        <field name="attachment_ids" invisible="1"/>
+                        <field name="color_row" invisible="1"/>
+                        <field name="color_background_row" invisible="1"/>
+                        <field name="message_type" invisible="1"/>
+                        <field name="has_global_ticket" invisible="1"/>
+                        <button name="mail_compose_action" help="Reply" type="object" attrs="{'invisible':['|', ('message_type_mail', '=', 'email_sent'), ('has_global_ticket', '!=', False)]}" icon="fa-reply"/>
+                        <button name="mail_compose_message_action_all" help="Reply All" type="object" attrs="{'invisible':['|', ('message_type_mail', '!=', 'email_received'), ('has_global_ticket', '!=', False)]}" icon="fa-reply-all"/>
+                        <button name="mail_compose_message_action_resend" help="Share" type="object" attrs="{'invisible':['|', ('message_type_mail', '=', 'note'), ('has_global_ticket', '!=', False)]}" icon="fa-share"/>
+                    </tree>
+                </field>
+            </xpath>
+        </field>
+    </record>
+</odoo>

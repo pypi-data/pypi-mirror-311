@@ -1,0 +1,15 @@
+odoo/addons/helpdesk_hide_email_send_parent/CHANGELOG.md,sha256=nPedAxcoo8b2yCgL-ZaS6M42BQVm2FqW-4a7m0nDAPs,419
+odoo/addons/helpdesk_hide_email_send_parent/README.rst,sha256=TZW78UxTxeq_-b01mEbNRjEFY0l3_XBTaeWJvkmVDSI,2008
+odoo/addons/helpdesk_hide_email_send_parent/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/helpdesk_hide_email_send_parent/__manifest__.py,sha256=HBHPoCGC91_-xv4-eSfqqBB7rXYxetYgVnaO1aDmMD4,933
+odoo/addons/helpdesk_hide_email_send_parent/i18n/ca_ES.po,sha256=j4Pe7T5cYNEvg7-IHAcKYvg3YWrr4Ufxeqlk2uyTs3c,433
+odoo/addons/helpdesk_hide_email_send_parent/i18n/es.po,sha256=yJ1pewr-kBqov2dGUadRHRUU6MU8x6oLXRbkOOXRwE0,433
+odoo/addons/helpdesk_hide_email_send_parent/models/__init__.py,sha256=3T9sHD35JhEbPtGGoZQdmTvCbD6IYMAJG4Du282KJio,27
+odoo/addons/helpdesk_hide_email_send_parent/models/mail_message.py,sha256=vMuTFwnXCNqGvGEDgP5aR7ciBQ8_X7i4x5t04DHatsY,614
+odoo/addons/helpdesk_hide_email_send_parent/static/description/icon.png,sha256=3taXULJl0n0Ko0YOBXiXtspPonsicVgYojo1ghzHmuY,17607
+odoo/addons/helpdesk_hide_email_send_parent/tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+odoo/addons/helpdesk_hide_email_send_parent/views/helpdesk_ticket_view.xml,sha256=a3qCFmT0ihuctSGUQvFBb7PSssk_L_x5LiqS-sqqyzI,2456
+odoo12_addon_helpdesk_hide_email_send_parent-12.0.1.0.0.dist-info/METADATA,sha256=Q4aKUVr-uKorCRk2Sj1cuZmSAaQVS_M_WKsGubnx86I,2906
+odoo12_addon_helpdesk_hide_email_send_parent-12.0.1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo12_addon_helpdesk_hide_email_send_parent-12.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_helpdesk_hide_email_send_parent-12.0.1.0.0.dist-info/RECORD,,
