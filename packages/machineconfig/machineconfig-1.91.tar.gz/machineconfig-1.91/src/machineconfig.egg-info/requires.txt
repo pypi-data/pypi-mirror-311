@@ -1,0 +1,11 @@
+rich
+paramiko
+gitpython
+pudb
+pyfzf
+clipboard
+psutil
+pydantic
+fire
+call-function-with-timeout
+openai
