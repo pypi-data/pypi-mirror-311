@@ -1,0 +1,6 @@
+numpy
+gdal
+geopandas
+rasterio
+shapely
+rasterstats
