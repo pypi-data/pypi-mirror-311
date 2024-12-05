@@ -1,0 +1,13 @@
+airmise/__init__.py,sha256=dvGgWwd0OzPjR4qNwcCGhJ0JtXzDagUDyOr6NjZUUEg,921
+airmise/__main__.py,sha256=Kr6hguUx49-QCOpG8QR0Mb0ypU5Ex9c0vnoCWSba6EM,1550
+airmise/client.py,sha256=fR3w2dDMGoNipfiWH_0RtUGsINiS1nuArMauk0OJITs,6945
+airmise/const.py,sha256=NGEiPGI-X1uUvvClRNGu8xSu8PWQ4uh6nn4OoAvgrtE,2750
+airmise/serdes.py,sha256=py4IhUImJDXr6Mv_n5igoWpMxpmIe4pDjTL1NheAsW8,1532
+airmise/server.py,sha256=6acqWKoD_vI5oRwsvyOj1d6wo65583zOFR4A63Qa8k0,2886
+airmise/server2.py,sha256=msBuzjJWHL-xHyerGpnrClf4wSeyrJFui9qi19n3oSs,10327
+airmise/server3.py,sha256=Db1pmnZQ_Kg-SwWRBWvZlxVuea-6aHtuS60PeDj82R0,2212
+airmise/util.py,sha256=eXDnJGtn60fz34Y8KPJsS-thuM2uy22uJHr786-Gnso,465
+airmise/webapp.py,sha256=h-In0P2WOYDMd5zrPou6wT85DOUT_CkFU5nyjc4ePlo,7781
+airmise-0.1.0.dist-info/METADATA,sha256=kiuwU6ZHaMqgeW9m2_c_qit-MUxkzCD7QteLwxMeeLg,774
+airmise-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+airmise-0.1.0.dist-info/RECORD,,

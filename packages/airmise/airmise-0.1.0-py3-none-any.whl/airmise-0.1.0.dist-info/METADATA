@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: airmise
+Version: 0.1.0
+Summary: The native experience of calling remote functions, like local ones.
+Author: likianta
+Author-email: likianta@foxmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.10.6,<4.0.0)
+Requires-Dist: argsense (>=0.5.8,<0.6.0)
+Requires-Dist: lk-logger (>=6.0.2,<7.0.0)
+Requires-Dist: lk-utils (>=3.1.1,<4.0.0)
+Requires-Dist: websocket-client (>=1.8.0,<2.0.0)
