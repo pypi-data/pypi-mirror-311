@@ -1,0 +1,2 @@
+[console_scripts]
+ss-python-gitlab-cli = ss_python_gitlab.cli:app
