@@ -1,0 +1,19 @@
+[{
+ "relation": ["delegate_permission/common.handle_all_urls"],
+ "target": {
+   "namespace": "android_app",
+   "package_name": "dev.khoj.app",
+   "sha256_cert_fingerprints": [
+     "EF:9E:76:92:20:D5:2F:79:AB:19:09:66:33:C7:52:E9:DE:C1:40:62:DC:70:A2:FA:7B:75:9F:73:E8:19:13:D6"
+   ]
+ }
+},{
+ "relation": ["delegate_permission/common.handle_all_urls"],
+ "target": {
+   "namespace": "android_app",
+   "package_name": "dev.khoj.app",
+   "sha256_cert_fingerprints": [
+     "CC:98:4A:0A:F1:CC:84:26:AC:02:86:49:AA:69:64:B9:5E:63:A3:EF:18:56:EA:CA:13:C1:3A:15:CA:49:77:46"
+   ]
+ }
+}]
