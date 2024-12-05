@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: astrowisp
+Version: 1.0.0
+Summary: Tools for extracting photometry from wide-field night sky images
+Author-Email: Kaloyan Penev <Kaloyan.Penev@utdallas.edu>, Angel Romero <Angel.Romero@utdallas.edu>, Ashkan Jafarzadeh <ashkan.jafarzadeh@utdallas.edu>, Istvan Domsa <istvan.domsa@gmail.com>
+Maintainer-Email: Kaloyan Penev <Kaloyan.Penev@utdallas.edu>, Angel Romero <Angel.Romero@utdallas.edu>, Ashkan Jafarzadeh <ashkan.jafarzadeh@utdallas.edu>
+License: MIT License
+         
+         Copyright (c) 2024 Kaloyan Penev
+         
+         Permission is hereby granted, free of charge, to any person obtaining a copy
+         of this software and associated documentation files (the "Software"), to deal
+         in the Software without restriction, including without limitation the rights
+         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+         copies of the Software, and to permit persons to whom the Software is
+         furnished to do so, subject to the following conditions:
+         
+         The above copyright notice and this permission notice shall be included in all
+         copies or substantial portions of the Software.
+         
+         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+         SOFTWARE.
+         
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Project-URL: source, https://github.com/kpenev/AstroWISP
+Project-URL: documentation, https://kpenev.github.io/AstroWISP/
+Requires-Python: >=3.7
+Requires-Dist: numpy<2
+Requires-Dist: scipy
+Requires-Dist: astropy
+Provides-Extra: test
+Requires-Dist: asteval; extra == "test"
+Requires-Dist: pandas; extra == "test"
+Provides-Extra: visualize
+Requires-Dist: configargparse; extra == "visualize"
+Requires-Dist: matplotlib; extra == "visualize"
+Requires-Dist: xalglib; extra == "visualize"
+Description-Content-Type: text/x-rst
+
+AstroWISP: ``Astro``\ nomical ``W``\ idefield ``I``\ mages ``S``\ tellar ``P``\ hotometry
+=========================================================================================
+
+A tool for extracting stellar photometry from widefild color or monochrome 
+images of the night sky
+
+[Full documentation](https://kpenev.github.io/AstroWISP/)
+
+Currently the following photometry methods are supported, and in the future we
+plan to add Image Subtraction:
+
+PSF and PRF fitting
+-------------------
+
+Fit for the distribution of light from a star on the detector (usually
+constrained to vary smoothly across stars) and an individual amplitude for each
+star giving a measure of the flux.
+
+Point Sread Function, or PSF, refers to the distribution of light hitting the
+detector as a function of the offset from the source center. In order to predict
+the value that a particular pixel should have given the PSF one needs to
+integrate over the pixel the product of the PSF and the sensitivity of the pixel
+at each position within the pixel.
+
+Pixel Response Function, or PRF, incorporates the effect of the detector. The
+value of the PRF at a given offset from the source center gives the value a
+pixel centered at that location should have. 
+
+AstroWISP allows for both PSF and PRF fitting, imposing a requirement that
+either function depends smoothly on the properties of the star being fit. The
+dependence is parametrized as an arbitrary polynomial of fnuctions of the
+relevant paramaters. Which properties it is allowed to depend on is entirely up
+to the user. Typically at least the position of the source center on the
+detector is included, but other properties can be included as well (e.g. the
+color of the source, temperature of the telescope tube, etc.). Multiple images
+can be fit simultaneously imposing the smooth dependence both within and across
+images.
+
+Aperture photometry
+-------------------
+
+Sum-up the flux in a circular aperture centered around each source. AstroWISP
+handles pixels that span the aperture boundary by properly integrating the
+product of th PSF and the sub-pixel sensitivity.
