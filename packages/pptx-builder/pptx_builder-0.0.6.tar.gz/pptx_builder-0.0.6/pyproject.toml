@@ -1,0 +1,17 @@
+[project]
+name = "pptx-builder"
+version = "0.0.6"
+description = "Simplify the creation of PowerPoint presentations with pandas DataFrames and multi-image arrangements."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-pptx>=1.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "pandas>=2.2.3",
+]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
