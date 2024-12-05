@@ -1,0 +1,2 @@
+[console_scripts]
+azauthlib-app = azauthlib.config_app:main
