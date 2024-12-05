@@ -1,0 +1,3 @@
+pip install funasr==1.1.9 modelscope==1.15.0 jsonargparse==4.30.0 loguru==0.7.2 librosa==0.10.2 lightning_utilities==0.11.2 protobuf==3.20.3 numpy==1.26.4 kaldiio==2.18.0 hydra-core==1.3.2 torch_complex==0.4.3 docarray==0.40.0 pydantic==2.8.2 joblib==1.4.2 -i https://pypi.tuna.tsinghua.edu.cn/simple/
+curl http://prod2.wos.58dns.org/prnMlKjIptx/deeplearning/onnxruntime_gpu-1.17.1-cp310-cp310-manylinux_2_28_x86_64.whl >  onnxruntime_gpu-1.17.1-cp310-cp310-manylinux_2_28_x86_64.whl && pip install onnxruntime_gpu-1.17.1-cp310-cp310-manylinux_2_28_x86_64.whl
+rm onnxruntime_gpu-1.17.1-cp310-cp310-manylinux_2_28_x86_64.whl
