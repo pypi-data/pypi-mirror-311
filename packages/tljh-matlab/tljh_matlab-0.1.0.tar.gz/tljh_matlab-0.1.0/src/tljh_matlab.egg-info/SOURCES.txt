@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/tljh_matlab/__init__.py
+src/tljh_matlab/install_matlab.py
+src/tljh_matlab/tljh_matlab.py
+src/tljh_matlab.egg-info/PKG-INFO
+src/tljh_matlab.egg-info/SOURCES.txt
+src/tljh_matlab.egg-info/dependency_links.txt
+src/tljh_matlab.egg-info/entry_points.txt
+src/tljh_matlab.egg-info/top_level.txt
+src/tljh_matlab/bash_scripts/install-matlab.sh
