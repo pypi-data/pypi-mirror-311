@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+color_processing/__init__.py
+color_processing/colors.py
+color_processing.egg-info/PKG-INFO
+color_processing.egg-info/SOURCES.txt
+color_processing.egg-info/dependency_links.txt
+color_processing.egg-info/requires.txt
+color_processing.egg-info/top_level.txt
+color_processing/data/colors.pkl
