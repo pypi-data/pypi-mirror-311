@@ -1,0 +1,12 @@
+streamlit_chat_prompt/__init__.py,sha256=17eq0r5vG_2xLtUc5rs-x5QqZmq6_QjFqgqTg0zoQnU,7905
+streamlit_chat_prompt/frontend/build/asset-manifest.json,sha256=YQ544TKTFHr9Q9ZAaIzVjHGZNihov_OhJUT8YhY_xzI,221
+streamlit_chat_prompt/frontend/build/bootstrap.min.css,sha256=L7EzZr9yvfRPtzVsdnV0AruBPRzCDpeFLiZQBKBq17Y,197413
+streamlit_chat_prompt/frontend/build/index.html,sha256=9QFCUIP2qeM_m0K4ABWj2Ed8R9dJ2x0x0eoyCCyPkjQ,492
+streamlit_chat_prompt/frontend/build/static/js/main.78b019ed.js,sha256=EEKyg_0K1a-dGEVfj-03ElXUXSY_LL7hVdJCrp-VIwM,529104
+streamlit_chat_prompt/frontend/build/static/js/main.78b019ed.js.LICENSE.txt,sha256=yBfMN18g1mTj_WCPqE2T8jkESGa84hm9-rT372DK6LM,1938
+streamlit_chat_prompt/frontend/build/static/js/main.78b019ed.js.map,sha256=ONsdx2Mhc8nseUKLQQ5uXSQg-o9L6oHzlCu3P27wlOM,2301808
+streamlit_chat_prompt-0.3.0.dist-info/LICENSE,sha256=yYhVbYKWb6iWH__ouagvBFTWREdJILxlIMKW-6IcvEI,11341
+streamlit_chat_prompt-0.3.0.dist-info/METADATA,sha256=lNwCbM4DyxT3zNARR-gW6HcEYLlTBP8D5AUAE5AgWIY,7895
+streamlit_chat_prompt-0.3.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+streamlit_chat_prompt-0.3.0.dist-info/top_level.txt,sha256=D21zaqWWInqB0EG_zjv-Kzk2Kw3ukleygCjCiptdbRs,22
+streamlit_chat_prompt-0.3.0.dist-info/RECORD,,
