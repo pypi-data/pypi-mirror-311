@@ -1,0 +1,9 @@
+README.md
+setup.py
+maya_rabbitmq_package/__init__.py
+maya_rabbitmq_package/rabbitmq_handler.py
+maya_rabbitmq_package.egg-info/PKG-INFO
+maya_rabbitmq_package.egg-info/SOURCES.txt
+maya_rabbitmq_package.egg-info/dependency_links.txt
+maya_rabbitmq_package.egg-info/requires.txt
+maya_rabbitmq_package.egg-info/top_level.txt

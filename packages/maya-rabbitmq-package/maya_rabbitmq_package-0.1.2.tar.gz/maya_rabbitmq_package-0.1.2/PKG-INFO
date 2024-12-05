@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: maya_rabbitmq_package
+Version: 0.1.2
+Summary: A package for handling RabbitMQ operations
+Home-page: https://github.com/Trimble-Construction/project-maya/tree/dev/Cloud/RabbitmqHandler
+Author: Asifaa Sulthana
+Author-email: asifaa_sulthanan@trimble.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pika
+
+# My RabbitMQ Package
+
+This package provides a handler for RabbitMQ operations.
+
+## Installation
+
+```sh
+pip install maya-rabbitmq-package
