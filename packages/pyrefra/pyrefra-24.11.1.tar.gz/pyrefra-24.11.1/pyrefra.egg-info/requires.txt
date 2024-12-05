@@ -1,0 +1,7 @@
+pygimli
+scikit-learn
+numpy
+matplotlib
+obspy
+statsmodels
+colorcet
