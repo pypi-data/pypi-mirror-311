@@ -1,0 +1,11 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+Mickey_Utils.egg-info/PKG-INFO
+Mickey_Utils.egg-info/SOURCES.txt
+Mickey_Utils.egg-info/dependency_links.txt
+Mickey_Utils.egg-info/requires.txt
+Mickey_Utils.egg-info/top_level.txt
+mickey_utils/__init__.py
+mickey_utils/my_utils.py
