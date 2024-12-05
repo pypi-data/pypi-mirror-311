@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: arxml-parse
+Version: 0.1.0
+Summary: ARXML parser
+Author-email: Artur Drogunow <Artur.Drogunow@zf.com>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: xsdata>=24.11
+
+# arxml-parse
+
+[![PyPI - Version](https://img.shields.io/pypi/v/arxml-parse.svg)](https://pypi.org/project/arxml-parse)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/arxml-parse.svg)](https://pypi.org/project/arxml-parse)
+
+The dataclasses in this library are created from xml schema files with the help
+of the [xsdata](https://github.com/tefra/xsdata/) code generator.
+As such, the library is fully compliant with `mypy --strict` type checking.
+
+The `arxml_parse.io` module contains functions to parse arxml files and return
+the xml root object (e.g. `arxml_parse.autosar_00042.autosar_00042.Autosar`).
+
+## Installation
+
+Install the library via `pip`::
+
+```shell
+   pip install arxml-parse
+```
+
+
+## Example
+
+```python
+from pathlib import Path
+
+import arxml_parse.io
+
+# parse arxml file
+arxml_path = Path("random.arxml")
+arxml_root_obj = arxml_parse.io.parse_arxml(arxml_path)
+
+# serialize arxml
+arxml_string = arxml_parse.io.serialize_arxml(arxml_root_obj)
+```
