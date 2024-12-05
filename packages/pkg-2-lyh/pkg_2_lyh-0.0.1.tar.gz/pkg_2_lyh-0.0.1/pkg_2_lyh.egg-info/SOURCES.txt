@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pkg_2_lyh.egg-info/PKG-INFO
+pkg_2_lyh.egg-info/SOURCES.txt
+pkg_2_lyh.egg-info/dependency_links.txt
+pkg_2_lyh.egg-info/requires.txt
+pkg_2_lyh.egg-info/top_level.txt
