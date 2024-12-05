@@ -1,0 +1,12 @@
+toml>=0.10.0
+watchdog>=2.1.0
+setuptools>=42
+wheel>=0.36.2
+
+[dev]
+pytest
+flake8
+
+[docs]
+sphinx
+sphinx_rtd_theme
