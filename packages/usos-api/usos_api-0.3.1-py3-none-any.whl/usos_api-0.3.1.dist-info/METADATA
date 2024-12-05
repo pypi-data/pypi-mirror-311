@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: usos-api
+Version: 0.3.1
+Summary: Asynchronous USOS API for Python
+Home-page: https://github.com/Antoni-Czaplicki/usos-api
+Author: Antoni-Czaplicki
+Author-email: 56671347+Antoni-Czaplicki@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.11,<4.0)
+Requires-Dist: oauthlib (>=3.2,<4.0)
+Requires-Dist: pydantic (>=2.10,<3.0)
+Requires-Dist: python-dotenv (>=1.0,<2.0)
+Project-URL: Documentation, https://usos-api.readthedocs.io
+Project-URL: Repository, https://github.com/Antoni-Czaplicki/usos-api
+Description-Content-Type: text/markdown
+
+# USOS API for python, in development
+
+This is a python library for USOS API. It is in development, so it is not recommended to use it in production.
+
+Visit [documentation](https://usos-api.readthedocs.io) for more information.
