@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "hatchling>=1.22.2"
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "pypomes_cloud"
+version = "0.1.8"
+authors = [
+  { name="GT Nunes", email="wisecoder01@gmail.com" }
+]
+description = "A collection of Python pomes, penyeach (cloud storage modules)"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "azure-common>=1.1.28",
+    "azure-core>=1.32.0",
+    "azure-identity>=1.19.0",
+    "azure-storage-blob>=12.24.0",
+    "pypomes_core>=1.6.4"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TheWiseCoder/PyPomes-Cloud"
+"Bug Tracker" = "https://github.com/TheWiseCoder/PyPomes-Cloud/issues"

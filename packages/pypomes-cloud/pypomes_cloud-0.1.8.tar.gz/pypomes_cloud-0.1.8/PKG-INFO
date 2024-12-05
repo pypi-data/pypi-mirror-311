@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: pypomes_cloud
+Version: 0.1.8
+Summary: A collection of Python pomes, penyeach (cloud storage modules)
+Project-URL: Homepage, https://github.com/TheWiseCoder/PyPomes-Cloud
+Project-URL: Bug Tracker, https://github.com/TheWiseCoder/PyPomes-Cloud/issues
+Author-email: GT Nunes <wisecoder01@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: azure-common>=1.1.28
+Requires-Dist: azure-core>=1.32.0
+Requires-Dist: azure-identity>=1.19.0
+Requires-Dist: azure-storage-blob>=12.24.0
+Requires-Dist: pypomes-core>=1.6.4
