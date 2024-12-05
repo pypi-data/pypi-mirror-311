@@ -1,0 +1,11 @@
+neowg/__init__.py,sha256=40MwFy6F_TKNZJOxON36Lje15pGw5O5GsdSylBMQ8Wc,245
+neowg/config.py,sha256=mrstshSGbQoiA6qoWddCocaQyhRVHUBhkTFSgsxFp6A,215
+neowg/key_pair.py,sha256=FyhvmXIGTepJfLNCXAK1G1vqOBemZKZ-th0ihrWy1RM,1588
+neowg/utils.py,sha256=InLWJp1dyT8PnU4Uvz3aSYzRTP2TYsSVt_J5Natnbd0,521
+neowg/wg_client_config.py,sha256=xDBnLFrO7Pmlr5UMf97DU0DyMtvyUdAtyOieYqaXBM4,2057
+neowg/wg_server_config.py,sha256=FnHojzZyKEjZMb6xdJygNkiHBYSLe-u_JY6DCdONI4o,5541
+neowg/wg_service.py,sha256=R8BCJdLJBISFvtO7NRBWxdbUPJj0nDJV0AeVqE3uXkc,4659
+neowg-1.5.0.dist-info/LICENSE,sha256=4dOeRSBJYT7Dkn8ZG_DXfs7v-XXfNc60Wl_1WmdFAeo,671
+neowg-1.5.0.dist-info/METADATA,sha256=wwpBTN3xCkp2x9DYl-bTWn30i6x8CePA4iumN9tXwgE,1643
+neowg-1.5.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+neowg-1.5.0.dist-info/RECORD,,
