@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: nostromo
+Version: 0.dev1
+Summary: pipeline builder, runner, process manager, background jobs, job scheduling
+License: MIT
+Author: Danila Ganchar
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: bigtree (>=0.22.3,<0.23.0)
+Requires-Dist: func-timeout (>=4.3.5,<5.0.0)
+Requires-Dist: inject (==4.1)
+Requires-Dist: psutil (>=6.1.0,<7.0.0)
+Requires-Dist: pypyr (==5.9.1)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: redis (==5.0.1)
+Requires-Dist: saq[hiredis,web] (>=0.18.3,<0.19.0)
+Requires-Dist: setuptools (>=70.2.0,<71.0.0)
+Requires-Dist: starlette (>=0.41.3,<0.42.0)
+Requires-Dist: textual (==0.85.2)
+Requires-Dist: typer (>=0.13.1,<0.14.0)
+Description-Content-Type: text/markdown
+
+
