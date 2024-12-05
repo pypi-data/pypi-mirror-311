@@ -1,0 +1,13 @@
+clickhouse_types/__init__.py,sha256=zGU39ZwaRkNKxWLnAB7Zte9ZtfyfMEsBJp-bHUfQTyA,23
+clickhouse_types/_utils.py,sha256=Vai3leYrulmkUGFItAtYMk9_cOtKAVdhi0ZdQYBXff8,606
+clickhouse_types/pyarrow.py,sha256=wML1BQEn_KIIiNKTR8WFKyntPby5OOjhzARJZGdMhFg,3728
+clickhouse_types/sqlalchemy/__init__.py,sha256=Annk8fdoLhVQ1OxHwMEptCo5Ithu6qop_v4dwcoNBAw,63
+clickhouse_types/sqlalchemy/base.py,sha256=OVjMoW8uEzi2Cew0bA20JV5d9a-qim0gkfV3clquFbA,2778
+clickhouse_types/sqlalchemy/common.py,sha256=eREtX7YoZEXGG-64F1Yl8YofME4yXGGZ9Xo6DEVL348,13259
+clickhouse_types/sqlalchemy/ip.py,sha256=3YGUDwsVcz1ypgLwUfvSLdrgwSAVas31qOuVZlGqlPo,152
+clickhouse_types/sqlalchemy/nested.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickhouse_types/sqlalchemy.py,sha256=L0nOemmtQiylsuOTAnheFolI3KkrTt6OOnCphNqpVQg,2823
+clickhouse_types-0.1.1.dist-info/LICENSE.txt,sha256=5bBw14g4DDDmVxURE6fq1iZ4eCNEfr3fStPx7n7gdfE,1496
+clickhouse_types-0.1.1.dist-info/METADATA,sha256=lKa8AsKja12xfVkGovcK1XqZGFgO_4f-7zTAyjhyTjo,1719
+clickhouse_types-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+clickhouse_types-0.1.1.dist-info/RECORD,,
