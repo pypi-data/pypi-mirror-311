@@ -1,0 +1,6 @@
+TgCrypto
+aiohttp
+psutil
+pymongo
+pyrofork
+requests
