@@ -1,0 +1,73 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agori"
+version = "0.1.4"
+description = "AI-powered decision-making frameworks for enhancing group decisions"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = [
+"decision-making",
+"artificial-intelligence",
+"nominal-group-technique",
+"group-decision",
+"ai-frameworks",
+"azure-openai",
+"langchain",
+"collaborative-decision-making"
+]
+authors = [
+    { name = "Govind Shukla", email = "govind.shukl@gmail.com" }
+]
+
+dependencies = [
+"langchain",
+"pypdf",
+"chromadb",
+"cryptography",
+"langchain-core",
+"langchain-community",
+"langchain-openai",
+"tiktoken",
+"tenacity",
+"python-dotenv",
+"numpy",
+"pandas",
+"pytest-asyncio"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-mock>=3.10.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+    "types-requests>=2.0.0"
+]
+
+docs = [
+"mkdocs>=1.4.0",
+"mkdocs-material>=9.0.0",
+"mkdocstrings>=0.20.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/govindshukl/agori"
+"Bug Tracker" = "https://github.com/govindshukl/agori/issues"
+"Repository" = "https://github.com/govindshukl/agori.git"
+"Documentation" = "https://github.com/govindshukl/agori#readme"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agori"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --cov=agori"
+testpaths = [
+    "tests",
+]
+pythonpath = ["src"]
