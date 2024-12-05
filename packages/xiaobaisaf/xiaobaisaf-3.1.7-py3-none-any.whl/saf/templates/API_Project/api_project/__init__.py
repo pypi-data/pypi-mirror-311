@@ -1,0 +1,30 @@
+#! /usr/bin/env python
+'''
+Auther      : xiaobaiTser
+Email       : 807447312@qq.com
+createTime  : 2024/11/18 23:29
+fileName    : __init__.py
+'''
+
+import os
+
+INDENT = 4
+TAB_SPACE = INDENT * ' '
+FEED = '\n' if os.name == 'nt' else '\r\n'
+
+PROJECT_ABS_PATH = os.path.dirname(os.path.realpath(__file__))
+DATA_DIR_PATH = os.path.join(PROJECT_ABS_PATH, 'data')
+REPORT_DIR_PATH = os.path.join(PROJECT_ABS_PATH, 'report')
+LOG_DIR_PATH = os.path.join(PROJECT_ABS_PATH, 'log')
+ALLURE_REPORT_DIR_PATH = os.path.join(PROJECT_ABS_PATH, 'allure-report')
+ENV_PATH = os.path.join(PROJECT_ABS_PATH, '.env')
+CASE_DATA_DIR_PATH = os.path.join(PROJECT_ABS_PATH, 'case_data_files')
+CASE_SCRIPT_DIR_PATH = os.path.join(PROJECT_ABS_PATH, 'case_scripts')
+CONFIG_DIR_PATH = os.path.join(PROJECT_ABS_PATH, 'config')
+CASE_CONFIG_PATH = os.path.join(CONFIG_DIR_PATH, 'case_config.py')
+
+class PROJECT_CLEAN(object):
+    data_status             : bool = True
+    report_status           : bool = True
+    allure_report_status    : bool = True
+    log_status              : bool = True
