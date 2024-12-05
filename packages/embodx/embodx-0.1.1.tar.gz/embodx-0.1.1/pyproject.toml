@@ -1,0 +1,10 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "embodx"
+
+[tool.maturin]
+module-name = "embodx"
+manifest-path = "dimensify/python/Cargo.toml"
