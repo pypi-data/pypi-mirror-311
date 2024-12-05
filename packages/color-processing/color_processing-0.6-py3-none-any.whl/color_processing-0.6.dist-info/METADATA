@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: color_processing
+Version: 0.6
+Summary: A package for fetching detailed color information
+Home-page: https://github.com/cop-discord/color_processing
+Author: cop-discord
+Author-email: cop@catgir.ls
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: discord
+Requires-Dist: fast-string-match
+Requires-Dist: seaborn
+Requires-Dist: numpy
+Requires-Dist: webcolors
+Requires-Dist: colorgram-rs
+Requires-Dist: async-tools-ext
+
+# Color Processing
+
+This package implements many methods for color fetching aswell as color name and information fetching
+This can all be super intensive on memory but this is the best way of managing it from what I can tell
+(might change later)
