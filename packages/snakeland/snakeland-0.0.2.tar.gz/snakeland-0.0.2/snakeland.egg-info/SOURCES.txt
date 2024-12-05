@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+snakeland/CHECKSUM-SHA3-256.py
+snakeland/__init__.py
+snakeland/__main__.py
+snakeland/snakeland.py
+snakeland.egg-info/PKG-INFO
+snakeland.egg-info/SOURCES.txt
+snakeland.egg-info/dependency_links.txt
+snakeland.egg-info/entry_points.txt
+snakeland.egg-info/requires.txt
+snakeland.egg-info/top_level.txt
