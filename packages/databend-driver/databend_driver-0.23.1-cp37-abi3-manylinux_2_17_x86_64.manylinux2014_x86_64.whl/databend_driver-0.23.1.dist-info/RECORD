@@ -1,0 +1,6 @@
+databend_driver-0.23.1.dist-info/METADATA,sha256=2qbUS6HSR34lYQGsyPUcomuFF5-al20TuIsO4E2wVAU,5793
+databend_driver-0.23.1.dist-info/WHEEL,sha256=hMk5IpADulGkiZMaNMbdy-SRq96NAa-5bxnNMKMeEtg,127
+databend_driver/__init__.py,sha256=sNam6xQNlyVYUm7qBdX4cDxsxlgHgr3zYavOp8uielw,626
+databend_driver/__init__.pyi,sha256=O4kAHPNAc6FIHI2yeb8sxlxpdbGfkoeYjSzH8YMpJgU,2602
+databend_driver/_databend_driver.abi3.so,sha256=1dQi0l1I-t1mW-2GsWQzE5yW5uXlsTRTOQYzDqzvKVk,18344776
+databend_driver-0.23.1.dist-info/RECORD,,
