@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: graph_simulator
+Version: 0.2.8
+Summary: A tool to simulate from graphs
+Author-Email: "Joakim B. Andersen" <blach.andersen@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: pybind11>=2.13.6
+Description-Content-Type: text/markdown
+
+# Readme...
+
+# python3 -m build .; python3 -m twine upload --skip-existing dist/*
