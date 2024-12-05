@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: orm-json
+Version: 1.0.0
+Summary: So, its simple libriary for easy managment of json files and for creating a data model in them. And also an appeal to models in the most simple and beautiful form.
+Home-page: https://github.com/shayzi3/json_orm
+License: MIT
+Keywords: json,orm,python,model
+Author: shayzi3
+Author-email: tecnomega@mail.ru
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: typing_extensions (>=4.12.2,<5.0.0)
+Project-URL: Documentation, https://github.com/shayzi3/json_orm/tree/master/examples
+Project-URL: Repository, https://github.com/shayzi3/json_orm
+Description-Content-Type: text/markdown
+
+![](https://github.com/shayzi3/json_orm/blob/master/assets/preview1.png)
+
+
+## Json Orm
+
+A library for interacting with json files. Creating models in these files and conveniently accessing them.
+
+
+### Installation
+
+```cmd
+  pip install orm_json
+```
+
+### Documentation
+
+[Documentation](https://github.com/shayzi3/json_orm/tree/master/examples)
+
+
+### Authors
+
+- [@shayzi3](https://github.com/shayzi3)
+
+#### Readme image creator
+- [@jJustise](https://t.me/jJustise)
