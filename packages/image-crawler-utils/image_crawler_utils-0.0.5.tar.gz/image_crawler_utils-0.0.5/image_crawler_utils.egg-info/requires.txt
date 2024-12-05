@@ -1,0 +1,11 @@
+bs4
+colorama
+deprecated
+dill
+ipython
+lxml
+nodriver
+pathvalidate
+Requests
+tqdm
+websockets<=13.1
