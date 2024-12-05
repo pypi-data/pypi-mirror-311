@@ -1,0 +1,7 @@
+poetry_plugin_openfund/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_plugin_openfund/openfund.py,sha256=r999VHZgCBzYxagG7UKbcziZmWy53c2pswj8zv66a70,3629
+poetry_plugin_openfund/plugin.py,sha256=ZlVgI3Dlnc3U_k-xJDR8rojFQFhzen4cw3Owl9Ic7uQ,1211
+poetry_plugin_openfund-0.1.5.dist-info/METADATA,sha256=RRcdrwrINt0QJyQRu2836-K23wimWOfe_N3-1Aowm5w,525
+poetry_plugin_openfund-0.1.5.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+poetry_plugin_openfund-0.1.5.dist-info/entry_points.txt,sha256=u2iPmkeUJhC92F5he9mzs538uuH0P1m0kHVxp03XDz0,94
+poetry_plugin_openfund-0.1.5.dist-info/RECORD,,
