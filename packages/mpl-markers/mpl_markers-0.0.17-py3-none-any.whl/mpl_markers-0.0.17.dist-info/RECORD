@@ -1,0 +1,11 @@
+mpl_markers/__init__.py,sha256=pSNb_cB-sJNxyHEt8CVxbmIhLzHsn4sw-a5Smhrf4MU,23
+mpl_markers/artists.py,sha256=w52EKkDdOiX9rzr_vcYdAUR4nkAw1YYfRPvkwHdk2vc,41165
+mpl_markers/interactive.py,sha256=jxB3NDC_TRlX3vd9TUXjl9xw0NO1gzUKdx-Uy-R_J-M,6144
+mpl_markers/markers.py,sha256=eJDMTVuVMTI8KuecVjXQ6XuG1aziNvUecgeOB6hnR70,33913
+mpl_markers/utils.py,sha256=CQsZL7JibMJ29yGWm5LkXpAQIu4hAWsxrhoIo9jvNtM,3736
+mpl_markers/style/default.json,sha256=CukMvroKbCooQ6NvmINj5pnSlU-Z_p_tdJHK9EkYiVk,1325
+mpl_markers-0.0.17.dist-info/LICENSE.txt,sha256=svML326VJWqtI58nUarnpGke1GRZsBY3tWUORevVQ6k,1058
+mpl_markers-0.0.17.dist-info/METADATA,sha256=saPBVCd57npHcMmFH8NXdIRSyCSU2XuyeUwAOFKJSIo,6079
+mpl_markers-0.0.17.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mpl_markers-0.0.17.dist-info/top_level.txt,sha256=hH9MD4AtdqjfvV36XJBqd2yxKlioTCIJwyMi24tTlis,12
+mpl_markers-0.0.17.dist-info/RECORD,,
