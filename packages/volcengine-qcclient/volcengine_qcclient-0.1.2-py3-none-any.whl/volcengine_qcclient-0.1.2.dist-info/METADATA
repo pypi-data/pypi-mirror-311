@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: volcengine-qcclient
+Version: 0.1.2
+Summary: A Python client for volcengine quantum chemistry service.
+Home-page: https://github.com/yourusername/myclient
+Author: Lifei Chen
+Author-email: chenlifei.fly@bytedance.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.20.0)
+Requires-Dist: volcengine (>=1.0.161)
+Requires-Dist: retry (>=0.9.2)
+Requires-Dist: typing-extensions (>=4.7.0)
+Requires-Dist: h5py (>=3.0.0)
+
+# volcengine-qcclient
+
+A Python client for volcano engine quantum chemistry service.
+
+## Installation
+
+```bash
+pip install volcengine-qcclient -i https://ai4s.bytedance.net/simple 
+```
+
+## Usage
+
+```python
+import requests
+import h5py
+
+from volcengine_qcclient import QcBatchJob
+
+if __name__ == '__main__':
+    ak = "{volc_ak}"
+    sk = "{volc_sk}"
+
+    # init batch_job
+    batch_job = QcBatchJob(ak=ak, sk=sk)
+
+    # load molecules.
+    molecules = [
+        '''
+3
+Water molecule
+O          0.00000        0.00000        0.11779
+H          0.00000        0.75545       -0.47116
+H          0.00000       -0.75545       -0.47116
+        '''
+    ]
+
+    batch_job.load_molecules(from_dir=None, from_file=None, from_list=molecules)
+
+    # set task config.
+    task_config = {
+        "spin": 0,
+        "charge": 0,
+        "basis": "def2-tzvpp",
+    }
+    # submit task.
+    
+    task_ids = batch_job.submit(task_type="opt", task_config=task_config)
+    print(task_ids)
+
+    # wait for task to finish.
+    batch_job.wait()
+
+    # get tasks when batch_job finished.
+    tasks = batch_job.get_tasks()
+    print(tasks)
+
+    # download output h5 file to local.
+    output_h5 = f"./{tasks[0]['Id']}.h5"
+    open(output_h5, 'wb').write(requests.get(tasks[0]["OutputUrl"]).content)
+
+    # operate output h5 file.
+    with h5py.File(output_h5, 'r') as f:
+        print(f.keys())
+```
+### Low level usage:
+see [low-level.md](low-level.md)

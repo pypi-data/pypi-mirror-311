@@ -1,0 +1,7 @@
+volcengine_qcclient/__init__.py,sha256=ePQaNFO57gnSNgnVxw-eArke1LRa72v03WNIrokLNLA,70
+volcengine_qcclient/qc_batchjob.py,sha256=pEbN94hgUAvja9ZkQ5HZKyFR4H28GSirhuPwzfnOzho,7060
+volcengine_qcclient/qc_service.py,sha256=28uJxkr9muQA7c_2uM8isIrk7kiOvyYUbZ_gDPYDrrw,14272
+volcengine_qcclient-0.1.2.dist-info/METADATA,sha256=OuTkmPqAAq1i2MhNBoHiPvEvdyOyOmOA1fhIoRB0R0Y,2069
+volcengine_qcclient-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+volcengine_qcclient-0.1.2.dist-info/top_level.txt,sha256=6uWOz0R9S8qE7gsWZTXSGepsuZ1aQHEPqvucVPQzU3w,20
+volcengine_qcclient-0.1.2.dist-info/RECORD,,
