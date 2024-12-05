@@ -1,0 +1,9 @@
+setup.py
+danilo_planner/__init__.py
+danilo_planner/gpt4.py
+danilo_planner/midirectorio.py
+ia_planner_jerson.egg-info/PKG-INFO
+ia_planner_jerson.egg-info/SOURCES.txt
+ia_planner_jerson.egg-info/dependency_links.txt
+ia_planner_jerson.egg-info/requires.txt
+ia_planner_jerson.egg-info/top_level.txt
