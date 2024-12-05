@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gmg-auto"
+version = "0.1.5"
+description = ""
+authors = ["Ernest Nasyrov <2001092236@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.55.1"
+pydantic = "^2.10.1"
+pgmpy = "^0.1.26"
+ipython = "^8.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
