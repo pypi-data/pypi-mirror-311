@@ -1,0 +1,28 @@
+[package]
+name = "tombi-cli"
+description = "TOML Formatter/Linter CLI Tool."
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "tombi"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap = { workspace = true, features = ["derive"] }
+clap-verbosity-flag = { workspace = true }
+diagnostic = { workspace = true }
+formatter = { workspace = true }
+glob = "0.3.1"
+lsp = { workspace = true }
+linter = { workspace = true }
+nu-ansi-term = { workspace = true }
+syntax = { workspace = true, features = ["clap"] }
+thiserror = { workspace = true }
+tokio.workspace = true
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true, features = ["env-filter"] }
