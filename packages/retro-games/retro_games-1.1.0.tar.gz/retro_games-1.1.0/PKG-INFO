@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: retro-games
+Version: 1.1.0
+Summary: A simple framework for Terminal-based games
+Home-page: https://makingwithcode.org
+Author: Chris Proctor
+Author-email: chris@chrisproctor.net
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: blessed (>=1.20.0,<2.0.0)
+Project-URL: Documentation, https://retro-games.readthedocs.io/en/latest/
+Description-Content-Type: text/markdown
+
+# Retro
+
+A simple framework for Terminal-based games.
+
+```
+╔════════════════════════════════╗
+║                                ║
+║                                ║
+║                                ║
+║      *************             ║
+║      *                         ║
+║      *                         ║
+║      **>                       ║
+║             @                  ║
+║                                ║
+║                                ║
+╠════════════════════════════════╣
+║score: 153                      ║
+║                                ║
+╚════════════════════════════════╝
+```
+
+## Layout
+
+- There are two panes, a fixed-size play area at the top and a state window
+  at the bottom. When enabled, a sidebar containing debug messages is also shown.
+
+## Concepts and skills needed
+
+- We need to discuss immutability, and the difference between 
+  mutable objects and immutable values. 
+  - Specifically, we care about the difference between tuples and lists.
+  - State must be immutable!
+  - Objects are only ever equal to themselves.
+
+- The game is structured as a collection of agents which interact.
+
+## Design/pedagogical criteria
+
+- Make thinking visible.
+  - Avoid subclasses; they require interaction with invisible parent attributes.
+  - Instead, compose functionality from other classes which might be somewhat black-boxed.
+
