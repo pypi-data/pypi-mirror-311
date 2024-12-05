@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mcp_shell
+Version: 0.0.1
+Summary: Access a secure shell for MCP.
+Author-email: Tynan Daly <tynan.daly@hdr.is>
+Project-URL: Homepage, https://github.com/hdresearch/py-mcp-shell
+Project-URL: Issues, https://github.com/hdresearch/py-mcp-shell/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mcp-shell
+
+Description to come.
+
+## Installation
+
+```bash
+pip install mcp-shell
+```
+
+## Usage
+
+```python
+from mcp-shell import hello
+print(hello())
+```
