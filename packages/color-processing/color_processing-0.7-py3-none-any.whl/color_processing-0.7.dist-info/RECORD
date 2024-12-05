@@ -1,0 +1,8 @@
+color_processing/__init__.py,sha256=xSgwRLq2DgOjZBC_pH8ysi2mPgQjnmA_F76QB7OvG8M,44
+color_processing/colors.py,sha256=LsgA6qnqa4uDcBlQ4zChGQrm6Lnd7PTOiCIIuz6p760,16271
+color_processing/models.py,sha256=j94ECqXHjVAxAwfhEo_40T48lzrG_1j4Y0Y0J1GPuJU,3393
+color_processing/data/colors.pkl,sha256=Wx6pZBK0EADsuqOzP4X3_WO14rdCniPvoYDfrVIHSdE,908037
+color_processing-0.7.dist-info/METADATA,sha256=vLjwb1hd24PWZFmsvUkXZvrPcD6bfPVzMadgw0Fg0ls,889
+color_processing-0.7.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+color_processing-0.7.dist-info/top_level.txt,sha256=xtatuyD6G7OxJcGU216Shjyw7ymh9XNTbOp1jjBWZes,17
+color_processing-0.7.dist-info/RECORD,,
