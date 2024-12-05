@@ -1,0 +1,9 @@
+hudi-0.2.0.dist-info/METADATA,sha256=DvQ9hDxG7RirmZcc-PtDaIE1CObH40X3nNT9U20KSgg,5819
+hudi-0.2.0.dist-info/WHEEL,sha256=b-T9B98sImpcTdnXFUgy-dc6MSKnX_pQYjJNkszLgPU,127
+hudi/__init__.py,sha256=D_G5rBO0LIazZYzVI-A0iT3_mYZEXNrW4O1Qk43MpcI,1080
+hudi/table/__init__.py,sha256=ZxAVsdr4gZir5-UarMJ98halGmqYpNX-ZJI-DDKvcKI,799
+hudi/table/builder.py,sha256=xYQob0SPBFy2sMH8zcPXJEMdWpWcrr7xHrtXbU81L10,4912
+hudi/_internal.pyi,sha256=zS-rSj30u8RhlVcac3jh-TdTei-IYoUcrhW0HIbQ_ew,7045
+hudi/py.typed,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+hudi/_internal.abi3.so,sha256=ekCeyoqvGg_gy4GnWmhF8JKRi7dwy8E8CIyjPDJaN2I,17362064
+hudi-0.2.0.dist-info/RECORD,,
