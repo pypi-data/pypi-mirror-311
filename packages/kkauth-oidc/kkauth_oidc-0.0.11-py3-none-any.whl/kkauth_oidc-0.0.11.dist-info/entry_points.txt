@@ -1,0 +1,2 @@
+[sentry.apps]
+oidc = oidc.apps.Config
