@@ -1,0 +1,13 @@
+pendingai/__init__.py,sha256=Oa_Rzzf-Ytnwy10xmiFaZXSKy-PQHk7G1eV8b3oJZw4,1246
+pendingai/auth/__init__.py,sha256=QJhEEJZuKOWf4ZUg3FCNkhXn1IzVZmjIqKZFiLW-ljQ,1324
+pendingai/auth/device_code.py,sha256=e1M8aj3EFoZoKirFCs4OOjBujzzb7WH60us0MdPKOBk,6966
+pendingai/client/__init__.py,sha256=sjTw-i9bTYflo0aZNumACbnsBOteZYTLbMp_eZnY-1E,952
+pendingai/client/client.py,sha256=OMRt0ybEO_hWp6xJ0I2cLTXMb7ZIwlRNM1P_ThfYZI4,2979
+pendingai/commands/__init__.py,sha256=NGyY75gJurB330-pIwjkAD5NFKfFGndggbNT-Sg-fd8,1332
+pendingai/commands/retro.py,sha256=5Qy2OMr-M2h4sz66_4iC6EiZ3nZmdfmVuuNNLR5PpC4,25753
+pendingai/context.py,sha256=4X2B--hwetmGULOlUpsKfNtd9ri5GO6pWN97HVadNwg,3292
+pendingai/main.py,sha256=IL_HuqFG2FV6IBD0Sz9hu-7cli_Vo3IwilSffjKxmUw,9512
+pendingai-0.0.1.dist-info/METADATA,sha256=iOX4K45Oi-ixW2m5mMN6fGdlv3XWc4dT5S8tGBm0PuM,2692
+pendingai-0.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pendingai-0.0.1.dist-info/entry_points.txt,sha256=a3mKn4yc81iEhO4eujBxLZEGwu5VDTRV8Fz989niuzM,48
+pendingai-0.0.1.dist-info/RECORD,,
