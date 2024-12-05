@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: bpack
+Version: 1.2.0
+Summary: Binary data structures (un-)packing library
+Author-email: Antonio Valentino <antonio.valentino@tiscali.it>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/avalentino/bpack
+Project-URL: Documentation, https://bpack.readthedocs.io
+Project-URL: Repository, https://github.com/avalentino/bpack.git
+Project-URL: Changelog, https://github.com/avalentino/bpack/blob/main/docs/release_notes.rst
+Project-URL: Issues, https://github.com/avalentino/bpack/issues
+Keywords: binary,struct,descriptor,declarative,bit,unpack,pack
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Provides-Extra: bs
+Requires-Dist: bitstruct; extra == "bs"
+Provides-Extra: ba
+Requires-Dist: bitarray>=1.5.1; extra == "ba"
+Provides-Extra: np
+Requires-Dist: numpy; extra == "np"
+Provides-Extra: codegen
+Requires-Dist: black; extra == "codegen"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: bpack[bs]; extra == "test"
+Requires-Dist: bpack[ba]; extra == "test"
+Requires-Dist: bpack[np]; extra == "test"
+Provides-Extra: full
+Requires-Dist: bpack[bs]; extra == "full"
+Requires-Dist: bpack[ba]; extra == "full"
+Requires-Dist: bpack[np]; extra == "full"
+Requires-Dist: bpack[codegen]; extra == "full"
+Requires-Dist: bpack[test]; extra == "full"
+
+===========================================
+Binary data structures (un-)Packing library
+===========================================
+
+.. badges
+
+|PyPI Status| |GHA Status| |Documentation Status|
+
+.. |PyPI Status| image:: https://img.shields.io/pypi/v/bpack.svg
+    :target: https://pypi.org/project/bpack
+    :alt: PyPI Status
+.. |GHA Status| image:: https://github.com/avalentino/bpack/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/avalentino/bpack/actions
+    :alt: GitHub Actions Status
+.. |Documentation Status| image:: https://readthedocs.org/projects/bpack/badge/?version=latest
+    :target: https://bpack.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. description
+
+The *bpack* Python package provides tools to describe and encode/decode
+binary data.
+
+Binary data are assumed to be organized in *records*, each composed by a
+sequence of fields. Fields are characterized by a known size, offset
+(w.r.t. the beginning of the record) and datatype.
+
+The package provides classes and functions that can be used to:
+
+* describe binary data structures in a declarative way (structures can
+  be specified up to the bit level)
+* automatically generate encoders/decoders for a specified data descriptor
+
+Encoders/decoders (*backends*) rely on well known Python packages like:
+
+* |struct| (form the standard library)
+* bitstruct_ (optional)
+* numpy_ (optional)
+* bitarray_ (optional) - partial implementation
+
+
+.. _struct: https://docs.python.org/3/library/struct.html
+.. _bitstruct: https://github.com/eerimoq/bitstruct
+.. _numpy: https://numpy.org
+.. _bitarray: https://github.com/ilanschnell/bitarray
+
+.. local-definitions
+
+.. |struct| replace:: struct_
+
+
+License
+-------
+
+:Copyright: 2020-2024, Antonio Valentino <antonio.valentino@tiscali.it>
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
