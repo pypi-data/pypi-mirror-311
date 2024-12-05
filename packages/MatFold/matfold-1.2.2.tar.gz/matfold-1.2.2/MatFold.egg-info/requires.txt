@@ -1,0 +1,7 @@
+numpy
+pandas
+pymatgen>=2024
+
+[dev]
+twine
+build
