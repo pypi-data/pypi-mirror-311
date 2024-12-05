@@ -1,0 +1,1 @@
+Library for a work with Cota (Core)
