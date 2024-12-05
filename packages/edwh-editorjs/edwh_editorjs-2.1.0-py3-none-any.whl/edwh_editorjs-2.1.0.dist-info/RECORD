@@ -1,0 +1,10 @@
+editorjs/__about__.py,sha256=Xybt2skBZamGMNlLuOX1IG-h4uIxqUDGAO8MIGWrJac,22
+editorjs/__init__.py,sha256=-OHUf7ZXfkbdFB1r85eIjpHRfql-GCNUCKuBEdEt2Rc,58
+editorjs/blocks.py,sha256=kQxmx8QDDVhb1YP6JTFOCKGTYHfcbGswtkryorp1Cn8,22285
+editorjs/core.py,sha256=T_7pOzLp7dBxxFSgfG0-ogZShVKaUBd5h_PEEuuSzdQ,3406
+editorjs/exceptions.py,sha256=TyfHvk2Z5RbKxTDK7lrjgwAgVgInXIuDW63eO5jzVFw,106
+editorjs/helpers.py,sha256=q861o5liNibMTp-Ozay17taF7CTNsRe901lYhhxdwHg,73
+editorjs/types.py,sha256=W7IZWMWgzJaQulybIt0Gx5N63rVj4mEy73VJWo4VAQA,1029
+edwh_editorjs-2.1.0.dist-info/METADATA,sha256=DmCP8FVdXpma3tupQeNLLTOKMSVpt6qYZTIAxaRo6qY,972
+edwh_editorjs-2.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+edwh_editorjs-2.1.0.dist-info/RECORD,,
