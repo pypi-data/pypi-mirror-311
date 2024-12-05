@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: seaway
+Version: 1.0.0
+Summary: 客户端组件化CLI
+Home-page: 
+Author: wangshuwen
+Author-email: wnwn7375@outlook.com
+License: MIT
+Keywords: 组件化
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# SeawayCli
+
+### 安装
+
+#### python3环境安装
+
+brew install python3
+
+
+#### seaway安装
+
+
+pip3 install seaway
