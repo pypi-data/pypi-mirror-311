@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "build", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easytuio"
+dynamic = ["version"]
+description = "A Python library for handling TUIO messages"
+readme = "README.md"
+license = { text = "MIT License" }
+authors = [
+    { name = "Vishnu", email = "vishnu@acemetrics.com" }
+]
+keywords = ["TUIO", "multi-touch", "tangible interaction", "OSC"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = ["python-osc"]
+
+[project.urls]
+Documentation = "https://gitlab.com/acemetrics-technologies/easytuio#README"
+Source = "https://gitlab.com/acemetrics-technologies/easytuio"
+Tracker = "https://gitlab.com/acemetrics-technologies/easytuio/-/issues"
+
+[tool.setuptools.package-data]
+"easytuio" = ["py.typed"]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "node-and-date"

@@ -1,0 +1,15 @@
+.gitignore
+.gitlab-ci.yml
+README.md
+pyproject.toml
+easytuio/__init__.py
+easytuio/client.py
+easytuio/messages.py
+easytuio/profiles.py
+easytuio/utils.py
+easytuio.egg-info/PKG-INFO
+easytuio.egg-info/SOURCES.txt
+easytuio.egg-info/dependency_links.txt
+easytuio.egg-info/requires.txt
+easytuio.egg-info/top_level.txt
+examples/simple_client.py
