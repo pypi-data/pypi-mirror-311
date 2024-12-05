@@ -1,0 +1,33 @@
+[project]
+name = "typing-arguments"
+version = "0.1.0"
+description = "Store references of your typing arguments to be available at runtime."
+readme = "README.md"
+authors = [
+    {name = "TEAM23 GmbH", email = "info@team23.de"},
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/team23/typing-arguments"
+
+[project.optional-dependencies]
+pydantic = [
+    "pydantic>=2.0.0,<3.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pydantic>=2.10.1",
+    "pyright>=1.1.389",
+    "pytest>=8.3.3",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.8.0",
+    "tox>=4.23.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
