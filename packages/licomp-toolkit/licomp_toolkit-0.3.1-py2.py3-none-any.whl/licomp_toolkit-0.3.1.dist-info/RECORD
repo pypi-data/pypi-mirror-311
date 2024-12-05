@@ -1,0 +1,10 @@
+licomp_toolkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+licomp_toolkit/__main__.py,sha256=1RrRdvJUw-xbpgZkVsoje8xdW8rD6jo0JNuJORqKXpk,2648
+licomp_toolkit/config.py,sha256=zOckorj2FJJp8Sx7ZmWHiLm3NjOEeBulQ6L4WR4GTc8,720
+licomp_toolkit/toolkit.py,sha256=zVnMlfRYwVXyBL9TmojVpG2SeaYpb59k55gqYmxLVWA,6976
+licomp_toolkit-0.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+licomp_toolkit-0.3.1.dist-info/METADATA,sha256=4U1X8fFBwD1aRIE1c8_KEQvxTdOMgA2IkAeV6n4YdW8,1746
+licomp_toolkit-0.3.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+licomp_toolkit-0.3.1.dist-info/entry_points.txt,sha256=7YMUHZQ_wEbV4skNzTZIZ2yHiPidETqdTcUpsSriYJk,65
+licomp_toolkit-0.3.1.dist-info/top_level.txt,sha256=_mz0gPX6PtDPo5TiwK9hsTDtKj6xLut2rEH243vIl7Q,15
+licomp_toolkit-0.3.1.dist-info/RECORD,,
