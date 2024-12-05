@@ -1,0 +1,163 @@
+Metadata-Version: 2.1
+Name: anmoku
+Version: 1.0.0a1
+Summary: A peaceful and fully typed MyAnimeList/Jikan API wrapper with caching and proper rate limiting.
+Author-email: Goldy <goldy@devgoldy.xyz>, EmreTech <emreterzioglu49@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023-present Goldy
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: GitHub, https://github.com/THEGOLDENPRO/anmoku
+Project-URL: BugTracker, https://github.com/THEGOLDENPRO/anmoku/issues
+Keywords: anime api wrapper,mal,myanimelist,My Anime List,jikan api wrapper,async anime api wrapper,jikan caching,jikan rate limiting
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typing-extensions
+Requires-Dist: devgoldyutils>=2.5.6
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: Pillow
+Requires-Dist: slowstack-plus
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: Sphinx; extra == "dev"
+Requires-Dist: sphinxext-opengraph; extra == "dev"
+Requires-Dist: sphinx-inline-tabs; extra == "dev"
+Requires-Dist: furo; extra == "dev"
+Requires-Dist: myst-parser; extra == "dev"
+Requires-Dist: sphinx-copybutton; extra == "dev"
+
+<div align="center">
+
+  # Anmoku 安黙
+
+  <sub>A peaceful and fully typed [MyAnimeList](https://myanimelist.net/) / [Jikan](https://jikan.moe/) Python API wrapper with caching and proper rate limiting.</sub>
+
+  <img width="550px" src="./assets/quick_showcase_1.gif">
+
+  <br>
+
+</div>
+
+> [!NOTE]
+> 
+> Anmoku is currently a work in progress so the features below may not be complete yet or experimental.
+
+## Features ✨
+- [x] Rate limiting 🎀 (with actual waiting).
+- [ ] Supports caching. ⚡
+- [ ] [Fully type hinted.](#type-hinting-support-) 🌌 ~~*yes you heard me correctly*~~
+
+## Examples ⚗️
+Anmoku is probably the simplest Jikan API wrapper you'll ever use. All you need is the client and the resource. 🌊
+```python
+from anmoku import Anmoku, AnimeCharacters
+
+client = Anmoku(debug = True)
+
+anime_characters = client.get(AnimeCharacters, id = 28851) # ID for the anime film "A Silent Voice".
+
+for character in anime_characters:
+    print(f"{character.name} ({character.url})")
+
+client.close()
+```
+We also have an async client:
+```python
+import asyncio
+from anmoku import AsyncAnmoku, AnimeCharacters
+
+async def main():
+
+    client = AsyncAnmoku(debug = True)
+
+    anime_characters = await client.get(AnimeCharacters, id = 28851) # ID for the anime film "A Silent Voice".
+
+    for character in anime_characters:
+        print(f"{character.name} ({character.url})")
+
+    await client.close()
+
+asyncio.run(main())
+```
+
+#### Output:
+```sh
+[DEBUG] (anmoku) - [AsyncAnmoku] GET --> https://api.jikan.moe/v4/anime/28851/characters
+Ishida, Shouya (https://myanimelist.net/character/80491/Shouya_Ishida)
+Nishimiya, Shouko (https://myanimelist.net/character/80243/Shouko_Nishimiya)
+Headteacher (https://myanimelist.net/character/214351/Headteacher)
+Hirose, Keisuke (https://myanimelist.net/character/97569/Keisuke_Hirose)
+Ishida, Maria (https://myanimelist.net/character/97943/Maria_Ishida)
+Ishida, Sister (https://myanimelist.net/character/118723/Sister_Ishida)
+# ... more characters below but I cut them off for the convenience of this readme
+```
+
+### Searching! 🤩
+Here are some searching examples you can try:
+```python
+from anmoku import Anmoku, Character
+
+client = Anmoku(debug = True)
+
+characters = client.search(Character, "anya forger")
+
+for character in characters:
+    print(f"{character.name} ({character.image.url})")
+
+client.close()
+```
+Merge that with gradio and you have a GUI.
+https://github.com/THEGOLDENPRO/anmoku/blob/099f6596b685daa65259319d6730bef674ced38a/examples/gradio_anime_search.py#L1-L23
+
+[[Gradio Video]](https://github.com/THEGOLDENPRO/anmoku/assets/66202304/75c9c35c-bf68-4c53-96e5-057dc97ca1dd)
+
+## Type hinting support! 🌌
+API responses in our library are strongly typed.
+
+<img src="./assets/type_hints_1.png" width="100%">
+
+On top of that, we even provide class interfaces if you wish for stability and ease of use.
+
+<img src="./assets/type_hints_3.png" width="100%">
+<img src="./assets/type_hints_2.png" width="100%">
+
+<br>
+
+<div align="center">
+
+  <img src="./assets/logo.svg" width="600px">
+
+  <sub>*Python's future Jikan API wrapper.*</sub>
+
+</div>
