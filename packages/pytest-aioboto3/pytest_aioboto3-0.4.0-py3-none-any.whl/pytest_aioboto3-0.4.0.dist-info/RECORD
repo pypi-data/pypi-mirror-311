@@ -1,0 +1,8 @@
+pytest_aioboto3/__init__.py,sha256=s50o8TzLnmWU3KrLRi6DcvRXc1mbE-t2VKXLsook8Fc,230
+pytest_aioboto3/aioboto3_fixtures.py,sha256=KrFgO9iJToCHOBlO9KR5oBKYo-cgWOJFsRuYBgX5eM4,2788
+pytest_aioboto3/moto_fixtures.py,sha256=RSzD8f7c3bF54qj7Fuxu2Iw2mK6ttD2JuIOgHzEpR1k,3912
+pytest_aioboto3-0.4.0.dist-info/LICENSE,sha256=LETP3LjiXRGlnbBKN2VBSnsrPI1OjY2sWgYQ5grUcMQ,549
+pytest_aioboto3-0.4.0.dist-info/METADATA,sha256=dkZLrcp2QGd8sEGscqiXOeuPLa-Cz6r9hYi-VViybkw,3421
+pytest_aioboto3-0.4.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pytest_aioboto3-0.4.0.dist-info/entry_points.txt,sha256=5LVbEA8XcdMbVKerp3z0-gyk3p-1MFpiPU9DDeWcyoQ,44
+pytest_aioboto3-0.4.0.dist-info/RECORD,,
