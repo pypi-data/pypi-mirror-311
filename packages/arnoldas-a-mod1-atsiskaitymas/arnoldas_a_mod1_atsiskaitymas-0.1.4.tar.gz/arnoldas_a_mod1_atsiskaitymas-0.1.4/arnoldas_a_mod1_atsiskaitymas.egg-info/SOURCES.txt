@@ -1,0 +1,14 @@
+setup.py
+arnoldas_a_mod1_atsiskaitymas/__init__.py
+arnoldas_a_mod1_atsiskaitymas/book_info.py
+arnoldas_a_mod1_atsiskaitymas/crawler.py
+arnoldas_a_mod1_atsiskaitymas/football_results.py
+arnoldas_a_mod1_atsiskaitymas.egg-info/PKG-INFO
+arnoldas_a_mod1_atsiskaitymas.egg-info/SOURCES.txt
+arnoldas_a_mod1_atsiskaitymas.egg-info/dependency_links.txt
+arnoldas_a_mod1_atsiskaitymas.egg-info/requires.txt
+arnoldas_a_mod1_atsiskaitymas.egg-info/top_level.txt
+samples/__init__.py
+tests/__init__.py
+tests/test_book_info.py
+tests/test_football_results.py
