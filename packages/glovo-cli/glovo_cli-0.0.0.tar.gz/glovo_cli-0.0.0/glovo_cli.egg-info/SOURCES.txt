@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+glovo_cli/__init__.py
+glovo_cli.egg-info/PKG-INFO
+glovo_cli.egg-info/SOURCES.txt
+glovo_cli.egg-info/dependency_links.txt
+glovo_cli.egg-info/top_level.txt
