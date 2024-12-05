@@ -1,0 +1,11 @@
+agentX/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agentX/agent_x.py,sha256=0lFVAAw1G-ep5SDpbfOferjQmFaCjRJu9L2wvhNoUJM,7927
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/simple_agent.py,sha256=cOxPsI37BnH_F0qkc2GOsVUEPWguaVlCnvV_8DdVvUw,1371
+xAI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xAI/x_ai.py,sha256=_quSF6NzrjRHIIn16JCzwIxU9VXitDh28pRhh1pgIDY,14012
+agentxai-0.1.5.dist-info/LICENSE,sha256=wfvw9QOV7lursPPSGI0h7AiT3bW63CCUYdTVcPXhsc0,435
+agentxai-0.1.5.dist-info/METADATA,sha256=MJCgGRR-w-tIDl7jpa5ViPkzXfFaYj9avmWQS0uftQE,5308
+agentxai-0.1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+agentxai-0.1.5.dist-info/top_level.txt,sha256=BLScKGO7HPnN1RMS-LR_3tzHoQrWDC29N3xow6jjUyA,19
+agentxai-0.1.5.dist-info/RECORD,,
