@@ -1,0 +1,14 @@
+hpml/__init__.py,sha256=EaIrLqQrNceAMCCGa8GW-R9pNrQpUjuakecvoLFiCM8,228
+hpml/centerer.py,sha256=HDOCAPogNQJh9xQVYvrEIct3qdd5DYNZUOrSu3k7hx0,2790
+hpml/hpml_compiler.py,sha256=ms92q2iF6zCEH4Uoa93VvAvtLF70SWRTGFkb2KkcTXs,12336
+hpml/lookups.py,sha256=y9i1DVITYJvP6jxK9BtAeQ-SCbjacrcft_O-nxr4vA0,2639
+hpml/preprocessor.py,sha256=T3xpjt9TvHEXaAYNOhny2FvpYx8mec4kNIyxorEs2UM,2741
+hpml/utils.py,sha256=5ZUpq4qBaNPraR58g4t5y24YsFn_xDfpqNE_SP32TY8,3520
+hpml/data/hpml.lang,sha256=PNLMbZReb1_j6Lq6siWqKl7jvfYjg76AxroO_YchTo0,1660
+hpml/data/packages.tex,sha256=WY_xrecTZ0zgts-FEET2_q7zaduXzGAchyjkae-Fceo,629
+hpml/data/semantics.json,sha256=vpoPFClbUzc4CuI6OWNZvJwyCpYM1rUIrVWGjw9SFlE,1926
+hpml/data/syntactics.json,sha256=cXjBmkuj9JL_bxPD0BNmmkvTQWccSB1FSBIw3mzxMEs,1406
+hpml-1.9.0.dist-info/METADATA,sha256=IkPowMxdYzKWVlbywypnKcbJJP9gNqukabgVzRTihaI,234
+hpml-1.9.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hpml-1.9.0.dist-info/top_level.txt,sha256=sfzTe0d5AbBUlAjKfeYK5y-1xkM83ITBnsV8REO-7Vk,5
+hpml-1.9.0.dist-info/RECORD,,
