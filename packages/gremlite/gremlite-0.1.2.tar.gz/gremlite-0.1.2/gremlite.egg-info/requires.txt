@@ -1,0 +1,8 @@
+gremlinpython>=3.7.0
+
+[dev]
+pytest
+pytest-cov
+build
+twine
+invoke
