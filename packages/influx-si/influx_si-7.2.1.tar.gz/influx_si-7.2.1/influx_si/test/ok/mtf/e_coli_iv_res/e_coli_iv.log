@@ -1,0 +1,29 @@
+"/home/sokol/sysbio/dev/ftbl2sys/influx_si/influx_i.py" "--pref" "e_coli_i" "--pref" "e_coli_iv" "--pref" "ex_i_2box_var" "--pref" "../prl_exp/mtf/e_coli_GX_prl"
+code gen: 2024-11-26 10:13:01
+calcul  : 2024-11-26 10:13:02
+load    : 2024-11-26 10:13:02.74 cpu=0.584
+rinit   : 2024-11-26 10:13:02.74 cpu=0.591
+r_flux  : 2024-11-26 10:13:02.74 cpu=0.591
+Afl qr(): 2024-11-26 10:13:02.82 cpu=0.625
+dfl_dffg: 2024-11-26 10:13:02.86 cpu=0.646
+spAbr   : 2024-11-26 10:13:02.86 cpu=0.647
+weight  1: 2024-11-26 10:13:02.86 cpu=0.648
+weight  2: 2024-11-26 10:13:02.86 cpu=0.652
+weight  3: 2024-11-26 10:13:02.86 cpu=0.654
+weight  4: 2024-11-26 10:13:02.86 cpu=0.656
+weight  5: 2024-11-26 10:13:02.86 cpu=0.658
+weight  6: 2024-11-26 10:13:02.87 cpu=0.66
+measure : 2024-11-26 10:13:02.88 cpu=0.691
+ineq    : 2024-11-26 10:13:02.89 cpu=0.701
+preopt  : 2024-11-26 10:13:02.97 cpu=0.857
+labargs : 2024-11-26 10:13:02.97 cpu=0.858
+cl expor: 2024-11-26 10:13:03.32 cpu=0.862
+cl sourc: 2024-11-26 10:13:04.20 cpu=0.985
+run    1: 2024-11-26 10:13:04.35 cpu=0.987
+
+Starting point
+residjac: 2024-11-26 10:13:04.52 cpu=0.987
+postopt : 2024-11-26 10:13:05.16 cpu=0.99
+linstats: 2024-11-26 10:13:05.39 cpu=1.038
+***Warning: chi2: Measurement number 7 is lower or equal to parameter number 26. Chi2 test cannot be done.
+rend    : 2024-11-26 10:13:05.41 cpu=1.082

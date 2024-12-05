@@ -1,0 +1,44 @@
+"/home/sokol/sysbio/dev/ftbl2sys/influx_si/influx_i.py" "--pref" "e_coli_i" "--pref" "e_coli_iv" "--pref" "ex_i_2box_var" "--pref" "../prl_exp/mtf/e_coli_GX_prl"
+code gen: 2024-11-26 10:13:01
+calcul  : 2024-11-26 10:13:02
+load    : 2024-11-26 10:13:02.73 cpu=0.549
+rinit   : 2024-11-26 10:13:02.73 cpu=0.552
+r_flux  : 2024-11-26 10:13:02.73 cpu=0.552
+Afl qr(): 2024-11-26 10:13:02.75 cpu=0.568
+dfl_dffg: 2024-11-26 10:13:02.75 cpu=0.576
+spAbr   : 2024-11-26 10:13:02.76 cpu=0.579
+weight  1: 2024-11-26 10:13:02.76 cpu=0.58
+weight  2: 2024-11-26 10:13:02.76 cpu=0.583
+weight  3: 2024-11-26 10:13:02.76 cpu=0.585
+weight  4: 2024-11-26 10:13:02.76 cpu=0.589
+weight  5: 2024-11-26 10:13:02.76 cpu=0.592
+weight  6: 2024-11-26 10:13:02.76 cpu=0.594
+measure : 2024-11-26 10:13:02.78 cpu=0.635
+ineq    : 2024-11-26 10:13:02.79 cpu=0.649
+preopt  : 2024-11-26 10:13:02.94 cpu=0.859
+labargs : 2024-11-26 10:13:02.94 cpu=0.861
+cl expor: 2024-11-26 10:13:03.31 cpu=0.866
+cl sourc: 2024-11-26 10:13:04.16 cpu=1.006
+run    1: 2024-11-26 10:13:04.23 cpu=1.009
+
+Starting point
+zc ineq : 2024-11-26 10:13:04.23 cpu=1.009
+check ja: 2024-11-26 10:13:04.44 cpu=1.156
+optim   : 2024-11-26 10:13:05.19 cpu=1.16
+it=0	res=237.7947
+it=1	res=70.06248	normstep=30.47659	btk=1
+it=2	res=36.43491	normstep=31.35182	btk=1
+it=3	res=21.83319	normstep=0.2793447	btk=1
+it=4	res=21.7384	normstep=0.03332941	btk=1
+it=5	res=21.72383	normstep=0.03867587	btk=1
+it=6	res=21.6348	normstep=0.08885869	btk=1
+it=7	res=21.37745	normstep=0.4890457	btk=0.5
+it=8	res=21.24931	normstep=0.6490092	btk=1
+it=9	res=20.96647	normstep=0.3171006	btk=1
+it=10	res=20.96366	normstep=0.1287473	btk=1
+it=15	res=20.96358	normstep=5.449452e-05	btk=1
+secondzc: 2024-11-26 10:13:11.61 cpu=3.664
+After the first optimization, no zero crossing inequality was activated. So no reoptimization
+postopt : 2024-11-26 10:13:11.61 cpu=3.664
+linstats: 2024-11-26 10:13:11.75 cpu=3.716
+rend    : 2024-11-26 10:13:11.77 cpu=3.773

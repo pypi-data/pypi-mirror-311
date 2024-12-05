@@ -1,0 +1,43 @@
+"/home/sokol/sysbio/dev/ftbl2sys/influx_si/influx_i.py" "--pref" "e_coli_i" "--pref" "e_coli_iv" "--pref" "ex_i_2box_var" "--pref" "../prl_exp/mtf/e_coli_GX_prl"
+code gen: 2024-11-26 10:13:01
+calcul  : 2024-11-26 10:13:02
+load    : 2024-11-26 10:13:02.75 cpu=0.583
+rinit   : 2024-11-26 10:13:02.76 cpu=0.59
+r_flux  : 2024-11-26 10:13:02.76 cpu=0.59
+Afl qr(): 2024-11-26 10:13:02.77 cpu=0.604
+dfl_dffg: 2024-11-26 10:13:02.78 cpu=0.607
+spAbr   : 2024-11-26 10:13:02.78 cpu=0.61
+weight  1: 2024-11-26 10:13:02.78 cpu=0.611
+weight  2: 2024-11-26 10:13:02.78 cpu=0.612
+weight  3: 2024-11-26 10:13:02.78 cpu=0.612
+weight  4: 2024-11-26 10:13:02.78 cpu=0.614
+weight  5: 2024-11-26 10:13:02.79 cpu=0.616
+weight  6: 2024-11-26 10:13:02.79 cpu=0.617
+weight  7: 2024-11-26 10:13:02.79 cpu=0.619
+weight  8: 2024-11-26 10:13:02.79 cpu=0.62
+weight  9: 2024-11-26 10:13:02.79 cpu=0.621
+measure : 2024-11-26 10:13:02.81 cpu=0.646
+ineq    : 2024-11-26 10:13:02.83 cpu=0.675
+preopt  : 2024-11-26 10:13:03.12 cpu=0.783
+labargs : 2024-11-26 10:13:03.12 cpu=0.784
+run    1: 2024-11-26 10:13:03.12 cpu=0.785
+
+Starting point
+check ja: 2024-11-26 10:13:03.47 cpu=1.101
+optim   : 2024-11-26 10:13:04.83 cpu=2.422
+it=0	res=46.694
+it=1	res=46.48103	normstep=2.927638	btk=0.25
+it=2	res=46.344	normstep=2.248907	btk=0.25
+it=3	res=46.25468	normstep=1.772153	btk=0.25
+it=4	res=46.19203	normstep=1.431594	btk=0.25
+it=5	res=46.14514	normstep=1.158672	btk=0.25
+it=6	res=46.1077	normstep=0.9127221	btk=0.25
+it=7	res=46.07336	normstep=0.7505174	btk=0.25
+it=8	res=46.03924	normstep=0.6463508	btk=0.25
+it=9	res=46.00498	normstep=0.5895323	btk=0.25
+it=10	res=45.9741	normstep=0.5662715	btk=0.25
+it=20	res=45.88456	normstep=0.005092575	btk=1
+it=27	res=45.88455	normstep=7.951339e-06	btk=1
+postopt : 2024-11-26 10:13:27.73 cpu=30.035
+linstats: 2024-11-26 10:13:28.03 cpu=30.593
+rend    : 2024-11-26 10:13:28.05 cpu=30.634
