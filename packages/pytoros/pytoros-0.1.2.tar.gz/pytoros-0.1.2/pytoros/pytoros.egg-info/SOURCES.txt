@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+pytoros/pytoros.egg-info/PKG-INFO
+pytoros/pytoros.egg-info/SOURCES.txt
+pytoros/pytoros.egg-info/dependency_links.txt
+pytoros/pytoros.egg-info/requires.txt
+pytoros/pytoros.egg-info/top_level.txt
+tests/test_token.py
