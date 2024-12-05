@@ -1,0 +1,11 @@
+bytewax_webflow/__init__.py,sha256=ku1ZxFSViZ6FsLJ2P_CM-7m7SI6o_vkSu5wG43IWi-E,220
+bytewax_webflow/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bytewax_webflow/types.py,sha256=ppFcVhuXpPYxQP6tlrqOLG28LOaANC6X3ZDd1i6JeA8,375
+bytewax_webflow/webflow_client.py,sha256=rF9kjr9VhO3HTJiVImC-OOTwVii5o35kDWSDs6eEwQE,3358
+bytewax_webflow/inputs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bytewax_webflow/outputs/__init__.py,sha256=2VxWPdEj_fdx9eS9NJW7hLO4lbjp0NKM5lmGEuCDgCM,103
+bytewax_webflow/outputs/collection_item_sink.py,sha256=vJ8qWeyMIfO6MxjZxobe3fu3P0bw9u7xMHhTGseHjHc,4195
+bytewax_webflow-0.1.0.dist-info/METADATA,sha256=kESV10PebErPKOmrAInMUzQMUvv3vwRsaxebgn_QqKM,825
+bytewax_webflow-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+bytewax_webflow-0.1.0.dist-info/licenses/LICENSE,sha256=-bdNiWuzFtUvfdp9P_8n1nM-lg9aWJh-ECvrhVUnDkg,1066
+bytewax_webflow-0.1.0.dist-info/RECORD,,

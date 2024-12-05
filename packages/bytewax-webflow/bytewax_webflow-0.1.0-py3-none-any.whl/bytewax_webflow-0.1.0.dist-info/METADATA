@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: bytewax-webflow
+Version: 0.1.0
+Summary: Add your description here
+Project-URL: Repository, https://github.com/imnotjames/bytewax-webflow.git
+Project-URL: Issues, https://github.com/imnotjames/bytewax-webflow/issues
+Author-email: James Ward <james@notjam.es>
+Requires-Python: >=3.12
+Requires-Dist: bytewax>=0.21.0
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+# Byteflow Webflow
+
+Webflow connectors for Bytewax.
+
+This connector offers 1 sink:
+
+* `WebflowCollectionSink` - inserts or updates a specified Webflow Collection.
+
+## Installation
+
+This package is available via [PyPi](https://pypi.org/project/bytewax-webflow) as
+`bytewax-webflow` and can be installed via your package manager of choice.
+
+## Usage
+
+TBD
+
+## License
+
+Licensed under the [MIT License](./LICENSE).
