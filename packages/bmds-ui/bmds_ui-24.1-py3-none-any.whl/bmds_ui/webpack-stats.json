@@ -1,0 +1,21 @@
+{
+  "status": "done",
+  "assets": {
+    "main.7f1359c875db44ea36f4.js": {
+      "name": "main.7f1359c875db44ea36f4.js",
+      "path": "/home/runner/work/BMDS-UI/BMDS-UI/bmds_ui/static/bundles/main.7f1359c875db44ea36f4.js",
+      "publicPath": "/static/bundles/main.7f1359c875db44ea36f4.js"
+    },
+    "main.7f1359c875db44ea36f4.js.LICENSE.txt": {
+      "name": "main.7f1359c875db44ea36f4.js.LICENSE.txt",
+      "path": "/home/runner/work/BMDS-UI/BMDS-UI/bmds_ui/static/bundles/main.7f1359c875db44ea36f4.js.LICENSE.txt",
+      "publicPath": "/static/bundles/main.7f1359c875db44ea36f4.js.LICENSE.txt"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main.7f1359c875db44ea36f4.js"
+    ]
+  },
+  "publicPath": "/static/bundles/"
+}
