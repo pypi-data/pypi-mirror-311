@@ -1,0 +1,26 @@
+//--------skyeye cli start--------
+buildscript {
+    repositories {
+        maven {
+            url 'https://packages.aliyun.com/67332f2bcc7f222f53c866b8/maven/2503095-snapshot-eo1fet'
+            credentials {
+                setUsername(System.getenv("ALI_MAVEN_USER"))
+                setPassword(System.getenv("ALI_MAVEN_PWD"))
+            }
+        }
+        maven {
+            url 'https://packages.aliyun.com/67332f2bcc7f222f53c866b8/maven/2503095-release-4vztze'
+            credentials {
+                setUsername(System.getenv("ALI_MAVEN_USER"))
+                setPassword(System.getenv("ALI_MAVEN_PWD"))
+            }
+        }
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
+    }
+    dependencies {
+        classpath 'cn.cheney:seaway:1.0.0-SNAPSHOT'
+    }
+}
+apply plugin: 'seaway'
+//--------skyeye cli end--------
