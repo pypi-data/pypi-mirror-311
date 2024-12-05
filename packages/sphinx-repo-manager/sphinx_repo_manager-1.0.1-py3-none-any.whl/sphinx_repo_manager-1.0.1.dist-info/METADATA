@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sphinx_repo_manager
+Version: 1.0.1
+Summary: Sphinx extension automates the management of multiple documentation repositories as part of building a larger, unified documentation system
+License: All Rights Reserved
+Author: Xsolla Backend
+Author-email: xbe@xsolla.com
+Requires-Python: >=3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: PyYAML (>=6.0.2)
+Requires-Dist: colorama (>=0.4.6)
+Requires-Dist: python-dotenv (>=1.0.1)
+Requires-Dist: rich (>=13.9.4)
+Requires-Dist: sphinx (>=7.3.7)
