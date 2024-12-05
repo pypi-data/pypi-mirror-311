@@ -1,0 +1,10 @@
+pytreebuilder/__init__.py,sha256=uzdTeCbEZGf2Lhe6QXs9m9dgAHHwLBzgS-Do3sCzZlY,72
+pytreebuilder/pytreebuilder.py,sha256=yhC2E5pqr0XpuKk3QvSs0ElbQzp6CHAHoE2JfrDuIHk,3842
+pytreebuilder/utils.py,sha256=5W2KI08d57xsApUWZaD0F7hFkAMVvxeb97v77cVHuC8,67
+tests/__init__.py,sha256=SxxSiJ8oR__2gonny5vAa0CF70apfF6mhHFvuFloGBg,181
+tests/test_pytreebuilder.py,sha256=fTQezhlh2HZ2FzdEFOMxSnpAjvIh2xAOLKEvdNSDyi0,1345
+pytreebuilder-0.1.dist-info/LICENSE,sha256=J9JUYTEgH3LjSo4-x6soXiTa9YGQKwJu4Xpn5inMt98,1083
+pytreebuilder-0.1.dist-info/METADATA,sha256=2IcshuUw3ZsogYmVnjMljK8dlp_7kvagU7W-RZywBuw,11126
+pytreebuilder-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pytreebuilder-0.1.dist-info/top_level.txt,sha256=Je-7EZI0LRXsctpfdOXuiNJAAXnxEY-RYqFDZmnXHNg,20
+pytreebuilder-0.1.dist-info/RECORD,,
