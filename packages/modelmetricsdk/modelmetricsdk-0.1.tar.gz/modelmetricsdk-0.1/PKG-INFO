@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: modelmetricsdk
+Version: 0.1
+Summary: model store SDK for Training Host
+Home-page: 
+Author: Joseph Thaliath
+Author-email: jo.thaliath@samsung.com
+License: Apache 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSES.txt
+
+# Model Storage
