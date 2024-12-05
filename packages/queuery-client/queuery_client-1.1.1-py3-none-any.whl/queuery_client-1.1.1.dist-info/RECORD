@@ -1,0 +1,12 @@
+queuery_client/__init__.py,sha256=QE7DmRFzFFqBHQE8XMSW-p7Q4eAAt-gJ5skk4DzKScA,151
+queuery_client/cast.py,sha256=dx7m1AZhlGMRgikFEVra0XjL7dEhYn6ND5r6ZCOuVr0,1284
+queuery_client/client.py,sha256=JWLfv8GCKB0DO-decwvpft-lzpnme5uQ7cT-VJBog2k,3985
+queuery_client/exceptions.py,sha256=wRnS--dscG9xIHejudT_4WqblqSJJhqQrNRmeAiWIKw,417
+queuery_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+queuery_client/queuery_client.py,sha256=-RWOH7-OSKKIFzrd9qhvihGmU50f4dFYQPXJOorPO5Y,969
+queuery_client/response.py,sha256=mw9UDYb7J_IwOuuoCZRdMODcJJi20WDPbKSxfwrjIsI,4767
+queuery_client/util.py,sha256=pnjlOY3JgDhlv7HGyHJPdbWsQ8IyC-73t5Pjjzt0uMs,556
+queuery_client-1.1.1.dist-info/LICENSE,sha256=FibKegJLvtm1YAHXxb0IosRQynaeJps-lEnbYF35nuU,1075
+queuery_client-1.1.1.dist-info/METADATA,sha256=TzWQ9JRnDZkWPdXG1nI1dwwq3yCXtRFRjymnBJuEdrU,2627
+queuery_client-1.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+queuery_client-1.1.1.dist-info/RECORD,,
