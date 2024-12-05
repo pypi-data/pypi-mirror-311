@@ -1,0 +1,2 @@
+[console_scripts]
+cognify = cognify.__main__:main
