@@ -1,0 +1,10 @@
+createfastapiapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+createfastapiapp/cli.py,sha256=irwaIuFiVsnYFHy0OCsPUTMytMO5IerEjzfkZugB258,169
+createfastapiapp/createapp.py,sha256=-Zq93XXZUvcpPL-4y6RE40Whh1JVDCPdqRwZihSRYUE,9452
+createfastapiapp/assets/example.txt,sha256=lTBovRjiz0_TgtAtbA1C5hNi2ffbqnNPqkKg6UiKCT8,54
+make_fastapi_app-1.0.7.dist-info/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+make_fastapi_app-1.0.7.dist-info/METADATA,sha256=01vZfqjwHU0QGDhxnLVv1L0k2d5EZyi5THZi3_IuJd0,3021
+make_fastapi_app-1.0.7.dist-info/WHEEL,sha256=pxeNX5JdtCe58PUSYP9upmc7jdRPgvT0Gm9kb1SHlVw,109
+make_fastapi_app-1.0.7.dist-info/entry_points.txt,sha256=Mx1dNk8ZHjh3ZmhbFwMX9jYDtRAEWsFlUJp_jSQVQ5E,82
+make_fastapi_app-1.0.7.dist-info/top_level.txt,sha256=lSp8O1UGC3DmzP9YPm4oeJXQianPo17Tv653Ub9wvBE,17
+make_fastapi_app-1.0.7.dist-info/RECORD,,
