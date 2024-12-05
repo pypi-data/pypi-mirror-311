@@ -1,0 +1,2 @@
+[console_scripts]
+ansible-vault-keyring = ansible_vault_keyring:ansible_vault_keyring.main
