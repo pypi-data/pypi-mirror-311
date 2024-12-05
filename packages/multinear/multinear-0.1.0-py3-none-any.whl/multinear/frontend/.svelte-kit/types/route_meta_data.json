@@ -1,0 +1,18 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/compare": [
+		"src/routes/+layout.ts"
+	],
+	"/dashboard": [
+		"src/routes/+layout.ts"
+	],
+	"/experiments": [
+		"src/routes/+layout.ts"
+	],
+	"/run": [
+		"src/routes/+layout.ts"
+	]
+}
