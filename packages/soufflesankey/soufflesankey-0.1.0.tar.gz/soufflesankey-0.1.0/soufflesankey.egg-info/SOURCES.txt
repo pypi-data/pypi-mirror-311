@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+soufflesankey/__init__.py
+soufflesankey/sankey.py
+soufflesankey.egg-info/PKG-INFO
+soufflesankey.egg-info/SOURCES.txt
+soufflesankey.egg-info/dependency_links.txt
+soufflesankey.egg-info/requires.txt
+soufflesankey.egg-info/top_level.txt
