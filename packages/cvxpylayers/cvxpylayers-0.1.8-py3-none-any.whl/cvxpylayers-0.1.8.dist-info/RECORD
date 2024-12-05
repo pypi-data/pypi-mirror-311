@@ -1,0 +1,16 @@
+cvxpylayers/__init__.py,sha256=C69ADlbQREQlR15trneyA2sk8x0-oH4rDAX5fsv19_U,22
+cvxpylayers/jax/__init__.py,sha256=zsKyq4iie7nMNpsdgO2BXKxcZwbe3n40yku6CaUwptg,64
+cvxpylayers/jax/cvxpylayer.py,sha256=DwxClsGaVHYUxQSk_03IaP9-cO3TptIFoPBWButjo9E,12567
+cvxpylayers/jax/test_cvxpylayer.py,sha256=nge3tfCk2BKPmBqapCWkusRGBicYF0HMhRS4tcDKWeQ,14125
+cvxpylayers/tensorflow/__init__.py,sha256=kvqAt89MHEcNGy6uX9jeDGWTKLKfUSfy9KuDGU1spac,71
+cvxpylayers/tensorflow/cvxpylayer.py,sha256=i0puaATFMthJFici-LzboP6YQv_PepqCAqFIFAt0B2w,12783
+cvxpylayers/tensorflow/test_cvxpylayer.py,sha256=-ImzhR-kJRt_WluTTzXfr08zScJkpB250mScOIcKTTU,15294
+cvxpylayers/torch/__init__.py,sha256=0IKtsJMT-Nhq_TzukhGC5_ItOY47I2kK8MU7eztS0yQ,66
+cvxpylayers/torch/cvxpylayer.py,sha256=9fTHl27YL1t2DR4cEFqoE53dU_LH1hjogrmHzv4xdjc,15689
+cvxpylayers/torch/test_cvxpylayer.py,sha256=PqPZp9H8irWQwj7gduW4obZGEh9fd8GkBWx5zBZ0Vbo,15274
+cvxpylayers-0.1.8.dist-info/LICENSE,sha256=lNgcsoLag39Kzg3wi1L9HHLgfanvtS5aptVWpc6lKG8,11344
+cvxpylayers-0.1.8.dist-info/METADATA,sha256=xv4bVpeqrJm1pJ7Pcvk50-_SS6_v7TpdI-4ucm89igA,9727
+cvxpylayers-0.1.8.dist-info/NOTICE,sha256=PwFb2pD76FwdQyZMqyyr7tSoPMAFmi-EJkXxAsDR6c4,191
+cvxpylayers-0.1.8.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cvxpylayers-0.1.8.dist-info/top_level.txt,sha256=0ptKnU8_gdytsTO--QZAg7IL4-JP-RpYL08l7wSxbTw,12
+cvxpylayers-0.1.8.dist-info/RECORD,,
