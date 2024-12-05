@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: poetry-plugin-openfund
+Version: 0.1.5
+Summary: openfund plugin
+Author: chibianshu
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: openfund-core (>=0.0.4,<0.0.5)
+Requires-Dist: poetry (>=1.8.4,<2.0.0)
