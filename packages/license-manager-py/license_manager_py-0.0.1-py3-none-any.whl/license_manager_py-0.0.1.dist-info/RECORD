@@ -1,0 +1,9 @@
+license_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+license_manager/core.py,sha256=8hN0hnKsTpqUgCRsxyQCgltcMkXVrIjlci8nHHtGUxo,4842
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+license_manager_py-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+license_manager_py-0.0.1.dist-info/METADATA,sha256=w1G9HLKb09uJC6e0W34NshBHhpQ838zLBqdERkbp16A,1322
+license_manager_py-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+license_manager_py-0.0.1.dist-info/top_level.txt,sha256=ylPnAX0Ln4Hw4kC90aEi4IyKzFZa4H2XrtdI5Gjjt8U,22
+license_manager_py-0.0.1.dist-info/RECORD,,
