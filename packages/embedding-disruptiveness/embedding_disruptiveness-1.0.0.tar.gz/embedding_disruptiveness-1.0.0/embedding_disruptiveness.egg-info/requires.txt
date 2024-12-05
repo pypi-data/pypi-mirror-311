@@ -1,0 +1,10 @@
+tqdm
+numpy
+scikit-learn
+torch
+scipy
+numba
+
+[tests]
+pytest
+pytest-cov
