@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "usos-api"
+version = "0.3.1"
+description = "Asynchronous USOS API for Python"
+authors = ["Antoni-Czaplicki <56671347+Antoni-Czaplicki@users.noreply.github.com>"]
+readme = "README.md"
+homepage = "https://github.com/Antoni-Czaplicki/usos-api"
+repository = "https://github.com/Antoni-Czaplicki/usos-api"
+documentation = "https://usos-api.readthedocs.io"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.11"
+pydantic = "^2.10"
+oauthlib = "^3.2"
+python-dotenv = "^1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+ruff = "*"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "*"
+sphinx_rtd_theme = "*"
+readthedocs-sphinx-search = "*"
+sphinx-autodoc-typehints = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
