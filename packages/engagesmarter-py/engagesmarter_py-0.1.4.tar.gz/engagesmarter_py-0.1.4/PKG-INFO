@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: engagesmarter-py
+Version: 0.1.4
+Summary: Engage Smarter AI Platform Python client.
+Home-page: https://docs.engagesmarter.ai
+License: MIT
+Author: Tom Dorrington Ward
+Author-email: tom@engagesmarter.ai
+Maintainer: Tom Dorrington Ward
+Maintainer-email: tom@engagesmarter.ai
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.19.0)
+Requires-Dist: pydantic (>=1.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://docs.engagesmarter.ai/"><img width="350" height="208" src="https://raw.githubusercontent.com/engagesmarter/engagesmarter-py/master/docs/img/es_logo.jpg" alt='Engage Smarter AI'></a>
+</p>
+
+<h1 align="center"><strong>Engage Smarter AI Platform Python Client</strong></h1>
+
+<p align="center">
+<!-- <a href="https://github.com/engagesmarter/engagesmarter-py/actions">
+    <img src="https://github.com/engagesmarter/engagesmarter-py/workflows/Test%20Suite/badge.svg" alt="Test Suite">
+</a> -->
+<a href="https://pypi.org/project/engagesmarter-py/">
+    <img src="https://badge.fury.io/py/engagesmarter-py.svg" alt="Package version">
+</a>
+</p>
+
+The Engage Smarter AI Platform Python Client provides a simple way to interact with the Engage Smarter AI Platform from Python.
+
+For more information on how to interact with the Engage Smarter AI Platform API, please visit the Engage Smarter AI Platform [developer docs](https://docs.engagesmarter.ai/).
+

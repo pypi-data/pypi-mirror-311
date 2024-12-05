@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "engagesmarter-py"
+version = "0.1.4"
+description = "Engage Smarter AI Platform Python client."
+authors = ["Tom Dorrington Ward <tom@engagesmarter.ai>"]
+maintainers = ["Tom Dorrington Ward <tom@engagesmarter.ai>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://docs.engagesmarter.ai"
+packages = [{ include = "engagesmarter" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+httpx = ">=0.19.0"
+pydantic = ">=1.0.0,<3.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
