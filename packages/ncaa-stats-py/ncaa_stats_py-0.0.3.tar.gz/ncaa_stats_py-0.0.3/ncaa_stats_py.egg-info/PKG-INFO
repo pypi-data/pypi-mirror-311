@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ncaa_stats_py
+Version: 0.0.3
+Summary: Allows a user to download and parse data from the National Collegiate Athletics Association (NCAA), and it's member sports.
+Author-email: Joseph Armstrong <armstrongjoseph08@gmail.com>
+Maintainer-email: Joseph Armstrong <armstrongjoseph08@gmail.com>
+License: MIT
+Project-URL: homepage, https://github.com/armstjc/ncaa_stats_py
+Project-URL: documentation, https://github.com/armstjc/ncaa_stats_py
+Project-URL: repository, https://github.com/armstjc/ncaa_stats_py.git
+Project-URL: changelog, https://github.com/armstjc/ncaa_stats_py/blob/main/CHANGELOG.md
+Keywords: sports,college,college sports,baseball
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools>=67.6.0
+Requires-Dist: wheel
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: pytz>=2024.2
+Requires-Dist: beautifulsoup4>=4.12.2
+
+# ncaa_stats_py
+Allows a user to download and parse data from the National Collegiate Athletics Association (NCAA), and it's member sports.

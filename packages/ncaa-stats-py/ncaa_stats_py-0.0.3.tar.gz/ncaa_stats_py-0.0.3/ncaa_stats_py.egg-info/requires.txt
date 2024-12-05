@@ -1,0 +1,8 @@
+setuptools>=67.6.0
+wheel
+pandas>=2.2.3
+tqdm
+requests
+lxml
+pytz>=2024.2
+beautifulsoup4>=4.12.2
