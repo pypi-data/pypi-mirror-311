@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/caseutil/__init__.py
+src/caseutil/__main__.py
+src/caseutil/__version__.py
+src/caseutil/py.typed
+src/caseutil.egg-info/PKG-INFO
+src/caseutil.egg-info/SOURCES.txt
+src/caseutil.egg-info/dependency_links.txt
+src/caseutil.egg-info/entry_points.txt
+src/caseutil.egg-info/top_level.txt

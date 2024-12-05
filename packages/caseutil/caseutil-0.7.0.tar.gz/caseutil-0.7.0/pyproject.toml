@@ -1,0 +1,92 @@
+[project]
+
+# NOTE: Keep in sync with setup.cfg
+
+name = "caseutil"
+version = "0.7.0"
+description = "Case convert and verify for Python: snake_case, camelCase, kebab-case, and more."
+authors = [{name = "Michael Makukha", email = "m.makukha@gmail.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+keywords = [
+  "case", "convert", "case converter",
+  "string case", "text case", "text case converter",
+  "camel case", "pascal case", "snake case", "kebab case", "screaming snake case",
+]
+classifiers = [  # see https://pypi.org/classifiers/
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 2",
+  "Programming Language :: Python :: 2.7",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.5",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Software Development",
+  "Topic :: Text Processing",
+  "Topic :: Utilities",
+  "Typing :: Typed",
+]
+requires-python = ">=2.7,!=3.0,!=3.1,!=3.2,!=3.3,!=3.4"
+dependencies = []
+
+[project.scripts]
+caseutil = "caseutil:main"
+
+[project.urls]
+Documentation = "https://caseutil.readthedocs.io"
+Repository = "https://github.com/makukha/caseutil"
+Issues = "https://github.com/makukha/caseutil/issues"
+Changelog = "https://github.com/makukha/caseutil/releases"
+
+# bump-my-version
+
+[tool.bumpversion]
+current_version = "0.7.0"
+allow_dirty = true
+files = [
+  {filename = "docs/index.md"},
+  {filename = "pyproject.toml"},
+  {filename = "README.md"},
+  {filename = "setup.cfg"},
+  {filename = "src/caseutil/__version__.py"},
+]
+
+# ruff
+
+[tool.ruff]
+exclude = [".git", ".task", ".tox", "dist", "tmp"]
+line-length = 88
+indent-width = 4
+target-version = "py312"
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "S"]
+ignore = []
+fixable = ["ALL"]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
+
+# uv
+
+[tool.uv]
+package = true
