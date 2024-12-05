@@ -1,0 +1,35 @@
+Metadata-Version: 2.3
+Name: commonroad-path-toolkit
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+License-File: LICENSE
+Summary: Useful functions for working with paths
+Author-email: Kilian Northoff <kilian.northoff@tum.de>
+License: BSD
+Requires-Python: >=3.8, <3.13
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# CommonRoad Path Toolkit
+
+This package contains utility functions that are useful for computing geometrical properties.
+
+## Instantiating a path
+
+```python
+from commonroad_path_toolkit import Path2D
+
+# Either from a list of points or (n, 2) numpy array
+path1 = Path2D(points=[[0, 0], [1, 0], [2, 1]])
+
+# Or from seperated x and y coordinates (numpy arrays are allowed as well) 
+path2 = Path2D(x=[0, 1, 2], y=[0, 0, 1])
+```
+
+## Documentation
+
+See gitlab pages https://cps.pages.gitlab.lrz.de/commonroad/commonroad-path-toolkit
+
+## Authors
+- Kilian Northoff: kilian.northoff[at]tum.de
+
