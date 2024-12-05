@@ -1,0 +1,8 @@
+discord
+fast-string-match
+seaborn
+numpy
+webcolors
+pickle
+colorgram_rs
+async-tools-ext
