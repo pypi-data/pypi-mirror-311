@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repwatcher"
+version = "0.2.1"
+description = "Tool to automatically upload SC:BW replays to RepMastered.com"
+readme = "README.rst"
+authors = [{ name = "Thomas McManus", email = "mcmanustfj@gmail.com" }]
+maintainers = [{ name = "Thomas McManus", email = "mcmanustfj@gmail.com" }]
+classifiers = []
+license = { text = "MIT license" }
+requires-python = ">=3.8"
+keywords = ["starcraft", "replays", "repmastered"]
+dependencies = [
+    "requests",
+    "platformdirs",
+    "watchdog",
+    "rich",
+    "typer",
+    "peewee>=3.17.8",
+    "beautifulsoup4>=4.12.3",
+    "ttkbootstrap>=1.10.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pyright",
+  "ruff",
+  "build",
+  "twine",
+]
+
+[project.urls]
+
+bugs = "https://github.com/mcmanustfj/repwatcher/issues"
+changelog = "https://github.com/mcmanustfj/repwatcher/blob/master/CHANGELOG.md"
+homepage = "https://github.com/mcmanustfj/repwatcher"
+
+[project.scripts]
+repwatcher = "repwatcher.cli:main"
+
+[tool]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.package-data]
+"*" = ["*.*"]
+
+[tool.ruff]
+include = ["src/*"]
+line-length = 88
+
+[tool.pyright]
+include = ["src/*"]
+venv = ".venv"
+venvPath = "."
+
+# Use strict defaults
+strict = []
+warn_unreachable = true
+warn_no_return = true
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "pyright>=1.1.388",
+    "types-beautifulsoup4>=4.12.0.20241020",
+    "types-peewee>=3.17.8.20241117",
+    "types-requests>=2.32.0.20241016",
+]

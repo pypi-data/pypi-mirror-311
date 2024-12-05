@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: repwatcher
+Version: 0.2.1
+Summary: Tool to automatically upload SC:BW replays to RepMastered.com
+Author-email: Thomas McManus <mcmanustfj@gmail.com>
+Maintainer-email: Thomas McManus <mcmanustfj@gmail.com>
+License: MIT license
+Project-URL: bugs, https://github.com/mcmanustfj/repwatcher/issues
+Project-URL: changelog, https://github.com/mcmanustfj/repwatcher/blob/master/CHANGELOG.md
+Project-URL: homepage, https://github.com/mcmanustfj/repwatcher
+Keywords: starcraft,replays,repmastered
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: platformdirs
+Requires-Dist: watchdog
+Requires-Dist: rich
+Requires-Dist: typer
+Requires-Dist: peewee>=3.17.8
+Requires-Dist: beautifulsoup4>=4.12.3
+Requires-Dist: ttkbootstrap>=1.10.1
+Provides-Extra: dev
+Requires-Dist: pyright; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+==========
+repwatcher
+==========
+
+
+.. image:: https://img.shields.io/pypi/v/repwatcher.svg
+        :target: https://pypi.python.org/pypi/repwatcher
+
+
+Tool to automatically upload SC:BW replays to RepMastered.com
+
+Recommended installation is with pipx (`pip install pipx`):
+ - `pipx install repwatcher`
+ - `repwatcher watch`
+
+
+Configuration:
+
+`repwatcher config` will open a config file.
+
+`replay_directory` is the directory to watch.    
+`authtoken` is the `authtoken` cookie from RepMastered.com. 
+
+If you have `authtoken` in your config, uploads will be associated with your account.
+
+
+* Free software: MIT license
+
+
+Features
+--------
+
+This is a tool to watch a directory for new replays and upload them to RepMastered.com
+
+It should be cross-platform, but has only been tested on Windows.
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
