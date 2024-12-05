@@ -1,0 +1,25 @@
+_commit: v0.0.58
+_src_path: gh:serious-scaffold/ss-python
+author_email: i@huxuan.org
+author_name: huxuan
+copyright_holder: Serious Scaffold
+copyright_license: MIT License
+copyright_year: 2022-2024
+coverage_threshold: 100
+default_py: '3.12'
+development_status: Alpha
+max_py: '3.13'
+min_py: '3.9'
+module_name: ss_python_gitlab
+organization_name: Serious Scaffold
+package_name: ss-python-gitlab
+platforms:
+- macos
+- ubuntu
+- windows
+project_description: GitLab Demo of Serious Scaffold Python
+project_name: Serious Scaffold Python GitLab Demo
+readme_content: This is a GitLab demo for Serious Scaffold Python
+repo_name: ss-python-gitlab
+repo_namespace: serious-scaffold
+repo_platform: gitlab
