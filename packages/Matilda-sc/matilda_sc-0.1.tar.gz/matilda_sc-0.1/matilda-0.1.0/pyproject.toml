@@ -1,0 +1,25 @@
+[project]
+name = "Matilda"
+version = "0.1.0"
+description = "A multi-modal single cell sequencing analysis tool"
+authors = [{name="Chunlei Liu",email="chunlei@cmri.com"}]
+readme = "README.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["main"]
+
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/PYangLab/Matilda/tree/main"
+Issues = "https://github.com/PYangLab/Matilda/tree/main/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
