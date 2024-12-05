@@ -1,0 +1,9 @@
+ipm/__init__.py,sha256=9dsuQ56kx3gS5HYltT0rDw-5bkf_LvPqYlX8vrKFLP0,166
+ipm/cli.py,sha256=PmiUQmARBJ__eUchNGbWnpGnckFM_iFk8BMGcpow45M,1085
+ipm/installer.py,sha256=Od9wOk04spO9-1hpHu23N5rT6TnLMulblsrsybquKTY,1520
+ipm/utils.py,sha256=CFGetwQ9NOwbLSNJb23lFiPPXSzpLyYfuJh1SMSSHTE,712
+ipm_python-1.0.0.dist-info/METADATA,sha256=IX6rZHKVX5ftVO9J9t4q6rOuyhPYBHIA6EU-mtPQ9MI,1372
+ipm_python-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ipm_python-1.0.0.dist-info/entry_points.txt,sha256=2WQV7sJEF2kNqTAPTM5m_7mzK0t3y3PsagjwEp357Do,38
+ipm_python-1.0.0.dist-info/top_level.txt,sha256=aoQxk7YofRAOan5enQxCAm1_An7OuuDJX31_0gPDSg0,4
+ipm_python-1.0.0.dist-info/RECORD,,
