@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: devjoni
+Version: 0.0.1
+Summary: A meta package for DEV Joni
+Author-email: DEV Joni <solutions@devjoni.com>
+Project-URL: Homepage, https://github.com/devjonix/devjoni-meta
+Keywords: devjoni
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DEV Joni - A Meta Package
+
+Installing this package will pull in all open-source
+software tools developed by DEV Joni.
+
+If your interest is in one specific tool from us,
+you can also install it separately (*devjoni-[toolname]*).
+
+
+# Installing
+
+```
+pip install devjoni
+```
