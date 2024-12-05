@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: nomad_media_cli
+Version: 0.0.1a1
+Summary: Nomad Media Cli
+Author: Nomad Media
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.0,<9.0)
+Requires-Dist: nomad-media-pip (>=0.1.1,<0.2.0)
+Requires-Dist: platformdirs (>=4.0.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Nomad Media CLI Tool
+
+Command line interface for managing Nomad Media media assets.
+
+## Installation
+
+```bash
+pip install nomad-media-cli
+```
+
+## Commands
+
+### init
+Initialize or update CLI configuration
+
+Options:
+- `--username`: Login username (required)
+- `--password`: Login password (required)
+- `--service-api-url`: API endpoint URL (required)
+- `--api-type`: API type [admin|portal]
+- `--debug-mode`: Enable debug logging
+- `--singleton`: Enable singleton mode
+
+### list-assets
+List assets by ID or path
+
+Options:
+- `--id`: Asset UUID, collection ID, or saved search ID
+- `--path`: Object key path (format: bucket::path)
