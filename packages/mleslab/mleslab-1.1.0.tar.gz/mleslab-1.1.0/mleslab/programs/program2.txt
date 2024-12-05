@@ -1,0 +1,38 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import classification_report,confusion_matrix
+from sklearn.preprocessing import StandardScaler
+
+df=pd.read_csv("D:/23ADR076/exer2/exer2.csv")
+print(df.shape)
+df.head(2)
+df=df.drop(columns=['SI'],axis=1)
+
+df.head(2)
+
+x=df.iloc[:,:-1].values
+y=df.iloc[:,-1].values
+print(x)
+print(y)
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.3)
+print(x_train)
+print(x_test)
+print(y_train)
+print(y_test)
+scaler = StandardScaler()
+x_train = scaler.fit_transform(x_train)
+x_train
+x_test = scaler.fit_transform(x_test)
+x_test
+knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(x_train, y_train)
+y_pred = knn.predict(x_test)
+print("predicted values:\n\n\n",y_pred)
+print(y_test)
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred))
+pred = knn.predict([[175,60]])
+print(pred)
