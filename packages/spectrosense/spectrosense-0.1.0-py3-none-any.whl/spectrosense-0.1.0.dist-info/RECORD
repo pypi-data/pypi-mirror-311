@@ -1,0 +1,11 @@
+spectrosense/__init__.py,sha256=ZVycZBkPDb8GVeLONVZDuV0tQ2NdkfSqo5l_h2r0RMM,160
+spectrosense/ai_integration.py,sha256=UJhEgDOfmP6ASJJiwzsZMbJyWFfpWoUrPqFcK0DrL7A,2027
+spectrosense/analyzer.py,sha256=XOFdC55gW8jnAqc9_OJy0lWEKgLOuIsj0y81DjgXNPg,889
+spectrosense/config.py,sha256=TSDnYETLfVebKWZqMpO35gFSllZnxZF_q_IYsquFo2Y,2962
+spectrosense/processor.py,sha256=Ra9AxXqqvNceClYk8rKIndLhDNFuMXEVyKGimZuqXNM,1541
+spectrosense/visualizer.py,sha256=0Bql4RR7BJXyWYgRlmg4Yyb4J5XQ6Sas3aVV339uPFs,1168
+spectrosense-0.1.0.dist-info/LICENCE,sha256=5P8YnMO8aJ3d3jGy2gvVN-7Khl1qaAVW0cMfa-d6GCs,460
+spectrosense-0.1.0.dist-info/METADATA,sha256=SGKR8LKtDzlfgAgMnpVz-k6X665ay3SFUCyRgVtnrN0,3950
+spectrosense-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+spectrosense-0.1.0.dist-info/top_level.txt,sha256=XurkN3_i4WiFYeCMqc0f3vOOGGnWCC3U6GLy8ZD0gas,13
+spectrosense-0.1.0.dist-info/RECORD,,
