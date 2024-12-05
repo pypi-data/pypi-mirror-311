@@ -1,0 +1,3 @@
+[console_scripts]
+cli=cli.rcon.client:run
+
