@@ -1,0 +1,27 @@
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.tree import DecisionTreeClassifier, export_text
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
+lung = pd.read_csv("/ML/survey lung cancer.csv")
+x = lung.iloc[:, 1:15]
+y = lung.iloc[:, 15]
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=0)
+
+sc = StandardScaler()
+x_train = sc.fit_transform(x_train)
+x_test = sc.transform(x_test)
+
+dt = DecisionTreeClassifier(criterion="entropy")
+dt.fit(x_train, y_train)
+dtpred = dt.predict(x_test)
+accuracy = accuracy_score(y_test, dtpred)
+dtcm = confusion_matrix(y_test, dtpred)
+tree_rules = export_text(dt, feature_names=list(x.columns))
+print(f"Accuracy: {accuracy}")
+print(f"Confusion Matrix:\n{dtcm}")
+print(f"Decision Tree Rules:\n{tree_rules}")\
+print(classification_report(y_test, dtpred))
