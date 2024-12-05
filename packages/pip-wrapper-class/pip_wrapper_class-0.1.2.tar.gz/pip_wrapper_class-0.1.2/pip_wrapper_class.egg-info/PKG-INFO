@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: pip-wrapper-class
+Version: 0.1.2
+Summary: A custom pip wrapper to manage dependencies and update pyproject.toml.
+Home-page: https://github.com/SAMAKSH10/pip-wrapper.git
+Author: Samaksh
+Author-email: samakshsinghal5@gmail.com
+License: MIT
+Keywords: pip wrapper pyproject.toml dependency management
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: toml>=0.10.0
+Requires-Dist: watchdog>=2.1.0
+Requires-Dist: setuptools>=42
+Requires-Dist: wheel>=0.36.2
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+
+# pip-wrapper
+
+`pip-wrapper` is a lightweight Python tool designed to streamline dependency management in Python projects. It provides commands to automatically sync installed packages with a `pyproject.toml` file, monitor your virtual environment for changes, and manage dependencies with ease.
+
+--------------------------------------------------------------
+
+## Features
+
+- **Automated Dependency Tracking**: Keeps the `pyproject.toml` file in sync with installed packages.
+- **Monitoring**: Watches for changes in the environment and updates dependencies in real-time.
+- **Centralized Installation**: Install all dependencies from the `pyproject.toml` file.
+- **Clear Command**: Easily clear all dependencies from the `pyproject.toml` file.
+
+---
+
+## Installation
+
+To install `pip-wrapper`, run:
+
+**pip install pip-wrapper**
+
+## Commands:
+
+1. Create pyproject.toml:
+Initialize a new pyproject.toml file with a default structure.
+
+**pip-wrapper create**
+
+2. Monitor Environment:
+Start monitoring your virtual environment for changes and automatically update the pyproject.toml file.
+
+**pip-wrapper monitor**
+
+3. Install Dependencies :
+Install all dependencies listed in the pyproject.toml file.
+
+**pip-wrapper install**
+
+4. Clear Dependencies :
+Clear all dependencies from the pyproject.toml file.
+
+**pip-wrapper clear**
+
+-------------------------------------------------------------
+
+## Usage Instructions
+
+1. Start by creating a pyproject.toml file in your project directory:
+
+`pip-wrapper create`
+
+2. Monitor changes in your virtual environment to keep your pyproject.toml updated:
+
+`pip-wrapper monitor`
+
+3. Install dependencies from your pyproject.toml in a new environment:
+
+`pip-wrapper install`
+
+4. Clear dependencies if needed:
+
+`pip-wrapper clear`
+
+------------------------------------------------------------------
+
+
+## Why Use `pip-wrapper`?
+
+- **Simplifies dependency management.**
+- **Avoids manual updates to the `pyproject.toml` file.**
+- **Ensures your dependencies are always in sync with your environment.**
+  
+-----------------------------------------------------------------------------
