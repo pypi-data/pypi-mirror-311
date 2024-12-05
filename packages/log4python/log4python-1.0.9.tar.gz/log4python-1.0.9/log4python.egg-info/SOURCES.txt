@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+log4python/Log4python.py
+log4python/__init__.py
+log4python/log_subject.py
+log4python/modules_dynamic_load.py
+log4python/observer_model.py
+log4python.egg-info/PKG-INFO
+log4python.egg-info/SOURCES.txt
+log4python.egg-info/dependency_links.txt
+log4python.egg-info/top_level.txt
