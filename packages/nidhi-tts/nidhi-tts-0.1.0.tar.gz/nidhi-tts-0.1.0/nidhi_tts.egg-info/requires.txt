@@ -1,0 +1,11 @@
+soundfile
+asyncio
+keyboard
+numpy
+requests
+python-dotenv
+argparse
+charset-normalizer
+logging
+typing-extensions
+pathlib

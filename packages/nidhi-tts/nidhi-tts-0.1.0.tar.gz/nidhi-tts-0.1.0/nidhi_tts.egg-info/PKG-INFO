@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nidhi-tts
+Version: 0.1.0
+Summary: A perfect Text To Speech TTS engine for tts tasks and variety of neural voices
+Home-page: https://sandeshai.in/nidhi-tts
+Author: Sandesh Kumar
+Author-email: connect@sandeshai.in
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Nidhi-TTS Pipeline
+Nidhi-TTS Pipeline is a robust Python-based solution designed for real-time text-to-speech (TTS) processing, audio playback, and server interaction. This system integrates a custom audio pipeline, playback manager, and a TTS generator with API-based voice synthesis, providing seamless text-to-audio transformation and dynamic playback controls.
+
+Features
+Real-time TTS Processing: Converts text into speech using our best tts servers api...
+Custom Audio Pipeline: Efficiently manages audio data with a binary file system for storage and playback.
+Flexible Playback Control: Supports play, pause, resume, and stop actions with smooth transitions.
+API Integration: Easily connects to a TTS server and supports API key-based authentication.
+Keyboard Controls: Allows interactive playback management using keyboard inputs.
+Dynamic Voice Selection: Customizable voice options to enhance user experience.
+
+
+
