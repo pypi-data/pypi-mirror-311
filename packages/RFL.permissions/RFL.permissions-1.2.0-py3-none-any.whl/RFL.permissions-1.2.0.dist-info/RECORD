@@ -1,0 +1,7 @@
+rfl/permissions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rfl/permissions/errors.py,sha256=3Ok2w4KpR3wCUUZGFPoP6kqH8QUYxZ4mC9n4B4imNUU,370
+rfl/permissions/rbac.py,sha256=TPGssRSpSIHFDeKOO4eQsRzoK1TFOLBoWrsE_ii-ZxI,9194
+RFL.permissions-1.2.0.dist-info/METADATA,sha256=vCu7TFt0B6vzyR9mrCiOoD7jv6lZq8TXfIaoyPJ0SEY,876
+RFL.permissions-1.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+RFL.permissions-1.2.0.dist-info/top_level.txt,sha256=EIloiMrXuRz8n0vqkCE6NM9Ze1S2mrbCKBcdtWaM_og,4
+RFL.permissions-1.2.0.dist-info/RECORD,,
