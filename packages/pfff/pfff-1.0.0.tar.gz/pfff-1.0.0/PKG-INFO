@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pfff
+Version: 1.0.0
+Summary: Prompt File Format Formatter takes care of outputing your file's content so that they can easily be prompted to a LLM
+License: WTFPL
+Author: Rémy Sanchez
+Author-email: remy.sanchez@hyperthese.net
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: rich-click (>=1.8.4,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Pfff
+
+`pfff` helps you put the content of different files into a single text, which
+you can then easily paste into a LLM prompt.
+
+```bash
+pfff src/**/*.py | pbcopy
+```
+
