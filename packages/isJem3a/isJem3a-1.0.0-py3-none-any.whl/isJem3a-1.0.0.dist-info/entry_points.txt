@@ -1,0 +1,2 @@
+[console_scripts]
+isJem3a = isJem3a.check:main
