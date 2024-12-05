@@ -1,0 +1,4 @@
+odoo12-addon-helpdesk_automatic_stage_changes
+odoo12-addon-helpdesk_mgmt
+odoo12-addon-helpdesk_ticket_parent
+odoo<12.1dev,>=12.0a
