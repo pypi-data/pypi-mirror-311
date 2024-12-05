@@ -1,0 +1,41 @@
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
+
+data = '/ML/mushroom_csv.csv'
+df = pd.read_csv(data)
+
+X = df.drop('target', axis=1)
+y = df['target']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+adaboost = AdaBoostClassifier(n_estimators=100, random_state=42)
+adaboost.fit(X_train, y_train)
+y_pred_adaboost = adaboost.predict(X_test)
+
+random_forest = RandomForestClassifier(n_estimators=100, random_state=42)
+random_forest.fit(X_train, y_train)
+y_pred_rf = random_forest.predict(X_test)
+
+accuracy_adaboost = accuracy_score(y_test, y_pred_adaboost)
+precision_adaboost = precision_score(y_test, y_pred_adaboost, average='weighted')
+recall_adaboost = recall_score(y_test, y_pred_adaboost, average='weighted')
+f1_adaboost = f1_score(y_test, y_pred_adaboost, average='weighted')
+
+accuracy_rf = accuracy_score(y_test, y_pred_rf)
+precision_rf = precision_score(y_test, y_pred_rf, average='weighted')
+recall_rf = recall_score(y_test, y_pred_rf, average='weighted')
+f1_rf = f1_score(y_test, y_pred_rf, average='weighted')
+
+print("AdaBoost Results:")
+print(f"Accuracy: {accuracy_adaboost}, Precision: {precision_adaboost}, Recall: {recall_adaboost}, F1 Score: {f1_adaboost}")
+print("Classification Report (AdaBoost):")
+print(classification_report(y_test, y_pred_adaboost))
+
+print("Random Forest Results:")
+print(f"Accuracy: {accuracy_rf}, Precision: {precision_rf}, Recall: {recall_rf}, F1 Score: {f1_rf}")
+print("Classification Report (Random Forest):")
+print(classification_report(y_test, y_pred_rf))
