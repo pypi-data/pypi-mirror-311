@@ -1,0 +1,2 @@
+[console_scripts]
+glsr-present = glsr_present.__main__:main
