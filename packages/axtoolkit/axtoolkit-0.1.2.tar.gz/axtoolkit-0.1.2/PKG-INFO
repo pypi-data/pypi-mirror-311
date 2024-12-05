@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: axtoolkit
+Version: 0.1.2
+Summary: A toolkit for analyzing and processing data
+Home-page: 
+Author: AlbertXin
+Author-email: <albert_xin@qq.com>
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: psutil
