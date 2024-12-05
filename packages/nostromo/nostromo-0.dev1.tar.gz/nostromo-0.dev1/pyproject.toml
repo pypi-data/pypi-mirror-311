@@ -1,0 +1,33 @@
+[build-system]
+requires = ["poetry-core==1.9.1"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+nostromo = 'nostromo.run:app'
+
+
+[tool.poetry]
+package-mode = true
+name = "nostromo"
+version = "0.dev.1"
+description = "pipeline builder, runner, process manager, background jobs, job scheduling"
+authors = ["Danila Ganchar"]
+license = "MIT"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+textual = "0.85.2"
+pyyaml = "^6.0.1"
+setuptools = "^70.2.0"
+inject = "4.1"
+pypyr = "5.9.1"
+bigtree = "^0.22.3"
+psutil = "^6.1.0"
+redis = "5.0.1"
+saq = {extras = ["hiredis", "web"], version = "^0.18.3"}
+func-timeout = "^4.3.5"
+typer = "^0.13.1"
+starlette = "^0.41.3"
