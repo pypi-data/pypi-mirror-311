@@ -1,0 +1,9 @@
+meta_memcache_socket-0.1.5.dist-info/METADATA,sha256=f5y9b6HnYov9ZZc4dcGYb4z9jJdf-kvM1-PwfvaA4Qs,292
+meta_memcache_socket-0.1.5.dist-info/WHEEL,sha256=YUfjlgthDnqZ33HbJOyfh7cOmlg-Dji_gJzzoIroyGc,107
+meta_memcache_socket-0.1.5.dist-info/licenses/LICENSE,sha256=sXVnLbwUIZi64dqkve9IkxA9dcERqUnx4z1kk9Z2WL8,1067
+meta_memcache_socket.libs/libgcc_s-5b5488a6.so.1,sha256=HGKUsVmTeNAxEdSy7Ua5Vh_I9FN3RCbPWzvZ7H_TrwE,2749061
+meta_memcache_socket/__init__.py,sha256=pdtbWePnLb3KoJ5YRXyomDcNmYFj-6KCvs8vfyFur2k,163
+meta_memcache_socket/__init__.pyi,sha256=rvamSPuoL4ET3L4Gn-Ma_m7ZynrRly5iWCGvu2lzVb8,7304
+meta_memcache_socket/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meta_memcache_socket/meta_memcache_socket.cpython-310-arm-linux-gnueabihf.so,sha256=KMD3UP_2gFRwxa3-qWLGWppQ5y0hZyjc_rD0D3jdGEo,731733
+meta_memcache_socket-0.1.5.dist-info/RECORD,,
