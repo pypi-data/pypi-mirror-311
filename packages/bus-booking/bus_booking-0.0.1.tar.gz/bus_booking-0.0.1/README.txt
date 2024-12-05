@@ -1,0 +1,1 @@
+This is a simple booking alert message shown for booking confirmation.

@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+bookinglib/__init__.py
+bookinglib/bookingalert.py
+bus_booking.egg-info/PKG-INFO
+bus_booking.egg-info/SOURCES.txt
+bus_booking.egg-info/dependency_links.txt
+bus_booking.egg-info/requires.txt
+bus_booking.egg-info/top_level.txt
+student_vote.egg-info/SOURCES.txt
+student_vote.egg-info/dependency_links.txt
+student_vote.egg-info/requires.txt
+student_vote.egg-info/top_level.txt
