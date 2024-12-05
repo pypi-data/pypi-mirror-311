@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: xbase-util
+Version: 0.0.2
+Summary: 网络安全基础工具
+Author: xyt
+Author-email: 2506564278@qq.com
+License: <MIT License>
+Requires-Dist: PyExecJS==1.5.1
+
+包含提取，预测，训练的基础工具
