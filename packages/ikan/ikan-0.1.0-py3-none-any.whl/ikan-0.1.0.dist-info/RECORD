@@ -1,0 +1,12 @@
+ikan/ChebyKAN.py,sha256=3ORXqfDI_Id9z6vFgN-Em-0y4hg9g1OhmTo9IpXNvk0,10349
+ikan/FourierKAN.py,sha256=xyJYATnF7xDYjcXEklMlj_kq1ikofDcPEE_bzz9EGjE,13066
+ikan/JacobiKAN.py,sha256=qMW6CjDAve2wD1v1J7lC5A9okj0gpCnf0dT-IEy9ryE,11398
+ikan/KAN.py,sha256=n_q_1RsGuoZuF6BdB_Y98hDdGeNDzRpr-pod743yYuY,22211
+ikan/TaylorKAN.py,sha256=n-qanynvXEJYRFD-hVQwGsxPVEJT3F1BxyxWDtFHWIs,9877
+ikan/WaveletKAN.py,sha256=MIBkQ9maghImFAMgMv7NuKHi5EDE5WiFaV8PwpYXLjI,12408
+ikan/__init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+ikan-0.1.0.dist-info/LICENSE,sha256=QL-ojGsRGgrhLvR5OZsDQ17xzKMiOrWxz_SzAl4wfjc,1088
+ikan-0.1.0.dist-info/METADATA,sha256=nKFJiR8-ARpOniX4AbKH8b1i2tiKEUfW1qD8cv98H1s,4538
+ikan-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ikan-0.1.0.dist-info/top_level.txt,sha256=-FRU4xycf6QYTk2R3QVv981r9OWw007LwPGuEtzezWQ,5
+ikan-0.1.0.dist-info/RECORD,,
