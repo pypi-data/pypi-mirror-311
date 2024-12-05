@@ -1,0 +1,12 @@
+arnoldas_a_mod1_atsiskaitymas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arnoldas_a_mod1_atsiskaitymas/book_info.py,sha256=G2QPYMwvN27vJKCzI4CDZ3srs1kwCZVQCtQ_biQRQCY,3112
+arnoldas_a_mod1_atsiskaitymas/crawler.py,sha256=raV0lr3hXHE-mHv8HvWezEUsO42l1sfB9FYp28po0D0,1808
+arnoldas_a_mod1_atsiskaitymas/football_results.py,sha256=90VhRk-f-H9-L0-0so-YfOLccFHp4wNkJrtSL5M10P0,2830
+samples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_book_info.py,sha256=qM7zbQGItToHZyW4WZob3bnqjWdR-qRp7tCUeBLkd8I,4841
+tests/test_football_results.py,sha256=gTwqZ_8d2J0HDGYaxFbP1O6BebHQEpLN75qakPqElP8,4205
+arnoldas_a_mod1_atsiskaitymas-0.1.5.dist-info/METADATA,sha256=vb29FrTFE1Gl_fzNP18uiVL47-qV6nbhg9oz7sWCTgA,1537
+arnoldas_a_mod1_atsiskaitymas-0.1.5.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+arnoldas_a_mod1_atsiskaitymas-0.1.5.dist-info/top_level.txt,sha256=0pjEUzfpoWc1aR3CvK4zXnBuWkAgNUL3a3XSaPnCWj8,44
+arnoldas_a_mod1_atsiskaitymas-0.1.5.dist-info/RECORD,,
