@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+uniprot_xplorer/__init__.py
+uniprot_xplorer/uniprot.py
+uniprot_xplorer/uniprot_collection.py
+uniprot_xplorer.egg-info/PKG-INFO
+uniprot_xplorer.egg-info/SOURCES.txt
+uniprot_xplorer.egg-info/dependency_links.txt
+uniprot_xplorer.egg-info/requires.txt
+uniprot_xplorer.egg-info/top_level.txt
