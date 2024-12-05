@@ -1,0 +1,14 @@
+cshelve/__init__.py,sha256=h9C-b0DxfOjBGA2uHt0_s9dMNVimZrFZeoae9hOXTOs,3463
+cshelve/_azure_blob_storage.py,sha256=WCsaj3_4A1wpm5qd5gdjFHkvFEMux1eKmGyq9BvvpoE,11457
+cshelve/_database.py,sha256=XHgBGEfHcfuQnIKqy6qDMyDuRDspKTzXtKzrc-PG-e8,2891
+cshelve/_factory.py,sha256=BbzkSyFbQCipqox4Dq_g0m_7izFvlw5ZHwRpp6tM_cI,637
+cshelve/_flag.py,sha256=VCO8FDsYoc8PDcP79QxLsauTeiHpor3-u1t0IQ8B_PY,1244
+cshelve/_in_memory.py,sha256=ryYHqznD_mVeclcAVIB9QihxG8qdffF5tCIXtb5fRBc,4592
+cshelve/_parser.py,sha256=ndxDS3P8YdX-JBoqb9dnWUQP7qiPGzyw5LfUzAyST3w,1651
+cshelve/exceptions.py,sha256=07TcmGMgOfuBxD35hJqkLmWqDwM0lsCxaX9wKLKoroQ,1788
+cshelve/provider_interface.py,sha256=T5f77WCtGCzuxOHI3kLXqhFRqMwKKZqFGRxi78Fh3Dc,2769
+cshelve-0.6.0.dist-info/LICENSE,sha256=eNcvoKCrr2Pb0CVEvWX3CKp5NbahO3vs9_-iRmjJ-bw,1071
+cshelve-0.6.0.dist-info/METADATA,sha256=5wtFSYYBTRzVasnjo29Eh9kBCO2tepQNFtG43EDdD3E,11741
+cshelve-0.6.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cshelve-0.6.0.dist-info/top_level.txt,sha256=Yd-JOr3b8kmnPrTucS5Hp7DYaFDQtGs1H3I922irmiI,8
+cshelve-0.6.0.dist-info/RECORD,,
