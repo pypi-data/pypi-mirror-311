@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/custom_presentation_builder.py
+src/utils.py
+src/pptx_builder.egg-info/PKG-INFO
+src/pptx_builder.egg-info/SOURCES.txt
+src/pptx_builder.egg-info/dependency_links.txt
+src/pptx_builder.egg-info/requires.txt
+src/pptx_builder.egg-info/top_level.txt
