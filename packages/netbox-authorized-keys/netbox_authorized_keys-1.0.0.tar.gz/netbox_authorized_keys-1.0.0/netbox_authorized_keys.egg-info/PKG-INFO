@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: netbox_authorized_keys
+Version: 1.0.0
+Summary: NetBox plugin to store Authorized Keys
+Author: Jan Krupa
+License: MIT
