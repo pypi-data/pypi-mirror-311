@@ -1,0 +1,5 @@
+setup.py
+flexstream_sdk.egg-info/PKG-INFO
+flexstream_sdk.egg-info/SOURCES.txt
+flexstream_sdk.egg-info/dependency_links.txt
+flexstream_sdk.egg-info/top_level.txt
