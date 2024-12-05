@@ -1,0 +1,18 @@
+fixed:
+  outputs:
+    dev:
+      type: fivetran
+      database: "???"
+      schema: "???"
+      extensions:
+        - httpfs
+        - iceberg
+      secrets:
+        - type: s3
+          region: ???
+          key_id: "???"
+          secret: "???"
+      polaris_uri: "http://???/api/catalog"
+      polaris_credentials: "???:???"
+      polaris_scope: "PRINCIPAL_ROLE:ALL"
+      polaris_catalog: "???"
