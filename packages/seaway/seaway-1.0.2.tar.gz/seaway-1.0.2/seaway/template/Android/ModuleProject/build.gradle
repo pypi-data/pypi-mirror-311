@@ -1,0 +1,68 @@
+//--------skyeye cli start--------
+buildscript {
+    ext {
+        agp_version = '4.1.3'
+        kotlin_version = '1.5.31'
+        seaway_version = '1.0.0-SNAPSHOT'
+
+        common_gradle_plugins = [
+            "com.android.tools.build:gradle:$agp_version",
+            "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version",
+            "cn.cheney:seaway:$seaway_version"
+        ]
+    }
+    repositories {
+        maven {
+            url 'https://packages.aliyun.com/67332f2bcc7f222f53c866b8/maven/2503095-snapshot-eo1fet'
+            credentials {
+                setUsername(System.getenv('ALI_MAVEN_USER'))
+                setPassword(System.getenv('ALI_MAVEN_PWD'))
+            }
+        }
+        maven {
+            url 'https://packages.aliyun.com/67332f2bcc7f222f53c866b8/maven/2503095-release-4vztze'
+            credentials {
+                setUsername(System.getenv('ALI_MAVEN_USER'))
+                setPassword(System.getenv('ALI_MAVEN_PWD'))
+            }
+        }
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
+    }
+    dependencies {
+        classpath(common_gradle_plugins)
+    }
+    configurations.all {
+        resolutionStrategy.cacheDynamicVersionsFor 0, 'seconds'
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://packages.aliyun.com/67332f2bcc7f222f53c866b8/maven/2503095-snapshot-eo1fet'
+            credentials {
+                setUsername(System.getenv('ALI_MAVEN_USER'))
+                setPassword(System.getenv('ALI_MAVEN_PWD'))
+            }
+        }
+        maven {
+            url 'https://packages.aliyun.com/67332f2bcc7f222f53c866b8/maven/2503095-release-4vztze'
+            credentials {
+                setUsername(System.getenv('ALI_MAVEN_USER'))
+                setPassword(System.getenv('ALI_MAVEN_PWD'))
+            }
+        }
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+apply plugin: 'seaway'
+
+//--------skyeye cli end--------
