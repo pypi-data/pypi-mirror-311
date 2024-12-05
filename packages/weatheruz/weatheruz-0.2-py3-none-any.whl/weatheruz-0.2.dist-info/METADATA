@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: weatheruz
+Version: 0.2
+Summary: O'zbekistondagi obhavo malumotini olishingiz uchun kutubhona,Youtubedan @qaxxorovdevv obuna bo'ling
+Author: Axmadjon Qaxxorov
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Kutubhona ðŸ“š
+
+**Kutubhona** â€” bu O'zbekistonning zamonaviy Python kutubxonasi! ðŸŽ‰  
+Kutubhona dasturchilarga qulay interfeys orqali ma'lumotlar bilan ishlash imkonini beradi. Bu kutubxona O'zbekistondagi dasturchilar ehtiyojlarini hisobga olgan holda ishlab chiqilgan.  
+
+Tashkent (Toshkent)
+Andijan (Andijon)
+Bukhara (Buxoro)
+Gulistan (Guliston)
+Jizzakh (Jizzax)
+Zarafshan (Zarafshon)
+Karshi (Qarshi)
+Navoi (Navoiy)
+Namangan
+Nukus
+Samarkand (Samarqand)
+Termez (Termiz)
+Urgench (Urganch)
+Ferghana (Farg'ona)
+Khiva (Xiva)
+Sirdarya (Sir Daryo)
+Surkhandarya (Surxondaryo)
+Kashkadarya (Kashkadaryo)
+Khorezm (Xorazm)
+
+---
+
+## ðŸ“¦ O'rnatish
+
+Kutubxonani o'rnatish juda oson:
+
+```bash
+pip install weatheruz
