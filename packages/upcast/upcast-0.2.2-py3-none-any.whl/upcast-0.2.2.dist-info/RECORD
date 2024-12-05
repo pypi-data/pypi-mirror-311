@@ -1,0 +1,15 @@
+upcast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upcast/django_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upcast/django_model/core.py,sha256=tjAOk8_-8bMn0ASh4rC3JCFvG-KoMg9G_62BDV0PQMQ,14001
+upcast/django_model/models.py,sha256=gEVSazGi25UejeX9fdyb0ii01HVSzFB6oHepBGxDBJo,5758
+upcast/env_var/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upcast/env_var/core.py,sha256=KyHwSFgL7pyfXJUPD3fi0jMDz4GyZk5SLytn6wf8Qiw,6302
+upcast/env_var/exporter.py,sha256=ORjA_B0tZrfiF8auf10BpZSxJA37qDSOTURSB3-gyuk,3992
+upcast/env_var/plugin.py,sha256=NZNQMLuH6lzSuz5sXvnT2pR3VPqkLGVH0JosJZ-YeiQ,8560
+upcast/main.py,sha256=wUVjuZSoXDbBXkcte_q1fWNpVYf5_YxCpA2GvUo0Css,1853
+upcast/utils.py,sha256=FFvOkhDiElOU9EPqwH2jAxuf8l4XOi89nLrGQ6SNGUg,3558
+upcast-0.2.2.dist-info/LICENSE,sha256=cJ-fmy4wufh9encbiLZ6Xmzl1Wa1tGEqWyT0WQHzi7Y,1063
+upcast-0.2.2.dist-info/METADATA,sha256=wFSqpNEBDoCElKcNLqF0wsnwOyg__8ZHz13WppoZBus,2261
+upcast-0.2.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+upcast-0.2.2.dist-info/entry_points.txt,sha256=hHRs55KQBgpDmHnYFo-P2wQIMa5t9qi_SUhdHVf7bMY,43
+upcast-0.2.2.dist-info/RECORD,,
