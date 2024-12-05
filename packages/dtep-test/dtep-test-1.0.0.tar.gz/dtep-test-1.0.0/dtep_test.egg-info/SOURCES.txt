@@ -1,0 +1,8 @@
+README.md
+setup.py
+dtep-package/__init__.py
+dtep-package/dtep-test.py
+dtep_test.egg-info/PKG-INFO
+dtep_test.egg-info/SOURCES.txt
+dtep_test.egg-info/dependency_links.txt
+dtep_test.egg-info/top_level.txt
