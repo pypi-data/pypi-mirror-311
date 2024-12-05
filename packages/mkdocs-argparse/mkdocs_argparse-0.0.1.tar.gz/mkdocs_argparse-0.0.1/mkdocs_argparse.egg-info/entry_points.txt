@@ -1,0 +1,2 @@
+[markdown.extensions]
+mkdocs-argparse = mkdocs_argparse:MKArgparseExtension

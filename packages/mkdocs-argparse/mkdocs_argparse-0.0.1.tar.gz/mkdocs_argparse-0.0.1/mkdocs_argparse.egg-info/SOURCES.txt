@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+mkdocs_argparse/__init__.py
+mkdocs_argparse.egg-info/PKG-INFO
+mkdocs_argparse.egg-info/SOURCES.txt
+mkdocs_argparse.egg-info/dependency_links.txt
+mkdocs_argparse.egg-info/entry_points.txt
+mkdocs_argparse.egg-info/requires.txt
+mkdocs_argparse.egg-info/top_level.txt
