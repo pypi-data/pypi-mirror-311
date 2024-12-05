@@ -1,0 +1,14 @@
+firestarter/__init__.py,sha256=Mlm4Gvmb_6yQxwUbv2Ksc-BJFXLPg9H1Vt2iV7wXrA4,22
+firestarter/avr_tool.py,sha256=79cdQHcChx3jlk4KVca7iiAYc5Hs99RdS7OMw-YsjE8,2873
+firestarter/database.py,sha256=8uRb_zs_7VMbJryqqJhwzTsRQwS25Xu-HYYi0EFb3Qo,5542
+firestarter/ic_layout.py,sha256=tTxyPAikOaGAmwEhkEoed6B69Ffj4ry53yV_nOK1nuw,12383
+firestarter/main.py,sha256=IPVVUIbgFVAvd4fUArxuksMKGGrWls75FeahGSe1VDM,24927
+firestarter/data/avrdude.conf,sha256=vmkKv86ekefcro1BfheZ3COwMXnDByAGXR9r86ZFgwA,536804
+firestarter/data/database.json,sha256=BR4rGGMrUjBSvCO7fUNZwHoSYVP8NEYvBOCiuQelTvo,567248
+firestarter/data/pin-maps.json,sha256=cE8D687h8ilupW1lKKpC0DOwxCAlAItNDlKcdh9U6hs,1593
+firestarter-1.2.1.dist-info/LICENSE,sha256=9ztcEKxcb4Hz5B2cF0nYB_eGeNdgyZt_3sR8Pw2V95c,1070
+firestarter-1.2.1.dist-info/METADATA,sha256=n0U1UKOJIRgK-pLsHy0FsudTC5wrPJzmWKeOOK4T_rw,8477
+firestarter-1.2.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+firestarter-1.2.1.dist-info/entry_points.txt,sha256=_s-2jjqG7vwqoDns4Xz534xTCm4TzfhNF84-I9L-Bv0,54
+firestarter-1.2.1.dist-info/top_level.txt,sha256=qHuqDWyW4kVcqbYZpvbwLwJ_Q3Nezm_3mwM6E2wJPRg,12
+firestarter-1.2.1.dist-info/RECORD,,
