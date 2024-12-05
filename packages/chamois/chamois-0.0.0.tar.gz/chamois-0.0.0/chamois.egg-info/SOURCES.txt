@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+chamois/__init__.py
+chamois.egg-info/PKG-INFO
+chamois.egg-info/SOURCES.txt
+chamois.egg-info/dependency_links.txt
+chamois.egg-info/top_level.txt
