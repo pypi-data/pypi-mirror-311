@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: youqu-playbook
+Version: 2024.11.26
+Summary: YouQu Task Scheduling Framework
+Author-email: mikigo <huangmingqiang@uniontech.com>
+License: GPL2.0
+License-File: LICENSE
+Requires-Python: >=3.6
+Requires-Dist: click
+Requires-Dist: funnylog2
+Description-Content-Type: text/markdown
+
+# playbook
+
+YouQu 任务调度框架

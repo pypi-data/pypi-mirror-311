@@ -1,0 +1,105 @@
+[
+    [
+        {
+            "app_name": "app1",
+            "id": "1",
+            "git": {
+                "url": "git@github.com:user/repo.git",
+                "branch": "master"
+            },
+            "framework": "youqu2",
+            "split_run": true,
+            "clients": [
+                "uos@10.8.11.1",
+                "uos@10.8.11.2",
+                "uos@10.8.11.3"
+            ]
+        }
+    ],
+    [
+        {
+            "app_name": "app4",
+            "id": "5",
+            "git": {
+                "url": "git@github.com:user/repo.git",
+                "branch": "master"
+            },
+            "framework": "youqu3",
+            "split_run": true,
+            "clients": [
+                "uos@10.8.11.1",
+                "uos@10.8.11.2",
+                "uos@10.8.11.3"
+            ]
+        }
+    ],
+    [
+        {
+            "app_name": "app2",
+            "id": "3",
+            "git": {
+                "url": "git@github.com:user/repo.git",
+                "branch": "master"
+            },
+            "framework": "youqu2",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.11.1"
+            ]
+        },
+        {
+            "app_name": "app3",
+            "id": "4",
+            "git": {
+                "url": "git@github.com:user/repo.git",
+                "branch": "master"
+            },
+            "framework": "youqu2",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.11.2"
+            ]
+        },
+        {
+            "app_name": "app4",
+            "id": "2",
+            "git": {
+                "url": "git@github.com:user/repo.git",
+                "branch": "master"
+            },
+            "framework": "youqu3",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.11.3"
+            ]
+        }
+    ],
+    [
+        {
+            "app_name": "app6",
+            "id": "6",
+            "git": {
+                "url": "git@github.com:user/repo.git",
+                "branch": "master"
+            },
+            "framework": "youqu2",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.11.1"
+            ]
+        },
+        {
+            "app_name": "app7",
+            "id": "7",
+            "git": {
+                "url": "git@github.com:user/repo.git",
+                "branch": "master"
+            },
+            "framework": "youqu3",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.11.2"
+            ]
+        }
+    ]
+]
