@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "nonebug-saa"
+version = "0.5.0"
+description = "A nonebug helper for nonebot-plugin-send-anything-anything"
+authors = ["felinae98 <me@felinae98.cn>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/MountainDash/nonebug-saa"
+packages = [{ include = "nonebug_saa" }]
+repository = "https://github.com/MountainDash/nonebug-saa"
+documentation = "https://github.com/MountainDash/nonebug-saa#readme"
+keywords = []
+classifiers = ["Framework :: Pytest"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nonebug = ">=0.3.1"
+pytest-mock = "^3.10.0"
+nonebot-plugin-send-anything-anywhere = ">=0.5.0"
+
+[tool.poetry.group.dev.dependencies]
+nonemoji = "^0.1.2"
+pre-commit = "^4.0.1"
+
+[tool.poetry.plugins.pytest11]
+saa_nonebug = "nonebug_saa.fixtures"
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+  "W",   # pycodestyle warnings
+  "E",   # pycodestyle errors
+  "F",   # pyflakes
+  "UP",  # pyupgrade
+  "C4",  # flake8-comprehensions
+  "T10", # flake8-debugger
+  "T20", # flake8-print
+  "PYI", # flake8-pyi
+  "PT",  # flake8-pytest-style
+  "Q",   # flake8-quotes
+  "RUF", # Ruff-specific rules
+  "I",   # isort
+]
+ignore = [
+  "E402", # module-import-not-at-top-of-file
+]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+pythonVersion = "3.9"
+pythonPlatform = "All"
+typeCheckingMode = "standard"
