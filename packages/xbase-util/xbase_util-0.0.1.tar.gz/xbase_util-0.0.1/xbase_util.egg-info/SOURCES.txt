@@ -1,0 +1,10 @@
+README.md
+setup.py
+xbase_util/__init__.py
+xbase_util/xbase_util.py
+xbase_util.egg-info/PKG-INFO
+xbase_util.egg-info/SOURCES.txt
+xbase_util.egg-info/dependency_links.txt
+xbase_util.egg-info/not-zip-safe
+xbase_util.egg-info/requires.txt
+xbase_util.egg-info/top_level.txt
