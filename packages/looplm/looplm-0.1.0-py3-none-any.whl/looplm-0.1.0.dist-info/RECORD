@@ -1,0 +1,15 @@
+looplm/__init__.py,sha256=BIPqv4qrjkfcVBGdodFXeKwcEvjop7ekYontHlbKmYc,288
+looplm/cli/__init__.py,sha256=rfsMDRuUijSIxyIDSENH-gBLU0d6k0CCLG8oat6P-7Y,70
+looplm/cli/chat.py,sha256=lEr6P41bi-Fcew7Zx-c81E0ERflxsRDlvMY7KgmT-t0,731
+looplm/cli/main.py,sha256=cuP8qJFZXD2ZRmkMBnVtAFLZF_R32vXa9-OtAqJMObo,8217
+looplm/cli/setup.py,sha256=LeY-mw8yvopshwR3dtVJcyPNKIUB1DAzadPYcNYyfII,12139
+looplm/config/__init__.py,sha256=BbtD88xlqFdYOLPKtjY1QKCc0zjERe8QrGQDFx8qUcA,80
+looplm/config/manager.py,sha256=RqjpUPr6q0_7xA1gPnnQxBkj_CVqwKVvKb5eC9lHLeY,10372
+looplm/config/providers.py,sha256=_Ist6dnvYAV5Bbrtke3zMYWDxw8VrjJMf3rNufcDI8U,2217
+looplm/conversation/__init__.py,sha256=wGCDUPTBftfb67jba7OVUh-m_eOzwPLxlQIkOQw-AO0,61
+looplm/conversation/handler.py,sha256=JfQmLHpoMcu7snUoE2VI3LcEzHwX6_u9z4OkToVju2Y,5465
+looplm-0.1.0.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+looplm-0.1.0.dist-info/METADATA,sha256=CAnpEGGi-ut5YHzY9enT75q24Gy7DOyenZWYoPrA5sE,2779
+looplm-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+looplm-0.1.0.dist-info/entry_points.txt,sha256=7uV5PCHTMYnzTent_tVgZiv-bdNgUqBejt5EBC9NJZc,47
+looplm-0.1.0.dist-info/RECORD,,
