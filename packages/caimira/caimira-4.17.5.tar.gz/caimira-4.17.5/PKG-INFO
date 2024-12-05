@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: caimira
+Version: 4.17.5
+Summary: CAiMIRA - CERN Airborne Model for Indoor Risk Assessment
+Author-email: Andre Henriques <andre.henriques@cern.ch>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/cern/caimira
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: memoization
+Requires-Dist: mistune
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyinstrument
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Requires-Dist: retry
+Requires-Dist: ruptures
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: tabulate
+Requires-Dist: timezonefinder
+Requires-Dist: tornado
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-mypy>=0.10.3; extra == "test"
+Requires-Dist: mypy>=1.0.0; extra == "test"
+Requires-Dist: pytest-tornasync; extra == "test"
+Requires-Dist: types-dataclasses; extra == "test"
+Requires-Dist: types-python-dateutil; extra == "test"
+Requires-Dist: types-requests; extra == "test"
+Requires-Dist: types-retry; extra == "test"
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx_markdown_builder; extra == "doc"
+Requires-Dist: pylint; extra == "doc"
+Requires-Dist: mkdocs; extra == "doc"
+Requires-Dist: mkdocs-material; extra == "doc"
