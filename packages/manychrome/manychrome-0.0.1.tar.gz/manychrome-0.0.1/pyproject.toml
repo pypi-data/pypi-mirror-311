@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manychrome"
+version = "0.0.1"
+authors = [{ name = "maria Wenner", email = "mail@neurosystems.co" }]
+description = "A simple package make life easier when working with text from the CLI."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["dataclasses"]
+
+[project.scripts]
+manychrome_examples = "manychrome.examples:function"
+
+[project.urls]
+Homepage = "https://github.com/NeurosystemsCo/manychrome"
+Issues = "https://github.com/NeurosystemsCo/manychrome/issues"

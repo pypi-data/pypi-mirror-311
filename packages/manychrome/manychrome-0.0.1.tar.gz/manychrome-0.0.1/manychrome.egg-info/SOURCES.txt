@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+examples/__init__.py
+examples/examples_manychrome.py
+manychrome.egg-info/PKG-INFO
+manychrome.egg-info/SOURCES.txt
+manychrome.egg-info/dependency_links.txt
+manychrome.egg-info/entry_points.txt
+manychrome.egg-info/requires.txt
+manychrome.egg-info/top_level.txt
+tests/__init__.py
+tests/test_manychrome.py
