@@ -1,0 +1,11 @@
+spinque_query_api/__init__.py,sha256=-8z06Lsq4GWJ2hAYHtQPYgLf909-9UgIblBGuO5jVew,163
+spinque_query_api/api.py,sha256=lk_GslOFNimfrBvcKH8VEJv6VnfDPqvQdvZa7OMlRSQ,1952
+spinque_query_api/authentication.py,sha256=g7OR0rMzVdjD1XfZN8-IITKMd2CAb2wjQMjtSBJOGP4,4153
+spinque_query_api/exceptions.py,sha256=STlJvvig8k8IF_Hr3QlA7Y2KbC8hN7ZqFPsMmu2PU5U,179
+spinque_query_api/types.py,sha256=9dnl9iz8Vtezm4m57UdS2GSqsI-KUBSie-SnBxoyq3I,493
+spinque_query_api/utils.py,sha256=X2P4kQpqBon_Z2r23wYHgmN3eF6Q_tq_cevzKd_ghFs,1546
+spinque_query_api-0.0.4.dist-info/LICENSE,sha256=u_bR0l0gPsH49ZxRRd8vLVT3qSMFbAuwAtLr4lCm5Kc,1069
+spinque_query_api-0.0.4.dist-info/METADATA,sha256=fRqazuJKzi848TqdAf3nnKRby3vpIrSX6oszdEz4Zwc,307
+spinque_query_api-0.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+spinque_query_api-0.0.4.dist-info/top_level.txt,sha256=I4PVP2bJ-wY7_U3EpRzWvqqKzzGcrMvl3nWhEPY6z1w,18
+spinque_query_api-0.0.4.dist-info/RECORD,,
