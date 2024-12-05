@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nemesis_eleos/__init__.py
+nemesis_eleos/constants.py
+nemesis_eleos/core_create_example.py
+nemesis_eleos/cores.py
+nemesis_eleos/profiles.py
+nemesis_eleos/result_parse_example.py
+nemesis_eleos/results.py
+nemesis_eleos/shapes.py
+nemesis_eleos/utils.py
+nemesis_eleos.egg-info/PKG-INFO
+nemesis_eleos.egg-info/SOURCES.txt
+nemesis_eleos.egg-info/dependency_links.txt
+nemesis_eleos.egg-info/top_level.txt
