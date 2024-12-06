@@ -1,0 +1,8 @@
+pyterrier_t5/__init__.py,sha256=OWYZLm6r7bvzV00J52Co38ptjPM5kZ9yxjJ6-VopQA8,10839
+training/monot5/t5-train-bm25negs.py,sha256=uRT1P7NBelCUFkHIxiaI1-2bdanJbkCmg_VWr7l-l6I,2848
+training/monot5/t5train.py,sha256=ruEjEao_M1jMoLlXwaI-LggzOQwzrgqPH6n0bLPEzLk,3235
+pyterrier_t5-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pyterrier_t5-0.1.0.dist-info/METADATA,sha256=yfTH3VW1hMob4ejYDCY_Tou6MmlHikiMbWKtPpiHocM,4437
+pyterrier_t5-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyterrier_t5-0.1.0.dist-info/top_level.txt,sha256=AXhFbUlGaIckW7FZdrdprTKWt-gP50AlgfOpDeVfN4A,22
+pyterrier_t5-0.1.0.dist-info/RECORD,,
