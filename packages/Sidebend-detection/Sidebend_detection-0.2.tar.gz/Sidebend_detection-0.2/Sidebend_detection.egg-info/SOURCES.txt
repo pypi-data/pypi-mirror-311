@@ -1,0 +1,8 @@
+setup.py
+Sidebend_detection/Sidebend_detection.py
+Sidebend_detection/__init__.py
+Sidebend_detection.egg-info/PKG-INFO
+Sidebend_detection.egg-info/SOURCES.txt
+Sidebend_detection.egg-info/dependency_links.txt
+Sidebend_detection.egg-info/requires.txt
+Sidebend_detection.egg-info/top_level.txt
