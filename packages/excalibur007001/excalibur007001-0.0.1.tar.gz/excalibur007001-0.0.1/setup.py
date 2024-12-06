@@ -1,0 +1,18 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="excalibur007001",
+    version="0.0.1",
+    author="Dipanshu Kumar",
+    author_email="dipanshukumar449@gmail.com",
+    description="Its just for the testing purpose",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    packages=find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.6",
+)
