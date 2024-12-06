@@ -1,0 +1,15 @@
+canvasrobot/__init__.py,sha256=VBDgR8cFVwEBoj0mxs0l8vI5_Ftt1sDl8OQkabLwfGQ,609
+canvasrobot/canvasrobot.py,sha256=91qBHi9MFtR8bdoiwKJ3TfGxtcsWE5qkt40zX41YzFo,88395
+canvasrobot/canvasrobot_model.py,sha256=0w_Q8bBBd29qekeAGRcX6nWRb7euWVVOe6xVbUHXQTU,11556
+canvasrobot/commandline.py,sha256=9pxVSCidd9zYxZqMa1O3aKiHrjMn_8E0qciRzTPnhoA,6739
+canvasrobot/urltransform.py,sha256=KaIfnJytITMekOCl1WGRK3H0firDNP69UqlLi4CDpJQ,8538
+canvasrobot/entities/__init__.py,sha256=ASKNXO5_3wsneS8-oj7GIwYHMlpkpuP24EFldiMzBHE,402
+canvasrobot/entities/course.py,sha256=3OicOcBn1G6Vb6u8eEiP5gWh4igak3OsSd6Fk7W3PjA,1113
+canvasrobot/entities/guest.py,sha256=IPXwttTbcKaZdKecpUIbdhtC5SUEOmBYz1vXY_ra65I,663
+canvasrobot/entities/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canvasrobot/entities/quiz.py,sha256=0jkvW4fj9WRi_NWuWREJQwPF1zV86UjuFB0MxFmk3Ec,1017
+canvasrobot/entities/user.py,sha256=l_utsQIH88BVqIkW0Wz6w8NG0CqmbvcYxvoOMArbdj8,2182
+canvasrobot-0.8.13.dist-info/METADATA,sha256=5FA_jGHufGPm2chVo6SEEnNjVO_GQlIckSrtKvzzoes,3021
+canvasrobot-0.8.13.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+canvasrobot-0.8.13.dist-info/entry_points.txt,sha256=cgSTd_amdYbC0SxGgRJUUA0cfPFbo8uiCyc3RawbHjY,104
+canvasrobot-0.8.13.dist-info/RECORD,,
