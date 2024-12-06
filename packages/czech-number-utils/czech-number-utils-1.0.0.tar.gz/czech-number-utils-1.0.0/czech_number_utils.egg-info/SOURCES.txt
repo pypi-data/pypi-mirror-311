@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+czech_number_utils/__init__.py
+czech_number_utils.egg-info/PKG-INFO
+czech_number_utils.egg-info/SOURCES.txt
+czech_number_utils.egg-info/dependency_links.txt
+czech_number_utils.egg-info/top_level.txt
