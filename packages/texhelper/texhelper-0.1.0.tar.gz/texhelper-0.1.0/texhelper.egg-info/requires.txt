@@ -1,0 +1,10 @@
+numpy
+pytest
+regex
+pandas
+pyyaml
+click
+requests
+tqdm
+matplotlib
+beautifulsoup4
