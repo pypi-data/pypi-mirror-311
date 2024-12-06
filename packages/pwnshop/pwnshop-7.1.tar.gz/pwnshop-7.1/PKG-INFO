@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pwnshop
+Version: 7.1
+Summary: A framework for generating CTF challenges for learning
+Home-page: https://github.com/pwncollege/pwnshop
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: jinja2==3.0.3
+Requires-Dist: nbconvert==6.4.4
+Requires-Dist: asteval
+Requires-Dist: pyastyle
+Requires-Dist: pwntools
+Requires-Dist: pyyaml
+Requires-Dist: docker
+Requires-Dist: ezmp
+Requires-Dist: black
