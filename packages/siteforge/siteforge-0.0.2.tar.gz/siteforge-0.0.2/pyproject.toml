@@ -1,0 +1,90 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = 'hatchling.build'
+
+[project]
+name = "siteforge"
+description = "An awesome package is coming soon! 🎉"
+version = "0.0.2"
+readme = "README.md"
+authors = [{ name = "Marcelo Trylesinski", email = "marcelotryle@gmail.com" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = ["starlette>=0.41.3", "uvicorn>=0.32.1"]
+optional-dependencies = {}
+
+[project.urls]
+Homepage = "https://github.com/Kludex/siteforge"
+Source = "https://github.com/Kludex/siteforge"
+Twitter = "https://twitter.com/marcelotryle"
+Funding = "https://github.com/sponsors/Kludex"
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "mypy",
+    "pre-commit",
+    # Test dependencies
+    "coverage[toml]",
+    "pytest",
+    "pytest-sugar",
+    "dirty-equals",
+    "inline-snapshot",
+]
+docs = ["mkdocs", "mkdocs-material", "mkdocstrings-python"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.sdist]
+include = ["/README.md", "LICENSE", "/siteforge", "/tests"]
+
+[tool.mypy]
+strict = true
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",      # https://docs.astral.sh/ruff/rules/#error-e
+    "F",      # https://docs.astral.sh/ruff/rules/#pyflakes-f
+    "I",      # https://docs.astral.sh/ruff/rules/#isort-i
+    "FA",     # https://docs.astral.sh/ruff/rules/#flake8-future-annotations-fa
+    "UP",     # https://docs.astral.sh/ruff/rules/#pyupgrade-up
+    "RUF100", # https://docs.astral.sh/ruff/rules/#ruff-specific-rules-ruf
+]
+isort = { combine-as-imports = true, split-on-trailing-comma = false }
+
+[tool.ruff.format]
+docstring-code-format = true
+skip-magic-trailing-comma = true
+
+[tool.pytest.ini_options]
+addopts = "-rXs --strict-config --strict-markers"
+xfail_strict = true
+filterwarnings = ["error"]
+
+[tool.coverage.run]
+branch = true
+source_pkgs = ["siteforge", "tests"]
+
+[tool.coverage.report]
+fail_under = 100
+show_missing = true
+skip_covered = true
