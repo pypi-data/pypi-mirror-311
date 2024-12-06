@@ -1,0 +1,9 @@
+pyproject.toml
+raccoon.py
+setup.py
+raccoon_quickstart.egg-info/PKG-INFO
+raccoon_quickstart.egg-info/SOURCES.txt
+raccoon_quickstart.egg-info/dependency_links.txt
+raccoon_quickstart.egg-info/entry_points.txt
+raccoon_quickstart.egg-info/requires.txt
+raccoon_quickstart.egg-info/top_level.txt

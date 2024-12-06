@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raccoon-quickstart"
+version = "0.0.2"
+description = "Raccoon quickstart generator"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Raccoon AI", email = "team@flyingraccoon.tech" }
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = ["click", "pyperclip", "setuptools"]
+
+[project.urls]
+Homepage = "https://github.com/Flying-Raccoon-AI/raccoon-quickstart"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov"
+]
+
+[project.scripts]
+raccoon-quickstart = "raccoon:cli"
