@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: gseda
+Version: 0.0.1
+Summary: gsetl
+Project-URL: Homepage, https://github.com/keithyin/gsda
+Project-URL: Issues, https://github.com/keithyin/gsda/issues
+Author-email: keithyin <yinpenghhz@hotmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+gseda
+
+
+how to pack: https://cloud.tencent.com/developer/article/2401343
