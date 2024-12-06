@@ -1,0 +1,10 @@
+wcf_http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wcf_http/assets/images/wcf-http.ico,sha256=imjLg8CuS19UessAYY-hQgqEna5GxTV7XCEp7oiO01Q,209641
+wcf_http/assets/images/wcf-http.png,sha256=OoEpRHFRmmjoKUl3Yt716Z8CETXPBmQxYexVbbg1p6g,208957
+wcf_http/core.py,sha256=Ga-1423-ne0i5bILyCujBZt53qTUweB_vhsb5d4nE4k,22686
+wcf_http/main.py,sha256=erElK3dTN6CY3wRO4UN8qvralf7sqqgOYsz-k1bWhX4,5656
+wcf_http/preamble.py,sha256=0jKfOxUEaUPLkRb5pQUzuG4JEP_1XNCjsk982OkvxRA,113
+wcf_http_server-39.0.14.0.1.dist-info/entry_points.txt,sha256=0XVckUxS6w3a2qisLXSHvPA8DOxA3c1GL44GimAs7r8,46
+wcf_http_server-39.0.14.0.1.dist-info/METADATA,sha256=mxhmrXw2nDwI9PBFfdM7-r6yLy-wCEr_4wQuDcGGZW0,2897
+wcf_http_server-39.0.14.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+wcf_http_server-39.0.14.0.1.dist-info/RECORD,,
