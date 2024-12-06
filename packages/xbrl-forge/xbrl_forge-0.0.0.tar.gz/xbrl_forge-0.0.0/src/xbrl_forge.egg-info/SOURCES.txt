@@ -1,0 +1,9 @@
+LICENCE.md
+README.md
+pyproject.toml
+src/xbrl_forge/__init__.py
+src/xbrl_forge.egg-info/PKG-INFO
+src/xbrl_forge.egg-info/SOURCES.txt
+src/xbrl_forge.egg-info/dependency_links.txt
+src/xbrl_forge.egg-info/requires.txt
+src/xbrl_forge.egg-info/top_level.txt
