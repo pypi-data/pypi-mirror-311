@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlalchemy_db_graphing"
+version = "0.2.0"
+description = "A module to display sqlalchemy database tables and keys as a graph"
+readme = "README.md"
+authors = [
+  {name = "Erwan Nisol", email = "erwan.nisol@free.fr"}
+]
+maintainers = [
+  {name = "Erwan Nisol", email = "erwan.nisol@free.fr"}
+]
+classifiers = [
+
+]
+license = {text = "MIT license"}
+dependencies = [
+  "sqlalchemy",
+  "pydot",
+]
+
+[project.optional-dependencies]
+dev = [
+    "tox",  # testing
+    "coverage",  # testing
+    "mypy",  # linting
+    "pytest",  # testing
+    "ruff",  # linting
+    "black",  # linting
+]
+
+[project.urls]
+
+bugs = "https://github.com/erwann-met/sqlalchemy_db_graphing/issues"
+changelog = "https://github.com/erwann-met/sqlalchemy_db_graphing/blob/master/changelog.md"
+homepage = "https://github.com/erwann-met/sqlalchemy_db_graphing"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"*" = ["*.*"]
+
+[tool.mypy]
+disable_error_code = "import-untyped"
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+lint.select = ["D", "E", "F", "I", "W"]
+
+lint.ignore = [ # Set of rules tested on mts-api-python
+    "D102", # Missing docstring in public method
+    "D103", # Missing docstring in public function (already covered by pylint)
+    "D107", # Missing docstring in __init__
+    "D203", # 1 blank line required before class docstring, conflicts with D211 no blank line before class docstring
+    "D205", # 1 blank line required between summary line and description, very strict
+    "D212", "D213", # Summary should start at the first or second line, both are ignored by default
+    "D401", # First line should be in imperative mood
+    "D404", # First word of the docstring should not be "This"
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["D104"] # ignore no docstrings in __init__.py
+"tests/*" = ["D"] # ignore all docstrings related linting in tests
+"*.ipynb" = ["D"] # ignore all docstrings related linting in notebooks
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"

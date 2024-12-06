@@ -1,0 +1,10 @@
+sqlalchemy
+pydot
+
+[dev]
+tox
+coverage
+mypy
+pytest
+ruff
+black
