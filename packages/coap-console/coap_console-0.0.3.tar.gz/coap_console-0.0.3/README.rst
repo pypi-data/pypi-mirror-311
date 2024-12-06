@@ -1,0 +1,37 @@
+=======================================================================
+coap-console: interactive access to serial input/output of CoAP servers
+=======================================================================
+
+This Python package provides access
+to resources that implement the ``tag:riot-os.org,2021:ser-out`` / ``tag:riot-os.org,2021:ser-in`` interfaces over CoAP.
+Those resources can be used to provide log output
+or interactive shell access
+to CoAP servers (not only) on embedded systems.
+
+It is mainly used together with the `coap-scroll-ring-server Rust crate`_
+which implements the server side,
+for example as used in the `stdio example`_ on `RIOT OS`_
+and the `CoAP test of Ariel OS`_
+(which also serves as an example of how to use this securely).
+
+It can be run directly from the source repository by running::
+
+    $ ./coap-console 'coap://[2001:db8::1]'
+
+(which discovers a stdout resource or stdin-/out pair of resources on the given IP address)
+
+or ran directly from git::
+
+    $ pipx run --spec "git+https://gitlab.com/chrysn/scroll-ring#egg=coap_console&subdirectory=coap-scroll-ring-server/tools/coap_console" coap-console 'coap://[2001:db8::1]'
+
+or installed and run using::
+
+    $ pip install coap_console
+    $ coap-console 'coap://[2001:db8::1]'
+
+(or ran directly from pip, or installed from git, by combinations thereof)
+
+.. _`coap-scroll-ring-server Rust crate`: https://crates.io/crates/coap-scroll-ring-server
+.. _`stdio example`: https://gitlab.com/etonomy/riot-module-examples/-/blob/master/riot-coap-handler-demos/src/stdio.rs?ref_type=heads
+.. _`RIOT OS`: https://riot-os.org/
+.. _`CoAP test of Ariel OS`: https://github.com/ariel-os/ariel-os/tree/main/tests/coap
