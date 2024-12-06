@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+file_organiser/__init__.py
+file_organiser/organizer.py
+sort_it_out.egg-info/PKG-INFO
+sort_it_out.egg-info/SOURCES.txt
+sort_it_out.egg-info/dependency_links.txt
+sort_it_out.egg-info/top_level.txt
