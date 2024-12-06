@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+gql_query_builder/__init__.py
+gql_query_builder_with_pyproject.egg-info/PKG-INFO
+gql_query_builder_with_pyproject.egg-info/SOURCES.txt
+gql_query_builder_with_pyproject.egg-info/dependency_links.txt
+gql_query_builder_with_pyproject.egg-info/top_level.txt
+tests/test.py
