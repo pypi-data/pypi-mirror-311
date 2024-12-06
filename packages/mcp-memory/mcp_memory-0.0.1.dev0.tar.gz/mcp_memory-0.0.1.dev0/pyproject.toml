@@ -1,0 +1,21 @@
+[project]
+name = "mcp-memory"
+version = "0.0.1.dev0"
+description = "Memory Implementation in MCP and python"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.0.0"]
+[[project.authors]]
+name = "Gus"
+email = "jianbaiye@outlook.com"
+
+[project.urls]
+Repository = "https://github.com/memodb-io/mcp-memory"
+Issues = "https://github.com/memodb-io/mcp-memory/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-memory = "mcp_memory:main"
