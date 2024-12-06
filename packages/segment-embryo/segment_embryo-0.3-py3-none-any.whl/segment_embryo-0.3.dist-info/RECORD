@@ -1,0 +1,17 @@
+segment_embryo/__init__.py,sha256=N2u0HpzqdZ8ODVOiIvKlUeyCjExN1gsKupniW_OTZek,271
+segment_embryo/_sample_data.py,sha256=WPcv3qUILBsnnS8upsCpC0fRD6yqIp-cl7ed7OCuvlI,1774
+segment_embryo/_version.py,sha256=70EL5Ao5qU0eh0IaEutgBVj2leAtBIrWHEMJbXxWg5s,406
+segment_embryo/_widget.py,sha256=Ywp226YwObJSSvIn6L4ZCMgnVzVTbECPAE109UUQ7Ss,5668
+segment_embryo/napari.yaml,sha256=fwOxk2Xy_L-YyARJyWUwehnYIY36rT9URDbYJETXL48,814
+segment_embryo/napari_util.py,sha256=ldfaKtte1dxfyOhOTTho5a-rTWODqcfEPD_SK7ty6N4,1589
+segment_embryo/qtutil.py,sha256=uu7vF25jIBseWDEHW9RTJpOiivRw7ShxV-4pOQ4tJpM,2501
+segment_embryo/segmentation.py,sha256=VXFsJ2p72WK9ak4cjTxZoBSY_gMoTwPutx5RlurxLxo,1300
+segment_embryo/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+segment_embryo/_tests/test_sample_data.py,sha256=BnD8bRKpGialOS-yFA7igNWQ4mg_0_R9rYLtv1p0icg,112
+segment_embryo/_tests/test_widget.py,sha256=pwCZkjp8hEUyfPxJciH3bWvYyngqRvBK9LN9rpq2z0E,619
+segment_embryo-0.3.dist-info/LICENSE,sha256=zi7egA8fnlbgDdRbgG1SfnIED7CpkvpwJLmKO7i7mZ4,1082
+segment_embryo-0.3.dist-info/METADATA,sha256=sU33KUE665D5KfOHBWd_vfuEAXwDTrUbM0Cc7B_Dan0,6059
+segment_embryo-0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+segment_embryo-0.3.dist-info/entry_points.txt,sha256=_9z2Uu_gMpqFEn3PJbAsR5eZK7zAlHIWyhSTc6UZ_dM,62
+segment_embryo-0.3.dist-info/top_level.txt,sha256=NNF6JIGQ560dJiYaylOTDu97REmh4tCmRzUgMADAVM0,15
+segment_embryo-0.3.dist-info/RECORD,,

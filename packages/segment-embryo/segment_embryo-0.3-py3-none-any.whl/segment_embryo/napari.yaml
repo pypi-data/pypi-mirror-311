@@ -1,0 +1,21 @@
+name: segment-embryo
+display_name: Embryo Segmentation
+# use 'hidden' to remove plugin from napari hub search results
+visibility: public
+# see https://napari.org/stable/plugins/manifest.html for valid categories
+categories: ["Annotation", "Segmentation", "Acquisition"]
+contributions:
+  commands:
+    - id: segment-embryo.make_sample_data
+      python_name: segment_embryo._sample_data:make_sample_data
+      title: Load sample data from Embryo Segmentation
+    - id: segment-embryo.make_qwidget
+      python_name: segment_embryo:EmbryoSegmentationWidget
+      title: Embryo Segmentation
+  sample_data:
+    - command: segment-embryo.make_sample_data
+      display_name: Embryo Segmentation
+      key: unique_id.1
+  widgets:
+    - command: segment-embryo.make_qwidget
+      display_name: Embryo Segmentation Widget
