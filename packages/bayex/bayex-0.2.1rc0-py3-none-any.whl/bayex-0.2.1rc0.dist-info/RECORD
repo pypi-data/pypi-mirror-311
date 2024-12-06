@@ -1,0 +1,12 @@
+bayex/__init__.py,sha256=OSeMxRPbe5if6OZYP1e46jAGIyhsh5-qHN_laPw3ty8,175
+bayex/acq.py,sha256=eNYqxZ-c8bi4nMEJfLE3vFukWZAEANOH1IYZK-GtA08,1356
+bayex/domain.py,sha256=GeunqVlsGZlDa8D0CpdPlYWuw8SA6VI8UDlvOE9-JdE,2076
+bayex/gp.py,sha256=PTMRxm1OLil_lcHOPPSiM3rrBPpr0G8ErPXA0lmsDfw,2972
+bayex/gp_test.py,sha256=jxlqF_2-ZXxqWXexf0-vRamRhXe7vdE8nzqVS0UUfKI,1627
+bayex/optimizer.py,sha256=gJp7QyPO9cW7n8HXkALO2YX4de6hIn7U-32eOMAPFFU,9704
+bayex/optimizer_test.py,sha256=1-5gmpktDHLBCiZ1_5YBTgNPQYIEOXeA7oaY0OkYWgg,3307
+bayex-0.2.1rc0.dist-info/LICENSE,sha256=4L52IuWkVgnmanWi467oxvHWzguH3NfJqENoR9hL1pc,1070
+bayex-0.2.1rc0.dist-info/METADATA,sha256=3vEtyIxUWp6NJrm5khlW28Dfb-VAZa-98D7gg5jxeVY,4838
+bayex-0.2.1rc0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bayex-0.2.1rc0.dist-info/top_level.txt,sha256=LSDLgZ97xNbaqPOLKZ4oUSvFkCZ98BGaxRp8LXBany4,6
+bayex-0.2.1rc0.dist-info/RECORD,,
