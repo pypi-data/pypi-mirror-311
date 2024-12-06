@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: async_clash
+Version: 0.0.2
+Summary: Async api for clash.
+Project-URL: Homepage, https://github.com/yangtfu/async_clash
+Project-URL: Issues, https://github.com/yangtfu/async_clash/issues
+Author-email: ytf <yangtfu@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
+Description-Content-Type: text/markdown
+
+# Async Clash api
+
