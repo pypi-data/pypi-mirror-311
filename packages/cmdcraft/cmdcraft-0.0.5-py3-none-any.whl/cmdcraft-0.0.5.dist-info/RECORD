@@ -1,0 +1,12 @@
+cmdcraft/__init__.py,sha256=H3UMrkuorL8MsAv2NVl0DnTaQld2YqjOVRpckPMvlD0,238
+cmdcraft/base.py,sha256=ZBEsZ6U1Ri3L0guIi-CTyfHk-MPN4WJRbWZ8hnqTG0g,5714
+cmdcraft/command.py,sha256=ISQXIK4m5VVIMC30BE0CfRP4iuDzyQ1_WAp0g0Mry5s,3694
+cmdcraft/completer.py,sha256=WFxcABJmQKjd5RiW12MbzqFAMXewtutHJcP-OUhDnXQ,3591
+cmdcraft/input.py,sha256=8MZ5ho40-T8I_1-cAHhWoadCpIh8A6bFqpBya2snrok,1163
+cmdcraft/parameter.py,sha256=-GWnCR0V4jT5CdBFEQfQ8nhGcAbnpHgWdbEE0NxqzyU,2224
+cmdcraft/prompter.py,sha256=LLnWrReXNhbqWYa15nHWBIITyryMwplgb1A0bjSj418,1266
+cmdcraft-0.0.5.dist-info/LICENSE,sha256=eaTjffRXHn9vECogupzDrB8J8YSHthQ1O2r9pnV4ucU,1514
+cmdcraft-0.0.5.dist-info/METADATA,sha256=GmImThu_2v0aKNZKNxGAS8-RESq0PU8Duqef5PbR0EE,1720
+cmdcraft-0.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cmdcraft-0.0.5.dist-info/top_level.txt,sha256=yVaQ9UAebzJ1fDpqKxJvCsuyDFwlPVe47RURL_nU9HM,9
+cmdcraft-0.0.5.dist-info/RECORD,,
