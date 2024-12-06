@@ -1,0 +1,8 @@
+include *.ipynb
+include *.pdf
+include *.png
+include *.txt
+recursive-include mksir *.ipynb
+recursive-include mksir *.pdf
+recursive-include mksir *.png
+recursive-include mksir *.txt
