@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_model.py,sha256=dljhUARSw9WVmKntNoMvWHRQL13ZN5ewYYNzqnU35WA,11025
+tests/test_mosaik.py,sha256=OgBu9b-XzIxLfnavZTuMAd1EIg-ib30860FywV92PMs,5814
+mosaik_pypower-0.8.4.dist-info/AUTHORS.txt,sha256=GBNLc1I5YiT7drrZBmbuVD2IwAW_-JsEsQqK8XBT_lw,127
+mosaik_pypower-0.8.4.dist-info/LICENSE.txt,sha256=D5xGfjaZ9n4SzfIVDhPfM-2gkQYLfAHHCI60AFr3Cgk,1080
+mosaik_pypower-0.8.4.dist-info/METADATA,sha256=EFAURzZCsZJW0A0g-v2D6yfmhmzwnZjGOSa_ILDuTAM,20171
+mosaik_pypower-0.8.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+mosaik_pypower-0.8.4.dist-info/entry_points.txt,sha256=fpDUi5KpC36B19F9eubn9U2KQyewWioms2imVK6GlJY,80
+mosaik_pypower-0.8.4.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+mosaik_pypower-0.8.4.dist-info/RECORD,,
