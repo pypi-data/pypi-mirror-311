@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+
+<body background="{{ url_for('static',filename='sant-joan-2.png' ) }}"
+    style="background-repeat: no-repeat; background-color: white;">
+    <h1>Welcome!</h1>
+    <div></div>
+    <p class="lead">
+        This is the SJD Babylab database. It provides an interface with the REDCap database to consult
+        participant and appointment information conveniently.
+        <br><br>
+        This is a work in progress, feel free to report issues and
+        provide feed-back (<a href="mailto:gonzalo.garcia@sjd.es">gonzalo.garcia@sjd.es</a>).
+        <br><br>
+        <b>REDCap version: {{ redcap_version }}</b>
+    </p>
+    </div>
+    {% if login_status==" incorrect" %}
+    <div class="alert alert-danger" role="alert" style="margin-top: 2em;">
+        Credentials are incorrect!
+    </div>
+    {% endif %}
+</body>
+
+{% endblock %}
