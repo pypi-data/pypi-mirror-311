@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+afplay_win/__init__.py
+afplay_win/__main__.py
+afplay_win/cli.py
+afplay_win.egg-info/PKG-INFO
+afplay_win.egg-info/SOURCES.txt
+afplay_win.egg-info/dependency_links.txt
+afplay_win.egg-info/entry_points.txt
+afplay_win.egg-info/requires.txt
+afplay_win.egg-info/top_level.txt
+tests/test_afplay_win.py

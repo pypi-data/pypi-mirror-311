@@ -1,0 +1,2 @@
+[console_scripts]
+afplay = afplay_win.cli:cli
