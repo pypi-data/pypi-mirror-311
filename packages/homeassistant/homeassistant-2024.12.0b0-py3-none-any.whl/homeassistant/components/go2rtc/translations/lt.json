@@ -1,0 +1,33 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Nepavyko prisijungti",
+            "invalid_url": "Invalid URL",
+            "invalid_url_schema": "Netinkama URL schema. URL turi prasid\u0117ti \u201ehttp://\u201c arba \u201ehttps://\u201c."
+        },
+        "step": {
+            "host": {
+                "data": {
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "J\u016bs\u0173 go2rtc egzemplioriaus URL."
+                }
+            },
+            "url": {
+                "data": {
+                    "url": "URL"
+                },
+                "data_description": {
+                    "url": "J\u016bs\u0173 go2rtc egzemplioriaus URL."
+                }
+            }
+        }
+    },
+    "issues": {
+        "recommended_version": {
+            "description": "Aptikome, kad naudojate pasenusi\u0105 go2rtc serverio versij\u0105. Nor\u0117dami gauti geriausi\u0105 patirt\u012f, rekomenduojame atnaujinti go2rtc server\u012f \u012f ` {recommended_version} ` versij\u0105.\n\u0160iuo metu naudojate ` {current_version} ` versij\u0105.",
+            "title": "Aptiktas pasen\u0119s go2rtc serveris"
+        }
+    }
+}

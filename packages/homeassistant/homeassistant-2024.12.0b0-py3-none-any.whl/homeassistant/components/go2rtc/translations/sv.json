@@ -1,0 +1,30 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Det gick inte att ansluta.",
+            "invalid_url": "Ogiltig URL",
+            "invalid_url_schema": "Ogiltigt URL-schema.\nURL:en ska b\u00f6rja med `http://` eller `https://`."
+        },
+        "step": {
+            "host": {
+                "data": {
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "URL-adressen till din go2rtc-instans."
+                }
+            },
+            "url": {
+                "data": {
+                    "url": "URL"
+                }
+            }
+        }
+    },
+    "issues": {
+        "recommended_version": {
+            "description": "Vi har uppt\u00e4ckt att du anv\u00e4nder en f\u00f6r\u00e5ldrad version av go2rtc-servern. F\u00f6r b\u00e4sta m\u00f6jliga upplevelse rekommenderar vi att du uppdaterar go2rtc-servern till version `{recommended_version}`.\nF\u00f6r n\u00e4rvarande anv\u00e4nder du version `{current_version}`.",
+            "title": "F\u00f6r\u00e5ldrad go2rtc-server uppt\u00e4ckt"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Zariadenie u\u017e je nakonfigurovan\u00e9",
+            "already_in_progress": "Konfigur\u00e1cia u\u017e prebieha",
+            "cannot_connect": "Nepodarilo sa pripoji\u0165",
+            "reconfiguration_successful": "\u00daspe\u0161ne nakonfigurovan\u00e1 integr\u00e1cia aplik\u00e1cie Music Assistant.",
+            "reconfigure_successful": "Rekonfigur\u00e1cia bola \u00faspe\u0161n\u00e1"
+        },
+        "error": {
+            "cannot_connect": "Nepodarilo sa pripoji\u0165",
+            "invalid_server_version": "Server Music Assistant nie je spr\u00e1vnou verziou",
+            "unknown": "Neo\u010dak\u00e1van\u00e1 chyba"
+        },
+        "step": {
+            "discovery_confirm": {
+                "description": "Chcete prida\u0165 server Music Assistant `{url}` do Home Assistant?",
+                "title": "Objaven\u00fd server Music Assistant"
+            },
+            "init": {
+                "data": {
+                    "url": "URL servera Music Assistant"
+                }
+            },
+            "manual": {
+                "data": {
+                    "url": "URL servera Music Assistant"
+                },
+                "description": "Zadajte adresu URL v\u00e1\u0161ho u\u017e spusten\u00e9ho servera Music Assistant. Ak nem\u00e1te spusten\u00fd server Music Assistant, mali by ste si ho najsk\u00f4r nain\u0161talova\u0165.",
+                "title": "Manu\u00e1lne pridajte Music Assistant Server"
+            }
+        }
+    },
+    "issues": {
+        "invalid_server_version": {
+            "description": "Skontrolujte, \u010di s\u00fa k dispoz\u00edcii aktualiz\u00e1cie pre server Music Assistant a/alebo integr\u00e1ciu.",
+            "title": "Server Music Assistant nie je spr\u00e1vnou verziou"
+        }
+    },
+    "selector": {
+        "enqueue": {
+            "options": {
+                "add": "Prida\u0165 do frontu",
+                "next": "Hra\u0165 \u010fal\u0161ie",
+                "play": "Prehra\u0165",
+                "replace": "Hrajte teraz a vyma\u017ete front",
+                "replace_next": "Prehrajte \u010fal\u0161iu a vyma\u017ete front"
+            }
+        }
+    }
+}

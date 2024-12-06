@@ -1,0 +1,33 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "\u63a5\u7d9a\u306b\u5931\u6557\u3057\u307e\u3057\u305f",
+            "invalid_url": "\u7121\u52b9\u306aURL",
+            "invalid_url_schema": "\u7121\u52b9\u306a URL \u30b9\u30ad\u30fc\u30e0\u3067\u3059\u3002URL \u306f `http://` \u307e\u305f\u306f `https://` \u3067\u59cb\u307e\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002"
+        },
+        "step": {
+            "host": {
+                "data": {
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "go2rtc \u30a4\u30f3\u30b9\u30bf\u30f3\u30b9\u306e URL\u3002"
+                }
+            },
+            "url": {
+                "data": {
+                    "url": "URL"
+                },
+                "data_description": {
+                    "url": "go2rtc \u30a4\u30f3\u30b9\u30bf\u30f3\u30b9\u306e URL\u3002"
+                }
+            }
+        }
+    },
+    "issues": {
+        "recommended_version": {
+            "description": "\u53e4\u3044\u30d0\u30fc\u30b8\u30e7\u30f3\u306e go2rtc \u30b5\u30fc\u30d0\u30fc\u3092\u4f7f\u7528\u3057\u3066\u3044\u308b\u3053\u3068\u304c\u691c\u51fa\u3055\u308c\u307e\u3057\u305f\u3002\u6700\u9069\u306a\u30a8\u30af\u30b9\u30da\u30ea\u30a8\u30f3\u30b9\u3092\u5f97\u308b\u306b\u306f\u3001go2rtc \u30b5\u30fc\u30d0\u30fc\u3092\u30d0\u30fc\u30b8\u30e7\u30f3 ` {recommended_version} ` \u306b\u66f4\u65b0\u3059\u308b\u3053\u3068\u3092\u304a\u52e7\u3081\u3057\u307e\u3059\u3002__\n\u73fe\u5728\u3001\u30d0\u30fc\u30b8\u30e7\u30f3 ` {current_version} ` \u3092\u4f7f\u7528\u3057\u3066\u3044\u307e\u3059\u3002",
+            "title": "\u53e4\u3044 go2rtc \u30b5\u30fc\u30d0\u30fc\u304c\u691c\u51fa\u3055\u308c\u307e\u3057\u305f"
+        }
+    }
+}

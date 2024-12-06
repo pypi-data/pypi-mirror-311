@@ -1,0 +1,51 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El dispositivo ya est\u00e1 configurado",
+            "already_in_progress": "El flujo de configuraci\u00f3n ya est\u00e1 en curso",
+            "cannot_connect": "No se pudo conectar",
+            "reconfiguration_successful": "Se volvi\u00f3 a configurar con \u00e9xito la integraci\u00f3n Music Assistant.",
+            "reconfigure_successful": "Se volvi\u00f3 a configurar correctamente"
+        },
+        "error": {
+            "cannot_connect": "No se pudo conectar",
+            "invalid_server_version": "El servidor Music Assistant no est\u00e1 en la versi\u00f3n correcta",
+            "unknown": "Error inesperado"
+        },
+        "step": {
+            "discovery_confirm": {
+                "description": "\u00bfQuieres a\u00f1adir el servidor de Music Assistant `{url}` a Home Assistant?",
+                "title": "Descubierto el servidor Music Assistant"
+            },
+            "init": {
+                "data": {
+                    "url": "URL del servidor de Music Assistant"
+                }
+            },
+            "manual": {
+                "data": {
+                    "url": "URL del servidor de Music Assistant"
+                },
+                "description": "Introduce la URL de tu servidor Music Assistant ya en funcionamiento. Si no est\u00e1s ejecutando un servidor Music Assistant, primero debes instalarlo.",
+                "title": "A\u00f1adir manualmente el servidor Music Assistant"
+            }
+        }
+    },
+    "issues": {
+        "invalid_server_version": {
+            "description": "Comprueba si hay actualizaciones disponibles para el servidor y/o la integraci\u00f3n de Music Assistant.",
+            "title": "El servidor Music Assistant no est\u00e1 en la versi\u00f3n correcta"
+        }
+    },
+    "selector": {
+        "enqueue": {
+            "options": {
+                "add": "A\u00f1adir a la cola",
+                "next": "Reproducir siguiente",
+                "play": "Reproducir",
+                "replace": "Reproducir ahora y borra la cola",
+                "replace_next": "Reproducir siguiente y borrar cola"
+            }
+        }
+    }
+}
