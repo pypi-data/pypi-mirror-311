@@ -1,0 +1,17 @@
+vasttrafik-cli (1.13-1) unstable; urgency=medium
+
+ The "resaplan" command has been renamed "trip-vgr" (which stands for Västra
+ Götaland Regionen).
+ .
+ This is because "resaplan" is all typed with one hand and that is not
+ ergonomic.
+
+ -- Salvo 'LtWorf' Tomaselli <ltworf@debian.org>  Thu, 28 Nov 2024 22:16:10 +0100
+
+vasttrafik-cli (1.12-1) unstable; urgency=medium
+
+ The "trip" command has been renamed "resaplan" (which means travel planner in swedish).
+ .
+ This is because the trip name was causing a conflict with trippy.
+
+ -- Salvo 'LtWorf' Tomaselli <ltworf@debian.org>  Sun, 29 Sep 2024 23:31:10 +0200

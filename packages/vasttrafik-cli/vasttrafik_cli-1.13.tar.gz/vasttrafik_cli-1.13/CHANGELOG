@@ -1,0 +1,55 @@
+1.13
+* Rename resaplan to trip-vgr (Västra Götaland Regionen)
+
+1.12
+* Rename trip to resaplan
+
+1.11
+* Hide cancelled trips. I don't see the point in showing when a
+  bus was supposed to go.
+* Embed the new API key, to use if there is no configuration
+
+1.10
+* Handle issue where vässtrafik tells me to walk instead, and
+  does so using a different format than when it tells me to walk
+  between 2 stops.
+
+1.9
+* Use the new API
+* Show distruptions, cancellations and notes
+* In trip it is possible to specify the time of
+  departure or arrival.
+  This is done only via command line.
+
+1.8
+* Fix crash when user lacked a cache directory
+
+1.7
+* Now ships to pypi
+* Uses setup.py
+* Configuration is parsed without an external dependency
+
+1.6
+* Fix crash when the trip includes a taxi ride
+* Move project to codeberg
+
+1.5
+* Fix background/foreground colour swapping
+* Document workaround to fix emojis in terminal
+
+1.4
+* Correctly align unicode in terminal
+
+1.3
+* Create cache directory in the remote eventuality that it doesn't exist
+
+1.2
+* Show vehicle type in stops as well
+* Do not print blank lines before the stop board
+* Cache authentication token. Less network wait time
+
+1.1
+* Proper packaging
+
+1.0
+* Initial release

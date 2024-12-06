@@ -1,0 +1,4 @@
+conf/vasttrafik-cli.conf /etc/
+README.md /usr/share/doc/vasttrafik-cli/
+completion/trip-vgr /usr/share/bash-completion/completions/
+completion/stops /usr/share/bash-completion/completions/

@@ -1,0 +1,35 @@
+.TH trip-vgr 1 "Nov 28, 2024" "Query Västtrafik to show how to get somewhere"
+.SH NAME
+trip-vgr
+\- Query Västtrafik to show how to get somewhere
+
+.SH SYNOPSIS
+trip-vgr
+.br
+trip-vgr SOURCE_STOP DESTINATION_STOP
+.br
+trip-vgr SOURCE_STOP DESTINATION_STOP depart|arrive TIME
+
+.SH DESCRIPTION
+This command queries the online API provided by Västtrafik to indicate how to reach a certain destination.
+.br
+The easier way to use it is to write the names of the source and destination stops as parameters.
+.br
+Alternatively, calling it without parameters will make it use an interactive mode, which can be used to show
+suggestions for the names, and insert a precise departure time.
+.br
+A ghost symbol is used to indicate that the trip is partially cancelled.
+.SH "EXAMPLE"
+trip-vgr brunnspar stigbergs
+.br
+trip-vgr brunnsparken angered depart 15:41
+.br
+trip-vgr brunnsparken angered arrive 15:41
+.SH "SEE ALSO"
+.BR stops(1)
+.SH WEB
+.BR https://codeberg.org/ltworf/vasttrafik-cli
+
+.SH AUTHOR
+.nf
+Salvo "LtWorf" Tomaselli <tiposchi@tiscali.it>

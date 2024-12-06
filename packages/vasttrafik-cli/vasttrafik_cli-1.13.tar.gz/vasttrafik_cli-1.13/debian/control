@@ -1,0 +1,35 @@
+Source: vasttrafik-cli
+Section: utils
+Priority: optional
+Maintainer: Salvo 'LtWorf' Tomaselli <ltworf@debian.org>
+Build-Depends:
+    mypy,
+    python3-all:any,
+    python3-typedload,
+    python3-xtermcolor,
+    python3-wcwidth,
+    python3-setuptools,
+    debhelper-compat (= 13),
+    dh-sequence-python3
+Standards-Version: 4.6.2
+Vcs-Browser: https://codeberg.org/ltworf/vasttrafik-cli
+Vcs-Git: https://codeberg.org/ltworf/vasttrafik-cli.git
+Homepage: https://codeberg.org/ltworf/vasttrafik-cli
+Rules-Requires-Root: no
+
+Package: vasttrafik-cli
+Architecture: all
+Depends:
+    ${misc:Depends},
+    ${python3:Depends},
+    python3-typedload,
+    python3-xtermcolor,
+    python3-wcwidth,
+    ca-certificates,
+Description: Public transport client, for Göteborg and the Västra Götaland county
+ Västtrafik is the agency for public transport in Västra Götaland (Sweden).
+ .
+ This package provies a CLI to access their API and plan trips or see the
+ incoming vehicles at a given stop.
+ .
+ It installs the commands trip-vgr and stops.

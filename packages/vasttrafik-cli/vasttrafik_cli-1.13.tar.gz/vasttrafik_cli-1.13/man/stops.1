@@ -1,0 +1,29 @@
+.TH stops 1 "Sep 29, 2024" "Query Västtrafik to show the incoming vehicles on a stop"
+.SH NAME
+stops
+\- Query Västtrafik to show the incoming vehicles on a stop
+
+.SH SYNOPSIS
+stops
+.br
+stops STOP
+
+.SH DESCRIPTION
+This command queries the online API provided by Västtrafik to list the incoming vehicles on the desired stop, and the amount of time before they arrive.
+.br
+The easier way to use it is to write the name of the stop as parameter.
+.br
+Alternatively, calling it without parameter will make it use an interactive mode, which can be used to show
+suggestions for the names.
+.br
+A ghost symbol is used to indicate that the trip is partially cancelled.
+.SH "EXAMPLE"
+stops stigbergs
+.SH "SEE ALSO"
+.BR trip-vgr(1)
+.SH WEB
+.BR https://codeberg.org/ltworf/vasttrafik-cli
+
+.SH AUTHOR
+.nf
+Salvo "LtWorf" Tomaselli <tiposchi@tiscali.it>
