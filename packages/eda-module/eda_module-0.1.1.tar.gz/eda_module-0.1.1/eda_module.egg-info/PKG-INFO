@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: eda_module
+Version: 0.1.1
+Summary: A package for EDA with Streamlit dashboard
+Author: Jhansi Siriprolu
+Author-email: siriprolu2018@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: plotly
+Requires-Dist: streamlit
+
+# EDA Module
+
+A reusable module for performing exploratory data analysis (EDA) in Python.
+
+## Features
+- Load and describe datasets.
+- Check for missing values and duplicates.
+- Perform univariate and bivariate analysis.
+- Visualize correlations and outliers.
+
+## Installation
+```bash
+pip install eda_module
+
+## Usage
+
+import eda_module as eda
+
+df = eda.load_data("path/to/dataset.csv")
+eda.data_overview(df)
+eda.check_missing_values(df)
