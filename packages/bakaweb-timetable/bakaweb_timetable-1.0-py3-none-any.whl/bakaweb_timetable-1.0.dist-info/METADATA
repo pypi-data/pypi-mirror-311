@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: bakaweb-timetable
+Version: 1.0
+Summary: Nástroj pro extrahování rozvrhu z Timetable modulu Bakawebu
+Home-page: https://github.com/MortikCZ/Bakaweb-Timetable
+Author: Lukáš S.
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MortikCZ/Bakaweb-Timetable/issues
+Project-URL: Documentation, https://github.com/MortikCZ/Bakaweb-Timetable#readme
+Project-URL: Source Code, https://github.com/MortikCZ/Bakaweb-Timetable
+Keywords: bakaweb timetable rozvrh extractor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Czech
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.0
+Requires-Dist: beautifulsoup4>=4.6
+
+# Bakaweb Timetable
+Jednoduchý nástroj pro extrakci rozvrhu z modulu Timetable Bakawebu. Data jsou získavána v HTML formátu a následně zpracována do JSON formátu.
+
+## Licence
+Tento projekt je licencován pod licencí MIT. Pro více informací se podívejte do souboru `LICENSE`.
+
+## Příklad použítí
+```python
+import bakaweb_timetable
+
+url = "https://bakalari.skola.cz/bakaweb/Timetable/Public/Permanent/Class/4U"
+output_file = "timetable.json"
+bakaweb_timetable.get_timetable(url, output_file)
+```
+
+Je zapotřebí předat funkci `get_timetable` URL adresu rozvrhu a název souboru, do kterého se má rozvrh uložit, viz. příklad výše.
+
+
+
+
+
+
