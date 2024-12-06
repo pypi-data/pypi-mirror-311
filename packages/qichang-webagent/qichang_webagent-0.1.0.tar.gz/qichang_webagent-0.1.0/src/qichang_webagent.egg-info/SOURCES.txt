@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/qichang_webagent.egg-info/PKG-INFO
+src/qichang_webagent.egg-info/SOURCES.txt
+src/qichang_webagent.egg-info/dependency_links.txt
+src/qichang_webagent.egg-info/top_level.txt

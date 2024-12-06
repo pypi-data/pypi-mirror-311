@@ -1,0 +1,11 @@
+name = "qichang_webagent"
+version = "0.1.0"
+description = "This package is a improved version of LaVague"
+authors = [{name = "Qichang Zheng", email = "qichang.zheng2000@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
