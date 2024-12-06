@@ -1,0 +1,8 @@
+setup.py
+latex_generator_fatalem0/__init__.py
+latex_generator_fatalem0/generate_latex_image.py
+latex_generator_fatalem0/generate_latex_table.py
+latex_generator_fatalem0.egg-info/PKG-INFO
+latex_generator_fatalem0.egg-info/SOURCES.txt
+latex_generator_fatalem0.egg-info/dependency_links.txt
+latex_generator_fatalem0.egg-info/top_level.txt
