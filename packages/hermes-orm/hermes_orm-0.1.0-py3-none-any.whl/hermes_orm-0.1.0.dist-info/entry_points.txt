@@ -1,0 +1,2 @@
+[console_scripts]
+hermes = src.cli:cli
