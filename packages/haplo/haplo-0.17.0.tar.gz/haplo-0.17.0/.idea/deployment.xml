@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="adapt">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/ml4a" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/data" />
+            <excludedPath local="true" path="$PROJECT_DIR$/sessions" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wandb" />
+            <excludedPath local="true" path="$PROJECT_DIR$/dist" />
+            <excludedPath local="true" path="$PROJECT_DIR$/target" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="golmsche@adapt_foyer:22 agent">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../qusi" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="golmsche@pfe:29810 agent">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home1/golmsche/haplo" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="gs66-emu-intel (acfeac84-28ff-4bed-85cb-5573b41a61c6)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="qusi" local="$PROJECT_DIR$/../qusi" web="/" />
+            <mapping deploy="haplo" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="pfe">
+        <serverdata>
+          <mappings>
+            <mapping deploy="haplo" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/../qusi/data" />
+            <excludedPath local="true" path="$PROJECT_DIR$/../qusi/dist" />
+            <excludedPath local="true" path="$PROJECT_DIR$/../qusi/logs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/../qusi/__pycache__" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
