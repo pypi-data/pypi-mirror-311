@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: cooputils
+Version: 0.1.5
+Description-Content-Type: text/markdown
+
+This is a simple package with helpers for common patterns
