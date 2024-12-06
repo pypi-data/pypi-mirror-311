@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kdocpyxl/__init__.py
+kdocpyxl/read_data.py
+kdocpyxl/wps_cloud_excel.py
+kdocpyxl/write_data.py
+kdocpyxl.egg-info/PKG-INFO
+kdocpyxl.egg-info/SOURCES.txt
+kdocpyxl.egg-info/dependency_links.txt
+kdocpyxl.egg-info/top_level.txt
