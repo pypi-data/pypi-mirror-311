@@ -1,0 +1,13 @@
+[project]
+name = "uniprot_m1_2024"
+version = "0.1.1"
+description = "Modélisation d'une fiche Uniprot et d'une collection d'objets Uniprot"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.9.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uniprot_m1_2024"]

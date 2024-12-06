@@ -1,0 +1,173 @@
+# Mini projet protéomique
+
+## Le Document Uniprot
+
+[Uniprot](https://www.uniprot.org) est une base de données de protéines.
+Chaque entrée représente une protéine spécifique d'un organisme. Une entrée  stocke des informations relatives à une protéine, par exemple son nom commun, son poids moléculaire ou encore sa séquence peptidique. Ces informations peuvent être extraites de la littérature scientifique par des curateurs où produites automatiquement par des pipelines d'annotation bioinformatique.
+Les données relatives à une protéine sont structurées dans les catégories suivantes:
+
+* Function
+* Names & Taxonomy
+* Subcellular location
+* Pathology and Biotech
+* PTM / Processing
+* Expression
+* Interaction
+* Structure
+* Family and Domains
+* Sequence(s)
+* Cross-references
+* Publications
+* Entry information
+* Miscellaneous
+* Similar Proteins
+
+Le détail de chaque catégorie peut-être consulté [ici](https://www.uniprot.org/help/uniprotkb_manual).
+Chaque protéine possède, notamment un "**AC**cession number" **unique** respectant [le code suivant](https://www.uniprot.org/help/accession_numbers).
+Les données d'une protéine donnée sont accessibles aux URL suivantes:
+
+- `https://www.uniprot.org/uniprot/[AC de ma protéine]`, format HTML enrichi
+-  `https://www.uniprot.org/uniprot/[AC de ma protéine].xml`, même contenu structuré au format XML.
+-  `https://www.uniprot.org/uniprot/[AC de ma protéine].txt`, même contenu structuré au format texte.
+
+Utiliser les données de plusieurs protéines au **format texte**.
+Ce format est caractérisé par la présence d'un seul type d'information par ligne. Chaque ligne commence par un code de 2 lettres, qui spéficie le type de l'information présente sur le reste de la ligne.
+Le tableau suivant présente tous les codes utilisés, plus d'information sur le format texte peut être trouvée [ici](https://web.expasy.org/docs/userman.html).
+
+| Line code | Content | Occurrence in an entry |
+| --------- | ------- | -----------------------|
+| ID | Identification | Once; starts the entry
+| AC | Accession number(s) | Once or more
+| DT | Date	| Three times
+| DE | Description | Once or more
+| GN | Gene name(s) | Optional
+| OS | Organism species | Once or more
+| OG | Organelle | Optional
+| OC | Organism classification | Once or more
+| OX | Taxonomy cross-reference| Once
+| OH | Organism host | Optional
+| RN | Reference number | Once or more
+| RP | Reference position | Once or more
+| RC | Reference comment(s) | Optional
+| RX | Reference cross-reference(s) | Optional
+| RG | Reference group | Once or more (Optional if RA line)
+| RA | Reference authors | Once or more (Optional if RG line)
+| RT | Reference title | Optional
+| RL | Reference location | Once or more
+| CC | Comments or notes | Optional
+| DR | Database cross-references ([description](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/dbxref.txt)) | Optional
+| PE | Protein existence | Once
+| KW | Keywords | Optional
+| FT | Feature table data | Once or more in Swiss-Prot, optional in TrEMBL
+| SQ | Sequence header | Once
+| (blanks) | Sequence data | Once or more
+| // | Termination line | Once; ends the entry
+
+
+Pour chaque protéine nous voulons stocker l'information des champs suivants:
+
+* l'Identification 
+* Le premier AC number
+* l'organisme
+* le nom de gène
+* La séquence peptidique
+* la liste de ses identifiants GO (à faire dans un second temps)
+
+Dans les fichiers fournis (repertoire `data/`), chaque protéine est séparée de la précédente par les caractères `//`
+
+## Classe Uniprot
+
+Implémentation d'une classe `Uniprot` stockant les informations précedentes dans des attributs.
+Le code implémentant cette classe est écrit dans le module `uniprot[.py]`.
+Un fichier contenant une seule entrée textuelle uniprot vous est fourni sous `data/P05067.txt`.
+
+### Constructeur
+
+Prend le contenu textuel d'une fiche uniprot en entrée, parse son contenu pour créer l'objet et renseigne ses attributs. 
+
+self.id = None
+self.ac_number = None
+self.organism = None
+self.gene_name = None
+self.sequence = None
+self.go_identifiers = []
+
+
+### Méthodes
+
+Méthode `fasta_dump()`: écrit la séquence de la protéine au format fasta dans un fichier nommé `[AC number].fasta`. La ligne de commentaires FASTA (débutant par `>`) contient les informations suivantes: identification, organisme et nom du gène.
+
+Avec l'aide la table suivante implementer:
+
+Méthode `molecular_weight()->float`: prend en entrée le id d'une proteine et retourne le poids moléculaire de la proteine. 
+
+Méthode `average_hydrophobicity()->float`: prend en entrée le id d'une protéine et retourne l'hydrophobicité moyenne de la protéine.
+
+| Amino acid | 3 letters code | letter code | Mol. weight | Class | Hydrophobicity scale |
+| --- | --- | --- | --- | --- | --- | 
+| Alanine | Ala	| A | 89Da | A | 0.33 |
+| Arginine| Arg | R | 174Da| + | 1.00 |
+| Asparagine|	Asn|	N|	132Da| P | 0.43 |
+| Aspartic acid|	Asp	|D	|133Da| - | 2.41 |
+| Asparagine or aspartic acid|	Asx	|B	|133Da| n/a | n/a |
+| Cysteine|	Cys|	C|	121Da| A or P | 0.22 |
+| Glutamine|	Gln	|Q|	146Da| P | 0.19 |
+| Glutamic acid|	Glu|	E	|147Da| - | 1.61 |
+| Glutamine or glutamic acid|	Glx	| Z	|147Da| n/a| n/a |
+| Glycine|	Gly|	G|	75Da| P | 1.14|
+| Histidine|	His|	H	|155Da| P or + | -0.06 or 1.37 |
+| Isoleucine|	Ile	|I	|131Da| A | -0.81 |
+| Leucine|	Leu|	L|	131Da|  A | -0.69 |
+| Lysine|	Lys|	K	|146Da| + | 1.81 |
+| Methionine|	Met|	M|	149Da| A | -0.44 |
+| Phenylalanine|	Phe|	F|	165Da| A | -0.58 |
+| Proline|	Pro|	P	|115Da| A | -0.31 |
+| Serine|	Ser	|S	|105Da| P | 0.33 |
+| Threonine|	Thr|	T|	119Da| P | 0.11 |
+| Tryptophan|	Trp	|W|	204Da| A | -0.24 |
+| Tyrosine|	Tyr|	Y	|181Da| P | 0.23 |
+| Valine|	Val	|V	|117Da| A | -0.53
+
+
+
+## Classe Collection d'objets Uniprot
+Classe **Collection** qui permet d'organiser et d'operer sur plusieurs objets **Uniprot**. 
+Le code implémentant la classe **Collection** est écrit dans le module `uniprot_collection[.py]`.
+Un fichier contenant cinq entrées textuelles uniprot est fourni sous `data/five_proteins.txt`.
+
+### Constructeur de la classe collection
+Retourne un objet **Collection** contenant donc des objets `Uniprot` à partir d'un fichier **texte** (ex. `data/five_proteins.txt`) passé en argument. 
+
+### Methodes
+
+Méthode 'add(contenu_uniprot)': créé et ajoute l'objet **Uniprot** à la collection à partir du texte en paramètre. Une exception est levée si la proteine est dejà presente.
+
+Méthode 'delete(uniprot_id)': supprime de la collection l'objet **Uniprot** portant l'identifiant en paramètre. Une exception est levée si la proteine n'existe pas.
+
+Méthode 'sort_by_length()': retourne les objets **Uniprot** triés selon les longueurs de leurs séquences.
+
+Méthode 'filter_for_hydrophobic(min_hydro:int)': retourne les objets **Uniprot** ayant une hydrophobicité supérieure au paramètre *min_hydro*. 
+
+Méthode '__add__ (other)': implemente l'opération d'addition entre deux objets **Collection**. `collection_1 + collection_2` produit un nouvel objet **Collection** contenant l'union des contenus des deux termes. Attention, si un object **Uniprot** existe dans les deux collections ajoutées, il ne devra être présent qu'une seule fois dans la collection produite par l'addition.
+
+Méthode 'go_view()': retourne le dictionnaire des nombres d'occurrences des mots-clés GO portés par toutes les protéines de la  **Collection**.
+
+#### Visualisation de données
+
+##### Abondance et Abondance relative 
+
+Méthode 'find_prot_by_id (uniprot_id)': prend un id en entrée et restitue l'objet Uniprot correspondant.
+
+Méthode 'count_aa (uniprot_id)': prend en entrée un id d'une proteine et restitue un dictionnaire contenant l'occurence e quanche acide aminé dans la sequence de la proteine correspondante à l'id.
+
+Méthode 'average_aa (aa)': prend en entrée un acide aminé et calcule la moyenne de son occurence armi toutes les protéines de la collection. 
+
+Méthode 'draw_ABRL(uniprot_id:string)': dessine l'histogramme de l'ABondance ReLative des acides aminés naturels dans la protéine passée en argument par rapport à la collection à laquelle elle appartient selon la formule,:
+
+`LogRatio(X) = ln(\frac{prot_X}{<coll_X>})`
+
+où X est l'acide aminé, prot_X st l'occurence de X dans la protéine étudiée et <coll_X> est l'occurence moyenne de l'acide aminé dans la collection.
+
+Le dessin de l'histogramme de l'abondance relative a été fait grâce à la librarie matplotlib et est sauvegardé dans un fichier au format <uniprot_id>.png.
+
+
