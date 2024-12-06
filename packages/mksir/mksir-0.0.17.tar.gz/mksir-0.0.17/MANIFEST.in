@@ -1,0 +1,2 @@
+include *.ipynb
+recursive-include mksir *.ipynb
