@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: triton_sushang
+Version: 0.1.0
+Summary: A unified Triton client for speech recognition and object detection.
+Home-page: https://github.com/goudemaoningsir/triton_sushang
+Author: goudemaoningsir
+Author-email: gf13951891236@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tritonclient[http]>=2.17.0
+Requires-Dist: ultralytics>=8.0.0
+Requires-Dist: pydub>=0.25.1
+
+<div align="center">
+  <a href="https://github.com/goudemaoningsir/Salute_Triton-inference-server">
+    <img src="img/1.jpg" height="400">
+  </a>
+</div>
+
+A unified Triton client for performing speech recognition and object detection tasks.
+
+## Installation
+
+You can install the package using `pip`:
+
+```bash
+pip install triton_sushang
+```
