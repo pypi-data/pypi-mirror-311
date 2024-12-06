@@ -1,0 +1,2 @@
+[console_scripts]
+llm-gen = llm_text_generation.api.cli:main
