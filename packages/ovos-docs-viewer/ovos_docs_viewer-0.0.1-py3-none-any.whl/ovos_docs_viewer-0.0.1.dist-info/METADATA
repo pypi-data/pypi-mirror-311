@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ovos-docs-viewer
+Version: 0.0.1
+Summary: Cli Documentation Viewer for OVOS
+Home-page: https://github.com/OpenVoiceOS/ovos-docs-viewer
+Author: OpenVoiceOS
+Author-email: jarbasai@mailfence.com
+License: Apache-2.0
+Keywords: ovos scripts
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: textual
+Requires-Dist: ovos-utils
+
+UNKNOWN
+
+
