@@ -1,0 +1,3 @@
+[console_scripts]
+udl_cil = v2.udl_cil:parser_args
+
