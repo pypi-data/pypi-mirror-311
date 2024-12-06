@@ -1,0 +1,83 @@
+# Basic Functions for LLM Code Generation Agent
+
+1. **Read File Content**
+   - Purpose: Retrieve the content of a specific file.
+   - Input: File path
+   - Output: File content as a string
+
+2. **List Directory Contents**
+   - Purpose: Get a list of files and subdirectories in a given directory.
+   - Input: Directory path
+   - Output: List of file and directory names
+
+3. **Get File Metadata**
+   - Purpose: Retrieve metadata about a file (e.g., size, creation date, last modified date).
+   - Input: File path
+   - Output: Dictionary of metadata
+
+4. **Search for Files**
+   - Purpose: Find files matching a given pattern or criteria.
+   - Input: Search pattern, root directory
+   - Output: List of matching file paths
+
+5. **Parse Code Structure**
+   - Purpose: Extract high-level structure of a code file (classes, functions, imports).
+   - Input: File content or path
+   - Output: Structured representation of code elements
+
+6. **Generate Code Summary**
+   - Purpose: Create a concise summary of a code file or function.
+   - Input: Code content or AST
+   - Output: Summary string
+
+7. **Check Code Style**
+   - Purpose: Verify if the code adheres to specified style guidelines.
+   - Input: Code content, style rules
+   - Output: List of style violations
+
+8. **Detect Code Smells**
+   - Purpose: Identify potential issues or anti-patterns in the code.
+   - Input: Code content or AST
+   - Output: List of detected code smells
+
+9. **Resolve Dependencies**
+   - Purpose: Identify and list external dependencies of a file or project.
+   - Input: File or project root path
+   - Output: List of dependencies
+
+10. **Generate/Update Documentation**
+    - Purpose: Create or update documentation for code elements.
+    - Input: Code content or AST
+    - Output: Documentation strings or separate documentation files
+
+11. **Refactor Code**
+    - Purpose: Suggest or apply refactoring to improve code quality.
+    - Input: Code content, refactoring type
+    - Output: Refactored code
+
+12. **Run Tests**
+    - Purpose: Execute test suite and return results.
+    - Input: Test file or directory
+    - Output: Test results (pass/fail, coverage)
+
+13. **Analyze Code Complexity**
+    - Purpose: Calculate complexity metrics (e.g., cyclomatic complexity).
+    - Input: Code content or AST
+    - Output: Complexity scores
+
+14. **Track Code Changes**
+    - Purpose: Monitor and record changes made to the codebase.
+    - Input: Before and after code states
+    - Output: Diff or change log
+
+15. **Generate Code Snippets**
+    - Purpose: Create code snippets based on high-level descriptions.
+    - Input: Description of functionality
+    - Output: Code snippet
+
+16. **Validate Code Correctness**
+    - Purpose: Check if generated or modified code is syntactically correct and runs without errors.
+    - Input: Code content
+    - Output: Validation result (success/failure, error messages)
+
+These functions provide a foundation for an LLM agent to interact with, analyze, and generate code effectively. Depending on the specific requirements of your project, you may need to implement additional specialized functions.
