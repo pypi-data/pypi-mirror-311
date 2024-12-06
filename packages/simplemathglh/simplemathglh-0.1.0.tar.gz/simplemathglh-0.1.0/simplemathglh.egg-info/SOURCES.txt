@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+simplemathglh/__init__.py
+simplemathglh/mod.py
+simplemathglh/mul_div.py
+simplemathglh/plus_minus.py
+simplemathglh.egg-info/PKG-INFO
+simplemathglh.egg-info/SOURCES.txt
+simplemathglh.egg-info/dependency_links.txt
+simplemathglh.egg-info/top_level.txt
