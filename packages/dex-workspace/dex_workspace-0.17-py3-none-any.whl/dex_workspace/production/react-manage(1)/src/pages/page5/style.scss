@@ -1,0 +1,33 @@
+.my-table-row-custom {
+    color: #000;
+    font-weight: 500;
+    background-color: white;
+}
+
+.my-tag-custom {
+    font-weight: 500;
+    border-radius: 16px;
+    padding: 2px 18px;
+}
+
+.my-table-custom {
+    border-bottom: 1px solid rgba(225, 228, 232);
+}
+
+.my-table-custom-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+
+
+    .my-table-custom-footer-label {
+        color: rgba(106, 112, 129);
+
+        label {
+            font-weight: 500;
+        }
+
+    }
+
+}

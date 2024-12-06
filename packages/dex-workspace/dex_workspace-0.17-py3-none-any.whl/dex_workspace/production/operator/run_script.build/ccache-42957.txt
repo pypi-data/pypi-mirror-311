@@ -1,0 +1,280 @@
+[2024-11-27T16:34:39.600283 42962] === CCACHE master.971f1183 STARTED =========================================
+[2024-11-27T16:34:39.600283 42962] Config: (default) absolute_paths_in_stderr = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) base_dir = 
+[2024-11-27T16:34:39.600283 42962] Config: (environment) cache_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache
+[2024-11-27T16:34:39.600283 42962] Config: (default) compiler = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) compiler_check = mtime
+[2024-11-27T16:34:39.600283 42962] Config: (default) compiler_type = auto
+[2024-11-27T16:34:39.600283 42962] Config: (default) compression = true
+[2024-11-27T16:34:39.600283 42962] Config: (default) compression_level = 0
+[2024-11-27T16:34:39.600283 42962] Config: (default) cpp_extension = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) debug = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) debug_dir = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) depend_mode = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) direct_mode = true
+[2024-11-27T16:34:39.600283 42962] Config: (default) disable = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) extra_files_to_hash = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) file_clone = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) hard_link = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) hash_dir = true
+[2024-11-27T16:34:39.600283 42962] Config: (default) ignore_headers_in_manifest = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) ignore_options = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) inode_cache = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) keep_comments_cpp = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) limit_multiple = 0.8
+[2024-11-27T16:34:39.600283 42962] Config: (environment) log_file = /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build/ccache-42957.txt
+[2024-11-27T16:34:39.600283 42962] Config: (default) max_files = 0
+[2024-11-27T16:34:39.600283 42962] Config: (default) max_size = 5.0G
+[2024-11-27T16:34:39.600283 42962] Config: (default) path = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) pch_external_checksum = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) prefix_command = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) prefix_command_cpp = 
+[2024-11-27T16:34:39.600283 42962] Config: (default) read_only = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) read_only_direct = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) recache = false
+[2024-11-27T16:34:39.600283 42962] Config: (default) run_second_cpp = true
+[2024-11-27T16:34:39.600283 42962] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2024-11-27T16:34:39.600283 42962] Config: (default) stats = true
+[2024-11-27T16:34:39.600283 42962] Config: (default) temporary_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache/tmp
+[2024-11-27T16:34:39.600283 42962] Config: (default) umask = 
+[2024-11-27T16:34:39.600449 42962] Command line: /Users/gavinmac/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __constants.os -c -std=c11 -flto -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-macos13.0 -O3 -fPIC -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/zlib -I/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9 -I. -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/include -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/static_src -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/libbacktrace __constants.c
+[2024-11-27T16:34:39.600470 42962] Hostname: Gavins-MBP
+[2024-11-27T16:34:39.600479 42962] Working directory: /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build
+[2024-11-27T16:34:39.600520 42962] Compiler type: clang
+[2024-11-27T16:34:39.600633 42962] Source file: __constants.c
+[2024-11-27T16:34:39.600647 42962] Object file: __constants.os
+[2024-11-27T16:34:39.600696 42962] Trying direct lookup
+[2024-11-27T16:34:39.601696 42962] Looking for result name in /Users/gavinmac/Library/Caches/Nuitka/ccache/7/5/cf6j0dskidsmpf2ldl0lvps48q5c7a4M
+[2024-11-27T16:34:39.616505 42963] === CCACHE master.971f1183 STARTED =========================================
+[2024-11-27T16:34:39.616505 42963] Config: (default) absolute_paths_in_stderr = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) base_dir = 
+[2024-11-27T16:34:39.616505 42963] Config: (environment) cache_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache
+[2024-11-27T16:34:39.616505 42963] Config: (default) compiler = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) compiler_check = mtime
+[2024-11-27T16:34:39.616505 42963] Config: (default) compiler_type = auto
+[2024-11-27T16:34:39.616505 42963] Config: (default) compression = true
+[2024-11-27T16:34:39.616505 42963] Config: (default) compression_level = 0
+[2024-11-27T16:34:39.616505 42963] Config: (default) cpp_extension = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) debug = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) debug_dir = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) depend_mode = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) direct_mode = true
+[2024-11-27T16:34:39.616505 42963] Config: (default) disable = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) extra_files_to_hash = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) file_clone = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) hard_link = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) hash_dir = true
+[2024-11-27T16:34:39.616505 42963] Config: (default) ignore_headers_in_manifest = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) ignore_options = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) inode_cache = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) keep_comments_cpp = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) limit_multiple = 0.8
+[2024-11-27T16:34:39.616505 42963] Config: (environment) log_file = /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build/ccache-42957.txt
+[2024-11-27T16:34:39.616505 42963] Config: (default) max_files = 0
+[2024-11-27T16:34:39.616505 42963] Config: (default) max_size = 5.0G
+[2024-11-27T16:34:39.616505 42963] Config: (default) path = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) pch_external_checksum = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) prefix_command = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) prefix_command_cpp = 
+[2024-11-27T16:34:39.616505 42963] Config: (default) read_only = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) read_only_direct = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) recache = false
+[2024-11-27T16:34:39.616505 42963] Config: (default) run_second_cpp = true
+[2024-11-27T16:34:39.616505 42963] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2024-11-27T16:34:39.616505 42963] Config: (default) stats = true
+[2024-11-27T16:34:39.616505 42963] Config: (default) temporary_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache/tmp
+[2024-11-27T16:34:39.616505 42963] Config: (default) umask = 
+[2024-11-27T16:34:39.616628 42963] Command line: /Users/gavinmac/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __helpers.os -c -std=c11 -flto -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-macos13.0 -O3 -fPIC -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/zlib -I/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9 -I. -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/include -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/static_src -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/libbacktrace __helpers.c
+[2024-11-27T16:34:39.616695 42963] Hostname: Gavins-MBP
+[2024-11-27T16:34:39.616706 42963] Working directory: /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build
+[2024-11-27T16:34:39.616715 42963] Compiler type: clang
+[2024-11-27T16:34:39.616829 42963] Source file: __helpers.c
+[2024-11-27T16:34:39.616843 42963] Object file: __helpers.os
+[2024-11-27T16:34:39.616898 42963] Trying direct lookup
+[2024-11-27T16:34:39.616972 42963] Looking for result name in /Users/gavinmac/Library/Caches/Nuitka/ccache/3/f/4619d61sfg4cd7mtdehnn2cr0oe3ch8M
+[2024-11-27T16:34:39.619019 42962] Got result name from manifest
+[2024-11-27T16:34:39.619094 42962] Reading result /Users/gavinmac/Library/Caches/Nuitka/ccache/5/b/31fllq8m5uvl2un5rhmgd45gfq2ev94R
+[2024-11-27T16:34:39.619689 42962] Reading embedded entry #0 .o (9456 bytes)
+[2024-11-27T16:34:39.619714 42962] Writing to __constants.os
+[2024-11-27T16:34:39.619960 42962] Succeeded getting cached result
+[2024-11-27T16:34:39.619991 42962] Result: cache hit (direct)
+[2024-11-27T16:34:39.620119 42962] Acquired lock /Users/gavinmac/Library/Caches/Nuitka/ccache/5/b/stats.lock
+[2024-11-27T16:34:39.621589 42962] Releasing lock /Users/gavinmac/Library/Caches/Nuitka/ccache/5/b/stats.lock
+[2024-11-27T16:34:39.621676 42962] Unlink /Users/gavinmac/Library/Caches/Nuitka/ccache/5/b/stats.lock
+[2024-11-27T16:34:39.627632 42964] === CCACHE master.971f1183 STARTED =========================================
+[2024-11-27T16:34:39.627632 42964] Config: (default) absolute_paths_in_stderr = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) base_dir = 
+[2024-11-27T16:34:39.627632 42964] Config: (environment) cache_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache
+[2024-11-27T16:34:39.627632 42964] Config: (default) compiler = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) compiler_check = mtime
+[2024-11-27T16:34:39.627632 42964] Config: (default) compiler_type = auto
+[2024-11-27T16:34:39.627632 42964] Config: (default) compression = true
+[2024-11-27T16:34:39.627632 42964] Config: (default) compression_level = 0
+[2024-11-27T16:34:39.627632 42964] Config: (default) cpp_extension = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) debug = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) debug_dir = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) depend_mode = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) direct_mode = true
+[2024-11-27T16:34:39.627632 42964] Config: (default) disable = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) extra_files_to_hash = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) file_clone = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) hard_link = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) hash_dir = true
+[2024-11-27T16:34:39.627632 42964] Config: (default) ignore_headers_in_manifest = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) ignore_options = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) inode_cache = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) keep_comments_cpp = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) limit_multiple = 0.8
+[2024-11-27T16:34:39.627632 42964] Config: (environment) log_file = /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build/ccache-42957.txt
+[2024-11-27T16:34:39.627632 42964] Config: (default) max_files = 0
+[2024-11-27T16:34:39.627632 42964] Config: (default) max_size = 5.0G
+[2024-11-27T16:34:39.627632 42964] Config: (default) path = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) pch_external_checksum = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) prefix_command = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) prefix_command_cpp = 
+[2024-11-27T16:34:39.627632 42964] Config: (default) read_only = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) read_only_direct = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) recache = false
+[2024-11-27T16:34:39.627632 42964] Config: (default) run_second_cpp = true
+[2024-11-27T16:34:39.627632 42964] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2024-11-27T16:34:39.627632 42964] Config: (default) stats = true
+[2024-11-27T16:34:39.627632 42964] Config: (default) temporary_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache/tmp
+[2024-11-27T16:34:39.627632 42964] Config: (default) umask = 
+[2024-11-27T16:34:39.627836 42964] Command line: /Users/gavinmac/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __loader.os -c -std=c11 -flto -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-macos13.0 -O3 -fPIC -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/zlib -I/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9 -I. -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/include -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/static_src -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/libbacktrace __loader.c
+[2024-11-27T16:34:39.627981 42964] Hostname: Gavins-MBP
+[2024-11-27T16:34:39.628012 42964] Working directory: /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build
+[2024-11-27T16:34:39.628024 42964] Compiler type: clang
+[2024-11-27T16:34:39.628268 42964] Source file: __loader.c
+[2024-11-27T16:34:39.628294 42964] Object file: __loader.os
+[2024-11-27T16:34:39.628355 42964] Trying direct lookup
+[2024-11-27T16:34:39.628482 42964] Looking for result name in /Users/gavinmac/Library/Caches/Nuitka/ccache/3/4/a6mdlr7u6utl5m8m4l9ec4065flvda6M
+[2024-11-27T16:34:39.633881 42963] Got result name from manifest
+[2024-11-27T16:34:39.633942 42963] Reading result /Users/gavinmac/Library/Caches/Nuitka/ccache/2/b/0ajon29anbq6kcavkoms1udj70igvc4R
+[2024-11-27T16:34:39.634014 42963] Reading embedded entry #0 .o (1888 bytes)
+[2024-11-27T16:34:39.634030 42963] Writing to __helpers.os
+[2024-11-27T16:34:39.634283 42963] Succeeded getting cached result
+[2024-11-27T16:34:39.634311 42963] Result: cache hit (direct)
+[2024-11-27T16:34:39.634432 42963] Acquired lock /Users/gavinmac/Library/Caches/Nuitka/ccache/2/b/stats.lock
+[2024-11-27T16:34:39.634874 42963] Releasing lock /Users/gavinmac/Library/Caches/Nuitka/ccache/2/b/stats.lock
+[2024-11-27T16:34:39.634950 42963] Unlink /Users/gavinmac/Library/Caches/Nuitka/ccache/2/b/stats.lock
+[2024-11-27T16:34:39.641810 42964] Got result name from manifest
+[2024-11-27T16:34:39.641885 42964] Reading result /Users/gavinmac/Library/Caches/Nuitka/ccache/a/c/80s4spg09a3ccpiqjg5v360v61r20emR
+[2024-11-27T16:34:39.641897 42965] === CCACHE master.971f1183 STARTED =========================================
+[2024-11-27T16:34:39.641897 42965] Config: (default) absolute_paths_in_stderr = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) base_dir = 
+[2024-11-27T16:34:39.641897 42965] Config: (environment) cache_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache
+[2024-11-27T16:34:39.641897 42965] Config: (default) compiler = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) compiler_check = mtime
+[2024-11-27T16:34:39.641897 42965] Config: (default) compiler_type = auto
+[2024-11-27T16:34:39.641897 42965] Config: (default) compression = true
+[2024-11-27T16:34:39.641897 42965] Config: (default) compression_level = 0
+[2024-11-27T16:34:39.641897 42965] Config: (default) cpp_extension = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) debug = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) debug_dir = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) depend_mode = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) direct_mode = true
+[2024-11-27T16:34:39.641897 42965] Config: (default) disable = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) extra_files_to_hash = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) file_clone = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) hard_link = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) hash_dir = true
+[2024-11-27T16:34:39.641897 42965] Config: (default) ignore_headers_in_manifest = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) ignore_options = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) inode_cache = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) keep_comments_cpp = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) limit_multiple = 0.8
+[2024-11-27T16:34:39.641897 42965] Config: (environment) log_file = /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build/ccache-42957.txt
+[2024-11-27T16:34:39.641897 42965] Config: (default) max_files = 0
+[2024-11-27T16:34:39.641897 42965] Config: (default) max_size = 5.0G
+[2024-11-27T16:34:39.641897 42965] Config: (default) path = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) pch_external_checksum = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) prefix_command = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) prefix_command_cpp = 
+[2024-11-27T16:34:39.641897 42965] Config: (default) read_only = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) read_only_direct = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) recache = false
+[2024-11-27T16:34:39.641897 42965] Config: (default) run_second_cpp = true
+[2024-11-27T16:34:39.641897 42965] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2024-11-27T16:34:39.641897 42965] Config: (default) stats = true
+[2024-11-27T16:34:39.641897 42965] Config: (default) temporary_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache/tmp
+[2024-11-27T16:34:39.641897 42965] Config: (default) umask = 
+[2024-11-27T16:34:39.642016 42965] Command line: /Users/gavinmac/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o module.run_script.os -c -std=c11 -flto -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-macos13.0 -O3 -fPIC -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/zlib -I/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9 -I. -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/include -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/static_src -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/libbacktrace module.run_script.c
+[2024-11-27T16:34:39.642086 42965] Hostname: Gavins-MBP
+[2024-11-27T16:34:39.642098 42965] Working directory: /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build
+[2024-11-27T16:34:39.642108 42965] Compiler type: clang
+[2024-11-27T16:34:39.642193 42964] Reading embedded entry #0 .o (4528 bytes)
+[2024-11-27T16:34:39.642219 42964] Writing to __loader.os
+[2024-11-27T16:34:39.642228 42965] Source file: module.run_script.c
+[2024-11-27T16:34:39.642244 42965] Object file: module.run_script.os
+[2024-11-27T16:34:39.642297 42965] Trying direct lookup
+[2024-11-27T16:34:39.642469 42964] Succeeded getting cached result
+[2024-11-27T16:34:39.642497 42964] Result: cache hit (direct)
+[2024-11-27T16:34:39.642854 42964] Acquired lock /Users/gavinmac/Library/Caches/Nuitka/ccache/a/c/stats.lock
+[2024-11-27T16:34:39.643028 42965] Looking for result name in /Users/gavinmac/Library/Caches/Nuitka/ccache/1/f/e0voql1dija57cr3lq782pik4js8vo4M
+[2024-11-27T16:34:39.644679 42964] Releasing lock /Users/gavinmac/Library/Caches/Nuitka/ccache/a/c/stats.lock
+[2024-11-27T16:34:39.644782 42964] Unlink /Users/gavinmac/Library/Caches/Nuitka/ccache/a/c/stats.lock
+[2024-11-27T16:34:39.659780 42965] Got result name from manifest
+[2024-11-27T16:34:39.659864 42965] Reading result /Users/gavinmac/Library/Caches/Nuitka/ccache/7/0/1bc5ktcrm89t4bjh8lsgj258bk3k356R
+[2024-11-27T16:34:39.660622 42965] Reading embedded entry #0 .o (88080 bytes)
+[2024-11-27T16:34:39.660649 42965] Writing to module.run_script.os
+[2024-11-27T16:34:39.661323 42965] Succeeded getting cached result
+[2024-11-27T16:34:39.661359 42965] Result: cache hit (direct)
+[2024-11-27T16:34:39.661477 42965] Acquired lock /Users/gavinmac/Library/Caches/Nuitka/ccache/7/0/stats.lock
+[2024-11-27T16:34:39.662859 42965] Releasing lock /Users/gavinmac/Library/Caches/Nuitka/ccache/7/0/stats.lock
+[2024-11-27T16:34:39.662950 42965] Unlink /Users/gavinmac/Library/Caches/Nuitka/ccache/7/0/stats.lock
+[2024-11-27T16:34:39.783683 42966] === CCACHE master.971f1183 STARTED =========================================
+[2024-11-27T16:34:39.783683 42966] Config: (default) absolute_paths_in_stderr = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) base_dir = 
+[2024-11-27T16:34:39.783683 42966] Config: (environment) cache_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache
+[2024-11-27T16:34:39.783683 42966] Config: (default) compiler = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) compiler_check = mtime
+[2024-11-27T16:34:39.783683 42966] Config: (default) compiler_type = auto
+[2024-11-27T16:34:39.783683 42966] Config: (default) compression = true
+[2024-11-27T16:34:39.783683 42966] Config: (default) compression_level = 0
+[2024-11-27T16:34:39.783683 42966] Config: (default) cpp_extension = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) debug = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) debug_dir = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) depend_mode = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) direct_mode = true
+[2024-11-27T16:34:39.783683 42966] Config: (default) disable = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) extra_files_to_hash = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) file_clone = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) hard_link = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) hash_dir = true
+[2024-11-27T16:34:39.783683 42966] Config: (default) ignore_headers_in_manifest = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) ignore_options = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) inode_cache = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) keep_comments_cpp = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) limit_multiple = 0.8
+[2024-11-27T16:34:39.783683 42966] Config: (environment) log_file = /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build/ccache-42957.txt
+[2024-11-27T16:34:39.783683 42966] Config: (default) max_files = 0
+[2024-11-27T16:34:39.783683 42966] Config: (default) max_size = 5.0G
+[2024-11-27T16:34:39.783683 42966] Config: (default) path = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) pch_external_checksum = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) prefix_command = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) prefix_command_cpp = 
+[2024-11-27T16:34:39.783683 42966] Config: (default) read_only = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) read_only_direct = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) recache = false
+[2024-11-27T16:34:39.783683 42966] Config: (default) run_second_cpp = true
+[2024-11-27T16:34:39.783683 42966] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2024-11-27T16:34:39.783683 42966] Config: (default) stats = true
+[2024-11-27T16:34:39.783683 42966] Config: (default) temporary_dir = /Users/gavinmac/Library/Caches/Nuitka/ccache/tmp
+[2024-11-27T16:34:39.783683 42966] Config: (default) umask = 
+[2024-11-27T16:34:39.783809 42966] Command line: /Users/gavinmac/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/CompiledFunctionType.os -c -std=c11 -flto -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-macos13.0 -O3 -fPIC -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/zlib -I/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9 -I. -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/include -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/static_src -I/Users/gavinmac/Library/Python/3.9/lib/python/site-packages/nuitka/build/inline_copy/libbacktrace static_src/CompiledFunctionType.c
+[2024-11-27T16:34:39.783874 42966] Hostname: Gavins-MBP
+[2024-11-27T16:34:39.783886 42966] Working directory: /Users/gavinmac/Documents/DevOps/containers/dex_workspace/dex_workspace/production/operator/run_script.build
+[2024-11-27T16:34:39.783895 42966] Compiler type: clang
+[2024-11-27T16:34:39.784025 42966] Source file: static_src/CompiledFunctionType.c
+[2024-11-27T16:34:39.784040 42966] Object file: static_src/CompiledFunctionType.os
+[2024-11-27T16:34:39.784087 42966] Trying direct lookup
+[2024-11-27T16:34:39.784280 42966] Looking for result name in /Users/gavinmac/Library/Caches/Nuitka/ccache/a/e/d6fig8op8dhumu9d16ep5dckchookmiM
+[2024-11-27T16:34:39.808870 42966] Got result name from manifest
+[2024-11-27T16:34:39.808926 42966] Reading result /Users/gavinmac/Library/Caches/Nuitka/ccache/a/5/ff76g68ecet264sb7l1neth626c1l94R
+[2024-11-27T16:34:39.809134 42966] Reading embedded entry #0 .o (1543264 bytes)
+[2024-11-27T16:34:39.809151 42966] Writing to static_src/CompiledFunctionType.os
+[2024-11-27T16:34:39.813433 42966] Succeeded getting cached result
+[2024-11-27T16:34:39.813474 42966] Result: cache hit (direct)
+[2024-11-27T16:34:39.813597 42966] Acquired lock /Users/gavinmac/Library/Caches/Nuitka/ccache/a/5/stats.lock
+[2024-11-27T16:34:39.814017 42966] Releasing lock /Users/gavinmac/Library/Caches/Nuitka/ccache/a/5/stats.lock
+[2024-11-27T16:34:39.814078 42966] Unlink /Users/gavinmac/Library/Caches/Nuitka/ccache/a/5/stats.lock

@@ -1,0 +1,159 @@
+.my-anchor-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 10% 0 0;
+
+    li {
+        margin: 24px 0;
+        border: 1px solid transparent;
+
+        a {
+            color: #999999;
+            padding: 10px 24px;
+
+            display: block;
+            font-weight: 500;
+            width: 100%;
+        }
+    }
+
+    li:hover,
+    .active {
+        background-color: rgba(231, 232, 236);
+        border: 1px solid rgba(225, 225, 225);
+        border-radius: 5px;
+
+        a {
+            color: #000;
+        }
+    }
+
+}
+
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px 25px 25px 25px;
+}
+
+.my-card-custom {
+
+    padding-top: 5px;
+
+    .ant-card-head {
+        border-bottom: none;
+    }
+
+    .ant-card-body {
+        padding: 6px 24px 24px 24px;
+    }
+
+    .my-card-title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #333333;
+    }
+
+}
+
+
+.my-drawer-top-item+.my-drawer-top-item {
+    margin-top: 16px;
+}
+
+.my-drawer-top-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    .my-drawer-top-item-label {
+        width: 200px;
+    }
+}
+
+
+.my-card3-row-title {
+    font-weight: 500;
+    margin-right: 0;
+
+    p {
+        margin: 0;
+    }
+
+    .my-row-attr {
+        $color: rgba(114, 120, 136);
+        $size: 5px;
+
+        font-size: 12px;
+        margin-top: 5px;
+        color: $color;
+        display: flex;
+        flex-wrap: wrap;
+        gap: $size;
+        min-width: 230px;
+
+        span {
+            line-height: 12px;
+        }
+
+        span+span {
+            &::before {
+                content: "•";
+                font-size: 12px;
+                padding-right: $size;
+            }
+        }
+
+    }
+
+}
+
+.button-remove-running-process{
+    width: 45%;
+    aspect-ratio: 1;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+
+    img{
+        width: 80%;
+        aspect-ratio: 1;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.button-remove-running-process:hover{
+    background-color: #e2e2e2;
+}
+
+.remove-object-button{
+    width: 2vw;
+    aspect-ratio: 1;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon{
+        color: rgb(73, 123, 253);
+        aspect-ratio: 1;
+        font-size: 1.25em;
+    }
+}
+
+.remove-object-button:hover{
+    background-color: rgb(73, 123, 253, .25);
+}

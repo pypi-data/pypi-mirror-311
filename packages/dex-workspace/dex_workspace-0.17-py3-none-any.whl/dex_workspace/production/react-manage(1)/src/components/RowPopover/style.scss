@@ -1,0 +1,25 @@
+#my-row-popover{
+    background: linear-gradient(180deg, #EFF3FF 0%, #FFFFFF 100%);
+}
+
+.my-popover-content {
+    width: 310px;
+    min-height: 200px;
+    padding: 5px 5px 32px 5px;
+
+    .my-popover-content-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding-right: 5px;
+        margin-bottom: 24px;
+
+        .my-popover-content-header-text {
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 8px;
+        }
+    }
+
+}

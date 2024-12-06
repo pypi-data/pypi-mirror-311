@@ -1,0 +1,3 @@
+[console_scripts]
+dex_workspace = dex_workspace.__main__:main
+

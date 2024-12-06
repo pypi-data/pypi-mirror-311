@@ -1,0 +1,18 @@
+{
+  "__bytecode.const": {
+    "input_size": 0,
+    "blob_name": ".bytecode",
+    "blob_size": 3
+  },
+  "__constants.const": {
+    "input_size": 1891,
+    "blob_name": "",
+    "blob_size": 747
+  },
+  "module.exceptions.const": {
+    "input_size": 772,
+    "blob_name": "exceptions",
+    "blob_size": 411
+  },
+  "total": 119
+}
