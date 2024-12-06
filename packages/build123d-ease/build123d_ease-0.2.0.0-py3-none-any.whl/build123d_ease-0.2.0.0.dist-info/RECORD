@@ -1,0 +1,10 @@
+build123d_ease/__init__.py,sha256=0JqL2s4B7DxA08hTaesLrJ6mieqM85PMd6euBnjMALU,588
+build123d_ease/align.py,sha256=p8fukzXuidoCfkoBI8-W9LB0huqCWuNZxvqEF2EKjhQ,1161
+build123d_ease/ci_show.py,sha256=yFgX68YipWBkHoO6KWnvqcwJx3RRzcKz4Z3q-9nhH4k,1400
+build123d_ease/fetch_faces.py,sha256=ilgHmjy2DL1ys1AX5qpUElWSi_GHPI72dxwwYllLsfw,1783
+build123d_ease/math.py,sha256=YbUZrLac2NEzhOFzGmS1M79Svgln2yE50viM0oaUFcg,352
+build123d_ease/rotation.py,sha256=qhl2z7846m2Xyy_7RAk8v5-ISUiMn5izhWWOJI_Fqpk,311
+build123d_ease-0.2.0.0.dist-info/METADATA,sha256=QQ5pLDt0tQnZxw8Gi32ukwjsuWMOshL2fA5laV8pQeU,481
+build123d_ease-0.2.0.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+build123d_ease-0.2.0.0.dist-info/licenses/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+build123d_ease-0.2.0.0.dist-info/RECORD,,
