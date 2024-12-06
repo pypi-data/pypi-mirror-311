@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: frameforge
+Version: 0.0.1
+Dynamic: Summary
+Author-email: Valentin Calomme <dev@valentincalomme.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# frameforge
+
+Utilities to compose frames and videos.
