@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sportnews-api
+Version: 0.1.0
+Summary: Un SDK Python pour l'API Sport News
+Home-page: https://github.com/votre-username/sportnews-sdk
+Author: Votre Nom
+Author-email: votre.email@exemple.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.0
