@@ -1,0 +1,3 @@
+[console_scripts]
+a1_sqladb_a1ptfl=a1_sqladb_a1ptfl.cli:main
+

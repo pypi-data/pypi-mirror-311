@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: a1-sqladb-a1ptfl
+Version: 0.1.0
+Summary: 
+Author: a1p
+Author-email: mike@a1publishing.com
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: a1-loggermanager (>=0.1.2,<0.2.0)
+Description-Content-Type: text/markdown
+
+
