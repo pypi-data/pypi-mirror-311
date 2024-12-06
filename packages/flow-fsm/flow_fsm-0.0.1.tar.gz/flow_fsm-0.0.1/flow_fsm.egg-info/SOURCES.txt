@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+flow_fsm.egg-info/PKG-INFO
+flow_fsm.egg-info/SOURCES.txt
+flow_fsm.egg-info/dependency_links.txt
+flow_fsm.egg-info/top_level.txt
