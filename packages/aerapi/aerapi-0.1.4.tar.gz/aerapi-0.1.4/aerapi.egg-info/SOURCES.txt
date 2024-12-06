@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+aerapi.egg-info/PKG-INFO
+aerapi.egg-info/SOURCES.txt
+aerapi.egg-info/dependency_links.txt
+aerapi.egg-info/requires.txt
+aerapi.egg-info/top_level.txt
