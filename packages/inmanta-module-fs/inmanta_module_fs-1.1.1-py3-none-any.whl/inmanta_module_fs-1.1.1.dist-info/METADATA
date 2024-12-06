@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: inmanta-module-fs
+Version: 1.1.1
+Summary: This module offers some resource to manage files and directories on a host.
+Author: Inmanta
+Author-email: code@inmanta.com
+License: ASL 2.0
+Project-URL: Documentation, https://docs.inmanta.com
+Project-URL: Source, https://code.inmanta.com/solutions/modules/fs
+Project-URL: Changelog, https://code.inmanta.com/solutions/modules/fs/-/blob/master/CHANGELOG.md
+Requires-Dist: inmanta-module-std
+Requires-Dist: inmanta-module-mitogen

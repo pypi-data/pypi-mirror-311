@@ -1,0 +1,11 @@
+inmanta_plugins/fs/__init__.py,sha256=sDbtWyigJxOK7ur6LIUXN9ou5hH5PBY_qXEyblqb-1E,3922
+inmanta_plugins/fs/json_file.py,sha256=78MR43WoA_qaCiGBaI9gvLvT6hQDb550IXr7zAd-DkQ,9145
+inmanta_plugins/fs/resources.py,sha256=2Je6lINNOJnCObB62fA1evqGaNtZThw-HseOWC0BQZ0,13379
+inmanta_plugins/fs/setup.cfg,sha256=GR3PbN1GdcjR8CE8RuBwvDgA-0DW-ceN8d7jmBI7M0Y,2272
+inmanta_plugins/fs/files/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inmanta_plugins/fs/model/_init.cf,sha256=IcJJKejIMskWNuPmlJmKa7qs9J9jlELM_94BcJsFEy4,7909
+inmanta_plugins/fs/templates/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inmanta_module_fs-1.1.1.dist-info/METADATA,sha256=ymp4lYCH0_eJmmCnv4KKnuvvcsgzmJ5nalNVfnG21Dk,499
+inmanta_module_fs-1.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+inmanta_module_fs-1.1.1.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_fs-1.1.1.dist-info/RECORD,,
