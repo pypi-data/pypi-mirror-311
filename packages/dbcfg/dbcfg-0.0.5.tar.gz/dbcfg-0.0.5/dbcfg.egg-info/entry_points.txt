@@ -1,0 +1,3 @@
+[console_scripts]
+dbcfg = script.dbcfgtool:main
+dbcfgdemo = script.dbcfgdemo:main
