@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+win11_notificationbar/__init__.py
+win11_notificationbar/c_structures.py
+win11_notificationbar/win11_notificationbar.py
+win11_notificationbar.egg-info/PKG-INFO
+win11_notificationbar.egg-info/SOURCES.txt
+win11_notificationbar.egg-info/dependency_links.txt
+win11_notificationbar.egg-info/top_level.txt

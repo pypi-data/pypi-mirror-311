@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: win11_notificationbar
+Version: 0.0.2
+Summary: win11_notificationbar
+Home-page: 
+Author: UF4
+Author-email: uf4hp@foxmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Windows 11 通知栏通知系统
+
+## 简介
+本项目旨在实现一个基于Windows 11的通知栏通知系统。通过使用`winsdk`库，我们可以创建丰富的通知消息，并支持多种交互方式，如按钮点击、输入框、进度条等。
+
+## 目录
+1. [简介](#简介)
+2. [安装依赖](#安装依赖)
+3. [核心功能](#核心功能)
+    - [创建通知](#创建通知)
+    - [添加文本](#添加文本)
+    - [添加图标](#添加图标)
+    - [添加图片](#添加图片)
+    - [添加进度条](#添加进度条)
+    - [添加音频](#添加音频)
+    - [添加按钮](#添加按钮)
+    - [添加输入框](#添加输入框)
+    - [添加选择框](#添加选择框)
+4. [异步通知](#异步通知)
+5. [更新进度](#更新进度)
+6. [清除通知](#清除通知)
+7. [总结](#总结)
+8. [附录](#附录)
+
+## 安装依赖
+在开始之前，确保已经安装了所需的依赖库。可以通过以下命令安装：
+```bash
+pip install winsdk
+pip install pywin32
+```
+## 核心功能
+
+### 创建通知
+使用`notify`函数创建一个基本的通知：
+```python
+notify(title="Hello", body="This is a notification", inputs=["Enter your name"])
+```
+### 添加图标
+设置通知的图标：
+```python
+notify(title="Hello", body="This is a notification", icon="path/to/icon.png")
+```
+### 添加图片
+在通知中添加图片：
+```python
+notify(title="Hello", body="This is a notification", image="path/to/image.png")
+```
+### 添加进度条
+显示进度条：
+
+```python
+notify(title="Hello", body="This is a notification", progress={"value": "50"})
+```
+### 添加音频
+播放音频文件：
+```python
+notify(title="Hello", body="This is a notification", audio="path/to/audio.mp3")
+```
+
+### 添加按钮
+添加按钮以实现用户交互：
+```python
+notify(title="Hello", body="This is a notification", button="Click me")
+```
+
+### 添加输入框
+添加输入框以获取用户输入：
+```python
+notify(title="Hello", body="This is a notification", input="Enter your name")
+```
+### 添加选择框
+添加选择框以供用户选择：
+```python
+notify(title="Hello", body="This is a notification", selection=["Option 1", "Option 2"])
+```
+
+
+## 异步通知
+使用`toast`函数创建异步通知，支持更复杂的交互逻辑：
+```python
+from packaging_tutorial.win11_notificationbar.win11_notificationbar import notify
+
+notify(
+    title="标题",
+    body="内容",
+    icon="https://example.com/icon.png",
+    image="https://example.com/image.png",
+    button="点击我",
+    input="输入框",
+    progress={"value": "0.5", "status": "进行中"},
+    # audio="ms-winsoundevent:Notification.Looping.Alarm",
+    on_click=lambda: print("点击了通知"),
+
+)
+
+```
+![img.png](img.png)
+
+## 更新进度
+动态更新通知中的进度条：
+```python
+update_progress({"value": "75"})
+```
+## 总结
+通过本项目，我们实现了在Windows 11中创建丰富且交互性强的通知系统。这些功能可以帮助开发者更好地与用户进行互动，提升用户体验。
+
+
+
+
