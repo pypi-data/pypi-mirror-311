@@ -1,0 +1,26 @@
+[module]
+title = "SAP Source System Events"
+
+[packages]
+tags = [
+    "sourcesystem",
+    "quickstart",
+]
+
+[[data]]
+repoType = "GitHub"
+repo = "cognitedata/toolkit-data"
+source = "data/publicdata/[work]*.csv"
+destination = "raw/"
+
+[[extra_resources]]
+location = "cdf_common/data_sets/demo.DataSet.yaml"
+
+[[extra_resources]]
+location = "cdf_common/data_models/demo.Space.yaml"
+
+[[extra_resources]]
+location = "cdf_common/raw/source.DataBase.yaml"
+
+[[extra_resources]]
+location = "models/cdf_process_industry_extension/data_models"
