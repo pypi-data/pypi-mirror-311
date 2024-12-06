@@ -1,0 +1,4 @@
+[console_scripts]
+laserstudio=laserstudio.__main__:main
+laserstudio_listdevices=laserstudio.instruments.list_serials:list_devices
+
