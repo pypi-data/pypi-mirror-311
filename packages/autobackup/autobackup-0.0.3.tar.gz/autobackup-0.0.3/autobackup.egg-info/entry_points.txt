@@ -1,0 +1,5 @@
+[console_scripts]
+autobackup = autobackup.core:run_backup
+
+[nbdev]
+autobackup = autobackup._modidx:d

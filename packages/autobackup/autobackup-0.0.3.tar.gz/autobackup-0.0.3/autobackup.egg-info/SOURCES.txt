@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+autobackup/__init__.py
+autobackup/_modidx.py
+autobackup/core.py
+autobackup.egg-info/PKG-INFO
+autobackup.egg-info/SOURCES.txt
+autobackup.egg-info/dependency_links.txt
+autobackup.egg-info/entry_points.txt
+autobackup.egg-info/not-zip-safe
+autobackup.egg-info/requires.txt
+autobackup.egg-info/top_level.txt
