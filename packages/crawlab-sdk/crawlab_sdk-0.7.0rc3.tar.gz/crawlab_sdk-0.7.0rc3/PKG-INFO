@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: crawlab-sdk
+Version: 0.7.0rc3
+Summary: Python SDK for Crawlab
+Home-page: https://github.com/crawlab-team/crawlab-python-sdk
+License: BSD-3-Clause
+Author: Marvin Zhang
+Author-email: tikazyq@163.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: pydantic (>=2.10.1,<3.0.0)
+Requires-Dist: rich (>=13.9.4,<14.0.0)
+Project-URL: Repository, https://github.com/crawlab-team/crawlab-python-sdk
+Description-Content-Type: text/markdown
+
+# Crawlab Python SDK
+
+Python SDK for Crawlab
+
+## Installation
+
+```bash
+pip install crawlab-sdk
+```
+
+## Usage
+
+### CLI
+
+```bash
+crawlab-cli
+```
+
+### Scrapy Integration
+
+In `settings.py`, add the following:
+
+```python
+ITEM_PIPELINES = {
+    'crawlab.CrawlabPipeline': 300
+}
+```
+
+## Development
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Compile gRPC
+
+```bash
+# Set the environment variable CRAWLAB_PROTO_PATH to the path of the gRPC proto files
+export CRAWLAB_PROTO_PATH=/path/to/grpc/proto/files
+
+# Compile gRPC to Python code
+./compile_grpc.sh
+```
+
