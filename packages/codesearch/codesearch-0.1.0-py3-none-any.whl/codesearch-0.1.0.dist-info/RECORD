@@ -1,0 +1,8 @@
+codesearch/__init__.py,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+codesearch/cli.py,sha256=k4PLlMRQr1Wj9eBAGU2oJ_bYxOTOiKtfrVvgrlIxHeU,2787
+codesearch/indexer.py,sha256=PkfbKwP9vfL-ylvuoYrsaBi-oK6pYFq90qS5yTGqt_8,4256
+codesearch-0.1.0.dist-info/METADATA,sha256=Vph_37FI6KsDcqZlvB0ebWPkXkixM6_UDviCBhHWY_E,1134
+codesearch-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+codesearch-0.1.0.dist-info/entry_points.txt,sha256=fk6fap4nvU0f-XgdbwfilTui_99nCbqOBKJ4bBp0sOE,51
+codesearch-0.1.0.dist-info/licenses/LICENSE,sha256=FyuBsNr3YLXHPRQfWIpCAC4brUeSdYelr01V-Fkog8U,1066
+codesearch-0.1.0.dist-info/RECORD,,
