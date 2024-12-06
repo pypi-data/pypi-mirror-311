@@ -1,0 +1,11 @@
+wsqlite3/__init__.py,sha256=NEJLQlwfQM9b-0OSrinMfORjaiQ1sAp9svL4VQ5secI,100
+wsqlite3/service.py,sha256=dzOXy5uwZISx4rikxRSqrI21FVJgbcC1w7pC6PniUH8,52182
+wsqlite3/verbose_service.py,sha256=MRodnmME1hW-Z6vEw4zDLcPCPqY3KxLsojGF9a8Qzv4,8248
+wsqlite3/baseclient/__init__.py,sha256=3SR6jEM3QLZ0bjHLpttDCvEeqfXzxECB7IZ9NnRPy14,138
+wsqlite3/baseclient/baseclient.py,sha256=CM7z3mtymOoA0iV4co9Vv7ckYPBkXfn-m2RV4qJhnCY,5003
+wsqlite3/baseclient/orderutil.py,sha256=xBjqqW8TzD8aWBWt3RcAED8JH8wnxPsF4ep4nrOPshk,11830
+wsqlite3-0.3.dist-info/LICENSE,sha256=HUvHC4jEnMG0YmFbTMGt--UdqyZfzxRiZWSd7WUxWNQ,1090
+wsqlite3-0.3.dist-info/METADATA,sha256=ShAzNxDgyxHB-Ujqr2FiWI24Hp7qxRONVMI_UKCJ9_s,3683
+wsqlite3-0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+wsqlite3-0.3.dist-info/top_level.txt,sha256=_QXDJiEWYoKtyK4G9m4n87X_htaQ4Ul4nXxEyBYLCKc,9
+wsqlite3-0.3.dist-info/RECORD,,
