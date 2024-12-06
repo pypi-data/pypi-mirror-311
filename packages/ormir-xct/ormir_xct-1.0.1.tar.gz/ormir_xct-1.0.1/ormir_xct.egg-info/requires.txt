@@ -1,0 +1,15 @@
+pbr
+pip
+setuptools
+black
+flake8
+pytest
+hypothesis
+itk
+itkwidgets
+vtk
+simpleitk
+scikit-image
+numpy
+scipy
+notebook

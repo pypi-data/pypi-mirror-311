@@ -1,0 +1,22 @@
+# Internal tools
+pbr
+pip
+setuptools
+black
+flake8
+pytest
+hypothesis
+
+# Image processing
+itk
+itkwidgets
+vtk
+simpleitk
+scikit-image
+
+# Numerics
+numpy
+scipy
+
+# Jupiter Notebooks
+notebook
