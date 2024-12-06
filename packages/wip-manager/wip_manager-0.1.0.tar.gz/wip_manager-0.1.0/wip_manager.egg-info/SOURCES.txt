@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+wip_manager/cli.py
+wip_manager.egg-info/PKG-INFO
+wip_manager.egg-info/SOURCES.txt
+wip_manager.egg-info/dependency_links.txt
+wip_manager.egg-info/entry_points.txt
+wip_manager.egg-info/requires.txt
+wip_manager.egg-info/top_level.txt
