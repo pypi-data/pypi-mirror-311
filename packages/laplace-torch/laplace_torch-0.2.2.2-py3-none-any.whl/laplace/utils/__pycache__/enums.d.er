@@ -1,0 +1,48 @@
+##[pylyzer] failed /users/akristiadi/projects/laplace/laplace/utils/enums.py 1726315154 1915
+.___v_desugar_1 = pyimport "enum"
+.enum = pyimport "enum"
+.Enum: {enum.Enum}
+.SubsetOfWeights: ClassType
+.SubsetOfWeights <: Str
+.SubsetOfWeights.ALL: {"all"}
+.SubsetOfWeights.LAST_LAYER: {"last_layer"}
+.SubsetOfWeights.SUBNETWORK: {"subnetwork"}
+
+.HessianStructure: ClassType
+.HessianStructure <: Str
+.HessianStructure.FULL: {"full"}
+.HessianStructure.KRON: {"kron"}
+.HessianStructure.DIAG: {"diag"}
+.HessianStructure.LOWRANK: {"lowrank"}
+.HessianStructure.GP: {"gp"}
+
+.Likelihood: ClassType
+.Likelihood <: Str
+.Likelihood.REGRESSION: {"regression"}
+.Likelihood.CLASSIFICATION: {"classification"}
+.Likelihood.REWARD_MODELING: {"reward_modeling"}
+
+.PredType: ClassType
+.PredType <: Str
+.PredType.GLM: {"glm"}
+.PredType.NN: {"nn"}
+.PredType.GP: {"gp"}
+
+.LinkApprox: ClassType
+.LinkApprox <: Str
+.LinkApprox.MC: {"mc"}
+.LinkApprox.PROBIT: {"probit"}
+.LinkApprox.BRIDGE: {"bridge"}
+.LinkApprox.BRIDGE_NORM: {"bridge_norm"}
+
+.TuningMethod: ClassType
+.TuningMethod <: Str
+.TuningMethod.MARGLIK: {"marglik"}
+.TuningMethod.GRIDSEARCH: {"gridsearch"}
+
+.PriorStructure: ClassType
+.PriorStructure <: Str
+.PriorStructure.SCALAR: {"scalar"}
+.PriorStructure.DIAG: {"diag"}
+.PriorStructure.LAYERWISE: {"layerwise"}
+
