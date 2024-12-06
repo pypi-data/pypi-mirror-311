@@ -1,0 +1,9 @@
+README.md
+setup.py
+testpippp/__init__.py
+testpippp/main.py
+testpippp.egg-info/PKG-INFO
+testpippp.egg-info/SOURCES.txt
+testpippp.egg-info/dependency_links.txt
+testpippp.egg-info/entry_points.txt
+testpippp.egg-info/top_level.txt
