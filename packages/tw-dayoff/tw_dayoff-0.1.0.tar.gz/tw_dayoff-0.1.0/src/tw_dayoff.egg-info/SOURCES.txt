@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/tw_dayoff/__init__.py
+src/tw_dayoff/__main__.py
+src/tw_dayoff/main.py
+src/tw_dayoff.egg-info/PKG-INFO
+src/tw_dayoff.egg-info/SOURCES.txt
+src/tw_dayoff.egg-info/dependency_links.txt
+src/tw_dayoff.egg-info/requires.txt
+src/tw_dayoff.egg-info/top_level.txt
