@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+dbshiftSDK/__init__.py
+dbshiftSDK.egg-info/PKG-INFO
+dbshiftSDK.egg-info/SOURCES.txt
+dbshiftSDK.egg-info/dependency_links.txt
+dbshiftSDK.egg-info/requires.txt
+dbshiftSDK.egg-info/top_level.txt
