@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/pytest_porcochu/__init__.py
+src/pytest_porcochu/plugin.py
+src/pytest_porcochu.egg-info/PKG-INFO
+src/pytest_porcochu.egg-info/SOURCES.txt
+src/pytest_porcochu.egg-info/dependency_links.txt
+src/pytest_porcochu.egg-info/entry_points.txt
+src/pytest_porcochu.egg-info/requires.txt
+src/pytest_porcochu.egg-info/top_level.txt
+tests/test_plugin.py
