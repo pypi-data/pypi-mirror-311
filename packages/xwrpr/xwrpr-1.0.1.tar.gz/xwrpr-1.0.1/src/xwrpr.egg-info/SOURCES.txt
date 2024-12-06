@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/xwrpr/__init__.py
+src/xwrpr.egg-info/PKG-INFO
+src/xwrpr.egg-info/SOURCES.txt
+src/xwrpr.egg-info/dependency_links.txt
+src/xwrpr.egg-info/top_level.txt
