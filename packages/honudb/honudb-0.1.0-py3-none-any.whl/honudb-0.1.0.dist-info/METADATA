@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: honudb
+Version: 0.1.0
+Summary: Python driver and API client for the Honu replicated database.
+Home-page: https://honudb.dev
+Download-URL: https://github.com/rotationalio/pyhonu/tarball/v0.1.0
+Author: Rotational Labs
+Author-email: support@rotational.io
+Maintainer: Rotational Labs
+Maintainer-email: support@rotational.io
+License: BSD 3-Clause
+Project-URL: Documentation, https://honudb.dev
+Project-URL: Download, https://github.com/rotationalio/pyhonu/tarball/v0.1.0
+Project-URL: Source, https://github.com/rotationalio/pyhonu
+Project-URL: Tracker, https://github.com/rotationalio/pyhonu/issues
+Keywords: honudb,database driver,replicated database,api client
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Honu Python Drivers
+
+**Python driver and API client for the Honu replicated database.**
