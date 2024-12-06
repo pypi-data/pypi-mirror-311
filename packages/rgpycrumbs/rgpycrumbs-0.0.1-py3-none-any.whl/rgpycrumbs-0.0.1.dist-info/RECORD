@@ -1,0 +1,16 @@
+_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+rgpycrumbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgpycrumbs/_aux.py,sha256=CoE4fC3RcmxXT4HGYh4SP0kx3s-YEKOv6ylY1QwsQzk,576
+rgpycrumbs/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgpycrumbs/func/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgpycrumbs/func/muller_brown.py,sha256=I8R3bJtPIxM_Wi6wwXOOwrUQCbh-b-h2elxIqFJNEgc,1433
+rgpycrumbs/xts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgpycrumbs/xts/cuh2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgpycrumbs/xts/cuh2/datgen.py,sha256=SuY8HFXFcn76OEJi7pcd2w6vqshz9fIiQAEBj_uP1PE,632
+rgpycrumbs/xts/saddle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgpycrumbs/xts/saddle/cuh2.py,sha256=c61sG_7nuXXANvHykf9B27GF0OFBWNll4r_x1B6YWJo,2225
+rgpycrumbs/xts/saddle/mb.py,sha256=6ZOTUmA-I2s5onim621I7Qft4YCISK7alg_gDJP23UI,2074
+rgpycrumbs-0.0.1.dist-info/METADATA,sha256=isoERX3I0h6LT1c-1VKh-EbLNGhO_LN5igeZ7vaiMKA,2462
+rgpycrumbs-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+rgpycrumbs-0.0.1.dist-info/licenses/LICENSE,sha256=WpBevJdirrfildX-iO61fdIm4hJ0EQniBoxNJJPlFl0,1127
+rgpycrumbs-0.0.1.dist-info/RECORD,,
