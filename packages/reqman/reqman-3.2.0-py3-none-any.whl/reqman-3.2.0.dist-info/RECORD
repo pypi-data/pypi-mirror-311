@@ -1,0 +1,13 @@
+reqman/__init__.py,sha256=T6d8zLQyJuuPg-iyty0lGmeAUju1x0iS3K5mJhS1u4s,69535
+reqman/__main__.py,sha256=aqL2tfqycX8aY04QEA9339MrbD5KuZ8UmbYhhI14ric,786
+reqman/com.py,sha256=iNlSdHkurHnrUa0ZWAPxLXzMEw5XgmLcO3K6rGCS3-I,6046
+reqman/com_httpx.py,sha256=sa_xwrRiZpSq5wQhRV1sl1XcihAzSs101wk-2umTTzM,5290
+reqman/common.py,sha256=LPukOUGs2qCEvNb33YFow50dCVnUOxxOvF042Il0Hlg,1163
+reqman/env.py,sha256=akSp2T7Gn6ulCc4jjwNuLhJLCPIp2bcGZE0RkeQC6FA,18237
+reqman/testing.py,sha256=R5QANwZnSfTFQ7KlwjF46nqqrGzxN98FmiQsveQErxo,7071
+reqman/xlib.py,sha256=VPibWjMtk3CFiSax0KQMrQuYhKR2d64PKtSSRrXHSjM,2044
+reqman-3.2.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+reqman-3.2.0.dist-info/METADATA,sha256=xs_CfdGI-RaE7dhE17CAY1DC6O-jXsvVYHyQ2-S6738,9365
+reqman-3.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+reqman-3.2.0.dist-info/entry_points.txt,sha256=JJzx6MQKV0sW4UQiwZf5bGaJTtFFyuiSM6w_n4_GXyU,38
+reqman-3.2.0.dist-info/RECORD,,
