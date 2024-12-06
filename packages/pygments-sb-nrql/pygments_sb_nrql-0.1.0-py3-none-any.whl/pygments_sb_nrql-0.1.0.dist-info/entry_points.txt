@@ -1,0 +1,3 @@
+[pygments.lexers]
+graphql=pygments_sb_nrql:lexer.NrqlLexer
+

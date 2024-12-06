@@ -1,0 +1,12 @@
+CHANGELOG.md,sha256=rL1boU9qkKARq6e46-5O7GyYAwRMuUxKM4kpi_apdaU,198
+LICENSE.txt,sha256=V8uVj3FFTmjejVkGkkoLLvLYwaFkSdK3n1HvcCkvaIs,1070
+pygments_sb_nrql/__init__.py,sha256=JX6UnLTCHNXJuyScxS1mqlqQOdSkgaVA9XDXteejoC8,84
+pygments_sb_nrql/_modidx.py,sha256=F_mZHTMZsimSPk-Ax47kRicaxnqAA0iCpuNXEgxyDvE,602
+pygments_sb_nrql/builtins.py,sha256=dzf18hyKU7a7ouv5XX9oT84mb8z2Rg_Tw91q7pXD8nM,1990
+pygments_sb_nrql/lexer.py,sha256=ojvutg8jYQ2o2XFR3QzElC0m1vFJnWLJajWtTh75XrE,2347
+pygments_sb_nrql/version.py,sha256=yJMA51Q2YywUO1UAtWKNnlXQEUmW86Moa80Llukj97k,26
+pygments_sb_nrql-0.1.0.dist-info/LICENSE.txt,sha256=V8uVj3FFTmjejVkGkkoLLvLYwaFkSdK3n1HvcCkvaIs,1070
+pygments_sb_nrql-0.1.0.dist-info/METADATA,sha256=KCR2ow0-xtwOalJTJNZdAzjpCkt-3SPnvK14WAMHdVk,4402
+pygments_sb_nrql-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pygments_sb_nrql-0.1.0.dist-info/entry_points.txt,sha256=84gRpNAU6bN1vV7RnOqlyY3-i19vGwC00R9t7wv--Pk,60
+pygments_sb_nrql-0.1.0.dist-info/RECORD,,
