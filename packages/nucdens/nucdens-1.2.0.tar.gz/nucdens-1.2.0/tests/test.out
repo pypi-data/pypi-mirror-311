@@ -1,0 +1,820 @@
+
+Derzeit geladene Module:
+  1) Stages/2022            (S)    42) libpciaccess/.0.16         (H)
+  2) GCCcore/.11.2.0        (H)    43) X11/20210802
+  3) zlib/.1.2.11           (H)    44) Tk/.8.6.11                 (H)
+  4) binutils/.2.37         (H)    45) Tkinter/3.9.6
+  5) StdEnv/2022                   46) LibTIFF/.4.3.0             (H)
+  6) Architecture/jurecadc  (S)    47) Pillow-SIMD/9.0.1
+  7) Intel/2021.4.0                48) Qhull/.2020.2              (H)
+  8) numactl/2.0.14                49) matplotlib/3.4.3
+  9) nvidia-driver/.default (H,g)  50) Seaborn/0.11.2
+ 10) CUDA/11.5              (g)    51) MPFR/4.1.0
+ 11) UCX/default            (g)    52) MPC/1.2.1
+ 12) UCX-settings/UD               53) gmpy2/2.1.0b5
+ 13) pscom/.5.4-default     (H)    54) sympy/1.8
+ 14) XZ/.5.2.5              (H)    55) xarray/0.20.1
+ 15) libxml2/.2.9.10        (H)    56) SciPy-Stack/2021b
+ 16) mpi-settings/UCX              57) Szip/.2.1.1                (H)
+ 17) bzip2/.1.0.8           (H)    58) HDF5/1.12.1
+ 18) ncurses/.6.2           (H)    59) mpi4py/3.1.3
+ 19) libreadline/.8.1       (H)    60) h5py/3.5.0
+ 20) Tcl/8.6.11                    61) ELPA/2021.11.001
+ 21) SQLite/.3.36           (H)    62) ARPACK-NG/3.8.0
+ 22) GMP/6.2.1                     63) JUBE/2.5.1
+ 23) libffi/.3.4.2          (H)    64) ParaStationMPI/5.5.0-1     (g)
+ 24) OpenSSL/1.1                   65) SUNDIALS/5.4.0             (u)
+ 25) libxslt/.1.1.34        (H)    66) imkl/.2021.4.0             (H)
+ 26) libyaml/.0.2.5         (H)    67) Ninja/1.10.2
+ 27) PostgreSQL/13.4               68) protobuf/.3.17.3           (H)
+ 28) gflags/.2.2.2          (H)    69) protobuf-python/.3.17.3    (H)
+ 29) libspatialindex/.1.9.3 (H)    70) typing-extensions/3.10.0.0
+ 30) NASM/.2.15.05          (H)    71) PyYAML/5.4.1
+ 31) libjpeg-turbo/.2.1.1   (H)    72) x264/.20210613             (H)
+ 32) Python/3.9.6                  73) LAME/.3.100                (H)
+ 33) pybind11/.2.7.1        (H)    74) x265/.3.4                  (H)
+ 34) SciPy-bundle/2021.10          75) libvpx/1.11.0
+ 35) libpng/.1.6.37         (H)    76) FriBidi/1.0.10
+ 36) Brotli/1.0.9                  77) FFmpeg/.4.4.1              (H,g)
+ 37) freetype/.2.11.0       (H)    78) cuDNN/8.3.1.22-CUDA-11.5   (g)
+ 38) expat/.2.4.1           (H)    79) magma/2.6.1-CUDA-11.5      (g)
+ 39) util-linux/.2.37       (H)    80) NCCL/2.12.7-1-CUDA-11.5    (g)
+ 40) fontconfig/.2.13.94    (H)    81) expecttest/0.1.3
+ 41) xorg-macros/.1.19.3    (H)    82) PyTorch/1.11-CUDA-11.5     (g)
+
+  Wo:
+   H:  Verstecktes Modul.
+   S:  Das Modul ist angeheftet. Verwenden Sie "--force", um das Modul zu entladen.
+   g:  built for GPU
+   u:  Built by user
+
+ 
+
+rank 15 on node jrc0442 sees devices: 0,1,2,3
+rank 15 running from 128 processes!
+GPU on task 15 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 15 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 15 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 15 with id 3: NVIDIA A100-SXM4-40GB
+rank 75 on node jrc0444 sees devices: 0,1,2,3
+rank 75 running from 128 processes!
+GPU on task 75 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 75 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 75 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 75 with id 3: NVIDIA A100-SXM4-40GB
+rank 127 on node jrc0444 sees devices: 0,1,2,3
+rank 127 running from 128 processes!
+GPU on task 127 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 127 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 127 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 127 with id 3: NVIDIA A100-SXM4-40GB
+rank 124 on node jrc0444 sees devices: 0,1,2,3
+rank 124 running from 128 processes!
+GPU on task 124 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 124 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 124 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 124 with id 3: NVIDIA A100-SXM4-40GB
+rank 93 on node jrc0444 sees devices: 0,1,2,3
+rank 93 running from 128 processes!
+GPU on task 93 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 93 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 93 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 93 with id 3: NVIDIA A100-SXM4-40GB
+rank 105 on node jrc0444 sees devices: 0,1,2,3
+rank 105 running from 128 processes!
+GPU on task 105 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 105 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 105 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 105 with id 3: NVIDIA A100-SXM4-40GB
+rank 126 on node jrc0444 sees devices: 0,1,2,3
+rank 126 running from 128 processes!
+GPU on task 126 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 126 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 126 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 126 with id 3: NVIDIA A100-SXM4-40GB
+rank 125 on node jrc0444 sees devices: 0,1,2,3
+rank 125 running from 128 processes!
+GPU on task 125 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 125 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 125 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 125 with id 3: NVIDIA A100-SXM4-40GB
+rank 123 on node jrc0444 sees devices: 0,1,2,3
+rank 123 running from 128 processes!
+GPU on task 123 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 123 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 123 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 123 with id 3: NVIDIA A100-SXM4-40GB
+rank 122 on node jrc0444 sees devices: 0,1,2,3
+rank 122 running from 128 processes!
+GPU on task 122 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 122 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 122 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 122 with id 3: NVIDIA A100-SXM4-40GB
+rank 120 on node jrc0444 sees devices: 0,1,2,3
+rank 120 running from 128 processes!
+GPU on task 120 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 120 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 120 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 120 with id 3: NVIDIA A100-SXM4-40GB
+rank 67 on node jrc0444 sees devices: 0,1,2,3
+rank 67 running from 128 processes!
+GPU on task 67 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 67 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 67 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 67 with id 3: NVIDIA A100-SXM4-40GB
+rank 66 on node jrc0444 sees devices: 0,1,2,3
+rank 66 running from 128 processes!
+GPU on task 66 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 66 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 66 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 66 with id 3: NVIDIA A100-SXM4-40GB
+rank 95 on node jrc0444 sees devices: 0,1,2,3
+rank 95 running from 128 processes!
+GPU on task 95 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 95 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 95 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 95 with id 3: NVIDIA A100-SXM4-40GB
+rank 64 on node jrc0444 sees devices: 0,1,2,3
+rank 64 running from 128 processes!
+GPU on task 64 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 64 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 64 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 64 with id 3: NVIDIA A100-SXM4-40GB
+rank 74 on node jrc0444 sees devices: 0,1,2,3
+rank 74 running from 128 processes!
+GPU on task 74 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 74 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 74 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 74 with id 3: NVIDIA A100-SXM4-40GB
+rank 115 on node jrc0444 sees devices: 0,1,2,3
+rank 115 running from 128 processes!
+GPU on task 115 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 115 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 115 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 115 with id 3: NVIDIA A100-SXM4-40GB
+rank 65 on node jrc0444 sees devices: 0,1,2,3
+rank 65 running from 128 processes!
+GPU on task 65 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 65 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 65 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 65 with id 3: NVIDIA A100-SXM4-40GB
+rank 116 on node jrc0444 sees devices: 0,1,2,3
+rank 116 running from 128 processes!
+GPU on task 116 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 116 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 116 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 116 with id 3: NVIDIA A100-SXM4-40GB
+rank 114 on node jrc0444 sees devices: 0,1,2,3
+rank 114 running from 128 processes!
+GPU on task 114 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 114 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 114 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 114 with id 3: NVIDIA A100-SXM4-40GB
+rank 78 on node jrc0444 sees devices: 0,1,2,3
+rank 78 running from 128 processes!
+GPU on task 78 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 78 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 78 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 78 with id 3: NVIDIA A100-SXM4-40GB
+rank 118 on node jrc0444 sees devices: 0,1,2,3
+rank 118 running from 128 processes!
+GPU on task 118 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 118 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 118 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 118 with id 3: NVIDIA A100-SXM4-40GB
+rank 92 on node jrc0444 sees devices: 0,1,2,3
+rank 92 running from 128 processes!
+GPU on task 92 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 92 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 92 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 92 with id 3: NVIDIA A100-SXM4-40GB
+rank 71 on node jrc0444 sees devices: 0,1,2,3
+rank 71 running from 128 processes!
+GPU on task 71 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 71 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 71 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 71 with id 3: NVIDIA A100-SXM4-40GB
+rank 117 on node jrc0444 sees devices: 0,1,2,3
+rank 117 running from 128 processes!
+GPU on task 117 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 117 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 117 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 117 with id 3: NVIDIA A100-SXM4-40GB
+rank 90 on node jrc0444 sees devices: 0,1,2,3
+rank 90 running from 128 processes!
+GPU on task 90 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 90 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 90 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 90 with id 3: NVIDIA A100-SXM4-40GB
+rank 102 on node jrc0444 sees devices: 0,1,2,3
+rank 102 running from 128 processes!
+GPU on task 102 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 102 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 102 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 102 with id 3: NVIDIA A100-SXM4-40GB
+rank 83 on node jrc0444 sees devices: 0,1,2,3
+rank 83 running from 128 processes!
+GPU on task 83 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 83 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 83 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 83 with id 3: NVIDIA A100-SXM4-40GB
+rank 70 on node jrc0444 sees devices: 0,1,2,3
+rank 70 running from 128 processes!
+GPU on task 70 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 70 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 70 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 70 with id 3: NVIDIA A100-SXM4-40GB
+rank 113 on node jrc0444 sees devices: 0,1,2,3
+rank 113 running from 128 processes!
+GPU on task 113 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 113 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 113 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 113 with id 3: NVIDIA A100-SXM4-40GB
+rank 121 on node jrc0444 sees devices: 0,1,2,3
+rank 121 running from 128 processes!
+GPU on task 121 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 121 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 121 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 121 with id 3: NVIDIA A100-SXM4-40GB
+rank 119 on node jrc0444 sees devices: 0,1,2,3
+rank 119 running from 128 processes!
+GPU on task 119 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 119 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 119 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 119 with id 3: NVIDIA A100-SXM4-40GB
+rank 69 on node jrc0444 sees devices: 0,1,2,3
+rank 69 running from 128 processes!
+GPU on task 69 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 69 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 69 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 69 with id 3: NVIDIA A100-SXM4-40GB
+rank 84 on node jrc0444 sees devices: 0,1,2,3
+rank 84 running from 128 processes!
+GPU on task 84 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 84 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 84 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 84 with id 3: NVIDIA A100-SXM4-40GB
+rank 112 on node jrc0444 sees devices: 0,1,2,3
+rank 112 running from 128 processes!
+GPU on task 112 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 112 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 112 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 112 with id 3: NVIDIA A100-SXM4-40GB
+rank 110 on node jrc0444 sees devices: 0,1,2,3
+rank 110 running from 128 processes!
+GPU on task 110 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 110 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 110 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 110 with id 3: NVIDIA A100-SXM4-40GB
+rank 91 on node jrc0444 sees devices: 0,1,2,3
+rank 91 running from 128 processes!
+GPU on task 91 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 91 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 91 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 91 with id 3: NVIDIA A100-SXM4-40GB
+rank 97 on node jrc0444 sees devices: 0,1,2,3
+rank 97 running from 128 processes!
+GPU on task 97 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 97 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 97 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 97 with id 3: NVIDIA A100-SXM4-40GB
+rank 94 on node jrc0444 sees devices: 0,1,2,3
+rank 94 running from 128 processes!
+GPU on task 94 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 94 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 94 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 94 with id 3: NVIDIA A100-SXM4-40GB
+rank 68 on node jrc0444 sees devices: 0,1,2,3
+rank 68 running from 128 processes!
+GPU on task 68 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 68 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 68 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 68 with id 3: NVIDIA A100-SXM4-40GB
+rank 76 on node jrc0444 sees devices: 0,1,2,3
+rank 76 running from 128 processes!
+GPU on task 76 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 76 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 76 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 76 with id 3: NVIDIA A100-SXM4-40GB
+rank 73 on node jrc0444 sees devices: 0,1,2,3
+rank 73 running from 128 processes!
+GPU on task 73 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 73 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 73 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 73 with id 3: NVIDIA A100-SXM4-40GB
+rank 107 on node jrc0444 sees devices: 0,1,2,3
+rank 107 running from 128 processes!
+GPU on task 107 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 107 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 107 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 107 with id 3: NVIDIA A100-SXM4-40GB
+rank 79 on node jrc0444 sees devices: 0,1,2,3
+rank 79 running from 128 processes!
+GPU on task 79 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 79 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 79 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 79 with id 3: NVIDIA A100-SXM4-40GB
+rank 72 on node jrc0444 sees devices: 0,1,2,3
+rank 72 running from 128 processes!
+GPU on task 72 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 72 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 72 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 72 with id 3: NVIDIA A100-SXM4-40GB
+rank 81 on node jrc0444 sees devices: 0,1,2,3
+rank 81 running from 128 processes!
+GPU on task 81 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 81 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 81 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 81 with id 3: NVIDIA A100-SXM4-40GB
+rank 89 on node jrc0444 sees devices: 0,1,2,3
+rank 89 running from 128 processes!
+GPU on task 89 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 89 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 89 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 89 with id 3: NVIDIA A100-SXM4-40GB
+rank 88 on node jrc0444 sees devices: 0,1,2,3
+rank 88 running from 128 processes!
+GPU on task 88 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 88 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 88 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 88 with id 3: NVIDIA A100-SXM4-40GB
+rank 86 on node jrc0444 sees devices: 0,1,2,3
+rank 86 running from 128 processes!
+GPU on task 86 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 86 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 86 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 86 with id 3: NVIDIA A100-SXM4-40GB
+rank 77 on node jrc0444 sees devices: 0,1,2,3
+rank 77 running from 128 processes!
+GPU on task 77 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 77 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 77 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 77 with id 3: NVIDIA A100-SXM4-40GB
+rank 109 on node jrc0444 sees devices: 0,1,2,3
+rank 109 running from 128 processes!
+GPU on task 109 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 109 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 109 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 109 with id 3: NVIDIA A100-SXM4-40GB
+rank 82 on node jrc0444 sees devices: 0,1,2,3
+rank 82 running from 128 processes!
+GPU on task 82 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 82 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 82 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 82 with id 3: NVIDIA A100-SXM4-40GB
+rank 106 on node jrc0444 sees devices: 0,1,2,3
+rank 106 running from 128 processes!
+GPU on task 106 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 106 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 106 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 106 with id 3: NVIDIA A100-SXM4-40GB
+rank 87 on node jrc0444 sees devices: 0,1,2,3
+rank 87 running from 128 processes!
+GPU on task 87 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 87 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 87 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 87 with id 3: NVIDIA A100-SXM4-40GB
+rank 98 on node jrc0444 sees devices: 0,1,2,3
+rank 98 running from 128 processes!
+GPU on task 98 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 98 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 98 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 98 with id 3: NVIDIA A100-SXM4-40GB
+rank 100 on node jrc0444 sees devices: 0,1,2,3
+rank 100 running from 128 processes!
+GPU on task 100 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 100 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 100 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 100 with id 3: NVIDIA A100-SXM4-40GB
+rank 111 on node jrc0444 sees devices: 0,1,2,3
+rank 111 running from 128 processes!
+GPU on task 111 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 111 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 111 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 111 with id 3: NVIDIA A100-SXM4-40GB
+rank 85 on node jrc0444 sees devices: 0,1,2,3
+rank 85 running from 128 processes!
+GPU on task 85 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 85 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 85 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 85 with id 3: NVIDIA A100-SXM4-40GB
+rank 99 on node jrc0444 sees devices: 0,1,2,3
+rank 99 running from 128 processes!
+GPU on task 99 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 99 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 99 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 99 with id 3: NVIDIA A100-SXM4-40GB
+rank 103 on node jrc0444 sees devices: 0,1,2,3
+rank 103 running from 128 processes!
+GPU on task 103 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 103 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 103 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 103 with id 3: NVIDIA A100-SXM4-40GB
+rank 108 on node jrc0444 sees devices: 0,1,2,3
+rank 108 running from 128 processes!
+GPU on task 108 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 108 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 108 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 108 with id 3: NVIDIA A100-SXM4-40GB
+rank 101 on node jrc0444 sees devices: 0,1,2,3
+rank 101 running from 128 processes!
+GPU on task 101 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 101 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 101 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 101 with id 3: NVIDIA A100-SXM4-40GB
+rank 96 on node jrc0444 sees devices: 0,1,2,3
+rank 96 running from 128 processes!
+GPU on task 96 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 96 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 96 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 96 with id 3: NVIDIA A100-SXM4-40GB
+rank 63 on node jrc0442 sees devices: 0,1,2,3
+rank 63 running from 128 processes!
+GPU on task 63 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 63 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 63 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 63 with id 3: NVIDIA A100-SXM4-40GB
+rank 52 on node jrc0442 sees devices: 0,1,2,3
+rank 52 running from 128 processes!
+GPU on task 52 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 52 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 52 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 52 with id 3: NVIDIA A100-SXM4-40GB
+rank 60 on node jrc0442 sees devices: 0,1,2,3
+rank 60 running from 128 processes!
+GPU on task 60 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 60 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 60 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 60 with id 3: NVIDIA A100-SXM4-40GB
+rank 12 on node jrc0442 sees devices: 0,1,2,3
+rank 12 running from 128 processes!
+GPU on task 12 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 12 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 12 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 12 with id 3: NVIDIA A100-SXM4-40GB
+rank 7 on node jrc0442 sees devices: 0,1,2,3
+rank 7 running from 128 processes!
+GPU on task 7 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 7 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 7 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 7 with id 3: NVIDIA A100-SXM4-40GB
+rank 61 on node jrc0442 sees devices: 0,1,2,3
+rank 61 running from 128 processes!
+GPU on task 61 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 61 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 61 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 61 with id 3: NVIDIA A100-SXM4-40GB
+rank 58 on node jrc0442 sees devices: 0,1,2,3
+rank 58 running from 128 processes!
+GPU on task 58 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 58 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 58 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 58 with id 3: NVIDIA A100-SXM4-40GB
+rank 5 on node jrc0442 sees devices: 0,1,2,3
+rank 5 running from 128 processes!
+GPU on task 5 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 5 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 5 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 5 with id 3: NVIDIA A100-SXM4-40GB
+rank 62 on node jrc0442 sees devices: 0,1,2,3
+rank 62 running from 128 processes!
+GPU on task 62 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 62 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 62 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 62 with id 3: NVIDIA A100-SXM4-40GB
+rank 6 on node jrc0442 sees devices: 0,1,2,3
+rank 6 running from 128 processes!
+GPU on task 6 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 6 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 6 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 6 with id 3: NVIDIA A100-SXM4-40GB
+rank 0 on node jrc0442 sees devices: 0,1,2,3
+rank 0 running from 128 processes!
+GPU on task 0 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 0 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 0 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 0 with id 3: NVIDIA A100-SXM4-40GB
+rank 36 on node jrc0442 sees devices: 0,1,2,3
+rank 36 running from 128 processes!
+GPU on task 36 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 36 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 36 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 36 with id 3: NVIDIA A100-SXM4-40GB
+rank 8 on node jrc0442 sees devices: 0,1,2,3
+rank 8 running from 128 processes!
+GPU on task 8 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 8 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 8 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 8 with id 3: NVIDIA A100-SXM4-40GB
+rank 2 on node jrc0442 sees devices: 0,1,2,3
+rank 2 running from 128 processes!
+GPU on task 2 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 2 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 2 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 2 with id 3: NVIDIA A100-SXM4-40GB
+rank 43 on node jrc0442 sees devices: 0,1,2,3
+rank 43 running from 128 processes!
+GPU on task 43 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 43 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 43 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 43 with id 3: NVIDIA A100-SXM4-40GB
+rank 49 on node jrc0442 sees devices: 0,1,2,3
+rank 49 running from 128 processes!
+GPU on task 49 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 49 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 49 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 49 with id 3: NVIDIA A100-SXM4-40GB
+rank 1 on node jrc0442 sees devices: 0,1,2,3
+rank 1 running from 128 processes!
+GPU on task 1 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 1 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 1 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 1 with id 3: NVIDIA A100-SXM4-40GB
+rank 3 on node jrc0442 sees devices: 0,1,2,3
+rank 3 running from 128 processes!
+GPU on task 3 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 3 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 3 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 3 with id 3: NVIDIA A100-SXM4-40GB
+rank 13 on node jrc0442 sees devices: 0,1,2,3
+rank 13 running from 128 processes!
+GPU on task 13 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 13 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 13 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 13 with id 3: NVIDIA A100-SXM4-40GB
+rank 31 on node jrc0442 sees devices: 0,1,2,3
+rank 31 running from 128 processes!
+GPU on task 31 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 31 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 31 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 31 with id 3: NVIDIA A100-SXM4-40GB
+rank 18 on node jrc0442 sees devices: 0,1,2,3
+rank 18 running from 128 processes!
+GPU on task 18 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 18 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 18 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 18 with id 3: NVIDIA A100-SXM4-40GB
+rank 4 on node jrc0442 sees devices: 0,1,2,3
+rank 4 running from 128 processes!
+GPU on task 4 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 4 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 4 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 4 with id 3: NVIDIA A100-SXM4-40GB
+rank 51 on node jrc0442 sees devices: 0,1,2,3
+rank 51 running from 128 processes!
+GPU on task 51 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 51 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 51 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 51 with id 3: NVIDIA A100-SXM4-40GB
+rank 57 on node jrc0442 sees devices: 0,1,2,3
+rank 57 running from 128 processes!
+GPU on task 57 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 57 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 57 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 57 with id 3: NVIDIA A100-SXM4-40GB
+rank 10 on node jrc0442 sees devices: 0,1,2,3
+rank 10 running from 128 processes!
+GPU on task 10 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 10 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 10 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 10 with id 3: NVIDIA A100-SXM4-40GB
+rank 48 on node jrc0442 sees devices: 0,1,2,3
+rank 48 running from 128 processes!
+GPU on task 48 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 48 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 48 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 48 with id 3: NVIDIA A100-SXM4-40GB
+rank 54 on node jrc0442 sees devices: 0,1,2,3
+rank 54 running from 128 processes!
+GPU on task 54 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 54 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 54 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 54 with id 3: NVIDIA A100-SXM4-40GB
+rank 14 on node jrc0442 sees devices: 0,1,2,3
+rank 14 running from 128 processes!
+GPU on task 14 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 14 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 14 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 14 with id 3: NVIDIA A100-SXM4-40GB
+rank 56 on node jrc0442 sees devices: 0,1,2,3
+rank 56 running from 128 processes!
+GPU on task 56 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 56 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 56 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 56 with id 3: NVIDIA A100-SXM4-40GB
+rank 45 on node jrc0442 sees devices: 0,1,2,3
+rank 45 running from 128 processes!
+GPU on task 45 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 45 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 45 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 45 with id 3: NVIDIA A100-SXM4-40GB
+rank 50 on node jrc0442 sees devices: 0,1,2,3
+rank 50 running from 128 processes!
+GPU on task 50 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 50 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 50 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 50 with id 3: NVIDIA A100-SXM4-40GB
+rank 37 on node jrc0442 sees devices: 0,1,2,3
+rank 37 running from 128 processes!
+GPU on task 37 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 37 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 37 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 37 with id 3: NVIDIA A100-SXM4-40GB
+rank 9 on node jrc0442 sees devices: 0,1,2,3
+rank 9 running from 128 processes!
+GPU on task 9 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 9 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 9 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 9 with id 3: NVIDIA A100-SXM4-40GB
+rank 20 on node jrc0442 sees devices: 0,1,2,3
+rank 20 running from 128 processes!
+GPU on task 20 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 20 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 20 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 20 with id 3: NVIDIA A100-SXM4-40GB
+rank 11 on node jrc0442 sees devices: 0,1,2,3
+rank 11 running from 128 processes!
+GPU on task 11 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 11 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 11 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 11 with id 3: NVIDIA A100-SXM4-40GB
+rank 19 on node jrc0442 sees devices: 0,1,2,3
+rank 19 running from 128 processes!
+GPU on task 19 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 19 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 19 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 19 with id 3: NVIDIA A100-SXM4-40GB
+rank 16 on node jrc0442 sees devices: 0,1,2,3
+rank 16 running from 128 processes!
+GPU on task 16 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 16 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 16 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 16 with id 3: NVIDIA A100-SXM4-40GB
+rank 30 on node jrc0442 sees devices: 0,1,2,3
+rank 30 running from 128 processes!
+GPU on task 30 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 30 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 30 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 30 with id 3: NVIDIA A100-SXM4-40GB
+rank 53 on node jrc0442 sees devices: 0,1,2,3
+rank 53 running from 128 processes!
+GPU on task 53 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 53 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 53 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 53 with id 3: NVIDIA A100-SXM4-40GB
+rank 59 on node jrc0442 sees devices: 0,1,2,3
+rank 59 running from 128 processes!
+GPU on task 59 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 59 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 59 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 59 with id 3: NVIDIA A100-SXM4-40GB
+rank 28 on node jrc0442 sees devices: 0,1,2,3
+rank 28 running from 128 processes!
+GPU on task 28 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 28 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 28 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 28 with id 3: NVIDIA A100-SXM4-40GB
+rank 38 on node jrc0442 sees devices: 0,1,2,3
+rank 38 running from 128 processes!
+GPU on task 38 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 38 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 38 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 38 with id 3: NVIDIA A100-SXM4-40GB
+rank 24 on node jrc0442 sees devices: 0,1,2,3
+rank 24 running from 128 processes!
+GPU on task 24 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 24 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 24 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 24 with id 3: NVIDIA A100-SXM4-40GB
+rank 21 on node jrc0442 sees devices: 0,1,2,3
+rank 21 running from 128 processes!
+GPU on task 21 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 21 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 21 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 21 with id 3: NVIDIA A100-SXM4-40GB
+rank 29 on node jrc0442 sees devices: 0,1,2,3
+rank 29 running from 128 processes!
+GPU on task 29 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 29 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 29 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 29 with id 3: NVIDIA A100-SXM4-40GB
+rank 26 on node jrc0442 sees devices: 0,1,2,3
+rank 26 running from 128 processes!
+GPU on task 26 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 26 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 26 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 26 with id 3: NVIDIA A100-SXM4-40GB
+rank 35 on node jrc0442 sees devices: 0,1,2,3
+rank 35 running from 128 processes!
+GPU on task 35 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 35 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 35 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 35 with id 3: NVIDIA A100-SXM4-40GB
+rank 25 on node jrc0442 sees devices: 0,1,2,3
+rank 25 running from 128 processes!
+GPU on task 25 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 25 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 25 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 25 with id 3: NVIDIA A100-SXM4-40GB
+rank 46 on node jrc0442 sees devices: 0,1,2,3
+rank 46 running from 128 processes!
+GPU on task 46 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 46 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 46 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 46 with id 3: NVIDIA A100-SXM4-40GB
+rank 39 on node jrc0442 sees devices: 0,1,2,3
+rank 39 running from 128 processes!
+GPU on task 39 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 39 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 39 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 39 with id 3: NVIDIA A100-SXM4-40GB
+rank 17 on node jrc0442 sees devices: 0,1,2,3
+rank 17 running from 128 processes!
+GPU on task 17 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 17 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 17 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 17 with id 3: NVIDIA A100-SXM4-40GB
+rank 55 on node jrc0442 sees devices: 0,1,2,3
+rank 55 running from 128 processes!
+GPU on task 55 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 55 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 55 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 55 with id 3: NVIDIA A100-SXM4-40GB
+rank 42 on node jrc0442 sees devices: 0,1,2,3
+rank 42 running from 128 processes!
+GPU on task 42 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 42 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 42 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 42 with id 3: NVIDIA A100-SXM4-40GB
+rank 40 on node jrc0442 sees devices: 0,1,2,3
+rank 40 running from 128 processes!
+GPU on task 40 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 40 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 40 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 40 with id 3: NVIDIA A100-SXM4-40GB
+rank 22 on node jrc0442 sees devices: 0,1,2,3
+rank 22 running from 128 processes!
+GPU on task 22 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 22 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 22 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 22 with id 3: NVIDIA A100-SXM4-40GB
+rank 47 on node jrc0442 sees devices: 0,1,2,3
+rank 47 running from 128 processes!
+GPU on task 47 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 47 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 47 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 47 with id 3: NVIDIA A100-SXM4-40GB
+rank 41 on node jrc0442 sees devices: 0,1,2,3
+rank 41 running from 128 processes!
+GPU on task 41 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 41 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 41 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 41 with id 3: NVIDIA A100-SXM4-40GB
+rank 33 on node jrc0442 sees devices: 0,1,2,3
+rank 33 running from 128 processes!
+GPU on task 33 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 33 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 33 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 33 with id 3: NVIDIA A100-SXM4-40GB
+rank 32 on node jrc0442 sees devices: 0,1,2,3
+rank 32 running from 128 processes!
+GPU on task 32 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 32 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 32 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 32 with id 3: NVIDIA A100-SXM4-40GB
+rank 44 on node jrc0442 sees devices: 0,1,2,3
+rank 44 running from 128 processes!
+GPU on task 44 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 44 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 44 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 44 with id 3: NVIDIA A100-SXM4-40GB
+rank 27 on node jrc0442 sees devices: 0,1,2,3
+rank 27 running from 128 processes!
+GPU on task 27 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 27 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 27 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 27 with id 3: NVIDIA A100-SXM4-40GB
+rank 23 on node jrc0442 sees devices: 0,1,2,3
+rank 23 running from 128 processes!
+GPU on task 23 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 23 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 23 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 23 with id 3: NVIDIA A100-SXM4-40GB
+rank 34 on node jrc0442 sees devices: 0,1,2,3
+rank 34 running from 128 processes!
+GPU on task 34 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 34 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 34 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 34 with id 3: NVIDIA A100-SXM4-40GB
+rank 80 on node jrc0444 sees devices: 0,1,2,3
+rank 80 running from 128 processes!
+GPU on task 80 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 80 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 80 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 80 with id 3: NVIDIA A100-SXM4-40GB
+rank 104 on node jrc0444 sees devices: 0,1,2,3
+rank 104 running from 128 processes!
+GPU on task 104 with id 0: NVIDIA A100-SXM4-40GB
+GPU on task 104 with id 1: NVIDIA A100-SXM4-40GB
+GPU on task 104 with id 2: NVIDIA A100-SXM4-40GB
+GPU on task 104 with id 3: NVIDIA A100-SXM4-40GB

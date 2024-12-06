@@ -1,0 +1,6 @@
+*~
+__pycache__
+tests/.ipynb_checkpoints
+examples/jube-parse.log
+*.egg-info
+
