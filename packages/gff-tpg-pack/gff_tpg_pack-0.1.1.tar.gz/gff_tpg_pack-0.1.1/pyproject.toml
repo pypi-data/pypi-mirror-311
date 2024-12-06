@@ -1,0 +1,33 @@
+[project]
+name = "gff-tpg-pack"
+version = "0.1.1"
+
+authors = [
+  {name = "Thomas Gagnieu", email = "thomas.gagnieu@etu.univ-lyon1.fr"},
+  {name = "Paul Gilbert", email = "paul.gilbert@etu.univ-lyon1.fr"},
+]
+
+maintainers = [
+  {name = "Thomas Gagnieu", email = "thomas.gagnieu@etu.univ-lyon1.fr"},
+  {name = "Paul Gilbert", email = "paul.gilbert@etu.univ-lyon1.fr"},
+]
+
+description = "Analyses des données d'annotation GFF"
+
+keywords = ["annotation", "gene", "exon", "transcript", "parser", "gff"]
+
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.9.2",
+]
+
+[project.urls]
+repo_git = "http://pedago-service.univ-lyon1.fr:2325/tgagnieu/xomics/-/tree/publish?ref_type=heads"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+annotation = "gff_tpg_pack:main"
