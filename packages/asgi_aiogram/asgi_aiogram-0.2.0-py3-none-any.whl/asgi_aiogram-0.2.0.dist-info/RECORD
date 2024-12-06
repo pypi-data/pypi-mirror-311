@@ -1,0 +1,16 @@
+asgi_aiogram/__init__.py,sha256=NgkA-Q1WbSvQJI3FyDFAtQqwfdtmGvbGrtQNj8acFX4,81
+asgi_aiogram/aliases.py,sha256=0zE857C_mJgH67l-Un-EvacA0VPRsP2bwS65gipPUN8,248
+asgi_aiogram/asgi.py,sha256=P3LtGK-loKLDl3gYDr270DgRSgEEzGu6DQAxnAsi5JA,304
+asgi_aiogram/exceptions.py,sha256=5t-84J4de1ktpamaXtvD8itdF-jmmPql-yZc9h28m0Y,329
+asgi_aiogram/main.py,sha256=CqqhZuganUMGJkktoiCXxKkU58LlJI5yjexZHvZrw1o,5003
+asgi_aiogram/multi_main.py,sha256=hTyUWnQOHnsfYlAOB432bPvwoln36x2lrJj39ZLKnTU,5827
+asgi_aiogram/path_normalization.py,sha256=TU7aI3MS3ScUj1yAXydpKotC8cTjAtAGMEcTag7N7Ro,653
+asgi_aiogram/responses.py,sha256=eOslBQ9J2tYfYil8pJ500c7mbMpHM1iupAQCYxqIYtI,993
+asgi_aiogram/strategy/__init__.py,sha256=OcdtQCxX0Odhb58dlq1hDZkZvIo-pIV8FHtuR7ligVE,113
+asgi_aiogram/strategy/base.py,sha256=RaSqM62-STyVD5GbwYuKYOMTr-azuWmmVrqLF8IGm78,586
+asgi_aiogram/strategy/single.py,sha256=q6Vz__s8qdQl0GA_4HkKVJYMK3ZzTL8gFlKy-ZF8W3I,702
+asgi_aiogram/strategy/token_based.py,sha256=dIfy2Jk-f1srhl5ataJ6k13q4iAjZ1WSAPPK3AcWTGI,1245
+asgi_aiogram/types.py,sha256=mp3J07TWNuC92tngpqItQ_biLf0JfsFhwutIOmWC10Y,802
+asgi_aiogram-0.2.0.dist-info/METADATA,sha256=ytuFkhbyGjrfaP_xCQNmkRtrnV_CDbKO017bHDxLGRM,1197
+asgi_aiogram-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+asgi_aiogram-0.2.0.dist-info/RECORD,,
