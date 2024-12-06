@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+plotassist/__init__.py
+plotassist/matdata.py
+plotassist/plotting.py
+plotassist.egg-info/PKG-INFO
+plotassist.egg-info/SOURCES.txt
+plotassist.egg-info/dependency_links.txt
+plotassist.egg-info/requires.txt
+plotassist.egg-info/top_level.txt
