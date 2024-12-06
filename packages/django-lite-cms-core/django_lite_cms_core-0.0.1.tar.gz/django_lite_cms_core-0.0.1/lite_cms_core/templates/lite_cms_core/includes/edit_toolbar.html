@@ -1,0 +1,17 @@
+{% load i18n bootstrap_icons %}
+<div id="editable-toolbar" method="POST" action="/admin/logout/">
+    <form class="success" id="logout-form" action="{% url 'frontend_auth:logout' %}" method="post">
+        {% csrf_token %}
+        <a class="admin-link" href="#" onclick="document.getElementById('logout-form').submit();">
+            {% trans 'Log out' %}
+        </a>
+        <a class="admin-link" href="/admin/">{% trans 'Admin' %}</a>
+        {% if admin_edit_link %}
+            <a class="admin-link" href="{{ admin_edit_link }}" >
+                {% trans 'Edit in Admin' %}
+            </a>
+        {% endif %}
+        <span class="show-toolbar admin-link-icon" style="display: none;">{% bs_icon 'chevron-right' %}</span>
+        <span class="hide-toolbar admin-link-icon">{% bs_icon 'chevron-left' %}</span>
+    </form>
+</div>
