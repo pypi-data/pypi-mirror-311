@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="expression" placeholder="expression">
+        <input type="number" name="result" id="" placeholder="result">
+        <button type="submit">Submit</button>
+    </form>
+    {% for equation in equations %}
+        <p>{{equation.expression}}</p>
+        <p>{{equation.result}}</p>
+    {% endfor %}
+</body>
+</html>
