@@ -1,0 +1,9 @@
+stl_reader-0.2.2.dist-info/RECORD,,
+stl_reader-0.2.2.dist-info/WHEEL,sha256=bS2kxwU1pioFffhNQmlfvjD0H1flBf5ZtxV4jDj8Nvc,114
+stl_reader-0.2.2.dist-info/METADATA,sha256=1HC4zD_bnwIFxNgButZrGkW2l1t37JCGov7E5T6tVFk,7032
+stl_reader-0.2.2.dist-info/licenses/LICENSE,sha256=znkQGq3HlAxIZfRyFQZHUs717F5I6iNXb9oCsZDh5A4,1088
+stl_reader/stl_reader.pyi,sha256=9FzAcNlHu3m41dBTB4NvOpU8_nGjDi64eFtmobLuyy8,168
+stl_reader/stl_reader.abi3.so,sha256=g0N13WC2F9DY9evpCfoCCeVOWxAvOkh-ATz-baI4ADc,110992
+stl_reader/__init__.py,sha256=IpUcRfLYz_svH68RKPRJqzPZfn0OkKGCZ-wT3eSk9ZY,293
+stl_reader/reader.py,sha256=peprfmqw8TkBMtpt_BamsChoXZhNzC6udPy2blzKuVU,4271
+stl_reader/py.typed,sha256=mDShSrm8qg9qjacQc2F-rI8ATllqP6EdgHuEYxuCXZ0,7
