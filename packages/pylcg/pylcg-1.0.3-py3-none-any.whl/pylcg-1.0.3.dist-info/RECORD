@@ -1,0 +1,10 @@
+pylcg/__init__.py,sha256=El52YfOuYOgaLk4A2F74JtyDY7F4MjiB3uK2xr6ngXI,309
+pylcg/cli.py,sha256=vxGyg5t9BLeO2YpEeLFEQ8vTs27if55Bt4Ozs-DKHeY,1412
+pylcg/core.py,sha256=1GJtJS-rsQGRXrq26y6qdxoWdY94RgqDNx170Fi3mcM,2599
+pylcg/state.py,sha256=ylHUY_niN8nglpP8iAwX4aTNoLCRTTxvTWDrPzibNMg,712
+pylcg-1.0.3.dist-info/LICENSE,sha256=i1l_jK9Ogl0Hl2RjCKrgzq8EBl3gDHmbJKkJg5SIuag,765
+pylcg-1.0.3.dist-info/METADATA,sha256=NO9UbT99XwpYAURCzwmsfJirjRa1xUWe9kAAthclFIs,8603
+pylcg-1.0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pylcg-1.0.3.dist-info/entry_points.txt,sha256=NF-BqM85k5M5CRzlPvoBMXlnbspZ_4ni3RDf8aeJse4,41
+pylcg-1.0.3.dist-info/top_level.txt,sha256=mtE3qR2ATpswBW-qPGPaRzi8cYG3haUlZRUPd8Egf7w,6
+pylcg-1.0.3.dist-info/RECORD,,
