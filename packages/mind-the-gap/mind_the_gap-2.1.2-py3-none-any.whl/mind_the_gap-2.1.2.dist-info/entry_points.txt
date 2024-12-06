@@ -1,0 +1,3 @@
+[console_scripts]
+tfl=tfl.__main__:app
+
