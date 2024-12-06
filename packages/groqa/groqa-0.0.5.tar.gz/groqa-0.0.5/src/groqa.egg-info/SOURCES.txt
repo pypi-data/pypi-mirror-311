@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/groqa/__init__.py
+src/groqa/groqa.py
+src/groqa.egg-info/PKG-INFO
+src/groqa.egg-info/SOURCES.txt
+src/groqa.egg-info/dependency_links.txt
+src/groqa.egg-info/requires.txt
+src/groqa.egg-info/top_level.txt
