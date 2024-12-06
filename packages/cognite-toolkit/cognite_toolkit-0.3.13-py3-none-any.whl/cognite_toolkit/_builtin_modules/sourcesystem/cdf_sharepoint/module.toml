@@ -1,0 +1,32 @@
+[module]
+title = "Sharepoint Files"
+
+[packages]
+tags = [
+    "sourcesystem",
+    "quickstart",
+]
+
+[[data]]
+repoType = "GitHub"
+repo = "cognitedata/toolkit-data"
+source = "data/publicdata/files/*.pdf"
+destination = "files/"
+
+[[data]]
+repoType = "GitHub"
+repo = "cognitedata/toolkit-data"
+source = "data/publicdata/valhall_file_metadata.csv"
+destination = "raw/files.Table.csv"
+
+[[extra_resources]]
+location = "cdf_common/data_sets/demo.DataSet.yaml"
+
+[[extra_resources]]
+location = "cdf_common/data_models/demo.Space.yaml"
+
+[[extra_resources]]
+location = "cdf_common/raw/source.DataBase.yaml"
+
+[[extra_resources]]
+location = "models/cdf_process_industry_extension/data_models"
