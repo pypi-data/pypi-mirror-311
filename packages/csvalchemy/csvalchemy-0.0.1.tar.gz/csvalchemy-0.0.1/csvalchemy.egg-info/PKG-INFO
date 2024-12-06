@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: csvalchemy
+Version: 0.0.1
+Summary: CSV ORM that validates data using Pydantic
+Home-page: https://github.com/eddiethedean/csvalchemy
+Author: Odos Matthews
+Author-email: odosmatthews@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: dydactic
+
+A Python package for reading and writing csv files using Pydantic models.
