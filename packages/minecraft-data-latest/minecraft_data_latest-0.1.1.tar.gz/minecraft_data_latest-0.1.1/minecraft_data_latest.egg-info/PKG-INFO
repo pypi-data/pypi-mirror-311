@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: minecraft-data-latest
+Version: 0.1.1
+Summary: Provide easy access to minecraft data in python
+Home-page: https://github.com/MestreLion/python-minecraft-data-latest
+Maintainer: Rodrigo Silva (MestreLion)
+Maintainer-email: minecraft@rodrigosilva.com
+License: MIT
+Keywords: minecraft
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+python-minecraft-data-latest
+============================
+
+|pypi|_
+
+Provide easy access to `minecraft-data <https://github.com/PrismarineJS/minecraft-data>`__ in python
+
+Installation
+------------
+From PyPi:
+
+``pip3 install minecraft-data-latest``
+
+From Repo:
+
+``pip3 install git+https://github.com/MestreLion/python-minecraft-data-latest``
+
+Usage
+-----
+
+See the `example.py <example.py>`__
+
+
+Documentation
+-------------
+
+- See `doc/api.md <doc/api.md>`__
+- See `doc/history.md <doc/history.md>`__
+
+
+.. |pypi| image:: https://img.shields.io/pypi/v/minecraft-data-latest.svg
+.. _pypi: https://pypi.python.org/pypi/minecraft-data-latest
