@@ -1,0 +1,13 @@
+rumorz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rumorz/client.py,sha256=WgkihWUnxpKEETdPJNTki5x4IZ-L7nY34KjexfA_36c,3768
+rumorz/copilot.py,sha256=4nXYERpDgtOe2ZhvVtjBTTZVWAPhit05fd87D27XORI,3460
+rumorz/enums.py,sha256=hKSJcrjdPsX1y0IrJosFHyKf_YJnkRY36k0XKrctkKw,708
+rumorz/streamlit_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rumorz/streamlit_app/app.py,sha256=1mqtfvZ67hCPx_7-cSrmi5crzGITs47QUG2p1hhWpWk,3971
+rumorz/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rumorz/tests/test_sdk.py,sha256=ackFQICQ8i58p_ALKwZlEcSqvffVjAFVy4AskPn-DXk,2290
+rumorz-0.1.10.dist-info/LICENSE,sha256=0tToINf6JQ23rMAB39lktX1S4B_cUcoSHYlKAyE6I7E,1066
+rumorz-0.1.10.dist-info/METADATA,sha256=eJ26Rr8GmsZP-3jEkb6Wb7lQuv5Lkhr-SRmLzyOfMoE,4238
+rumorz-0.1.10.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+rumorz-0.1.10.dist-info/top_level.txt,sha256=1tpYPC5APTQ269tcQuJUitXFaWCxxzQqWigF4Iv_vVM,7
+rumorz-0.1.10.dist-info/RECORD,,
