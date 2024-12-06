@@ -1,0 +1,10 @@
+[project]
+name = "pkgman"
+
+authors = [
+    {name = "Rongxin", email = "rongxin@u.nus.edu"},
+]
+
+version = "0.0.0"
+
+description = "Coming soon"
