@@ -1,0 +1,16 @@
+tool_inventory/__init__.py,sha256=KRYNK_PIT4xkao74uoOP0JP-jXERhM6zmwnYAC-ISiI,144
+tool_inventory/connections.py,sha256=Vnl7XxH_RdfxWMYpkhGLqL50M_LRx8kyBVJF-J5ic8M,3347
+tool_inventory/main.py,sha256=ok3r3PWXge3epgPkow4wSN19zNYsGoji1wkId9YP_RU,1818
+tool_inventory/models.py,sha256=jpsRRpQKfnpCrkw_0TSgeqNdEmJl5gpJUth3Q1XHAy0,1631
+tool_inventory/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tool_inventory/routers/__init__.py,sha256=0OIxHA4Ix0dMV_u-MCkeQ8Xv19h4ubJ-bpqmL4IAuWo,15
+tool_inventory/routers/tools.py,sha256=lyWikyW7HAnBkfo6PhA-rWzGkEhunradjAzGRYJX8wc,1534
+tool_inventory/routers/webapp.py,sha256=ZDtih6G7OQiQF26X5qymkSmlZ8JnwTmh1ikdXLzAgYo,3365
+tool_inventory/static/styles.css,sha256=hwR3336KMj9UIKor_luia8Vl-8EJCNxPYri6rqzil3Q,283
+tool_inventory/templates/base.html,sha256=iasXQ4gTDhvCtQo4cufzo_rTXosc0zXaNUoHTvIeKtc,991
+tool_inventory/templates/index.html,sha256=xIelVl5x87S7f5KfvvJlu5iNswU-HxIrRJRcTcUNNjI,1512
+tool_inventory/templates/tool_form.html,sha256=SFTTD6zON9iEdR4f5Dgs6N2tZRWpVhdtm_hZSVYyolg,1271
+tool_inventory-0.3.0.dist-info/LICENSE,sha256=1PYXP8BCQ2QWa8Na_fNP_oMkh1IvUSNzpsLP79R-7Bo,1071
+tool_inventory-0.3.0.dist-info/METADATA,sha256=raVckRTHm7YWeX2WIpgsMrdL2M_OlstOp3D_VvdS1aE,6757
+tool_inventory-0.3.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tool_inventory-0.3.0.dist-info/RECORD,,
