@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+src/__init__.py
+src/image2worldlib.py
+src/interface.py
+src/validate.py
+src/image2world.egg-info/PKG-INFO
+src/image2world.egg-info/SOURCES.txt
+src/image2world.egg-info/dependency_links.txt
+src/image2world.egg-info/requires.txt
+src/image2world.egg-info/top_level.txt
