@@ -1,0 +1,8 @@
+README.md
+setup.py
+simath/__init__.py
+simath/methods.py
+simath.egg-info/PKG-INFO
+simath.egg-info/SOURCES.txt
+simath.egg-info/dependency_links.txt
+simath.egg-info/top_level.txt
