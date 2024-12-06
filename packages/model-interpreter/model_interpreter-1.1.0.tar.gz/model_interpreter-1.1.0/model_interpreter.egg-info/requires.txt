@@ -1,0 +1,16 @@
+numpy
+shap
+numba>=0.54
+
+[dev]
+xgboost-cpu
+pytest
+pytest-mock
+pytest-cov
+pytest-benchmark
+hypothesis
+mypy
+ruff
+pre-commit
+scikit-learn
+pandas
