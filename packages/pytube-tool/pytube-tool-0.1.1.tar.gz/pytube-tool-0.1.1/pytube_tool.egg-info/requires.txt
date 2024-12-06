@@ -1,0 +1,5 @@
+inquirer
+moviepy
+python-dotenv
+setuptools
+yt_dlp
