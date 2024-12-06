@@ -1,0 +1,58 @@
+stages:
+  - unittest
+  - linting
+  - deploy
+
+.unittest_template: &unittest_template
+  stage: unittest
+  before_script:
+    - git submodule sync
+    - git config submodule.tests/data.url https://gitlab-ci-token:${CI_JOB_TOKEN}@git.astron.nl/RD/trap_test_data.git
+    - git submodule update --init --recursive
+    - pip install --upgrade pip
+    - pip install -e ./[test]
+  script:
+    - python -m pytest --cov --verbose --durations=10 tests
+  artifacts:
+    paths:
+      - .coverage
+    expire_in: 1 week
+
+unittest_python3_10:
+  <<: *unittest_template
+  image: python:3.10
+
+unittest_python3_11:
+  <<: *unittest_template
+  image: python:3.11
+
+black:
+  stage: linting
+  image: python:3.11
+  before_script:
+    - pip install --upgrade pip
+    - pip install black
+  script:
+    - black --check trap tests
+
+isort:
+  stage: linting
+  image: python:3.11
+  before_script:
+    - pip install --upgrade pip
+    - pip install isort
+  script:
+    - isort --check-only trap tests
+
+deploy:
+  stage: deploy
+  image: python:3.11
+  before_script:
+    - pip install --upgrade pip
+    - pip install -e ./[build]
+  script:
+    - python3 -m build
+    - twine upload --verbose --username __token__ --password $PyPI_DEPLOY_TOKEN dist/*
+  only:
+    - tags
+  when: on_success

@@ -1,0 +1,45 @@
+[project]
+name = "trap"
+dynamic = ["version"]
+description = """The Transients Pipeline (or 'TraP') is a Python based system for detecting and responding to transient and variable sources in a stream of astronomical images."""
+dependencies = ["radio-pyse>=0.3.2", "numpy", "pandas"]
+authors = [{ name = "Timo Millenaar", email = "millenaar@astron.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["trap", "transients", "astronomy", "tkp"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://git.astron.nl/RD/trap"
+repository = "https://git.astron.nl/RD/trap"
+
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "trap/_version.py"
+
+[project.optional-dependencies]
+doc = ["sphinx", "sphinx_rtd_theme", "sphinx-gallery"]
+test = ["pytest", "pytest-cov", "pre-commit", "black", "isort"]
+build = ["build", "setuptools-scm", "twine"]
+view = ["matplotlib", "pygfx", "glfw"]
+
+[tool.setuptools]
+packages = ["trap"]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+known_first_party = ["trap"]
