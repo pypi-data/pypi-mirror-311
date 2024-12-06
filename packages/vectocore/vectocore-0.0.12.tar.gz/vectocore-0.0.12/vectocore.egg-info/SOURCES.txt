@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+vectocore.py
+vectocore.egg-info/PKG-INFO
+vectocore.egg-info/SOURCES.txt
+vectocore.egg-info/dependency_links.txt
+vectocore.egg-info/not-zip-safe
+vectocore.egg-info/requires.txt
+vectocore.egg-info/top_level.txt
