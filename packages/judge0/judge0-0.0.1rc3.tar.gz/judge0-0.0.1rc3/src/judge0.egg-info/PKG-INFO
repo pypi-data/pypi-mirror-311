@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: judge0
+Version: 0.0.1rc3
+Summary: The official Python library for Judge0.
+Author-email: Judge0 <support@judge0.com>
+Project-URL: Homepage, https://github.com/judge0/judge0-python
+Project-URL: Repository, https://github.com/judge0/judge0-python.git
+Project-URL: Issues, https://github.com/judge0/judge0-python/issues
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.32.3
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: mkdocs; extra == "test"
+
+# Judge0 Python SDK
+
+The official Python library for Judge0.
