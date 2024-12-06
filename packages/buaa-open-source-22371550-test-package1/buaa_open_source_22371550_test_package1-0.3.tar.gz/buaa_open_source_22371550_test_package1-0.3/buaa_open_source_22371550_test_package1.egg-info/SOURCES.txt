@@ -1,0 +1,9 @@
+README.md
+setup.py
+buaa_open_source_22371550_test_package1/__init__.py
+buaa_open_source_22371550_test_package1/scraper.py
+buaa_open_source_22371550_test_package1.egg-info/PKG-INFO
+buaa_open_source_22371550_test_package1.egg-info/SOURCES.txt
+buaa_open_source_22371550_test_package1.egg-info/dependency_links.txt
+buaa_open_source_22371550_test_package1.egg-info/requires.txt
+buaa_open_source_22371550_test_package1.egg-info/top_level.txt
