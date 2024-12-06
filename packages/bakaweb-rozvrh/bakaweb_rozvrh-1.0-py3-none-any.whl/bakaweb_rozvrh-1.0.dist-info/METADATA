@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: bakaweb-rozvrh
+Version: 1.0
+Summary: Nástroj pro extrahování rozvrhu z Timetable modulu Bakawebu
+Home-page: https://github.com/MortikCZ/Bakaweb-Rozvrh
+Author: Lukáš S.
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MortikCZ/Bakaweb-Timetable/issues
+Project-URL: Documentation, https://github.com/MortikCZ/Bakaweb-Timetable#readme
+Project-URL: Source Code, https://github.com/MortikCZ/Bakaweb-Timetable
+Keywords: bakaweb timetable rozvrh extractor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Czech
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.0
+Requires-Dist: beautifulsoup4>=4.6
+
+<div align="center">
+
+  <h1>Bakaweb Rozvrh</h1>
+
+  ![GitHub License](https://img.shields.io/github/license/MortikCZ/bakaweb-rozvrh)
+  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MortikCZ/Bakaweb-Rozvrh)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/MortikCZ/Bakaweb-Rozvrh)
+
+  <p>Jednoduchý nástroj pro extrakci rozvrhu z modulu Timetable Bakawebu. Data jsou získavána v HTML formátu a následně zpracována do JSON formátu.</p>
+
+</div>
+
+<h2 align = "center">Instalace</h2>
+
+Tento nástroj je dostupný jako [PyPi balíček](https://pypi.org/project/bakaweb-rozvrh/). Pro instalaci je zapotřebí použít následující příkaz:
+```bash
+pip install bakawebrozvrh
+```
+
+<h2 align = "center">Použití</h2>
+
+Funkce `get_timetable` má dva povinné parametry:
+- `url` - URL adresa rozvrhu
+- `output_file` - název souboru, do kterého se uloží rozvrh.
+
+Vrací rozvrh ve formátu JSON.
+
+Funkce `get_substitutions` má dva povinné parametry:
+- `url` - URL adresa rozvrhu
+- `output_file` - název souboru, do kterého se uloží změny.
+
+Vrací změny v rozvrhu ve formátu JSON.
+
+### Příklad použití
+```python
+import bakawebrozvrh
+
+url = "https://bakalari.skola.cz/bakaweb/Timetable/Public/Permanent/Class/4U"
+output_file = "timetable.json"
+bakawebrozvrh.get_timetable(url, output_file)
+```
+
+
+
+
+
+
+
