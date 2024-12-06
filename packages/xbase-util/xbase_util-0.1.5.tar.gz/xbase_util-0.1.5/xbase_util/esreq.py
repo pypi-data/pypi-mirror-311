@@ -1,0 +1,26 @@
+import requests
+
+
+class EsReq:
+    def __init__(self, url,timeout=120):
+        self.es_url = url
+        self.timeout = timeout
+        print("初始化自定义es请求类")
+
+    def clear_all_scroll(self):
+        return requests.delete(self.es_url + "/_search/scroll", timeout=self.timeout, json={'scroll_id': '_all'})
+
+    def search(self, body, scroll):
+        requests.post(self.es_url + "/_search/scroll", data=body, timeout=self.timeout, json={'scroll_id': scroll})
+
+    def start_scroll(self, exp, scroll):
+        return requests.post(self.es_url + "/_search/scroll", timeout=self.timeout,
+                             json=exp)
+
+    def scroll_by_id(self, scroll_id, scroll):
+        return requests.post(self.es_url + "/_search/scroll", timeout=self.timeout,
+                             json={'scroll_id': scroll_id, 'scroll': scroll})
+
+    def search_file(self, id):
+        return requests.get(f"{self.es_url}/arkime_files_v30/_search", timeout=self.timeout,
+                            json={"query": {"term": {"_id": id}}})
