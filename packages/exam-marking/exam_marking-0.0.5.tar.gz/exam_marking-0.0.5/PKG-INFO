@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: exam-marking
+Version: 0.0.5
+Summary: A tool to ease UNSW exam marking (COMP6841 in particular).
+Requires-Python: >=3.10
+Requires-Dist: click>=8.1.7
+Requires-Dist: flask>=3.1.0
+Description-Content-Type: text/markdown
+
+# exam-marking, a tool to make it easy to mark exam questions.
