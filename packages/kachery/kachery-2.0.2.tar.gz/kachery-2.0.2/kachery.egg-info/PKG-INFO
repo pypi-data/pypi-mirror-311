@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kachery
+Version: 2.0.2
+Home-page: https://github.com/magland/kachery
+Author: Jeremy Magland, Luiz Tauffer, Alessio Buccino, Ben Dichter
+Author-email: jmagland@flatironinstitute.org
+Requires-Dist: click
+Requires-Dist: simplejson
+Requires-Dist: numpy
+Requires-Dist: requests
