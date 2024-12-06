@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/vixc.py
+src/vixc.egg-info/PKG-INFO
+src/vixc.egg-info/SOURCES.txt
+src/vixc.egg-info/dependency_links.txt
+src/vixc.egg-info/entry_points.txt
+src/vixc.egg-info/requires.txt
+src/vixc.egg-info/top_level.txt

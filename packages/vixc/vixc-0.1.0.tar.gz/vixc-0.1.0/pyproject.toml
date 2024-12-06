@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vixc"
+version = "0.1.0"
+authors = [
+  { name="Tom Ryder", email="tom@sanctum.geek.nz" },
+]
+description = "Edit the X clipboard with an external text editor"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: POSIX",
+    "Environment :: X11 Applications",
+    "Topic :: Terminals :: Terminal Emulators/X Terminals",
+    "Topic :: Text Editors",
+    "Topic :: Utilities",
+]
+dependencies = [
+    'pyperclip',
+]
+
+[project.scripts]
+vixc = "vixc:main"
+
+[project.urls]
+"Homepage" = "https://sanctum.geek.nz/"
+"Source" = "https://dev.sanctum.geek.nz/cgit/vixc.git/"

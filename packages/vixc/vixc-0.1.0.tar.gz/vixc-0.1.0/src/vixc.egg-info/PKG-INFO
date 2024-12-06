@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vixc
+Version: 0.1.0
+Summary: Edit the X clipboard with an external text editor
+Author-email: Tom Ryder <tom@sanctum.geek.nz>
+Project-URL: Homepage, https://sanctum.geek.nz/
+Project-URL: Source, https://dev.sanctum.geek.nz/cgit/vixc.git/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Environment :: X11 Applications
+Classifier: Topic :: Terminals :: Terminal Emulators/X Terminals
+Classifier: Topic :: Text Editors
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyperclip
+
+vixc
+====
+
+Allow editing the X11 CLIPBOARD with terminal editor in $VISUAL.  Save the
+contents of the clipboard to a temporary file, edit that file with the user's
+choice of editor, and when the editor exits, read the (presumably modified)
+text back from the file, and put it into the clipboard.
