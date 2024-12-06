@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pycasty
+Version: 0.1.2
+Summary: Raycasting Engine using python
+Home-page: UNKNOWN
+Author: tempewda
+Author-email: tempewda@gmail.com
+License: UNKNOWN
+Keywords: python,raycast,raycaster,pixelated,doom style,wolfenstein style
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+
+A package that allows to render a 2D array map into a 3D explorable map, with the help of raycasting technique
+
