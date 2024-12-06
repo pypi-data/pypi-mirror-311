@@ -1,0 +1,3 @@
+include boltzGUI/*.pl
+include License.txt
+include README.md

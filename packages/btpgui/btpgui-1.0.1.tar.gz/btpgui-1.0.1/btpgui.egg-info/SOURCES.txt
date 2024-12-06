@@ -1,0 +1,15 @@
+License.txt
+MANIFEST.in
+README.md
+setup.py
+boltzGUI/__init__.py
+boltzGUI/boltzgui.py
+boltzGUI/gather_energys.pl
+boltzGUI/main.py
+boltzGUI/version.py
+btpgui.egg-info/PKG-INFO
+btpgui.egg-info/SOURCES.txt
+btpgui.egg-info/dependency_links.txt
+btpgui.egg-info/entry_points.txt
+btpgui.egg-info/requires.txt
+btpgui.egg-info/top_level.txt
