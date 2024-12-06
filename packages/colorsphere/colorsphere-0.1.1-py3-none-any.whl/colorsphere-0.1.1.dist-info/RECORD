@@ -1,0 +1,11 @@
+colorsphere/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorsphere/__main__.py,sha256=H6YJETvOI_W0tralQuvUFnf8k9-7fOMox2EDgDJdX-A,153
+colorsphere/colorsphere.py,sha256=QIu_F_hv-aeWCgBkhWherTIi52QSDY4xSfHe7D7OFaU,16234
+colorsphere/colorwidgets.py,sha256=RCoBQ_gn979yqiilwx8MpohuYvz8yntgyPWBd7Q-_ig,13051
+colorsphere/launcher.py,sha256=rY73379m6KdNl2q6wwhDCMJmxP1UpsXEU9_lOrTvwAs,1171
+colorsphere/windowmgr.py,sha256=1z0nYPUueaGS3CsX7QCvYsoXQCxdw5tSiWISQLsp1RU,6452
+colorsphere-0.1.1.dist-info/LICENSE,sha256=dk1Z1_vG8bI7KNfZuBNvbNn5zfKVl3ZYL5jrLcuZAQ0,1074
+colorsphere-0.1.1.dist-info/METADATA,sha256=ny9MdUCkgbSHMXEE8--eENPWjNw7rX-FT95fmLryrQY,2050
+colorsphere-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+colorsphere-0.1.1.dist-info/top_level.txt,sha256=vuZLiHt6EHb6TGQmBhWPbF1U_w-D2N7jJY0YjbRgT_8,12
+colorsphere-0.1.1.dist-info/RECORD,,
