@@ -1,0 +1,12 @@
+mensajes/__init__.py,sha256=-8H5W0Sre1mNWvNSdpdOYRdi5LSaVou3nOvKVscdAa8,37
+mensajes/adios/__init__.py,sha256=Vx5y-gnL_hUYdZJIb8pQLt6byGFyO6KjJms4xK9QLOQ,46
+mensajes/adios/despedidas.py,sha256=uskJwk7k-xBq_EwelGs7EKa9Hfvi6uAssxpbFkbJriw,667
+mensajes/hola/__init__.py,sha256=3XQIgStjjAkG5Gcap8VHMbJADF5ElVCicEE73WIHsr8,45
+mensajes/hola/saludos.py,sha256=zAeQOKgUB4eeCfpvmNXk5DtjjQe4m73cK7-MyCOebM4,885
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=8nJtKoMG9Vbtc4KNR_Ph6HzOdaRQaI6CKXl2T6FYK3k,297
+Mensajes_Luis_David-6.0.dist-info/LICENSE,sha256=VKJqKQMzQ8hWIJ6sZRBG-oCTMt1yQ3G51m513huBTKI,1108
+Mensajes_Luis_David-6.0.dist-info/METADATA,sha256=Ur-_aV-ttv041WguK6KSec2qrq-UL5NsGQAOl_-Z7II,867
+Mensajes_Luis_David-6.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+Mensajes_Luis_David-6.0.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+Mensajes_Luis_David-6.0.dist-info/RECORD,,
