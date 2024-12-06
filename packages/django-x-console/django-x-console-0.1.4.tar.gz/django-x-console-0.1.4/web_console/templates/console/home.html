@@ -1,0 +1,69 @@
+{% extends 'console/frame_base.html' %}
+{% load static %}
+
+{% block title %}<title>Home</title>{% endblock %}
+
+
+{% block body %}
+    <div class="soc-container">
+        <div class="layui-row layui-col-space10">
+            <div class="layui-col-md3">
+                <div class="layui-panel">
+                    <div style="padding: 32px;">面板任意内容</div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="layui-panel">
+                    <div style="padding: 32px;">面板任意内容</div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="layui-panel">
+                    <div style="padding: 32px;">面板任意内容</div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="layui-panel">
+                    <div style="padding: 32px;">面板任意内容</div>
+                </div>
+            </div>
+
+            <div class="layui-col-md12">
+                <div class="layui-card">
+                    <div class="layui-card-header">扫描器状态</div>
+                    <div class="layui-card-body">
+                        <table id="scanner_status" lay-filter="scanner_status"></table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block script %}
+    <script>
+        layui.table.render({
+            elem: '#scanner_status',
+            url: '/api/v1/scanners_list/',
+            size: 'lg',
+            cols: [[
+                {field: 'worker_name', title: '扫描器ID'},
+                {field: 'worker_type', title: '扫描工具类型', width: 120},
+                {field: 'os_platform', title: '系统信息', width: 260},
+                {field: 'cpu_count', title: 'CPU核数', align: 'center', width: 90},
+                {field: 'cpu_percent', title: 'CPU占用', align: 'center', width: 90},
+                {field: 'mem_total', title: '内存总数', align: 'center', width: 90},
+                {field: 'mem_percent', title: '内存占用', align: 'center', width: 90},
+                {field: 'up_time', title: '上线时间', align: 'center', width: 120},
+                {field: 'processed_count', title: '已处理任务数', align: 'center', width: 120},
+                {field: 'queue_length', title: '待处理任务数', align: 'center', width: 120},
+                {
+                    field: 'status', title: '状态', align: 'center', width: 90,
+                    templet: () => `<i class="layui-icon layui-icon-ok-circle" style="color: #16baaa"></i>`,
+                },
+            ]]
+        })
+    </script>
+{% endblock %}

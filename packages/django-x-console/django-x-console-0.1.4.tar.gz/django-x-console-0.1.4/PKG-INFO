@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-x-console
+Version: 0.1.4
+Summary: A simple web console based on Django.
+Author: yuhua.yang
+Author-email: 13yhyang1@gmail.com
+License: GNU
+Project-URL: Source, https://github.com/ananan/django_web_console.git
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=4.2
+
+A Simple Django Web FE Application

@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="{% static 'console/layui/css/layui.css' %}">
+    <link rel="stylesheet" href="{% static 'console/css/miniAdmin.css' %}?ver={{ site_version }}">
+    <link rel="stylesheet" href="{% static 'console/css/console.css' %}?ver={{ site_version }}">
+    {% block style %} {% endblock %}
+
+    {% block title %}
+        <title>SOC</title>
+    {% endblock %}
+</head>
+<body>
+{% block body %}{% endblock %}
+
+<script src="{% static 'console/layui/layui.js' %}"></script>
+<script src="{% static 'console/js/console.js' %}?ver={{ site_version }}"></script>
+<script>
+    layui.use(['miniAdmin',], function () {
+        layui.miniAdmin.miniTab.listen()
+    })
+    $.ajaxSetup({
+        headers: {"X-CSRFToken": '{{ csrf_token }}'},
+    });
+</script>
+
+{% block script %}{% endblock %}
+</body>
+</html>

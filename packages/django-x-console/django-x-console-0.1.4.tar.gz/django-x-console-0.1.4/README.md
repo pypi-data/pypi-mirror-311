@@ -1,0 +1,1 @@
+A Simple Django Web FE Application

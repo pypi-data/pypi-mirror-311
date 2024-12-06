@@ -1,0 +1,13 @@
+.soc-container {
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.more-filter {
+    display: none;
+}
+
+.form-btn-right {
+    text-align: right;
+}
