@@ -1,0 +1,26 @@
+[build-system]
+requires = ["maturin>=1.7,<1.8"]
+build-backend = "maturin"
+
+[project]
+name = "zhconv-rs-opencc"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: Chinese (Traditional)",
+    "Natural Language :: Chinese (Simplified)",
+]
+
+[project.urls]
+# Homepage = "https://github.com/Gowee/zhconv-rs"
+Source = "https://github.com/Gowee/zhconv-rs/tree/main/pyo3"
+
+[tool]
+
+[tool.maturin]
+manifest-path = "pyo3/Cargo.toml"
+# Tracker = "https://github.com/Gowee/zhconv-rs/issues"
