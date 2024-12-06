@@ -1,0 +1,2 @@
+[console_scripts]
+pyserver = pyserver_http.__main__:main
