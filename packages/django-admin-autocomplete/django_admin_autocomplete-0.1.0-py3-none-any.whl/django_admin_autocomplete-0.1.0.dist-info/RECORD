@@ -1,0 +1,11 @@
+admin_autocomplete/__init__.py,sha256=Zx57CpuC2kv_EcI3Wg3SryaO-dqk3gUlQYT3CKYKSYw,71
+admin_autocomplete/admin.py,sha256=vSSpOLnEj43qSPa_983kgmP3fLJ5dRVw_wqsR30I-Po,1991
+admin_autocomplete/apps.py,sha256=T8OKsnLLeu3jeNTliCGIEGMgHWsk47kANcYo8ajRuuE,238
+admin_autocomplete/static/admin_autocomplete/css/autocomplete.css,sha256=SyfNCFmMzNjAdDs3tfoVApkGrfMUKhS9mdTVhDH_Dq0,511
+admin_autocomplete/static/admin_autocomplete/js/autocomplete.js,sha256=Jw1fpFH-7Km6756JyycW3kKvL7zPqx8lWY8ok0Lyzco,3660
+admin_autocomplete/tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+admin_autocomplete/tests/test_e2e.py,sha256=3MEUO6PjySD-bPVFnKb95Hh2XvcdBgVQW_LCAk3xAT8,8332
+django_admin_autocomplete-0.1.0.dist-info/LICENSE,sha256=gG88wkNVSJrOi7zWQn8Z3xWT9GN8QFBngJHikWpIMT4,1066
+django_admin_autocomplete-0.1.0.dist-info/METADATA,sha256=PEFiEv8DV_3h2_xLT4z4Y4kurkc0UHRPEz0j6ziGVkA,4046
+django_admin_autocomplete-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+django_admin_autocomplete-0.1.0.dist-info/RECORD,,
