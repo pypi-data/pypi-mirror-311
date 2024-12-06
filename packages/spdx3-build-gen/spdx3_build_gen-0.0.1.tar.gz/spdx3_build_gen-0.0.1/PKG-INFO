@@ -1,0 +1,56 @@
+Metadata-Version: 2.3
+Name: spdx3-build-gen
+Version: 0.0.1
+Summary: Creates SPDX 3 build SBoMs from a source list
+Project-URL: Homepage, https://github.com/JPEWdev/spdx3-build-gen
+Project-URL: Repository, https://github.com/JPEWdev/spdx3-build-gen.git
+Project-URL: Issues, https://github.com/JPEWdev/spdx3-build-gen/issues
+Author-email: Joshua Watt <JPEWhacker@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: flake8>=7.0.0; extra == 'dev'
+Requires-Dist: pytest-cov>=4.1; extra == 'dev'
+Requires-Dist: pytest>=7.4; extra == 'dev'
+Requires-Dist: shacl2code>=0.0.15; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# spdx3-build-gen
+A command line tool for generating SPDX 3 build SBoMs from lists of input and
+output files
+
+## Installation
+
+`spdx3-build-gen` can be installed using `pip`:
+
+```shell
+python3 -m pip install spdx3-build-gen
+```
+
+## Usage
+
+## Development
+
+Development on `spdx3-build-gen` can be done by setting up a virtual
+environment and installing it in editable mode:
+
+```shell
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -e .[dev]
+```
+
+Tests can be run using pytest:
+
+```shell
+pytest -v
+```
