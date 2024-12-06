@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ssh-bearacer
+Version: 1.0.0
+Summary: A library for managing SSH connections and deployments.
+Home-page: https://github.com/olololoe110399/ssh-deployer
+Author: Duy Nguyen Ngoc
+Author-email: duynn100198@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: paramiko
+Requires-Dist: sshtunnel
+
+# ssh_deployer
