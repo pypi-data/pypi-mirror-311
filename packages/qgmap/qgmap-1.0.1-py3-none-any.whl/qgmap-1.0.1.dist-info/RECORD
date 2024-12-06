@@ -1,0 +1,15 @@
+qgmap/__init__.py,sha256=h8Xk_-h4ujODrMfGhz6_A81M-PQ_Cb3-DBvGmVirB-c,5465
+qgmap/example.py,sha256=WPG4oOzArtVWoIPwCnircbQzc-Ro7n9mc5L_xZazLmw,3300
+qgmap/geocoder.py,sha256=i3qwYBPd7wWDioTngwAReT267NejSbRtKPpnbIV40qc,1056
+qgmap/presets.py,sha256=acj7H5qzSaviVngnurvsnoh-hlXzpvmsuLbyTOemVu8,1654
+qgmap/qgmap.html,sha256=TW9O4UYMP4v-OFvvc5PnmMVCDEv0jALSeh1NqOW0CkM,770
+qgmap/qgmap.js,sha256=0mV0n3qKrNnqWB43Shflc6b-BMvKLys4vaLHY3enJIE,3002
+qgmap/qgmap_test.py,sha256=MW3hUYzwURLkbnx8Ks7mah0GBo1Krz44fRFBBkqNGMA,121
+qgmap/qt.py,sha256=hCScH05CeKkKu3KONeSUF9eiZAfSeCZNQFolajIxDmE,386
+qgmap/tracer.py,sha256=UlOxgOW5LaN15TIB8OcWW4nVReaH_o639aNno_lGZQw,421
+qgmap-1.0.1.dist-info/LICENSE,sha256=_j7qbFmeI6AMCMX1yyMgwwrcj4aH21_OybeaZixT_2s,35120
+qgmap-1.0.1.dist-info/METADATA,sha256=2elymHISWUw1eVKjJq07lUwIsSe8QkS6dqOkfHqY05s,42940
+qgmap-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+qgmap-1.0.1.dist-info/entry_points.txt,sha256=rYKOsaf8sXxoxzKFb-naF7pSzGHYK7dqyWTEhsFG0Os,53
+qgmap-1.0.1.dist-info/top_level.txt,sha256=vwBpRR9-IIo_VED_-Pdv1LSSfBx9Yhb8Id9jbIoYi2g,6
+qgmap-1.0.1.dist-info/RECORD,,
