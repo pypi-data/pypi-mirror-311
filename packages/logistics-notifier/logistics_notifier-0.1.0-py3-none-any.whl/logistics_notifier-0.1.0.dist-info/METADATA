@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: logistics-notifier
+Version: 0.1.0
+Summary: A library to send notifications for logistics.
+Home-page: https://github.com/yourusername/logistics-notifier
+Author: Your Name
+Author-email: your_email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+A library to handle notifications such as shipment assignments or status changes.
+
