@@ -1,0 +1,11 @@
+scim2_tester/__init__.py,sha256=LS-YNeKGvtiOdTbjsLc9cowaFD6-t1fcB9S1bM0wU4E,144
+scim2_tester/checker.py,sha256=A9ElQlEIfCkI09TiDWkIT58yiiyZ7ZXrEVj2sKUgv54,3463
+scim2_tester/resource.py,sha256=uJKqEqa8weWA1Iw1cO8o8oAto3SN_9gCXLSpaXm9UKg,5520
+scim2_tester/resource_types.py,sha256=uRB14Ss82hnr_0A7g1Y8teE2ZYyk-U12_MATUcFY8rM,1012
+scim2_tester/schemas.py,sha256=U8VFXJCyzS5B8BmafiVyXuUxCPL4kEo1wSSKdTptBgg,1089
+scim2_tester/service_provider_config.py,sha256=AYgrIt6kMK8BewKqnMbfpW4fVCHTc21-FlrEmJ8ufGE,658
+scim2_tester/utils.py,sha256=bmSmLFfFDXf5JKigqUn97cUrRI6jjUvMO7nvpZnsgic,1393
+scim2_tester-0.1.6.dist-info/METADATA,sha256=t8Rl4OLvQTwn81qRItL1xRDNUQCnnsZyFl7ZZv0ACGM,15887
+scim2_tester-0.1.6.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+scim2_tester-0.1.6.dist-info/licenses/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scim2_tester-0.1.6.dist-info/RECORD,,
