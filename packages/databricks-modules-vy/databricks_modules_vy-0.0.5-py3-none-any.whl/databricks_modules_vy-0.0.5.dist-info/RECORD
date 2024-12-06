@@ -1,0 +1,12 @@
+databricks_modules_vy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databricks_modules_vy/extend_class.py,sha256=PMudk4PF3pprqmQSTH046LizWJN0A5yGluOGFH7WEss,304
+databricks_modules_vy/module.py,sha256=X4bE2aofVJAbmacOI_Ny0Oc7m2Ru4ShxUscmJqVps1Q,43
+databricks_modules_vy/qlik.py,sha256=YujFWFo58mposLDiPHO1ZKL9Q7N4FxRCRAnVg7YYRC8,1752
+databricks_modules_vy/sharepoint.py,sha256=ekKJV-5rf_akLykBwHdYkYUy7ZzLlzQYpbrV9n1cmSI,10864
+databricks_modules_vy/styringsinfo_postgres.py,sha256=LuOdJukmM_EWnY6dUVY5eJIN_BefLMhXZkQTw4w3Jak,6822
+databricks_modules_vy/unity_catalog.py,sha256=F8ALX2WL7BXbU8A9mP6wZGbPpGH2_3mDFZLcY4Ix2oY,18898
+databricks_modules_vy-0.0.5.dist-info/LICENSE,sha256=xWI89gLAEmK4oUlp1N7Lk6IYrGUqG7tgWtfrWSHon2Q,1066
+databricks_modules_vy-0.0.5.dist-info/METADATA,sha256=ABJMBBXRQ4PmipO-lgGByDtKPTEHDWpUU62zaKD9v0o,443
+databricks_modules_vy-0.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+databricks_modules_vy-0.0.5.dist-info/top_level.txt,sha256=RouwHu-fZYJpSJVGmuMtpiQ0pzR9fjqn4i0q9Cammhc,22
+databricks_modules_vy-0.0.5.dist-info/RECORD,,
