@@ -1,0 +1,5 @@
+rng_rava~=1.2.1
+numpy
+matplotlib
+scipy
+lmfit
