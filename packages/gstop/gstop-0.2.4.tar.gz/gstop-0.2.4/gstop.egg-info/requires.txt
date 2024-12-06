@@ -1,0 +1,7 @@
+transformers
+torch
+loguru
+
+[dev]
+pytest
+ruff

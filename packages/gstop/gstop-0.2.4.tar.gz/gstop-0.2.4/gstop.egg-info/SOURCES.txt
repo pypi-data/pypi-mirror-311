@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+gstop/__init__.py
+gstop/common.py
+gstop/stopper.py
+gstop.egg-info/PKG-INFO
+gstop.egg-info/SOURCES.txt
+gstop.egg-info/dependency_links.txt
+gstop.egg-info/requires.txt
+gstop.egg-info/top_level.txt
+tests/test_stopper.py
