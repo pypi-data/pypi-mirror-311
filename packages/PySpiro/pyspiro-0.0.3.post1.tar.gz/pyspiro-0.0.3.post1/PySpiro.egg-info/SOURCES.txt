@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+PySpiro/__init__.py
+PySpiro.egg-info/PKG-INFO
+PySpiro.egg-info/SOURCES.txt
+PySpiro.egg-info/dependency_links.txt
+PySpiro.egg-info/requires.txt
+PySpiro.egg-info/top_level.txt
+PySpiro/src/GLI_2012.py
+PySpiro/src/GLI_2017.py
+PySpiro/src/__init__.py
+PySpiro/src/reference.py
