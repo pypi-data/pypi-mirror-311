@@ -1,0 +1,161 @@
+[tool.poetry]
+name = "zeroeventhub"
+version = "0.2.4"
+description = "Broker-less event streaming over HTTP"
+authors = ["Vipps MobilePay"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/vippsas/zeroeventhub"
+keywords = ["event-streaming"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115"
+httpx = "^0.27"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8"
+pytest-mock = "^3"
+poetry-types = "^0.5"
+coverage = "^7"
+respx = "^0.21"
+pyright = "^1"
+pytest-asyncio = "^0.24"
+ruff = "^0.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py312"
+src = ["zeroeventhub", "tests"]
+lint.select = [
+    "F",     # Pyflakes
+    "E",     # Pycodestyle errors
+    "W",     # Pycodestyle warnings
+    "C90",   # McCabe complexity
+    "I",     # import sorting
+    "N",     # PEP8 naming
+    "D",     # pydocstyle
+    "UP",    # pyupgrade
+    "ANN",   # flake8-annotations
+    "ASYNC", # flake8-async
+    "S",     # flake8-bandit
+    "BLE",   # flake8-blind-except
+    "FBT",   # flake8-boolean-trap
+    "B",     # flake8-bugbear
+    "A",     # flake8-builtins
+    "COM",   # flake8-commas
+    "C4",    # flake8-comprehensions
+    "DTZ",   # flake8-datetimez
+    "T10",   # flake8-debugger
+    "EM",    # flake8-errmsg
+    "FA",    # flake8-future-annotations
+    "ISC",   # flake8-implicit-str-concat
+    "ICN",   # flake8-import-conventions
+    "LOG",   # flake8-logging
+    "G",     # flake8-logging-format
+    "INP",   # flake8-no-pep420
+    "PIE",   # flake8-pie
+    "T20",   # flake8-print
+    "PT",    # flake8-pytest-style
+    "Q",     # flake8-quotes
+    "RSE",   # flake8-raise
+    "RET",   # flake8-return
+    "SLF",   # flake8-self
+    "SLOT",  # flake8-slots
+    "SIM",   # flake8-simplify
+    "TID",   # flake8-tidy-imports
+    "TCH",   # flake8-type-checking
+    "ARG",   # flake8-unused-arguments
+    "PTH",   # flake8-use-pathlib
+    "TD",    # flake8-todos
+    "FIX",   # flake8-fixme
+    "ERA",   # eradicate
+    "PL",    # pylint
+    "TRY",   # tryceratops
+    "FLY",   # flynt
+    "NPY",   # numpy-specific rules
+    "PERF",  # perflint
+    "RUF",   # ruff-specific rules
+]
+line-length = 100
+lint.ignore = [
+    "ISC001", # implicitly concatenated string literals on one line
+    "ISC003", # enforce implicit string concatenation
+    "RUF003", # disallow ambiguous unicode in comments
+    "D205",   # enforce blank line after comment summary
+    "D212",   # multi-line docstring summary starts on first line
+    "D105",   # docstring on magic methods
+    "D107",   # docstring on __init__
+    "E501",   # line too long
+    "ANN101", # type annotation for self in method
+    "ANN102", # type annotation for cls in classmethod
+    "ANN401", # disallow typing.Any
+    "A003",   # class attribute "shadowing" builtin
+    "COM812", # trailing comma missing
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.pylint]
+max-args = 6
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = [
+    "ANN",    # flake8-annotations
+    "ARG002", # flake8-unused-arguments
+    "A002",   # flake8-builtins
+    "D",      # pydocstyle
+    "S",      # flake8-bandit (security checks)
+]
+
+[tool.pyright]
+pythonVersion = "3.12"
+ignore = ["tests"]
+deprecateTypingAliases = true
+reportMissingTypeStubs = true
+reportPropertyTypeMismatch = true
+strictParameterNoneValue = true
+strictSetInference = true
+strictListInference = true
+strictDictionaryInference = true
+reportImportCycles = true
+reportUnusedClass = true
+reportUnusedVariable = true
+reportDuplicateImport = true
+reportUntypedClassDecorator = true
+reportUntypedBaseClass = true
+reportUntypedNamedTuple = true
+reportPrivateUsage = true
+reportTypeCommentUsage = true
+reportConstantRedefinition = true
+reportDeprecated = "warning"
+reportIncompatibleMethodOverride = true
+reportIncompatibleVariableOverride = "warning"
+reportInconsistentConstructor = true
+reportOverlappingOverload = true
+reportUninitializedInstanceVariable = true
+reportMissingParameterType = true
+reportInvalidTypeVarUse = true
+reportCallInDefaultInitializer = true
+reportUnnecessaryIsInstance = "warning"
+reportUnnecessaryCast = "warning"
+reportUnnecessaryComparison = true
+reportUnnecessaryContains = true
+reportImplicitStringConcatenation = true
+reportInvalidStubStatement = "warning"
+reportIncompleteStub = "warning"
+reportUnusedCoroutine = "warning"
+reportUnnecessaryTypeIgnoreComment = "error"
+reportMatchNotExhaustive = "warning"
+reportShadowedImports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.coverage.run]
+omit = ["tests/*"]
+source = ["zeroeventhub/"]
