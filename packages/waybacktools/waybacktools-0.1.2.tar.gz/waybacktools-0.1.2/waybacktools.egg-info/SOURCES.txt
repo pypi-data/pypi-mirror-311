@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README-EN.md
+README.md
+setup.py
+waybacktools/__init__.py
+waybacktools/exceptions.py
+waybacktools/main.py
+waybacktools.egg-info/PKG-INFO
+waybacktools.egg-info/SOURCES.txt
+waybacktools.egg-info/dependency_links.txt
+waybacktools.egg-info/requires.txt
+waybacktools.egg-info/top_level.txt
