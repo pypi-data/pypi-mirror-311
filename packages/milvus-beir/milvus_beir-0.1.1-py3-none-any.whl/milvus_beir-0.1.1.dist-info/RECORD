@@ -1,0 +1,17 @@
+milvus_beir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/milvus.py,sha256=A3qwUltieWQiL2s0nu0ayEgOGu9PC14vZwfGkjfv2lI,9216
+milvus_beir/retrieval/dense/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/dense/dense_search.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/hybrid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/hybrid/bm25_hybrid_search.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/hybrid/sparse_hybrid_search.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/lexical/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/lexical/bm25_search.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/lexical/multi_match_search.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/sparse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir/retrieval/sparse/sparse_search.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_beir-0.1.1.dist-info/METADATA,sha256=EqC8lM5Hxo0d-xoI8Ik6a3wFrwZTu9cdm4KApQqUF90,286
+milvus_beir-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+milvus_beir-0.1.1.dist-info/top_level.txt,sha256=VIQE2w92Y-E-WnbkrGR4ct8XPWLnMCVVkxTiy-VlTF8,12
+milvus_beir-0.1.1.dist-info/RECORD,,
