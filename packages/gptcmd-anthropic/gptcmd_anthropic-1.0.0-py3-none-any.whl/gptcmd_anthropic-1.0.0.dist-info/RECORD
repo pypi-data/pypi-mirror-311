@@ -1,0 +1,8 @@
+gptcmd_anthropic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptcmd_anthropic/anthropic.py,sha256=0WzPaONARwaQG6BYSv8oHRiCrwWZxz_3pVAzLumwMf0,13093
+gptcmd_anthropic-1.0.0.dist-info/COPYING.txt,sha256=TWRdxsaB9yyJ10eakraTzKQhFX_felhEdponlLV8VOM,64009
+gptcmd_anthropic-1.0.0.dist-info/METADATA,sha256=Wuky3kQPRV22OBlr7evrUdzN5z6odDCxmZerYkI7rHk,2532
+gptcmd_anthropic-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+gptcmd_anthropic-1.0.0.dist-info/entry_points.txt,sha256=nE5JFAqQL2o0d1TQ_f3FnKKeyQB2lJWcwe6qWyS7BHU,76
+gptcmd_anthropic-1.0.0.dist-info/top_level.txt,sha256=S_vzCdxy6VEL5kcwlaVcdcPcEwmZVfHBTGdAv3yFhhI,17
+gptcmd_anthropic-1.0.0.dist-info/RECORD,,
