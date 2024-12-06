@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dammy7878-pixegami-hello
+Version: 0.3.0
+Description-Content-Type: text/markdown
+
+## Publish to PYPI
+
+To publish your python package to PYPI, you can use the twine tool.
+
+
+
+```bash
+
+python setup.py sdist bdist_wheel 
+
+export TWINE_USERNAME=__token__
+export TWINE_PASSWORD=pypi-XXXXXXXXX
+
+twine upload dist/*
+```

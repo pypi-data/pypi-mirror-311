@@ -1,0 +1,9 @@
+README.md
+setup.py
+dammy7878_pixegami_hello/__init__.py
+dammy7878_pixegami_hello/main.py
+dammy7878_pixegami_hello.egg-info/PKG-INFO
+dammy7878_pixegami_hello.egg-info/SOURCES.txt
+dammy7878_pixegami_hello.egg-info/dependency_links.txt
+dammy7878_pixegami_hello.egg-info/entry_points.txt
+dammy7878_pixegami_hello.egg-info/top_level.txt
