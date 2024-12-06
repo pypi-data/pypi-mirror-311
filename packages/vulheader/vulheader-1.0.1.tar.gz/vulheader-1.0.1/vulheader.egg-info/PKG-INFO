@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: vulheader
+Version: 1.0.1
+Summary: A Python tool for checking missing HTTP security headers for better web security.
+Home-page: https://mrfidal.in/cyber-security/vulheader
+Author: MrFidal
+Author-email: mrfidal@proton.me
+License: MIT
+Project-URL: Documentation, https://mrfidal.in/cyber-security/vulheader
+Project-URL: Source, https://github.com/mr-fidal/vulheader
+Project-URL: Tracker, https://github.com/mr-fidal/vulheader/issues
+Keywords: security headers,web security,HTTP headers,Strict-Transport-Security,Content-Security-Policy,X-Frame-Options,Referrer-Policy,vulnerability scanner,website security
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Security
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# vulheader
+
+A Python tool to check for missing HTTP security headers on websites. It can check for the presence of security headers like `Strict-Transport-Security`, `Content-Security-Policy`, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, and `Permissions-Policy`.
+
+## Installation
+
+To install the package, run:
+
+```bash
+pip install vulheader
+```
+
+## Usage
+
+You can use `vulheader` both as a Python package and as a command-line tool.
+
+### As a Python Package
+
+You can use the `check()` function to check for specific headers or all headers.
+
+#### Check for a specific header
+
+To check if a specific header is present or missing, use the following code:
+
+```python
+import vulheader
+
+url = "https://example.com"
+
+result = vulheader.check(url, "Strict-Transport-Security")
+if result == "missing":
+    print("Strict-Transport-Security: Missing")
+else:
+    print("Strict-Transport-Security: Present")
+```
+
+You can replace `"Strict-Transport-Security"` with any of the following headers to check for their presence:
+
+- `Strict-Transport-Security`
+- `Content-Security-Policy`
+- `X-Frame-Options`
+- `X-Content-Type-Options`
+- `Referrer-Policy`
+- `Permissions-Policy`
+
+#### Check all headers at once
+
+You can also check for all security headers at once:
+
+```python
+import vulheader
+
+url = "https://example.com"
+
+header_status = vulheader.check(url)
+
+for header, status in header_status.items():
+    print(f"{header}: {'Present' if status == 'present' else 'Missing'}")
+```
+
+### As a Command-Line Tool
+
+Once installed, you can use `vulheader` directly from the command line to check the headers of a website.
+
+#### Check for all headers
+
+To check for all security headers:
+
+```bash
+vulheader --url https://example.com
+```
+
+#### Check for a specific header
+
+To check for a specific header, use the `-H` option followed by the header name:
+```bash
+vulheader --url https://example.com -H "Strict-Transport-Security"
+```
+
+Replace `"Strict-Transport-Security"` with any of the following headers:
+
+- `Strict-Transport-Security`
+- `Content-Security-Policy`
+- `X-Frame-Options`
+- `X-Content-Type-Options`
+- `Referrer-Policy`
+- `Permissions-Policy`
+- 
+#### Checking all headers:
+
+```bash
+Strict-Transport-Security: Missing
+Content-Security-Policy: Present
+X-Frame-Options: Missing
+X-Content-Type-Options: Missing
+Referrer-Policy: Missing
+Permissions-Policy: Missing
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
