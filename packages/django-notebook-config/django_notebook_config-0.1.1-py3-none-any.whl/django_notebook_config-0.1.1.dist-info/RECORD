@@ -1,0 +1,9 @@
+django_notebook_config/__init__.py,sha256=vH3IWQ06X0yOYpO6_L6gzDZONqQXLw1a4oMtm0BpArs,30
+django_notebook_config/main.py,sha256=UR2N_zm_kB8zSMODVCacFx5Y9gZsH9uQVP5u6_MU9G8,630
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_import.py,sha256=kHzYGlSw9B9fsGBZ0CxWekgEuP1NmsyquVGW6Hm_opg,101
+django_notebook_config-0.1.1.dist-info/LICENSE,sha256=Mu_3YdW9ymYBWTQmP6DqqWgsUGaiBod4VnErm-4k1Fw,1075
+django_notebook_config-0.1.1.dist-info/METADATA,sha256=ZCnU0hpIaqpG9FnQUEDVvtFAV5N0OGdt121_-XNqTXI,4311
+django_notebook_config-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+django_notebook_config-0.1.1.dist-info/top_level.txt,sha256=tVypbTugi5obhE7XVvMVnFPw6DPxXhKV6SGhrtFo9fc,29
+django_notebook_config-0.1.1.dist-info/RECORD,,
