@@ -1,0 +1,9 @@
+distilabel_steps_library/__init__.py,sha256=rhFoZvRzN0cIfR22QSrNr-krWX8M2pTYD5j9YellyYU,34
+distilabel_steps_library/drop_empty.py,sha256=9RbP9NinCejQyEyqb5Tqd_u7Ad5pIiODonBemBKlRuM,3836
+distilabel_steps_library/chat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distilabel_steps_library/chat/chat_transcript.py,sha256=erBOXlA9kNNdIYhcZn2CmZGO3H9tcb2pwFMbuaX4J8o,2869
+distilabel_steps_library/chat/flip_role.py,sha256=FSli3z82oKLEj-wdnhg-B1mBEKhB5IFN2_OnqkHCE4U,3337
+distilabel_steps_library/chat/insert_message.py,sha256=EtZPqCa7sbMGmOOM6p_AbnOyRdE-jyP9SYTVohHErlA,3521
+distilabel_steps_library-0.1.0.dist-info/METADATA,sha256=jdZ8nAIt1M9z_UO84AZg8NCZtAkXg-DTF1DeL-V3j3g,181
+distilabel_steps_library-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+distilabel_steps_library-0.1.0.dist-info/RECORD,,
