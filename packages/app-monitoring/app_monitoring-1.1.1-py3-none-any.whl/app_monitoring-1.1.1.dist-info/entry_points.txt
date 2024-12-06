@@ -1,0 +1,2 @@
+[console_scripts]
+app_monitoring = app_monitoring.cli:monitoring
