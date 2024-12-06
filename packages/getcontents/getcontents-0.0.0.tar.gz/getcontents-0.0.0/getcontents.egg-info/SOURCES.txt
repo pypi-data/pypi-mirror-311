@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+getcontents/__init__.py
+getcontents/http_client.py
+getcontents/response.py
+getcontents/utils.py
+getcontents.egg-info/PKG-INFO
+getcontents.egg-info/SOURCES.txt
+getcontents.egg-info/dependency_links.txt
+getcontents.egg-info/top_level.txt
