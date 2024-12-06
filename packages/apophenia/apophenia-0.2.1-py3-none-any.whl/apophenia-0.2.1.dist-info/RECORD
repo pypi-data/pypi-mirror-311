@@ -1,0 +1,13 @@
+apophenia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apophenia/main.py,sha256=Rl9MWJghN96mLfNE_zwMV7rHoM2TlRLOt6H-y5gY0hE,1956
+apophenia/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apophenia/api/discuss.py,sha256=kv8opdtrciXX6gXX4AosAUTCW5SOpLg6o9qFr8DCQJI,3220
+apophenia/api/extract.py,sha256=DfKEyLQUSYc_ya-bcip-JdEzJhBaeW5YNzkFIMCf5pw,5001
+apophenia/cmds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apophenia/cmds/discuss.py,sha256=-itsru9mRfgqhR0ghlqkNHFP3e0OUAJ9PbPqQpfa8Zs,1847
+apophenia/cmds/extract.py,sha256=EknOob0wseHPPHVJAcuR6o59Ph50Hn_iJ6DMBWeDV5Y,1903
+apophenia-0.2.1.dist-info/METADATA,sha256=EaBKC_mKQkZLyvO_KyL3kJrZuW2T2cqEPG3uhlylDd8,10260
+apophenia-0.2.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+apophenia-0.2.1.dist-info/entry_points.txt,sha256=-gBvS1SxtRuWK_jgNkJlBZ3KMpblLMLpvFXcaxbDI04,50
+apophenia-0.2.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+apophenia-0.2.1.dist-info/RECORD,,
