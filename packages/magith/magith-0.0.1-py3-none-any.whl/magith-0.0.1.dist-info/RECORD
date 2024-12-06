@@ -1,0 +1,9 @@
+magith/__init__.py,sha256=NWKoyiWW0_WE_1vX6secZlqqO_BBGwreJ_R92REc3j4,317
+magith/data_proxy.py,sha256=SRvvkzfgSXk7HGw-DkgQpo0VZj1mLTqgELIJv5vEgKA,11175
+magith/http_client.py,sha256=07dqvZRjJKJ261z-BUvG4cPon60YFQwLY-MLSxe-xh8,2221
+magith/upass.py,sha256=p-iYpbQZo6HowtviPEBYr3Fx7njlHaue2h5tCTbWt5I,1523
+magith-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magith-0.0.1.dist-info/METADATA,sha256=HdCARrCAz2djimc9v_aqlK3aXBS19MKdey8Mm9J3xQQ,473
+magith-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+magith-0.0.1.dist-info/top_level.txt,sha256=dg7stvMJrqziZKRFqxbX9WmhwKDyCBm1M3zb2gTHYfc,7
+magith-0.0.1.dist-info/RECORD,,
