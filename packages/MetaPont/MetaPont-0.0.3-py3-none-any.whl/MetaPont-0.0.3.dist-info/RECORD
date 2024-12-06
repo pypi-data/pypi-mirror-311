@@ -1,0 +1,15 @@
+MetaPont/Extract_By_Function.py,sha256=twGnWQAVJgNrTUrGAl2EwUuhWWS8CYyNY1xziiRVwBQ,5721
+MetaPont/Extract_By_Taxa.py,sha256=AbCFHc-hfuL1ktPBIOAaJZlk8P3BAToNv9TKE8lOEHw,5506
+MetaPont/Function_By_Taxa.py,sha256=sBA9IrfTaw0QU3h2brG2W8C8Tkx3BJ9pR2jWJJc_H2w,14696
+MetaPont/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MetaPont/constants.py,sha256=4bJ-4F1YpDrhkI_v2RIqrrQ9rzethYXz9OrLCh4xw9g,29
+MetaPont/emapper_readmap_cds_combiner_v1.py,sha256=HmZqZNjuTWU879X9l4xgInmoQPkUkKBJxUwYLJNdU-w,10929
+MetaPont/kraken_emapper_readmap_combiner_v1.py,sha256=v97oSqLmKmeKKGE4TeZ4CLnvzVt5EOLXdaCk_ic0J98,12630
+MetaPont/lineage_matrix_collapse_v1.py,sha256=Zi86gYVUbY37I6Zj3zi0mCkGcplEonOyqNpuffcl2Ks,1857
+MetaPont/lineage_matrix_collapse_v2.py,sha256=YMPXSK7mu5WWCJDSRvK3eC2uJIvKg_D1yQen9Nuxw98,5638
+MetaPont-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+MetaPont-0.0.3.dist-info/METADATA,sha256=i_O_8dCpPCii2mlDhGz4a3mz_oXHKWiMAS7lUf61VF0,8154
+MetaPont-0.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+MetaPont-0.0.3.dist-info/entry_points.txt,sha256=bGnIHNT03DSGQQUQMtgTLwzY2LknldiYO7OngDB7IDU,122
+MetaPont-0.0.3.dist-info/top_level.txt,sha256=PtnZWT8JJPOpVvOQp9QdBL368QXyxDcO-URW1zqJ6ss,9
+MetaPont-0.0.3.dist-info/RECORD,,
