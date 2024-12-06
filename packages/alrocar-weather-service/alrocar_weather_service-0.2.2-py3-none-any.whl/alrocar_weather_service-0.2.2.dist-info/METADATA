@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: alrocar-weather-service
+Version: 0.2.2
+Summary: A MCP server project to integrate OpenWeather API in Claude
+Requires-Python: >=3.10
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: mcp>=1.0.0
+Requires-Dist: python-dotenv>=1.0.1
+Description-Content-Type: text/markdown
+
+Add to Claude Desktop by editing `claude_desktop_config.json`
+
+```json
+"alrocar_weather": {
+  "command": "uvx",
+  "args": ["alrocar-weather-service"],
+  "env": {
+    "OPENWEATHER_API_KEY": "your_api_key"
+  }
+}
+```
+
+Restart Claude Desktop and ask for a forecast or current weather
+
+![](weather.png)

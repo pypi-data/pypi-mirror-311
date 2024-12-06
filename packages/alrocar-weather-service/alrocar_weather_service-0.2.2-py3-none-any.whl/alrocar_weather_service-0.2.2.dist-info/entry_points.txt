@@ -1,0 +1,2 @@
+[console_scripts]
+alrocar-weather-service = alrocar_weather_service:main
