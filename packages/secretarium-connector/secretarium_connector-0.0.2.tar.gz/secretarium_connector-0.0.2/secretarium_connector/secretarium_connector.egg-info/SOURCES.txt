@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+secretarium_connector/secretarium_connector.egg-info/PKG-INFO
+secretarium_connector/secretarium_connector.egg-info/SOURCES.txt
+secretarium_connector/secretarium_connector.egg-info/dependency_links.txt
+secretarium_connector/secretarium_connector.egg-info/requires.txt
+secretarium_connector/secretarium_connector.egg-info/top_level.txt
+tests/test_scp.py
