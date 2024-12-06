@@ -1,0 +1,10 @@
+textfromimage/__init__.py,sha256=InNqvk6Jjajn3MY36BAeom8tOc2IYsUzyNGOry1UweQ,228
+textfromimage/azure_openai.py,sha256=UdJTwwvc_ihW0PCZWFvdBFDE8wXk2HXWY9-aZCnLfII,3204
+textfromimage/claude.py,sha256=kkraLVATOh0pUfKv5crh1iaL67wvoHJKA3yImGQEhrE,4660
+textfromimage/openai.py,sha256=OAeEsmMOupBxy0lWg_NZBS8hn30x2hYbSCs7NflNm7c,2867
+textfromimage/utils.py,sha256=PEDPncRREeGWzaB5TA2VRr34tQbcJeYoP5kWaPyr0V0,3900
+textfromimage-1.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textfromimage-1.1.0.dist-info/METADATA,sha256=7S9Oy3Dwp8Et7D13KLnA7kpnrv7t7ZGB_f_OwJbdvG8,7476
+textfromimage-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+textfromimage-1.1.0.dist-info/top_level.txt,sha256=4cmfSCR1EOkv2IH9i9je-y7VvR8ETtBovw7sq2nnsq4,14
+textfromimage-1.1.0.dist-info/RECORD,,
