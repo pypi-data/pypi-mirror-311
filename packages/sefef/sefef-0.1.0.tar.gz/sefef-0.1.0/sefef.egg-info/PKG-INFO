@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sefef
+Version: 0.1.0
+Summary: SeFEF: Seizure Forecast Evaluation Framework
+Author: Ana Sofia Carmo
+Author-email: anascacais@gmail.com
+License: BSD 3-clause
+License-File: LICENSE
