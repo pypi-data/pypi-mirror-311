@@ -1,0 +1,3 @@
+[console_scripts]
+cicd=t5_grp.main:cli
+

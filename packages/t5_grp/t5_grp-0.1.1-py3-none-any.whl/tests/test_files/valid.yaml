@@ -1,0 +1,58 @@
+pipeline:
+  name: P1
+
+stages:
+  - build
+  - test
+  - doc
+  - deploy
+
+jobs:
+  - name: compile
+    stage: build
+    needs: [static_analysis]
+    script:
+      - echo "Compiling the source code..."
+    artifacts:
+      paths:
+        - build/classes/*
+        - build/reports/*
+
+  - name: static_analysis
+    stage: build
+    script:
+      - echo "Running static analysis..."
+    allow_failure: true
+
+  - name: unit_test
+    stage: test
+    needs: [compile]
+    script:
+      - echo "Running tests..."
+    artifacts:
+      paths:
+        - final.jar
+
+  - name: generate_docs
+    stage: doc
+    needs: [unit_test]
+    script:
+      - echo "Generating documentation..."
+    allow_failure: true
+
+  - name: publish
+    stage: deploy
+    needs: [generate_docs]
+    script:
+      - echo "Publishing artifacts..."
+    artifacts:
+      paths:
+        - distribution.tgz
+        - md5.sum
+
+
+default:
+  before_script:
+    - echo "Starting job..."
+  after_script:
+    - echo "Job finished."
