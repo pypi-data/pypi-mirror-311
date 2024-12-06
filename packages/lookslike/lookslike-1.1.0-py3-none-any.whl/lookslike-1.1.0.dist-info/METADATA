@@ -1,0 +1,225 @@
+Metadata-Version: 2.1
+Name: lookslike
+Version: 1.1.0
+Summary: Compare dictionaries, lists and other objects convenient and readable
+Home-page: https://gitlab.com/pyfox/lookslike/
+Author: kitsunebi
+Author-email: me@pyfox.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/pyfox/lookslike/-/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lookslike - Simple datatype comparison
+
+[![Pipeline](https://gitlab.com/pyfox/lookslike/badges/release/1.1.0/pipeline.svg)](https://gitlab.com/pyfox/lookslike/-/tree/release/1.1.0)
+[![Downloads](https://static.pepy.tech/badge/lookslike)](https://pepy.tech/project/lookslike)
+
+Lookslike is a library to simplify comparison of two objects (like numbers) within complex structures (like
+dictionaries) in a simple and readable way.
+
+For example, it can be used to compare JSON data of server responses.
+
+You can use `Like` objects when comparing dictionaries (or lists) for values that don't match exactly.
+
+```python
+from lookslike import Like
+from urllib.request import urlopen
+import json
+
+
+def test_get_user():
+    server_response = json.load(urlopen("http://localhost:8000/api/user?user_id=1"))
+    assert server_response == {'user-name': 'John Doe',
+                               'uuid': Like(str),
+                               'timestamp': Like(int, lambda value: value > 0)}
+```
+
+Lookslike has no external dependencies and less than 100 lines of code* with a bit of magic to provide you some sparkle.
+*excluding docstrings
+
+## The Similar object
+
+The Similar object behaves the same as the Like object with two differences:
+
+* It will remember the first value it has been compared with. For further comparisons, it will strictly check for that value.
+* If the comparison was successful, it will use the string representation of the value it has been compared with. The reason for this "disguise" is, if you compare e.g. two dictionaries in a diff view, you will only see the unequal entries as highlighted differences.
+
+```python
+from lookslike import Similar
+
+
+def test_create_db_object():
+    elephant_id = Similar(str)
+    assert create_db_object() == {
+        "animals_in_shelter": [elephant_id],
+        "animals": [{
+            "id": elephant_id,
+            "name": "Dumbo",
+            "age": 42
+        }]
+    }
+```
+
+Please note that a `Similar` object cannot be used as dictionary key if it is not locked to a value yet.
+
+## Usage examples
+
+The `Similar` object behaves exactly as the `Like` object if you only compare it once.
+
+```python
+import re
+from lookslike import Like, Similar, utils
+
+# Check for type
+42 == Like(int)  # True
+42 == Like(float)  # False
+
+# Check using regular expressions
+'abc' == Like(re.compile('a.*'))  # True
+'abc' == Like(re.compile('a'))  # False
+123.456 == Like(re.compile(r'\d+\.\d+'))  # True
+
+# Check using custom function
+42 == Like(lambda value: 40 < value < 44)  # True
+
+# Combine multiple checks
+42 == Like(int, lambda value: 40 < value < 44)  # True
+42 == Like(float, lambda value: 40 < value < 44)  # False
+
+# Convert values
+['c', 'b', 'a'] == Like(['a', 'b', 'c'], convert=sorted)  # True
+{'a': 1, 'b': 'not important'} == Like({'a': 1},
+                                       convert=utils.filter_keys(['a']))  # True
+[1, 2, 3, 4, 5] == Like([1, 2, 3], convert=lambda l: [num for num in l if num <= 3])  # True
+
+# Usage in list and dict comparisons
+[1, 2, 3] == [1, Like(int), 3]  # True
+{'a': 1, 'b': 0.5} == {'a': 1, 'b': Like(float, lambda num: 0 <= num <= 1)}  # True
+
+# Usage of the Similar object
+identifier = Similar(int)
+assert [1, 1] == [identifier, identifier]  # True
+assert [1, 2] == [identifier, identifier]  # False, as 2nd value is not similar to 1st value
+assert [1, 1.0] == [identifier, identifier]  # False, als 2nd value is not int.
+
+identifier = Similar()
+assert [1, 1.0] == [identifier, identifier]  # True and Python defines 1 == 1.0 -> True
+assert ["1", 1] == [identifier, identifier]  # False as Python defines "1" == 1 -> False
+
+
+# Complex server response example
+def test_server_response():
+    server_response = {  # This is your test object of course
+        'response_id': 42,
+        'timestamp': 2134567.2355,
+        'pets': ['cat', 'dog', 'chicken'],
+        'number_of_pets': 3,
+        'info_url': 'https://petsdb.info/',
+        'vet name': 'Dr. Murphey',
+        'home_ids': [1242],
+        'home': {
+            'home_id': 1242,
+            'address': {
+                'street': 'Rabbit street 42',
+                'city': 'New Bark',
+            }
+        }
+    }
+    home_id = Similar(int)
+    assert server_response == {
+        'response_id': Like(int),
+        'timestamp': Like(float),
+        'pets': Like(['cat', 'chicken', 'dog'], convert=sorted),
+        'number_of_pets': 3,
+        'info_url': Like(lambda value: value.startswith('https://')),
+        'vet name': Like(re.compile(r'Dr\. .*')),
+        'home_ids': [home_id],
+        'home': {
+            'home_id': home_id,
+            'address': Like({'city': 'New Bark'}, convert=utils.filter_keys(['city']))
+        }
+    }  # True
+```
+
+## To consider
+
+**Regular expressions**
+
+When you provide a regex pattern, there are some things to consider:
+
+*Pattern has to match the whole string*
+
+When you provide a regex Pattern, it has to match the whole string. This is to prevent False-positives. For example:
+
+This regex `re.match('a', 'abc')` in Python will find a match. But `'abc' == Like(re.compile('a'))` will be False.
+Instead you have to use
+`'abc' == Like(re.compile('a.*'))`
+
+*Comparing strings with bytes does not raise an Exception*
+
+Normally, you will get a TypeError when doing something like this `re.match(b'abc', 'a')`
+However, this `b'abc' == Like(re.compile('a'))` will return False instead without raising an exception.
+
+**String representation**
+
+The string representation of `Like` objects changes depending on the last comparison result: If the last result was
+False, the string representation will be `!Like(...)` instead of `Like(...)`. This is to make it easier to find non-matching items in logs.
+Names will change in the debugger and e.g. in the AssertionError raised by pytest.
+
+The `Similar` object changes its string representation to the one of the value it has been initially compared with, if the comparison was successful. If not, it behaves as the `Like` object.
+
+## Other utilities
+
+If you want to compare JSON only and want a tool that is more standardized you can have a look
+at [jsonschema](https://pypi.org/project/jsonschema/).
+
+If you want not only to check, but to convert dictionaries to real Python objects, have a look
+at [pydantic](https://pypi.org/project/pydantic/).
+
+If you want to find the difference of two dictionaries have a look at [deepdiff](https://pypi.org/project/deepdiff/).
+
+
+## Changes
+
+1.1.0 
+
+* Introducing the `Similar` object.
+
+1.0.0
+
+* Don't panic, just move project status to "stable". No breaking changes.
+
+0.9.2
+
+* Add new utility "is_truthy".
+
+0.9.1
+
+* Restructure project
+* Add support for old Python versions (up to 3.3)
+* Change representation of "Like" to "!Like" when last comparison failed. 
+
+0.9
+
+* Add lookslike to PyPI
+
