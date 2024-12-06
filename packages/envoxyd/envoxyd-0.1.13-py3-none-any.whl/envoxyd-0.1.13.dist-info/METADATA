@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: envoxyd
+Version: 0.1.13
+Summary: Envoxyd
+Home-page: https://github.com/muzzley/envoxy
+Author: Matheus Santos
+Author-email: vorj.dux@gmail.com
+Requires-Python: >=3.11
+License-File: LICENSE.txt
+Requires-Dist: envoxy>=0.2.12
+Requires-Dist: flask-cors==3.0.9
+Requires-Dist: isort<5,>=4.2.5
+
