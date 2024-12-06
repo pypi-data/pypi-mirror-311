@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/dummy/__init__.py
+src/dummy/some/__init__.py
+src/dummy/some/data.py
+src/some_library.egg-info/PKG-INFO
+src/some_library.egg-info/SOURCES.txt
+src/some_library.egg-info/dependency_links.txt
+src/some_library.egg-info/requires.txt
+src/some_library.egg-info/top_level.txt
