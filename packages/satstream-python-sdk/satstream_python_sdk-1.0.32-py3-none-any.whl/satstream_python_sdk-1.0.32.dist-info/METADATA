@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: satstream-python-sdk
+Version: 1.0.32
+Summary: Satstream API
+Home-page: https://github.com/satstream/satstream-python-sdk
+Author-email: team@satstream.io
+License: UNKNOWN
+Keywords: Swagger,Satstream API
+Platform: UNKNOWN
+Requires-Dist: urllib3>=1.15
+Requires-Dist: six>=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    Satstream API  # noqa: E501
+    
+
