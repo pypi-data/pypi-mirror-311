@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xomics_amy_imene
+Version: 0.1.0
+Summary: analyse approfondi de fichiers gff
+Author-email: Imène Sebaï <imene.sebai@etu.univ-lyon1.fr>, Ndeye Amy Gueye <ndeye.gueye@etu.univ-lyon1.fr>
+Project-URL: Repository, http://pedago-service:2325/ngueye/xomics.git
+Keywords: python,projet,gestion,packages,dépendances,gene,uniprot
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib >=3.7.5
+
+# Documentation des fonctions publiques du package
+
+Nous avons créé une nouvelle branche "public" et nous avons organisé les fichiers dans cette nouvelle branche en suivant le patron ci dessous.
+
+## Structure des repertoires
+```
+xomics/
+├── README.md               
+├── amyxomics/              
+│   ├── __init__.py          
+│   ├── annotation.py       
+│   ├── readers.py          
+│   └── run_gff.py         
+├── pyproject.toml    
+├── data       
+└── uv.lock                 
+```
