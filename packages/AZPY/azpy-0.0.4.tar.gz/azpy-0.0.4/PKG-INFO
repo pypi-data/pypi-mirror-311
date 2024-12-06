@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: AZPY
+Version: 0.0.4
+Summary: Live At the Momment
+Home-page: 
+Author: RostamiMH
+Author-email: mhro.r84@gmail.com
+License: MIT
+Keywords: calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Nothing To Show!! Live at the Momment
+
+
+Change Log
+==========
+
+0.0.4 (2024)
+-------------------
+- First Release
