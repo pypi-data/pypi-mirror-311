@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: buaa_open_source_22371550_test_package2
+Version: 0.2
+Summary: Package2 depends on package1 for functionality
+Author: lhc
+Author-email: 1500518009@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: buaa-open-source-22371550-test-package1
+Requires-Dist: requests
+
+test_package2
