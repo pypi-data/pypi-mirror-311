@@ -1,0 +1,3 @@
+include License
+recursive-include ForkEntropy *
+recursive-include forkEntropyTest *

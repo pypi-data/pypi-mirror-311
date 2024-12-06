@@ -1,0 +1,16 @@
+License
+MANIFEST.in
+README.md
+setup.py
+ForkEntropy/ForkEntropy.py
+ForkEntropy/__init__.py
+forkEntropy.egg-info/PKG-INFO
+forkEntropy.egg-info/SOURCES.txt
+forkEntropy.egg-info/dependency_links.txt
+forkEntropy.egg-info/requires.txt
+forkEntropy.egg-info/top_level.txt
+forkEntropyTest/__init__.py
+forkEntropyTest/test_example.py
+forkEntropyTest/testData/commitChanges/36528.json
+forkEntropyTest/testData/downloaded_PRrawdata/36528_prs.json
+forkEntropyTest/testResult/output_.csv
