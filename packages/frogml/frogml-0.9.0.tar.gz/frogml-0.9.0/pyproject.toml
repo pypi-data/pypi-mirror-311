@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "frogml"
+version = "0.9.0"
+description = "FrogML is a powerful and flexible Python library designed to provide advanced ML model and dataset management capabilities by seamlessly integrating JFrog Artifactory as the primary model store and leveraging the JFrog ML Platform."
+readme = "README.md"
+authors = ["JFrog"] # TODO: leagal?
+keywords = ["mlops"]
+packages = [
+    { include = "frogml" },
+]
+include = ["./frogml/**/*"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+frogml-storage = "0.9.0"
+cloudpickle = "3.1.0"
+joblib = "1.4.2"
+
+[tool.poetry.group.dev.dependencies]
+changelog-cli = "^0.7.1"
+bump2version = "1.0.1"
+pre-commit = "^2.19.0"
+black = "24.3.0"
+flake8 = "5.0.0"
+Sphinx = "7.4.7"
+bandit = { version = "^1.7.4", extras = ["toml"] }
+pytest-mock = "^3.14.0"
+coverage = "^7.6.2"
+catboost = "1.2.7"
+scikit-learn = "1.5.2"
+onnx = "1.17.0"
+transformers = "4.46.2"
+torch = "2.5.1"
+docker = "7.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bandit]
+
+[tool.poe.tasks]
+validate = { cmd = "pre-commit run  --all-files", help = "Check lint on all files" }
+test = { cmd = "pytest --disable-warnings tests", help = "Run tests" }
+clean = { cmd = "rm -rf dist ./**/__pycache__", help = "Clean build artifacts" }
+
+
+[tool.pytest.ini_options]
+addopts = [
+    "--strict-markers"
+]
+markers = [
+    "integration: marks tests as slow (deselect with '-m \"not integration\"')",
+]
