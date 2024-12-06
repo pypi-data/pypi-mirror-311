@@ -1,0 +1,2 @@
+[console_scripts]
+protenix_infer = runner.inference:run_default
