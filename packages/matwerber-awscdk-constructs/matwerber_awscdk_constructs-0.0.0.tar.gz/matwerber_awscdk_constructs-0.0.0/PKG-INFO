@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: matwerber-awscdk-constructs
+Version: 0.0.0
+Summary: awscdk-constructs
+Home-page: https://github.com/matwerber1/awscdk-constructs.git
+Author: Mat Werber<matwerber@gmail.com>
+License: MIT
+Project-URL: Source, https://github.com/matwerber1/awscdk-constructs.git
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aws-cdk-lib<3.0.0,>=2.165.0
+Requires-Dist: constructs<11.0.0,>=10.0.5
+Requires-Dist: jsii<2.0.0,>=1.105.0
+Requires-Dist: publication>=0.0.3
+Requires-Dist: typeguard<4.3.0,>=2.13.3
+
+# Mat Werber's AWS CDK Construct Library
+
+This project is (or at least, is meant to become) a central repository of the various custom AWS CDK constructs I create in the course of my work.
+
+For now, project goals are:
+
+1. Learn how to publish to the CDK Construct Hub
+2. Learn to write better constructs.
+3. Improve my existing constructs over time rather than re-creating or copy-pasting them when needed across projects.
+
+## FAQ
+
+### How was this project started?
+
+Rather than piece together the various components and decisions needed to publish to the CDK Construct Hub, I opted to use AWS CDK Construct Library template project provided by [projen](https://projen.io/docs/project-types/aws-cdk-construct-library/)
+
+### How does the project get published to Construct Hub?
+
+Commits trigger a GitHub Action to build and publish this library to **npm**.
