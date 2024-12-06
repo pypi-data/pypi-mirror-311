@@ -1,0 +1,181 @@
+# Description du projet 
+
+# Package : gffanalyzer_m1bioinfo
+
+gffanalyzer_m1bioinfo est un package Python conçu pour analyser et manipuler des fichiers au format GFF (General Feature Format).
+Il propose des outils permettant l'extraction et la manipulation d'informations génomiques, notamment la gestion des annotations de gènes, transcrits et exons, ainsi que des visualisations telles que la distribution des longueurs de transcrits.
+
+Ce projet a été développé dans le cadre de l'UE Programmation Orientée Objet (POO) du Master 1 Bio-Informatique à l'Université Claude Bernard - Lyon 1.
+
+## **Structure du package**
+
+### Fichiers principaux :  
+- **`__init__.py`**  
+  Initialise le package Python, permet d'importer les modules nécessaires pour manipuler les fichiers GFF et contient un outil de statistiques et de visualisation de fichier GFF. Inclut `plot_and_stats`, cette fonction travaille avec un fichier GFF et propose deux fonctionnalités principales en fonction des arguments fournis. Si l'argument `stats` est `True`, la fonction affiche les statistiques des annotations. Si l'argument `plot_out` est spécifié, la fonction génère un boxplot des longueurs des ARN et le sauvegarde à l'emplacement indiqué. Les deux fonctionnalités peuvent être utilisées séparément ou ensemble, selon les besoins. 
+
+- **`__main__.py`**  
+  Contient le point d'entrée pour exécuter le programme en ligne de commande. Ce fichier permet de charger un fichier GFF, d'exécuter des analyses, et de générer des visualisations via le terminal.  
+
+- **`annotation.py`**  
+  Définit les classes `Annotation`, `Gene`, `Transcrit`, `Exon` pour modéliser, ajouter et manipuler les annotations génomiques.
+
+## **Fonctionnalités**
+
+### **Classe Gene**  
+- **Modélisation des gènes** :  
+  - Stocke les informations essentielles : ID, nom, coordonnées génomiques (`start`, `end`), brin (`strand`), et ligne GFF associée.  
+  - Permet d'ajouter et de gérer des transcrits liés au gène via une méthode dédiée (`add_transcrit`).  
+  - Offre une méthode pour fusionner deux gènes en combinant leurs transcrits, tout en éliminant les doublons.  
+  - Inclut une représentation textuelle claire pour afficher les informations principales.
+
+### **Classe Transcrit**  
+- **Modélisation des transcrits** :  
+  - Stocke les informations essentielles : ID, ID du gène parent, coordonnées génomiques (`start`, `end`), brin (`strand`), et ligne GFF associée.  
+  - Permet de gérer des exons associés via la méthode `add_exon`.  
+  - Fournit une méthode d'égalité (`__eq__`) pour comparer les transcrits basés sur leurs IDs et gènes parents.  
+  - Inclut une représentation textuelle claire des informations clés.  
+
+### **Classe Exon**  
+- **Modélisation des exons** :  
+  - Stocke les informations essentielles : ID de l'exon, IDs du transcrit et du gène parents, coordonnées génomiques (`start`, `end`), brin (`strand`), et ligne GFF associée.  
+  - Conçue pour structurer les données d'annotation génomique. 
+
+### **Utilisation**
+
+#### Installation :
+
+Installez le package avec pip :
+
+```bash
+> pip install gffanalyzer_m1bioinfo 
+```
+
+### **Pré-requis**
+
+- **Python** : Version 3.10 ou plus récent.
+  
+- **Bibliothèques Python** :
+  - matplotlib >= 3.9.2
+
+### **Exemple d'execution**
+
+## Test d'installation
+
+```python
+import gffanalyzer_m1bioinfo as gff
+
+gff.test_install()
+# Le package gffanalyzer est bien installé !
+```
+
+## Test Classe Annotation 
+
+```python
+# Importation de la classe Annotation depuis le module gffanalyzer_m1bioin
+from gffanalyzer_m1bioin import Annotation
+
+# Création de deux objets Annotation à partir de deux fichiers GFF
+annotation1 = Annotation("your/path/gff_file")
+annotation2 = Annotation("yout/path/gff_file")
+
+# Affichage des informations sur chaque annotation
+print(annotation1)
+print(annotation2)
+
+# Fusion des deux annotations en un seul objet annot_fusion puis affichage
+annot_fusion = annotation1 + annotation2
+
+print(annot_fusion)
+
+# Affichage des statistiques de l'annotation fusionnée
+annot_fusion.stats()
+
+# Génération et exportation d'un graphique des longueurs d'ARN à partir de l'annotation fusionnée
+annot_fusion.rna_lens("your/path/to/export/your/plot")
+
+# Recherche un gène dans une annotation par son ID, puis affichage
+gene = annot_fusion.get_gene("GeneID_to_search")
+
+print(gene)
+```
+
+## Test Autres Classes
+
+```python
+# Importation des classes nécessaires du module gffanalyzer_m1bioinfo
+from gffanalyzer_m1bioinfo import Annotation, Gene, Transcrit, Exon
+
+# Création d'un objet Transcrit représentant un transcrit (ARN) d'un gène
+transcrit = Transcrit("transcrit1", "gene1", 100, 200, "+")
+
+# Création de deux objets Exon représentant des exons du transcrit
+exon1 = Exon("exon1", "transcrit1", "gene1", 100, 150, "+")
+exon2 = Exon("exon2", "transcrit1", "gene1", 160, 200, "+")
+
+# Ajout des exons au transcrit
+transcrit.add_exon(exon1)
+transcrit.add_exon(exon2)
+
+# Affichage de l'objet Transcrit, montrant ses informations et les exons associés
+print(transcrit)
+
+# Création d'un objet Gene représentant un gène avec des coordonnées génomiques
+gene = Gene("gene1", "gene_name1", 100, 1000, "+")
+print(gene)  # Vérifie l'affichage du gène, sans transcrit pour le moment
+
+# Création de deux objets Transcrit et ajout à un gène
+transcrit1 = Transcrit("transcrit1", "gene1", 100, 500, "+")
+transcrit2 = Transcrit("transcrit2", "gene1", 600, 1000, "+")
+gene.add_transcrit(transcrit1)
+gene.add_transcrit(transcrit2)
+
+# Affichage du gène avec les transcrits ajoutés
+print(gene)  # Vérifie que les deux transcrits ont été ajoutés au gène
+
+# Création de deux gènes avec le même ID mais des coordonnées génomiques légèrement différentes
+gene1 = Gene("gene1", "gene_name1", 100, 1000, "+")
+gene2 = Gene("gene1", "gene_name1", 50, 1100, "+")
+
+# Création de transcrits pour chaque gène
+transcrit1 = Transcrit("transcrit1", "gene1", 100, 500, "+")
+transcrit2 = Transcrit("transcrit2", "gene1", 600, 1000, "+")
+
+# Ajout des transcrits aux gènes respectifs
+gene1.add_transcrit(transcrit1)
+gene2.add_transcrit(transcrit2)
+
+# Fusion des deux gènes en un seul
+merged_gene = gene1 + gene2
+
+# Affichage du gène fusionné et de ses informations
+print(merged_gene)  # Vérifie que les gènes sont fusionnés correctement
+
+# Affichage de tous les transcrits du gène fusionné
+for tran in merged_gene.transcrits:
+    print(tran)  # Affiche les transcrits associés au gène fusionné
+```
+## Execution via le terminal 
+Conseil: Installer le package dans un environement virtuel
+```bash 
+> python3 -m venv < Mon_evironement >
+```
+- activer l'environement: source Mon_evironement/bin/activate
+
+**Pour afficher les grandes statistiques d'un fichier GFF :**
+```bash
+> python3 -m gffanalyzer_m1bioinfo data/example.gff --stats
+```
+**Pour générer un boxplot de la distribution des longueurs des transcrits :** 
+```bash
+> python3 -m gffanalyzer_m1bioinfo data/example.gff --output "your/path/to/export/your_plot.png"
+```
+
+## Réalisation 
+
+- **Auré Magloire AGBOMAKOUNZO**
+- **Séverin JORRY**
+
+## Enseignants - Encadrants 
+
+- **Arnaud MARY**
+- **Guillaume LAUNAY**
