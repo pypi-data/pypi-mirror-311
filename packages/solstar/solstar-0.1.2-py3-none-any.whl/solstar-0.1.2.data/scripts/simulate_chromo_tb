@@ -1,0 +1,8 @@
+#!python
+
+from solstar.simulate_chromo_TB import main
+import os
+
+if __name__ == "__main__":
+    result = main()
+    os._exit(result)
