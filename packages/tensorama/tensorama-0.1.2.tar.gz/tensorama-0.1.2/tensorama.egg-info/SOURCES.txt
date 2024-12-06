@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tensorama/__init__.py
+tensorama/tensorama.py
+tensorama.egg-info/PKG-INFO
+tensorama.egg-info/SOURCES.txt
+tensorama.egg-info/dependency_links.txt
+tensorama.egg-info/top_level.txt
