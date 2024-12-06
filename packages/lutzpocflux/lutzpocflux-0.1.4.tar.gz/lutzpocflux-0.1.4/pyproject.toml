@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "lutzpocflux"
+version = "0.1.4"
+description = "Calculate POC Export flux, as Lutz et al. 2007"
+authors = ["Alex Webber <alexpwebber@gmail.com>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/apwebber/LutzPOCFlux"
+Issues = "https://github.com/apwebber/LutzPOCFlux/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "1.26.4"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
