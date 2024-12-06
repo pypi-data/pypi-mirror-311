@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+todoapp/__init__.py
+todoapp/todo.py
+todoapp_CLI.egg-info/PKG-INFO
+todoapp_CLI.egg-info/SOURCES.txt
+todoapp_CLI.egg-info/dependency_links.txt
+todoapp_CLI.egg-info/entry_points.txt
+todoapp_CLI.egg-info/top_level.txt

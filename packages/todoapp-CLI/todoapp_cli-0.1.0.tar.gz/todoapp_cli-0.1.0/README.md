@@ -1,0 +1,57 @@
+# To-Do List CLI App
+
+A simple command-line to-do list application that allows users to add, view, and mark tasks as completed.
+
+## Installation
+
+To install the package, run:
+
+```bash
+pip install todoapp
+```
+
+## Usage
+To run the application, use the following command:
+```bash
+todoapp
+```
+Type ```HELP``` to view the available commands.
+
+## Contributing
+Feel free to fork the repository, open issues, and submit pull requests!
+
+#### 7. **Test Locally**
+
+Before distributing your package, test it locally to ensure everything works:
+
+- Navigate to the root directory of your project.
+- Install the package locally:
+
+```bash
+pip install .
+```
+-Run the application to test:
+```bash
+todoapp
+```
+Ensure everything works as expected.
+
+## Conclusion
+
+Thank you for exploring the To-Do List CLI App! I hope it helps you stay organized and manage your tasks with ease. If you find this project useful or interesting, feel free to contribute by opening issues or submitting pull requests. Your feedback is always appreciated!
+
+If you enjoyed this project, please consider starring it on GitHub and sharing it with others!
+
+## About Me
+
+Hi, I'm **Himanshu Kumar Jha**, a passionate Python developer and open-source enthusiast. I love building useful tools and contributing to the tech community. When I'm not coding, you can find me exploring new technologies, working on personal projects, and learning new skills. 
+
+Feel free to connect with me on [GitHub](https://github.com/himanshu-kr-jha) or [LinkedIn](https://www.linkedin.com/in/himanshu-kumar-jha-software-engineer/).
+
+Thanks for checking out my project, and I hope it makes your day a little more productive!
+
+Happy coding! 🚀
+
+
+
+

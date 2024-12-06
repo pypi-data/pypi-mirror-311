@@ -1,0 +1,6 @@
+# MANIFEST.in
+
+include README.md
+include LICENSE
+recursive-include todoapp *.py
+recursive-include tests *.py
