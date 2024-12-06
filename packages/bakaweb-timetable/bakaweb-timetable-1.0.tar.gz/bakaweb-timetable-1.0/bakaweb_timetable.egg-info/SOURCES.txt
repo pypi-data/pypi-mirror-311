@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bakaweb_timetable/__init__.py
+bakaweb_timetable/bakaweb_timetable.py
+bakaweb_timetable.egg-info/PKG-INFO
+bakaweb_timetable.egg-info/SOURCES.txt
+bakaweb_timetable.egg-info/dependency_links.txt
+bakaweb_timetable.egg-info/requires.txt
+bakaweb_timetable.egg-info/top_level.txt
