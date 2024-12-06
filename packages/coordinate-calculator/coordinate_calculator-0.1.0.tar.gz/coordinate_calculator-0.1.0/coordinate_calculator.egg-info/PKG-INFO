@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: coordinate_calculator
+Version: 0.1.0
+Summary: A Python library to calculate GPS coordinates from detected points in images.
+Author-email: Your Name <your.email@example.com>
+Project-URL: Homepage, https://github.com/ITPATJIDR/Coordinate_Calculator
+Description-Content-Type: text/markdown
+License-File: LICENSE
