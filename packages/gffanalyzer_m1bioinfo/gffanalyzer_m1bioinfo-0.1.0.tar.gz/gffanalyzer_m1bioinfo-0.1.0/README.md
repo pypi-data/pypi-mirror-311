@@ -1,0 +1,88 @@
+# Projet d'Annotation Génomique
+
+## Script d'Annotation Génomique : `annotation.py`
+
+## Introduction
+
+Ce projet permet l'annotation génomique à partir de fichiers GFF. Nous avons choisi de structurer les informations à l'aide de trois classes principales : `Gene`, `Transcrit`, et `Exon`. Ces classes permettent de gérer, de manipuler et de visualiser les informations des gènes, transcrits et exons extraits d'un fichier GFF. Le projet inclut également une fonction permettant de générer un boxplot des longueurs des exons par gène.
+
+## Libertés prises par rapport à l'énoncé
+
+Nous avons pris plusieurs libertés par rapport à l'énoncé initial pour mieux répondre aux besoins spécifiques du projet tout en simplifiant certaines parties du processus d'annotation génomique. Voici les principales modifications et ajustements apportés :
+
+### 1. Structure des classes
+
+Les classes `Gene`, `Transcrit`,`Exon` et `Annotation`  ont été créées pour encapsuler les informations relatives aux gènes, transcrits et exons, suivant l'énoncé. Ces classes contiennent les attributs suivants :
+- **`Gene`** : ID du gène, nom, coordonnées de début et de fin, brin, et la liste des transcrits associés et la ligne de fichier gff associée.
+- **`Transcrit`** : ID du transcrit, ID du gène parent, coordonnées de début et de fin, brin, la liste des exons associés et la ligne de fichier gff associée.
+- **`Exon`** : ID de l'exon, ID du transcrit parent, ID du gène parent, coordonnées de début et de fin, le brin et la ligne de fichier gff associée.
+- **`Annotation`** : dictionnaire de gènes associés.
+
+### 2. Méthodes classiques de l'énoncé
+
+Les fonctions classiques telles que `__init__`, `__add__`, et `__eq__` ont été implémentées de manière standard, conformément à l'énoncé. Le constructeur `__init__` initialise les attributs des classes `Gene`, `Transcrit`, et `Exon` lors de la création des objets. La méthode `__add__` permet d'ajouter des objets de la même classe avec l'opérateur `+`, avec une vérification préalable pour s'assurer que les objets sont de même nature. Quant à `__eq__`, elle compare l'égalité de deux objets en vérifiant l'identité de leurs attributs principaux. Ces fonctions ont été réalisées de façon standard tout en garantissant la validité des opérations entre objets de même type.
+
+### 3. Méthode `rna_lens`
+
+Une fonction spécifique `rna_lens` a été développée pour créer un **boxplot** représentant les longueurs des exons pour chaque gène. Cette fonction prend en entrée une annotation et génère un graphique illustrant la distribution des longueurs des exons par gène. Ce graphique permet de visualiser la variation de taille des exons entre différents gènes. Le développement de cette fonction a nécessité l'ajout d'une méthode auxiliaire, `_calculate_transcript_lengths`, qui calcule les longueurs des transcrits en sommant les longueurs des exons pour chaque gène. Cette méthode est utilisée par `rna_lens` afin de simplifier et raccourcir le code. De plus, la fonction fait appel à la bibliothèque `matplotlib` pour personnaliser et améliorer le visuel du graphique généré, assurant ainsi une meilleure lisibilité des résultats.
+
+### 4. Parsing des attributs GFF
+
+Nous avons développé un mécanisme pour parser les attributs de chaque ligne GFF et les associer aux entités correspondantes. Pour cela, nous avons développé les méthodes `_parse_gff` et `_parse_attributes`. Cette approche permet d'extraire des informations spécifiques comme les IDs et noms des gènes, transcrits et exons, facilitant ainsi l'annotation complète des données génétiques. La gestion des erreurs dans ce projet a été améliorée, notamment dans pour traiter les fichiers GFF malformés (lignes manquantes ou malformées), ce qui garantit une robustesse accrue du programme dans des contextes variés.
+
+## Fonctionnalités supplémentaires
+
+- **Statistiques des annotations** : Une fonctionnalité dédiée permet de générer des statistiques détaillées sur les gènes, transcrits et exons, offrant une vue d'ensemble des annotations génomiques. 
+- **Améliorations structurelles** : L'ajout des méthodes spéciales comme `__iter__` et `__getitem__` dans la classe `Annotation` a permis de parcourir et d'accéder facilement aux données des annotations, rendant leur manipulation plus intuitive et efficace.
+- **Execution depuis le terminal** : Ajout d'un fichier `script_annotation.py` permettant d'executer certaines fonctionnalités depuis le terminal (cf. Script d'Annotation Génomique : `script_annotation.py`)
+
+## Instructions d'utilisation
+
+1. **Importer le fichier GFF** : Utilisez la classe `Annotation` pour parser un fichier GFF contenant les annotations génomiques.
+2. **Visualiser les exons** : Appelez la fonction `rna_lens` pour générer un boxplot des longueurs des exons par gène.
+3. **Fusionner des annotations** : Utilisez l'opérateur `+` pour fusionner des objets `Gene` ou `Annotation`.
+
+## Aide
+
+En exécutant `print(help.nom_méthode)`, dans un interpreteur python, vous obtenez des informations supplémentaires sur la méthode spécifiée, y compris sa description, ses paramètres et son comportement.
+
+
+---
+
+
+## Script d'Annotation Génomique : `script_annotation.py`
+
+Le script `script_annotation.py` permet d'analyser les annotations biologiques à partir d'un fichier au format GFF directement depuis le terminal. Il offre deux fonctionnalités principales :
+
+1. **Générer et sauvegarder un boxplot des longueurs des transcrits** avec l'option `--output` ou `-o`.
+2. **Afficher des statistiques détaillées sur les gènes, transcrits et exons** avec l'option `--stats`.
+
+### Utilisation
+
+Pour exécuter ce script, vous devez fournir un fichier d'annotation GFF en argument et choisir l'option que vous souhaitez utiliser.
+
+
+#### Commandes disponibles
+
+- Fournir en argument le chemin du fichier d'annotation GFF.
+- Ajouter l'option `--stats` pour afficher les statistiques des annotations.
+- Ajouter l'option `--output <chemin>` pour générer un boxplot et le sauvegarder dans le fichier spécifié.
+- Ajouter l'option `--help` pour afficher un message d'aide.
+
+#### Exemples de commandes bash :
+
+1. **Afficher les statistiques des annotations** :
+   ```bash
+   > python3 script_annotation.py fichier.gff --stats
+
+2. **Générer un boxplot des longueurs des transcrits** :
+    ```bash
+    > python3 script_annotation.py fichier.gff --output monplot.png
+
+
+## Conclusion
+
+Ce projet simplifie et enrichit le processus d'annotation génomique en fournissant des structures de données adaptées et des outils de visualisation efficaces. Les libertés prises par rapport à l'énoncé permettent une meilleure flexibilité et une intégration facilitée dans des workflows génomiques complexes.
+
+
+_Projet réalisé par : Auré Magloire AGBOMAKOUNZO et Séverin JORRY_

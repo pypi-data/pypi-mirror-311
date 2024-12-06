@@ -1,0 +1,21 @@
+class A:
+    def __init__(self,list):
+        self.ma_liste = list
+
+    def __iter__(self):
+        for elt in self.ma_liste:
+            yield elt 
+    
+    #def __iter__(self):
+     #   for i in range(self.n):
+      #      if i%2 == 0:
+       #         yield i # comme return mais ne stoppe pas la fonction
+
+a = A([10, 2, 24, 54])
+
+for elt in a:
+    print(elt)
+
+b = list(a)
+
+print(iter(a))
