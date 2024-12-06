@@ -1,0 +1,17 @@
+monze/__init__.py,sha256=i7gphn1bsOCPs_35XLZS3eLvN-DYbdxSbM4O58hBLjU,7165
+monze/beheer.py,sha256=R5kqGpwqWqTHe8mSiFSzPYuai49PEhcjADPNjw6b0xc,4197
+monze/editviews.py,sha256=nJ05ed779ThFEPf03MIDccP2RoBVrH-Myy-TX5FhO2A,6960
+monze/emails.py,sha256=nmr1708ZaJeOx_19t5BrbVepJ2YYjQFjzHphyzEl2Ko,1832
+monze/general.py,sha256=ths_qIAqoQqpG-T9XgHnpb0AfRK0GTPfNbqIYigtdJU,20417
+monze/groepen.py,sha256=Yy74QlfY9ktTIQu-EaOqT8u6_IxO7qYWOLsR010tQlY,10790
+monze/home.py,sha256=W3OzP3WWDU2U25Q53Hd5tcYxORuSRY9y-2Qlrm2Aews,1501
+monze/singletons.py,sha256=pSz3LIiOo_7iqO-M5-ekyG1kfhwYsfrRDf3JIj2mpy4,26195
+monze/studenten.py,sha256=x9yHzQoPGlEkaECY2NeNVQ-p7Nm3UbY48AaYxs5uGw8,25604
+monze/views.py,sha256=Fv9l-FAJDP1sNzD2ZjTaPD8DxC7RNBVpfWlaNsMT6TA,2447
+monze/website.py,sha256=O7GduUVXDYZ9TX7PqDsyi2rFRl7x9dpJ7Ae-0jaoyAA,19657
+monze-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+monze-0.0.4.dist-info/METADATA,sha256=v3EN1155dW-iq0_2RtQXk3LRTr18HfQYGq-BbX3Cijk,863
+monze-0.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+monze-0.0.4.dist-info/entry_points.txt,sha256=nVq2tNb36flmCLIPiakQ4G32hU4i9fhhLcBiHVsJ4hw,36
+monze-0.0.4.dist-info/top_level.txt,sha256=47dMJd5I-jcCi3fvaUpB35dN-FjG0Yzjcmi6vnb5GWY,6
+monze-0.0.4.dist-info/RECORD,,
