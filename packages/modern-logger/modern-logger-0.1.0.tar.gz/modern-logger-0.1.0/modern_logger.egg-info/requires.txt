@@ -1,0 +1,7 @@
+fastapi
+rich
+pyyaml
+pydantic
+uvicorn
+aiohttp
+asyncio

@@ -1,0 +1,518 @@
+# modern Logger
+
+Un système de logging avancé Python avec support ULID, rotation des fichiers, API REST, et bien plus encore.
+
+## 📚 Table des matières
+- [Caractéristiques](#-caractéristiques)
+- [Installation](#-installation)
+- [Démarrage Rapide](#-démarrage-rapide)
+- [Configurations](#-configurations)
+- [Formats d'Affichage](#-formats-daffichage)
+- [Modes d'Utilisation](#-modes-dutilisation)
+- [API REST](#-api-rest)
+- [Architecture](#-architecture)
+- [Exemples Avancés](#-exemples-avancés)
+
+## 🌟 Caractéristiques
+
+- 📝 **Logging Structuré**: Utilisation d'ULID pour une traçabilité précise
+- 🔄 **Gestion Intelligente**: Rotation et compression automatique des fichiers
+- 🔍 **Recherche Puissante**: Recherche avancée avec filtres multiples
+- 🌐 **API REST**: API complète pour l'intégration avec d'autres services
+- 📊 **Métriques**: Suivi des performances et statistiques
+- 🔒 **Sécurité**: Masquage automatique des données sensibles
+
+## 📥 Installation
+
+```bash
+# Installation de base
+pip install modern-logger
+
+# Installation avec dépendances optionnelles
+pip install modern-logger[full]
+```
+
+### Prérequis
+- Python 3.7+
+- asyncio
+- FastAPI (pour l'API REST)
+
+## 🚀 Démarrage Rapide
+
+### 1. Logging Simple
+```python
+import asyncio
+from modern_logger import modernLogger
+
+async def main():
+    logger = modernLogger("MyApp")
+    
+    # Log basique
+    await logger.log("INFO", "system", "startup", "App started", "main")
+    
+    # Log avec métadonnées
+    await logger.log(
+        "INFO", 
+        "user123",
+        "login",
+        "User logged in",
+        "auth",
+        metadata={"ip": "192.168.1.1"}
+    )
+    
+    await logger.close()
+
+asyncio.run(main())
+```
+
+### 2. Wrapper Pratique
+```python
+class AppLogger:
+    def __init__(self, app_name: str):
+        self.logger = modernLogger(app_name)
+        
+    async def info(self, message: str, user_id: str = "system"):
+        await self.logger.log("INFO", user_id, "info", message, "app")
+        
+    async def error(self, message: str, user_id: str = "system"):
+        await self.logger.log("ERROR", user_id, "error", message, "app")
+
+# Utilisation
+async def main():
+    app_logger = AppLogger("MyService")
+    await app_logger.info("Service démarré")
+    await app_logger.error("Erreur de connexion")
+```
+
+## ⚙️ Configurations
+
+### Configuration par Fichier YAML
+```yaml
+# config.yaml
+basic:
+  log_dir: "logs"
+  default_level: "INFO"
+  locale: "fr"
+
+performance:
+  rotation_size: 5242880  # 5 MB
+  buffer_size: 100
+  retention_days: 30
+
+security:
+  sensitive_fields:
+    - password
+    - token
+    - api_key
+    - secret
+
+api:
+  enabled: true
+  host: "0.0.0.0"
+  port: 8000
+
+display:
+  format: "DETAILED"  # SHORT/DETAILED/FULL
+  colors_enabled: true
+```
+
+### Configuration Programmatique
+```python
+logger = modernLogger(
+    "MyApp",
+    config_path="config.yaml",     # Fichier de config
+    display_format="DETAILED",     # Format d'affichage
+)
+```
+
+## 🎨 Formats d'Affichage
+
+```python
+# 1. Format Court (SHORT)
+logger = modernLogger("MyApp", display_format="SHORT")
+await logger.log("INFO", "user123", "login", "Connexion réussie", "auth")
+# Affiche: [INFO] User: user123 | Action: login | Description: Connexion réussie
+
+# 2. Format Détaillé (DETAILED)
+logger = modernLogger("MyApp", display_format="DETAILED")
+# Affiche: [INFO] Date: 2024-11-27 15:30:45 | User: user123 | Action: login | Description: Connexion réussie | ID: 01JDQ221...
+
+# 3. Format Complet (FULL)
+logger = modernLogger("MyApp", display_format="FULL")
+# Affiche le JSON complet avec toutes les informations
+```
+
+## 🔄 Modes d'Utilisation
+
+### 1. Mode Local
+```python
+logger = modernLogger("LocalApp")
+await logger.log(...)
+```
+
+### 2. Mode Client-Serveur
+
+#### Serveur (log_server.py)
+```python
+import asyncio
+from modern_logger import modernLogger, LogAPI
+
+async def init_logger():
+    return modernLogger("LogServer")
+
+def main():
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    
+    logger = loop.run_until_complete(init_logger())
+    api = LogAPI(logger)
+    api.run(host="0.0.0.0", port=8000)
+
+if __name__ == "__main__":
+    main()
+```
+
+#### Client (log_client.py)
+```python
+from modern_logger import LogClient
+
+async def main():
+    client = LogClient("http://localhost:8000")
+    
+    # Log simple
+    response = await client.log(
+        "INFO",
+        "user123",
+        "action",
+        "Description",
+        "component"
+    )
+    print(response)  # {'status': 'success', 'message': 'Log created'}
+
+asyncio.run(main())
+```
+
+## 🌐 API REST
+
+### Endpoints Disponibles
+
+| Méthode | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/log` | Créer un nouveau log |
+| GET | `/logs` | Rechercher les logs |
+| GET | `/metrics` | Obtenir les métriques |
+| GET | `/level` | Niveau actuel |
+| POST | `/level/{level}` | Changer le niveau |
+| GET | `/health` | État du service |
+| GET | `/config` | Configuration |
+
+### Exemple avec curl
+```bash
+# Créer un log
+curl -X POST http://localhost:8000/log \
+  -H "Content-Type: application/json" \
+  -d '{
+    "level": "INFO",
+    "user_id": "user123",
+    "action": "test",
+    "description": "Test message",
+    "component": "api"
+  }'
+
+# Obtenir les métriques
+curl http://localhost:8000/metrics
+```
+
+## 🏗️ Architecture
+
+```
+modern_logger/
+├── __init__.py          # Exports publics
+├── logger.py            # Logger principal
+├── api.py              # Interface REST
+├── client.py           # Client HTTP
+├── config.py           # Gestion config
+├── core.py             # Composants centraux
+├── models.py           # Modèles Pydantic
+├── storage.py          # Gestion stockage
+└── ulid.py             # Générateur ULID
+```
+
+## 🎯 Exemples Avancés
+
+### Gestion des Erreurs
+```python
+async def process_order(logger, order_data):
+    try:
+        await logger.log(
+            "INFO",
+            order_data["user_id"],
+            "process_order",
+            f"Processing order {order_data['id']}",
+            "orders"
+        )
+        
+        result = await process(order_data)
+        
+        await logger.log(
+            "INFO",
+            order_data["user_id"],
+            "order_complete",
+            f"Order {order_data['id']} processed",
+            "orders",
+            metadata={"result": result}
+        )
+        
+    except Exception as e:
+        await logger.log(
+            "ERROR",
+            order_data["user_id"],
+            "order_error",
+            f"Failed to process order {order_data['id']}",
+            "orders",
+            metadata={"error": str(e)}
+        )
+        raise
+```
+## 📊 Métriques et Statistiques
+
+### Collecter des Métriques
+```python
+async def analyze_metrics(logger):
+    # Obtenir les statistiques sur 24h
+    stats = await logger.get_statistics(24)
+    
+    print(f"Total logs: {stats['total_logs']}")
+    print(f"Taux d'erreur: {stats['error_rate']}%")
+    print("\nLogs par niveau:")
+    for level, count in stats['logs_by_level'].items():
+        print(f"- {level}: {count}")
+```
+
+### Monitorer en Temps Réel
+```python
+async def monitor_logs(logger):
+    client = Client(id="monitor", log_level="INFO")
+    logger.subscribe(client)
+    
+    try:
+        while True:
+            print("\nEn attente de nouveaux logs...")
+            await asyncio.sleep(1)
+    except KeyboardInterrupt:
+        logger.unsubscribe(client.id)
+```
+
+## 🔍 Recherche Avancée
+
+### Recherche par Critères
+```python
+async def search_example(logger):
+    # Recherche simple
+    logs = await logger.storage.search_logs(
+        query="error",
+        level="ERROR"
+    )
+    
+    # Recherche avec plage de dates
+    from datetime import datetime, timedelta
+    end_time = datetime.now()
+    start_time = end_time - timedelta(hours=24)
+    
+    critical_logs = await logger.storage.search_logs(
+        level="ERROR",
+        start_time=start_time,
+        end_time=end_time
+    )
+```
+
+## 🛡️ Sécurité et Sanitization
+
+### Configuration des Champs Sensibles
+```yaml
+# security_config.yaml
+sensitive_fields:
+  - password
+  - token
+  - credit_card
+  - ssn
+  - api_key
+  - secret
+  - authorization
+```
+
+### Exemple avec Données Sensibles
+```python
+async def process_user_data(logger, user_data):
+    # Les champs sensibles seront automatiquement masqués
+    await logger.log(
+        "INFO",
+        user_data["id"],
+        "user_update",
+        "User data updated",
+        "users",
+        metadata={
+            "password": "secret123",  # Sera masqué
+            "email": "user@example.com",
+            "api_key": "ak_123456"  # Sera masqué
+        }
+    )
+```
+
+## 🔄 Rotation et Nettoyage
+
+### Configuration de la Rotation
+```python
+logger = modernLogger(
+    "MyApp",
+    config={
+        "rotation_size": 5 * 1024 * 1024,  # 5 MB
+        "retention_days": 30,
+        "compression_enabled": True
+    }
+)
+```
+
+### Nettoyage Manuel
+```python
+async def maintenance(logger):
+    # Nettoyer les logs plus vieux que retention_days
+    await logger.cleanup()
+    
+    # Forcer une rotation
+    await logger.storage._rotate_file()
+```
+
+## 🌐 Configuration API Avancée
+
+### Configuration du Serveur
+```python
+from modern_logger import modernLogger, LogAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+async def setup_api():
+    logger = modernLogger("APIServer")
+    api = LogAPI(logger)
+    
+    # Configuration CORS
+    api.app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_methods=["*"],
+        allow_headers=["*"]
+    )
+    
+    return api
+
+# Lancement avec configuration personnalisée
+api = asyncio.run(setup_api())
+api.run(
+    host="0.0.0.0",
+    port=8000,
+    workers=4,
+    reload=True  # En développement
+)
+```
+
+### Client API Avancé
+```python
+class EnhancedLogClient:
+    def __init__(self, base_url: str, service_name: str):
+        self.client = LogClient(base_url)
+        self.service = service_name
+    
+    async def log_with_context(
+        self,
+        level: str,
+        user_id: str,
+        action: str,
+        description: str,
+        metadata: dict = None
+    ):
+        try:
+            metadata = metadata or {}
+            metadata["service"] = self.service
+            metadata["timestamp"] = datetime.now().isoformat()
+            
+            response = await self.client.log(
+                level,
+                user_id,
+                action,
+                description,
+                "enhanced",
+                metadata
+            )
+            
+            if response.get("status") != "success":
+                print(f"Warning: Log non créé - {response.get('message')}")
+                
+            return response
+            
+        except Exception as e:
+            print(f"Erreur de logging: {e}")
+            return None
+
+# Utilisation
+client = EnhancedLogClient("http://localhost:8000", "UserService")
+await client.log_with_context(
+    "INFO",
+    "user123",
+    "login",
+    "Connexion réussie",
+    {"ip": "192.168.1.1"}
+)
+```
+
+## 📈 Visualisation des Logs
+
+Le package peut être intégré avec des outils de visualisation comme Grafana ou Kibana. Voici un exemple avec une interface web simple :
+
+```python
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+
+app = FastAPI()
+
+@app.get("/dashboard", response_class=HTMLResponse)
+async def dashboard():
+    return """
+    <html>
+        <head>
+            <title>Log Dashboard</title>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        </head>
+        <body>
+            <div id="logChart"></div>
+            <script>
+                async function updateChart() {
+                    const response = await fetch('/metrics');
+                    const data = await response.json();
+                    
+                    Plotly.newPlot('logChart', [{
+                        x: Object.keys(data.logs_by_level),
+                        y: Object.values(data.logs_by_level),
+                        type: 'bar'
+                    }]);
+                }
+                
+                updateChart();
+                setInterval(updateChart, 5000);
+            </script>
+        </body>
+    </html>
+    """
+```
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! Voici comment contribuer :
+
+1. Fork le projet
+2. Créez votre branche (`git checkout -b feature/AmazingFeature`)
+3. Committez vos changements (`git commit -m 'Add AmazingFeature'`)
+4. Push sur la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
+
+## 📄 License
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
