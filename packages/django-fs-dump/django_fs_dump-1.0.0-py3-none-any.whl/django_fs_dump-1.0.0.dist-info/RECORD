@@ -1,0 +1,15 @@
+fs_dump/__init__.py,sha256=lsNJ2wjTI-e5PGZXRCrJ6CAqyr8JVGS14vd7h6uSZl0,49
+fs_dump/admin.py,sha256=qWhzDLqNdywDAwLZn_YlNIVr-B64NJln4A63Z-g9wH4,4352
+fs_dump/apps.py,sha256=F-XiBpXvGkjYShXQ78236pbLTEtbZkwd1MTSI6PV1Ww,124
+fs_dump/models.py,sha256=8KaaGFEpL2kJh0c2_K04CED3k9xuwq6pTPiqAfr3d4c,893
+fs_dump/settings.py,sha256=eCa_sjoGaUtpSoSvh3u7SgU7Vksy4kSXlcDhQ0eijPI,28
+fs_dump/utils.py,sha256=0pqEGnLjBWYfH9apk5BuiYOX1ZCWmg7oQxyU_knTxSs,2640
+fs_dump/migrations/0001_initial.py,sha256=oHvt3Cny9GdOzzmbk_qE9p8zHN4-FKdLzDJ4zQZdgPY,920
+fs_dump/migrations/0002_remove_dump_output_alter_dump_database_dump_and_more.py,sha256=KiZV0MOGS4VyAyWx7Bmw18aQ5Msf2SHzLKqSFdSjhM4,960
+fs_dump/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fs_dump/templates/admin/fs_dump/change_list_object_tools.html,sha256=Evxtut0KlJ3UsZXIAfHy7junq4y7RJ4yJVPOcCaspW4,596
+django_fs_dump-1.0.0.dist-info/LICENSE,sha256=tqHY4BD9xlWVNbZPaPpf6Q6qdiDu52kRRRt9rmhPJKw,1088
+django_fs_dump-1.0.0.dist-info/METADATA,sha256=yhF459v7UMf2_14xedAq4lAdHeEstt1mPolFrOg4UVs,1301
+django_fs_dump-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+django_fs_dump-1.0.0.dist-info/top_level.txt,sha256=C_horo4_pNikJgxlVTyvMungIHkA3Z4p18NbURNCwkU,8
+django_fs_dump-1.0.0.dist-info/RECORD,,
