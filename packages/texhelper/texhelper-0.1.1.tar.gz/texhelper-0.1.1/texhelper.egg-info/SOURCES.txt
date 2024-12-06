@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+texhelper/__init__.py
+texhelper/bibtex.py
+texhelper.egg-info/PKG-INFO
+texhelper.egg-info/SOURCES.txt
+texhelper.egg-info/dependency_links.txt
+texhelper.egg-info/requires.txt
+texhelper.egg-info/top_level.txt
