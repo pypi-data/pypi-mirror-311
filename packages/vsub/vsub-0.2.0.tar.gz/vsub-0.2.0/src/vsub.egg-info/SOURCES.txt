@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/vsub.egg-info/PKG-INFO
+src/vsub.egg-info/SOURCES.txt
+src/vsub.egg-info/dependency_links.txt
+src/vsub.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_sx_default.py
