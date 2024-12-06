@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dbt-fivetran
+Version: 0.0.16
+Summary: dbt (data build tool) adapter for Fivetran Datalake
+Home-page: https://github.com/fivetran/dbt-fivetran
+Author: emrah diril
+Author-email: emrah.diril@fivetran.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+long_description
