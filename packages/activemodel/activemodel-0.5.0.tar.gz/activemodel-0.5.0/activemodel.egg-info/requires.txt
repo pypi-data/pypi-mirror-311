@@ -1,0 +1,4 @@
+pydash>=8.0.4
+python-decouple-typed>=3.11.0
+sqlmodel>=0.0.22
+typeid-python>=0.3.1
