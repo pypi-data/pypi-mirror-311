@@ -1,0 +1,107 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "pydantic-file-secrets"
+version = "0.4.1"
+description = "Use file secrets in nested Pydantic Settings models, drop-in replacement for SecretsSettingsSource.\n"
+authors = [
+    { name = "Michael Makukha", email = "m.makukha@gmail.com" },
+]
+readme = "README.md"
+keywords = [
+    "python",
+    "python3",
+    "pydantic",
+    "pydantic-v2",
+    "pydantic-settings",
+    "settings",
+    "configuration",
+    "config",
+    "validation",
+    "secrets",
+    "docker-secret",
+    "docker",
+    "file-secrets",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Pydantic",
+    "Framework :: Pydantic :: 2",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pydantic-settings>=2.2",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Documentation = "https://github.com/makukha/pydantic-file-secrets#readme"
+Changelog = "https://github.com/makukha/pydantic-file-secrets/releases"
+Issues = "https://github.com/makukha/pydantic-file-secrets/issues"
+Source = "https://github.com/makukha/pydantic-file-secrets"
+
+[tool.bumpversion]
+current_version = "0.4.1"
+allow_dirty = true
+files = [
+    { filename = "pyproject.toml" },
+    { filename = "README.md" },
+    { filename = "src/pydantic_file_secrets/__version__.py" },
+]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+target-version = "py313"
+
+[tool.ruff.lint]
+select = [
+    "E4",
+    "E7",
+    "E9",
+    "F",
+    "S",
+]
+ignore = []
+fixable = [
+    "ALL",
+]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.extend-per-file-ignores]
+"tests/**/*.py" = [
+    "S101",
+    "ARG",
+]
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
+
+[tool.uv]
+package = true
