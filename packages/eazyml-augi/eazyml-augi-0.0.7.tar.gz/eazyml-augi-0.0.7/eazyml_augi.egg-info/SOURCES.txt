@@ -1,0 +1,8 @@
+README.md
+setup.py
+./eazyml_augi/__init__.py
+./eazyml_augi/compiledeazyml.cpython-38-darwin.so
+eazyml_augi.egg-info/PKG-INFO
+eazyml_augi.egg-info/SOURCES.txt
+eazyml_augi.egg-info/dependency_links.txt
+eazyml_augi.egg-info/top_level.txt
