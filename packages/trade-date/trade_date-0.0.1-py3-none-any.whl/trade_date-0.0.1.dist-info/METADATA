@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: trade_date
+Version: 0.0.1
+Summary: High frequency functions and class for business day
+Home-page: https://gitee.com/wdy0401/trade_date
+Author: wangdeyang
+Author-email: wdy0401@gmail.com
+License: MIT
+
