@@ -1,0 +1,11 @@
+tool_inventory/__init__.py,sha256=7flibCHWCVdlxwGPhzbEMRcH5k1WMtdfk37P8HBDuhc,22
+tool_inventory/connections.py,sha256=TchSkqBwje7wooJXBiL_-zRnpBJubpDP_LNUfi6YxbE,2504
+tool_inventory/main.py,sha256=H1mV2EOgYIKmp7BoVO9p-75F6dG0xuyl52BRg10EnRA,1309
+tool_inventory/models.py,sha256=B_oeCtFalgOM0oZE-xVS50Q6rlQCJ6basQihveV4PgM,414
+tool_inventory/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tool_inventory/routers/__init__.py,sha256=0OIxHA4Ix0dMV_u-MCkeQ8Xv19h4ubJ-bpqmL4IAuWo,15
+tool_inventory/routers/tools.py,sha256=CPTpLjMF7_2UmeqZjVByeKmyra8-RyKjPNRKMf1bcLw,900
+tool_inventory-0.1.0.dist-info/LICENSE,sha256=1PYXP8BCQ2QWa8Na_fNP_oMkh1IvUSNzpsLP79R-7Bo,1071
+tool_inventory-0.1.0.dist-info/METADATA,sha256=221908kqnrQ6zC9-UAEObFdUjCSiTChyHexMrmtjTvI,6744
+tool_inventory-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tool_inventory-0.1.0.dist-info/RECORD,,
