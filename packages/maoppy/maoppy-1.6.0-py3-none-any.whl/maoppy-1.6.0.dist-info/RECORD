@@ -1,0 +1,16 @@
+maoppy/__init__.py,sha256=9ZpH1MLCPFb-zQdil1VLbCcwKX9I5B9vpRJjJhM17Bs,141
+maoppy/instrument.py,sha256=DYR5SsAi2HOmhmss26HgJA4Qzkkl771TrGi72fZpyGw,12058
+maoppy/psffit.py,sha256=fKth41EzXCBciqJWVYsKJfmmC9rybpV0cxt0mztTjgU,6549
+maoppy/psfmodel.py,sha256=qRyRCPWh1rzsYXwQNsR1KOedoKeXf_i_bVPTnTlpYRA,32796
+maoppy/psfutils.py,sha256=XOJalQNJuPfqdo8fH14oF-zLEgKQkcZjbGzn3U6DesY,7338
+maoppy/utils.py,sha256=HHTX-PD86utTy4OV4CR2vBRouj1k4XVuzxPrF7ihzwE,6656
+maoppy/data/harmoni.ini,sha256=zxIS4ehhaIGVIfjArqkbzqXZUGoj1XOR_A2KQ-9re0w,376
+maoppy/data/muse_nfm.ini,sha256=8QdPXT3LOIK3bScDhRgym68DwrnGIefgoXmXcW3J9c4,383
+maoppy/data/muse_wfm.ini,sha256=a7HhQ5UL7bkfPne-qzOnl8YNa0e0FEd_7OVwUTzJOtE,383
+maoppy/data/papyrus.ini,sha256=IbEf6Uhd3XrVDnOBSMjZG9C7TRJo_iWnwISj4iQt2s8,453
+maoppy/data/zimpol.ini,sha256=Qjy7eSQcvgNfHAx9c28o6-jalgMeCynxHqOm2tXzIxE,474
+maoppy-1.6.0.dist-info/LICENSE,sha256=3SRAJPjQDfJEZGAw-zLPGJgyasicaCWlhYsqi2de1FQ,35745
+maoppy-1.6.0.dist-info/METADATA,sha256=s5ahUrHAVlI2Z-q1ihciefdgIB-xh2emDdqTA3wCrZA,43712
+maoppy-1.6.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+maoppy-1.6.0.dist-info/top_level.txt,sha256=tZUGFisSzjaUGz21tR7UYjuEMo2A7LEHAe5-qPf1nao,7
+maoppy-1.6.0.dist-info/RECORD,,
