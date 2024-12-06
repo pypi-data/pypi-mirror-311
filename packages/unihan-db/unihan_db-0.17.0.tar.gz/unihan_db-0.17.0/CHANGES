@@ -1,0 +1,463 @@
+# Changelog
+
+To install the unreleased unihan-db version, see
+[developmental releases](https://unihan-db.git-pull.com/quickstart.html#developmental-releases).
+
+[pip](https://pip.pypa.io/en/stable/):
+
+```console
+$ pip install --user --upgrade --pre unihan-db
+```
+
+## unihan-db 0.18.x (unreleased)
+
+<!-- Maintainers, insert changes / features for the next release here -->
+
+## unihan-db 0.17.0 (2024-11-26)
+
+_Maintenance only, no bug fixes, or new features_
+
+### Development
+
+#### Project and package management: poetry to uv (#344)
+
+[uv] is the new package and project manager for the project, replacing Poetry.
+
+[uv]: https://github.com/astral-sh/uv
+
+## unihan-db 0.16.0 (2024-11-25)
+
+### Breaking Changes: UNIHAN Revision 37 (#345)
+
+Updates for UNIHAN [Revision 37](https://www.unicode.org/reports/tr38/tr38-37.html#Modifications):
+
+- Bump unihan-etl 0.34.0 -> 0.35.0
+
+#### Updated fields
+
+- `kRSUnicode`: Support for double and triple apostrophes for simplified radicals.
+
+#### Removed fields
+
+- [kFrequency](https://www.unicode.org/L2/L2024/24006.htm#178-C17)
+
+### Documentation
+
+- Automatically linkify links that were previously only text.
+
+## unihan-db 0.15.0 (2024-04-01)
+
+### Breaking changes: UNIHAN Revision 35 (#330)
+
+- Bump unihan-etl 0.27.0 -> 0.34.0
+
+#### Removed fields
+
+- 15.1.0: [kHKSCS](https://www.unicode.org/L2/L2023/23005.htm#174-C10),
+  [kIRGDaiKanwaZiten](https://www.unicode.org/L2/L2022/22241.htm#173-C9),
+  [kKPS0](https://www.unicode.org/L2/L2023/23005.htm#174-C11),
+  [kKPS1](https://www.unicode.org/L2/L2023/23005.htm#174-C11),
+  [kKSC0](https://www.unicode.org/L2/L2023/23005.htm#174-C9),
+  [kKSC1](https://www.unicode.org/L2/L2023/23005.htm#174-C9),
+  [kRSKangXi](https://www.unicode.org/L2/L2022/22241.htm#173-C12)
+- 13.0.0:
+  [kRSJapanese](https://www.unicode.org/cgi-bin/GetDocumentLink?L2/19-209),
+  [kRSKanWa](https://www.unicode.org/cgi-bin/GetDocumentLink?L2/19-209),
+  [kRSKorean](https://www.unicode.org/cgi-bin/GetDocumentLink?L2/19-209)
+- 12.0.0:
+  [kDefaultSortKey](https://www.unicode.org/cgi-bin/GetDocumentLink?L2/18-118)
+  (private property)
+
+### Development
+
+- Project and package management: poetry to uv (#344)
+
+  [uv] is the new package and project manager for the project, replacing Poetry.
+
+- Aggressive automated lint fixes via `ruff` (#333)
+
+  via ruff v0.3.4, all automated lint fixes, including unsafe and previews were applied:
+
+  ```sh
+  ruff check --select ALL . --fix --unsafe-fixes --preview --show-fixes; ruff format .
+  ```
+
+  Branches were treated with:
+
+  ```sh
+  git rebase \
+      --strategy-option=theirs \
+      --exec 'poetry run ruff check --select ALL . --fix --unsafe-fixes --preview --show-fixes; poetry run ruff format .; git add src tests; git commit --amend --no-edit' \
+      origin/master
+  ```
+
+- ruff 0.2.2 -> 0.3.0 (#332)
+
+  Related formattings. Update CI to use `ruff check .` instead of `ruff .`.
+
+  See also: https://github.com/astral-sh/ruff/blob/v0.3.0/CHANGELOG.md
+
+- Strengthen linting (#331)
+
+  - Add flake8-commas (COM)
+
+    - https://docs.astral.sh/ruff/rules/#flake8-commas-com
+    - https://pypi.org/project/flake8-commas/
+
+  - Add flake8-builtins (A)
+
+    - https://docs.astral.sh/ruff/rules/#flake8-builtins-a
+    - https://pypi.org/project/flake8-builtins/
+
+  - Add flake8-errmsg (EM)
+
+    - https://docs.astral.sh/ruff/rules/#flake8-errmsg-em
+    - https://pypi.org/project/flake8-errmsg/
+
+[uv]: https://github.com/astral-sh/uv
+
+## unihan-db 0.14.0 (2023-12-10)
+
+### Bug fixes
+
+- SQLAlchemy: Fix `add_to_dict()` event mapper bug (#325)
+
+  This allows `Unhn` rows to use `row.as_dict()` once more.
+
+- Importer bug fixes (#327): `kXHC1983`, `kHanyuPinyin`, `kHanyuPinlu`, `kCCCII`
+- Bump unihan-etl 0.30.0post0 -> 0.30.1
+
+  Fix `kRSUnicode` double apostrophes.
+
+### Development
+
+- unihan-etl: 0.29.0 -> 0.30.0post0
+
+  Documentation updates
+
+### CI
+
+- Move CodeQL from advanced configuration file to GitHub's default
+- ci: Add pydocstyle rule to ruff (#322)
+
+### Documentation
+
+- Add docstrings to functions, methods, classes, and packages (#322)
+- Split API docs into multiple pages (#328)
+
+### Tests
+
+- Test `examples/` (#324)
+
+  These are high-level integrative tests of the same example code the project
+  uses in documentation.
+
+  This brings code coverage from 69.77 to 93.92%.
+
+  **A note on test times**
+
+  - CI (GitHub Actions) can take 5-6 minutes per test
+
+    This may change in future cases when UNIHAN is cached.
+
+  - Initial (cold) py.tests on local environments won't be cached and will take
+    similar times. Subsequent tests can be <0.6 seconds.
+
+## unihan-db 0.13.0 (2023-11-19)
+
+### Packaging
+
+- Move pytest configuration to `pyproject.toml` (#318)
+- unihan-etl: 0.28.0 -> 0.29.0
+- Add Python 3.12 to trove classifiers
+- Packaging (poetry): Fix development dependencies
+
+  Per [Poetry's docs on managing dependencies] and `poetry check`, we had it wrong: Instead of using extras, we should create these:
+
+  ```toml
+  [tool.poetry.group.group-name.dependencies]
+  dev-dependency = "1.0.0"
+  ```
+
+  Which we now do.
+
+  [Poetry's docs on managing dependencies]: https://python-poetry.org/docs/master/managing-dependencies/
+
+### Development
+
+- ruff: Remove ERA / `eradicate` plugin
+
+  This rule had too many false positives to trust. Other ruff rules have been beneficial.
+
+- Poetry: 1.6.1 -> 1.7.0
+
+  See also: https://github.com/python-poetry/poetry/blob/1.7.0/CHANGELOG.md
+
+- Move formatting from `black` to [`ruff format`] (#321)
+
+  This retains the same formatting style of `black` while eliminating a
+  dev dependency by using our existing rust-based `ruff` linter.
+
+  [`ruff format`]: https://docs.astral.sh/ruff/formatter/
+
+- CI: Update action packages to fix warnings
+
+  - [dorny/paths-filter]: 2.7.0 -> 2.11.1
+
+  [dorny/paths-filter]: https://github.com/dorny/paths-filter
+
+## unihan-db 0.12.0 (2023-07-18)
+
+### Development
+
+- unihan-etl:
+
+  - 0.26.0 -> 0.27.0 (#317)
+
+    Fixes for pytest plugin data locations.
+
+  - 0.25.0 -> 0.26.0
+
+    pytest plugin with cached UNIHAN data.
+
+- ruff: Code quality fixes (#316)
+
+## unihan-db 0.11.0 (2023-07-01)
+
+_Maintenance only, no bug fixes, or new features_
+
+### Development
+
+- ruff: Improve code quality stringency (#315)
+- unihan-etl: 0.24.0 -> 0.25.0
+
+  Improve code quality via `ruff` rules strictness
+
+## unihan-db 0.10.0 (2023-06-24)
+
+_Maintenance only, no bug fixes, or new features_
+
+### Development
+
+- unihan-etl:
+
+  - 0.23.1 -> 0.24.0 (#314)
+
+    Subdependency updated for zhon: 1.1.5 -> 2.0.0 (#289, fixes #282)
+
+    [zhon 2.0's Release notes](https://github.com/tsroten/zhon/blob/v2.0.0/CHANGES.rst#v200-2023-06-24)
+
+    Fixes pytest warning related to regular expressions.
+
+  - 0.22.1 -> 0.23.0 (#314):
+
+    Package introduces configurable application directories (for test purposes)
+
+  - 0.21.1 -> 0.22.1 (#348):
+
+    {obj}`dataclasses.dataclass`-based configuration
+
+  - 0.19.2 -> 0.20.0
+
+    Drops python 3.7, normalizes `typing` imports
+
+## unihan-db 0.9.0 (2023-06-10)
+
+### Breaking changes
+
+- SQLAlchemy: Upgraded to v2 (#311)
+
+  Downstream packages will require SQLAlchemy v2 at a minimum.
+
+  Benefits in include: Built-in types for mypy, being able to use SQLAlchemy
+  core API against ORM entities.
+
+  See also: [What's new in SQLAlchemy
+  2.0](https://docs.sqlalchemy.org/en/20/changelog/whatsnew_20.html),
+  [Migrating to SQLAlchemy
+  2.0](https://docs.sqlalchemy.org/en/20/changelog/migration_20.html)
+
+- **Python 3.7 Dropped**
+
+  Python 3.7 support has been dropped (#309)
+
+  Its end-of-life is June 27th, 2023 and Python 3.8 will add support for
+  `typing.TypedDict` and `typing.Protocol` out of the box without needing
+  `typing_extensions`.
+
+### Development
+
+- **Improved typings**
+
+  Move to strict mypy typings (#311)
+
+  This will make future refactoring simplifications easier and maintain code
+  quality in the long term, in addition to more intelligent completions.
+
+  [`mypy --strict`]: https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-strict
+
+## unihan-db 0.8.0 (2023-05-13)
+
+_Maintenance only, no bug fixes or features_
+
+### Breaking
+
+- Final Python 3.7 release
+
+### Internal improvements
+
+- Move formatting, import sorting, and linting to [ruff].
+
+  This rust-based checker has dramatically improved performance. Linting and
+  formatting can be done almost instantly.
+
+  This change replaces isort, flake8 and flake8 plugins.
+
+- poetry: 1.4.0 -> 1.5.0
+
+  See also: https://github.com/python-poetry/poetry/releases/tag/1.5.0
+
+[ruff]: https://ruff.rs
+
+## unihan-db 0.7.2 (2023-05-13)
+
+### Packaging
+
+- Bump unihan-etl from 0.18.1 -> 0.18.2
+
+  Typing update for `merge_dict`
+
+## unihan-db 0.7.1 (2022-10-01)
+
+### Packaging
+
+- Update unihan-etl to v0.18.1+ (Add missing PyYAML dependency)
+
+### Infrastructure
+
+- CI speedups (#305)
+
+  - Split out release to separate job so the PyPI Upload docker image isn't pulled on normal runs
+  - Clean up CodeQL
+
+- Poetry: Update 1.1.x to 1.2.x
+
+### Development
+
+- mypy: Unignore unihan-etl package (which is now typed)
+
+## unihan-db 0.7.0 (2022-09-11)
+
+**Maintenance only release, no fixes or features**
+
+### Development
+
+- Add [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) (#300)
+- Add [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) (#301)
+
+### Documentation
+
+- Render changelog in [`linkify_issues`] (#303)
+- Fix Table of contents rendering with sphinx autodoc with [`sphinx_toctree_autodoc_fix`] (#303)
+- Test doctests in our docs via [`pytest_doctest_docutils`] (built on [`doctest_docutils`]) (#303)
+
+[`linkify_issues`]: https://gp-libs.git-pull.com/linkify_issues/
+[`sphinx_toctree_autodoc_fix`]: https://gp-libs.git-pull.com/sphinx_toctree_autodoc_fix/
+[`pytest_doctest_docutils`]: https://gp-libs.git-pull.com/doctest/pytest.html
+[`doctest_docutils`]: https://gp-libs.git-pull.com/doctest
+
+## unihan-db 0.6.0 (2022-08-21)
+
+### Internal
+
+- Update unihan-etl 0.16.0 -> 0.17.2:
+
+  - unihan-etl 0.16.0 adds `--no-cache` / `cache` as an option
+  - unihan-etl 0.17.0 adds type annotations (`mypy --strict`)
+  - unihan-etl 0.17.1 fixes bugs from 0.17.0's annotations
+  - unihan-etl 0.17.2 docs / changelog issue linking update
+
+## unihan-db 0.5.0 (2022-08-20)
+
+### Breaking changes
+
+- Bump in unison with other cihai projects deprecating compat modules, via #299.
+
+  Python 2.x was already dropped in 0.2.0 (2021-06-15). There was no compat
+  module in this project, and it only only removed a duplicate function
+  (`merge_dict()`) and imported the one from `unihan_etl`.
+
+  - Bump unihan-etl to 0.15.0+ (to avoid any chance of using compat imports from
+    it in the future)
+
+## unihan-db 0.4.0 (2022-08-16)
+
+### Compatibility
+
+- Drop python 3.6 (#292)
+- Add python 3.10 (#292)
+
+### Development
+
+Infrastructure updates for static type checking and doctest examples.
+
+- Update poetry to 1.1
+  - CI: Use poetry 1.1.7 and `install-poetry.py` installer (#274, #292)
+  - Relock poetry.lock at 1.1 (w/ 1.1.7's fix)
+- Tests: `tmpdir` -> `tmp_path`
+- Run pyupgrade @ python 3.7
+- Initial [doctests] support added, via #297
+
+  [doctests]: https://docs.python.org/3/library/doctest.html
+
+- Initial [mypy] validation, via #297
+
+  [mypy]: https://github.com/python/mypy
+
+- CI (tests, docs): Improve caching of python dependencies via
+  `action/setup-python`'s v3/4's new poetry caching, via #297
+
+- CI (docs): Skip if no `PUBLISH` condition triggered, via #297
+
+### Documentation
+
+- Move to `furo` theme
+
+## unihan-db 0.3.0 (2021-06-15)
+
+- #269: Convert to markdown
+
+## unihan-db 0.2.0 (2021-06-15)
+
+- Update `black` to 21.6b0
+- Update trove classifiers to 3.9
+- #267 Drop python 2.7, 3.5. Remove unused `__future__` and modesets.
+
+## unihan-db 0.1.0 (2020-08-09)
+
+- Major overhaul of docs (self-host + add icons and metadata) [#262][#262]
+- Move from travis to github actions [#262][#262]
+- Move build / publish of packaging to poetry [#263][#263]
+- Add README docs on publishing versions, linting, and development
+- Move from Pipfile to Poetry (<https://github.com/cihai/unihan-db/pull/261>)
+- Speed up importing initial data
+- Support for more fields
+- Support for appdirs (XDG directory specification)
+- Zero-config sqlite default
+- Bump unihan-etl to 0.9.5
+- Add `project_urls` to setup.py
+- Use `collections` import that's compatible with python 2 and 3
+- Loosen version constraints
+
+[#262]: https://github.com/cihai/unihan-db/pull/262
+[#263]: https://github.com/cihai/unihan-db/pull/263
+
+## unihan-db 0.0.0 (2017-05-29)
+
+This had no pypi release
+
+- Initial commit
+
+<!---
+vim: set filetype=markdown:
+-->
