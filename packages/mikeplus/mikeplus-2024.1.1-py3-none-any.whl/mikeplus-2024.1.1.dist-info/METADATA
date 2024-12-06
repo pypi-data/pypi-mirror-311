@@ -1,0 +1,74 @@
+Metadata-Version: 2.3
+Name: mikeplus
+Version: 2024.1.1
+Summary: A python script package to manipulate MIKE+ database, run simulation by using MIKE+ data, run tools based on MIKE+ data
+Project-URL: Homepage, https://github.com/DHI/mikepluspy
+Project-URL: Bug Tracker, https://github.com/DHI/mikepluspy/issues
+Author-email: Wen Wu <WUW@dhigroup.com>
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pythonnet>=3.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: shapely; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: mkdocs-material==9.4.14; extra == 'doc'
+Requires-Dist: mkdocs==1.5.3; extra == 'doc'
+Requires-Dist: mkdocstrings-python==1.7.5; extra == 'doc'
+Requires-Dist: mkdocstrings==0.24.0; extra == 'doc'
+Requires-Dist: myst-parser; extra == 'doc'
+Requires-Dist: sphinx; extra == 'doc'
+Requires-Dist: sphinx-book-theme; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: shapely; extra == 'test'
+Description-Content-Type: text/markdown
+
+![logo](https://raw.githubusercontent.com/DHI/mikepluspy/main/images/logo/mikeplus-py.svg)
+# MIKE+Py: automate your workflows.
+
+MIKE+Py is a python interface for MIKE+. Its main features include:
+* Modifying the MIKE+ database in a way that is consistent with the GUI.
+* Run different kinds of simulations (e.g. MIKE 1D, EPANET, SWMM)
+* Access certain GUI tools pythonically (e.g. import/export tool).
+
+> [!CAUTION]
+> MIKE+Py is experimental and under development.
+> * Be aware that there may be bugs or unexpected behavior - use with caution.
+> * Always make copies of your MIKE+ databases and verify the outcome of scripts.
+> * If you encounter any issues or have any feedback, please report them on [GitHub Issues](https://github.com/DHI/mikepluspy/issues).
+
+## Requirements
+* MIKE+ 2024 (or greater) with valid license
+* Python x64 3.9 to 3.12
+* Windows
+
+## Installation
+
+The version of MIKE+Py you install must match the version of MIKE+ installed on your desktop. 
+
+| MIKE+ Version | Install command|
+|:--------------|:---------------|
+| MIKE+ 2024 Update 1 | `pip install mikeplus==2024.1` |
+| MIKE+ 2024 | `pip install mikeplus==2024.0` |
+
+
+## Examples
+Please check out our [collection of jupyter notebooks] (https://github.com/DHI/mikepluspy/tree/main/notebooks) to get started with MIKE+Py.
+
+## Where can I get help?
+* Bugs - [GitHub Issues](https://github.com/DHI/mikepluspy/issues)
+* Feature requests - [GitHub Issues](https://github.com/DHI/mikepluspy/issues) 
+* Other - [GitHub Discussions](http://github.com/DHI/mikepluspy/discussions)
