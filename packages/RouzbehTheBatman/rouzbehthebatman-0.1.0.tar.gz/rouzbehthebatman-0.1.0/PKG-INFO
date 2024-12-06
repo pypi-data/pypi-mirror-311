@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: RouzbehTheBatman
+Version: 0.1.0
+Summary: A personal package
+Home-page: https://github.com/rouzbehshi/RouzbehTheBatman
+License: MIT
+Keywords: clustering,preprocessing,ML
+Author: Rouzbeh
+Author-email: rzb.shirvani@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: pandas (>=1.0.0,<2.2.0) ; python_version < "3.9"
+Requires-Dist: pandas (>=2.2.0) ; python_version >= "3.9"
+Requires-Dist: pytest (>=7.4.0)
+Project-URL: Repository, https://github.com/rouzbehshi/RouzbehTheBatman
+Description-Content-Type: text/markdown
+
+# RouzbehTheBatman
+
+This is just a test for a something cool!
+
+# Installation
+
+```bash
+pip install RouzbehTheBatman
+```
+
+```python
+
+
+```
