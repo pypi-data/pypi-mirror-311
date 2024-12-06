@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: dummy-data-generator-id
+Version: 0.1.0
+Summary: A library for generating realistic dummy data for Indonesian context
+Home-page: https://github.com/bri-anadi/dummy-data-generator-id
+Author: Brian Adi
+Author-email: Brian Adi <uix.brianadi@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Destination-Port: 8080
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/bri-anadi/dummy-data-generator-id
+Project-URL: Repository, https://github.com/bri-anadi/dummy-data-generator-id
+Keywords: dummy-data,generator,indonesia,random,data,dummy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dummy Data Generator Indonesia
+
+## 🚀 Deskripsi
+`dummy-data-generator-id` adalah library Python canggih untuk menghasilkan data dummy Indonesia secara acak dan realistis.
+
+## ✨ Fitur Utama
+- Generate nama lengkap (dengan pilihan gender)
+- Pembangkit email otomatis
+- Nomor telepon Indonesia
+- Alamat lengkap
+- Pekerjaan dan perusahaan palsu
+- Tanggal lahir dengan rentang umur
+- Kartu kredit dengan validasi Luhn
+- Generate data pengguna utuh
+
+## 🛠️ Instalasi
+
+```bash
+pip install dummy-data-generator-id
+```
+
+## 💻 Penggunaan Dasar
+
+### Generate Satu Pengguna
+```python
+from dummy_data_generator import DummyDataGenerator
+
+# Generate satu pengguna
+single_user = DummyDataGenerator.generate_user_data()
+print(single_user)
+```
+
+### Generate Beberapa Pengguna
+```python
+# Generate 5 pengguna sekaligus
+multiple_users = DummyDataGenerator.generate_user_data(5)
+```
+
+## 🔍 Metode Tersedia
+
+### Data Pengguna
+- `generate_user_data(count=1)`: Generate data pengguna lengkap
+- `generate_name(gender=None)`: Generate nama
+- `generate_email(name=None)`: Generate email
+- `generate_phone()`: Generate nomor telepon
+- `generate_address()`: Generate alamat
+- `generate_birthdate()`: Generate tanggal lahir
+- `generate_job()`: Generate pekerjaan
+- `generate_company()`: Generate nama perusahaan
+
+### Data Tambahan
+- `generate_credit_card()`: Generate kartu kredit
+- `generate_uuid()`: Generate UUID unik
+- `generate_username()`: Generate username
+
+## 🤝 Kontribusi
+Kami terbuka untuk kontribusi! Silakan buka issue atau kirim pull request.
+
+## 📝 Lisensi
+Dilisensikan di bawah MIT License.
