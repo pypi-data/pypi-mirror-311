@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "minlog"
+version = "0.5.0"
+description = ""
+authors = ["redthing1 <redthing1@alt.icu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rich = "^13.4.1"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
