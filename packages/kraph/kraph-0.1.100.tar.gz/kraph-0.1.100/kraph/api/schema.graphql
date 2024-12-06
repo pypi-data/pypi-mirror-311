@@ -1,0 +1,1062 @@
+"""Make string uppercase"""
+directive @upper on FIELD
+
+directive @replace(old: String!, new: String!) on FIELD
+
+"""Make get stuff uppercase"""
+directive @relation(on: String!) on FIELD
+
+type Query {
+  """List of all entities in the system"""
+  entities(filters: EntityFilter = null, pagination: GraphPaginationInput = null): [Entity!]!
+
+  """List of all expressions that are linked in a Graph"""
+  linkedExpressions(filters: LinkedExpressionFilter, pagination: OffsetPaginationInput): [LinkedExpression!]!
+
+  """List of all knowledge graphs"""
+  graphs(filters: GraphFilter, pagination: OffsetPaginationInput): [Graph!]!
+
+  """List of all deep learning models (e.g. neural networks)"""
+  models(filters: ModelFilter, pagination: OffsetPaginationInput): [Model!]!
+
+  """List of all reagents used in protocols"""
+  reagents(filters: ReagentFilter, pagination: OffsetPaginationInput): [Reagent!]!
+
+  """List of all protocols"""
+  protocols(filters: ProtocolFilter, pagination: OffsetPaginationInput): [Protocol!]!
+
+  """List of all expressions in the system"""
+  expressions(filters: ExpressionFilter, pagination: OffsetPaginationInput): [Expression!]!
+
+  """List of all ontologies"""
+  ontologies(filters: OntologyFilter, pagination: OffsetPaginationInput): [Ontology!]!
+
+  """List of all protocol steps"""
+  protocolSteps(filters: ProtocolStepFilter, pagination: OffsetPaginationInput): [ProtocolStep!]!
+
+  """List of all protocol step templates"""
+  protocolStepTemplates(filters: ProtocolStepTemplateFilter, pagination: OffsetPaginationInput): [ProtocolStepTemplate!]!
+
+  """List of all relationships between entities"""
+  entityRelations(filters: EntityRelationFilter = null, pagination: GraphPaginationInput = null): [EntityRelation!]!
+
+  """Retrieves the complete knowledge graph starting from an entity"""
+  knowledgeGraph(id: ID!): KnowledgeGraph!
+
+  """Retrieves the graph of entities and their relationships"""
+  entityGraph(id: ID!): EntityGraph!
+
+  """Gets a linked expression by its AGE name"""
+  linkedExpressionByAgename(ageName: String!, graphId: ID!): LinkedExpression!
+
+  """Retrieves paired entities"""
+  pairedEntities(
+    """The graph to query the paired entities from"""
+    graph: ID = null
+
+    """The filter to apply to the relation"""
+    relationFilter: EntityRelationFilter = null
+
+    """The filter to apply to the left side of the relation"""
+    leftFilter: EntityFilter = null
+
+    """The filter to apply to the right side of the relation"""
+    rightFilter: EntityFilter = null
+
+    """The pagination to apply to the query"""
+    pagination: GraphPaginationInput = null
+  ): [PairedStructure!]!
+
+  """Gets a specific structure e.g an image, video, or 3D model"""
+  structure(graph: ID!, structure: StructureString!): Entity!
+  reagent(id: ID!): Reagent!
+  entity(id: ID!): Entity!
+  entityRelation(id: ID!): EntityRelation!
+  linkedExpression(id: ID!): LinkedExpression!
+  graph(id: ID!): Graph!
+  model(id: ID!): Model!
+  ontology(id: ID!): Ontology!
+  protocol(id: ID!): Protocol!
+  protocolStep(id: ID!): ProtocolStep!
+  expression(id: ID!): Expression!
+  protocolStepTemplate(id: ID!): ProtocolStepTemplate!
+  myActiveGraph: Graph!
+}
+
+"An entity is a node in a graph. Entities are the building blocks of the data model in kraph.\n                 \n                 They are used to represent the different objects in your data model, and how they are connected to each other, through\n                 relations. \n\n                 Kraph distinguishes between two core types of entities: Biological entities and Data entities. Biological entities\n                 are describing real-world objects, such as cells, tissues, organs, etc. Data entities are describing data objects, such as\n                 images, tables, etc.\n\n                 While you can relate any entity to any other entity, it is important to keep in mind that the relations between entities\n                    should be meaningful, and should reflect the real-world relationships between the objects they represent.\n                 \n                 If you want to attach measurments or metrics to an entity, you should never attach them directly to the entity, but rather\n                 point from the measurement (the data object) to the entity. This way, you can keep track of the provenance of the data, and\n                 ensure that you never know anything about the entity that is not backed by data.\n           \n                 "
+type Entity {
+  """The unique identifier of the entity within its graph"""
+  id: ID!
+
+  """The expression that defines this entity's type"""
+  linkedExpression: LinkedExpression!
+
+  """The name of the entity's type/kind"""
+  kindName: String!
+
+  """A human readable label for this entity"""
+  label: String!
+
+  """A unique identifier for this entity if available"""
+  identifier: String
+
+  """Reference to an external object if this entity represents one"""
+  object: String
+
+  """Timestamp from when this entity is valid"""
+  validFrom: DateTime!
+
+  """Timestamp until when this entity is valid"""
+  validTo: DateTime!
+
+  """When this entity was created"""
+  createdAt: DateTime!
+
+  """Relations this entity has with other entities"""
+  relations(filter: EntityRelationFilter = null, pagination: GraphPaginationInput = null): [EntityRelation!]!
+
+  """Protocol steps where this entity was the target"""
+  subjectedTo: [ProtocolStep!]!
+
+  """Protocol steps where this entity was used"""
+  usedIn: [ProtocolStep!]!
+
+  """Map of metric values associated with this entity"""
+  metricMap: MetricMap!
+
+  """List of metrics associated with this entity"""
+  metrics: [NodeMetric!]!
+}
+
+type LinkedExpression {
+  id: ID!
+  graph: Graph!
+  expression: Expression!
+  kind: ExpressionKind!
+  description: String
+  purl: String
+  dataKind: MetricDataType
+  color: String!
+  label: String!
+  entities(filter: EntityFilter = null, pagination: GraphPaginationInput = null): [Entity!]!
+  pinned: Boolean!
+}
+
+"""A graph, that contains entities and relations."""
+type Graph {
+  id: ID!
+  name: String!
+  description: String
+  linkedExpressions(filters: LinkedExpressionFilter, pagination: OffsetPaginationInput): [LinkedExpression!]!
+  ageName: String!
+}
+
+input LinkedExpressionFilter {
+  graph: ID
+  search: String
+  pinned: Boolean
+  kind: ExpressionKind
+  ids: [ID!]
+  AND: LinkedExpressionFilter
+  OR: LinkedExpressionFilter
+}
+
+enum ExpressionKind {
+  STRUCTURE
+  MEASUREMENT
+  RELATION
+  ENTITY
+  METRIC
+  RELATION_METRIC
+  CONCEPT
+}
+
+input OffsetPaginationInput {
+  offset: Int! = 0
+  limit: Int! = -1
+}
+
+"""
+An expression in an ontology. Expression are used to label entities and their relations in a graph like structure. Depending on the kind of the expression
+    it can be used to describe different aspects of the entities and relations.
+"""
+type Expression {
+  """The unique identifier of the expression."""
+  id: ID!
+
+  """The ontology the expression belongs to."""
+  ontology: Ontology!
+
+  """The kind of the expression."""
+  kind: ExpressionKind!
+
+  """The label of the expression. The class"""
+  label: String!
+
+  """A description of the expression."""
+  description: String
+
+  """
+  An image or other media file that can be used to represent the expression.
+  """
+  store: MediaStore
+
+  """The kind of metric that can be attached to the expression."""
+  metricKind: MetricDataType
+
+  """
+  The linked expressions of the expression. i.e in which graphs the expression is used.
+  """
+  linkedExpressions(filters: LinkedExpressionFilter, pagination: OffsetPaginationInput): [LinkedExpression!]!
+}
+
+"""
+An ontology represents a formal naming and definition of types, properties, and 
+    interrelationships between entities in a specific domain. In kraph, ontologies provide the vocabulary
+    and semantic structure for organizing data across graphs.
+"""
+type Ontology {
+  """The unique identifier of the ontology"""
+  id: ID!
+
+  """The name of the ontology"""
+  name: String!
+
+  """
+  A detailed description of what this ontology represents and how it should be used
+  """
+  description: String
+
+  """
+  The Persistent URL (PURL) that uniquely identifies this ontology globally
+  """
+  purl: String
+
+  """The list of expressions (terms/concepts) defined in this ontology"""
+  expressions(filters: ExpressionFilter, pagination: OffsetPaginationInput): [Expression!]!
+
+  """Optional associated media files like documentation or diagrams"""
+  store: MediaStore
+}
+
+input ExpressionFilter {
+  ids: [ID!]
+  id: ID
+  search: String
+  kind: ExpressionKind
+  AND: ExpressionFilter
+  OR: ExpressionFilter
+}
+
+type MediaStore {
+  id: ID!
+  path: String!
+  bucket: String!
+  key: String!
+  presignedUrl(host: String = null): String!
+}
+
+enum MetricDataType {
+  INT
+  FLOAT
+  DATETIME
+  STRING
+  CATEGORY
+  BOOLEAN
+  THREE_D_VECTOR
+  TWO_D_VECTOR
+  ONE_D_VECTOR
+  FOUR_D_VECTOR
+  N_VECTOR
+}
+
+"""Filter for entities in the graph"""
+input EntityFilter {
+  """Filter by graph ID"""
+  graph: ID = null
+
+  """Filter by entity kind"""
+  kind: ID = null
+
+  """Filter by list of entity IDs"""
+  ids: [ID!] = null
+
+  """Filter by linked expression ID"""
+  linkedExpression: ID = null
+
+  """Filter by structure identifier"""
+  identifier: String = null
+
+  """Filter by associated object ID"""
+  object: ID = null
+
+  """Search entities by text"""
+  search: String = null
+}
+
+input GraphPaginationInput {
+  limit: Int = 200
+  offset: Int = 0
+}
+
+"""Date with time (isoformat)"""
+scalar DateTime
+
+type EntityRelation {
+  id: ID!
+  linkedExpression: LinkedExpression!
+  left: Entity!
+  right: Entity!
+  leftId: String!
+  rightId: String!
+  label: String!
+  metrics: [RelationMetric!]!
+  metricMap: MetricMap!
+}
+
+type RelationMetric {
+  linkedExpression: LinkedExpression!
+  value: String!
+}
+
+"""The `MetricMap` scalar type represents a matrix values as specified by"""
+scalar MetricMap
+
+"""Filter for entity relations in the graph"""
+input EntityRelationFilter {
+  """Filter by graph ID"""
+  graph: ID = null
+
+  """Filter by relation kind"""
+  kind: ID = null
+
+  """Filter by list of relation IDs"""
+  ids: [ID!] = null
+
+  """Filter by linked expression ID"""
+  linkedExpression: ID = null
+
+  """Search relations by text"""
+  search: String = null
+
+  """Include self-relations"""
+  withSelf: Boolean = null
+
+  """Filter by left entity ID"""
+  leftId: ID = null
+
+  """Filter by right entity ID"""
+  rightId: ID = null
+}
+
+type ProtocolStep {
+  id: ID!
+  template: ProtocolStepTemplate!
+  history(pagination: OffsetPaginationInput): [History!]!
+  forReagent: Reagent
+  performedAt: DateTime
+  performedBy: User
+  reagentMappings(filters: ProtocolStepFilter, pagination: OffsetPaginationInput): [ReagentMapping!]!
+  forEntity: Entity
+  usedEntity: Entity
+  name: String!
+}
+
+type ProtocolStepTemplate {
+  id: ID!
+  name: String!
+  plateChildren: [UntypedPlateChild!]!
+  createdAt: DateTime!
+}
+
+"""The `UntypedPlateChild` scalar type represents a plate child"""
+scalar UntypedPlateChild
+
+type History {
+  app: App
+  user: User
+  kind: HistoryKind!
+  date: DateTime!
+  during: String
+  id: ID!
+  effectiveChanges: [ModelChange!]!
+}
+
+"""An app."""
+type App {
+  id: ID!
+  name: String!
+  clientId: String!
+}
+
+"""A user."""
+type User {
+  id: ID!
+  sub: String!
+  username: String!
+  email: String!
+  password: String!
+}
+
+enum HistoryKind {
+  CREATE
+  UPDATE
+  DELETE
+}
+
+type ModelChange {
+  field: String!
+  oldValue: String
+  newValue: String
+}
+
+type Reagent {
+  id: ID!
+  expression: Expression
+  lotId: String!
+  orderId: String
+  protocol: Protocol
+  creationSteps(filters: ProtocolStepFilter, pagination: OffsetPaginationInput): [ProtocolStep!]!
+  usedIn(filters: ProtocolStepFilter, pagination: OffsetPaginationInput): [ReagentMapping!]!
+  label: String!
+}
+
+type Protocol {
+  id: ID!
+  name: String!
+  description: String
+  history(pagination: OffsetPaginationInput): [History!]!
+  createdAt: DateTime!
+  creator: User
+  experiment: Experiment!
+}
+
+type Experiment {
+  id: ID!
+  name: String!
+  description: String
+  history(pagination: OffsetPaginationInput): [History!]!
+  createdAt: DateTime!
+  creator: User
+  protocols(filters: ProtocolFilter, pagination: OffsetPaginationInput): [Protocol!]!
+}
+
+input ProtocolFilter {
+  """Filter by list of IDs"""
+  ids: [ID!] = null
+
+  """Search by text"""
+  search: String = null
+  id: ID
+  AND: ProtocolFilter
+  OR: ProtocolFilter
+}
+
+input ProtocolStepFilter {
+  """Filter by list of IDs"""
+  ids: [ID!] = null
+
+  """Search by text"""
+  search: String = null
+  id: ID
+  protocol: ID = null
+  AND: ProtocolStepFilter
+  OR: ProtocolStepFilter
+}
+
+type ReagentMapping {
+  id: ID!
+  reagent: Reagent!
+  protocolStep: ProtocolStep!
+}
+
+type NodeMetric {
+  id: ID!
+  linkedExpression: LinkedExpression!
+  validFrom: DateTime
+  validTo: DateTime
+  value: Metric
+  key: String!
+}
+
+"""The `Metric` scalar type represents a matrix values as specified by"""
+scalar Metric
+
+input GraphFilter {
+  """Filter by list of IDs"""
+  ids: [ID!] = null
+
+  """Search by text"""
+  search: String = null
+  id: ID
+  AND: GraphFilter
+  OR: GraphFilter
+}
+
+"""
+A model represents a trained machine learning model that can be used for analysis.
+"""
+type Model {
+  """The unique identifier of the model"""
+  id: ID!
+
+  """The name of the model"""
+  name: String!
+
+  """Optional file storage location containing the model weights/parameters"""
+  store: MediaStore
+}
+
+input ModelFilter {
+  """Filter by list of IDs"""
+  ids: [ID!] = null
+  id: ID
+  search: String
+  AND: ModelFilter
+  OR: ModelFilter
+}
+
+input ReagentFilter {
+  """Filter by list of reagent IDs"""
+  ids: [ID!] = null
+
+  """Search reagents by text"""
+  search: String = null
+  AND: ReagentFilter
+  OR: ReagentFilter
+}
+
+"""Filter for ontologies"""
+input OntologyFilter {
+  """Filter by list of IDs"""
+  ids: [ID!] = null
+
+  """Search by text"""
+  search: String = null
+
+  """Filter by ontology ID"""
+  id: ID
+  AND: OntologyFilter
+  OR: OntologyFilter
+}
+
+input ProtocolStepTemplateFilter {
+  """Filter by list of IDs"""
+  ids: [ID!] = null
+  id: ID
+  search: String
+  AND: ProtocolStepTemplateFilter
+  OR: ProtocolStepTemplateFilter
+}
+
+type KnowledgeGraph {
+  nodes: [EntityKindNode!]!
+  edges: [EntityKindRelationEdge!]!
+}
+
+type EntityKindNode {
+  id: String!
+  label: String!
+  metrics: [EntityKindNodeMetric!]!
+}
+
+type EntityKindNodeMetric {
+  dataKind: String!
+  kind: String!
+}
+
+type EntityKindRelationEdge {
+  id: String!
+  label: String!
+  source: String!
+  target: String!
+  metrics: [EntityKindNodeMetric!]!
+}
+
+type EntityGraph {
+  nodes: [Entity!]!
+  edges: [EntityRelation!]!
+  graph: Graph!
+}
+
+"""A paired structure two entities and the relation between them."""
+type PairedStructure {
+  """The left entity."""
+  left: Entity!
+
+  """The right entity."""
+  right: Entity!
+
+  """The relation between the two entities."""
+  relation: EntityRelation!
+}
+
+"""The `StructureString` scalar type represents a string with a structure"""
+scalar StructureString
+
+type Mutation {
+  """Create a new graph"""
+  createGraph(input: GraphInput!): Graph!
+
+  """Update an existing graph"""
+  updateGraph(input: UpdateGraphInput!): Graph!
+
+  """Delete an existing graph"""
+  deleteGraph(input: DeleteGraphInput!): ID!
+
+  """Create a new relation between entities"""
+  createEntityRelation(input: EntityRelationInput!): EntityRelation!
+
+  """Create a new metric for an entity"""
+  createEntityMetric(input: CreateEntityMetricInput!): Entity!
+
+  """Create a new metric for a relation"""
+  createRelationMetric(input: CreateRelationMetricInput!): EntityRelation!
+
+  """Create a relation between structures"""
+  createStructureRelation(input: StructureRelationInput!): EntityRelation!
+
+  """Attach metrics to multiple entities"""
+  attachMetricsToEntities(input: AttachMetricsToEntitiesMetricInput!): [Entity!]!
+
+  """Create a new reagent"""
+  createReagent(input: ReagentInput!): Reagent!
+
+  """Create a new measurement"""
+  createMeasurement(input: MeasurementInput!): Entity!
+
+  """Pin a linked expression"""
+  pinLinkedExpression(input: PinLinkedExpressionInput!): LinkedExpression!
+
+  """Create a new protocol step"""
+  createProtocolStep(input: ProtocolStepInput!): ProtocolStep!
+
+  """Delete an existing protocol step"""
+  deleteProtocolStep(input: DeleteProtocolStepInput!): ID!
+
+  """Update an existing protocol step"""
+  updateProtocolStep(input: UpdateProtocolStepInput!): ProtocolStep!
+
+  """Create a new model"""
+  createModel(input: CreateModelInput!): Model!
+
+  """Request a new file upload"""
+  requestUpload(input: RequestMediaUploadInput!): PresignedPostCredentials!
+
+  """Create a new entity"""
+  createEntity(input: EntityInput!): Entity!
+
+  """Delete an existing entity"""
+  deleteEntity(input: DeleteEntityInput!): ID!
+
+  """Link an expression to an entity"""
+  linkExpression(input: LinkExpressionInput!): LinkedExpression!
+
+  """Unlink an expression from an entity"""
+  unlinkExpression(input: DeleteLinkedExpressionInput!): ID!
+
+  """Create a new ontology"""
+  createOntology(input: OntologyInput!): Ontology!
+
+  """Delete an existing ontology"""
+  deleteOntology(input: DeleteOntologyInput!): ID!
+
+  """Update an existing ontology"""
+  updateOntology(input: UpdateOntologyInput!): Ontology!
+
+  """Create a new expression"""
+  createExpression(input: ExpressionInput!): Expression!
+
+  """Update an existing expression"""
+  updateExpression(input: UpdateExpressionInput!): Expression!
+
+  """Delete an existing expression"""
+  deleteExpression(input: DeleteExpressionInput!): ID!
+
+  """Create a new protocol"""
+  createProtocol(input: ProtocolInput!): Protocol!
+
+  """Delete an existing protocol"""
+  deleteProtocol(input: DeleteProtocolInput!): ID!
+
+  """Create a new protocol step template"""
+  createProtocolStepTemplate(input: ProtocolStepTemplateInput!): ProtocolStepTemplate!
+
+  """Update an existing protocol step template"""
+  updateProtocolStepTemplate(input: UpdateProtocolStepTemplateInput!): ProtocolStepTemplate!
+
+  """Delete an existing protocol step template"""
+  deleteProtocolStepTemplate(input: DeleteProtocolStepTemplateInput!): ID!
+}
+
+input GraphInput {
+  name: String!
+  experiment: ID = null
+  description: String = null
+}
+
+input UpdateGraphInput {
+  id: String!
+  name: String = null
+  description: String = null
+  experiment: ID = null
+}
+
+input DeleteGraphInput {
+  id: ID!
+}
+
+"""Input type for creating a relation between two entities"""
+input EntityRelationInput {
+  """ID of the left entity (format: graph:id)"""
+  left: ID!
+
+  """ID of the right entity (format: graph:id)"""
+  right: ID!
+
+  """ID of the relation kind (LinkedExpression)"""
+  kind: ID!
+}
+
+input CreateEntityMetricInput {
+  """The value of the metric."""
+  value: Metric!
+
+  """The entity to attach the metric to."""
+  entity: ID!
+
+  """The metric to attach to the entity."""
+  metric: ID!
+
+  """The timepoint of the metric."""
+  timepoint: DateTime = null
+}
+
+input CreateRelationMetricInput {
+  value: Metric!
+  relation: ID!
+  metric: ID = null
+  timepoint: DateTime = null
+}
+
+"""Input type for creating a relation between two structures"""
+input StructureRelationInput {
+  """Left structure of the relation"""
+  left: Structure!
+
+  """Right structure of the relation"""
+  right: Structure!
+
+  """ID of the relation kind (LinkedExpression)"""
+  kind: ID!
+}
+
+input Structure {
+  identifier: String!
+  id: ID!
+}
+
+input AttachMetricsToEntitiesMetricInput {
+  metric: ID!
+  pairs: [EntityValuePairInput!]!
+}
+
+input EntityValuePairInput {
+  entity: ID!
+  value: Metric!
+}
+
+input ReagentInput {
+  lotId: String!
+  expression: ID!
+}
+
+input MeasurementInput {
+  structure: StructureString!
+  name: String = null
+  graph: ID!
+  validFrom: DateTime = null
+  validTo: DateTime = null
+}
+
+input PinLinkedExpressionInput {
+  id: ID!
+  pin: Boolean = null
+}
+
+"""Input type for creating a new protocol step"""
+input ProtocolStepInput {
+  """ID of the protocol step template"""
+  template: ID!
+
+  """ID of the entity this step is performed on"""
+  entity: ID!
+
+  """List of reagent mappings"""
+  reagentMappings: [ReagentMappingInput!]!
+
+  """List of variable mappings"""
+  valueMappings: [VariableInput!]!
+
+  """When the step was performed"""
+  performedAt: DateTime = null
+
+  """ID of the user who performed the step"""
+  performedBy: ID = null
+}
+
+"""Input type for mapping reagents to protocol steps"""
+input ReagentMappingInput {
+  """ID of the reagent to map"""
+  reagent: ID!
+
+  """Volume of the reagent in microliters"""
+  volume: Int!
+}
+
+"""Input type for mapping variables to protocol steps"""
+input VariableInput {
+  """Key of the variable"""
+  key: String!
+
+  """Value of the variable"""
+  value: String!
+}
+
+input DeleteProtocolStepInput {
+  id: ID!
+}
+
+"""Input type for updating an existing protocol step"""
+input UpdateProtocolStepInput {
+  """ID of the protocol step to update"""
+  id: ID!
+
+  """New name for the protocol step"""
+  name: String!
+
+  """ID of the new protocol step template"""
+  template: ID!
+
+  """Updated list of reagent mappings"""
+  reagentMappings: [ReagentMappingInput!]!
+
+  """Updated list of variable mappings"""
+  valueMappings: [VariableInput!]!
+
+  """When the step was performed"""
+  performedAt: DateTime = null
+
+  """ID of the user who performed the step"""
+  performedBy: ID = null
+}
+
+"""Input type for creating a new model"""
+input CreateModelInput {
+  """The name of the model"""
+  name: String!
+
+  """The uploaded model file (e.g. .h5, .onnx, .pt)"""
+  model: RemoteUpload!
+
+  """Optional view ID to associate with the model"""
+  view: ID = null
+}
+
+"""
+The `RemoteUpload` scalar type represents a reference to a remote upload on a datalayer
+"""
+scalar RemoteUpload
+
+"""
+Temporary Credentials for a file upload that can be used by a Client (e.g. in a python datalayer)
+"""
+type PresignedPostCredentials {
+  key: String!
+  xAmzAlgorithm: String!
+  xAmzCredential: String!
+  xAmzDate: String!
+  xAmzSignature: String!
+  policy: String!
+  datalayer: String!
+  bucket: String!
+  store: String!
+}
+
+input RequestMediaUploadInput {
+  key: String!
+  datalayer: String!
+}
+
+"""Input type for creating a new entity"""
+input EntityInput {
+  """The ID of the kind (LinkedExpression) to create the entity from"""
+  kind: ID!
+
+  """Optional group ID to associate the entity with"""
+  group: ID = null
+
+  """Optional parent entity ID"""
+  parent: ID = null
+
+  """Optional instance kind specification"""
+  instanceKind: String = null
+
+  """Optional name for the entity"""
+  name: String = null
+}
+
+input DeleteEntityInput {
+  id: ID!
+}
+
+input LinkExpressionInput {
+  expression: ID!
+  graph: ID!
+  color: [Int!] = null
+}
+
+input DeleteLinkedExpressionInput {
+  id: ID!
+}
+
+"""Input type for creating a new ontology"""
+input OntologyInput {
+  """The name of the ontology (will be converted to snake_case)"""
+  name: String!
+
+  """An optional description of the ontology"""
+  description: String = null
+
+  """An optional PURL (Persistent URL) for the ontology"""
+  purl: String = null
+
+  """An optional ID reference to an associated image"""
+  image: ID = null
+}
+
+"""Input type for deleting an ontology"""
+input DeleteOntologyInput {
+  """The ID of the ontology to delete"""
+  id: ID!
+}
+
+"""Input type for updating an existing ontology"""
+input UpdateOntologyInput {
+  """The ID of the ontology to update"""
+  id: ID!
+
+  """New name for the ontology (will be converted to snake_case)"""
+  name: String = null
+
+  """New description for the ontology"""
+  description: String = null
+
+  """New PURL (Persistent URL) for the ontology"""
+  purl: String = null
+
+  """New ID reference to an associated image"""
+  image: ID = null
+}
+
+"""Input for creating a new expression"""
+input ExpressionInput {
+  """
+  The ID of the ontology this expression belongs to. If not provided, uses default ontology
+  """
+  ontology: ID = null
+
+  """The label/name of the expression"""
+  label: String!
+
+  """A detailed description of the expression"""
+  description: String = null
+
+  """Permanent URL identifier for the expression"""
+  purl: String = null
+
+  """RGBA color values as list of 3 or 4 integers"""
+  color: [Int!] = null
+
+  """The kind/type of this expression"""
+  kind: ExpressionKind!
+
+  """The type of metric data this expression represents"""
+  metricKind: MetricDataType = null
+
+  """An optional image associated with this expression"""
+  image: RemoteUpload = null
+}
+
+"""Input for updating an existing expression"""
+input UpdateExpressionInput {
+  """The ID of the expression to update"""
+  id: ID!
+
+  """New label for the expression"""
+  label: String = null
+
+  """New description for the expression"""
+  description: String = null
+
+  """New permanent URL for the expression"""
+  purl: String = null
+
+  """New RGBA color values as list of 3 or 4 integers"""
+  color: [Int!] = null
+
+  """New image ID for the expression"""
+  image: ID = null
+}
+
+"""Input for deleting an expression"""
+input DeleteExpressionInput {
+  """The ID of the expression to delete"""
+  id: ID!
+}
+
+input ProtocolInput {
+  name: String!
+  description: String = null
+  experiment: ID!
+}
+
+input DeleteProtocolInput {
+  id: ID!
+}
+
+input ProtocolStepTemplateInput {
+  name: String!
+  plateChildren: [PlateChildInput!]!
+}
+
+input PlateChildInput {
+  id: ID = null
+  type: String = null
+  text: String = null
+  children: [PlateChildInput!] = null
+  value: String = null
+  color: String = null
+  fontSize: String = null
+  backgroundColor: String = null
+  bold: Boolean = null
+  italic: Boolean = null
+  underline: Boolean = null
+}
+
+input UpdateProtocolStepTemplateInput {
+  id: ID!
+  name: String = null
+  plateChildren: [PlateChildInput!]!
+}
+
+input DeleteProtocolStepTemplateInput {
+  id: ID!
+}
+
+type Subscription {
+  historyEvents(
+    """The user to get history events for"""
+    user: String!
+  ): Entity!
+}
