@@ -1,0 +1,7 @@
+example_pkg/__init__.py,sha256=WsJuioedS5zroepnAdfF2tlmFMIAsc6TfdLCv_19NJA,20
+example_pkg/depen.py,sha256=m3ZPiBu-prBilyEPleRIZqBuQVGXpWwzkowEhvbVPrU,99
+dependency_test_test-0.0.1.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+dependency_test_test-0.0.1.dist-info/METADATA,sha256=9bI4IvJw6rZI21Z8ZXmnWxvqlxdBMBpHUOFxD4klUJQ,496
+dependency_test_test-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+dependency_test_test-0.0.1.dist-info/top_level.txt,sha256=6z5BxHpE17rpY8UuF_FwZjTIbkRc7f6jXImHpIXC7gw,12
+dependency_test_test-0.0.1.dist-info/RECORD,,
