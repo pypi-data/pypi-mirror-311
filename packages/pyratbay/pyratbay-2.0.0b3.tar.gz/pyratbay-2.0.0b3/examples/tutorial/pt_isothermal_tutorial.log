@@ -1,0 +1,14 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  Python Radiative Transfer in a Bayesian framework (Pyrat Bay).
+  Version 1.1.4.
+  Copyright (c) 2021-2022 Patricio Cubillos.
+  Pyrat Bay is open-source software under the GNU GPLv2 lincense (see LICENSE).
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Read command-line arguments from configuration file: 'pt_isothermal.cfg'
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  Error in module: 'parser.py', function: 'parse', line: 841
+    Invalid temperature model (tmodel): isotherma. Select from: ['isothermal',
+'guillot', 'madhu'].
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
