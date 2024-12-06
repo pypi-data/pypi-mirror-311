@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aerAPI
+Version: 0.1.0
+Summary: A package for accessing APIs used by the data team
+Home-page: https://github.com/stelltec/aerapi.git
+Author: S. Nicholson
+Author-email: Sean.Nicholson@aerlytix.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: PyYAML
