@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+flipvision/__init__.py
+flipvision/__main__.py
+flipvision/check_BLE_device_UUID_characteristics.py
+flipvision/cli.py
+flipvision/main.py
+flipvision/parser.py
+flipvision/sensor.py
+flipvision.egg-info/PKG-INFO
+flipvision.egg-info/SOURCES.txt
+flipvision.egg-info/dependency_links.txt
+flipvision.egg-info/entry_points.txt
+flipvision.egg-info/requires.txt
+flipvision.egg-info/top_level.txt

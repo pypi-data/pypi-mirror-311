@@ -1,0 +1,66 @@
+[project]
+name = "flipvision"
+version = "0.0.1"
+requires-python = ">=3.9"
+description = "Detect tricks done on skateboard"
+readme = "README.md"
+dependencies = [
+ "bleak==0.22.3",
+]
+
+[project.optional-dependencies]
+lint = [
+  "nox==2024.10.9",
+  "flake8==7.1.1",
+  "pre-commit==4.0.1",
+  "black==24.10.0",
+  "isort==5.13.2",
+  "codespell==2.3.0",
+]
+
+[project.scripts]
+flipvision = "flipvision.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["flipvision*"]
+
+[tool.black]
+line-length = 100
+exclude = '''
+(
+  /(
+    | \.git
+    | \.gitignore
+    | \.nox
+    | \.pytest_cache
+    | __pycache__
+    | venv
+    | build
+    | workspace
+  )/
+)
+'''
+target-version = ["py39", "py310", "py311", "py312", "py313"]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+skip = [
+    ".git",
+    ".gitignore",
+    ".nox",
+    "__pycache__",
+    "venv",
+    "build",
+]
+
+[tool.codespell]
+skip = "build,venv,.nox,.git,__pycache__"
+ignore-words-list = "flipvision"
+
+[tool.pyright]
+include = ["flipvision"]
+reportMissingImports = false
+typeCheckingMode = "standard"
+reportMissingTypeArgument = true
+reportMissingParameterType = true
