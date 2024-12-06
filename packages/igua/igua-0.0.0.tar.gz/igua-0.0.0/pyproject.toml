@@ -1,0 +1,15 @@
+[project]
+name = "igua"
+version = "0.0.0"
+description = "High-throughput method for gene cluster family identification."
+readme = 'README.md'
+requires-python = ">=3.7"
+license = { file = "COPYING" }
+authors = [
+  { name = "Martin Larralde", email = "martin.larralde@embl.de" },
+]
+keywords = ["bioinformatics", "clusters", "gene", "family"]
+
+[project.urls]
+"Homepage" = "https://github.com/althonos/IGUA"
+"Bug Tracker" = "https://github.com/althonos/IGUA/issues"

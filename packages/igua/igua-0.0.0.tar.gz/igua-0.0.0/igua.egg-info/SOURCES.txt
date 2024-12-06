@@ -1,0 +1,7 @@
+COPYING
+README.md
+pyproject.toml
+igua.egg-info/PKG-INFO
+igua.egg-info/SOURCES.txt
+igua.egg-info/dependency_links.txt
+igua.egg-info/top_level.txt
