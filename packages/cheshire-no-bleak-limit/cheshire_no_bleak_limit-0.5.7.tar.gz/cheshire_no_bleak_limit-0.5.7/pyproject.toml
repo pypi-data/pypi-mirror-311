@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cheshire-no-bleak-limit"
+version = "0.5.7"
+description = "API for Keepsmile, LuckyStyle, Leeleberd, and related smart lights"
+authors = ["David <davidkuc6@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "cheshire" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+bleak = ">=0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
