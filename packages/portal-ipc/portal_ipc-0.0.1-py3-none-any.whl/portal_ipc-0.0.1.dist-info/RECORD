@@ -1,0 +1,7 @@
+portal/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+portal/connections/pipe_client.py,sha256=ebGtP3jebLBxhXB27jjsm8PMJbYo4J5wDG221hnQAeo,3507
+portal/connections/pipe_server.py,sha256=LEbwzB_CYseSnxTAn2aFExV8IMgUMvXDjuENtcudu98,6032
+portal_ipc-0.0.1.dist-info/METADATA,sha256=zyxWjix7VYtj1W_RrVA2vf0MRJTjdoAbuULqq1RkawQ,636
+portal_ipc-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+portal_ipc-0.0.1.dist-info/top_level.txt,sha256=FOYo25x7M9MxzagEKz6kD2d0akPKhFnFhOguR6yr70A,7
+portal_ipc-0.0.1.dist-info/RECORD,,
