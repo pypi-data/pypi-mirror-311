@@ -1,0 +1,12 @@
+iterpy/__init__.py,sha256=sDq8OTau7aEMDYupPuqhwNfokaJFLcPIemZNnUfFM4c,71
+iterpy/_generate_pyi.py,sha256=QiTe_0mq0kiuMmqyAbG7gbjkqUH5wTGkgzQO4cpD2Js,1315
+iterpy/arr.py,sha256=JO8_InRU8wKNvZaAfm2FgX62GLLXfDBQJQHwdTq9oIc,5840
+iterpy/iter.py,sha256=WXtAkOQpneCfkBCUDC3RMLXhiyZqVc8ZPPsiehNhKCk,6949
+iterpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iterpy/test_arr.py,sha256=-yhSmoNCv5a79Tiuh9EHpEGvrNAl2qi_wYAT-nClJs0,5525
+iterpy/test_iter.py,sha256=MHBpzORLzBAzbzBQrZCs9DVg5q4BL8Prsom1Vwezlec,5539
+iterpy-1.9.1.dist-info/LICENSE,sha256=grzrjEwtVjh0XtzjtaRIBxAqNLLn60yzKBWtS9xpfVY,1164
+iterpy-1.9.1.dist-info/METADATA,sha256=i_bxA5PP7FrE3rB9QMt9UWQisEMV8b8-9VYcI4EgVEU,7058
+iterpy-1.9.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+iterpy-1.9.1.dist-info/top_level.txt,sha256=erew-PaRSLHvYd_cpuzTDOTsSt4ItBHhPmsRiR_3tfs,7
+iterpy-1.9.1.dist-info/RECORD,,
