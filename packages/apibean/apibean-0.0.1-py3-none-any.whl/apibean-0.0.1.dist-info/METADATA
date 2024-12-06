@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: apibean
+Version: 0.0.1
+Summary: A simple REST API boilerplate
+Home-page: https://github.com/apibean/apibean
+Author: skelethon
+License: GPL-3.0
+Download-URL: https://github.com/apibean/apibean/downloads
+Keywords: RestApi,boilerplate
+Platform: UNKNOWN
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*
+Requires-Dist: shortuuid (<2,>=1)
+
+UNKNOWN
+
+
