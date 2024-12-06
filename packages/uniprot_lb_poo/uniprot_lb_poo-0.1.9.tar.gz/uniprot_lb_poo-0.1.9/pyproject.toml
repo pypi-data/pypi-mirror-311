@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "uniprot_lb_poo"
+version = "0.1.9"
+description = "Parses uniprot entries (from uniprot files) and creates Uniprot objects"
+authors = [
+    { name = "Baptiste RIOU & Lorcan BRENDERS", email = "baptiste.riou2@etu.univ-lyon1.fr" }
+]
+maintainers = [
+    { name = "Guillaume LAUNAY & Arnaud MARY", email = "guillaume.launay@univ-lyon1.fr" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.9.2",
+]
+keywords = ["Protein", "Uniprot", "Parser", "Bioinformatics"]
+
+[project.urls]
+HomePage = "http://pedago-service.univ-lyon1.fr:2325/briou/uniprot.git"
+DOWNLOAD = "http://pedago-service.univ-lyon1.fr:2325/briou/uniprot/-/archive/publish/uniprot-master.tar.gz"
