@@ -1,0 +1,13 @@
+colorlog>=4.1.0
+requests
+pydantic
+pymupdf
+beautifulsoup4
+setuptools
+
+[dev]
+check-manifest
+pytest
+tox
+twine
+wheel
