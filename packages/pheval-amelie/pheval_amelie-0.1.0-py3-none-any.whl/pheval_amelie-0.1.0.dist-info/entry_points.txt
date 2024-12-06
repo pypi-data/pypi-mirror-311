@@ -1,0 +1,6 @@
+[console_scripts]
+pheval-amelie=pheval_amelie.cli:main
+
+[pheval.plugins]
+pheval_amelie_runner=pheval_amelie.runner:AmeliePhEvalRunner
+
