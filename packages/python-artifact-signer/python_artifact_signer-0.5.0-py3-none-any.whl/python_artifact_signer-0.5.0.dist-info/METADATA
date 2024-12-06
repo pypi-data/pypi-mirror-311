@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: python-artifact-signer
+Version: 0.5.0
+Summary: 
+Author: Zayaan Rahman
+Author-email: rahmanzayaan43@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: astroid (==3.3.4)
+Requires-Dist: bandit (==1.7.10)
+Requires-Dist: certifi (==2024.8.30)
+Requires-Dist: cffi (==1.17.1)
+Requires-Dist: charset-normalizer (==3.3.2)
+Requires-Dist: cryptography (==43.0.1)
+Requires-Dist: cyclonedx-bom (>=5.1.1,<6.0.0)
+Requires-Dist: dill (==0.3.9)
+Requires-Dist: idna (==3.10)
+Requires-Dist: isort (==5.13.2)
+Requires-Dist: jsonschema (>=4.23.0,<5.0.0)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: mccabe (==0.7.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: mypy (==1.11.2)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: pbr (==6.1.0)
+Requires-Dist: platformdirs (==4.3.6)
+Requires-Dist: pre-commit (>=4.0.1,<5.0.0)
+Requires-Dist: pycparser (==2.22)
+Requires-Dist: pygments (==2.18.0)
+Requires-Dist: pylint (==3.3.1)
+Requires-Dist: pytest (>=8.3.3,<9.0.0)
+Requires-Dist: pytest-cov (>=6.0.0,<7.0.0)
+Requires-Dist: pyyaml (==6.0.2)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: rich (==13.9.1)
+Requires-Dist: ruff (==0.6.8)
+Requires-Dist: stevedore (==5.3.0)
+Requires-Dist: tomli (==2.0.2)
+Requires-Dist: tomlkit (==0.13.2)
+Requires-Dist: types-requests (==2.32.0.20240914)
+Requires-Dist: typing-extensions (==4.12.2)
+Requires-Dist: urllib3 (==2.2.3)
+Description-Content-Type: text/markdown
+
+# Artifact Signer
+
+## Project Description
+This project will allow you to sign an artifact and upload its signature to a public instance of a transparency log. It will also verify the inclusion in the transparency log, along with verifying that the correct signature is stored in the transparency log.  Finally, it can verify the integrity of the transparency log at any point of time.
+
+## Usage
+
+### Sigstore and Cosign
+To sign and upload an artifact using the Cosign tool, you can do:
+```
+cosign sign-blob <file> --bundle artifact.bundle
+```
+If you do not have Cosign installed and want further information on Cosign, please refer to its documentation: https://docs.sigstore.dev/
+
+### Running the program
+Once you have signed and uploaded an artifact, you can now use the command line tool provided by the project to perform a variety of functions. Please see below for example usages.
+
+To fetch the latest checkpoint in the Rekor log:
+```
+python main.py -c
+```
+
+To verify that the artifact signature in the transparency log is correct:
+```
+python main.py --inclusion <log_index> --artifact <path_to_artifact>
+```
+
+To verify that the checkpoint added is consistent with the latest checkpoint using checkpoint details obtained when running `python main.py -c`:
+```
+python main.py --consistency --tree-id <previous_tree_id> --tree-size \
+<previous_tree_size> --root-hash <previous_tree_root_hash>
+```
+
+Optionally, all commands can also be run with the `-d` or `--debug` flag to enable debug mode. In debug mode, extra information is printed out during execution. Debug mode is disabled by default.
+```
+python main.py -d
+// or
+python main.py --debug
+```
+
+## Maintenance
+This project is maintained by Zayaan Rahman.
