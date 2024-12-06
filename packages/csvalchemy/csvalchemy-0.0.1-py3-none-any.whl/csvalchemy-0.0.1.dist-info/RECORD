@@ -1,0 +1,9 @@
+csvalchemy/__init__.py,sha256=mbSP8S9QvR2muA7Ab67wADFHfFCNvtZqnjRJR81VOng,24
+csvalchemy/reader.py,sha256=E2vU0fSWyhunF16fiDgG_Vd3v0-jVSAI-1LIkoF5VvI,447
+csvalchemy/result.py,sha256=f-Q4OwiSrV62pmxm4YlfOET8tR9VbrBKndrIPLTuVpw,154
+csvalchemy/validator.py,sha256=vqx0rv7vv6P-uhJjo2HcP0biHg53UA5k0wc_69b91Xc,988
+csvalchemy/writer.py,sha256=zDqkSLh_K1AyFNvWNdoyTR0KO4WpTNTHT9QBOISCNao,1410
+csvalchemy-0.0.1.dist-info/METADATA,sha256=HOGt8h6oLxi6PRXKUR7Mhu_er8SekpAW6S7-RQonbTI,567
+csvalchemy-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+csvalchemy-0.0.1.dist-info/top_level.txt,sha256=d0C7jdXRbkTjW55YBj6vC_PN2DCl4xmLzP6MgckUfdc,11
+csvalchemy-0.0.1.dist-info/RECORD,,
