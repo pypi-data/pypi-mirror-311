@@ -1,0 +1,61 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Seade on juba h\u00e4\u00e4lestatud",
+            "already_in_progress": "Seadistamine on juba k\u00e4imas",
+            "cannot_connect": "\u00dchendamine nurjus",
+            "reconfiguration_successful": "Muusikaassistendi integratsioon on edukalt \u00fcmber konfigureeritud.",
+            "reconfigure_successful": "\u00dcmberseadistamine \u00f5nnestus"
+        },
+        "error": {
+            "cannot_connect": "\u00dchendamine nurjus",
+            "invalid_server_version": "Music Assistanti server pole \u00f5ige versioon",
+            "unknown": "Ootamatu t\u00f5rge"
+        },
+        "step": {
+            "discovery_confirm": {
+                "description": "Kas lisada Music Assistant Server `{url}` Home Assistant'ile?",
+                "title": "Avastatud Music Assistant Server"
+            },
+            "init": {
+                "data": {
+                    "url": "Music Assistanti serveri URL"
+                }
+            },
+            "manual": {
+                "data": {
+                    "url": "Music Assistanti serveri URL"
+                },
+                "description": "Sisesta juba t\u00f6\u00f6tava Music Assistant Serveri URL. Kui Music Assistant Server ei t\u00f6\u00f6ta, peaksid selle esmalt paigaldama.",
+                "title": "Lisa Music Assistant Server k\u00e4sitsi"
+            }
+        }
+    },
+    "issues": {
+        "invalid_server_version": {
+            "description": "Kontrolli kas Music Assistant Serveri ja/v\u00f5i sidumise jaoks on saadaval v\u00e4rskendusi.",
+            "title": "Music Assistanti server pole \u00f5ige versioon"
+        }
+    },
+    "selector": {
+        "enqueue": {
+            "options": {
+                "add": "Lisa j\u00e4rjekorda",
+                "next": "Esita j\u00e4rgmine",
+                "play": "Esita",
+                "replace": "Esita kohe ja t\u00fchjenda j\u00e4rjekord",
+                "replace_next": "Esita j\u00e4rgmine ja t\u00fchjenda j\u00e4rjekord"
+            }
+        }
+    },
+    "services": {
+        "transfer_queue": {
+            "fields": {
+                "source_player": {
+                    "name": "Vali meediam\u00e4ngija"
+                }
+            },
+            "name": "\u00dclekande j\u00e4rjekord"
+        }
+    }
+}

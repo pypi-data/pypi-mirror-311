@@ -1,0 +1,36 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Apparaat is al geconfigureerd",
+            "reconfigure_successful": "Herconfiguratie was succesvol"
+        },
+        "error": {
+            "cannot_connect": "Kan geen verbinding maken",
+            "unknown": "Onverwachte fout"
+        }
+    },
+    "selector": {
+        "media_type": {
+            "options": {
+                "album": "Album",
+                "artist": "Artiest"
+            }
+        }
+    },
+    "services": {
+        "play_announcement": {
+            "fields": {
+                "url": {
+                    "name": "URL"
+                }
+            }
+        },
+        "play_media": {
+            "fields": {
+                "artist": {
+                    "name": "Naam van artiest"
+                }
+            }
+        }
+    }
+}

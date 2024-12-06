@@ -1,0 +1,33 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "\u00dchendamine nurjus",
+            "invalid_url": "Sobimatu URL",
+            "invalid_url_schema": "Sobimatu URL-i skeem.\nURL peaks algama t\u00e4htedega \"http://\" v\u00f5i \"https://\"."
+        },
+        "step": {
+            "host": {
+                "data": {
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "go2rtc eksemplari URL."
+                }
+            },
+            "url": {
+                "data": {
+                    "url": "URL"
+                },
+                "data_description": {
+                    "url": "go2rtc eksemplari URL."
+                }
+            }
+        }
+    },
+    "issues": {
+        "recommended_version": {
+            "description": "Tuvastasime, et kasutad vananenud go2rtc serveri versiooni. Parima kasutuskogemuse saamiseks soovitame go2rtc-serveri uuendada versioonile `{recommended_version}`.\nPraegu kasutad versiooni `{current_version}`.",
+            "title": "Tuvastati aegunud go2rtc server"
+        }
+    }
+}

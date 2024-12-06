@@ -1,0 +1,51 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u8bbe\u5907\u5df2\u914d\u7f6e",
+            "already_in_progress": "\u914d\u7f6e\u6d41\u7a0b\u5df2\u5728\u8fdb\u884c\u4e2d",
+            "cannot_connect": "\u8fde\u63a5\u5931\u8d25",
+            "reconfiguration_successful": "\u5df2\u6210\u529f\u91cd\u65b0\u914d\u7f6e Music Assistant \u96c6\u6210\u3002",
+            "reconfigure_successful": "\u91cd\u65b0\u914d\u7f6e\u6210\u529f"
+        },
+        "error": {
+            "cannot_connect": "\u8fde\u63a5\u5931\u8d25",
+            "invalid_server_version": "Music Assistant \u670d\u52a1\u5668\u7684\u7248\u672c\u4e0d\u6b63\u786e",
+            "unknown": "\u610f\u5916\u9519\u8bef"
+        },
+        "step": {
+            "discovery_confirm": {
+                "description": "\u60a8\u60f3\u6dfb\u52a0 Music Assistant \u670d\u52a1\u5668\u201c{url}\u201d\u5230 Home Assistant \uff1f",
+                "title": "\u53d1\u73b0 Music Assistant \u670d\u52a1\u5668"
+            },
+            "init": {
+                "data": {
+                    "url": "Music Assistant \u670d\u52a1\u5668\u7684\u7f51\u5740"
+                }
+            },
+            "manual": {
+                "data": {
+                    "url": "Music Assistant \u670d\u52a1\u5668\u7684\u7f51\u5740"
+                },
+                "description": "\u8f93\u5165\u60a8\u5df2\u8fd0\u884c Music Assistant \u670d\u52a1\u5668\u7684\u7f51\u5740\u3002\u5982\u679c\u60a8\u6ca1\u6709 Music Assistant \u670d\u52a1\u5668\u5728\u8fd0\u884c\uff0c\u8bf7\u5148\u5b89\u88c5\u3002",
+                "title": "\u624b\u52a8\u6dfb Music Assistant \u670d\u52a1\u5668"
+            }
+        }
+    },
+    "issues": {
+        "invalid_server_version": {
+            "description": "\u68c0\u67e5 Music Assistant \u670d\u52a1\u5668\u53ca\u5176\u96c6\u6210\u662f\u5426\u6709\u53ef\u7528\u66f4\u65b0\u3002",
+            "title": "Music Assistant \u670d\u52a1\u5668\u7684\u7248\u672c\u4e0d\u6b63\u786e"
+        }
+    },
+    "selector": {
+        "enqueue": {
+            "options": {
+                "add": "\u6dfb\u52a0\u81f3\u961f\u5217",
+                "next": "\u64ad\u653e\u4e0b\u4e00\u66f2",
+                "play": "\u64ad\u653e",
+                "replace": "\u7acb\u5373\u64ad\u653e\u5e76\u6e05\u9664\u961f\u5217",
+                "replace_next": "\u64ad\u653e\u4e0b\u4e00\u66f2\u5e76\u6e05\u9664\u961f\u5217"
+            }
+        }
+    }
+}

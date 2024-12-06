@@ -1,0 +1,51 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u88dd\u7f6e\u5df2\u7d93\u8a2d\u5b9a\u5b8c\u6210",
+            "already_in_progress": "\u8a2d\u5b9a\u5df2\u7d93\u9032\u884c\u4e2d",
+            "cannot_connect": "\u9023\u7dda\u5931\u6557",
+            "reconfiguration_successful": "\u6210\u529f\u91cd\u65b0\u8a2d\u5b9a\u97f3\u6a02\u52a9\u7406\u6574\u5408\u3002",
+            "reconfigure_successful": "\u91cd\u65b0\u8a2d\u5b9a\u6210\u529f"
+        },
+        "error": {
+            "cannot_connect": "\u9023\u7dda\u5931\u6557",
+            "invalid_server_version": "\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668\u7248\u672c\u4e0d\u6b63\u78ba",
+            "unknown": "\u672a\u9810\u671f\u932f\u8aa4"
+        },
+        "step": {
+            "discovery_confirm": {
+                "description": "\u662f\u5426\u8981\u65b0\u589e\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668 `{url}`\u81f3 Home Assistant\uff1f",
+                "title": "\u767c\u73fe\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668"
+            },
+            "init": {
+                "data": {
+                    "url": "\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668\u7db2\u5740"
+                }
+            },
+            "manual": {
+                "data": {
+                    "url": "\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668\u7db2\u5740"
+                },
+                "description": "\u8f38\u5165\u6b63\u5728\u57f7\u884c\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668\u7684\u7db2\u5740\u3002\u5982\u679c\u4e26\u672a\u57f7\u884c\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668\uff0c\u8acb\u5148\u9032\u884c\u5b89\u88dd\u3002",
+                "title": "\u624b\u52d5\u65b0\u589e\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668"
+            }
+        }
+    },
+    "issues": {
+        "invalid_server_version": {
+            "description": "\u6aa2\u67e5\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668\u53ca/\u6216\u6574\u5408\u6709\u4efb\u4f55\u53ef\u7528\u66f4\u65b0\u3002",
+            "title": "\u97f3\u6a02\u52a9\u7406\u4f3a\u670d\u5668\u7248\u672c\u4e0d\u6b63\u78ba"
+        }
+    },
+    "selector": {
+        "enqueue": {
+            "options": {
+                "add": "\u65b0\u589e\u81f3\u4f47\u5217",
+                "next": "\u64ad\u653e\u4e0b\u4e00\u9996",
+                "play": "\u64ad\u653e",
+                "replace": "\u7acb\u5373\u64ad\u653e\u4e26\u6e05\u9664\u4f47\u5217",
+                "replace_next": "\u64ad\u653e\u4e0b\u4e00\u9996\u4e26\u6e05\u7a7a\u4f47\u5217"
+            }
+        }
+    }
+}
