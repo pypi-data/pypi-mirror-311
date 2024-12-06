@@ -1,0 +1,8 @@
+[console_scripts]
+check-operation-status = datatrails_scitt_samples.scripts.check_operation_status:main
+create-hashed-signed-statement = datatrails_scitt_samples.scripts.create_hashed_signed_statement:main
+create-signed-statement = datatrails_scitt_samples.scripts.create_signed_statement:main
+datatrails-event-info = datatrails_scitt_samples.scripts.datatrails_event_info:main
+datatrails-sciit-demo-generate-example-key = datatrails_scitt_samples.scripts.generate_example_key:main
+register-signed-statement = datatrails_scitt_samples.scripts.register_signed_statement:main
+verify-receipt = datatrails_scitt_samples.scripts.verify_receipt:main
