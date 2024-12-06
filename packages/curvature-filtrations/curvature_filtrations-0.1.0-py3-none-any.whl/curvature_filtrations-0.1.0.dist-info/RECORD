@@ -1,0 +1,13 @@
+scott/__init__.py,sha256=HdqZZU6EGHJF3FyIHw3ybQsFGuyYMcc4pgiW6sVtvV0,65
+scott/compare.py,sha256=q-SND160ezmmYbnA5nYyo3smvLqN7QyNjLIi7MoV6cs,10694
+scott/geometry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scott/geometry/measures.py,sha256=6mUSGdvEf5Oe0k9bl0RhXjT8_Gyy2Rh8R7JQzZsUork,14746
+scott/kilt.py,sha256=xHAEPL5bl6gEfk-89HFkgjvusNbK3_jLNsXx7N0Slms,14109
+scott/topology/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scott/topology/distances.py,sha256=a3zIzCKciggJHUuvy0ijENiuclgEpxQdT-6ekpXBBoc,23341
+scott/topology/ph.py,sha256=fv2J73z_pbfFID3rM47HJjwc8B_uVnHfL85cD5o8API,7184
+scott/topology/representations.py,sha256=ikwOxGYig4mHp5t8r0PdST4xhAxtxzlZfW6Fq6JVdT8,12010
+curvature_filtrations-0.1.0.dist-info/LICENSE,sha256=SgGeg68VG4jQnEp2JwlpSruAWbAF17dDpgega7CrVu8,1496
+curvature_filtrations-0.1.0.dist-info/METADATA,sha256=YlG8vcmFZ8dU-31JejbSYchxay41ljJTz85lEEN7gS4,4228
+curvature_filtrations-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+curvature_filtrations-0.1.0.dist-info/RECORD,,
