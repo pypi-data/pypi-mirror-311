@@ -1,0 +1,5 @@
+autopep8
+grpcio
+grpcio-tools
+pytest
+pytest-cov
