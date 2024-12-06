@@ -1,0 +1,229 @@
+Metadata-Version: 2.1
+Name: kos000113-universal
+Version: 0.1.0
+Summary: Universal library for personal use
+Home-page: https://github.com/kostya2023/kos000113-Universal
+Author: Kostya
+Author-email: kostya_gorshkov_06@vk.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyOpenSSL
+Requires-Dist: tgcrypto
+
+â–Žkos000113-universal Library
+
+kos000113-universal is a Python library that provides various functions for data manipulation, encryption, and JSON file management. It includes utilities for key generation, database operations, and certificate generation.
+
+â–ŽInstallation
+
+You can install the library using pip. Just run the following command:
+
+pip install kos000113-universal
+
+
+â–ŽUsage
+
+â–ŽImporting the Library
+
+To use the library, you can import the necessary classes and methods as follows:
+
+import kos000113-universal
+
+
+â–ŽUsage Examples
+
+â–ŽWorking with Encryption
+
+Key - Must be 32 bytes and encoded in base64  
+Iv - Initialization Vector must be 32 bytes and encoded in base64
+
+# Example of using encryption functions
+crypter = kos000113-universal.crypter()
+data_to_encrypt = "Secret data"
+encrypted_data = crypter.crypt_data(data_to_encrypt, key, Iv)
+decrypted_data = crypter.decrypt_data(encrypted_data, key, Iv)
+print(decrypted_data)  # Output: Secret data
+
+
+â–ŽWorking with Database
+
+â€¢ db_name (str): The name of the database to connect to.
+
+â€¢ SQL_request (str): The SQL query to execute on the database.
+
+â€¢ params (Tuple[Any]): Parameters for the SQL query. Defaults to an empty tuple.
+
+â€¢ formatted (bool): Whether to return data in a "pretty" format. 
+  Example: [(1,), (2,), (3,)] - without formatting. 
+  [1, 2, 3] - with formatting.
+
+â€¢ method (str): The method for retrieving data; can be 'fetchone', 'fetchall', or 'fetchmany'.
+
+â€¢ size (int): The number of records for the 'fetchmany' method.
+
+# Example of using database functions
+db = kos000113-universal.Database()
+db.create_db("my_database.db", SQL_request, params)
+data = db.get_data("my_database.db", SQL_request, params, formatted, method, size)
+print(data)
+
+
+â–ŽKey Generation
+
+# Example of key generation
+key_gen = kos000113-universal.GenerateKey()
+keys = key_gen.create_keys()
+print(keys)  # Output: list with 2 elements
+
+random_key = key_gen.generate_random_key(128)
+print(random_key)  # Output: random string
+
+
+â–ŽWorking with JSON Files
+
+# Example of working with JSON files
+json_handler = kos000113-universal.JsonHandler()
+result = json_handler.update_data("data.json", "key", "value")
+print(result)  # Output: dictionary
+
+data = json_handler.get_data("data.json")
+print(data)  # Output: dictionary
+
+
+â–ŽCertificate Generation
+
+# Example of certificate generation
+cer_gen = kos000113-universal.GenerateCustomCer()
+cer = cer_gen.generate_cer_SDTP("example.com")
+print(cer)  # Needed for my future project
+
+
+â–ŽFunction Documentation
+
+â–Ž1. Encryption (crypter.py)
+
+â€¢ crypt_data(data: str) -> str
+
+  â€¢ Encrypts data.
+
+  â€¢ Parameters:
+
+    â€¢ data: string to be encrypted.
+
+  â€¢ Returns: Encrypted string.
+
+â€¢ decrypt_data(encrypted_data: str) -> str
+
+  â€¢ Decrypts data.
+
+  â€¢ Parameters:
+
+    â€¢ encrypted_data: string to be decrypted.
+
+  â€¢ Returns: Decrypted string.
+
+â–Ž2. Database Operations (database.py)
+
+â€¢ create_db(db_name: str) -> None
+
+  â€¢ Creates a new database.
+
+  â€¢ Parameters:
+
+    â€¢ db_name: name of the database.
+
+â€¢ get_data(db_name: str) -> Union[Dict[str, Any], str]
+
+  â€¢ Retrieves data from the database.
+
+  â€¢ Parameters:
+
+    â€¢ db_name: name of the database.
+
+  â€¢ Returns: Dictionary with data or an error message.
+
+â€¢ execute_query(query: str) -> Union[str, None]
+
+  â€¢ Executes anSQL query.
+
+  â€¢ Parameters:
+
+    â€¢ query: SQL query to execute.
+
+  â€¢ Returns: Result of the query execution or an error message.
+
+â–Ž3. Key Generation (generate_key.py)
+
+â€¢ create_keys() -> Tuple[str, str]
+
+  â€¢ Generates a pair of keys.
+
+  â€¢ Returns: Keys as a tuple.
+
+â€¢ generate_random_key(length: int) -> str
+
+  â€¢ Generates a random key of the specified length.
+
+  â€¢ Parameters:
+
+    â€¢ length: length of the key.
+
+  â€¢ Returns: Random key.
+
+â–Ž4. Working with JSON Files (json_manager.py)
+
+â€¢ update_data(file_path: str, what_data: str, sama_data: Any) -> Union[str, None]
+
+  â€¢ Updates data in the specified JSON file.
+
+  â€¢ Parameters:
+
+    â€¢ file_path: path to the JSON file.
+
+    â€¢ what_data: key to be updated.
+
+    â€¢ sama_data: new value for the key.
+
+  â€¢ Returns: Message about successful update or an error message.
+
+â€¢ get_data(file_path: str) -> Union[Dict[str, Any], str]
+
+  â€¢ Retrieves data from the specified JSON file.
+
+  â€¢ Parameters:
+
+    â€¢ file_path: path to the JSON file.
+
+  â€¢ Returns: Dictionary with data or an error message.
+
+â–Ž5. Certificate Generation (generate_custom_cer.py)
+
+â€¢ generate_cer_SDTP(domain: str) -> str
+
+  â€¢ Generates a certificate for the specified domain.
+
+  â€¢ Parameters:
+
+    â€¢ domain: domain name.
+
+  â€¢ Returns: Generated certificate.
+
+â–ŽLicense
+
+This project is licensed under the MIT License - details can be found in the LICENSE file.
+
+â–ŽContribution
+
+If you would like to contribute to the project, please fork the repository, make your changes, and create a Pull Request.
+
+â–ŽAuthor
+
+Your name - Konstantin Gorshkov
+
+â–ŽAcknowledgments
+
+Thank you for using the kos000113-universal

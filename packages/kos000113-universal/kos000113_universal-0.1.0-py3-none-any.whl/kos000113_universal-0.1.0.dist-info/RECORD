@@ -1,0 +1,12 @@
+kos000113-universal/__init__.py,sha256=-9us9Zw7wStI6NTvOrNclpfrMfNs9wKUncv-1EvjfW8,1322
+kos000113-universal/crypter.py,sha256=xQ9WkV5NmR4spRbxdXxS5g5MfuWJVYVD9dHMk9N9BRA,4189
+kos000113-universal/database.py,sha256=vKojvOtA2_DAY-u6VILM5kQJGO0LsB6yO7Kjawh97wY,6401
+kos000113-universal/generate_custom_cer.py,sha256=DeZ8KHeirSk4wZ6jGIMLgBawFQ3BIXmA7KF_wHa5ClE,717
+kos000113-universal/generate_https_cer.py,sha256=L9tQrE5O68q2A2lKbbM4Hba-wgKSryK4mpPxizXZVxg,2469
+kos000113-universal/generate_key.py,sha256=VzugbnPfO4l70WB9DetIW1Iiiak1uPxZwYYkgL_kJLU,2018
+kos000113-universal/json_mananger.py,sha256=m2DFox7K8Gmn2zbUu6Spr0OmcVhFzhdsVe5ZulRwahs,1373
+kos000113_universal-0.1.0.dist-info/LICENSE,sha256=EPSN4JiPTJ_HR8sKttfKvpbrA9tu8LgUCIqVauAnVU8,2231
+kos000113_universal-0.1.0.dist-info/METADATA,sha256=lv4VK5UrFylgkKnp1bVqM-vdmR0BJAcU-hM6f-SVMv8,6048
+kos000113_universal-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+kos000113_universal-0.1.0.dist-info/top_level.txt,sha256=yJREonrv4uoZIdSr4Dd3gR-W9dbE7YEwNPZrjZnL7L4,20
+kos000113_universal-0.1.0.dist-info/RECORD,,
