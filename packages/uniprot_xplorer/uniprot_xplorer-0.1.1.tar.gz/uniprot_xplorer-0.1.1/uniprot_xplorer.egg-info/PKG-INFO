@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: uniprot_xplorer
+Version: 0.1.1
+Summary: __init__.py and README.md files updated
+Author-email: BALIGAND Elsa <elsa.baligand@etu.univ-lyon1.fr>, EL AOUDATI Salma <salma.el-aoudati@etu.univ-lyon1.fr>
+Project-URL: repository, http://pedago-service.univ-lyon1.fr:2325/ebaligand/uniprot.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.9.2
+
+# README
+
+## Overview
+
+The module uniprot_xplorer contains two Python files: **`uniprot_collection.py`** and **`uniprot.py`**, which provide tools for analyzing UniProt protein data.
+
+---
+
+### **`uniprot.py`**
+The `uniprot.py` file defines the **`Uniprot` class**, which represents a protein object with the following features:
+- **Attributes**: 
+  - `identification`: Protein Id
+  - `ac_number`: Accession number
+  - `org_species`: Organism species
+  - `gene_name`: Gene name
+  - `peptide_seq`: Amino acid sequence
+  - `go_id`: List of associated Gene Ontology Ids
+  
+- **Methods**:
+  - `fasta_dump()`: Exports the protein sequence in FASTA format
+  - `molecular_weight()`: Calculates the molecular weight of the protein 
+  - `average_hydrophobicity()`: Computes the average hydrophobicity of the protein
+
+---
+
+### **`uniprot_collection.py`**
+The `uniprot_collection.py` file defines the **`Collection` class**, which manages multiple `Uniprot` objects. It includes:
+- **Attributes**:
+  - `uniprot_list`: A list of `Uniprot` objects
+
+- **Methods**:
+  - `add_uniprot(contenu_uniprot)`: Adds proteins to the collection
+  - `del_uniprot(uniprot_id)`: Deletes a protein from the collection by Id
+  - `sort_by_length()`: Sorts proteins by sequence length
+  - `filter_for_hydrophobic(min_hydro)`: Filters proteins by average hydrophobicity
+  - `filter()`: Filters proteins based on specific criteria
+  - `go_view()`: Counts occurrences of GO Ids across all proteins
+  - `draw_ABRL(uniprot_id)`: Generates a histogram of ABRL for a specific protein
+
+---
+### **`Examples of use`**
+
+This demonstration allows you to test the "fasta_dump" method of the Uniprot class.
+
+```python
+import uniprot_xplorer.uniprot
+from uniprot_xplorer import *
+import sys 
+
+data =  sys.argv[1]
+uniprot_data = uniprot_xplorer.uniprot.Uniprot(open_uniprot_file(data))
+
+# you have created an output folder with the fasta file of the protein inside 
+uniprot_data.fasta_dump()
+
+```
+This demonstration allows you to test the "add_uniprot" method of the Collection class.
+
+```python
+import uniprot_xplorer.uniprot_collection
+from uniprot_xplorer import *
+import sys 
+
+data =  sys.argv[1]
+uniprot_data = open_uniprot_file(data)
+
+collection = uniprot_xplorer.uniprot_collection.Collection()
+
+# you added protein(s) in the collection object
+collection.add_uniprot(uniprot_data)
+
+print(collection)
+```
+---
+## Authors
+- **Salma El AOUDATI**
+- **Elsa BALIGAND**
+
+*Date* : 2024-11-27

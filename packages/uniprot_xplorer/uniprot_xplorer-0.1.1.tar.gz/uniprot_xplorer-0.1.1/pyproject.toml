@@ -1,0 +1,18 @@
+[project]
+name = "uniprot_xplorer"
+version = "0.1.1"
+description = "__init__.py and README.md files updated"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.9.2",
+]
+authors = [
+    { name = "BALIGAND Elsa", email = "elsa.baligand@etu.univ-lyon1.fr" },
+    { name = "EL AOUDATI Salma", email = "salma.el-aoudati@etu.univ-lyon1.fr" }
+]
+urls = { "repository" = "http://pedago-service.univ-lyon1.fr:2325/ebaligand/uniprot.git"}
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+include = ["uniprot_xplorer"] 
