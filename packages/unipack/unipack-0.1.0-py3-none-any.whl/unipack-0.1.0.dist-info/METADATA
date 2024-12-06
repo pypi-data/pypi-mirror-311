@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: unipack
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.9.2
+
+# UniProt et Collection
+
+## Utilisation
+
+### Création d'objets
+Les deux fichier sont stockés dans code_python
+- **uniprot.py** : Contient la classe `Uniprot`, ses méthodes ainsi que la fonction permettant de créer l'objet a partir d'un chemin.
+- **uniprot_collection.py** : Contient la classe `Collection`, ses méthodes ainsi que la fonction permettant de créer l'objet a partir d'un chemin.
+
+#### À partir d'un fichier contenant une seule entrée UniProt :
+Utilisez la fonction `from_file_to_uniprot` pour créer un objet **Uniprot** :
+```python
+from code_python.uniprot import from_file_to_uniprot
+
+uniprot_objet = from_file_to_uniprot("path_to_uniprot_file.txt")
+```
+
+#### À partir d'un fichier contenant plusieurs entrées UniProt :
+Utilisez la fonction `from_file_to_collection` pour créer un objet **Collection** :
+```python
+from code_python.uniprot_collection import from_file_to_collection
+
+collection_objet = from_file_to_collection("path_to_uniprot_collection_file.txt")
+```
+
+---
+
+### Classes et Méthodes
+
+#### **Classe `Uniprot`**
+Représente une entrée UniProt individuelle.
+
+| Méthode                  | Description                                                                                  |
+|--------------------------|----------------------------------------------------------------------------------------------|
+| `fasta_dump()`           | Génère un fichier FASTA contenant l'ID, l'organisme, le nom du gène, et la séquence.         |
+| `molecular_weight()`     | Calcule et retourne la masse moléculaire de la protéine.                                      |
+| `average_hydrophobicity()` | Calcule et retourne l'hydrophobicité moyenne de la protéine.                               |
+| `print_attributes()`     | Affiche les attributs (ID, séquence, etc.) de l'objet.                     |
+
+#### **Classe `Collection`**
+Représente une collection d'objets UniProt.
+
+| Méthode                     | Description                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| `add(arg)`                  | Ajoute un nouvel objet `Uniprot` a partir d'un chemin de fichier.                          |
+| `delet(uniprot_id)`         | Supprime un objet `Uniprot` de la collection à partir de son ID.                               |
+| `sort_by_lenght()`          | Trie les objets `Uniprot` par longueur de séquence.                                            |
+| `filter_for_hydrophobic(min_hydro)` | Filtre les objets dont l'hydrophobicité moyenne dépasse une valeur minimale.              |
+| `__add__(collection_2)`     | Combine deux collections, en éliminant les doublons.                                           |
+| `go_view()`                 | Renvoie une liste unique des termes GO (Gene Ontology) présents dans la collection.            |
+| `draw_ABRL(uniprot_id)`     | Crée un graphique de l'abondance relative des acides aminés pour un objet donné.               |
+| `print_attributes()`        | Affiche les attributs de chaque objet `Uniprot` de la collection.|
+
+---
