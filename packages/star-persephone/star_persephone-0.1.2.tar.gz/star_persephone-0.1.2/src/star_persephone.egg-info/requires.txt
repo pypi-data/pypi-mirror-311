@@ -1,0 +1,6 @@
+numpy
+matplotlib
+scipy
+pathos
+h5py
+pygyre

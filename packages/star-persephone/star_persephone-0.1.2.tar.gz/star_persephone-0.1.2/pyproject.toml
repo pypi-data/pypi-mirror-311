@@ -1,0 +1,29 @@
+[project]
+name = "star_persephone"
+version = "0.1.2"
+authors = [
+  { name="Sylvain N. Breton", email="sylvain.breton@inaf.it" },
+]
+description = "Stellar model grid management and seismic rotational kernel computations."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)",
+    "Operating System :: OS Independent",
+]
+dependencies = ['numpy', 'matplotlib', 'scipy',
+                'pathos', 'h5py', 'pygyre']
+keywords = ["asteroseismology", "kernels", "rotation"]
+
+[build-system]
+requires = ["setuptools >= 40.8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/sybreton/persephone"
+"Documentation" = "https://star-persephone.readthedocs.io/en/latest/"

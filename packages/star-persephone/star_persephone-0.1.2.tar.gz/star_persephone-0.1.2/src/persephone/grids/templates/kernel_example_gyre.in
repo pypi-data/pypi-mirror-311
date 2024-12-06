@@ -1,0 +1,61 @@
+&constants
+/
+
+&model
+  model_type = 'EVOL'  ! Obtain stellar structure from an evolutionary model
+  file_format = 'MESA' ! File format of the evolutionary model
+  add_center = .FALSE.
+/
+
+&mode
+  l = 1 
+  m = 1
+  n_pg_min = -5
+  n_pg_max = 5
+/
+
+&osc
+  inner_bound = 'REGULAR'
+  outer_bound = 'VACUUM' ! Use a zero-pressure outer mechanical boundary condition
+/
+
+&rot
+  Omega_rot_source = 'UNIFORM'
+  Omega_rot = 0.
+  Omega_rot_units = 'UHZ' 
+/
+
+&num
+  diff_scheme = 'COLLOC_GL4' ! 4th-order collocation scheme for difference equations
+/
+
+&scan
+  grid_type = 'INVERSE'
+  freq_min = 10 
+  freq_max = 300   
+  n_freq = 500         
+  freq_units = 'UHZ'
+/
+
+&grid
+  w_osc = 10 ! Oscillatory region weight parameter
+  w_exp = 2  ! Exponential region weight parameter
+  w_ctr = 10 ! Central region weight parameter
+/
+
+
+&ad_output
+  summary_item_list = 'l,m,n_pg,n_p,n_g,freq,freq_units,
+                       H, E, E_norm, E_p, E_g, R_star, M_star,
+                       Delta_p, Delta_g'
+  detail_item_list = 'l,m,n_pg,n_p,n_g,omega,freq,x,xi_r,
+                      xi_h,c_1,As,V_2,Gamma_1,P,rho,
+                      eul_P,prop_type,
+                      H, E, E_norm, E_p, E_g, R_star, M_star,
+                      Delta_p, Delta_g, M_r'
+  freq_units = 'UHZ'
+  freq_frame = 'INERTIAL'
+/
+
+&nad_output
+/
