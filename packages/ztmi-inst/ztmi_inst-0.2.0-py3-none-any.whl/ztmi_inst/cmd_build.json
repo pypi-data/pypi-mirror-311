@@ -1,0 +1,10 @@
+{
+  "commands": {
+    "measure_voltage_dc_get(range=DEF, resolution=DEF)": "MEASure:VOLTage:DC?",
+    "configure_voltage_dc_set(range=DEF, resolution=DEF)": "CONFigure:VOLTage:DC",
+    "voltage_dc_range_set(range:[float, str]=MIN)": "VOLTage:DC:RANGe",
+    "voltage_dc_range_get(range: str)": "VOLTage:DC:RANGe?",
+    "channel_vernier_set(n: int, bool: bool=true)": ":CHANenl<n>:VERNier",
+    "channel_vernier_get(n: int)": ":CHANenl<n>:VERNier?"
+  }
+}
