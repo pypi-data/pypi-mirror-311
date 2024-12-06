@@ -1,0 +1,11 @@
+quicks/__init__.py,sha256=NBYFOZLanNDuQOtsxPNeE_3klwPhkpv1WQT0gM1SgR4,352
+quicks/__main__.py,sha256=8mh1nU5mavv1egyi7MlW0h2RAs4Yu38KQRqMPCsCaE0,33
+quicks/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quicks/cli/main.py,sha256=mbycV4z2r98vm3ptxD0IpFViDjY96GGKZg0S9jw9Pys,577
+quicks/core.py,sha256=mtvkCJ26mjucqOThNqZy3mIyhs3zHclTpt2ba5uzduY,2733
+quicks/exceptions.py,sha256=HvfwC2G8jR1Xm-IQsRycLmNYh2IXBrjSPlzhbRLs2eg,156
+quicks-0.0.6.dist-info/LICENSE,sha256=sR_44BT1-JONPsQxCGPMAT8-9QtwvQKG_6BW2nZbUg0,1071
+quicks-0.0.6.dist-info/METADATA,sha256=qZMn6kfIrol4dhJmL4WmfmE-Q17egqTELB4jGl0gqtM,1069
+quicks-0.0.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+quicks-0.0.6.dist-info/entry_points.txt,sha256=Dldqt2o3T8Uk9jWtEVKO8uDhPzy-76namgkzwXyp_Y4,46
+quicks-0.0.6.dist-info/RECORD,,

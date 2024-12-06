@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: quicks
+Version: 0.0.6
+Summary: Quicks Project Generator
+Home-page: https://pypi.org/project/quicks
+License: MIT
+Author: Danil Akhtarov
+Author-email: daxartio@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (>=6,<7)
+Requires-Dist: jinja2 (>=3,<4)
+Project-URL: Repository, https://github.com/daxartio/quicks
+Description-Content-Type: text/markdown
+
+# Quicks
+
+Project generator
+
+```
+pip install quicks
+
+quicks example.yml PROJECT_NAME
+```
+
+example.yml Jinja2 style
+
+```yaml
+files:
+  - ['{{project}}/__init__.py', 'alias']
+  - '{{project}}/__main__.py'
+  - '{{project}}/requirements.txt'
+  - '.gitignore'
+  - 'LICENSE'
+  - 'Dockerfile'
+  - 'README.md'
+
+templates:
+  'alias': |
+    # auto generate
+  'README.md': |
+    # {{project}}
+```
