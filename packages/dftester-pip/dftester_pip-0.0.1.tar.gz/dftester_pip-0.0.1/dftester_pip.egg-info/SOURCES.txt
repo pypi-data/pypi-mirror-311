@@ -1,0 +1,6 @@
+setup.py
+df-pip/__init__.py
+dftester_pip.egg-info/PKG-INFO
+dftester_pip.egg-info/SOURCES.txt
+dftester_pip.egg-info/dependency_links.txt
+dftester_pip.egg-info/top_level.txt

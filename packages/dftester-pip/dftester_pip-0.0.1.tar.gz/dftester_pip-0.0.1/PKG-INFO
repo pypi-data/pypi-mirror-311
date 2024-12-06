@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dftester-pip
+Version: 0.0.1
+Summary: Malicious Python Package
+Home-page: https://github.com/0xe2d0/evil-pip
+Download-URL: https://github.com/0xe2d0/evil-pip/tarball/master
+Author: GodMi4G
+License: MIT
