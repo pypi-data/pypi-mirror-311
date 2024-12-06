@@ -1,0 +1,110 @@
+Metadata-Version: 2.3
+Name: mintii-router
+Version: 0.1.0
+Summary: Mintii Router: Intelligent LLM Model Selection and Optimization Library. Automatically selects the best Large Language Model for each prompt,  optimizing for cost, quality, and performance.
+Project-URL: Homepage, https://mintii.ai
+Project-URL: Documentation, https://docs.mintii.ai
+Project-URL: Repository, https://github.com/mintiilabs/mintii-router
+Project-URL: Bug Tracker, https://github.com/mintiilabs/mintii-router/issues
+Author-email: Mintii Labs <contact@mintiilabs.com>
+License: Proprietary - All Rights Reserved
+Keywords: AI,AI router,LLM,cost optimization,machine learning,mintii,model optimization,model selection,natural language processing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: langchain-anthropic>=0.0.1
+Requires-Dist: langchain-core>=0.1.0
+Requires-Dist: langchain-google-genai>=0.0.4
+Requires-Dist: langchain-openai>=0.0.5
+Requires-Dist: langchain>=0.1.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: typing-extensions>=4.5.0
+Provides-Extra: dev
+Requires-Dist: black>=23.0; extra == 'dev'
+Requires-Dist: isort>=5.0; extra == 'dev'
+Requires-Dist: mypy>=1.0; extra == 'dev'
+Requires-Dist: pytest>=7.0; extra == 'dev'
+Requires-Dist: ruff>=0.1.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Mintii Router
+
+The intelligent LLM model selection and optimization library by [Mintii Labs](https://mintii.ai).
+
+## About Mintii Router
+
+Mintii Router is a sophisticated AI model selection system that automatically chooses the best Large Language Model (LLM) for each specific prompt, optimizing for both cost and quality. Our system evaluates over 20 different LLMs in real-time to ensure you get the best possible response while minimizing costs.
+
+## Key Features
+
+- 🎯 **Intelligent Model Selection**: Automatically selects the most suitable LLM for each prompt
+- 💰 **Cost Optimization**: Achieve up to 80% cost reduction through smart model routing
+- 🚀 **Quality Assurance**: Maintains high-quality responses through sophisticated model evaluation
+- 🔄 **Adaptive Learning**: Continuously improves selection criteria based on performance data
+- 📊 **Usage Analytics**: Track and optimize your LLM usage patterns
+
+## Installation
+
+```bash
+pip install mintii-router
+```
+
+## Quick Start
+
+```python
+from mintii import Router
+from dotenv import load_dotenv
+import os
+
+# Load your API keys
+load_dotenv()
+
+# Initialize the router
+router = Router(api_key=os.getenv('MINTII_API_KEY'))
+
+# Get a response
+response = router.generate("Explain quantum computing in simple terms")
+print(response.content)
+```
+
+## Features
+
+- **Smart Model Selection**: Automatically chooses the best model based on:
+  - Prompt complexity
+  - Required capabilities
+  - Cost constraints
+  - Performance requirements
+
+- **Cost Optimization**: Reduces costs by:
+  - Selecting cost-effective models
+  - Optimizing token usage
+  - Balancing quality and cost
+
+- **Quality Assurance**: Maintains high standards through:
+  - Model capability matching
+  - Response quality monitoring
+  - Consistent performance tracking
+
+## Documentation
+
+For full documentation, visit [docs.mintii.ai](https://docs.mintii.ai)
+
+## Support
+
+- Email: support@mintiilabs.com
+- Documentation: [docs.mintii.ai](https://docs.mintii.ai)
+- Issues: [GitHub Issues](https://github.com/mintiilabs/mintii-router/issues)
+
+## License
+
+Proprietary. Copyright © 2024 Mintii Labs. All rights reserved.
