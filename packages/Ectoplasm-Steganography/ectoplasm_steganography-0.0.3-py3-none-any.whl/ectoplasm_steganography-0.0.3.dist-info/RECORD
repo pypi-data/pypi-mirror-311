@@ -1,0 +1,9 @@
+ectoplasm/__init__.py,sha256=t-SifuF6K7YMvL09D-ELJKIcPlaAsjXfQ_UoQRWpo6g,199
+ectoplasm/__main__.py,sha256=hSqoJZs_ywrL43yIRIGDSXLO2Y5wvzCbK1JkBK7aRNA,1096
+ectoplasm/ectoplasm.py,sha256=6jPwGsc5bDR_P4oQxOUYI4hWGqemAMx9POrus7WPsos,18468
+ectoplasm/patches.py,sha256=klqmKrIyXI1-vSY2PHuZ7b7SVLVG3gxuq4RmKWQFzrQ,7907
+ectoplasm/test-ectoplasm.py,sha256=GxzTG08W0NttJR2UJHKfLRl6T59R8HJUbJWK7ogUTpk,8922
+ectoplasm_steganography-0.0.3.dist-info/METADATA,sha256=d4hqSGxk5Muo2Y7gW8l5Wza65-8vAlhd2Ov4IS2KE14,18253
+ectoplasm_steganography-0.0.3.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+ectoplasm_steganography-0.0.3.dist-info/licenses/LICENSE,sha256=1l80yZ0PykWLgVw4ZMO1hcXvMKLiFL_fVUMYHIzrMHs,1088
+ectoplasm_steganography-0.0.3.dist-info/RECORD,,
