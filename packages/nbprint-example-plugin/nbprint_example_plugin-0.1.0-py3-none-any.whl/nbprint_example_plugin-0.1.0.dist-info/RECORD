@@ -1,0 +1,9 @@
+hydra_plugins/nbprint_example_plugin/__init__.py,sha256=vH22S62wiLP6DkgfS4EArSk_eMwVVlXBzSWSXpKksTU,576
+nbprint_example_plugin/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+nbprint_example_plugin/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nbprint_example_plugin/config/page/nbprint_example_plugin/default.yaml,sha256=ReC0PldOtbEd8BSF8bNy4JrL_mrDdrGgIGXr7CdDS_8,337
+nbprint_example_plugin/tests/test_all.py,sha256=ZFPs-vnhp2e_T_uocirzoGzbU4QiByWS6s-WosV2y58,79
+nbprint_example_plugin-0.1.0.dist-info/METADATA,sha256=vS1Xhk5OXvrp1bo2x47hJfdm9N1iF1BF1EI0Jz87Clg,2300
+nbprint_example_plugin-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+nbprint_example_plugin-0.1.0.dist-info/licenses/LICENSE,sha256=dghFvLce-X0CSpSHQSLX_4B965dosQgjHLx1Qdq1a9Y,11349
+nbprint_example_plugin-0.1.0.dist-info/RECORD,,
