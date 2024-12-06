@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+chinus_emotions/__init__.py
+chinus_emotions.egg-info/PKG-INFO
+chinus_emotions.egg-info/SOURCES.txt
+chinus_emotions.egg-info/dependency_links.txt
+chinus_emotions.egg-info/top_level.txt
+chinus_emotions/data/__init__.py
+chinus_emotions/data/db/__init__.py
+chinus_emotions/data/db/emotions.db
+chinus_emotions/src/db/__init__.py
+chinus_emotions/src/db/db_connect.py
+chinus_emotions/src/emotions/__init__.py
+chinus_emotions/src/emotions/emotions.py
+chinus_emotions/src/main/__init__.py
+chinus_emotions/src/main/main.py
+test/test.py
