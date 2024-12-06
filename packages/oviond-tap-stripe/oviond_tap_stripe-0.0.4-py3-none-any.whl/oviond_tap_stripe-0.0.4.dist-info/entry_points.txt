@@ -1,0 +1,3 @@
+[console_scripts]
+tap-stripe=tap_stripe.tap:TapStripe.cli
+
