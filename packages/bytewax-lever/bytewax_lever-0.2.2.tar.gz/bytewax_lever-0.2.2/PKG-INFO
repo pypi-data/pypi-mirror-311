@@ -1,0 +1,71 @@
+Metadata-Version: 2.3
+Name: bytewax-lever
+Version: 0.2.2
+Summary: Lever connectors for Bytewax
+Project-URL: Repository, https://github.com/imnotjames/bytewax-lever.git
+Project-URL: Issues, https://github.com/imnotjames/bytewax-lever/issues
+Author-email: James Ward <james@notjam.es>
+License: MIT License
+        
+        Copyright (c) 2024 James Ward
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: bytewax,lever
+Requires-Python: >=3.12
+Requires-Dist: bytewax>=0.21.0
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+[![PyPI](https://img.shields.io/pypi/v/bytewax-lever.svg?style=flat-square)](https://pypi.org/project/bytewax-lever/)
+
+# Bytewax Lever
+
+[Lever](https://lever.co) connectors for [Bytewax](https://bytewax.io).
+
+This connector offers 1 source:
+
+* `LeverPostingSource` - Supplies created & updated Lever Postings
+
+## Installation
+
+This package is available via [PyPi](https://pypi.org/project/bytewax-lever) as
+`bytewax-lever` and can be installed via your package manager of choice.
+
+## Usage
+
+```python
+import os
+
+import bytewax.operators as op
+from bytewax.dataflow import Dataflow
+from bytewax.connectors.stdio import StdOutSink
+
+from bytewax_lever import PostingSource
+
+LEVER_API_KEY = os.environ["LEVER_API_KEY"]
+
+flow = Dataflow("lever_example")
+flow_input = op.input("input", flow, PostingSource(api_key=LEVER_API_KEY))
+
+op.output("output", flow_input, StdOutSink())
+```
+
+## License
+
+Licensed under the [MIT License](./LICENSE).
