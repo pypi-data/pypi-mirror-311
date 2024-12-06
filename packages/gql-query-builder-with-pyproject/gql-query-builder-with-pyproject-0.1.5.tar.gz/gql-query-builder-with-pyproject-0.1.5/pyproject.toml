@@ -1,0 +1,23 @@
+[project]
+name = "gql-query-builder-with-pyproject"
+authors = [  {name = "youyo", email = "1003ni2@gmail.com"}]
+version = "0.1.5"
+description = "This is a GraphQL query builder. This is a fork with pyproject to make installing possible on newer tools"
+readme = "README.md"
+requires-python = ">=3.6"
+
+license = {text = "MIT License"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["graphql", "gql", "query-builder"]
+[project.urls]
+Homepage = "https://github.com/rtaycher/gql-query-builder"
+
+[tool.pytest.ini_options]
+testpaths = ["tests/test.py"]
