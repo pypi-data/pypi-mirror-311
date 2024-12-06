@@ -1,0 +1,4 @@
+aiohttp~=3.7
+aiorun~=2024.8.1
+bleak~=0.22
+csrmesh~=0.10
