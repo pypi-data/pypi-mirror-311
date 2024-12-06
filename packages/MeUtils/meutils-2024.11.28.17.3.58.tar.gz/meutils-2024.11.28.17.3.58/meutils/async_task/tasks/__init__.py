@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Project      : AI.  @by PyCharm
+# @File         : __init__.py
+# @Time         : 2024/11/28 16:03
+# @Author       : betterme
+# @WeChat       : meutils
+# @Software     : PyCharm
+# @Description  : 
+
+# 所有异步任务
+from meutils.pipe import *
+
+for p in get_resolve_path('.', __file__).glob('*'):
+
+    if not p.name.startswith('_') and p.name.endswith('.py'):
+        logger.debug(p)
+        _ = try_import(p.stem, package="meutils.async_task.tasks")
