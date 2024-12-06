@@ -1,0 +1,5 @@
+types-python-dateutil
+types-pytz
+
+[:python_version < "3.9"]
+backports.zoneinfo
