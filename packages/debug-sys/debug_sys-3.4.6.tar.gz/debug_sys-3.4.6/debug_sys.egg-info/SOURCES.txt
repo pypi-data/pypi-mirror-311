@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+debug_sys/__init__.py
+debug_sys/log_manager.py
+debug_sys/logger.py
+debug_sys.egg-info/PKG-INFO
+debug_sys.egg-info/SOURCES.txt
+debug_sys.egg-info/dependency_links.txt
+debug_sys.egg-info/top_level.txt
