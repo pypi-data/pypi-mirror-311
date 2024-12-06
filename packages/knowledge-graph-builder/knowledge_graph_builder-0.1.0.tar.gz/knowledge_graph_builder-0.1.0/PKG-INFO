@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: knowledge-graph-builder
+Version: 0.1.0
+Summary: Constructing Knowledge Graph Based on Given Entity Relation Ontology and Entity Attribute Ontology
+Author: Cuibinge
+Author-email: cuibinge@sdust.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Build a Knowledge Graph based on the defined entity relationship ontology and entity attribute ontology, and write it to the Neo4j database
+1.KGBuilder.py
+According to the defined ontology, the triplet of entity relation and entity attribute is extracted from the document input by the user using LLM
+2.KGLogger.py
+Define Logger
+3.datatypes.py
+Define data type
+4.KGToNeo4j.py
+Write the extracted entity relations and entity attribute triples to the Neo4j database
