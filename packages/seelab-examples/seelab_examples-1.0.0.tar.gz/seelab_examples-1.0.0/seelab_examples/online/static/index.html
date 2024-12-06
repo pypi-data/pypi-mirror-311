@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Room Management</h1>
+        <div>
+            <h2>Create Room</h2>
+            <input type="text" id="create-room-id" placeholder="Room ID" />
+            <input type="password" id="create-password" placeholder="Password" />
+            <button id="create-room">Create Room</button>
+            <p id="create-message"></p>
+        </div>
+        <div>
+            <h2>Join Room</h2>
+            <input type="text" id="join-room-id" placeholder="Room ID" />
+            <input type="password" id="join-password" placeholder="Password" />
+            <button id="join-room">Join Room</button>
+            <p id="join-message"></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('create-room').onclick = function() {
+            const roomId = document.getElementById('create-room-id').value;
+            const password = document.getElementById('create-password').value;
+
+            fetch('/create_room', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ room_id: roomId, password: password })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    // Handle HTTP errors
+                    return response.json().then(err => { throw new Error(err.message); });
+                }
+                return response.json();  // Parse as JSON if the response is OK
+            })
+            .then(data => {
+                if (data.success) {
+                    window.location.href = `/teacher/${data.room_id}`; // Navigate to teacher page
+                } else {
+                    document.getElementById('create-message').innerText = data.message;
+                }
+            })
+            .catch(error => {
+                document.getElementById('create-message').innerText = error.message; // Display error message
+            });
+        };
+
+        document.getElementById('join-room').onclick = function() {
+            const roomId = document.getElementById('join-room-id').value;
+            const password = document.getElementById('join-password').value;
+
+            fetch('/join_room', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ room_id: roomId, password: password })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    // Handle HTTP errors
+                    return response.json().then(err => { throw new Error(err.message); });
+                }
+                return response.json();  // Parse as JSON if the response is OK
+            })
+            .then(data => {
+                if (data.success) {
+                    window.location.href = `/student/${data.room_id}`; // Navigate to student page
+                } else {
+                    document.getElementById('join-message').innerText = data.message;
+                }
+            })
+            .catch(error => {
+                document.getElementById('join-message').innerText = error.message; // Display error message
+            });
+        };
+
+    </script>
+</body>
+</html>

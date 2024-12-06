@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Page</title>
+    <link rel="stylesheet" href="/static/styles.css" type="text/css">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Room</h1>
+
+        <h2>Create Room</h2>
+        <label for="owner-name">Owner Name:</label>
+        <input type="text" id="owner-name" placeholder="Enter your name" /><br>
+
+        <label for="new-room-id">Room ID:</label>
+        <input type="text" id="new-room-id" placeholder="Enter room ID" /><br>
+
+        <label for="new-password">Password:</label>
+        <input type="password" id="new-password" placeholder="Enter password" /><br>
+
+        <button id="create-room">Create Room</button>
+        <p id="message"></p>
+
+        <h2>Input Question</h2>
+        <input type="text" id="question" placeholder="Enter your question" />
+        <div id="choices-container">
+            <input type="text" class="choice" placeholder="Choice A" />
+            <input type="text" class="choice" placeholder="Choice B" />
+            <input type="text" class="choice" placeholder="Choice C" />
+            <input type="text" class="choice" placeholder="Choice D" />
+        </div>
+        <div>
+            <label for="correct-choice">Select Correct Choice:</label>
+            <select id="correct-choice">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+        </div>
+        <button id="send-question">Send Question</button>
+
+        <button id="exit-room">Exit Room</button>
+
+        <div id="student-list">
+            <h3>Students in Room:</h3>
+            <ul id="students"></ul>
+        </div>
+    </div>
+
+    <script>
+        var qid=0;
+        var memlist;
+        var room_id = '';
+        const socket = io.connect('http://localhost:8000');
+
+        socket.on('connect', function() {
+            console.log('Connected to Socket.IO server');
+        });
+
+        socket.on('disconnect', function() {
+            console.log('Disconnected from Socket.IO server');
+        });
+
+        // Create room event
+        document.getElementById('create-room').onclick = function() {
+            const roomId = document.getElementById('new-room-id').value;
+            const password = document.getElementById('new-password').value;
+            const ownerName = document.getElementById('owner-name').value;
+
+            socket.emit('create_quiz', {
+                room_id: roomId,
+                password: password,
+                owner_name: ownerName
+            });
+
+            document.getElementById('message').innerText = 'Room created!';
+        };
+
+        // Listen for room creation response
+        socket.on('quiz_created', function(data) {
+            document.getElementById('message').innerText = `Room created! ID: ${data.room_id}, Owner: ${data.owner_name}`;
+            room_id = data.room_id;
+            qid=0;
+        });
+
+        socket.on('create_error', function(data) {
+            document.getElementById('message').innerText = `Error: ${data.message}`;
+        });
+
+        // Send question event
+        document.getElementById('send-question').onclick = function() {
+            const question = document.getElementById('question').value;
+            const choices = Array.from(document.querySelectorAll('.choice')).map(input => input.value);
+            const correctChoice = document.getElementById('correct-choice').value;
+
+            socket.emit('send_question', {
+                room_id: room_id,
+                question: [question,choices,qid++]
+            });
+
+            document.getElementById('message').innerText = 'Question sent!';
+        };
+
+        // Exit room event
+        document.getElementById('exit-room').onclick = function() {
+            socket.emit('exit_room', {
+                room_id: document.getElementById('new-room-id').value
+            });
+
+            document.getElementById('message').innerText = 'Exited room!';
+        };
+
+    // Create student blocks and update their score when relayed from the server
+    socket.on('member_list', function(data) {
+        const students = document.getElementById('students');
+        students.innerHTML = ''; // Clear existing list
+        memlist = data;
+        console.log('list: ', data);
+
+        data.members.forEach(student => {
+            const studentBlock = document.createElement('div');
+            studentBlock.classList.add('student-block');
+            studentBlock.id = `student-${student.name}`;  // Create an ID based on student name
+
+            // Display the student's name
+            const studentName = document.createElement('span');
+            studentName.innerText = student.name;
+            studentName.classList.add('student-name');
+
+            // Display the student's score (initialized to 0 or existing score)
+            const studentScore = document.createElement('span');
+            studentScore.innerText = `Score: ${student.score || 0}`;
+            studentScore.classList.add('student-score');
+            studentScore.id = `score-${student.name}`;  // ID for updating score later
+
+            // Append the name and score to the student block
+            studentBlock.appendChild(studentName);
+            studentBlock.appendChild(studentScore);
+
+            // Add the student block to the students container
+            students.appendChild(studentBlock);
+        });
+    });
+
+    // Update score when the server relays the updated score
+    socket.on('score_update', function(data) {
+        const studentScoreElement = document.getElementById(`score-${data.student_name}`);
+        if (studentScoreElement) {
+            studentScoreElement.innerText = `Score: ${data.new_score}`;
+        }
+    });
+    </script>
+
+
+</body>
+</html>
