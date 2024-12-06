@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+dammy7878carberra/__init__.py
+dammy7878carberra/__main__.py
+dammy7878carberra/cli.py
+dammy7878carberra.egg-info/PKG-INFO
+dammy7878carberra.egg-info/SOURCES.txt
+dammy7878carberra.egg-info/dependency_links.txt
+dammy7878carberra.egg-info/entry_points.txt
+dammy7878carberra.egg-info/requires.txt
+dammy7878carberra.egg-info/top_level.txt

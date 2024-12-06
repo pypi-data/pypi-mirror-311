@@ -1,0 +1,2 @@
+[console_scripts]
+dammy7878_carberra = dammy7878carberra.cli:main
