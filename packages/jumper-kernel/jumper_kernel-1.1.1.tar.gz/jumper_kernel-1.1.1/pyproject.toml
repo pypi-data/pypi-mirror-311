@@ -1,0 +1,37 @@
+[build-system]
+requires = [
+  "setuptools>=61",
+  "wheel",
+]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name='jumper-kernel'
+version='1.1.1'
+authors=[
+  {name='Elias Werner',email='elias.werner@tu-dresden.de'},
+]
+description='This is a Jupyter Python Kernel for performance engineering. Beside performance data as CPU, GPU, memory utilization it supports performance data recording with Score-P.'
+readme={ file='README.md', content-type="text/markdown"}
+license={ file="LICENSE" }
+requires-python = ">=3.8"
+classifiers=[
+"Programming Language :: Python :: 3",
+]
+
+dependencies = [
+  "ipykernel",
+  "ipywidgets",
+  "ipympl",
+  "jupyter-client",
+  "astunparse",
+  "dill",
+  "itables",
+  "matplotlib",
+  "pandas",
+  "pynvml" # we need that only for Nvidia GPU systems
+]
+
+[project.urls]
+homepage = "https://github.com/score-p/scorep_jupyter_kernel_python"
+repository = "https://github.com/score-p/scorep_jupyter_kernel_python"
