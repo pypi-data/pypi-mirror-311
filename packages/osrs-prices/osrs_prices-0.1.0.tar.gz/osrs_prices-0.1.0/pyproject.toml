@@ -1,0 +1,65 @@
+[project]
+name = "osrs-prices"
+version = "0.1.0"
+description = "A Python client for the RuneScape Wiki Prices API"
+authors = [
+    { name = "Matt Flowers", email = "mattmflowers28@gmail.com" }
+]
+dependencies = [
+    "httpx>=0.27.2",
+    "pandas>=2.2.3",
+    "pydantic>=2.10.2",
+    "pandas-stubs>=2.2.2.240807",
+]
+readme = "README.md"
+requires-python = ">= 3.9"
+license = "MIT"
+keywords = ["osrs", "runescape", "grand exchange", "prices"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/mattflow/osrs-prices"
+Repository = "https://github.com/mattflow/osrs-prices"
+Documentation = "https://github.com/mattflow/osrs-prices#readme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "jupyterlab>=4.3.1",
+    "pytest>=8.3.3",
+    "mypy>=1.13.0",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/osrs_prices"]
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+
+follow_imports = "silent"
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_any_generics = true
+no_implicit_reexport = true
+disallow_untyped_defs = true
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
