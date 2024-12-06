@@ -1,0 +1,9 @@
+my_package/__init__.py,sha256=-BwNiBmajXRen2aKKY8NAm0uEuhq-0v_Qm3mP-0sSHs,113
+my_package/module.py,sha256=HXKzxq8jzRNH8ayB9b28PSqT_RVW43z_I6YPPODoo_s,1003
+tests/__init__.py,sha256=u1CA-gjDji0DuKmE2K34RRwOdVabP86p8bamINnbvc4,96
+tests/test_module.py,sha256=kutThFxNj7wcuV3pRaCO-yDb3U-2tlG8b8TQh8nJEas,873
+excalibur_007-0.1.0.dist-info/LICENSE,sha256=U1Dle2-5Vb_fu9r5f4jX3Uj9OEjOtw7Z4V6rhVfxiG0,1071
+excalibur_007-0.1.0.dist-info/METADATA,sha256=bRHQ3CUIuNcGWg9bB0RKENqq4_T5lh14OqjbBhf0Gr8,873
+excalibur_007-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+excalibur_007-0.1.0.dist-info/top_level.txt,sha256=fp2rW6AVh4fdr-kjfxPIraJK3yoRxpRKOYq3nuaGX1o,17
+excalibur_007-0.1.0.dist-info/RECORD,,
