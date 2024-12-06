@@ -1,0 +1,4 @@
+networkx==3.3
+numpy
+tqdm
+heapdict
