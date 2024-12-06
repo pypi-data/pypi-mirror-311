@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dammy7878carberra
+Version: 0.1.0
+Summary: A simple Python package
+Home-page: https://dammy7878.carberra.xyz
+Author: dabioye
+Author-email: dammyabioye1@gmail.com
+License: The Unlicense
+Project-URL: Documentation, https://dammy7878.carberra.xyz
+Project-URL: Source, https://github.com/dammy7878.carberra/pypi-tutorial
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10,<3.13
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas >=2.0
+
+# Carberra
+
+This is a test package for a video tutorial.
+
+Never gonna let you down!
+
+# https://www.youtube.com/watch?v=WGsMydFFPMk
