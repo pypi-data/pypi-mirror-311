@@ -1,0 +1,12 @@
+pipeline:
+  venv:
+    - step: CreateVEnv
+      module: pypeline.steps.create_venv
+      config:
+        bootstrap_script: .bootstrap/bootstrap.py
+  install:
+    - step: ScoopInstall
+      module: pypeline.steps.scoop_install
+  custom:
+    - step: MyStep
+      file: steps/my_step.py
