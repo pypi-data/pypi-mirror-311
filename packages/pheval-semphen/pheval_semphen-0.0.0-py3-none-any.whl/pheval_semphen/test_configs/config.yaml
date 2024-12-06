@@ -1,0 +1,9 @@
+tool: semphen
+tool_version: 0.0.0
+variant_analysis: False
+gene_analysis: False
+disease_analysis: True
+tool_specific_configuration_options:
+  environment: local
+  path_to_semphen: path/to/semphen.py
+  path_to_phenio: path/to/phenio.db

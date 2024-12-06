@@ -1,0 +1,6 @@
+[console_scripts]
+pheval-semphen=pheval_semphen.semphen:main
+
+[pheval.plugins]
+customrunner=pheval_semphen.runner:SemphenPhevalRunner
+
