@@ -1,0 +1,8 @@
+kindel/__init__.py,sha256=Y76kMiL-jAGStTvjcDjdVgIseuOiu9w1T-47tbRN3-0,69
+kindel/cli.py,sha256=Y1aQRsTdWkYwXb4nm8q_wMGaQVXgmPL9RQNT0ODMlyY,2855
+kindel/kindel.py,sha256=xCLissdhlZ2vuEAAma7TuU3xlq229WO3ZbQ54HgqhiU,25300
+kindel-1.0.0.dist-info/entry_points.txt,sha256=fXTwZOUnbarqIWPuZ_E2HqgohmXeHRR03vKmi91iIq4,42
+kindel-1.0.0.dist-info/LICENSE,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+kindel-1.0.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+kindel-1.0.0.dist-info/METADATA,sha256=O3pkAUnpDgpEWcJghWm8d5ae67etnLeozh_P_Ce0yvs,7609
+kindel-1.0.0.dist-info/RECORD,,
