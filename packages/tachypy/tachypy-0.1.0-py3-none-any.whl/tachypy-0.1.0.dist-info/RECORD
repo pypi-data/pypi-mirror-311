@@ -1,0 +1,14 @@
+tachypy/__init__.py,sha256=iDGmHGbliNhbQ-sEsxU124k6k5WHjS13zHeJxO31A10,632
+tachypy/audio.py,sha256=Rje3EHtbder3YErlc8FE7qNq7kfByu1BOJbfXLrcnAQ,2610
+tachypy/psychophysics.py,sha256=mytoggwmfzLdk2YPD2Iq9MDDMwLh4fsjFPPCIwl2GO8,13014
+tachypy/quest.py,sha256=04sYMDysgvb9NAEQN7LtISbMZBs1sQvrnBr231Wi_mA,20899
+tachypy/responses.py,sha256=ww9Mn7OM7c4miHXLTf4DhGLhNcPzeHK6bX1T6Tvu5zc,14696
+tachypy/screen.py,sha256=qEFRLJZDKzl0Qtwcpf8ih-0LmJpXWX5kClBM_jKajig,5962
+tachypy/shapes.py,sha256=qUK00g_1ueQSteT9XK-ApDJ6fnuNaelFN-AyqpBJGuI,8247
+tachypy/text.py,sha256=DpBPFu37U-arGmZ9gMMZVzcdbntYDQ6AaNps5Lk5wBU,13549
+tachypy/textures.py,sha256=q277PrN6TYFrMWZvKfWS1UK9ZyiCaq_s6xzWYHOYnFI,2494
+tachypy-0.1.0.dist-info/LICENSE,sha256=Zvwb3Uzkf80Oxt5xm1QR2NNpreP9h6kOPtj5Wzcw6uA,1067
+tachypy-0.1.0.dist-info/METADATA,sha256=kNyfxoiQHXL2o8_pdA21siobf_bG0K0hdEuz57lw2D0,10036
+tachypy-0.1.0.dist-info/WHEEL,sha256=bFJAMchF8aTQGUgMZzHJyDDMPTO3ToJ7x23SLJa1SVo,92
+tachypy-0.1.0.dist-info/top_level.txt,sha256=1L7gKkEhkArRWHBSB5HV_UNYAfXAIFZsk1QGdgqiZfE,8
+tachypy-0.1.0.dist-info/RECORD,,
