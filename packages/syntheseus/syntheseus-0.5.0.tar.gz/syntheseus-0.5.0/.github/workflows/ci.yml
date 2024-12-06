@@ -1,0 +1,98 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test-core:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.7", "3.9"]
+    defaults:
+      run:
+        shell: bash -l {0}
+    name: test-core (Python ${{ matrix.python-version }})
+    steps:
+    - uses: actions/checkout@v3
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        mamba-version: "*"
+        channels: conda-forge,defaults
+        channel-priority: true
+        python-version: ${{ matrix.python-version }}
+        environment-file: environment.yml
+    - name: Install syntheseus
+      run: |
+        pip install .[dev]
+    - name: Run pre-commit
+      run: |
+        pre-commit run --verbose --all-files
+    - name: Run unit tests
+      run: |
+        coverage run -p -m pytest ./syntheseus/tests/
+        coverage report --data-file .coverage.*
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v4
+      with:
+        name: .coverage.core-${{ matrix.python-version }}
+        path: .coverage.*
+        include-hidden-files: true
+  test-models:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    name: test-models
+    steps:
+    - name: Free extra disk space
+      uses: jlumbroso/free-disk-space@main
+    - uses: actions/checkout@v3
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        mamba-version: "*"
+        channels: conda-forge,defaults
+        channel-priority: true
+        environment-file: environment_full.yml
+    - name: Install syntheseus with all single-step models
+      run: |
+        sudo apt install graphviz
+        pip install .[all]
+    - name: Run single-step model tests
+      run: |
+        coverage run -p -m pytest \
+          ./syntheseus/tests/cli/test_cli.py \
+          ./syntheseus/tests/reaction_prediction/inference/test_models.py \
+          ./syntheseus/tests/reaction_prediction/utils/test_parallel.py
+        coverage report --data-file .coverage.*
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v4
+      with:
+        name: .coverage.models
+        path: .coverage.*
+        include-hidden-files: true
+  coverage:
+    needs: [test-core, test-models]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install coverage
+    - uses: actions/download-artifact@v4
+      with:
+        merge-multiple: true
+    - name: Generate a combined coverage report
+      run: |
+        coverage combine
+        coverage report
