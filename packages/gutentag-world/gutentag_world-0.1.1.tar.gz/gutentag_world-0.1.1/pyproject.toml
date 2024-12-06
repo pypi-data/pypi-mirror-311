@@ -1,0 +1,16 @@
+[project]
+name = "gutentag_world"
+version = "0.1.1"
+authors = [{ name = "Sam Gutentag", email = "sam@gutentag.dev" }]
+description = "A simple package that prints 'Gutentag, World!'"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/samgutentag/gutentag_world_python"
+Issues = "https://github.com/samgutentag/gutentag_world_python/issues"
