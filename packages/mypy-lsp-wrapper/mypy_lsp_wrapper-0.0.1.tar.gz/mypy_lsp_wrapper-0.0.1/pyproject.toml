@@ -1,0 +1,28 @@
+[project]
+name = "mypy-lsp-wrapper"
+version = "0.0.1"
+description = "mypy lsp wrapper"
+readme = "README.md"
+authors = [
+    { name = "Jack Evans", email = "jack@evans.gb.net" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mypy",
+    "pygls==2.0.0a2",
+]
+
+[project.scripts]
+mypy-lsp-wrapper = "mypy_lsp_wrapper:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+prerelease = 'allow'
+
+[dependency-groups]
+dev = [
+    "ipython>=8.29.0",
+]

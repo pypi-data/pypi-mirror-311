@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: mypy-lsp-wrapper
+Version: 0.0.1
+Summary: mypy lsp wrapper
+Author-email: Jack Evans <jack@evans.gb.net>
+Requires-Python: >=3.12
+Requires-Dist: mypy
+Requires-Dist: pygls==2.0.0a2
+Description-Content-Type: text/markdown
+
+A tiny wrapper around the excellent [pygls](https://github.com/openlawlibrary/pygls).
+
+# Install
+
+    pip install mypy-lsp-wrapper
