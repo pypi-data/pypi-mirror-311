@@ -1,0 +1,22 @@
+LICENSE.txt
+README.md
+setup.py
+pyBOWIE/__init__.py
+pyBOWIE/core/__init__.py
+pyBOWIE/core/main.py
+pyBOWIE/utils/Acq_fun.py
+pyBOWIE/utils/Aux.py
+pyBOWIE/utils/Copia de __init__.py
+pyBOWIE/utils/Initialize.py
+pyBOWIE/utils/Models.py
+pyBOWIE/utils/Plotting.py
+pyBOWIE/utils/Preprocessing_data.py
+pyBOWIE/utils/Querry_points.py
+pyBOWIE/utils/Superlevel_set_filtration.py
+pyBOWIE/utils/Update.py
+pyBOWIE/utils/__init__.py
+pybowie.egg-info/PKG-INFO
+pybowie.egg-info/SOURCES.txt
+pybowie.egg-info/dependency_links.txt
+pybowie.egg-info/requires.txt
+pybowie.egg-info/top_level.txt
