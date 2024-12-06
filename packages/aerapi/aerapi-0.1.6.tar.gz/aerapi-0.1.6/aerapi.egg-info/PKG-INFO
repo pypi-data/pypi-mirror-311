@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: aerapi
+Version: 0.1.6
+Summary: A package for accessing APIs used by the data team
+Home-page: https://github.com/stelltec/aerapi.git
+Author: S. Nicholson
+Author-email: Sean.Nicholson@aerlytix.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: PyYAML
+Requires-Dist: jsonschema
+
+aerapi
+aerapi is a Python package designed for accessing and interacting with APIs used by the data team at Aerlytix. It provides robust utilities to connect with external and internal APIs, manage authentication, and streamline data retrieval and manipulation.
+
+Features
+External API Integration: Simplifies interactions with external APIs.
+Internal API Support: Streamlined methods for internal data systems.
+Authentication: Built-in utilities to handle API authentication (e.g., API keys, secrets).
+Configuration: YAML-based configuration for managing environments and credentials.
+Extensible: Easily add new API endpoints and customize behavior.
+Installation
+Install the package directly from PyPI:
+
+bash
+Copy code
+pip install aerapi
+Or install it from source:
+
+bash
+Copy code
+git clone https://github.com/stelltec/aerapi.git
+cd aerapi
+pip install .
+Usage
+Quickstart
+Import the Library:
+
+python
+Copy code
+from aerapi.external.api_client import ExternalApiClient
+from aerapi.internal.api_client import InternalApiClient
+Set Up Configuration: Prepare a configuration file (e.g., config.yaml):
+
+yaml
+Copy code
+environments:
+  demo:
+    - name: "external_api"
+      api_key: "your-demo-api-key"
+      secret_key: "your-demo-secret-key"
+  preprod:
+    - name: "internal_api"
+      api_key: "your-preprod-api-key"
+      secret_key: "your-preprod-secret-key"
+Initialize Clients:
+
+python
+Copy code
+from aerapi.common.config_utils import load_config
+
+# Load the configuration
+config = load_config("config.yaml")
+
+# Initialize API clients
+external_client = ExternalApiClient(config["demo"]["external_api"])
+internal_client = InternalApiClient(config["preprod"]["internal_api"])
+Make API Calls:
+
+python
+Copy code
+# Example: Fetch external API data
+data = external_client.get_data(endpoint="/example")
+print(data)
+
+# Example: Submit data to internal API
+response = internal_client.post_data(endpoint="/submit", payload={"key": "value"})
+print(response)
+Folder Structure
+common/: Shared utilities, including authentication and configuration tools.
+external/: Methods and utilities for interacting with external APIs.
+internal/: Methods and utilities for interacting with internal APIs.
+config/: Contains example configuration files.
+tests/: Unit tests for the package.
+Requirements
+The package has the following dependencies:
+
+requests
+PyYAML
+jsonschema
+These will be installed automatically during the package installation.
+
+Testing
+Run the tests to ensure everything works as expected:
+
+bash
+Copy code
+pytest tests/
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository.
+Create a new branch (feature-branch).
+Make your changes and commit them.
+Submit a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Contact
+For questions or support, please contact:
+
+S. Nicholson
+ðŸ“§ Sean.Nicholson@aerlytix.com
+
