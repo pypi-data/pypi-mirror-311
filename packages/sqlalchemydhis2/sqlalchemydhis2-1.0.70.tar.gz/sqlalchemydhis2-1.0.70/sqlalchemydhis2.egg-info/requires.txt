@@ -1,0 +1,4 @@
+SQLAlchemy
+duckdb
+polars
+packaging>=21
