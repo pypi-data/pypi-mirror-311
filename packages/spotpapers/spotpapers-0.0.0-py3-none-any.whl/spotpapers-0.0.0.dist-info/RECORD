@@ -1,0 +1,9 @@
+spotpapers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotpapers/main.py,sha256=rklzJqE9KESi-nSbmcS_vGLsUo40wPqPq2ustz_rpm0,1968
+spotpapers/AI/groq.py,sha256=1qW9q-UkTdfHYmdGE-NsIupuuARFQ1FWSa_Vnk1fUM0,1607
+spotpapers-0.0.0.dist-info/LICENCE,sha256=e1Q_HlProGtYSm-KdMbrXYQQ92kMCpPSw1riYTXxwUE,1073
+spotpapers-0.0.0.dist-info/METADATA,sha256=JRKxn4HnWhZjEozCNwXRzKRvIWsvdUas5S8uXzrhtso,1742
+spotpapers-0.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+spotpapers-0.0.0.dist-info/entry_points.txt,sha256=tvwOfwndJgVbgt-mDH4SVqSULnUzdsa2lppBcgYC-U4,52
+spotpapers-0.0.0.dist-info/top_level.txt,sha256=D1xmgytGtPmi3b_sae1pckbd5DF19__poRQl00_ecPM,11
+spotpapers-0.0.0.dist-info/RECORD,,
