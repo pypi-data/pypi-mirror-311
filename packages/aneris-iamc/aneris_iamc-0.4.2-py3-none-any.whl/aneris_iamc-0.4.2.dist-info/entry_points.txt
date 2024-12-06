@@ -1,0 +1,2 @@
+[console_scripts]
+aneris = aneris.cli:main
