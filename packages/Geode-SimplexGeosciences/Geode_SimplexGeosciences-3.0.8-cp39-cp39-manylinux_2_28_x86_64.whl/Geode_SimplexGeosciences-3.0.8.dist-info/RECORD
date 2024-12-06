@@ -1,0 +1,8 @@
+geode_simplexgeosciences/__init__.py,sha256=RsV8awSP62XSZuP8SaKhurf1Ki8I8CcqjKJ7adwFlAk,67
+geode_simplexgeosciences/model.py,sha256=qbOZkJViqyEEg1r5rwqOGDIYVGjIw-3hhG6NHoblCOg,238
+geode_simplexgeosciences/lib64/geode_simplexgeosciences_py_model.cpython-39-x86_64-linux-gnu.so,sha256=Su6NKKEqXMbCCaYWlc3qRihH2xeK_krbD550abJjMcw,171760
+geode_simplexgeosciences/lib64/libGeode-SimplexGeosciences_model.so,sha256=auTEVDjsSfQEne_RGgc9Vc3eoF5r5ngm1-kWdm78fg0,18712
+Geode_SimplexGeosciences-3.0.8.dist-info/METADATA,sha256=Yr5gzPuQIzMqMY9oLmsPaqKLQKz6gTLTP2NANyQVpD4,3305
+Geode_SimplexGeosciences-3.0.8.dist-info/WHEEL,sha256=fGA_zHiSaXqIW_K5j4IbY-v47z8zpn1vp7k9CBunlvs,102
+Geode_SimplexGeosciences-3.0.8.dist-info/top_level.txt,sha256=2n7r8_YGfMeW_LYPqU_ijrPfdfp4XwWFxWWYhLvzJDU,25
+Geode_SimplexGeosciences-3.0.8.dist-info/RECORD,,
