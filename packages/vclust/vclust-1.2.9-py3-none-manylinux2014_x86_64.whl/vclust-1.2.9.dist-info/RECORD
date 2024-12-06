@@ -1,0 +1,11 @@
+vclust.py,sha256=DK0rivDepa0wYACa2NEnLRCmuFZYZNfufMvZXTc33ho,42111
+bin/clusty,sha256=q6yjo3vrHSwHfWMmgminOsZ9PxWwQK2fMIfZ4NzFYMM,3811840
+bin/kmer-db,sha256=2KvFt7PDccJRxD83Wr0h2KROZFns0MgkfAIFlcyG-Gg,4126976
+bin/lz-ani,sha256=oY4_wYXKx1hh-mZVjzJfXrNlmyUNzearEZc-OdmZdQw,3577832
+bin/multi-fasta-split,sha256=Lsm_n8n8cJeFMZNZBGE7Dubpu7Xc8C30Q3ytCQTGWQ0,2834960
+vclust-1.2.9.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+vclust-1.2.9.dist-info/METADATA,sha256=U3ZIxepbS_Ca67WCK0ypz3eRp4ynsTKVA5vdldbt2TM,48683
+vclust-1.2.9.dist-info/WHEEL,sha256=6wjWQKm6476oiIGK7Nz3VYcMJ7MesN87-fuc75zAHtU,108
+vclust-1.2.9.dist-info/entry_points.txt,sha256=R3yXRM9q9v8phtznMnd98ddBdixfNe6zvacqDCBebFo,39
+vclust-1.2.9.dist-info/top_level.txt,sha256=Jrv2N5bYG0CwPD5fwPlx30t40wuViMxSMy50CbasiJY,11
+vclust-1.2.9.dist-info/RECORD,,
