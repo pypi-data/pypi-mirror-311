@@ -1,0 +1,13 @@
+dependency_container/__init__.py,sha256=8g_IsyC5kF6Ghm_OEoaqIXD_d3a8A1173Oha3ib_ZaA,347
+dependency_container/container.py,sha256=kcMFfu3cFV6C3zFvI1JXyCqar920vYqg5KDeGNeaQRE,5630
+dependency_container/fastapi.py,sha256=c8GSB2PFd_hR8KpDUINK1RRXvbsu0kHrQxNQr12oWWw,3383
+dependency_container/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dependency_container/route.py,sha256=rNrigm6Hix32ECQUloNSfbZO5mBGWKZqWYyq8MfzERM,789
+dependency_container/signature.py,sha256=EZRcj1G0O7_NlGREK9suyCeG23SXhuWa-2SJKLPOKYY,472
+dependency_container/faststream/__init__.py,sha256=lHbAp4NJzFeNzXWOjTa3uAvl7wSHvGzgJTFwN6oksTc,130
+dependency_container/faststream/nats.py,sha256=6QuOlOoR4Eps3XNLRmFKfhxUIJ2Q-uZ1tZDExhjXos0,2385
+dependency_container/faststream/redis.py,sha256=U9oPBKBHGggPkehFbSZ8zwJqRCpR4hW-7wneq-u0N-Y,2397
+dependency_container-0.3.0.dist-info/METADATA,sha256=IuhN5uO2bBkz3vCSDCFxfIMYS3t50j-TJ8N1URyAYVw,2215
+dependency_container-0.3.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+dependency_container-0.3.0.dist-info/licenses/LICENSE,sha256=zaikImR1SV8im8iQ7_9PAW-Gi1kUwDf8Rc56jGJ4sd8,1070
+dependency_container-0.3.0.dist-info/RECORD,,
