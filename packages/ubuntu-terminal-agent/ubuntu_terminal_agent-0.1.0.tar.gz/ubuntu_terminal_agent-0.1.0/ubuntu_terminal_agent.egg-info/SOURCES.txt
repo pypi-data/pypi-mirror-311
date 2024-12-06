@@ -1,0 +1,10 @@
+README.md
+setup.py
+Linux-Terminal-Agent-AWS/__init__.py
+Linux-Terminal-Agent-AWS/agent.py
+ubuntu_terminal_agent.egg-info/PKG-INFO
+ubuntu_terminal_agent.egg-info/SOURCES.txt
+ubuntu_terminal_agent.egg-info/dependency_links.txt
+ubuntu_terminal_agent.egg-info/entry_points.txt
+ubuntu_terminal_agent.egg-info/requires.txt
+ubuntu_terminal_agent.egg-info/top_level.txt
