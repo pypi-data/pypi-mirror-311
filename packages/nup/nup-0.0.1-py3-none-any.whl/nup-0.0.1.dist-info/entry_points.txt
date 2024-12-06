@@ -1,0 +1,2 @@
+[console_scripts]
+nup = nup.main:main
