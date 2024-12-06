@@ -1,0 +1,10 @@
+picows/picows_compat.h,sha256=Yi7LVX3I_AyX2z759qvYoXCo2AmR8u4elkms-hdAyig,3586
+picows/picows.cpython-39-darwin.so,sha256=jD7XC7gbq2NAVLq0lX-2FMXJTgDqkXeL9N3Krj6DsKw,626160
+picows/picows.pyi,sha256=tuLUEmjkpOTivHpDZFCFcE6h3UjozkhHnoDzNkIDhMk,5067
+picows/__init__.py,sha256=IhMMTuqMcJNC7yKYw-R-j4TFzb6dkUypSVWDx7EmJTo,623
+picows/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picows-1.7.0.dist-info/RECORD,,
+picows-1.7.0.dist-info/LICENSE,sha256=1Nzi2NQ9y-QstuqB_i9UJJFbx0Q9C9RExn8li2GKI3A,1105
+picows-1.7.0.dist-info/WHEEL,sha256=HsW8X292attiRy14pNbZE_UdA2E2TlNbkZM7wTfmN70,108
+picows-1.7.0.dist-info/top_level.txt,sha256=hUbNrhLiUJGRlf0OcYhDotazR5iQ87-5WHc8Qasz0pQ,7
+picows-1.7.0.dist-info/METADATA,sha256=JTDlfsUO3Kp6tqbzoRo--MKbSO1F9PcvpcIibuTzHGI,8424
