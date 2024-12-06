@@ -1,0 +1,6 @@
+google-cloud-aiplatform
+tiktoken
+tokenizers==0.20.0
+
+[test]
+pytest
