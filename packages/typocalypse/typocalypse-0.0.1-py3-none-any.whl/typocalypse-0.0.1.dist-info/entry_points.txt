@@ -1,0 +1,2 @@
+[console_scripts]
+typocalypse = typocalypse.__main__:main

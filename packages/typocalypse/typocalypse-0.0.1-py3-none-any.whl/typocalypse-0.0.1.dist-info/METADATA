@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: typocalypse
+Version: 0.0.1
+Summary: Add 'Any' annotations everywhere to achieve 100% type coverage.
+Project-URL: Homepage, https://github.com/nicovank/typocalypse
+Project-URL: Bug Tracker, https://github.com/nicovank/typocalypse/issues
+Author-email: Nicolas van Kempen <nvankemp@gmail.com>
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: libcst>=1.5.1
+Description-Content-Type: text/markdown
+
+# Typocalypse
+
+Add 'Any' annotations everywhere to achieve 100% type coverage.
+
+## Installation
+
+```bash
+pip install typocalypse
+```
