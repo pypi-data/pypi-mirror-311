@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://zakupki.gov.ru/fz44/get-docs-le/ws">
+<soapenv:Header/>
+<soapenv:Body>
+<ws:getNsiRequest>
+{% include 'index.xml.j2' %}
+<selectionParams>
+	{%- if context.base == 'fz44' %}
+	<nsiCode44>{{ context.nsiCode }}</nsiCode44>
+	{%- elif context.base == 'fz223' %}
+	<nsiCode223>{{ context.nsiCode }}</nsiCode223>
+	{% endif %}
+	<nsiKind>{{ context.nsiKind.value }}</nsiKind>
+</selectionParams>
+</ws:getNsiRequest>
+</soapenv:Body>
+</soapenv:Envelope>

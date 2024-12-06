@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://zakupki.gov.ru/fz44/get-docs-le/ws">
+<soapenv:Header/>
+<soapenv:Body>
+<ws:getDocsByOrgRegionRequest>
+{% include 'index.xml.j2' %}
+<selectionParams>
+	<orgRegion>{{ context.kladr_region }}</orgRegion>
+	<subsystemType>{{ context.subsystem_type }}</subsystemType>
+	{% if context.base == 'fz44' -%}
+	<documentType44>{{ context.document_type }}</documentType44>
+	{% elif context.base == 'fz223' -%}
+	<documentType223>{{  context.document_type }}</documentType223>
+	{% endif -%}
+	<periodInfo>
+		<exactDate>{{ context.exact_date }}</exactDate>
+	</periodInfo>
+	{% if context.reestr_number %}<reestrNumber>{{ context.reestr_number }}</reestrNumber>{% endif %}
+</selectionParams>
+</ws:getDocsByOrgRegionRequest>
+</soapenv:Body>
+</soapenv:Envelope>

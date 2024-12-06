@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://zakupki.gov.ru/fz44/get-docs-le/ws">
+<soapenv:Header/>
+<soapenv:Body>
+<ws:getDocsByReestrNumberRequest>
+{% include 'index.xml.j2' %}
+<selectionParams>
+	<subsystemType>{{ context.subsystem_type }}</subsystemType>
+	<reestrNumber>{{ context.reestr_number }}</reestrNumber>
+</selectionParams>
+</ws:getDocsByReestrNumberRequest>
+</soapenv:Body>
+</soapenv:Envelope>

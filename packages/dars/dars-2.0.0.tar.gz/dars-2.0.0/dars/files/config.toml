@@ -1,0 +1,33 @@
+sender = "dars"
+
+# [fz44]
+# --- адрес для запросов
+#     по-умолчанию - тестовый сервис
+# url = 'https://int44.zakupki.gov.ru/eis-integration/services/getDocsLE2'
+# --- директория для загрузки файлов из СОИ
+# download_dir = "/tmp/dars/fz44/downloads"
+
+# [fz223]
+# url = 'https://int223.zakupki.gov.ru/eis-integration/services/getDocsLE2'
+# # --- директория для загрузки файлов из СОИ
+# download_dir = "/tmp/dars/fz223/downloads"
+
+# --- параметры подключения к S3 хранилищу
+[s3]
+access_key = "access_key"
+secret_key = "secret_key"
+endpoint_url = "http://localhost:9000"
+bucket = "my-bucket"
+region = "ru-1"
+
+# --- таблица подмены url запроса
+#     source - что меняем
+#     dest - на что меняем
+#
+#     Пример:
+#     [[url_prefix_substitution]]
+#     source = "https://int223.zakupki.gov.ru"
+#     dest = "http://localhost:8888"
+#     обозначает, что адрес https://int223.zakupki.gov.ru/foo/bar будет
+#     заменен на http://localhost:8888/foo/bar
+# [[url_prefix_substitution]]
