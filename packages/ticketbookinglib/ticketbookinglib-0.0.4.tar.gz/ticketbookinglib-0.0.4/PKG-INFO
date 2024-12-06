@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ticketbookinglib
+Version: 0.0.4
+Summary: This is a simple booking notification alert shown for booking confirmation.
+Home-page: 
+Author: Syam Sundar Reddy Maddula 
+Author-email: x23307862@student.ncirl.ie
+License: MIT
+Keywords: ticketbookinglib
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE
+Requires-Dist: flask
+
+This is a simple Python package that prints a message when called.
+
+Change Log
+==========
+
+0.0.1 (28/11/2024)
+-------------------
+- First Release
+
+
+0.0.2 (28/11/2024)
+-------------------
+- Second Release
+
+0.0.3 (28/11/2024)
+-------------------
+- Third Release
+
+0.0.4 (28/11/2024)
+-------------------
+- Forth Release
