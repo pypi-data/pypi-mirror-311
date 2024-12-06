@@ -1,0 +1,16 @@
+cocoex/__init__.py,sha256=V4RLMViOmBIuUGLDOmg93FuAdwmxhuvwiG6R3-JwwLo,22584
+cocoex/_version.py,sha256=OPSy_oXA2hm0jlUrpsMy1hueaNFxJLJ7WqkDfEd6Iqw,114
+cocoex/coco.c,sha256=TqEX3wvMT1XVvh29yzRRbBfw5aWntQsb8rYzWABR-po,1175594
+cocoex/coco.h,sha256=JybweU3u-m1R3XziH5Rf3X3-BVgcmAyjqwK398yzg7g,22175
+cocoex/exceptions.py,sha256=Zo5UxZpk2w_M_2IfjkZiS7zvga1RvLAjepsf2RPM1yw,793
+cocoex/function.cp311-win_amd64.pyd,sha256=FahGyD68XJZrrD2WYoSct5zMIgBZ_mHZcvhoLziNlWo,640512
+cocoex/function.pyx,sha256=wX3kjLeE5yFjalixMiNadM5VWF_TxueufFL5mV4sSBQ,5037
+cocoex/interface.cp311-win_amd64.pyd,sha256=wp_XKHz8Kixr8YN0Gb9_q4xhvX8kMX6KWflrCQMy96g,881664
+cocoex/interface.pyx,sha256=ejDnYky2P473ygrC7tMvJOOHJIvFrF6sZxkYyg1U7M8,39712
+cocoex/solvers.py,sha256=5Rz8728O556jMs5K918ODXYu13-d9TxFMN8P6oGl-3A,1244
+cocoex/utilities.py,sha256=vzSTeBsMuihZaBBeqK2gIAOb2SxN55XWNuputQGjOEM,41377
+coco_experiment-2.6.101a7.dist-info/LICENSE,sha256=B7GjSqkl86ZPyH4ZLWto2FG-sHX1PjNpj0N0a90iwTs,1599
+coco_experiment-2.6.101a7.dist-info/METADATA,sha256=cqbf8ERs8dN23FubuW_GUPx-ydiynkC6bNO5JJVzJRs,2898
+coco_experiment-2.6.101a7.dist-info/WHEEL,sha256=nkBcd8Ko0v5sEcSagm2-x_RVrb8gBSkTa8VFFZ0Mr1o,101
+coco_experiment-2.6.101a7.dist-info/top_level.txt,sha256=D8m6jFkhtNlUk1W7DaZEMku_bTzJW7s0Z9WlJ3KZRJ4,7
+coco_experiment-2.6.101a7.dist-info/RECORD,,
