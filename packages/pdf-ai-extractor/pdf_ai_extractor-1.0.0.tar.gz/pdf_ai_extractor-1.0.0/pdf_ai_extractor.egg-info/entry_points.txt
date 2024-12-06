@@ -1,0 +1,2 @@
+[console_scripts]
+pdf-ai-extractor = pdf_ai_extractor.cli:main
