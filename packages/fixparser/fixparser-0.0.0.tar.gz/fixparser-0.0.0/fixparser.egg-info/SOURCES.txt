@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+fixparser/__init__.py
+fixparser/cli.py
+fixparser/core.py
+fixparser/setup.py
+fixparser.egg-info/PKG-INFO
+fixparser.egg-info/SOURCES.txt
+fixparser.egg-info/dependency_links.txt
+fixparser.egg-info/top_level.txt
