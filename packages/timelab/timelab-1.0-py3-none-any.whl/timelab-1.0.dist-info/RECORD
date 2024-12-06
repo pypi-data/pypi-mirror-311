@@ -1,0 +1,12 @@
+timelab/__init__.py,sha256=gRIAMkb7VDFlpHwfUiG3cyO5fxn6hh35V0E2LfSWrUU,94
+timelab/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timelab/core/base.py,sha256=N6rrNm4mOV0NwqhRGPDjV5lRqZvYg0kJ2eRw4B-vy7w,4544
+timelab/core/total_time.py,sha256=tbv4ZJf9BQXl9N5VNyZ47Mwbx6U-PR1ZAb9vKoFNRgk,822
+timelab/datetime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timelab/datetime/datetime.py,sha256=6VgEbxZZnVJn3thy7g3gN-glXXP2WANsvglJgnpGSbQ,4429
+timelab/timespan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timelab/timespan/timespan.py,sha256=GjtOOKn7pm90u_C2oCB_00aUWVT-wzrnp5R8pB0m3Bo,2508
+timelab-1.0.dist-info/METADATA,sha256=Ma3hBO0Mf884vZggCm7rR7nZdUYHNRLUn3QFlTbH-3c,2382
+timelab-1.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+timelab-1.0.dist-info/top_level.txt,sha256=R_irf2kMqd9-PCpFccMsrTCGXTHYwsMV-h6jLg2GnNM,8
+timelab-1.0.dist-info/RECORD,,
