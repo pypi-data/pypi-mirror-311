@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: advance_adb
+Version: 0.0.2
+Summary: Advance adb toolkit in one place
+Author: Sudhir Kumar
+Author-email: sudhir9122kumar@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+

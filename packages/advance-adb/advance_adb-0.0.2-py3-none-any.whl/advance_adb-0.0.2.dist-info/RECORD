@@ -1,0 +1,13 @@
+advance_adb/Exceptions.py,sha256=9rpm4Z7hakyXBHvD4RrXoyusAq_Acdzoz0O8tyQArz8,701
+advance_adb/__init__.py,sha256=wpU4Mq55Ue-bxKQZtKBGjbNhvdxiTtx8OU01b8nQm04,259
+advance_adb/adb.py,sha256=XWOzfbmIpjoLFZxVSpthSxeCo85exoY9Qm_5ZvGr-HI,1961
+advance_adb/analytics.py,sha256=Y6h-AdNJqOU6QgdIa-ASWNvWnCSJTDIH_gWpnE-J53A,2331
+advance_adb/app.py,sha256=ZOvHIfMKbuEqFqI4bEy4LG9xDlpezJcEqhHFt5l3IDM,2127
+advance_adb/files.py,sha256=w3rN02NgursJtl7hwYSFwMeDnXhnkD_70fOjebDvvSk,1013
+advance_adb/misc.py,sha256=Jrj_ESowO_Fj08qX4I84UwcLEUoxi5GpQVpYtBd4Ngg,1311
+advance_adb/utilities.py,sha256=fPckC63fBWRD4Ps3qtdl8jWdpTYeWsvBp6f_dsqPHnc,5438
+advance_adb/whatsapp.py,sha256=yz-yVYlP3i49Ae-SWcjaVjsYL4Em5FQVe8f4M42dzgk,1484
+advance_adb-0.0.2.dist-info/METADATA,sha256=RoJhn348GImMR3ndRajIQeLhvlh2qbSW71sYoiYE3MI,254
+advance_adb-0.0.2.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+advance_adb-0.0.2.dist-info/top_level.txt,sha256=g9d2Nj3c2Fc0dalt0p5JiRgf0TzIOduJ46WvwrXQWJs,12
+advance_adb-0.0.2.dist-info/RECORD,,
