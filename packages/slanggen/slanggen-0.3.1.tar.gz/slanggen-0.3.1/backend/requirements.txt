@@ -1,0 +1,3 @@
+flask
+tokenizers
+loguru
