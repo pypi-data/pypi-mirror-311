@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: django-editorjs2
+Version: 0.2.1
+Summary: Django plugin for using Editor.js v2
+Home-page: https://github.com/surajsinghbisht054/django_editorjs2
+License: MIT
+Keywords: django,editorjs2,editorjs,django-editorjs
+Author: Suraj Singh Bisht
+Author-email: surajsinghbisht054@gmail.com
+Requires-Python: >=3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: django (>=3.2)
+Requires-Dist: nh3 (>=0.2.15)
+Project-URL: Documentation, https://github.com/surajsinghbisht054/django_editorjs2/blob/main/README.md
+Project-URL: Repository, https://github.com/surajsinghbisht054/django_editorjs2
+Description-Content-Type: text/markdown
+
+# django_editorjs2
+Django plugin for using Editor.js  v2
+
+## Installation
+```bash
+pip install django-editorjs2
+```
+
+# LICENSE
+MIT
