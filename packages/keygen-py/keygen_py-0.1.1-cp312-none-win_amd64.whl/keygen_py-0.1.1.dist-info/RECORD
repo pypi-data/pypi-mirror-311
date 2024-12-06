@@ -1,0 +1,16 @@
+keygen_py-0.1.1.dist-info/METADATA,sha256=ozOjLMDrM3XivvzL6vT0m_vwKeFFgQUx9UUjMsjZ3y0,2967
+keygen_py-0.1.1.dist-info/WHEEL,sha256=uElsxh4JMYXcyRO8vaxnFSYXUVUltU9bM1nHMEhHO7U,95
+keygen_py-0.1.1.dist-info/licenses/LICENSE,sha256=5W4k6elGLWpPjS9hZlcL_KAwnmEDKfeO3Lu-jhA3pkY,1092
+keygen_sh/certificate.pyi,sha256=cBZDOYHivPrspUeF8HRaB0VVOgOrjY8xi-saOqis2AI,60
+keygen_sh/component.pyi,sha256=qOLM9vZgWHmgCIM6RcUVrWvKO5IVbzDolvIpLA3mERs,307
+keygen_sh/config.pyi,sha256=bZAzve55ch068cWx0oW8imgzdVWtFlZIemw2EknyE88,810
+keygen_sh/entitlement.pyi,sha256=xG7CRKxdnrjWhk6rvBP2ahiYGSFgWIrioUij-6bdHNo,183
+keygen_sh/errors.py,sha256=jxVJssDhHucfz4tLCr8PE640YK2FLpDoqmivcnV3AZc,17166
+keygen_sh/license.pyi,sha256=HZOUK3l97ai1rcR7L0ZO9y5PbLrdZOBYA-XlY4nRpXM,1139
+keygen_sh/license_file.pyi,sha256=_OHqSFnVwdf_IM3Wiy3W9auzohZ8BEmIftJ_5Oj8W04,1399
+keygen_sh/machine.pyi,sha256=mczDdTbcEzhtv1S7c5-xhn55Yt0MYOF1du4FUM-Mhsc,816
+keygen_sh/machine_file.pyi,sha256=olb3K3bTt5eRLR9b8_uhWNoxydzT53U2pze8F2n-gzI,1559
+keygen_sh/_errors.pyi,sha256=T7CstXJvYxr_Zrk22TpGR0Hn5aQxDElYFG4QtwSOiV8,61
+keygen_sh/__init__.py,sha256=F5CO-Qmd0dzGu3t4kUFwKL8NaTTljNGbuz7Y3YrCg-M,1176
+keygen_sh/keygen_sh.cp312-win_amd64.pyd,sha256=5eEprgwN-di_-SKS1aWZC-AJzDxil4ya6hIK7d3vpSY,5005824
+keygen_py-0.1.1.dist-info/RECORD,,
