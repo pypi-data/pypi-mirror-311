@@ -1,0 +1,14 @@
+graph TD
+    A[User Input] --> B[PM Agent: Requirements Gathering]
+    B -->|Clarification Needed| C[User Feedback]
+    C --> B
+    B -->|Requirements Clear| D{Approach Selection}
+    D -->|TDD Approach| E[QA Agent: Test Case Generation]
+    D -->|Prototype Approach| F[Prototype Generator]
+    E & F --> G[User Review]
+    G -->|Approved| H[Code Generator Agent]
+    G -->|Revisions Needed| B
+    H --> I[Code Reviewer Agent]
+    I --> J[User Final Review]
+    J -->|Approved| K[Integration with Codebase]
+    J -->|Revisions Needed| H

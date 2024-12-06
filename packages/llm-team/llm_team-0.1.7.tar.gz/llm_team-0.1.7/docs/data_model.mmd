@@ -1,0 +1,10 @@
+erDiagram
+    AGENT ||--o{ TOOL : "has"
+    CONVERSATION ||--o{ CONVERSATIONPARTICIPANT : "has"
+    CONVERSATIONPARTICIPANT ||--o| AGENT : "can be"
+    CONVERSATIONPARTICIPANT ||--o| HUMAN : "can be"
+    CONVERSATIONPARTICIPANT ||--o| SYSTEM : "can be"
+    TEAM }o--|| AGENT : "has two or more"
+    PROJECT }o--|| TEAM : "has one or more"
+    PROJECT |o--o{ CONVERSATION : "has zero or more"
+    PROJECT }o--o{ TEAM : "team can be part of"

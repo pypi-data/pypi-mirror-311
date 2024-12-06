@@ -1,0 +1,34 @@
+graph TD
+    A[Code Generation Request] --> B[Orchestrator Agent]
+    B --> C[Context Retrieval System]
+    C --> D[Hierarchical Retriever]
+    C --> E[Adaptive Retriever]
+    D & E --> F[Context Synthesizer]
+    F --> G[Exploration Agent]
+    G --> H{Confidence Threshold Met?}
+    H -->|No| I[Additional Exploration]
+    I --> G
+    H -->|Yes| J[Code Generation Agent]
+    J --> K[Uncertainty Quantifier]
+    K --> L[Proposal Evaluator]
+    L -->|Meets Criteria| M[Code Integration Agent]
+    L -->|Doesn't Meet Criteria| N[Refinement Loop]
+    N --> J
+    M --> O[Final Output]
+    
+    subgraph Modular Specialized Agents
+    P[Syntax Specialist]
+    Q[Logic Flow Specialist]
+    R[Optimization Specialist]
+    S[Security Specialist]
+    end
+    
+    J -.-> P & Q & R & S
+    
+    subgraph External Resources
+    T[Project Knowledge Base]
+    U[Coding Standards]
+    V[External APIs/Libraries]
+    end
+    
+    T & U & V -.-> B & C & G & J & L
