@@ -1,0 +1,12 @@
+spatialdata_plot/__init__.py,sha256=5ag_w1giiPnlMM--YYkkkHXmimNQFO1spFnhf6XyNbk,118
+spatialdata_plot/_accessor.py,sha256=wNmDNOK3N49952hM1f7I0SgjjeCs-GXmOyxKwLwQt50,527
+spatialdata_plot/_logging.py,sha256=ATXmt4HQ2kk6JyJ3P_s6DXaeoSpHyu98NciR61wbrik,618
+spatialdata_plot/pl/__init__.py,sha256=qa8DNr4TU5aJ7iRDVU0J0bu9Jn4kUqvih8Ce7AcGXoA,67
+spatialdata_plot/pl/basic.py,sha256=B1JTpt8UYWnB68IZopghTdKrfXAqbcds2i6kVWjD1rA,45147
+spatialdata_plot/pl/render.py,sha256=CvRqoNODVd1tza5EmRuNMjUno_gdugR2UMNzFx-IefA,40047
+spatialdata_plot/pl/render_params.py,sha256=OVDDy4Wde8yUxy7tpEDp1RUuk6A5jZPMXNnRJYF7Mdc,3834
+spatialdata_plot/pl/utils.py,sha256=IaxMLWq-D3mSDiDaFe0oDg7Xluj--02i9yTFpvQZyOo,82870
+spatialdata_plot-0.2.8.dist-info/METADATA,sha256=eNP1KUxb6rMkDNJHpMkWov7BIA9NcS7OMdGeKpDfwNA,6845
+spatialdata_plot-0.2.8.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+spatialdata_plot-0.2.8.dist-info/licenses/LICENSE,sha256=A68ljPpy2ZYjfvUJNCfzwj7iK7ddWMeARRoXR8YQHp4,1515
+spatialdata_plot-0.2.8.dist-info/RECORD,,
