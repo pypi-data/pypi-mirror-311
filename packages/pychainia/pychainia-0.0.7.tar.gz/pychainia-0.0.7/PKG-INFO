@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pychainia
+Version: 0.0.7
+Summary: pychainia is a simple game based off of a popular tower defense game!
+Author: Invizabel
+Project-URL: Homepage, https://github.com/Invizabel/pychainia
+Project-URL: Bug Tracker, https://github.com/Invizabel/pychainia
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame-ce
+Requires-Dist: Kivy
+
+﻿# pychainia is a simple game based off of a popular tower defense game!
+# To play on Android: Follow the buildozer guide to install buildozer. Then copy and paste the assets folder as well as the buildozer.spec file into the main folder of your buildoze project from GitHub!
+# Then, create a main.py file and add the following lines into the buildozer folder:
+# 
+# 
+# 
+#import pychainia
+#pychainia.pychainia()
