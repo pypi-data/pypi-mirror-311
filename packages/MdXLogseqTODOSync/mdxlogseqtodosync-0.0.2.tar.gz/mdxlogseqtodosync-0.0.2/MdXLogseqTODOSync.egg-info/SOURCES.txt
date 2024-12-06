@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+MdXLogseqTODOSync/MdXLogseqTODOSync.py
+MdXLogseqTODOSync/__init__.py
+MdXLogseqTODOSync/__main__.py
+MdXLogseqTODOSync.egg-info/PKG-INFO
+MdXLogseqTODOSync.egg-info/SOURCES.txt
+MdXLogseqTODOSync.egg-info/dependency_links.txt
+MdXLogseqTODOSync.egg-info/entry_points.txt
+MdXLogseqTODOSync.egg-info/requires.txt
+MdXLogseqTODOSync.egg-info/top_level.txt
