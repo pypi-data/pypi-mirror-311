@@ -1,0 +1,5 @@
+include BACKLOG.md
+include README.md
+include README_pypi.md
+include docs/*
+include efficacy of an arbitrary CI method for proportions - analytical solution.jpg
