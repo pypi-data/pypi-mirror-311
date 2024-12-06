@@ -1,0 +1,9 @@
+pgstacrs-0.1.0.dist-info/METADATA,sha256=IxrPEZS_yacBFZiCeXL8e2WLB5U3Ry-LqBQ_UsakCT8,1982
+pgstacrs-0.1.0.dist-info/WHEEL,sha256=BLU2viZ06bxo2HU1Kuo8Y3p_ri1Sl5fxXwhnN1EtTNc,110
+pgstacrs-0.1.0.dist-info/licenses/LICENSE,sha256=vU72DchV6S1PsanwzW4ZvQMnzmgdeIytvLu--k17G14,1067
+pgstacrs.libs/libgcc_s-b5472b99.so.1,sha256=wh8CpjXz9IccAyeERcB7YDEx7NH2jF-PykwOyYNeRRI,453841
+pgstacrs/__init__.py,sha256=K3HFPdwpDL1gcMRpUHc3upFr-d_5QNDqk9g_gDu00xU,115
+pgstacrs/__init__.pyi,sha256=nQnq303VocfM6t1h16lt1ZAivsLXfd_41k421vFezo8,6282
+pgstacrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgstacrs/pgstacrs.pypy39-pp73-x86-linux-gnu.so,sha256=dqr25CILxhKEnJBpS3HRjMSAasNmL-yvf_naRDeFtQ0,4066697
+pgstacrs-0.1.0.dist-info/RECORD,,
