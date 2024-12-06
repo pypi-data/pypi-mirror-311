@@ -1,0 +1,29 @@
+appdirs
+deprecated
+fuzzywuzzy
+gitpython
+hdx-python-country
+ipython
+matplotlib
+networkx >=2.4.0
+numpy
+openpyxl
+openscm-units
+pandas>=2.0.0
+pandas_indexing
+pint-xarray
+pint>=0.11
+pyam-iamc>=2.2.4
+pycountry
+pytest-cov
+pytest>8.3
+python-calamine
+python-docx
+recommonmark
+tqdm
+treelib
+xarray>=2024.9.0
+xlsxwriter
+sphinx
+sphinx_rtd_theme
+-e .
