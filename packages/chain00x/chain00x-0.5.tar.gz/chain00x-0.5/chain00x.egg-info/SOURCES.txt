@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+chain00x.egg-info/PKG-INFO
+chain00x.egg-info/SOURCES.txt
+chain00x.egg-info/dependency_links.txt
+chain00x.egg-info/top_level.txt
