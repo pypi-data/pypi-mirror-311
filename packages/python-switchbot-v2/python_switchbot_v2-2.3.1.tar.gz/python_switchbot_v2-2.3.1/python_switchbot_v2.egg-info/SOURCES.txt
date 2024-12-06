@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+python_switchbot_v2/__init__.py
+python_switchbot_v2/client.py
+python_switchbot_v2/devices.py
+python_switchbot_v2/remotes.py
+python_switchbot_v2/scene.py
+python_switchbot_v2.egg-info/PKG-INFO
+python_switchbot_v2.egg-info/SOURCES.txt
+python_switchbot_v2.egg-info/dependency_links.txt
+python_switchbot_v2.egg-info/requires.txt
+python_switchbot_v2.egg-info/top_level.txt
