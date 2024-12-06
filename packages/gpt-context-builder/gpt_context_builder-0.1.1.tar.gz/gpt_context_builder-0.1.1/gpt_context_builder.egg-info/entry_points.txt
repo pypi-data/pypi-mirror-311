@@ -1,0 +1,2 @@
+[console_scripts]
+gpt_context_builder = gpt_context_builder.cli:main
