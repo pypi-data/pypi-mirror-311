@@ -1,0 +1,13 @@
+tfclass_predict/__init__.py,sha256=-qU3SvMj8l-x_52IJEu81axDQciQ-Jtn9P6WZROfr80,225
+tfclass_predict/cli_interface.py,sha256=4SIaURgafckCFYYBurbyQtn1AU9LeybmAVCMUYOpZqE,2070
+tfclass_predict/constants.py,sha256=fXVOH0SLzdYUYo3U3HzcF1g7CFSxVpfuLjQOh7tvJ1c,63
+tfclass_predict/io_interface.py,sha256=T86FuRXeBs5e-woH6ak28LguS8CW1nv3tnxXSvbMmF8,3046
+tfclass_predict/prediction_manager.py,sha256=dY8zy2JAY6-uen9iuQGa8-ZjH8yRaMyGxufZ0fsgRbo,5631
+tfclass_predict/predictor.py,sha256=2GwrJSXHuwcFHLLZDkk7bvd582gYfNWuWekr679fV4U,5041
+tfclass_predict/sequence_processor.py,sha256=6gDlyx3u5qBaaps9oqeyuBVBu_XyZLXJgiFvJOc0AC4,2345
+tfclass_predict-0.1.0.dist-info/LICENSE,sha256=A23zkjOBBWiQ7KbECEGxnsnd55NkSw3rt0f2Xi-uX2M,35113
+tfclass_predict-0.1.0.dist-info/METADATA,sha256=KhPwEE577yot_WejIX8osFfEi7X01I4sicrkFNorX64,4206
+tfclass_predict-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tfclass_predict-0.1.0.dist-info/entry_points.txt,sha256=8MDcJzt4aTwyIhZZqB1oIl2Nf1ewfUZSOJrRM0BxNPM,72
+tfclass_predict-0.1.0.dist-info/top_level.txt,sha256=Na4EskuvZLC6l4TwWABIdKkTVxE2s4at2a0zkOqP9Vo,16
+tfclass_predict-0.1.0.dist-info/RECORD,,
