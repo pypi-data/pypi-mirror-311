@@ -1,0 +1,5 @@
+ollama
+typer
+requests
+platformdirs
+psutil
