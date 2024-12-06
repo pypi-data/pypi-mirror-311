@@ -1,0 +1,14 @@
+argcomplete
+jsondiff
+ligo-gracedb
+GitPython
+lscsoft-glue
+coverage
+python-benedict
+jsonmerge
+PyYAML
+gwpy
+python-crontab
+python-gitlab
+gwtc-tools
+fastjsonschema
