@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PyRunbookManager
+Version: 0.0.1
+Summary: Easily install modules in azure automation runbooks.
+Author: ikbendion (dblonk)
+Author-email: <contact@ikbendion.nl>
+License: Apache 2.0
+Project-URL: Source, https://github.com/ikbendion/PyRunbookManager
+Keywords: python,azure,automation,runbooks,pip,dependencies
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# PyRunbookManager
+Easily install PIP dependencies in your azure runbook at runtime.
+# Usage
+Coming soon...
