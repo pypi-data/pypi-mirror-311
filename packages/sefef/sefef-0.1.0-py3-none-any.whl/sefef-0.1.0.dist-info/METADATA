@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sefef
+Version: 0.1.0
+Summary: SeFEF: Seizure Forecast Evaluation Framework
+Author: Ana Sofia Carmo
+Author-email: anascacais@gmail.com
+License: BSD 3-clause
+License-File: LICENSE
+Requires-Dist: biosppy==2.2.2
+Requires-Dist: h5py==3.12.1
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: numpy==2.1.1
+Requires-Dist: pandas==2.2.3
+Requires-Dist: plotly==5.24.1
+Requires-Dist: pyarrow==17.0.0
+Requires-Dist: scikit-learn==1.5.2
+Requires-Dist: scipy==1.14.1
+Requires-Dist: sphinx-rtd-theme==3.0.2
+
