@@ -1,0 +1,9 @@
+dns_observe/__init__.py,sha256=HrejpldTcRp4yDveBkOgogtFaRuQ9E8Y9XVtKVkW4YQ,47
+dns_observe/__main__.py,sha256=gUSjapRoxYseNlcWWPYy45w51meWRvGqbuSgbawsL-4,29
+dns_observe/dns.py,sha256=T8txN12qm-qhUjQ2ZS2RODcYcb-xBNyoQtNtfB_PMuc,10165
+dns_observe-0.6.3.dist-info/LICENSE.txt,sha256=cXVjufB1OOQrYkZkM4eI_CRmiWdRcImQrY7f_sCMtko,1068
+dns_observe-0.6.3.dist-info/METADATA,sha256=j7Gn4PVmw9rwM3EV1-X-glpqbkxPZ3wOyHzp-eRqMAU,2444
+dns_observe-0.6.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+dns_observe-0.6.3.dist-info/entry_points.txt,sha256=GPTomV-CFAY5vo_XqN2r9lOGEcCVrBWHaXC6E8CMdqY,53
+dns_observe-0.6.3.dist-info/top_level.txt,sha256=HxlFJZFraU66JZK65gykx1NGgO1Q_ancAGVootcG0v0,12
+dns_observe-0.6.3.dist-info/RECORD,,
