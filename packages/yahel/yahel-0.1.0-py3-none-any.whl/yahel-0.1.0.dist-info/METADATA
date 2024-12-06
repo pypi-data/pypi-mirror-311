@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: yahel
+Version: 0.1.0
+Summary: Pacote para visualização de dados com mapas de calor, gráficos de pizza e gráficos de área.
+Home-page: https://github.com/luiz441/yahel
+Author: Luiz 441
+Author-email: osramosdejesus1990@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: seaborn
+
+# Yahel
+
+**Yahel** é um pacote Python para cientistas e analistas de dados, permitindo criar visualizações como:
+- Mapas de Calor
+- Gráficos de Pizza
+- Gráficos de Área
+
+## Instalação
+
+Instale via pip:
+```bash
+pip install yahel
+
