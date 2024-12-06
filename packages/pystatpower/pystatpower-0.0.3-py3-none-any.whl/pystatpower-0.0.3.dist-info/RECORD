@@ -1,0 +1,12 @@
+pystatpower/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+pystatpower/__main__.py,sha256=Je2OySs1iOOccvJpQIBKL9YFd5SWlnqOpN9O0EhZq8c,138
+pystatpower/numeric.py,sha256=HaI6bWd0-q72Nv94c4r5jRamdBfghVLcgKfDy-0LJuU,6996
+pystatpower/option.py,sha256=P_aYp_EZpwQB3rHADIf_IjOL2b9I-aW-9j5WuH3z8HU,975
+pystatpower/models/__init__.py,sha256=rRfItH83bqymt_qOwHNTP5xxrMfVEjeEl2rtKykgLP8,110
+pystatpower/models/one_proportion.py,sha256=mAonkzATOGwR2WYhYzA5bu_ltg3eBI6aMzQvjwYmEok,18018
+pystatpower/models/two_proportion.py,sha256=N0SRiYFLC_DBAfg1M-Vu7RSJmw8KGa61zYRXdRVsJ-s,41011
+pystatpower-0.0.3.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+pystatpower-0.0.3.dist-info/METADATA,sha256=zwe12477Wvu_g1c00mtmNUPkqnhmGsmFwKud9D8xRNM,5091
+pystatpower-0.0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pystatpower-0.0.3.dist-info/top_level.txt,sha256=9lpb6lgNiwMyZP5Io8Fd0bSKJ3rHViQuCpVjAdMgwU8,12
+pystatpower-0.0.3.dist-info/RECORD,,
