@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: dooth
+Version: 1.1.9
+Requires-Dist: requests
