@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural_transport"
+authors = [
+    {name = "Vitus Benson", email = "vbenson@bgc-jena.mpg.de"},
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+description = "Neural Transport - A Python library to train neural network emulators of atmospheric transport models."
+keywords = ["AI", "neural network", "transport model", "carbon", "co2", "emulator", "pytorch"]
+requires-python = ">=3.10"
+version = "0.0.2"
+dependencies = [
+    "numpy",
+    "xarray",
+    "dask",
+    "ecmwf-api-client",
+    "tqdm",
+    "xesmf",
+    "cdo",
+    "numcodecs",
+    "zarr",
+    "pandas",
+    "xskillscore",
+    "tensorboard",
+    "torch",
+    "cartopy",
+    "matplotlib",
+    "seaborn",
+    "xrft",
+    "xmovie",
+    "torch_geometric",
+    "scipy",
+    "trimesh",
+    "tensorly",
+    "torch_harmonics",
+    "timm",
+    "einops",
+    "pyarrow",
+    "h5netcdf",
+    "netcdf4",
+]
+[project.urls]
+Repository = "https://github.com/vitusbenson/neural_transport.git"
+Issues = "https://github.com/vitusbenson/neural_transport/issues"
+
+[tool.setuptools.packages.find]
+include = ["neural_transport"]
+exclude = ["experiments*"]

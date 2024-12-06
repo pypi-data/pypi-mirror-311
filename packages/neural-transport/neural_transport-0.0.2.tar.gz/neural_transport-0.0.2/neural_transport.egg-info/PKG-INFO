@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: neural_transport
+Version: 0.0.2
+Summary: Neural Transport - A Python library to train neural network emulators of atmospheric transport models.
+Author-email: Vitus Benson <vbenson@bgc-jena.mpg.de>
+License: MIT License
+        
+        Copyright (c) 2024 Vitus Benson, Max Planck Institute for Biogeochemistry
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/vitusbenson/neural_transport.git
+Project-URL: Issues, https://github.com/vitusbenson/neural_transport/issues
+Keywords: AI,neural network,transport model,carbon,co2,emulator,pytorch
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: dask
+Requires-Dist: ecmwf-api-client
+Requires-Dist: tqdm
+Requires-Dist: xesmf
+Requires-Dist: cdo
+Requires-Dist: numcodecs
+Requires-Dist: zarr
+Requires-Dist: pandas
+Requires-Dist: xskillscore
+Requires-Dist: tensorboard
+Requires-Dist: torch
+Requires-Dist: cartopy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: xrft
+Requires-Dist: xmovie
+Requires-Dist: torch_geometric
+Requires-Dist: scipy
+Requires-Dist: trimesh
+Requires-Dist: tensorly
+Requires-Dist: torch_harmonics
+Requires-Dist: timm
+Requires-Dist: einops
+Requires-Dist: pyarrow
+Requires-Dist: h5netcdf
+Requires-Dist: netcdf4
+
+![#](https://raw.githubusercontent.com/vitusbenson/neural_transport/main/logo.png)
+
+*A Python library to train neural network emulators of atmospheric transport models.*
+
+<a href='https://pypi.python.org/pypi/neural-transport'>
+    <img src='https://img.shields.io/pypi/v/neural-transport.svg' alt='PyPI' />
+</a>
+<a href="https://opensource.org/licenses/MIT" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
+</a>
+<a href="https://twitter.com/vitusbenson" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/vitusbenson?style=social" alt="Twitter">
+</a>
+
+<a href="https://arxiv.org/abs/2408.11032" target="_blank">
+    <img src="https://img.shields.io/badge/arXiv-2408.11032-b31b1b.svg" alt="ArXiv">
+</a>
+
+
+
+# Installation
+
+
+```
+conda create -n neuraltransport python=3.10
+conda activate neuraltransport
+conda install -c conda-forge ffmpeg pkg-config libjpeg-turbo opencv cupy cuda-version=11.8
+conda install -c conda-forge numpy pandas xesmf cdo python-cdo xarray dask zarr netCDF4 bottleneck matplotlib seaborn cartopy shapely xskillscore xrft pyarrow
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pyg -c pyg
+pip3 install lightning cdsapi pypdf2 trimesh rtree ipykernel ipywidgets tensorboard einops timm ecmwf-api-client eccodes dm-tree cfgrib 
+pip3 install git+https://github.com/jbusecke/xmovie.git
+pip install pynvml wandb ruamel.yaml moviepy
+pip3 install git+https://github.com/NVIDIA/modulus-makani.git
+pip install -e .
+```
+
+
+# Cite NeuralTransport
+
+In case you use NeuralTransport in your research or work, it would be highly appreciated if you include a reference to our [paper](https://arxiv.org/abs/2408.11032) in any kind of publication.
+
+```bibtex
+@article{benson2024neuraltransport,
+  title = {Atmospheric Transport Modeling of CO2 with Neural Networks},
+  author = {Vitus Benson, Ana Bastos, Christian Reimers, Alexander J. Winkler,
+ Fanny Yang and Markus Reichstein},
+  eprint={2408.11032},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2408.11032}, 
+}
+```
+
+# Contact
+
+For questions or comments regarding the usage of this repository, please use the [discussion section](https://github.com/vitusbenson/neural_transport/discussions) on Github. For bug reports and feature requests, please open an [issue](https://github.com/vitusbenson/neural_transport/issues) on GitHub.
+In special cases, you can reach out to Vitus (find his email on his [website](https://vitusbenson.github.io/)).
