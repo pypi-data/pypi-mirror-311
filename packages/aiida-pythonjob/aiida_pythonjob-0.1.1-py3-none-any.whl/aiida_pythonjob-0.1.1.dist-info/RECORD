@@ -1,0 +1,17 @@
+aiida_pythonjob/__init__.py,sha256=nRodue9zMNeO06oH3BPSoBexnXBqMMK0pXa68QPonMw,383
+aiida_pythonjob/config.py,sha256=ZHeS_7qRmkea4ltWpju5vsOHvYfi9mVdpklWfUu2LRs,384
+aiida_pythonjob/launch.py,sha256=5Kg1Nlt4Gen8M19tzQgo1KIU3p3gM7wogF0h3TR0zDg,3251
+aiida_pythonjob/utils.py,sha256=HqxmYD76xFwqwBR3jezHNM0zw1uB1WPCn6dHH3NLJDM,947
+aiida_pythonjob/calculations/__init__.py,sha256=-xxZoADS038pH5T_ssINO-Ql5q7SY31nPYHlua6f0Ns,59
+aiida_pythonjob/calculations/pythonjob.py,sha256=ktE67rIx0yitf7wek4XMGB8nhNAg1omgh2juNqlRMJo,11826
+aiida_pythonjob/data/__init__.py,sha256=fgl_e1ZbQ4It8l1zfQUM1p3dcIWitG-A8RHpy6N7wgk,130
+aiida_pythonjob/data/pickled_data.py,sha256=x4ZQOlExzdbww2_ojg5BxKGr4-didDMjXRUXLGUgUD8,2901
+aiida_pythonjob/data/pickled_function.py,sha256=VNpbXKxgntXKKhfxrvdJKs9NtV6ormAwcJ5BQvlSMmM,5975
+aiida_pythonjob/data/serializer.py,sha256=a0Gyx3SH6J9C7Vra1DKSRyDpBHAEn8vtu1En-mlemfs,4454
+aiida_pythonjob/parsers/__init__.py,sha256=-gwCpe5K-lMR1Yonp0AKST_z3y63xsfDoFRpTnHSfHw,71
+aiida_pythonjob/parsers/pythonjob.py,sha256=KWR1SnUVddtgolLiuy_6e25JKVPdAbgxL69wa6FDL8M,5265
+aiida_pythonjob-0.1.1.dist-info/METADATA,sha256=LakgxgFB8yaMb_GulPOt1q77CTzqyi56F5oEJvKoffw,3606
+aiida_pythonjob-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+aiida_pythonjob-0.1.1.dist-info/entry_points.txt,sha256=F7WrhW9wyC4WIu5FYxozTGuzrJGcaY1HHk_WeVU9PIM,349
+aiida_pythonjob-0.1.1.dist-info/licenses/LICENSE,sha256=YHoQimZwJx-5oMGat60FgIuvY6rTfVSJN_NPe66nlPc,1067
+aiida_pythonjob-0.1.1.dist-info/RECORD,,
