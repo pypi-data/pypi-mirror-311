@@ -1,0 +1,7 @@
+aiohttp==3.10
+ccxt==4.4.29
+numpy
+prettytable
+pyshark
+sslkeylog
+tqdm
