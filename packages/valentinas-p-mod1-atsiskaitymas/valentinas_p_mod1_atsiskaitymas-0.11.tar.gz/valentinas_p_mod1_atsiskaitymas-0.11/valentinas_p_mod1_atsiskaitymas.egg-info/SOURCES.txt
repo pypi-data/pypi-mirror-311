@@ -1,0 +1,11 @@
+README.md
+setup.py
+tests/__init__.py
+tests/test_web_crawling.py
+valentinas_p_mod1_atsiskaitymas/__init__.py
+valentinas_p_mod1_atsiskaitymas/web_crawling.py
+valentinas_p_mod1_atsiskaitymas.egg-info/PKG-INFO
+valentinas_p_mod1_atsiskaitymas.egg-info/SOURCES.txt
+valentinas_p_mod1_atsiskaitymas.egg-info/dependency_links.txt
+valentinas_p_mod1_atsiskaitymas.egg-info/requires.txt
+valentinas_p_mod1_atsiskaitymas.egg-info/top_level.txt
