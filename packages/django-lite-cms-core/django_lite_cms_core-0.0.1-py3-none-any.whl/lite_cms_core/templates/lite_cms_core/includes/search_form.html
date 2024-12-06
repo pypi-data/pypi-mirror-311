@@ -1,0 +1,23 @@
+{% load i18n bootstrap_icons %}
+<form action="{% url "core:search" %}" class="" role="search">
+    <div class="input-group">
+        <input class="form-control" placeholder="{% trans "Search" %}"
+               type="text" name="q" value="{{ request.REQUEST.q }}" style="font-family: 'Roboto', sans-serif;"
+               aria-label="{% trans 'Search' %}" required>
+        <button class="input-group-text" id="basic-addon1">
+            {% bs_icon 'search' %}
+        </button>
+        <div class="input-group-append">
+            {% if search_model_choices|length > 1 %}
+            <div class="input-group-text" title="{% trans 'Extended search' %}">
+                <a href="{% url 'core:extsearch' %}" aria-label="{% trans 'Extended search' %}">
+                    {% bs_icon 'three-dots' extra_classes='bi-valign-middle' color='gray' %}
+                </a>
+            </div>
+            {% endif %}
+        </div>
+        {% if search_model_choices|length == 1 %}
+        <input type="hidden" name="type" value="{{ search_model_choices.0.1 }}" aria-label="{% trans 'Search' %}">
+        {% endif %}
+    </div>
+</form>
