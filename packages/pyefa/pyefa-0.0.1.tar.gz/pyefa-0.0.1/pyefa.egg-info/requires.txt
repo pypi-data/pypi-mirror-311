@@ -1,0 +1,8 @@
+aiohttp==3.11.7
+voluptuous==0.15.2
+
+[tests]
+coverage>=5.0.3
+pytest-cov
+pytest
+pytest-benchmark[histogram]>=3.2.1
