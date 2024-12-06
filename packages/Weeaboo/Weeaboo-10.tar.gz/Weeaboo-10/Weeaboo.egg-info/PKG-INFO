@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Weeaboo
+Version: 10
+Summary: Shared code for websites
+Home-page: https://pypi.org/project/Weeaboo/
+Author: Andrzej Cichocki
+Author-email: 3613868+combatopera@users.noreply.github.com
+Description-Content-Type: text/markdown
+
+# Weeaboo
+Shared code for websites
+
+## Commands
+
+### rmexcept
+Delete paths except those provided as args.
+
+### runsite
+Website entrypoint.
