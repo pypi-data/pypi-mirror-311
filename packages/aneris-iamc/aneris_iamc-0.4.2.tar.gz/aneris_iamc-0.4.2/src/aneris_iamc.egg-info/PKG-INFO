@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: aneris-iamc
+Version: 0.4.2
+Summary: Harmonize Integrated Assessment Model Emissions Trajectories
+Author-email: Matthew Gidden <matthew.gidden@gmail.com>, Jonas Hoersch <jonas.hoersch@climateanalytics.org>
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas>=1.1
+Requires-Dist: PyYAML
+Requires-Dist: xlrd>=2.0
+Requires-Dist: openpyxl
+Requires-Dist: matplotlib
+Requires-Dist: pyomo>=5
+Requires-Dist: pandas-indexing>=0.4.0
+Requires-Dist: pycountry
+Provides-Extra: deploy
+Requires-Dist: twine; extra == "deploy"
+Requires-Dist: setuptools; extra == "deploy"
+Requires-Dist: wheel; extra == "deploy"
+Provides-Extra: convenience
+Requires-Dist: pyam-iamc; extra == "convenience"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: hypothesis; extra == "test"
+Requires-Dist: pooch; extra == "test"
+Requires-Dist: nbformat; extra == "test"
+Requires-Dist: nbconvert; extra == "test"
+Provides-Extra: units
+Requires-Dist: openscm-units; extra == "units"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinxcontrib-bibtex; extra == "docs"
+Requires-Dist: sphinxcontrib-programoutput; extra == "docs"
+Requires-Dist: sphinxcontrib-exceltable; extra == "docs"
+Requires-Dist: sphinx-gallery; extra == "docs"
+Requires-Dist: nbsphinx; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: nbformat; extra == "docs"
+Requires-Dist: pillow; extra == "docs"
+Provides-Extra: lint
+Requires-Dist: black; extra == "lint"
+Requires-Dist: ruff; extra == "lint"
+Provides-Extra: geo
+Requires-Dist: ptolemy-iamc; extra == "geo"
+Requires-Dist: pycountry; extra == "geo"
+Requires-Dist: xarray; extra == "geo"
+Requires-Dist: dask; extra == "geo"
+
+`aneris` - Operations library for harmonizing, downscaling, and gridding IAM emissions data
+===========================================================================================
+
+**To reproduce harmonization routines from [Gidden et al.
+(2019)](https://gmd.copernicus.org/articles/12/1443/2019/), use `v0.3.2` (or
+earlier). Subsequent versions introduce backwards incompatibilities.**
+
+Documentation
+-------------
+
+All documentation can be found at https://aneris.readthedocs.io/en/latest/
+
+Install
+-------
+
+From Source
+***********
+
+Installing from source is as easy as
+
+.. code-block:: bash
+
+    pip install -e .[tests,deploy,units]
+
+You can then check to make sure your install is operating as expected
+
+.. code-block:: bash
+
+    pytest tests
+
+Build the Docs
+--------------
+
+Requirements
+************
+
+See `doc/environment.yml`
+
+Build and Serve
+***************
+
+.. code-block:: bash
+
+    cd doc
+    make html
+
+Then point you browser to `http://127.0.0.1:8000/`.
+
+License
+-------
+
+Licensed under Apache 2.0. See the LICENSE file for more information

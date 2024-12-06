@@ -1,0 +1,149 @@
+[project]
+authors = [
+  {name = "Matthew Gidden", email = "matthew.gidden@gmail.com"},
+  {name = "Jonas Hoersch", email = "jonas.hoersch@climateanalytics.org"},
+]
+description = "Harmonize Integrated Assessment Model Emissions Trajectories"
+license = {text = "Apache License 2.0"}
+name = "aneris-iamc"
+readme = "README.rst"
+requires-python = ">=3.10"
+
+# Add here all kinds of additional classifiers as defined under
+# https://pypi.org/classifiers/
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+  "numpy",
+  "pandas>=1.1",
+  "PyYAML",
+  "xlrd>=2.0",
+  "openpyxl",
+  "matplotlib",
+  "pyomo>=5",
+  "pandas-indexing>=0.4.0",
+  "pycountry",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+deploy = ["twine", "setuptools", "wheel"]
+convenience = ["pyam-iamc"]
+test = [
+    "coverage",
+    "pytest",
+    "pytest-cov",
+    "hypothesis",
+    "pooch",
+    "nbformat",
+    "nbconvert",
+]
+units = ["openscm-units"]
+docs = [
+        "sphinx",
+        "sphinxcontrib-bibtex",
+        "sphinxcontrib-programoutput",
+        "sphinxcontrib-exceltable",
+        "sphinx-gallery",
+        "nbsphinx",
+        "numpydoc",
+        "nbformat",
+        "pillow",
+    ]
+lint = [
+    "black",
+    "ruff"
+]
+geo = [
+  "ptolemy-iamc",
+  "pycountry",
+  "xarray",
+  "dask",
+]
+
+[project.scripts]
+aneris = "aneris.cli:main"
+
+
+[tool.setuptools_scm]
+fallback_version = "999"
+
+
+[tool.flake8]
+ignore = ["I002", "F403", "E402", "E731", "E203", "W503"]
+max-line-length = 88
+exclude = [
+	"doc",
+	"tests"
+]
+
+[tool.ruff]
+target-version = "py38"
+builtins = ["ellipsis"]
+exclude = [
+    ".eggs",
+    "doc",
+    "_typed_ops.pyi",
+]
+
+[tool.ruff.lint]
+# E402: module level import not at top of file
+# E501: line too long - let black worry about that
+# E731: do not assign a lambda expression, use a def
+# E741: ambiguous variable names
+ignore = [
+    "E402",
+    "E501",
+    "E731",
+    "E741"
+]
+select = [
+    # Pyflakes
+    "F",
+    # Pycodestyle
+    "E",
+    "W",
+    # isort
+    "I",
+    # Pyupgrade
+    "UP",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# F401: imported but unsued
+"__init__.py" = ["F401"]
+
+[tool.ruff.lint.isort]
+lines-after-imports = 2
+known-first-party = ["aneris"]
+
+[tool.pytest.ini_options]
+# Specify command line options as you would do when invoking pytest directly.
+# e.g. --cov-report html (or xml) for html/xml output or --junitxml junit.xml
+# in order to write a coverage file that can be read by Jenkins.
+# CAUTION: --cov flags may prohibit setting breakpoints while debugging.
+#          Comment those flags to avoid this py.test issue.
+addopts = "--cov skele --cov-report term-missing --verbose"
+minversion = "6.0"
+norecursedirs = [
+  "dist",
+  "build",
+  ".tox",
+]
+testpaths = [
+  "tests",
+]
+
+# Use pytest markers to select/deselect specific tests
+markers = [
+#     "slow: mark tests as slow (deselect with '-m \"not slow\"')",
+#     "system: mark end-to-end system tests",
+      "ipopt: requires ipopt installed from conda-forge",
+]
+
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=46.1.0", "setuptools_scm[toml]>=6.2"]
