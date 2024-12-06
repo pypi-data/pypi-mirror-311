@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/magith/__init__.py
+src/magith/data_proxy.py
+src/magith/http_client.py
+src/magith/upass.py
+src/magith.egg-info/PKG-INFO
+src/magith.egg-info/SOURCES.txt
+src/magith.egg-info/dependency_links.txt
+src/magith.egg-info/requires.txt
+src/magith.egg-info/top_level.txt
