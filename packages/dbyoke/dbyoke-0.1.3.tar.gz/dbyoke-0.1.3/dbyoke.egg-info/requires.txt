@@ -1,0 +1,14 @@
+
+[all]
+psycopg2-binary
+pyodbc
+oracledb
+
+[mssql]
+pyodbc
+
+[oracle]
+oracledb
+
+[postgresql]
+psycopg2-binary
