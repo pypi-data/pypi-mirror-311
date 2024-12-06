@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "shark_games"
+authors = [
+    {name = "sophie", email = "itsme@itssophi.ee"},
+]
+description = "Games bot for Sharkey (and *key software) hosted on @games@woem.men"
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = ["Sharkey", "Misskey", "*key", "bot", "games"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12"
+]
+dynamic = ["version"]
+
+dependencies = [
+    "click",
+    "aiohttp",
+    "aiodns",
+    "Brotli",
+    "requests",
+    "aiofiles",
+    "dice"
+]
+
+[project.urls]
+Repository = "https://codeberg.org/itssophie/shark-games"
+Issues = "https://codeberg.org/itssophie/shark-games/issues"
+
+[project.scripts]
+sharkgames = "shark_games.cli:cli"
+
+[tool.setuptools.dynamic]
+version = {attr = "shark_games.__version__"}
