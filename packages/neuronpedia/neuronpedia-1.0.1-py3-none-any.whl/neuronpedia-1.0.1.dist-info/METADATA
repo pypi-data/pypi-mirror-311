@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: neuronpedia
+Version: 1.0.1
+Summary: Official Neuronpedia Python Library
+Author: Johnny Lin
+Author-email: johnny@neuronpedia.org
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Neuronpedia Python Library
+
+## Authentication
+
+Some APIs on Neuronpedia require an API key. For example, if you want to bookmark something in your account, or upload a new vector, you'll need to identify yourself with a Neuronpedia API key.
+
+### Setting the API Key (free)
+
+1) Sign up for Neuronpedia at `neuronpedia.org`.
+2) Get your Neuronpedia API key from `neuronpedia.org/account`.
+3) Set the environment variable `NEURONPEDIA_API_KEY` to your API key. You can do this through a `.env` file or other similar methods.
+
+### Example: Upload a Vector, then Steer With It
+
+See the `examples/upload_vector_and_steer.ipynb` notebook.
