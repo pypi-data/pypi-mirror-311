@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+pyproject.toml
+readme.md
+setup.py
+biteen_utilities/__init__.py
+biteen_utilities/biteen_io.py
+biteen_utilities/biteen_napari.py
+biteen_utilities/biteen_pandas.py
+biteen_utilities/biteen_plots.py
+biteen_utilities.egg-info/PKG-INFO
+biteen_utilities.egg-info/SOURCES.txt
+biteen_utilities.egg-info/dependency_links.txt
+biteen_utilities.egg-info/requires.txt
+biteen_utilities.egg-info/top_level.txt
