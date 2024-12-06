@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+lsh/__init__.py
+lsh/hash_functions.py
+lsh_fast.egg-info/PKG-INFO
+lsh_fast.egg-info/SOURCES.txt
+lsh_fast.egg-info/dependency_links.txt
+lsh_fast.egg-info/requires.txt
+lsh_fast.egg-info/top_level.txt
+tests/test.py
