@@ -1,0 +1,9 @@
+fcsparser
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+scikit-learn
+umap
+flowsom
