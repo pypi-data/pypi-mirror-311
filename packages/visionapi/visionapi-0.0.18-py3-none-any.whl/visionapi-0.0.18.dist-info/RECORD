@@ -1,0 +1,14 @@
+visionapi/__init__.py,sha256=8QyGL_x1ZYjhX3TPWbaWb-RWMM5jtLUT5blBX2BJMI4,308
+visionapi/camera_loader/__init__.py,sha256=kBoOMnmbwcka8KVKhsuKOJzuKaWIWd3Cvb-VmqI6OyU,86
+visionapi/camera_loader/camera_app.py,sha256=qw1zMqw4MaYitbLzd4AePqjyBiXxoyjj837WUbZP5Hs,3776
+visionapi/camera_loader/detect_backend.py,sha256=N4swZVYLINxxPKxnSd1KfEznOaZYmBuPta3XjXFsNYU,378
+visionapi/camera_loader/detect_cameras.py,sha256=X2LCWlDHswtDr5JTHAYcEOx9lrN9gzCN_YjUQCf4gYU,2602
+visionapi/camera_loader/found_camera_cache.py,sha256=KnAIu_WtZ4CsKrSO9t1Ri_7weeLVtI6IoAlCelE_Akw,261
+visionapi/camera_loader/models/frame_payload.py,sha256=lQtpwvw9LzVfLZ0wOBZ_66vPrDmPVDUN6YsRZRIE2uM,467
+visionapi/camera_loader/video_recorder.py,sha256=4anWoVI_H6IylOU-fiLjyCIbY0UkPTxolt9n9Cv3lyM,6563
+visionapi/detections/core.py,sha256=gRMNgHKcA0Ds9O04iETOqzsUg0oU97_QfzCDjFm7K-8,7033
+visionapi/video_editing/__init__.py,sha256=Aaqn3JPF3bsjBQiy5iEXRZdxzTGH6Kyqx2Xp9E-89Qc,68
+visionapi/video_editing/video_concat.py,sha256=T3B4McC16ZQsLjeiSHZGu17Q4lZniR__4kB0VQ31IY0,1920
+visionapi-0.0.18.dist-info/METADATA,sha256=xdfN1GACCsfc933MuABrW9wRFqcANXYOTzmytKeBggg,3395
+visionapi-0.0.18.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+visionapi-0.0.18.dist-info/RECORD,,
