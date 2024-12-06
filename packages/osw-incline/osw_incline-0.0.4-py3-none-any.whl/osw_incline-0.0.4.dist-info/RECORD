@@ -1,0 +1,11 @@
+osw_incline/__init__.py,sha256=hO3LUhgJ5fqL8YTYNf6hDJgZ55LUYqv3WDjzY6ngMPM,2000
+osw_incline/dem_processor.py,sha256=yhxJiWC_fI2CtQyILz85OLduDt81eM1buubCkzz5CiA,11589
+osw_incline/logger.py,sha256=bmf3iMQz0amZDEK-59gd6hAOB9WHTF3MhrlP3j7icjw,938
+osw_incline/osm_graph.py,sha256=poC7zPwUpyoE8f9xA5bZRl9JzH1JpamJpze1WRHRI7k,4503
+osw_incline/version.py,sha256=Qkdiz6Ybn1PE1SlWhKAQBmETf7pQ0yr5HmkqLVDxsqE,21
+utils/__init__.py,sha256=p9DrmkTJz1A-GXmlONia9_oRoq-URmSKNOW5vq6DBu0,1231
+osw_incline-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+osw_incline-0.0.4.dist-info/METADATA,sha256=EcPQvPhp4FgHoMVqquW429N5NFL35N1VSLgdrPXjhpM,8066
+osw_incline-0.0.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+osw_incline-0.0.4.dist-info/top_level.txt,sha256=Smsu7A_b6vWHxkGhNXrxGXhnzimGP1pGVukCom_EZAs,18
+osw_incline-0.0.4.dist-info/RECORD,,
