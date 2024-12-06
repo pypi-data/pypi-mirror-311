@@ -1,0 +1,20 @@
+[package]
+name = "pywaterflood"
+version = "0.3.3"
+edition = "2018"
+
+
+[lib]
+name = "_core"
+# "cdylib" is necessary to produce a shared library for Python to import from.
+crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.21"
+ndarray = ">= 0.13, < 0.16"
+puruspe = "0.3.0"
+peroxide = "0.38.0"
+pyo3 = { version = "0.21", features = ["extension-module", "abi3-py37"] }
+
+[build]
+rustdoc-args = ["--html-in-header", "./docs/rust_header.html", "--no-deps"]
