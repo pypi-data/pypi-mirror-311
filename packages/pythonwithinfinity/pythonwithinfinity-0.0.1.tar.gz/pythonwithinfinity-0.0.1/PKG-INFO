@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pythonwithinfinity
+Version: 0.0.1
+Summary: Framework PyInfinity.
+Home-page: https://www.allwithinfinity.com
+Author: Matvei Kostenko
+Author-email: kmatvij71@gmail.com
+License: **PyInfinity License**
+        
+        Use of PyInfinity
+        Use of PyInfinity is allowed only with the inclusion of its name (PyInfinity) in the application, game, or program. The module or its functions cannot be used without explicitly stating that PyInfinity is part of your project.
+        
+        
+        Remakes and Adaptations
+        Remakes, adaptations, or any derivative works based on PyInfinity are only allowed by the creator (Matvei Kostenko). Copying, modifying, or altering the code, functions, or structures of PyInfinity is strictly prohibited without explicit permission from the creator.
+        
+        
+        Modification or Deletion of PyInfinity Files
+        Users are prohibited from modifying, deleting, or relocating PyInfinity files, including moving them to other modules or folders. Any modification or redistribution of PyInfinity files in other projects, modules, or directories violates the license.
+        
+        
+        Mentioning PyInfinity in Other Modules
+        If PyInfinity is used in another module or program, the creator of that module is required to include a comment or documentation clearly stating that PyInfinity is being used. Here is an example of the required comment:
+        # This module uses PyInfinity - a powerful framework for Python.
+        
+        
+        Access to Source Code
+        You are not required to make your application or program's source code publicly available when using PyInfinity unless specifically requested by the creator (Matvei Kostenko). If the creator requests access to your source code, you are obligated to provide it personally in a reasonable format.
+        
+        
+        Distribution and Publishing
+        You may distribute PyInfinity as part of your project, game, or application, but you are not allowed to sell or distribute PyInfinity as a standalone module. Any use of PyInfinity must be integrated into a complete product, application, or game, not just as a separate module.
+        
+        
+        No Modification or Remake of PyInfinity
+        You are not allowed to modify, remake, or create derivative works of PyInfinity in any form. This includes, but is not limited to, creating a modified version of the module for use in an operating system, application, or any other software.
+        
+        
+        Creating modules with similar names to PyInfinity is also prohibited, such as names like "CInfinity", "WinInfinity", "NumberInfinity", or any other names that are substantially similar to PyInfinity in appearance or purpose.
+        
+        
+        Exclusion of Liability
+        PyInfinity is provided "as is." The creator is not responsible for any damages or issues that may arise from the use of this framework. Use of PyInfinity is at your own risk.
+Project-URL: Documentation, https://www.allwithinfinity.com/docs
+Keywords: python framework utilities PyInfinity
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.12
+
+Framework PyInfinity.
+Megagolab, 2024.
+pip3 install ...
