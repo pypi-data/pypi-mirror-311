@@ -1,0 +1,12 @@
+README.md
+setup.py
+llm_scratch/__init__.py
+llm_scratch/console.py
+llm_scratch/image.py
+llm_scratch/llm_scratch.py
+llm_scratch/raga.py
+llm_scratch/voice.py
+llm_scratch.egg-info/PKG-INFO
+llm_scratch.egg-info/SOURCES.txt
+llm_scratch.egg-info/dependency_links.txt
+llm_scratch.egg-info/top_level.txt
