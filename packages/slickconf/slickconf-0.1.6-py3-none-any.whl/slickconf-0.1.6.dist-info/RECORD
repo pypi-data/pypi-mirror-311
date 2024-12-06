@@ -1,0 +1,12 @@
+slickconf/__init__.py,sha256=4BnNMOGuZJ_XcaufEECodr1GY-EhoBA5lXQCG1VNXkE,234
+slickconf/builder.py,sha256=LoSt9rYoTk3Vz_3CoUhPSbontPT-YBJenuEYXH7QzkM,18233
+slickconf/config.py,sha256=AGJrBnnSB0jBgimtJHoYZ82hNaUGw0UuTrBRQ--6fDE,18708
+slickconf/container.py,sha256=z42rrvQh8TFNhkaNGzbw4jvMLN-_P7UzuLPuKxQwHWc,808
+slickconf/hooks.py,sha256=27q9_Wc1a9T3rfT5vF-e-YbTJ43UcUtfhFJQds5kFto,1931
+slickconf/loader.py,sha256=QEu1Sn6Eyv3gLnB8AELzD5T3PclJS5yBudLmx78mXWc,6071
+slickconf/test.py,sha256=XHRKvi8k6h3GVedDKbOILwaKxoc1_ci9amlLImALxUs,464
+slickconf-0.1.6.dist-info/LICENSE,sha256=ACItHEWxkTbn69gZnLGtor4LOpXm2z0q7wSb4gKfJO8,1071
+slickconf-0.1.6.dist-info/METADATA,sha256=98uZzYokbklvHHLZp4b5B3idG6tiYfXVmCmqaJ_cpUw,1490
+slickconf-0.1.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+slickconf-0.1.6.dist-info/top_level.txt,sha256=YNu-VWzAr5OBS8Jan1ieCXq_447H5vZsk53eII4AWSk,10
+slickconf-0.1.6.dist-info/RECORD,,
