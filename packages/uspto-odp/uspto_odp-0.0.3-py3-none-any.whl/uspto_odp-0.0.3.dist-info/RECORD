@@ -1,0 +1,17 @@
+uspto_odp/__init__.py,sha256=u4s_vgqmJrJrgUD72OGJ7ZmoPUSRdCm9aqoY_IHxsF4,311
+uspto_odp/controller/__init__.py,sha256=0-nPFWPZy4E-WhC9K_ZdIy0UIlWsb-wNEb0gQ2FPNeI,95
+uspto_odp/controller/uspto_odp_client.py,sha256=lOuc9yFfyJjuC78cv-vS6V0ZDsaUMBle52J9alCXJzM,7851
+uspto_odp/models/__init__.py,sha256=bpHHK1XWeoOiKPdYtmHMdBKchoSurdTUjUqE_ceCdJc,781
+uspto_odp/models/foreign_priority.py,sha256=QVkY2fw18ulT97W2q9_9fnS00JfTpvIzXkn3caZeFeI,2724
+uspto_odp/models/fw_stats.py,sha256=eMhWGDSMUPWUdyCBgorffgtAQcP8f4ilRIVAE3dP2iA,6444
+uspto_odp/models/patent_assignment.py,sha256=7eaoJjYAiKIRhIOv1puXTiuAUMojapS35uux2WSWeZg,5645
+uspto_odp/models/patent_continuity.py,sha256=Awu5E_Tqh91acoGhVrZQZs-Mvtt5_kphZThCDhs9SM8,6588
+uspto_odp/models/patent_documents.py,sha256=-ppuF1Idf-HhV5l_4EVtsOVSVpdVcwCYEkvXh4eb8fA,3445
+uspto_odp/models/patent_file_wrapper.py,sha256=_-QZKDD_K9-8p3vSXsI79Wor-bXbAxM9BmR1sRVb31Q,5626
+uspto_odp/models/patent_status.py,sha256=SzdC5W0pMAA4zfa1Gn1Nzobx9CroT0s9HbJjKzgblcY,9939
+uspto_odp/models/patent_transactions.py,sha256=EK8HEaN8cxBB4L_7qPzjrYm9M2Xiby5v_1X4GVKf9h4,2765
+uspto_odp-0.0.3.dist-info/LICENSE,sha256=uH7kE3GYmUT9SACSa_L_klstFRgaju7RcVY-benelrA,1127
+uspto_odp-0.0.3.dist-info/METADATA,sha256=ym3aGX2q0yo_vz4pAQGhduAoqV-rkU-yb-bD3SYWN54,4037
+uspto_odp-0.0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+uspto_odp-0.0.3.dist-info/top_level.txt,sha256=DhRs1dyjh0fU2w0TmcArjQK1bhZ8u0zccqkmBXCj_FE,10
+uspto_odp-0.0.3.dist-info/RECORD,,
