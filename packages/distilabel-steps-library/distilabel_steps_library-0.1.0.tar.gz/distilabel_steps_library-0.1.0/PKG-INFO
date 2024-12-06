@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: distilabel-steps-library
+Version: 0.1.0
+Summary: A bunch of steps for distilabel
+License: WTFPL
+Requires-Python: >=3.12
+Requires-Dist: distilabel>=1.4.1
