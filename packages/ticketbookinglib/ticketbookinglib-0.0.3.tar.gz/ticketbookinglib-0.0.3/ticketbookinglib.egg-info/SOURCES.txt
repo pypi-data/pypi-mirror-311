@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+ticketbookinglib.egg-info/PKG-INFO
+ticketbookinglib.egg-info/SOURCES.txt
+ticketbookinglib.egg-info/dependency_links.txt
+ticketbookinglib.egg-info/requires.txt
+ticketbookinglib.egg-info/top_level.txt
