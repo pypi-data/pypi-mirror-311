@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/uniprot_lb_poo/__init__.py
+src/uniprot_lb_poo/hello.py
+src/uniprot_lb_poo/uniprot.py
+src/uniprot_lb_poo/uniprot_collection.py
+src/uniprot_lb_poo.egg-info/PKG-INFO
+src/uniprot_lb_poo.egg-info/SOURCES.txt
+src/uniprot_lb_poo.egg-info/dependency_links.txt
+src/uniprot_lb_poo.egg-info/requires.txt
+src/uniprot_lb_poo.egg-info/top_level.txt
