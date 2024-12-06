@@ -1,0 +1,11 @@
+aioconsole
+
+[dev]
+black
+isort
+
+[docs]
+sphinx<8.0.0,>=7.0.0
+furo<2024.0.0,>=2023.9.10
+sphinx-autodoc-typehints<2.0.0,>=1.25.0
+sphinx-toolbox<4.0,>=3.5
