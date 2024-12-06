@@ -1,0 +1,14 @@
+dummio/__init__.py,sha256=-7B7mbJFAzF94yGiO5OZm8dYVU7IF9UDsiDly9BQ6o0,464
+dummio/constants.py,sha256=jOf4zD6jpj5Uvp4PZQF-mBJ8E81KV9DwDJyotDvPdrQ,888
+dummio/json.py,sha256=WrxKT8VNxDtEV8z7uXxaEoA0cPhs7bYdx7UqRMwSNXE,574
+dummio/onnx.py,sha256=78mqEutrbk-BWT9JkbA7yhMIaLb6sDvMEgZdWSBUlfA,773
+dummio/text.py,sha256=VYnrsa34rVoi4Bs_klgDA35TPVtpQS8jbpuAZL0x3x0,521
+dummio/yaml.py,sha256=oglmHWmz1kROGAEZbBTeRjqBNra7-i7AHrRVzkqde_c,693
+dummio/pandas/__init__.py,sha256=LpICuA4eHlkz9i_7hOR4IjuGNUNvE1N2tcEM32EZYfQ,94
+dummio/pandas/df_csv.py,sha256=oMYx3SlTVjFBwL5qnANshjNHyO96Nbti_KOCrDcwxVc,787
+dummio/pandas/df_parquet.py,sha256=gmB2JIf5NyD0_YAInReJEjGllHXJDKJfa7FHghIKKS4,721
+dummio-1.1.0.dist-info/LICENSE,sha256=ZDmTXLFP1G-SZBSpdN-oRM7KIAICDfM6OYtS1bWHJfM,1070
+dummio-1.1.0.dist-info/METADATA,sha256=ldDU1HNSVVtmtCkQvde0BhjMKv5CW2dw33XtlR92qD8,2102
+dummio-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+dummio-1.1.0.dist-info/top_level.txt,sha256=pD4i9LvTjDzrJLCVgMoSecFzCbZNdMbuaHhfQGdx5rY,7
+dummio-1.1.0.dist-info/RECORD,,
