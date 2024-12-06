@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "story-dialogue-generator"
+version = "1.0.0"
+description = "Librería para generar diálogos e historias"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+authors = [{name = "Narrify", email = "narrifyengine@gmail.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "requests>=2.25.1",
+    "python-dotenv>=0.19.2",
+    "keyring>=23.0.1"
+]
+requires-python = ">=3.7"
+keywords = ["stories", "dialogues", "generator", "llm", "cli"]
+
+[project.urls]
+"Source Code" = "https://github.com/Narrify"
+
+[tool.setuptools.package-data]
+story_dialogue_generator = ["*.json", "*.yaml"]
+
+[tool.setuptools.dynamic]
+version = {file = "story_dialogue_generator/version.txt"}
+description = {file = "README.md"}
+
+[tool.check-manifest]
+ignore = ["*.env"]

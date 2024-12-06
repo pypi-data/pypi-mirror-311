@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+story_dialogue_generator/__init__.py
+story_dialogue_generator/auth.py
+story_dialogue_generator/cli.py
+story_dialogue_generator/config.py
+story_dialogue_generator/dialogue_service.py
+story_dialogue_generator/story_service.py
+story_dialogue_generator/version.txt
+story_dialogue_generator.egg-info/PKG-INFO
+story_dialogue_generator.egg-info/SOURCES.txt
+story_dialogue_generator.egg-info/dependency_links.txt
+story_dialogue_generator.egg-info/requires.txt
+story_dialogue_generator.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+graft story_dialogue_generator 
+global-exclude __pycache__ *.py[cod]
+include story_dialogue_generator/version.txt
