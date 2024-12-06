@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+visionzip/__init__.py
+visionzip/clip_encoder.py
+visionzip/llava_arch.py
+visionzip/main.py
+visionzip/utils.py
+visionzip.egg-info/PKG-INFO
+visionzip.egg-info/SOURCES.txt
+visionzip.egg-info/dependency_links.txt
+visionzip.egg-info/top_level.txt
