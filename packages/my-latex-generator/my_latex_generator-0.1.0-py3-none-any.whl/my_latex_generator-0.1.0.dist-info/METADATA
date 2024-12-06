@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: my_latex_generator
+Version: 0.1.0
+Summary: A small package to generate LaTeX
+Author: Mikhail Borisov
+Author-email: mishaborisov2013@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## Генератор LaTeX
+
+Генератор LaTeX предназначен для автоматизации создания документов LaTeX. Этот инструмент принимает входные данные в виде текстовых файлов или базы данных и преобразует их в докумены LaTeX. Благодаря этому можно значительно снизить временные затраты на подготовку отчетов, статей и других документов, требующих оформления в LaTeX.
