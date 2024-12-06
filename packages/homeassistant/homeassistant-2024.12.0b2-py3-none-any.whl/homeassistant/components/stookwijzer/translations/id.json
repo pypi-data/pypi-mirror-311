@@ -1,0 +1,17 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "location": "Lokasi"
+                },
+                "description": "Pilih lokasi yang Anda inginkan untuk menerima informasi Stookwijzer."
+            }
+        }
+    },
+    "issues": {
+        "location_migration_failed": {
+            "title": "Migrasi lokasi Anda gagal"
+        }
+    }
+}
