@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: pokercraft-local
+Version: 1.0.0
+Summary: Local analysis tool for Pokercraft
+Author-email: Minsung Kim <spongbob9876@naver.com>
+License: Copyright 2024 McDic
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/McDic/pokercraft-local
+Keywords: poker,pokercraft,ggpoker
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: plotly
+
+# Pokercraft Local
+
+This is a customized visualization tool using downloaded data from Pokercraft in GGNetwork.
+
+[Here is demo.](https://blog.mcdic.net/assets/raw_html/damavaco_performance.html)
+
+## Dependencies
+
+- Python 3.12
+    - plotly, pandas
+
+I develop most stuffs on WSL and did not tested on other operating systems yet.
+
+## How to run
+
+1. Install dependencies with `pip`, optionally on virtual environment.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Download *"Game summaries"* file by pressing green button on your pokercraft tournament section.
+    If there are too many tournament records on your account, GGNetwork will prevent you from bulk downloading, therefore you may have to download separately monthly or weekly records.
+
+    ![img](./images/pokercraft_download.png)
+
+3. Unzip your downloaded data, and put all of them under single folder. The library finds all `GG(blabla).txt` files recursively by default, so it's ok to make multiple folders inside to avoid duplication easier.
+
+4. Run `run.py` with some arguments.
+    If you installed dependencies in your virtual environment, make sure you enabled it before.
+
+    ```bash
+    python run.py -d (YOUR_DATA_FOLDER) -o (OUTPUT_FOLDER) -n (YOUR_GG_NICKNAME)
+    ```
+
+5. Go to your `OUTPUT_FOLDER` and open generated `.html` file.
+    Note that plotly javascripts are included by CDN, so you need working internet connection to properly view it.
+
+## Features
+
+- Net Profit & Rake chart
+- Profitable Tournaments Ratio chart
+    (This is different from ITM; If you made profits by bounty killing without being ITM, then it is also counted as "profitable")
+- Average Buy In Amount chart
+- Relative Prize Return charts / ITM Scatters chart
