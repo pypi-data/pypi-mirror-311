@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+mleslab/__init__.py
+mleslab/program_logic.py
+mleslab.egg-info/PKG-INFO
+mleslab.egg-info/SOURCES.txt
+mleslab.egg-info/dependency_links.txt
+mleslab.egg-info/top_level.txt
+mleslab/programs/program1.txt
+mleslab/programs/program2.txt
+mleslab/programs/program3.1.txt
+mleslab/programs/program3.2.txt
+mleslab/programs/program4.txt
+mleslab/programs/program5.txt
+mleslab/programs/program6.txt
+mleslab/programs/program7.txt

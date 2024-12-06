@@ -1,0 +1,29 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+df = pd.read_csv("C:/Users/Mahesh Kumar/Desktop/Book1.csv")
+print("Data Types:\n", df.dtypes)
+df = df.drop(columns=['AGE'], axis=1)
+for column in df.columns:
+if df[column].dtype == 'object':
+label_encoder = LabelEncoder()
+df[column] = label_encoder.fit_transform(df[column])
+print("Data Types After Encoding:\n", df.dtypes)
+x = df.iloc[:, :-1].values
+y = df.iloc[:, -1].values
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
+scaler = StandardScaler()
+x_train = scaler.fit_transform(x_train)
+x_test = scaler.transform(x_test)
+knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(x_train, y_train)
+y_pred = knn.predict(x_test)
+print("Predicted values:\n", y_pred)
+print("Actual values:\n", y_test)
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred))
+print("Prediction for input [175, 60, 1, 0, 3]:", pred)
