@@ -1,0 +1,19 @@
+,title,doi,name,lang,paralex_version,contributors,Latitude,Longitude,Family_ID,lang_name,Family
+0,Paralatvian,https://doi.org/10.5281/zenodo.14218763,paralatvian,lvs,2.2.0,Matías Guzmán Naranjo,57.0,24.0,indo1319,Standard Latvian,Indo-European
+1,Parahungarian : a dataset of Hungarian nouns,https://doi.org/10.5281/zenodo.14218751,parahungarian,hu,2.2.0,Matías Guzmán Naranjo,,,,,
+2,VeLeRo: a Verbal Lexicon of Romanian,https://doi.org/10.5281/zenodo.14216644,velero_dataset,cat,2.1.0,Borja Herce;Bogdan Pricop,41.453,1.569,indo1319,Catalan,Indo-European
+3,VeLePa: Verbal Lexicon of Pame,https://doi.org/10.5281/zenodo.14206007,velepa,pbs,2.1.1,Borja Herce,21.3762,-99.2898,otom1299,Central Pame,Otomanguean
+4,VeLeCa: a Verbal Lexicon of Catalan,https://doi.org/10.5281/zenodo.14203025,veleca_dataset,cat,2.1.0,Borja Herce;Bogdan Pricop,41.453,1.569,indo1319,Catalan,Indo-European
+5,VeLeSpa: a Verbal Lexicon of Spanish,https://doi.org/10.1007/s10579-024-09776-2,velespa_dataset,spa,2.1.0,Borja Herce,40.4414,-1.11788,indo1319,Spanish,Indo-European
+6,ParaKasem: Kasem noun dataset,https://doi.org/10.5281/zenodo.14193535,parakasem,xsm,2.1.1,Matías Guzmán Naranjo,11.0824,-1.39076,atla1278,Kasem,Atlantic-Congo
+7,Classical Tibetan Verbal Paradigms,https://doi.org/10.5281/zenodo.14170906,Classical Tibetan Verbal Paradigms,xct,*unknown*,"Sims-Williams, Helen;Zemp, Marius",29.24,92.01,sino1245,Classical Tibetan,Sino-Tibetan
+8,European Portuguese Verbal Paradigms in Phonemic Notation,https://doi.org/10.5281/zenodo.14070141,velepor,por,2.0.7,Fernando Perdigão;Sacha Beniamine;Ana R. Luís;Olivier Bonami,39.91,-8.1,indo1319,Portuguese,Indo-European
+9,AraVeLex: Modern Standard Arabic Verbal lexicon,https://doi.org/10.5281/zenodo.14069923,aravelex,arb,2.0.7,Sacha Beniamine,27.9625,43.8525,afro1255,Standard Arabic,Afro-Asiatic
+10,Eesthetic: Estonian Paradigms in Phonemic Notation,https://doi.org/10.5281/zenodo.14069724,eesthetic,ekk,*unknown*,Sacha Beniamine;Matthew Baerman;Mari Aigro;Maria Copot;Jules Bouton,58.55,25.82,ural1272,Estonian,Uralic
+11,Vlexique 2.0,https://doi.org/10.5281/zenodo.14069226,vlexique,fra,2.0.7,Sacha Beniamine;Maximin Coavoux;Olivier Bonami,48.0,2.0,indo1319,French,Indo-European
+12,CIRCSE/PrinParLat: PrinParLat v1.1,https://doi.org/10.5281/zenodo.10658159,PrinParLat,lat,*unknown*,Matteo Pellegrini;Marco Passarotti;Francesco Mambrini;Giovanni Moretti,41.9026,12.4502,indo1319,Latin,Indo-European
+13,LatInfLexi version 2.0.0,https://doi.org/10.5281/zenodo.10522749,LatInfLexi,lat,*unknown*,Matteo Pellegrini;Marco Passarotti;Sacha Beniamine,41.9026,12.4502,indo1319,Latin,Indo-European
+14,LeFFI version 2.0.0,https://doi.org/10.5281/zenodo.10522273,LeFFI,ita,*unknown*,Matteo Pellegrini;Alessandra T. Cignarella,43.0464,12.6489,indo1319,Italian,Indo-European
+15,ParaLiv: Livonian Paradigms in Phonemic Notation,https://doi.org/10.5281/zenodo.11391421,paraliv,liv,2.0.6,Jules Bouton;Tuuli Tuisk;Valts Ernštreits,57.566,22.0262,ural1272,Liv,Uralic
+16,ParaKar: Livvi Karelian Paradigms in Phonemic Notation,https://doi.org/10.5281/zenodo.13736171,parakar,olo,2.0.6,Jules Bouton,61.6565,29.0726,ural1272,Livvi,Uralic
+17,ParaFin: Finnish Paradigms in Phonemic Notation,https://doi.org/10.5281/zenodo.13736132,parafin,fin,2.0.6,Jules Bouton,64.7628,25.5577,ural1272,Finnish,Uralic
