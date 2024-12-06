@@ -1,0 +1,23 @@
+boto3
+inflection
+petname
+pycognito
+pydantic
+sevenbridges-python
+tqdm
+
+[:python_version > "3.10"]
+importlib-metadata
+
+[develop]
+ipython
+jupyter
+jupyterlab
+
+[testing]
+fastapi
+flask
+petname
+pytest
+pytest-cov
+setuptools
