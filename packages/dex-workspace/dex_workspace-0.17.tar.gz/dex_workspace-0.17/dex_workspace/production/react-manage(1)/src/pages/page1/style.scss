@@ -1,0 +1,81 @@
+.my-table-row-custom {
+    background-color: rgba(242, 243, 245);
+    color: #000;
+    font-weight: 500;
+}
+
+.my-tag-custom {
+    font-weight: 500;
+    border-radius: 16px;
+    padding: 2px 18px;
+}
+
+.my-row-title {
+    width: 280px;
+
+    p {
+        margin: 0;
+    }
+
+    span {
+        color: rgba(114, 120, 136);
+    }
+
+}
+
+.go_to_project{
+    height: 35px;
+    aspect-ratio: 1;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    transition: .1s;
+    margin-right: 30%;
+
+    .icon{
+        font-size: 20px;
+        color: #497BFD;
+    }
+}
+
+.go_to_project:hover{
+    background-color: rgb(73, 123, 253, .25);
+}
+
+.ctn-remove-project{
+    width:100%;
+    height: 60px;
+    background-color: #FFF;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+
+    p{
+        margin-right: 20px;
+    }
+
+    .button{
+        height: 30px;
+        padding: 0 10px;
+        border-radius: 5px;
+        color: #B8B8B8;
+        border: 1px solid #B8B8B8;
+        opacity: .5;
+        transition: .5s;
+    }
+
+    .button.active{
+        opacity: 1;
+        border: #57A2FF;
+        color: #fff;
+        background-color: #57A2FF;
+    }
+
+    .button.active:hover{
+        filter: brightness(.9);
+    }
+}
+
+.add_new{}

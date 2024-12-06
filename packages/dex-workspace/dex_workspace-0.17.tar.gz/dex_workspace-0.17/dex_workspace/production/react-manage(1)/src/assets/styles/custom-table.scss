@@ -1,0 +1,51 @@
+.my-table-custom {
+    border: 1px solid rgba(225, 228, 232);
+    border-bottom: none;
+    margin-top: 20px;
+    background-color: rgba(249, 250, 251);
+
+    .my-table-custom-header {
+        padding: 16px 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgba(106, 112, 129);
+        font-weight: 500;
+        position: relative;
+
+        .my-table-custom-header-title {
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
+    .my-table-custom-header::after {
+        content: "";
+        position: absolute;
+        top: 63px;
+        left: 16px;
+        width: calc(100% - 32px);
+        height: 40px;
+        background-color: rgba(240, 241, 244);
+        border-radius: 6px;
+    }
+
+    table {
+        $table-padding: 32px;
+
+        tr {
+
+            td:first-child,
+            th:first-child {
+                padding-left: $table-padding;
+            }
+
+            td:last-child,
+            th:last-child {
+                padding-right: $table-padding;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dex_workspace
+Version: 0.17
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: cloudpickle
+Requires: psutils
+Requires: requests
+Requires: remdex
+Requires: fastapi
+Requires: uvicorn
+
+UNKNOWN
+

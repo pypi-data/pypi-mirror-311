@@ -1,0 +1,55 @@
+#my-custom-popover {
+    background: white;
+    padding: 0;
+}
+
+.my-custom-popover-content {
+    width: 300px;
+
+    .my-custom-popover-content-label {
+        margin: 0;
+        padding: 12px 16px;
+        border-bottom: 1px solid rgba(225, 228, 232);
+        font-weight: 500;
+    }
+
+    ul {
+        max-height: 300px;
+        overflow: auto;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 8px;
+            padding: 12px;
+            cursor: pointer;
+
+            p {
+                margin: 0;
+            }
+
+        }
+
+        li:hover {
+            background-color: rgba(240, 240, 240);
+        }
+
+        .active {
+            background-color: #e2eafe !important;
+            border: 1px solid #3f74f6;
+        }
+
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+    }
+
+    .my-custom-popover-content-footer {
+        padding: 8px 16px;
+    }
+
+}

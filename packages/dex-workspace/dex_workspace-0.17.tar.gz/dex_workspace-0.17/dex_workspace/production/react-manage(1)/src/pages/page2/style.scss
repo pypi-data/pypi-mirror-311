@@ -1,0 +1,116 @@
+.my-table-row-custom {
+    background-color: rgba(242, 243, 245);
+    color: #000;
+    font-weight: 500;
+}
+
+
+.my-drawer-container {
+    $borderColor: rgba(204, 207, 216);
+    $borderRadius: 8px;
+    $paddingSize: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: $paddingSize;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+
+    .my-drawer-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        h1 {
+            margin: 0;
+        }
+
+        .my-drawer-close-icon {
+            border: 1px solid $borderColor;
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            color: $borderColor;
+            padding: 2px;
+        }
+
+    }
+
+    .my-drawer-top {
+        border-radius: $borderRadius;
+        border: 1px solid $borderColor;
+        padding: $paddingSize;
+
+        .my-drawer-top-item+.my-drawer-top-item {
+            margin-top: $paddingSize;
+        }
+
+        .my-drawer-top-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+
+            .my-drawer-top-item-label {
+                width: 150px;
+            }
+        }
+
+    }
+
+    .my-drawer-content {
+        border-radius: $borderRadius;
+        border: 1px solid $borderColor;
+        flex: 1;
+        overflow: auto;
+    }
+
+}
+
+
+.remove-file-from-table{
+    width: 2vw;
+    aspect-ratio: 1;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon{
+        color: rgb(73, 123, 253);
+        aspect-ratio: 1;
+        font-size: 1.25em;
+    }
+}
+
+.remove-file-from-table:hover{
+    background-color: rgb(73, 123, 253, .25);
+}
+
+
+.custom-codemirror {
+    
+    .cm-editor {
+      // Remove dotted outline when focused
+      &.cm-focused {
+        outline: none !important;
+      }
+      
+      // Make the editor background transparent
+      background: transparent;
+      
+      // Remove default border
+      border: none;
+
+      overflow: auto;
+      
+      // Optional: Add your own subtle border if desired
+      // border: 1px solid #eee;
+    }
+  }

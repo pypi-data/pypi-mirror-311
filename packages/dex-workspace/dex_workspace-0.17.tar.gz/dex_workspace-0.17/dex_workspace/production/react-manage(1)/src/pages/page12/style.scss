@@ -1,0 +1,40 @@
+.my-table-row-title {
+    font-weight: 500;
+    font-size: 16px;
+
+    p {
+        margin: 0;
+    }
+
+    .my-row-attr {
+        $color: rgba(114, 120, 136);
+        $size: 5px;
+
+        font-size: 12px;
+        margin-top: 5px;
+        color: $color;
+        display: flex;
+        flex-wrap: wrap;
+        gap: $size;
+        min-width: 120px;
+
+        span {
+            line-height: 12px;
+        }
+
+        span+span {
+            &::before {
+                content: "•";
+                font-size: 12px;
+                padding-right: $size;
+            }
+        }
+
+    }
+
+}
+
+.my-table {
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+}
