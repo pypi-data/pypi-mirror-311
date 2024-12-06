@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pritesh-db-connection
+Version: 0.0.1
+Author: Pritesh patel
+Requires-Dist: pymysql
+
