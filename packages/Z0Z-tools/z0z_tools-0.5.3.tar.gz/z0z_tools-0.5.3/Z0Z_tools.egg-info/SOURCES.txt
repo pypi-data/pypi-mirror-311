@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+Z0Z_tools/Z0Z_dataStructure.py
+Z0Z_tools/Z0Z_io.py
+Z0Z_tools/Z0Z_ioAudio.py
+Z0Z_tools/__init__.py
+Z0Z_tools/pipAnything.py
+Z0Z_tools.egg-info/PKG-INFO
+Z0Z_tools.egg-info/SOURCES.txt
+Z0Z_tools.egg-info/dependency_links.txt
+Z0Z_tools.egg-info/requires.txt
+Z0Z_tools.egg-info/top_level.txt
+unittests/test_Z0Z_dataStructure.py
+unittests/test_ioAudio.py
+unittests/test_pipAnything.py
