@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+wechaty_client/__init__.py
+wechaty_client/base.py
+wechaty_client/bot.py
+wechaty_client/error.py
+wechaty_client/event.py
+wechaty_client/logging_config.py
+wechaty_client/types.py
+wechaty_client.egg-info/PKG-INFO
+wechaty_client.egg-info/SOURCES.txt
+wechaty_client.egg-info/dependency_links.txt
+wechaty_client.egg-info/requires.txt
+wechaty_client.egg-info/top_level.txt
