@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<body>
+  <div class="card" style="width: 100%;">
+    <h5 class="card-header">Appointments</h5>
+    <div class="card-body">
+      <h6 class="card-subtitle mb-2 text-muted">Click IDs to see appointment details</h6>
+      {{ table|safe }}
+    </div>
+  </div>
+</body>
+{% endblock %}
