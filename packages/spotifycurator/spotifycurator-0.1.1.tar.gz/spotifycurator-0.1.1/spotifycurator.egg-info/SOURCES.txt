@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+spotifycurator/__init__.py
+spotifycurator/spotifycurator.py
+spotifycurator.egg-info/PKG-INFO
+spotifycurator.egg-info/SOURCES.txt
+spotifycurator.egg-info/dependency_links.txt
+spotifycurator.egg-info/entry_points.txt
+spotifycurator.egg-info/requires.txt
+spotifycurator.egg-info/top_level.txt

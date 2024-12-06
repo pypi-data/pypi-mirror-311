@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: spotifycurator
+Version: 0.1.1
+Summary: A tool to create public Spotify playlists from liked songs
+Home-page: https://github.com/dysous/spotifycurator
+Author: Noah Mathew
+Author-email: n.t.mathew@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
+# Spotify Curator
+
+Spotify Curator is a Python package that lets you create public playlists from your liked songs on Spotify.
+
+## Installation
+
+```bash
+pip install spotifycurator
+
+
+### Running Program
+
+> python -m spotifycurator.spotifycurator

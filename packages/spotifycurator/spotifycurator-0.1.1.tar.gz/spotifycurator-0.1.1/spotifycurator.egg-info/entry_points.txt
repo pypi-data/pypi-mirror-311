@@ -1,0 +1,2 @@
+[console_scripts]
+spotifycurator = spotifycurator.spotifycurator:main
