@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: sage-evaluate
+Version: 0.1.0
+Summary: personal evaluate tool with offline support
+Author-email: sagewe <sagewe@fastmail.com>
+Requires-Python: >=3.9
+Requires-Dist: evaluate
+Requires-Dist: jiwer
