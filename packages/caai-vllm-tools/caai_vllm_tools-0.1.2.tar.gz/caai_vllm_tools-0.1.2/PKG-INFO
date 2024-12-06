@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: caai_vllm_tools
+Version: 0.1.2
+Summary: A tool that allows you to use the OpenAI API with vLLM generate function
+Home-page: https://github.com/yourusername/my_package
+Author: valogan
+Author-email: vaiden.logan@yahoo.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: vllm>=0.6.3.post1
+
+# vllm-tools
+
+in-progress tool for converting OpenAI API style queries to vLLM llm.generate() queries
