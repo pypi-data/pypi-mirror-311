@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+loc/__main__.py
+loc/cli.py
+loc/read.py
+loc_lines.egg-info/PKG-INFO
+loc_lines.egg-info/SOURCES.txt
+loc_lines.egg-info/dependency_links.txt
+loc_lines.egg-info/top_level.txt
