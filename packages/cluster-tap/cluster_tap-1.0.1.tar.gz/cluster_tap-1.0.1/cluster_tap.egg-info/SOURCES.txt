@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+cluster_tap.egg-info/PKG-INFO
+cluster_tap.egg-info/SOURCES.txt
+cluster_tap.egg-info/dependency_links.txt
+cluster_tap.egg-info/entry_points.txt
+cluster_tap.egg-info/top_level.txt
