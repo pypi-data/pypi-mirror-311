@@ -1,0 +1,6 @@
+
+[cloudwatch]
+boto3
+
+[ecs]
+ecs-logging

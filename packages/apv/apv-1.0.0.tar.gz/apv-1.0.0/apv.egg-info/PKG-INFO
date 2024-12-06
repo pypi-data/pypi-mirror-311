@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: apv
+Version: 1.0.0
+Summary: Advanced Python Logging
+Home-page: https://git.acid.vegas/apv
+Author: acidvegas
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Provides-Extra: cloudwatch
+Requires-Dist: boto3; extra == "cloudwatch"
+Provides-Extra: ecs
+Requires-Dist: ecs-logging; extra == "ecs"
