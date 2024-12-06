@@ -1,0 +1,20 @@
+[project]
+name = "rs-trader"
+version = "0.2.0"
+authors = [{ name = "extreme4all" }]
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pydantic>=2.9.2"]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.0.1",
+    "pyright>=1.1.389",
+    "pytest-cov>=6.0.0",
+    "pytest>=8.3.3",
+    "ruff>=0.7.4",
+]
+[project.urls]
+"Homepage" = "https://github.com/extreme4all/rs_trader"
+"Bug Tracker" = "https://github.com/extreme4all/rs_trader/issues"
