@@ -1,0 +1,5 @@
+setup.py
+my_package_windt.egg-info/PKG-INFO
+my_package_windt.egg-info/SOURCES.txt
+my_package_windt.egg-info/dependency_links.txt
+my_package_windt.egg-info/top_level.txt
