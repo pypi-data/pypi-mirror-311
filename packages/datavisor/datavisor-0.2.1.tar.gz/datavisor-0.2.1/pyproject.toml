@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datavisor"
+version = "0.2.1"
+description = "DataVisor a tool for producing binary aggregated data packs for machine learning trainings"
+authors = [
+    { name = "UYousafzai", email = "umaryousafzai9@gmail.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",  # Update if different
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Pillow",
+    "tqdm"
+]
+
+[project.urls]
+Homepage = "https://github.com/UYousafzai/datavisor"
+Repository = "https://github.com/UYousafzai/datavisor"
