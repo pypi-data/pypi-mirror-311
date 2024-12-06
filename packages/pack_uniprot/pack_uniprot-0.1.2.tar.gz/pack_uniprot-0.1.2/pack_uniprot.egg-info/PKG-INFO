@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pack_uniprot
+Version: 0.1.2
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.9.2
+
+# Mini projet protéomique
+
+## Le Document Uniprot
+
+[Uniprot](https://www.uniprot.org) est une base de données de protéines.
+Chaque entrée représente une protéine spécifique d'un organisme. Une entrée  stocke des informations relatives à une protéine, par exemple son nom commun, son poids moléculaire ou encore sa séquence peptidique. Ces informations peuvent être extraites de la littérature scientifique par des curateurs où produites automatiquement par des pipelines d'annotation bioinformatique.
+Les données relatives à une protéine sont structurées dans les catégories suivantes:
+
+
+### class Uniprot
+
+__init__ est un constructeur qui vous permet de créer un objet de classe. Doit prendre un fichier sous forme de chaîne et renvoyer un objet où les clés sont les désignations codées et leurs valeurs sont les
+valeurs d'une protéine particulière.
+
+Pour chaque protéine nous voulons on stocker l'information des champs suivants:
+* l'Identification 
+* Le premier AC number
+* l'organisme
+* le nom de gène
+* La séquence peptidique
+* la liste de ses identifiants GO (à faire dans un second temps)
+
+### Méthodes
+Nous avons des methodes pour:
+- renvoyer le poids moléculaire
+- créer un fichier fasta
+- filter les protéines en fonction de leur hydrophobicité
+- renvoyer un dictionnaire de termes GO associés à la protéine
+
+## Collection d'objets Uniprot
+
+Elle contient une liste d'objets Uniprot
+
+
+### Méthodes
+Les Méthodes permettent de:
+- créer une Collection à partir d'un chemin de fichier
+- ajouter une protéine à la Collection à partir d'un contenu textuel
+- supprimer une protéine à partir de son id , renvoie une exception si elle n'existe pas
+- trier les protéines de la collection par ordre croissant de séquence protéique
+- renvoie une liste de protéines qui ont hydrophobicité plus grande que celle donnée en paramètre
+- créer une nouvelle collection à partir de 2 collections. Chaque protéine est présente en un seul exemplaire
+- renvoyer un dictionnaire contenant le nombre d'occurences des mots clés "GO" pour chaque membre de la collection
+- permettre de visualiser le logarithme du ratio entre la teneur en acide aminé dans la protéine et la teneur en ce même acide aminé dans la collection 
+
