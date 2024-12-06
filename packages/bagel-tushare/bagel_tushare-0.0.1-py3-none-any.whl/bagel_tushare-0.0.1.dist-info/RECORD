@@ -1,0 +1,12 @@
+bageltushare/__init__.py,sha256=82CIVrpESJ7n71E7T71gV4WXoEQE3BxW3pMo0W9qnKw,138
+bageltushare/database.py,sha256=oA9GM1pQVkZBCIP4Bfqk-6OiUU0VKHobA0tSiwP6Bmo,1741
+bageltushare/example.py,sha256=1SnDHFHfDPnMMQVVyfcBBTCuPaDz4l1WZCLAxsq6RYY,2875
+bageltushare/query.py,sha256=tIn-MLV6mw7lbLiIrFGEQ1kvRw0zOnPbAI7ZdLO9nZQ,2765
+bageltushare/save_and_log.py,sha256=Q3_geR3fZq2goJwrPY5Wgl_6220x-NQMV2FlmGY908c,2230
+bageltushare/tushare_api.py,sha256=uyYqhM1exNG2lk9CIfuFSs37EU6oHQHyPA4vHFQa8k8,745
+bageltushare/tushare_downloader.py,sha256=aSZKv2WDtKHh3jyvcGq4tVvVgf7qPARbSI8laRQThmI,10085
+bagel_tushare-0.0.1.dist-info/LICENSE,sha256=LTB-olOmxA3fXfuDyla1YHXCUpBOgRCBS_BPmb7bgMA,1071
+bagel_tushare-0.0.1.dist-info/METADATA,sha256=rVjOfQqljD9dcYg3yoWVPLRQKUvdsC09fnfTiEGZ6-M,6344
+bagel_tushare-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bagel_tushare-0.0.1.dist-info/top_level.txt,sha256=x1gIRgsrwcyIzosj6A8vYphqNNCgiS5j1WMWgkq215E,13
+bagel_tushare-0.0.1.dist-info/RECORD,,
