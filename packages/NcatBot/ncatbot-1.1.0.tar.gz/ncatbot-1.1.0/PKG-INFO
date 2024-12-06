@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: NcatBot
+Version: 1.1.0
+Summary: 基于NapcatQQ开发的pythonsdk
+Home-page: https://github.com/liyihao1110/NcatBot
+Author: 木子
+Author-email: 2793415370@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: websockets
+Requires-Dist: asyncio
+Requires-Dist: imgkit
+Requires-Dist: mistune
+Requires-Dist: Pillow
+
+# NcatBot
+
+
+基于Napcat，参考qqbotpy项目格式的PythonSDK👻👻
+
+待更新...希望大佬来优化
+
+# 致谢
+
+
+感谢 [NapCatQQ](https://github.com/NapNeko/NapCatQQ)
+
+感谢 [botpy](https://github.com/tencent-connect/botpy)
+
+## Star History
+
+
+[![Star History Chart](https://api.star-history.com/svg?repos=NcatBot/NcatBot&type=Date)](https://star-history.com/#NcatBot/NcatBot&Date)
