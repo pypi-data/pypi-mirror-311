@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vitalsqi_toolkit"  # Ensure this is lowercase and uses underscores
+version = "0.1.2"
+description = "A toolkit for signal quality analysis"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    { name = "Your Name", email = "your_email@example.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["signal quality", "ECG", "PPG", "toolkit"]
+
+[project.urls]
+Documentation = "https://pypi.org/project/vitalSQI-toolkit/"
+Source = "https://github.com/Oucru-Innovations/vital-sqi"
+Tracker = "https://github.com/Oucru-Innovations/vital-sqi/issues"
+
+[tool.setuptools.packages.find]
+where = ["vital_sqi"]
