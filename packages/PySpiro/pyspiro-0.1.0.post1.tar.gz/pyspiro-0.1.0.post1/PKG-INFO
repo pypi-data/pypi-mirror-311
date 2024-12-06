@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PySpiro
+Version: 0.1.0.post1
+Summary: PySpiro
+Author: Roman Martin, Hendrik Pott
+Author-email: roman.martin@hhu.de, hendrik.pott@uni-marburg.de
+Keywords: python,respirology,spirometry
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+Spirometry reference correction
