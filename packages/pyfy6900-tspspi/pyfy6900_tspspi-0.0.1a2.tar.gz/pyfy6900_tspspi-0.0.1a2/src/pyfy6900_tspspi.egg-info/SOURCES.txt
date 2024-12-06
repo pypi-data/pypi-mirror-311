@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/pyfy6900/__init__.py
+src/pyfy6900/fy6900.py
+src/pyfy6900_tspspi.egg-info/PKG-INFO
+src/pyfy6900_tspspi.egg-info/SOURCES.txt
+src/pyfy6900_tspspi.egg-info/dependency_links.txt
+src/pyfy6900_tspspi.egg-info/requires.txt
+src/pyfy6900_tspspi.egg-info/top_level.txt
