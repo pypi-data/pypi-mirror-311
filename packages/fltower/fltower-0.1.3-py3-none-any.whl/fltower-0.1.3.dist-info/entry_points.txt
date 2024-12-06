@@ -1,0 +1,2 @@
+[console_scripts]
+fltower = fltower.main_fltower:main
