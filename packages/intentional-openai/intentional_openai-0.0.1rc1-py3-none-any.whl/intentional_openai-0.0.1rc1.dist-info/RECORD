@@ -1,0 +1,9 @@
+intentional_openai/__about__.py,sha256=enlqedbXosVyY8xS-Nyyqh2KCPcitUXsQcAfVZBV0a8,192
+intentional_openai/__init__.py,sha256=Z3_IPg1xfw91De2BFZneiBoSorx_fX_hfS5_ninh8Aw,354
+intentional_openai/chatcompletion_api.py,sha256=CBwKg9VWnWl_i99-a_s_TaKE8FwSZZwMZSUKbUboM9I,10022
+intentional_openai/realtime_api.py,sha256=jzDGUNtJi4aMHzTOjlicZGGOMXJr9ZclIclNlAzub1g,16625
+intentional_openai/tools.py,sha256=qnH_ogzwHZTIqtgR3AesnB8HVF9fFEYYZ-rq92EWYV8,762
+intentional_openai-0.0.1rc1.dist-info/METADATA,sha256=pI3RUGe-lvO8hKyWFql3giMpzPFas4Wi9XwCq9Z5hj4,2013
+intentional_openai-0.0.1rc1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+intentional_openai-0.0.1rc1.dist-info/licenses/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+intentional_openai-0.0.1rc1.dist-info/RECORD,,
