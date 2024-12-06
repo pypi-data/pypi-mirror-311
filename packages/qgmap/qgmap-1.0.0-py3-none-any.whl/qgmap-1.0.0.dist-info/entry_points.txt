@@ -1,0 +1,2 @@
+[console_scripts]
+qgmap-example = qgmap.example:main

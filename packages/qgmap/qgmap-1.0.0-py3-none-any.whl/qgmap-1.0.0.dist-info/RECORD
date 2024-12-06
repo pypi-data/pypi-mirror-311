@@ -1,0 +1,13 @@
+qgmap/__init__.py,sha256=HtFqQHQSua5vuhBJ86dHM6uVOaM8PtHFm6wfO7bvOss,5308
+qgmap/example.py,sha256=WPG4oOzArtVWoIPwCnircbQzc-Ro7n9mc5L_xZazLmw,3300
+qgmap/geocoder.py,sha256=i3qwYBPd7wWDioTngwAReT267NejSbRtKPpnbIV40qc,1056
+qgmap/presets.py,sha256=owbw1sW-0YF83F3zTTmcvnlhjER9IgBOjFZWtuUzZzU,1501
+qgmap/qgmap_test.py,sha256=Xnm83_QStfFi9pDNHC6F5k3axpJ787gWW3ZBwSAFk1U,94
+qgmap/qt.py,sha256=hCScH05CeKkKu3KONeSUF9eiZAfSeCZNQFolajIxDmE,386
+qgmap/tracer.py,sha256=UlOxgOW5LaN15TIB8OcWW4nVReaH_o639aNno_lGZQw,421
+qgmap-1.0.0.dist-info/LICENSE,sha256=_j7qbFmeI6AMCMX1yyMgwwrcj4aH21_OybeaZixT_2s,35120
+qgmap-1.0.0.dist-info/METADATA,sha256=ixB8q2AV1uuPaN7JY9gw6E-TW3saFjF60S3JAzVmItA,42940
+qgmap-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+qgmap-1.0.0.dist-info/entry_points.txt,sha256=rYKOsaf8sXxoxzKFb-naF7pSzGHYK7dqyWTEhsFG0Os,53
+qgmap-1.0.0.dist-info/top_level.txt,sha256=vwBpRR9-IIo_VED_-Pdv1LSSfBx9Yhb8Id9jbIoYi2g,6
+qgmap-1.0.0.dist-info/RECORD,,
