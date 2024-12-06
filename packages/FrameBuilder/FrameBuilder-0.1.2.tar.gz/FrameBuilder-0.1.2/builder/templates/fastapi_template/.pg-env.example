@@ -1,0 +1,5 @@
+PG_NAME=DGU_LK
+PG_USER=postgres
+PG_PASSWORD=zabit00901
+PG_HOST=pg_database
+PG_PORT=5432
