@@ -1,0 +1,8 @@
+unstructured-ingest
+uvicorn
+click
+opentelemetry-instrumentation-fastapi
+fastapi
+opentelemetry-exporter-otlp-proto-grpc
+click
+requests
