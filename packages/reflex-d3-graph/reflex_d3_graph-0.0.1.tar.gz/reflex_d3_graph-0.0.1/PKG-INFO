@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: reflex-d3-graph
+Version: 0.0.1
+Summary: Reflex custom component to render graph
+Author-email: Léopold Grosjean <leo.grosjean@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/LeoGrosjean/reflex-d3-graph
+Keywords: reflex,reflex-custom-components,graph
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: reflex>=0.6.0
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+# Reflex-D3-Graph
+
+A Custom Component for [Reflex](https://reflex.dev/) that wraps [React-D3-Graph](https://github.com/danielcaldas/react-d3-graph)
+
+## Installation
+
+```bash
+pip install reflex-d3-graph
+```
+
+## Running the Demo
+
+Run the demo app from the [`d3_graph_demo` directory](./d3_graph_demo):
+
+```bash 
+cd d3_graph_demo
+reflex run
+```
