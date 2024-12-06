@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ppg
+Version: 1.1.2
+Summary: PPG: A powerful app generator simplifying development with Python and PyQt/PySide.
+Home-page: https://ppg.neuri.ai
+Author: Luis Alfredo Reyes
+Author-email: lualfredo@neuri.ai
+License: GPL-3.0-only
+Keywords: ppg,python,pyqt,pyside,app generator,redux
+Platform: MacOS
+Platform: Windows
+Platform: Debian
+Platform: Fedora
+Platform: CentOS
+Platform: Arch
+Platform: Raspbian
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: PyInstaller==6.9.0
+Provides-Extra: licensing
+Requires-Dist: rsa>=3.4.2; extra == "licensing"
+Provides-Extra: sentry
+Requires-Dist: sentry-sdk>=0.6.6; extra == "sentry"
+Provides-Extra: upload
+Requires-Dist: boto3; extra == "upload"
+
+PPG: A powerful app generator simplifying development with Python and PyQt/PySide.
+
+Home page: 
