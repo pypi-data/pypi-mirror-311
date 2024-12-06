@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+dvault/__init__.py
+dvault/__main__.py
+dvault/constants.py
+dvault/db_engine.py
+dvault/file_interface.py
+dvault/operations.py
+dvault/utils.py
+dvault/vault_core.py
+dvault.egg-info/PKG-INFO
+dvault.egg-info/SOURCES.txt
+dvault.egg-info/dependency_links.txt
+dvault.egg-info/requires.txt
+dvault.egg-info/top_level.txt
