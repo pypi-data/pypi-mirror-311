@@ -1,0 +1,14 @@
+memoripy/__init__.py,sha256=gNSs4wF_29hzRieSw4C6BEzf1THDljzy2xPYgx_Tnow,337
+memoripy/implemented_models.py,sha256=KldqusT9GXoEUg5JgjU64JgYDMAbPcZznGPNDCcf5Kg,6018
+memoripy/in_memory_storage.py,sha256=qgQnFI4pcTD5p8DkKYbch0MsyDifeMjolNsOaKQDYSA,1584
+memoripy/json_storage.py,sha256=n83pq9UAZBTBTqyQALXG-pkM1h9AieaE0dZgkBxjoVk,2019
+memoripy/main.py,sha256=QbL0yWWkvv4HJdvgaGYiAiUGAbkr9Q8TOgR-ExD9aMY,2256
+memoripy/memory_manager.py,sha256=utyJRv6hkCSqMVRC03BDtZfTeWcXna0QRyWqBYRuc3o,5290
+memoripy/memory_store.py,sha256=SXfZnhzcMImCHio8rfr_tICMI6FWtNhGx6-nhjA6Xrc,11963
+memoripy/model.py,sha256=gqS2YICcdXFK7iN4W6b8bnz8VQ0c55sQA4RZFvp4CZY,775
+memoripy/storage.py,sha256=cJXRdnuZfJ58uRQWZVTCR2WUinhKumHCyVVRfvoB7xQ,292
+memoripy-0.1.2.dist-info/LICENSE,sha256=4BCO5PtMmBFS_U-XPwcNopo4t2rSu9PqesFpVhIIyE4,11341
+memoripy-0.1.2.dist-info/METADATA,sha256=SEFU3i_LvUB1HswyrSrrdYvESF8M1ec6sZ134vrieZU,7597
+memoripy-0.1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+memoripy-0.1.2.dist-info/top_level.txt,sha256=10ABid26X18xBvHDpKMkeZxdRZTgQFlYuhAtviHvhR8,9
+memoripy-0.1.2.dist-info/RECORD,,
