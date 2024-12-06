@@ -1,0 +1,6 @@
+setup.py
+HW_MHS_pr0k4zn1k_tex_generator.egg-info/PKG-INFO
+HW_MHS_pr0k4zn1k_tex_generator.egg-info/SOURCES.txt
+HW_MHS_pr0k4zn1k_tex_generator.egg-info/dependency_links.txt
+HW_MHS_pr0k4zn1k_tex_generator.egg-info/top_level.txt
+tex/__init__.py

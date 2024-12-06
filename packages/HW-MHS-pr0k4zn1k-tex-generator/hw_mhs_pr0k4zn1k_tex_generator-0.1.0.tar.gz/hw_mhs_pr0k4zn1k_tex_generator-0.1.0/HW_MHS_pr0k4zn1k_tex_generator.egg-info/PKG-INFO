@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: HW_MHS_pr0k4zn1k_tex_generator
+Version: 0.1.0
+Summary: Homework. A Python library for generating LaTeX tables and images
+Author: Edgar Oganisian
+Author-email: edgar21082000@yandex.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
