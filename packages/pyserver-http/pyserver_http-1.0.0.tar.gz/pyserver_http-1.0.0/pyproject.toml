@@ -1,0 +1,29 @@
+[project]
+name = "pyserver_http"
+version = "1.0.0"
+description = "simple http server in python"
+authors = [
+    { name = "sctech", email = "gamerselimiko@gmail.com" }
+]
+dependencies = []
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent"
+]
+readme = "README.md"
+urls = { homepage = "https://github.com/sctech-tr/pyserver" }
+
+[project.scripts]
+pyserver = "pyserver_http.__main__:main"
+
+[tool.setuptools]
+packages = ["pyserver_http"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"pyserver_http" = ["data/*.json", "config/*.ini"]
