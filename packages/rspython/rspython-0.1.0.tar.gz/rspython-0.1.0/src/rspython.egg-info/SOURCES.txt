@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+src/rsb_git/__init__.py
+src/rsb_git/_git.py
+src/rsb_git/_version.py
+src/rspython.egg-info/PKG-INFO
+src/rspython.egg-info/SOURCES.txt
+src/rspython.egg-info/dependency_links.txt
+src/rspython.egg-info/top_level.txt

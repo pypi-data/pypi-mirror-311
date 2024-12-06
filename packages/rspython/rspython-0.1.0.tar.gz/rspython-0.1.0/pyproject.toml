@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rspython"
+description = "High level interface for git functionality"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+dependencies = []
+version = "0.1.0"
+
+[tool.setuptools.packages.find]
+where = ["src"]
