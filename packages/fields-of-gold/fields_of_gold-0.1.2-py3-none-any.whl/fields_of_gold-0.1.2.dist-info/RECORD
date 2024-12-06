@@ -1,0 +1,12 @@
+fields_of_gold/__init__.py,sha256=hF_Cq52rj82IbqffizbhZ0cKud3mwn_dqWZuOiiQI4w,90
+fields_of_gold/fields/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fields_of_gold/fields/json.py,sha256=jAFEf57aQBeEl4dIP8NaII6exLrWW9rX88we1f_yB5U,4273
+fields_of_gold/fields/related.py,sha256=QUzKUSeLfLfwp1o0e5SLqZ-HS3WVsr2s8_LJnId71Eg,1535
+fields_of_gold/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fields_of_gold/tests/base.py,sha256=S8WIpabO9DSew-zTph3pc9B0ROu548eTU3Pi3CcrQXU,718
+fields_of_gold/tests/test_json.py,sha256=QoX-uPrM7761CIiQj1hVe74jRvG0pfBJqH2Yv_p42TA,2598
+fields_of_gold-0.1.2.dist-info/LICENCE.txt,sha256=mwz18KrxH69mLfQHxVLrO3TzJIje0iV34unMEprHGYw,1536
+fields_of_gold-0.1.2.dist-info/METADATA,sha256=-3GF_KnUy0U-SM_BhrSFi8ZSuw2Z4aYrNhoKA7oBeWg,3409
+fields_of_gold-0.1.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+fields_of_gold-0.1.2.dist-info/top_level.txt,sha256=IwL1GHY3HEx46mRGYPS3yhK3RQU3YfPjehjksZUCzPs,15
+fields_of_gold-0.1.2.dist-info/RECORD,,
