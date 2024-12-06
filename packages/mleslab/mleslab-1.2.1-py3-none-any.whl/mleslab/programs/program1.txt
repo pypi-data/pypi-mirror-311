@@ -1,0 +1,50 @@
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder, StandardScaler, MinMaxScaler
+from numpy import asarray
+
+d1 = asarray([[1, 2, 3], [4, 5, 6], [7, 8, 9], [0, 1, 2], [4, 5, 6]])
+df = pd.read_csv("ML/bmii.csv")
+mean_values = df.mean(numeric_only=True)
+glucose_sum = df['Glucose'].sum()
+glucose_min = df['Glucose'].min()
+glucose_count = df['Glucose'].count()
+glucose_median = df['Glucose'].median()
+glucose_variance = df['Glucose'].var()
+glucose_std_dev = df['Glucose'].std()
+df_head = df.head()
+df_tail = df.tail()
+df_columns = df.columns
+chemistry_list = df["chemistry"].tolist()
+le = LabelEncoder()
+if 'Gender' in df.columns:
+    df['Gender'] = le.fit_transform(df['Gender'])
+df_duplicated = pd.concat([df] * 2, ignore_index=True)
+df_rem = df_duplicated.drop_duplicates()
+ds = pd.DataFrame({
+    'a1': [63, 45, 'A', 'H', 88],
+    'a2': [98, 'J', 'Z', 'Q', 55],
+    'a3': ['A', 70, 'A', 56, 85],
+    'a4': [62, 74, 'C', 65, 78]
+})
+ds = ds.apply(pd.to_numeric, errors='coerce')
+ds['a2'] = ds['a2'].bfill().ffill()
+ds['a4'] = ds['a4'].fillna(1)
+ds1 = ds.copy()
+if 'a2' in ds1.columns:
+    ds1['a2'].fillna(ds1['a2'].median(), inplace=True)
+ds1 = ds1.dropna(axis=1, how='all')
+scaler1 = StandardScaler()
+scaler2 = MinMaxScaler()
+d1 = asarray([[1, 2, 3], [4, 5, 6], [7, 8, 9], [0, 1, 2], [4, 5, 6]])
+standardized_d1 = scaler1.fit_transform(d1)
+normalized_d1 = scaler2.fit_transform(d1)
+print("Mean values:\n", mean_values)
+print("Glucose statistics: Sum =", glucose_sum, ", Min =", glucose_min,
+      ", Count =", glucose_count, ", Median =", glucose_median,
+      ", Variance =", glucose_variance, ", Std Dev =", glucose_std_dev)
+print("Head of dataframe:\n", df_head)
+print("Tail of dataframe:\n", df_tail)
+print("Columns in dataframe:\n", df_columns)
+print("Chemistry list:\n", chemistry_list)
+print("Standardized array:\n", standardized_d1)
+print("Normalized array:\n", normalized_d1)
