@@ -1,0 +1,17 @@
+[project]
+name = "himpunan_team1"
+version = "0.2.0"
+authors = [
+  { name="Alicia_Calvin_Feli_Michael", email="ajuanita@student.ciputra.ac.id" },
+]
+description = "Package Himpunan dengan operasi-operasinya"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/alicialisal/Diskrit_Himpunan_Klp1.git"

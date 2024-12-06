@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: himpunan_team1
+Version: 0.2.0
+Summary: Package Himpunan dengan operasi-operasinya
+Author-email: Alicia_Calvin_Feli_Michael <ajuanita@student.ciputra.ac.id>
+Project-URL: Homepage, https://github.com/alicialisal/Diskrit_Himpunan_Klp1.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Himpunan
+Oleh: Alicia, Felicia, Michael, Calvin / IMT-23
+Himpunan adalah library Python sederhana untuk operasi pada himpunan.
+
+## Instalasi
+```bash
+pip install himpunan_team1
