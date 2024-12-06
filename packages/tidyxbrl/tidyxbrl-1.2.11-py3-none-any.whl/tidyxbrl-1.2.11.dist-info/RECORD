@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+config/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+config/default_headers.py,sha256=XBF9NLmDZJ3jyH5WRF2GpQdlRyUoHyyhOKhY8ptsZGs,799
+tidyxbrl/__init__.py,sha256=JhsN5GFGAudkQUwX7kHxT3S0zHpa0vz1leYgdo7brMw,272
+tidyxbrl/edgar_cik.py,sha256=_0zNm5dC2cii488IRML97aV9CcFCBN666rc11QnNeME,4594
+tidyxbrl/edgar_frames.py,sha256=cxG6eprttx7iwEXcd6Ilpn0-P-B8ooYezH7x6-pGGLE,3814
+tidyxbrl/edgar_query.py,sha256=kSO9tk4NvIp7SCQ6Zyr4l_XSwcu_2STWq2YD3qdpKGI,5045
+tidyxbrl/xbrl_apikey.py,sha256=k5mWGkYTa9LI6dKvUm-ZrkUv1MuUZXbAJSm4BvSYFW0,3600
+tidyxbrl/xbrl_parse.py,sha256=0CM0UE15AB7ma2VfZZV1wrt4xGsWNyAh1JTxfURp4Ao,5858
+tidyxbrl/xbrl_query.py,sha256=FSL31ltfGT7JlHO6TeZhqNwLw9elzkD9NFj_9uG8ESA,3216
+tidyxbrl-1.2.11.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tidyxbrl-1.2.11.dist-info/METADATA,sha256=Kdxt3SbyTlrcrRigDAKPR64jhgpAeJmH1F0GZKgn7ho,5954
+tidyxbrl-1.2.11.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tidyxbrl-1.2.11.dist-info/top_level.txt,sha256=MYoUFrT-eVCBNR_OylHjVypIZrfzcjdPfmnqBY2IMjg,25
+tidyxbrl-1.2.11.dist-info/RECORD,,
