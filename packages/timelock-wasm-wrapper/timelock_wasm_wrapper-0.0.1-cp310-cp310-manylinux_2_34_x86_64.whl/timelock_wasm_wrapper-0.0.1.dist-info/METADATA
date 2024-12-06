@@ -1,0 +1,45 @@
+Metadata-Version: 2.3
+Name: timelock_wasm_wrapper
+Version: 0.0.1
+Summary: Wasm bidings for the timelock encryption crate
+Home-Page: https://idealabs.network
+Author: Ideal Lab5 <hello@idealabs.network>
+Author-email: Ideal Lab5 <hello@idealabs.network>
+License: Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/ideal-lab5/timelock
+
+# WASM Bindings for Timelock
+
+This crate provides wasm compatibility for the timelock crate. It provides compatibility for both javascript and python (3+).
+
+## Build
+
+### For JavaScript Compatibility
+To compile to wasm, first build the project and them run wasm-pack
+
+``` shell
+cargo build
+wasm-pack build --target web --out-dir pkg
+```
+
+### For Python Compatibility
+
+Python compatible wasm output is generated with [PyO3](https://pyo3.rs/v0.23.2/).
+
+First create a virtual env, then run:
+``` sh
+pip install maturin
+# specify your python version
+export PYO3_CROSS_PYTHON_VERSION="3.10"
+maturin develop
+```
+
+#### Publish
+
+``` sh
+# creat a release build
+maturin build --release
+# publish to testpypi
+
+```
