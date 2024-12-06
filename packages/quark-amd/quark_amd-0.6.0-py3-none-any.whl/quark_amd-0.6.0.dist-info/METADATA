@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: quark-amd
+Version: 0.6.0
+Summary: The deep learning model compression toolkit.
+Author: Advanced Micro Devices, Inc.
+Author-email: help@amd.com
+License: MIT
+Requires-Python: >=3.9.0
+License-File: LICENSE
+Requires-Dist: accelerate
+Requires-Dist: datasets
+Requires-Dist: evaluate>=0.4.0
+Requires-Dist: ninja
+Requires-Dist: numpy
+Requires-Dist: onnx>=1.16.0
+Requires-Dist: onnxruntime<1.20.0,>=1.17.0
+Requires-Dist: onnxruntime-extensions>=0.4.2
+Requires-Dist: onnxsim
+Requires-Dist: protobuf
+Requires-Dist: rich
+Requires-Dist: scipy
+Requires-Dist: sentencepiece
+Requires-Dist: tqdm
+Requires-Dist: transformers>=4.37.2
+Requires-Dist: zstandard
+
