@@ -1,0 +1,10 @@
+engine_config:
+  vllm:
+    best_of: 2
+    gpu_memory_utilization: 0.7
+    seed: 32
+    temperature: 0
+    top_p: 1
+    use_beam_search: true
+local: {}
+remote: {}
