@@ -1,0 +1,10 @@
+-e .[socks]
+pytest>=2.8.0,<9
+pytest-cov
+pytest-httpbin==2.1.0
+httpbin~=0.10.0
+trustme
+wheel
+aiohttp==3.11.7
+twine>=1.5.0
+setuptools==75.6.0
