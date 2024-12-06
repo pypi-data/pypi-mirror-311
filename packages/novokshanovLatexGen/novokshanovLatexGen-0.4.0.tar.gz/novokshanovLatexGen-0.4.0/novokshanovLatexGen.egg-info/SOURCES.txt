@@ -1,0 +1,8 @@
+setup.py
+latex_gen/__init__.py
+latex_gen/example_latex.py
+latex_gen/latex_gen.py
+novokshanovLatexGen.egg-info/PKG-INFO
+novokshanovLatexGen.egg-info/SOURCES.txt
+novokshanovLatexGen.egg-info/dependency_links.txt
+novokshanovLatexGen.egg-info/top_level.txt
