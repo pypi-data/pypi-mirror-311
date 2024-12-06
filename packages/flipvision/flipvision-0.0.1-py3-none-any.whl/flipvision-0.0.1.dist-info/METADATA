@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: flipvision
+Version: 0.0.1
+Summary: Detect tricks done on skateboard
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: bleak==0.22.3
+Provides-Extra: lint
+Requires-Dist: nox==2024.10.9; extra == "lint"
+Requires-Dist: flake8==7.1.1; extra == "lint"
+Requires-Dist: pre-commit==4.0.1; extra == "lint"
+Requires-Dist: black==24.10.0; extra == "lint"
+Requires-Dist: isort==5.13.2; extra == "lint"
+Requires-Dist: codespell==2.3.0; extra == "lint"
+
+# WT9011DCL-data-parsing
+
+## Installation
+
+1. Create python virtual environment e.g. venv:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+2. If you want to just use the package:
+```
+pip install .
+```
+
+For contributors:
+```
+pip install -e ".[lint]"
+pre-commit
+```
+The -e option is for installing in editable mode - meaning changes in the code under development will be immediately visible when using the package.
+
+To run the package just type:
+```
+flipvision
+```
+
+To listen for imu data type:
+```
+flipvision -l
+```
+
+
+## Enter nix devshell
+
+cd into the project directory
+
+```
+nix develop
+```
+
+This will create venv and install dependencies on the first run.
+Exit the shell with `exit` command or ctrl-d
+
+## Bleak
+[Examples](https://github.com/hbldh/bleak/tree/master/examples)

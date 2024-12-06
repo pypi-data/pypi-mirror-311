@@ -1,0 +1,12 @@
+flipvision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flipvision/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+flipvision/check_BLE_device_UUID_characteristics.py,sha256=bKsQy5HsnaP58Qzqkt6NtcuIpHMtErjUzf-EPHd6oD4,3607
+flipvision/cli.py,sha256=-zjwRFhNFeJojR5gr-385Sayf1wlv6Hj1n_8SY1C0GU,3381
+flipvision/main.py,sha256=9FSP3Q1SmxpivSydxljBea6zN635flolH4-Zzzxc234,196
+flipvision/parser.py,sha256=CR2jL9trGWtg7c1KOrX_WG9Aw2838MjUu8awsCDgvbA,5439
+flipvision/sensor.py,sha256=qqFbq-pza0I73DvL-Aue5-nB1sh2yXOSvrjbavNo4X4,4232
+flipvision-0.0.1.dist-info/METADATA,sha256=76Bq9gVWABSeNhdYwIGWZr_NchtVH7XRT4rKzx5p-Y8,1278
+flipvision-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+flipvision-0.0.1.dist-info/entry_points.txt,sha256=TpV606YTfnGl1GvXrr9YaPCPOMwE0biA4VeOa5jXRtU,51
+flipvision-0.0.1.dist-info/top_level.txt,sha256=AIkNMC1gByzD7lw41DIngLnLnV-2wXU87TMZmrzR85w,11
+flipvision-0.0.1.dist-info/RECORD,,
