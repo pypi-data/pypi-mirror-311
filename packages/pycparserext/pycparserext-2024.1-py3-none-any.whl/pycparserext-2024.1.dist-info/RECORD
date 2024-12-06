@@ -1,0 +1,8 @@
+pycparserext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycparserext/ext_c_generator.py,sha256=5XA6cELXKmQVeL4269yhI7tsM4ntNhixSycPd_VfLzU,6373
+pycparserext/ext_c_lexer.py,sha256=UzLt9xBpSIF2rYaTON2abYo4_qoUpJcdHmAb233CPLE,2498
+pycparserext/ext_c_parser.py,sha256=4ZwTJ0332lOnRkaEyHyQczX2iJIDtsnnCu3S9WYsM0A,20671
+pycparserext-2024.1.dist-info/METADATA,sha256=96_aN8xxGUg2tbIDnS1OzY1l1zhPojZ61P8f4Mj4nIE,1569
+pycparserext-2024.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+pycparserext-2024.1.dist-info/licenses/LICENSE,sha256=L9QANYPkxRJNwb0TOFcA8kfZUCz1sH2gPETZbTI44AQ,1151
+pycparserext-2024.1.dist-info/RECORD,,

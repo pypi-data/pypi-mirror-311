@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: pycparserext
+Version: 2024.1
+Summary: Extensions for pycparser
+Project-URL: Homepage, https://github.com/inducer/pycparserext
+Author-email: Andreas Kloeckner <inform@tiker.net>
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Requires-Python: ~=3.8
+Requires-Dist: ply>=3.4
+Requires-Dist: pycparser~=2.21
+Description-Content-Type: text/x-rst
+
+Extended functionality for pycparser
+====================================
+
+.. image:: https://gitlab.tiker.net/inducer/pycparserext/badges/main/pipeline.svg
+    :alt: Gitlab Build Status
+    :target: https://gitlab.tiker.net/inducer/pycparserext/commits/main
+.. image:: https://github.com/inducer/pycparserext/workflows/CI/badge.svg?branch=main&event=push
+    :alt: Github Build Status
+    :target: https://github.com/inducer/pycparserext/actions?query=branch%3Amain+workflow%3ACI+event%3Apush
+.. image:: https://badge.fury.io/py/pycparserext.png
+    :alt: Python Package Index Release Page
+    :target: https://pypi.org/project/pycparserext/
+
+Extended functionality for Eli Bendersky's 
+`pycparser <http://pypi.python.org/pypi/pycparser>`_,
+in particular support for parsing GNU extensions and
+OpenCL.
+
+See also the `github code repository <http://github.com/inducer/pycparserext>`_.
