@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_core.py
+textfromimage/__init__.py
+textfromimage/azure_openai.py
+textfromimage/claude.py
+textfromimage/openai.py
+textfromimage/utils.py
+textfromimage.egg-info/PKG-INFO
+textfromimage.egg-info/SOURCES.txt
+textfromimage.egg-info/dependency_links.txt
+textfromimage.egg-info/requires.txt
+textfromimage.egg-info/top_level.txt
