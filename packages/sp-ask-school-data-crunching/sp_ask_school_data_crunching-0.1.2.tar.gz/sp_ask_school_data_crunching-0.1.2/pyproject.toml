@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "sp-ask-school-data-crunching"
+version = "0.1.2"
+description = "Collection of scripts for data analytics of Ask Data Through LibraryH3lp API - metadata only"
+authors = ["Guinslym <guinslym@gmail.com>"]
+homepage = "https://github.com/scholarsportal/sp_ask_school_data_crunching"
+repository = "https://github.com/scholarsportal/sp_ask_school_data_crunching"
+documentation = "https://github.com/scholarsportal/sp_ask_school_data_crunching#readme"
+license = "MIT"
+readme = "README.md"
+keywords = ["libraryh3lp", "chat", "analytics", "scholars portal", "ask a librarian", "Scholars Portal", "OCUL"]
+packages = [{include = "sp_ask_school_data_crunching"}]
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Unix"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lh3api = "^0.2.0"
+sp-ask-school = "^0.3.9"
+sp-lh3-constant-contact = "^0.1.6"
+sp-ask-report-chats-per-school = "^0.1.4"
+sp-ask-chats-utils = "^0.1.2"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+numpy = "^2.1.3"
+scipy = "^1.14.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+pytest-sugar = "^1.0.0"
+ipython = "^8.29.0"
+ptpython = "^3.0.29"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# Add development tools configuration
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.poetry.scripts]
+shell = "ptpython:main"  # or "IPython:start_ipython"
