@@ -1,0 +1,13 @@
+mpcq-0.3.0.dist-info/METADATA,sha256=ONFwRhAORZBMrcRk8jZuJFqydO6bC5ICgjMxwHs9hyU,6888
+mpcq-0.3.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+mpcq-0.3.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+mpcq-0.3.0.dist-info/licenses/LICENSE.md,sha256=n2oBGRDm_tkC8C1QvuzhJzJ-q2tRN0JKS79z81N9oog,1091
+mpcq/__init__.py,sha256=1_tSMPBny8-y9xxuoCLqQqAYA0krVoKAzXVVQCnffH8,297
+mpcq/_version.py,sha256=gTggO06fb2c9XKEwlQYUSPlUfy82yVlM9pzLMOUqVcY,21
+mpcq/client.py,sha256=eqP-dpFQzlRgcT4adDci6zZW-ghah_-F_lY3rebaMuA,23822
+mpcq/observations.py,sha256=WWfBU1UxrVNWtJ1NQb8B2TipD31qFfhT-8ilLGZrPqA,1055
+mpcq/orbits.py,sha256=mjtYBEdBPdM-sg7wE_ktvy49P5gjh_iLUMmUya77ajo,2924
+mpcq/submissions.py,sha256=Ku-Wuz93tPmEuT9QJ-Naf47GAaoFydS52DAi9r_cbUI,4867
+mpcq/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpcq/tests/test_imports.py,sha256=8C_GHoC0FOPwjSCY9K_-FPs-jYv5YQlaRIS2psUrY3g,105
+mpcq-0.3.0.dist-info/RECORD,,
