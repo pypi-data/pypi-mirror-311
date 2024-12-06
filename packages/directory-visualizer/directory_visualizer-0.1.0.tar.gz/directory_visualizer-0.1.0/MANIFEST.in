@@ -1,0 +1,31 @@
+# MANIFEST.in
+
+# Include the README file for documentation purposes
+include README.md
+
+# Include the LICENSE file
+include LICENSE
+
+# Include the setup.py script
+include setup.py
+
+# Include all Python source files (including __init__.py)
+recursive-include visualizer *.py
+recursive-include tests *.py
+
+# Include any Markdown files (e.g., custom_output.md, directory_structure.md)
+recursive-include visualizer *.md
+
+# If you have additional files that you want to include, you can list them here
+# For example, include a .gitignore file or any other documentation:
+include .gitignore
+
+# Include other specific files you might have in your project directory
+# e.g., static assets, configuration files, etc.
+# include config/settings.ini
+
+# Include all files inside the tests directory, recursively
+recursive-include tests *
+
+# If you want to ensure that all .md files are included, add the following:
+global-include *.md

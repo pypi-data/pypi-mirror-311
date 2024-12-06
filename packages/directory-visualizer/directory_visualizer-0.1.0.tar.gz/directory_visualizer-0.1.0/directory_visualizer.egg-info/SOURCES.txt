@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+directory_visualizer/__init__.py
+directory_visualizer/visualizer.py
+directory_visualizer.egg-info/PKG-INFO
+directory_visualizer.egg-info/SOURCES.txt
+directory_visualizer.egg-info/dependency_links.txt
+directory_visualizer.egg-info/entry_points.txt
+directory_visualizer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_visualizer.py
