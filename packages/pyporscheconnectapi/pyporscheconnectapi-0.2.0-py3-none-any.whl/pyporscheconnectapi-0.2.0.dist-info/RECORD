@@ -1,0 +1,15 @@
+pyporscheconnectapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyporscheconnectapi/account.py,sha256=CWZ0qhhfWvOerL0lsQgvoaQpVTJrwRm0Kr2T2WzVD5s,1874
+pyporscheconnectapi/cli.py,sha256=iAd1BqoM9YWWKZYC4p71jeumBvwOt2FTcsJmO2Ah8Tk,10166
+pyporscheconnectapi/connection.py,sha256=lfqyqM6erq9d1Ohl9tD2GqwutrEGZdp1knt58lBUouw,3121
+pyporscheconnectapi/const.py,sha256=4XtNWSI5n5CbcR0xhkEoGLWljya3VCYGVAFOWI2pYz4,3948
+pyporscheconnectapi/exceptions.py,sha256=VzaX74ammZK-3Q6Dj4EXnsL8360-vdX3pI7jSFiJFHs,1863
+pyporscheconnectapi/oauth2.py,sha256=90TQ6X69kvqHEpL2VB9zSenEfqHV04MSns8INv8Dys4,10366
+pyporscheconnectapi/remote_services.py,sha256=O3a-kbUOGBadPeVNNnll9Lot2h98dnaW7TmjH6jkYQo,9644
+pyporscheconnectapi/vehicle.py,sha256=MzOC2YmmHLXZ0qopA16oLyoJ1e4pFgsWKw8UdcaReGs,13839
+pyporscheconnectapi-0.2.0.dist-info/LICENSE,sha256=3wo4ylCH88NDNuSoNFaeaNCdzpQDloqsIUDQMg5FWec,1071
+pyporscheconnectapi-0.2.0.dist-info/METADATA,sha256=a_-BJPDf7JTHvaKw9BnhupROCW_qvI9LTNDXLGhEfns,4385
+pyporscheconnectapi-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyporscheconnectapi-0.2.0.dist-info/entry_points.txt,sha256=TyK7SoobnS8fJ_Pwmz6mJOkug4eYb9Mq8tU6WhgBaBg,59
+pyporscheconnectapi-0.2.0.dist-info/top_level.txt,sha256=YXSR3DO6I6QQ0lEQOvTts5BFIGsfOw_WtdFlD8BN4Yw,20
+pyporscheconnectapi-0.2.0.dist-info/RECORD,,
