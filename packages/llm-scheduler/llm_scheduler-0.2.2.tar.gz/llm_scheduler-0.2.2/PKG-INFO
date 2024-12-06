@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: llm-scheduler
+Version: 0.2.2
+Summary: AI-powered task scheduler with natural language support
+Author-email: Bhaulik <bhaulikpatel966@gmail.com>
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anthropic>=0.7.0
+Requires-Dist: python-dotenv>=0.19.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: loguru>=0.7.0
+Requires-Dist: apscheduler>=3.10.0
+Requires-Dist: supabase>=2.0.0
+Requires-Dist: psutil>=5.9.0
+Requires-Dist: pytz>=2023.3
+Requires-Dist: twilio>=8.0.0
+Requires-Dist: fastapi>=0.100.0
+Requires-Dist: uvicorn>=0.23.0
+
+# LLM Scheduler
+
+AI-powered task scheduler with natural language support.
+
+## Installation
