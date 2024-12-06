@@ -1,0 +1,9 @@
+[aiida.calculations]
+pythonjob.pythonjob = aiida_pythonjob.calculations.pythonjob:PythonJob
+
+[aiida.data]
+pythonjob.pickled_data = aiida_pythonjob.data.pickled_data:PickledData
+pythonjob.pickled_function = aiida_pythonjob.data.pickled_function:PickledFunction
+
+[aiida.parsers]
+pythonjob.pythonjob = aiida_pythonjob.parsers.pythonjob:PythonJobParser
