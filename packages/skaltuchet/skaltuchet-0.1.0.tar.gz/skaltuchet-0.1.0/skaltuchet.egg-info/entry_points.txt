@@ -1,0 +1,2 @@
+[console_scripts]
+skaltuch = skaltuch.__main__:fake_hack

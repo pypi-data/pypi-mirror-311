@@ -1,0 +1,9 @@
+README.md
+setup.py
+skaltuchet/__init__.py
+skaltuchet/__main__.py
+skaltuchet.egg-info/PKG-INFO
+skaltuchet.egg-info/SOURCES.txt
+skaltuchet.egg-info/dependency_links.txt
+skaltuchet.egg-info/entry_points.txt
+skaltuchet.egg-info/top_level.txt
