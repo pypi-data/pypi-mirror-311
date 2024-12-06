@@ -1,0 +1,9 @@
+lask
+Werkzeug
+itsdangerous
+click
+PyYAML
+jsonschema
+requests
+cryptography
+python-dotenv
