@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/main.py
+src/parser.py
+src/ticktracer.egg-info/PKG-INFO
+src/ticktracer.egg-info/SOURCES.txt
+src/ticktracer.egg-info/dependency_links.txt
+src/ticktracer.egg-info/entry_points.txt
+src/ticktracer.egg-info/requires.txt
+src/ticktracer.egg-info/top_level.txt

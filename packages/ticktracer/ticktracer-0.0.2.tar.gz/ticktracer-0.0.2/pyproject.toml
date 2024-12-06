@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ticktracer"
+version = "0.0.2"
+description = "An all-in-one tool to assess the latency of crypto exchange APIs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+keywords = ["crypto", "exchange", "latency", "tester"]
+authors = [
+    { name = "Daniel Molenaars", email = "daniel.molenaars@alibaba-inc.com" },
+]
+dependencies = [
+    "aiohttp==3.10",
+    "ccxt==4.4.29",
+    "numpy",
+    "prettytable",
+    "pyshark",
+    "sslkeylog",
+    "tqdm",
+]
+
+[project.scripts]
+ticktracer = "main:main"
