@@ -1,0 +1,11 @@
+numpy
+scipy
+
+[dev]
+build
+twine
+auditwheel
+rstcheck
+wheel
+abi3audit
+autopep8

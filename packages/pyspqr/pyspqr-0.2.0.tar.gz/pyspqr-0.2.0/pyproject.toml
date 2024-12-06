@@ -1,0 +1,212 @@
+[project]
+name = "pyspqr"
+version = "0.2.0"
+description = "Python bindings for SuiteSparseQR."
+license = {text = "GPLv3"}
+readme = "README.rst"
+authors = [{name = "Enzo Busseti"}]
+maintainers = [{name = "Enzo Busseti", email = "enzo.busseti@gmail.com"}]
+dependencies = ["numpy", "scipy"]
+
+[project.optional-dependencies]
+dev = ["build", "twine", "auditwheel", "rstcheck", "wheel", "abi3audit", "autopep8"]
+
+[build-system]
+requires = ["setuptools", "numpy>=2.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["pyspqr", "pyspqr.tests"]
+
+[project.urls]
+Repository = "https://github.com/enzbus/pyspqr"
+
+[tool.autopep8]
+# these have been selected by hand, whitespaces and empty lines
+select = ["W291","W292","W293","W391","E231","E225","E303"]
+
+##############
+# CIBUILDWHEEL
+##############
+
+[tool.cibuildwheel]
+skip = [
+  "pp*", # Disable building PyPy wheels on all platforms
+  "*-win32", 
+  # these are backward compatible, both by abi3 and Numpy2 compilation
+  # we don't compile on them because Numpy2 wheels are not available
+  "cp36*",
+  "cp37*",
+  "cp38*",
+  "*musllinux*aarch64*" # no Scipy wheels for this
+]
+test-command = [
+  "echo wheel installed successfully",
+  "python -m pyspqr.tests",
+]
+
+[[tool.cibuildwheel.overrides]]
+select = "*"
+inherit.repair-wheel-command = "append"
+repair-wheel-command = [
+  "pipx run abi3audit --strict --report {wheel}",
+]
+
+#######
+# LINUX
+#######
+
+# we use the newer image for aarch64, for this there are openblas dev libraries
+manylinux-aarch64-image = "manylinux_2_28"
+
+[tool.cibuildwheel.linux]
+archs = [
+  "x86_64",
+  "aarch64",
+]
+
+[[tool.cibuildwheel.overrides]]
+select = "*-manylinux_x86_64"
+inherit.before-all = "append"
+before-all = [
+  # "yum check-update",
+  # "yum search blas", # look at what's available
+  # netlib blas/lapack fallback compiles and tests (on aarch64) but is super slow
+  # "((yum install -y openblas-devel) || (yum install -y blas-devel lapack-devel))",
+  "yum install -y mpfr-devel openblas-devel"]
+
+[[tool.cibuildwheel.overrides]]
+select = "*-manylinux_aarch64"
+inherit.before-all = "append"
+before-all = [
+  # "dnf update",
+  "dnf search blas",
+  "dnf install -y openblas-devel mpfr-devel"]
+
+[[tool.cibuildwheel.overrides]]
+select = "*-musllinux*"
+inherit.before-all = "append"
+before-all = [
+  #"apk update",
+  "apk search -v '*blas*'", # look at what's available
+  "apk add openblas-dev mpfr-dev"]
+
+[[tool.cibuildwheel.overrides]]
+select = "*linux*"
+# These may be needed on different linuxes, without them one would fail to find
+# the .pc files, one other would fail to auditwheel; no newlines for {} syntax
+environment = { PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/lib64/pkgconfig", LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib64"}
+inherit.before-all = "append"
+# following dependency tree has been found manually; can also compile the whole
+# thing but some components take more time and aren't used by SPQR
+before-all = [
+"git clone -b v7.8.3 --depth 1 https://github.com/DrTimothyAldenDavis/SuiteSparse.git",
+"cd SuiteSparse/SuiteSparse_config",
+"make",
+"make install",
+"cd ../AMD",
+"make",
+"make install",
+"cd ../COLAMD",
+"make",
+"make install",
+"cd ../CAMD",
+"make",
+"make install",
+"cd ../CCOLAMD",
+"make",
+"make install",
+"cd ../CHOLMOD",
+"make",
+"make install",
+"cd ../SPQR",
+"make",
+"make install",
+"cd ../..",
+"pkg-config --libs --cflags SPQR",
+"pkg-config --libs --cflags CHOLMOD",
+]
+
+########
+# MACOSX
+########
+
+# There's also extra configurations in the MacOS/OpenMP block in the yaml file
+
+[[tool.cibuildwheel.overrides]]
+select = "*macosx*"
+inherit.before-all = "append"
+before-all = [
+"echo $OpenMP_ROOT",
+"git clone -b v7.8.3 --depth 1 https://github.com/DrTimothyAldenDavis/SuiteSparse.git",
+"cd SuiteSparse/SuiteSparse_config",
+"make",
+"sudo make install", # we need sudo on mac
+"cd ../AMD",
+"make",
+"sudo make install",
+"cd ../COLAMD",
+"make",
+"sudo make install",
+"cd ../CAMD",
+"make",
+"sudo make install",
+"cd ../CCOLAMD",
+"make",
+"sudo make install",
+"cd ../CHOLMOD",
+"make",
+"sudo make install",
+"cd ../SPQR",
+"make",
+"sudo make install",
+"cd ../..",
+"pkg-config --libs --cflags SPQR",
+"pkg-config --libs --cflags CHOLMOD",
+]
+
+#########
+# WINDOWS
+#########
+
+[[tool.cibuildwheel.overrides]]
+select = "*-win_*"
+inherit.before-all = "append"
+environment = { BLAS_ROOT='C:/Users/runneradmin/miniconda3/Library', LAPACK_ROOT='C:/Users/runneradmin/miniconda3/Library', CMAKE_GENERATOR="MinGW Makefiles"}
+# couldn't get that -D option to work via environment variable :(
+before-all = [
+  "conda info --all",
+  'ls -hal C:\Users\runneradmin\miniconda3\Library',
+  'ls -hal C:\Users\runneradmin\miniconda3\Library\lib',
+  "git clone -b v7.8.3 --depth 1 https://github.com/DrTimothyAldenDavis/SuiteSparse.git",
+  "cd SuiteSparse/SuiteSparse_config",
+  'cd build && cmake .. -DCMAKE_GNUtoMS=ON && cmake --build . --config Release -j8 && cd ..',
+  "make install",
+  "cd ../AMD",
+  'cd build && cmake .. -DCMAKE_GNUtoMS=ON && cmake --build . --config Release -j8 && cd ..',
+  "make install",
+  "cd ../COLAMD",
+  'cd build && cmake .. -DCMAKE_GNUtoMS=ON && cmake --build . --config Release -j8 && cd ..',
+  "make install",
+  "cd ../CAMD",
+  'cd build && cmake .. -DCMAKE_GNUtoMS=ON && cmake --build . --config Release -j8 && cd ..',
+  "make install",
+  "cd ../CCOLAMD",
+  'cd build && cmake .. -DCMAKE_GNUtoMS=ON && cmake --build . --config Release -j8 && cd ..',
+  "make install",
+  "cd ../CHOLMOD",
+  'cd build && cmake .. -DCMAKE_GNUtoMS=ON && cmake --build . --config Release -j8 && cd ..',
+  "make install",
+  "cd ../SPQR",
+  'cd build && cmake .. -DCMAKE_GNUtoMS=ON && cmake --build . --config Release -j8 && cd ..',
+  "make install",
+  "cd ../..",
+  # "pkg-config --libs --cflags SPQR",
+  # "pkg-config --libs --cflags CHOLMOD",
+  ]
+
+[tool.cibuildwheel.windows]
+repair-wheel-command = [
+  "pip install delvewheel", # paths below are default by make install SuiteSparse
+  '''delvewheel repair -vv --add-path "C:\Program Files (x86)\AMD\bin;C:\Program Files (x86)\CAMD\bin;C:\Program Files (x86)\CCOLAMD\bin;C:\Program Files (x86)\COLAMD\bin;C:\Program Files (x86)\SuiteSparseConfig\bin;C:\Program Files (x86)\CHOLMOD\bin;C:\Program Files (x86)\SPQR\bin;C:\Users\runneradmin\miniconda3\Library\bin" -w {dest_dir} {wheel}'''
+]
