@@ -1,0 +1,11 @@
+suid_core/__init__.py,sha256=VSp5W5GcJliiZYlp6jdWhRSRrzzVIkZ-xJx-sx-6AT0,181
+suid_core/core.py,sha256=q60DFhHirCrpgJ6vtV04Y6F4cLdmT3-cFkSRWGyac0s,1782
+suid_core/setup.py,sha256=RaAaaDEBZ1PTSR3d6RLmdGZzYuJNNq09VzDNLd7iTzI,273
+suid_core/system.proto,sha256=qYHkiCAsSsSJO48X25KabZudokFE640L0N7kHLB1Wnc,5502
+suid_core/system_pb2.py,sha256=9_i4AIfP2vxvM00VHgMNcLhj0320gbENSork2OFC0ec,9336
+suid_core/system_pb2.pyi,sha256=4eqQoZnxPSnO801vqF_EwwxFMg6FytdFmQ9ISLje_94,12935
+suid_core/system_pb2_grpc.py,sha256=tjSyr76f92daqcaXIZ9u08borD5_hHkIAiXnOY9mefM,17349
+suid_core-1.2.1.dist-info/METADATA,sha256=5YUiCpxB3o4oA2CXESbl84HGw5sj7MfnDoStJela38Q,785
+suid_core-1.2.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+suid_core-1.2.1.dist-info/entry_points.txt,sha256=-Dghq5Lx9tgLDz1-GMo4n8gq8wyNrcWGw_EQ83Vgcao,57
+suid_core-1.2.1.dist-info/RECORD,,
