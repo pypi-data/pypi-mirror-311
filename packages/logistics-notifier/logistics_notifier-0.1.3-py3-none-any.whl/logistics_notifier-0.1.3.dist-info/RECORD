@@ -1,0 +1,12 @@
+logistics_notifier/__init__.py,sha256=4vMpw2LG65pZRMQH1IZu59uMbT253IjbhsycPz_FEO8,42
+logistics_notifier/audit.py,sha256=EEX9OfJJSmPay_anMgHba06SNsrvPH8_s06Dos42NLc,377
+logistics_notifier/notification_handler.py,sha256=zWxqAB1UWHPFkeuGcU1rKjvqsPIOy3u7PnbmScjotdg,251
+logistics_notifier/notification_manager.py,sha256=8RyGH5tz7Jc72gYw0yx9oAe8PmCw42_5by8HAUC4tGM,2639
+logistics_notifier/notifier.py,sha256=8RyGH5tz7Jc72gYw0yx9oAe8PmCw42_5by8HAUC4tGM,2639
+logistics_notifier/payloads.py,sha256=VSsHXaemdakHnQ0-6PjIT0fYR4Im8YhEPkT8TJSqx9Y,698
+logistics_notifier/scheduler.py,sha256=L1lMg6rV6J4z3cNHGgbu7USB5-UTO0ZT_uxkkz-XIZE,868
+logistics_notifier/templates.py,sha256=kAWKZGpEWqkoNUI84I2r5GX7UGe0Hbmb4WBfvoYD6HM,1097
+logistics_notifier-0.1.3.dist-info/METADATA,sha256=IHDCx2YX_jpEeAP9UpfwEf6RYkFv1zsY6CIRVxI4K3w,509
+logistics_notifier-0.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+logistics_notifier-0.1.3.dist-info/top_level.txt,sha256=PPdz85JjGzA_bfQEZpks7IUmaPqfZr35sBeoogphrqw,19
+logistics_notifier-0.1.3.dist-info/RECORD,,
