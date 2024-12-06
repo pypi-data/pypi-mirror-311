@@ -1,0 +1,9 @@
+client_for3party/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+client_for3party/client.py,sha256=zQ6uYEO3DO1Cq0d0pzESUZjIYBm6p_TC3cHiZjHD7oo,1246
+client_for3party/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client_for3party/core/aiohttp_trace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client_for3party/core/aiohttp_trace/tracker.py,sha256=BH0WVWynUQP-Hn_ViKPj3KnIJck1tZzmuEwXEnrRvXc,4572
+client_for3party-0.2.1.dist-info/METADATA,sha256=nI9OArpYWNp0Tdide-hJm5VXB7e2oEnI0nuu1_mAYxo,1011
+client_for3party-0.2.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+client_for3party-0.2.1.dist-info/licenses/LICENSE,sha256=we-X9hG-bx57QJIox-oAvToGbwqI2EA8qsFn6T5-yeU,1063
+client_for3party-0.2.1.dist-info/RECORD,,
