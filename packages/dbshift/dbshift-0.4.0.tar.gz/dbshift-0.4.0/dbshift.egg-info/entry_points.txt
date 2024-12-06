@@ -1,0 +1,2 @@
+[console_scripts]
+dbshift = dbshift.converter:infa_to_dbt

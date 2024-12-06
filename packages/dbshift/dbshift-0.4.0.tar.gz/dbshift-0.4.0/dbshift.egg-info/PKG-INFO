@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dbshift
+Version: 0.4.0
+Summary: A tool for converting Informatica XML mappings to Snowflake SQL and dbt models.
+Author: Your Name
+Author-email: your_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: google-generativeai
+Requires-Dist: tabulate
+Requires-Dist: argparse

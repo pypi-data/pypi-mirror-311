@@ -1,0 +1,9 @@
+README.md
+setup.py
+dbshift.egg-info/PKG-INFO
+dbshift.egg-info/SOURCES.txt
+dbshift.egg-info/dependency_links.txt
+dbshift.egg-info/entry_points.txt
+dbshift.egg-info/requires.txt
+dbshift.egg-info/top_level.txt
+test/test.py
