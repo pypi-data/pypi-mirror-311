@@ -1,0 +1,54 @@
+Metadata-Version: 2.3
+Name: yuhi
+Version: 0.0.1
+Summary: A CLI tool to create project structue based on standard and custom templates
+Project-URL: Homepage, https://github.com/rsb-23/yuhi
+Project-URL: Repository, https://github.com/rsb-23/yuhi
+Project-URL: Issues, https://github.com/rsb-23/yuhi/issues
+Project-URL: Releases, https://github.com/rsb-23/yuhi/releases
+Author-email: Rishabh B <null@example.com>
+Keywords: boilerplate,project,yuhi
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.9
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Yuhi (यूँ ही)
+
+|                |                                                              |
+|----------------|--------------------------------------------------------------|
+| Compatibility  | ![Py-Version]                                                |
+| Quality Checks | [![lint check][precommit-badge]]() [![tests][tests-badge]]() |
+| Package        | ![pypi-v] ![pypi-downloads]                                  |
+| MetaData       | [![license-badge]][license]                                  |                                                                                                                                                                                           
+
+A CLI tool to create project structue based on standard and custom templates.
+> Yuhi /y-oo-n-h-ee/ is a Hindi word meaning "casually" or "at random"
+
+---
+Made with :heart:
+
+[precommit-badge]: https://github.com/rsb-23/yuhi/actions/workflows/pre-commit.yml/badge.svg
+[tests-badge]: https://github.com/rsb-23/yuhi/actions/workflows/test.yml/badge.svg
+[license]: https://github.com/rsb-23/yuhi/blob/main/LICENSE
+[license-badge]: https://img.shields.io/badge/License-MIT-blue.svg
+[pypi-downloads]: https://img.shields.io/pypi/dm/yuhi?label=Downloads
+[pypi-v]: https://img.shields.io/pypi/v/yuhi?label=latest
+[py-version]: https://img.shields.io/pypi/pyversions/yuhi
