@@ -1,0 +1,8 @@
+my_sin_api/__init__.py,sha256=OkHt2hIiy7sjGbG37PytLWy6Zf3UQd2Va69J-pJN1mQ,53
+my_sin_api/_base.py,sha256=HeYKJ_oYrF7NzXz5o2O7-PtAubR-dtiR9gRCyNCnekg,1255
+my_sin_api/_models.py,sha256=lbUSgRm8bcqo8kSC35kG-6THiX9a1aqZ7gz5VbVAPLs,4074
+my_sin_api/sin_api.py,sha256=0BRXqvFvweDtjHDoDLUosh8q-7mXkq9W8XvK_a3VTik,1409
+sinAPI-0.2.6.dist-info/METADATA,sha256=iFDxuUhN7RuY9PgTtP7Qu2lhCEqpZBYs44rNGT3qxzc,1800
+sinAPI-0.2.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+sinAPI-0.2.6.dist-info/top_level.txt,sha256=-BdhHnA6WsEBqHOqrRGYvecnb6yr2WxBrclph7kZsq4,11
+sinAPI-0.2.6.dist-info/RECORD,,
