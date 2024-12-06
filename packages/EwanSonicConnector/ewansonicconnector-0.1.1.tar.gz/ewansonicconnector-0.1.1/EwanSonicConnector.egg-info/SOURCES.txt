@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+EwanSonicConnector.egg-info/PKG-INFO
+EwanSonicConnector.egg-info/SOURCES.txt
+EwanSonicConnector.egg-info/dependency_links.txt
+EwanSonicConnector.egg-info/requires.txt
+EwanSonicConnector.egg-info/top_level.txt
+connector/__init__.py
+connector/connect_to_sonic.py
