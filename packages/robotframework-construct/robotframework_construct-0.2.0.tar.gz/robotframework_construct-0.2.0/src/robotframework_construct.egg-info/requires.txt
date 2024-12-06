@@ -1,0 +1,12 @@
+robotframework>=7.1
+construct==2.10.69
+
+[breakout]
+ruamel_yaml>=0.18.6
+xonsh>=0.18.4
+
+[test]
+cosmic-ray>=8.3.15
+pymongo>=4.9.1
+ruff>=0.7.2
+pytest>=8.3.3
