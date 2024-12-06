@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pychainia
+Version: 0.0.4
+Summary: pychainia is a simple game based off of a popular tower defense game!
+Author: Invizabel
+Project-URL: Homepage, https://github.com/Invizabel/pychainia
+Project-URL: Bug Tracker, https://github.com/Invizabel/pychainia
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame-ce
+
+﻿# pychainia is a simple game based off of a popular tower defense game!
