@@ -1,0 +1,8 @@
+ccsds-0.1.0b19.dist-info/METADATA,sha256=j46zVwCXcptOwSByx3yqGMRPtjA6r57RKq0-J32AQ9c,1523
+ccsds-0.1.0b19.dist-info/WHEEL,sha256=0CcHee4CufHNqskoVqu9XUT7WPeWhoGKAe2CwPZ8qoc,108
+ccsds-0.1.0b19.dist-info/license_files/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ccsds/__init__.py,sha256=UZJysltFbUdzz8jFU79ARJZWgJ1LPiCbsR9Apu_72Ho,103
+ccsds/__init__.pyi,sha256=_yGobhB5Dkjt1OmzFmfepScqsYwu4O4jBgdtwj_ZHys,1069
+ccsds/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccsds/ccsds.cpython-310-x86_64-linux-gnu.so,sha256=PgVdcJpGoJ6RVr9E12_HKI8_ANXaMxYniIarV7Zup5E,97661096
+ccsds-0.1.0b19.dist-info/RECORD,,
