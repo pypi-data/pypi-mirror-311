@@ -1,0 +1,5 @@
+inquirer==3.4.0
+moviepy==2.0.0.dev2
+python-dotenv==1.0.1
+setuptools==63.2.0
+yt_dlp==2024.11.18
