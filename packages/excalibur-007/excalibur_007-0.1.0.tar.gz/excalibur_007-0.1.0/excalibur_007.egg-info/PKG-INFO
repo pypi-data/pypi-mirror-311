@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: excalibur-007
+Version: 0.1.0
+Summary: Its just for the testing purpose
+Home-page: UNKNOWN
+Author: Dipanshu Kumar
+Author-email: dipanshukumar449@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# my_package
+
+A simple Python package that provides utility functions for greeting, addition, and calculating factorials.
+
+## Features
+
+- **Greet Function**: Generate personalized greeting messages.
+- **Add Numbers**: Add two numbers together.
+- **Factorial Calculation**: Compute the factorial of a number using recursion.
+
+---
+
+## Installation
+
+Install the package from PyPI using `pip`:
+
+```bash
+pip install my_package
+
+
