@@ -1,0 +1,17 @@
+[project]
+name = "sage-evaluate"
+version = "0.1.0"
+description = "personal evaluate tool with offline support"
+readme = "README.md"
+authors = [
+    { name = "sagewe", email = "sagewe@fastmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "evaluate",
+    "jiwer",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
