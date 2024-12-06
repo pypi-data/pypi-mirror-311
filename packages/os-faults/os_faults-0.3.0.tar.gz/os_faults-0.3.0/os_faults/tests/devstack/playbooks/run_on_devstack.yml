@@ -1,0 +1,17 @@
+---
+
+- hosts: all
+  tasks:
+    - name: Change the owner of os-faults ssh key
+      file:
+        path: /opt/stack/.ssh/os-faults-key
+        owner: zuul
+        group: zuul
+      become: true
+
+
+- hosts: all
+  roles:
+    - tox
+  vars:
+    - tox_envlist: "devstack"
