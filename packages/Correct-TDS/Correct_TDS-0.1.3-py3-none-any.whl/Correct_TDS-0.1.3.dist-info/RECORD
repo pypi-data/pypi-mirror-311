@@ -1,0 +1,17 @@
+Correct_TDS/__init__.py,sha256=QnKj_jcdXRFWNnRSkWTJ9MZskGDDUrGiXAUQ6s14lqI,127
+Correct_TDS/constants.py,sha256=8ddEeJmtnukzGA-e76qS24IHZ_bl3veDeJKABw1RGCw,743
+Correct_TDS/fitc.py,sha256=cHgcSi5YXssztxAB8MSiugU2TizwslMH8RLMyKL3bLM,46279
+Correct_TDS/fitf.py,sha256=9kwF_nFYSuSswDG8GXDkfFjSE1gKotoqwVW3JonkO2w,37600
+Correct_TDS/interface.py,sha256=6ta44gmy1NK952mpR2XQNY0YN501TiJ91mXj61tfXIE,110908
+Correct_TDS/opt.py,sha256=csCpUwPRbwopcQP5aLJnKzE2r4NlRCKuStm7VE6JX7s,26429
+Correct_TDS_Sami/__init__.py,sha256=yTx40Z1gwRRVx1XUhCWqAusnZrfrdX_pw6ok-HdbFOE,134
+Correct_TDS_Sami/constants.py,sha256=8ddEeJmtnukzGA-e76qS24IHZ_bl3veDeJKABw1RGCw,743
+Correct_TDS_Sami/fitc.py,sha256=cHgcSi5YXssztxAB8MSiugU2TizwslMH8RLMyKL3bLM,46279
+Correct_TDS_Sami/fitf.py,sha256=9kwF_nFYSuSswDG8GXDkfFjSE1gKotoqwVW3JonkO2w,37600
+Correct_TDS_Sami/interface.py,sha256=6ta44gmy1NK952mpR2XQNY0YN501TiJ91mXj61tfXIE,110908
+Correct_TDS_Sami/opt.py,sha256=csCpUwPRbwopcQP5aLJnKzE2r4NlRCKuStm7VE6JX7s,26429
+Correct_TDS-0.1.3.dist-info/METADATA,sha256=BpN2YCP406kA9beD1OMDWkZBOmKYkG3nsOSYvHP6yYo,1041
+Correct_TDS-0.1.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+Correct_TDS-0.1.3.dist-info/entry_points.txt,sha256=6crOCX9-CEcUn2BXf_x_dXkv-lzSAKjbt5cxVEhvXB4,69
+Correct_TDS-0.1.3.dist-info/top_level.txt,sha256=fB8XGkktNMTx3H_TQ_imkQRtwVoRjc9NkBziSmf0T9g,12
+Correct_TDS-0.1.3.dist-info/RECORD,,
