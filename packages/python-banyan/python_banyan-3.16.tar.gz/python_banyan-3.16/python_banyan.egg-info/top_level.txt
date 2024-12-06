@@ -1,0 +1,12 @@
+archive
+build
+dist
+examples
+holding
+html
+images
+notes
+projects
+python_banyan
+site
+venv
