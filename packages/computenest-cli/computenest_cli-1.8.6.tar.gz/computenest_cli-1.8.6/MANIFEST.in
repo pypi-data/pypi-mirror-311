@@ -1,0 +1,4 @@
+include README.md
+recursive-include computenestcli/resources *
+include computenestcli/log.conf
+include computenestcli/process_config.yaml
