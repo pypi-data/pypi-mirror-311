@@ -1,0 +1,14 @@
+numpy
+scipy
+control
+cvxpy
+joblib
+slycot
+matplotlib
+pytest
+pytest-regressions
+sphinx
+sphinx-rtd-theme
+ruff==0.8.0
+pre-commit
+mosek>=9.2.49

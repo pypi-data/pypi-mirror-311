@@ -1,0 +1,14 @@
+name: rtd
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - slycot
+  - numpy
+  - scipy
+  - control
+  - cvxpy
+  - joblib
+  - matplotlib
+  - sphinx
+  - sphinx-rtd-theme
