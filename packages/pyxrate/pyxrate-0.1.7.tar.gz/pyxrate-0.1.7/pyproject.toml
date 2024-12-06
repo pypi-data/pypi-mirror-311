@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyxrate"
+version = "0.1.7"
+description = "A lightweight Python package for retrieving and using foreign exchange rates and convert currencies"
+authors = ["Maksym Zemlianyi <m.zemlianyi@setuniversity.edu.ua>"]
+readme = "README.md"
+packages = [{include = "currency_exchange"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "3.11.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "pypi-public"
+url = "https://upload.pypi.org/legacy/"
