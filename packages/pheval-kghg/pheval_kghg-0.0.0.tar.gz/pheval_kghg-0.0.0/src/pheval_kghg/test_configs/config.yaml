@@ -1,0 +1,10 @@
+tool: kghg
+tool_version: 0.0.0
+variant_analysis: False
+gene_analysis: False
+disease_analysis: True
+tool_specific_configuration_options:
+  environment: local
+  path_to_kghg: /Users/ao33/Desktop/PHEVAL_RUNNER_TESTING/pheval_kghg/src/pheval_kghg/kghg.py
+  path_to_nodes: /Users/ao33/Desktop/monarch-kg/monarch-kg_nodes.tsv
+  path_to_edges: /Users/ao33/Desktop/monarch-kg/monarch-kg_edges.tsv
