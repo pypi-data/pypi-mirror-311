@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pr-db-connection
+Version: 0.0.2
+Author: Pritesh patel
+Requires-Dist: pymysql
+
