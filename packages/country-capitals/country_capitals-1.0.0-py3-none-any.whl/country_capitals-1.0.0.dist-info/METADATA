@@ -1,0 +1,67 @@
+Metadata-Version: 2.3
+Name: country_capitals
+Version: 1.0.0
+Summary: Get the name of a country's capital city.
+Author-email: Kosay Jabre <kosay.jabre@gmail.com>
+License: This is free and unencumbered software released into the public domain.
+        
+        Anyone is free to copy, modify, publish, use, compile, sell, or
+        distribute this software, either in source code form or as a compiled
+        binary, for any purpose, commercial or non-commercial, and by any
+        means.
+        
+        In jurisdictions that recognize copyright laws, the author or authors
+        of this software dedicate any and all copyright interest in the
+        software to the public domain. We make this dedication for the benefit
+        of the public at large and to the detriment of our heirs and
+        successors. We intend this dedication to be an overt act of
+        relinquishment in perpetuity of all present and future rights to this
+        software under copyright law.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+        OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+        ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+        OTHER DEALINGS IN THE SOFTWARE.
+        
+        For more information, please refer to <https://unlicense.org>
+Keywords: ISO 3166,ISO 3166-1,capitals,countries
+Requires-Python: >=3.7
+Requires-Dist: pycountry
+Description-Content-Type: text/markdown
+
+# Country-Capitals
+Get the name of a country's capital city. That's it.
+
+## Installation
+```
+pip install country-capitals
+```
+
+## Usage
+```python
+from country_capitals import get_capital
+
+get_capital("Germany")
+get_capital("Germ", fuzzy=True)
+get_capital("DEU")
+get_capital("DE")
+get_capital("276")
+```
+
+The following identifiers are supported:
+- Country name (common, official, etc.)
+- ISO 3166-1 numeric-3 codes
+- ISO 3166-1 alpha-2 codes
+- ISO 3166-1 alpha-3 codes
+- `pycountry` country objects
+
+Including `fuzzy=True` will try to use use a fuzzy matching algorithm to find the country name.
+
+## Development
+To run the tests:
+```
+python -m unittest
+```
