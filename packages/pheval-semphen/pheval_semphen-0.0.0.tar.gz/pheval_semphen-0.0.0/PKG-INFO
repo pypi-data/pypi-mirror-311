@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pheval_semphen
+Version: 0.0.0
+Summary: Pheval runner for semsimian + phenio db + MONDO (semphen) for disease prioritization via phenotype similarities
+Author: Aaron Odell
+Author-email: aaron@tislab.org
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click
+Requires-Dist: importlib-metadata (>=8.2.0)
+Requires-Dist: pheval (>=0.3.9,<0.4.0)
+Requires-Dist: semsimian (>=0.2.17)
+Description-Content-Type: text/markdown
+
+# pheval_semphen
+
+semsimian + phenio.db for phenopacket disease prioritization<br>
+Example of how to run using pheval<br>
+ - Download http://data.monarchinitiative.org/monarch-kg/latest/phenio.db.gz<br>
+ - Edit config file located in test_configs so that the path_to_phenio references the path to the file we just downloaded
+ - pheval run -i test_configs/ -t path/to/phenopackets/ -r "semphenphevalrunner" -o test_output/
+<br><br>
+
+Example of how to run just using python executable<br>
+ - Download http://data.monarchinitiative.org/monarch-kg/latest/phenio.db.gz<br>
+ - python src/pheval_semphen/semphen.py -i path/to/phenopacket(s) -o path/to/results/directory -p path/to/phenio.db file
+
+# Acknowledgements
+
+This [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) project was developed from the [monarch-project-template](https://github.com/monarch-initiative/monarch-project-template) template and will be kept up-to-date using [cruft](https://cruft.github.io/cruft/).
+
