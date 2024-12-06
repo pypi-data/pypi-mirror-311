@@ -1,0 +1,10 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main.py,sha256=4FYMUGJiNBq74DAsLd6WjSa1HfCwFT8BB3NoN7mRF30,2982
+src/lib/cloning.py,sha256=W0oRC5bSwkp8WHgnYMZsIPyI2SRiT1ztWQ2GtAIGszE,505
+src/lib/commit_analysis.py,sha256=-63CpILVwRg67e2EM_N4bCIyC86G51G4nwuKFtQo91c,2154
+src/lib/primary_language.py,sha256=wnFNmUDcyL5Tv8AXZNoWQJZlj8rw-MJZDJti6zSs7Xs,747
+src/lib/resources/file_extensions.json,sha256=g4pi1u1W7t0L5yONFHOOLFgt47OvUX55l1Brmth2cOg,332
+repo_lifecycles-0.0.1.dist-info/METADATA,sha256=AtDpPNSL5OfBY5f5EBc2i44DOVYSVjW-v1VQqR92zUg,889
+repo_lifecycles-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+repo_lifecycles-0.0.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+repo_lifecycles-0.0.1.dist-info/RECORD,,

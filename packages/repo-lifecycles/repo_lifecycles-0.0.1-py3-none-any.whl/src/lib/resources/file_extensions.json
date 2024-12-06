@@ -1,0 +1,16 @@
+{
+       "py": "Python",
+        "js": "JavaScript",
+        "java": "Java",
+        "cpp": "C++",
+        "c": "C",
+        "h": "C/C++ Header",
+        "html": "HTML",
+        "css": "CSS",
+        "rb": "Ruby",
+        "go": "Go",
+        "rs": "Rust",
+        "php": "PHP",
+        "md": "Markdown",
+        "yml": "YAML"
+    }
