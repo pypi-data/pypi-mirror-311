@@ -1,0 +1,3 @@
+[console_scripts]
+ars=ars.cli:main
+
