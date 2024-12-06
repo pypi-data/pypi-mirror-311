@@ -1,0 +1,13 @@
+COPYING
+MANIFEST.in
+NEWS
+README.md
+pyproject.toml
+sopel_rtfm/__init__.py
+sopel_rtfm/plugin.py
+sopel_rtfm.egg-info/PKG-INFO
+sopel_rtfm.egg-info/SOURCES.txt
+sopel_rtfm.egg-info/dependency_links.txt
+sopel_rtfm.egg-info/entry_points.txt
+sopel_rtfm.egg-info/requires.txt
+sopel_rtfm.egg-info/top_level.txt

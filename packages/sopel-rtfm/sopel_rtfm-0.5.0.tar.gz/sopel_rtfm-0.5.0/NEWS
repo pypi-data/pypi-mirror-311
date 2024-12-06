@@ -1,0 +1,51 @@
+## Changelog
+
+### 0.5.0
+
+Changed:
+* Require Sopel 8.0+ (#4)
+  * Minimum Python version is therefore now 3.8
+* Improve logging of inventory & URL settings at startup (#5)
+
+Meta:
+* Packaging modernized: goodbye `setup.cfg`, hello `pyproject.toml` (#4)
+  * Cleaned up some deprecated usage (`sopel.module`, `datetime.utcnow()`)
+  * Tweaked config wizard prompt punctuation
+
+
+### 0.4.0
+
+Added:
+* `.docs` command alias, for when `.rtfm` feels harsh (#2)
+
+
+### 0.3.0
+
+Added:
+* Proper help output for `.rtfm` command (#1)
+
+Changed:
+* Prioritize "bigger" object types when sorting results
+* Simplify retrieving output URL
+
+
+### 0.2.0
+
+Added:
+* Caching behavior: The configured Sphinx inventory is fetched at startup, and
+  re-fetched automatically every 24 hours
+* Bot admins can force an update with the new `.rtfmupdate` command
+
+
+### 0.1.1
+
+Changed:
+* Empty/missing query now outputs the docs' base URL instead of an error
+
+Fixed:
+* `rtfm_base` was left in `bot.memory` after `shutdown()`
+
+
+### 0.1.0
+
+Initial release.
