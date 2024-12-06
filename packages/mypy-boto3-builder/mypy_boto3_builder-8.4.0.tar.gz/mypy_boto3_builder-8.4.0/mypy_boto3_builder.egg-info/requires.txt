@@ -1,0 +1,14 @@
+jinja2
+mdformat
+packaging
+requests
+ruff
+setuptools
+
+[build]
+setuptools
+
+[check]
+boto3-stubs
+types-aiobotocore
+types-aioboto3
