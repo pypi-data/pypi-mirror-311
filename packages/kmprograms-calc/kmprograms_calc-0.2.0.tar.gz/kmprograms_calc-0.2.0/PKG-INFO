@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kmprograms-calc
+Version: 0.2.0
+Summary: Pierwszy projekt Poetry podczas naszej nauki a to jest jego opis.
+Author: Krzysztof Makowski
+Author-email: kontakt@km-programs.pl
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pytz (>=2024.2,<2025.0)
+Description-Content-Type: text/markdown
+
+# To jest nasz pierwszy projekt Poetry
+## Jak Ci się podoba
+## Dodano sub
