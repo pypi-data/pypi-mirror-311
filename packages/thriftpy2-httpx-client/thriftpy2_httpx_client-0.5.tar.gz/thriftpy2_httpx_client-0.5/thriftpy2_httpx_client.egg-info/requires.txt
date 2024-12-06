@@ -1,0 +1,12 @@
+thriftpy2>=0.4.11
+httpx<0.29,>=0.16
+
+[all]
+pytest
+pytest-asyncio
+urllib3
+
+[test]
+pytest
+pytest-asyncio
+urllib3
