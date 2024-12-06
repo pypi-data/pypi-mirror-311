@@ -1,0 +1,3 @@
+psutil
+colorama
+sphinx-rtd-theme
