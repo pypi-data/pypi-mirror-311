@@ -1,0 +1,11 @@
+wechaty_client/__init__.py,sha256=DyKFMrCX_c7Kn1NkaWgbVDx6nkTLzoTrOE-YgNinogg,168
+wechaty_client/base.py,sha256=ecj6yxO3_yymD5io9gRrp-DVLcnSHM32A7xLuoo5BEo,4031
+wechaty_client/bot.py,sha256=dPszEf-2QQim8kQrk7_wUPYHC5Zp7MR2-P-XsxDqN7U,14994
+wechaty_client/error.py,sha256=jsGb7nWzlp5pBW7qSLsmv2eKW2L_X5QV76ziMNNZjMo,440
+wechaty_client/event.py,sha256=T841jdCYATmIwrDblaFAm3iCdnojqpW_GmAyeEYM33U,18744
+wechaty_client/logging_config.py,sha256=U9qXW0UQ2MGX3MbR3Siz1k6Gc-8hooCMpmbaLwRG-2g,1662
+wechaty_client/types.py,sha256=ceEKUaoeURrfBb18q4VklI7acFv-mZTup7IzaN9NgUY,2658
+wechaty_client-0.1.0.dist-info/METADATA,sha256=tuCh-0Di3w5zsrUmHpM-w6ThBz1lzY-og0AZd-0Hf8Y,597
+wechaty_client-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+wechaty_client-0.1.0.dist-info/top_level.txt,sha256=KnPmr7z4uPOFq4uZKY_STcUacn8d7ttiTGXWVmcbzzo,15
+wechaty_client-0.1.0.dist-info/RECORD,,
