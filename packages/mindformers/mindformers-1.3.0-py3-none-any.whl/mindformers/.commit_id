@@ -1,0 +1,8 @@
+r1.3.0
+commit 9d6118b
+Merge: ae5bac7 e18b0af
+Author: i-robot <huawei_ci_bot@163.com>
+Date:   Fri Oct 25 10:18:41 2024 +0000
+
+    !4550 prefix cache input_ids 不需要 reshape
+    Merge pull request !4550 from 邹文祥/r1.3.0-prefix-cache-reshape
