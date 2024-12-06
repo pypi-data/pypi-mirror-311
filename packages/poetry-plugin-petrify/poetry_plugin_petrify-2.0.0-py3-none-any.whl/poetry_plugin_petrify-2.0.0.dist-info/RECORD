@@ -1,0 +1,7 @@
+poetry_plugin_petrify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_plugin_petrify/app.py,sha256=J726od3AXUbhrQf6xvOkWXiLycrnCjveVIJv5pp3uL0,12544
+poetry_plugin_petrify-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+poetry_plugin_petrify-2.0.0.dist-info/METADATA,sha256=w5RM8DBl0DmaJlny-qabpQlkvidRcLBNP44ogwyD4t0,5435
+poetry_plugin_petrify-2.0.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+poetry_plugin_petrify-2.0.0.dist-info/entry_points.txt,sha256=ab-G3HBwHU9vuDWx1blSoDzdwbWCS_gqtkP6ys0Izdc,88
+poetry_plugin_petrify-2.0.0.dist-info/RECORD,,
