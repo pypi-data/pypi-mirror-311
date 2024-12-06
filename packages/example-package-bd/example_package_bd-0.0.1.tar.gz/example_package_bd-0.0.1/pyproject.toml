@@ -1,0 +1,8 @@
+[project]
+name = "example_package_bd"
+version = "0.0.1"
+authors = []
+description = "An example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = []

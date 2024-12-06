@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: example_package_bd
+Version: 0.0.1
+Summary: An example package
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package.
