@@ -1,0 +1,10 @@
+gpt_context_builder/__init__.py,sha256=y8UClV0UEeS4rs4OY4RAjKHO8KhY29nPkOvYAGD3g0s,116
+gpt_context_builder/cli.py,sha256=mAkozBkAnaulkSKRQdbGNXOQ30qKiOQL3KdE6lSwqqc,772
+gpt_context_builder/server.py,sha256=VCwSk1fYmbdGSuOXq7GUvjk878zvGm0u-UQbg_UKELs,4243
+gpt_context_builder/templates/index.html,sha256=8sSOcgixLfc-3SMWJRGz72tTvWIi9shZKzg4SmopE8A,10059
+gpt_context_builder-0.1.1.dist-info/LICENSE,sha256=i46q1OixSdMkzBimgDzsJuo_iUfr4Ngs2C1SxFfSDs0,1067
+gpt_context_builder-0.1.1.dist-info/METADATA,sha256=NCB0_Ptc0DSnbtVQ9rMDXzROjYD4mMnkppcY574-O9c,2816
+gpt_context_builder-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+gpt_context_builder-0.1.1.dist-info/entry_points.txt,sha256=e74U1lgW6_Xe9LV8KkI2dJuy4ar-Gw6l1r14QUNR7gw,69
+gpt_context_builder-0.1.1.dist-info/top_level.txt,sha256=UFw8lmbzUDfI3EuQROci5jkgRauJEbVvb8rH4WZo4OM,20
+gpt_context_builder-0.1.1.dist-info/RECORD,,
