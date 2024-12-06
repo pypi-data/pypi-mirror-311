@@ -1,0 +1,146 @@
+
+[projects.dotbot]
+repo = "DotBot-firmware" # if the project name is different from the repo name
+build = "BUILD_TARGET=dotbot-v2 BUILD_CONFIG=Debug DOCKER_TARGETS=swarmit_$TARGET_APP make docker"
+list-outputs = "ls -l swarmit/$TARGET_APP/Output/dotbot-v2/Debug/Exe"
+output-dir = "swarmit/$TARGET_APP/Output/dotbot-v2/Debug/Exe"
+
+[projects.pydotbot]
+repo = "PyDotBot"
+# note actually installing from pypi
+setup = """
+python3 -m venv .venv
+source .venv/bin/activate
+pip install pydotbot
+"""
+# note hardcoded parameters log level and serial port
+run = """
+source .venv/bin/activate
+dotbot-controller --log-level debug -p /dev/ttyACM0
+"""
+
+[projects.qrkey]
+# note actually installing from pypi
+setup = """
+python3 -m venv .venv
+source .venv/bin/activate
+pip install qrkey
+"""
+
+[projects.swarmit]
+setup = """
+pip install -e .
+"""
+run = "swarmit"
+
+[projects.happyserial]
+setup = """
+cd src_python
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+cd ..
+"""
+
+[projects.aiot_play_fw]
+build = "BUILD_CONFIG=Debug make docker"
+
+[projects.lakers]
+build = "cargo build"
+run = "cargo run --bin coapserver"
+list-outputs = "ls -l target/debug"
+
+[projects.dotbot-authority]
+setup = """
+# backend
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+# frontend
+cd dotbot_authority/frontend
+npm install
+npm run build
+cd ..
+"""
+run = """
+source .venv/bin/activate
+python3 dotbot_authority/main.py
+"""
+
+[projects.atlas]
+repo = "Atlas"
+setup = "pip install -r requirements.txt"
+run = "python RunSim.py"
+
+[projects.human-swarm]
+repo = "multi-human-swarm-control"
+setup = """
+docker pull genki15/multi-human-swarm-control
+mkdir results
+"""
+# note: parameters $condition and $order are hardcoded
+run = """
+docker run \
+  -it --network="host" \
+  -v $(pwd)/results:/home/docker/multi-human-swarm-control/results \
+  -w /home/docker/multi-human-swarm-control genki15/multi-human-swarm-control \
+  python3 src/web_app/app.py -m indirect -o 1
+"""
+
+[projects.dda]
+setup = "docker pull ghcr.io/coatyio/dda:latest"
+run = "docker run --rm -p 8800:8800 -p 8900:8900 -v $(pwd):/dda ghcr.io/coatyio/dda:latest"
+
+[projects.freebot-gatt]
+repo = "freebot-gatt-control"
+setup = """
+sudo apt install libdbus-1-dev pkg-config
+cd controller && cargo build
+# when running, press ESC to exit
+"""
+run = "cd controller && cargo run"
+
+[_core]
+openswarm-url = "https://github.com/openswarm-eu"
+repositories = [
+    # able to build and run
+    "lakers", # rust | inria
+    "Atlas", # python | inria
+    "dda", # go, docker | siemens
+    "multi-human-swarm-control", # python, cmake, argos, docker | sheffield | runs, but simulation sometimes fail to connect
+    "freebot-gatt-control", # rust | ku leuven | runs the controller
+    "dotbot-authority", # python | inria
+    "PyDotBot", # python | inria
+    "qrkey", # python | inria
+    "swarmit", # c / python (note: lacks a Dockerfile for c) | inria
+
+    # able to build only
+    "DotBot-firmware", # c | build in docker | inria
+    "aiot_play_fw", # c | build in docker | inria
+    "happyserial", # c, python | c verions requires Segger IDE | inria
+
+    # todo: should be ok to build
+    "swarm-energy-replenishment", # python, cmake, argos | sheffield
+    "minimal-length-swarm-networks", # python, cmake, argos | sheffield
+
+    # todo: how to build? / not straightforward to build in the cli
+    "microbit", # requires Segger IDE | c | inria
+    "aiot_gateway", # many moving parts and connections | python | inria
+    "aiot_play_fw_zephyr", # many moving parts and connections | c | inria
+    "alvarado23lighthouse", # requires Segger IDE | python | inria
+
+    "freebot-example", # instructions involve an IDE | ku leuven
+    "ARK-including-design-and-compilation", # instructions inolve manually installing Qt | sheffield
+    "Nadzoru2", # no instructions on README | sheffield
+
+    # # repositories below either do not contain code or are not "buildable" (e.g. jupyter notebooks)
+    # "ICRA2025_BatteryFreeRobot", # software folder is empty | ku leuven
+    # "aiot_play_pcb", # not code (hardware) | inria
+    # "DotBot-hardware", # not code (hardware) | inria
+
+    # "Kasena", # just a jupyter notebook | inria
+
+    # "draft-song-lake-ra", # not code (ietf draft) | inria
+    # "draft-lopez-lake-edhoc-psk", # not code (ietf draft) | inria
+]
+build-dir = "build"
