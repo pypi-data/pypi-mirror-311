@@ -1,0 +1,8 @@
+README.md
+setup.py
+example_package_shahbaz/__init__.py
+example_package_shahbaz/example.py
+example_package_shahbaz.egg-info/PKG-INFO
+example_package_shahbaz.egg-info/SOURCES.txt
+example_package_shahbaz.egg-info/dependency_links.txt
+example_package_shahbaz.egg-info/top_level.txt
