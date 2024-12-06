@@ -1,0 +1,16 @@
+seagliderOG1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seagliderOG1/_version.py,sha256=tnorgHjPeJAYnQW5N4oT9hu4N7o4lU4eLjYVN_0eF2k,45
+seagliderOG1/convertOG1.py,sha256=iAhvclr4837tDZc4iUXBlR_uQ9p4mlkAUu9n2UEc3d0,30063
+seagliderOG1/old-tools.py,sha256=bODfASQ5yEqjyJHSRL33334WphnPE0-zKr2_N4ADBjw,33709
+seagliderOG1/plotters.py,sha256=W7wE3cyGvh3imcaCMgJqmsXnL9OYg9lLDDLHPOiOoQM,14294
+seagliderOG1/readers.py,sha256=zChc7qmxOWJIcTRWwJRI_HB54wg-NHhReoZdc1Yiqkg,5951
+seagliderOG1/seaglider_registry.txt,sha256=u3CPQ095Q-qSqGf-0f95mMF2f-yb8ePxRwbCULq7-3U,901432
+seagliderOG1/tools.py,sha256=B8x-RfLDY9edNP90zdbK0hLPSSMNb7x1nhO5w3JvSWo,28606
+seagliderOG1/utilities.py,sha256=xNtMb0cgHqzb4Fr1NJj-2bUFQ2SLwRuahXS7iNDdEYI,3867
+seagliderOG1/vocabularies.py,sha256=fe2BfZXfhq5H_Ldb-_epWXd3xGPZY5_4NKJIX6oUj8g,5730
+seagliderOG1/writers.py,sha256=yFlpn3KGyUfEaKdtFyIab08hnHzrycourmlB2YDU_xQ,1820
+seagliderOG1-0.0.0.dist-info/LICENSE,sha256=uzv7HDRBb4SlHx_HocMZZOBh-DDl98Mtb6N98TVGPzE,1080
+seagliderOG1-0.0.0.dist-info/METADATA,sha256=d1LUUHzI6OQlsXORd7T_b1b_fB66ld_g2Xatvz5Gcu8,4179
+seagliderOG1-0.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+seagliderOG1-0.0.0.dist-info/top_level.txt,sha256=XoRyFoEw3hKrB0Tj37uAkVcP5tqK9j9AlWVvAsD8dEw,13
+seagliderOG1-0.0.0.dist-info/RECORD,,
