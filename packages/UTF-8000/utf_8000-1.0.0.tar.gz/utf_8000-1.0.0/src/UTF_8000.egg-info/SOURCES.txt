@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/UTF8000/UTF8000Byte.py
+src/UTF8000/UTF8000IncrementalDecoder.py
+src/UTF8000/UTF8000Int.py
+src/UTF8000/__init__.py
+src/UTF_8000.egg-info/PKG-INFO
+src/UTF_8000.egg-info/SOURCES.txt
+src/UTF_8000.egg-info/dependency_links.txt
+src/UTF_8000.egg-info/top_level.txt
