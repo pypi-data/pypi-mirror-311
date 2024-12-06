@@ -1,0 +1,15 @@
+create_server_app/AppConfig.py,sha256=nyG-sWnI0x_EYA5vkZ5bKRnBORGS8YdMGev5C8FWpo4,2509
+create_server_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_server_app/app.py,sha256=GEf8cUctUSAHrL1igXjuTgGsM4ZgrMG9mHQoHyR8kkc,341
+create_server_app/cli.py,sha256=cGDonesNOVNUEzri58w_vInSW2QzgIp3T_YUafkzIfc,371
+create_server_app/create_server.py,sha256=bjSF9IzJhjrsGwO72tzZyqif1Uv73Yo8Fk4RflORAY0,1311
+create_server_app/mongoDb.py,sha256=0Gqnu38iZryjwoW3ZFiddqMhOQ-9btRYug2aHAFR6yg,13069
+create_server_app/objects.py,sha256=faHTeCzi1KjASmnje01B2RD_g3NkUX2EipFf6VRGPus,210
+create_server_app/requirements.py,sha256=CyFzuv-MZzcsAC00UkD9l1c8QvCcu09vPoNCgvWevZU,2744
+create_server_app/test_functions.py,sha256=XcmCg9HQ91104Jm8S09KuTuKnZP1vPzthOS8SuK6jGY,409
+create_server_app-1.0.6.7.dist-info/LICENSE,sha256=UFJSOb_vySz65-bYzmoTIk_2C6kx4ylcAbXqOtefFtM,1100
+create_server_app-1.0.6.7.dist-info/METADATA,sha256=jgeWVrITY9aJtEl8pR_1gM0SLEZ1zesbbH-Fj1WYmrM,1335
+create_server_app-1.0.6.7.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+create_server_app-1.0.6.7.dist-info/entry_points.txt,sha256=O5Vzuk-b4bewo155D9y3y8GwoOIbdTxpsQvgROdZTMU,65
+create_server_app-1.0.6.7.dist-info/top_level.txt,sha256=jCJNd-3R5sknbwuCeuu8dAKKwd2P-8Cd4WPzVPK7IoQ,18
+create_server_app-1.0.6.7.dist-info/RECORD,,
