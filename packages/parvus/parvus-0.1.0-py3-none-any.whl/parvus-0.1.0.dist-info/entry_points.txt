@@ -1,0 +1,2 @@
+[console_scripts]
+parvus = parvus.__main__:main
