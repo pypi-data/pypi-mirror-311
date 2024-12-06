@@ -1,0 +1,5 @@
+valkey_glide-1.2.0rc12.dist-info/METADATA,sha256=98EAETmhkwWj5KB7DHo89l-MGbkVdD1XgATbN7COSDY,4844
+valkey_glide-1.2.0rc12.dist-info/WHEEL,sha256=h7t6YPuU0F3EEtPtuJT_EmSzHNEFs_-TrJ3NsiweTz0,109
+glide/__init__.py,sha256=njklItOnEWB-3CK1cY2PFcfQfrcQwN6zM2ul5y0gyr4,103
+glide/glide.cpython-313-aarch64-linux-gnu.so,sha256=-drGo4XK739spPfE_8YWA25TEU5vC8z2P9Sj2LFu_m8,3957864
+valkey_glide-1.2.0rc12.dist-info/RECORD,,
