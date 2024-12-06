@@ -1,0 +1,12 @@
+uv-0.5.5.dist-info/METADATA,sha256=p25OeQChsfUay2nYfMbdTQNQ7CowLw0TTjvgjm3Olcs,11779
+uv-0.5.5.dist-info/WHEEL,sha256=qj215nzaiw3eyR_soAK1mi5j03yzyHfjzj4oG6ZXAr4,93
+uv-0.5.5.dist-info/licenses/LICENSE-APACHE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+uv-0.5.5.dist-info/licenses/LICENSE-MIT,sha256=F5Z0Cpu8QWyblXwXhrSo0b9WmYXQxd1LwLjVLJZwbiI,1077
+uv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uv/_build_backend.py,sha256=bOmOOyCdsA09jbtafr9QY4a-TqBdUB3cImUdfIh0eoA,3894
+uv/_find_uv.py,sha256=Ex5cWUd99JaRxBcCmA061zYGYVXOxZLNqPy8-FYhnAo,1036
+uv/__init__.py,sha256=xEEKXuJ2hJ-JqvJkss1M_bd9qgBHpNTb1gKI3hVNAik,955
+uv/__main__.py,sha256=KpQzYxynHumchP1HpZVMkrQ2ezhueQah5hKZKNpgrA4,1055
+uv-0.5.5.data/scripts/uv.exe,sha256=g8AvC04DTRUgel4f5tG_SGDFYxqGVZHpQ80HshLFFb0,42973184
+uv-0.5.5.data/scripts/uvx.exe,sha256=2d9MG-y1Un3TmnR9QoqbkCYesZ5nWxuOhRAlkZaADrY,326144
+uv-0.5.5.dist-info/RECORD,,
