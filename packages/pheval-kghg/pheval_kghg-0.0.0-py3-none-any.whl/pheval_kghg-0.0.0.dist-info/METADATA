@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pheval_kghg
+Version: 0.0.0
+Summary: Pheval runner for monarch knowledge graph phenotype-disease nodes and edges + hypergeometric test (kghg) for disease prioritization via pvalue ranking
+Author: Aaron Odell
+Author-email: aaron@tislab.org
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click
+Requires-Dist: importlib-metadata (>=8.2.0)
+Requires-Dist: pheval (>=0.3.9,<0.4.0)
+Description-Content-Type: text/markdown
+
+# pheval_kghg
+
+monarch knowledge graph phenotype<-->disease nodes and edges + hyper geometric tests for phenopacket disease prioritization<br>
+Example of how to run using pheval<br>
+ - Download and upack monarch knowledge graph https://data.monarchinitiative.org/monarch-kg/latest/monarch-kg.tar.gz
+ - Edit config file located in test_configs so that the path_to_nodes and path_to_edges fields reference the path to the monarch kg nodes and edges files respectively
+ - pheval run -i test_configs/ -t path/to/phenopackets/ -r "kghgphevalrunner" -o test_output/
+<br><br>
+
+Example of how to run just using python executable (or pip installed executable)<br>
+ - Download and upack monarch knowledge graph https://data.monarchinitiative.org/monarch-kg/latest/monarch-kg.tar.gz
+ - python src/pheval_kghg/kghg.py -i path/to/phenopacket(s) -o path/to/results/directory -n path/to/monarch-kg_nodes.tsv -e path/to/monarch-kg_edges.tsv
+ - pheval-kghg rank-associations -i path/to/phenopacket(s) -o path/to/results/directory -n path/to/monarch-kg_nodes.tsv -e path/to/monarch-kg_edges.tsv
+
+# Acknowledgements
+
+This [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) project was developed from the [monarch-project-template](https://github.com/monarch-initiative/monarch-project-template) template and will be kept up-to-date using [cruft](https://cruft.github.io/cruft/).
+

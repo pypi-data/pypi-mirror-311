@@ -1,0 +1,6 @@
+[console_scripts]
+pheval-kghg=pheval_kghg.kghg:main
+
+[pheval.plugins]
+customrunner=pheval_kghg.runner:KgHgPhevalRunner
+
