@@ -1,0 +1,11 @@
+README.md
+setup.py
+ddata/__init__.py
+ddata/date.py
+ddata/loggor.py
+ddata.egg-info/PKG-INFO
+ddata.egg-info/SOURCES.txt
+ddata.egg-info/dependency_links.txt
+ddata.egg-info/entry_points.txt
+ddata.egg-info/requires.txt
+ddata.egg-info/top_level.txt
