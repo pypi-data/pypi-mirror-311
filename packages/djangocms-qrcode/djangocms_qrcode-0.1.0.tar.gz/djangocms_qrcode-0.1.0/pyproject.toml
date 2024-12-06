@@ -1,0 +1,49 @@
+[tool.black]
+line-length = 120
+exclude = "migrations*"
+
+[tool.flake8]
+exclude = "screens/tests,screens/migrations"
+max-line-length = 120
+
+[tool.isort]
+combine_as_imports = true
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+include_trailing_comma = true
+known_first_party = "screens"
+line_length = 120
+multi_line_output = 3
+profile = "black"
+skip_glob = "*migrations*"
+use_parentheses = true
+
+[tool.djlint]
+profile = "django"
+indent = 4
+
+[tool.poetry]
+name = "djangocms-qrcode"
+version = "0.1.0"
+description = "Django CMS content plugin that allows to put QR codes in the pages"
+authors = ["Jakub Dorňák <jakub.dornak@qbsoftware.cz>"]
+license = "BSD"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+django-cms = ">=3"
+django-colorfield = "*"
+django-filer = "*"
+pillow = "*"
+qrcode = ">=7.3"
+qrcode-styled = ">=0.2"
+segno = "*"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
