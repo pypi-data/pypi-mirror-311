@@ -1,0 +1,7 @@
+click
+pyperclip
+setuptools
+
+[test]
+pytest
+pytest-cov
