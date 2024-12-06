@@ -1,0 +1,13 @@
+lesya/__init__.py,sha256=3y0FfeVwUx8tdy9tiRJx_YnJ2pQXQzBBym-X2lKZ7ZU,122
+lesya/language/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lesya/language/case_helpers.py,sha256=hmQoMqZ_BKvnWFd6nYir_fYBjOFBJSGZtolgVW9uKek,4649
+lesya/language/name_case.py,sha256=19BIPVNu_5J4v9lnB8L-Y9_QeYhoQYsea1SgTJHLYps,17926
+lesya/language/name_constants.py,sha256=Hw6iNcJdX6u5qebHC0qJxixKNC9BgykRCYCLmNQijGU,13887
+lesya/language/nc_core.py,sha256=fB101ZwrFsxUdpAGawKteha3dN2U6b8nkurm2OzrOq0,13003
+lesya/language/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lesya/language/data/family-names.pkl,sha256=xPIA5bX8nulJMdm9Mo3Pg1TJQNIkW8j-N0uJW0s_OxM,1830394
+lesya-0.0.7.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+lesya-0.0.7.dist-info/METADATA,sha256=YQefp_albvj3wX3GPvtZAqwI7tzcF64ejBSAk6bvJ3M,4990
+lesya-0.0.7.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+lesya-0.0.7.dist-info/top_level.txt,sha256=G6dTztx6aA4OObUA0lP5EBa39WTk7XJzGvfMMV9F4IE,6
+lesya-0.0.7.dist-info/RECORD,,
