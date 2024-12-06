@@ -1,0 +1,8 @@
+module CommonQml.Misc
+Svg 0.1 Svg.qml
+RotatingLoadingScreen 0.1 RotatingLoadingScreen.qml
+FileFolderSelector 0.1 FileFolderSelector.qml
+DoubleSpinBox 0.1 DoubleSpinBox.qml
+SliderSpinBox 0.1 SliderSpinBox.qml
+SliderSpinBoxFading 0.1 SliderSpinBoxFading.qml
+SliderSpinBoxHighlightedBackground 0.1 SliderSpinBoxHighlightedBackground.qml
