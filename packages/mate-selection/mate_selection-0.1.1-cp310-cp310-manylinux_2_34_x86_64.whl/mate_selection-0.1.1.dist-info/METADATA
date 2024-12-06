@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: mate_selection
+Version: 0.1.1
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT No Attribution License (MIT-0)
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
+License-File: LICENSE.txt
+Summary: A collection of mate selection methods for evolutionary algorithms
+Keywords: algorithms,random,sampling
+Author: David McDougall <dam1784@rit.edu>
+Author-email: David McDougall <dam1784@rit.edu>
+License: MIT-0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/ctrl-z-9000-times/mate_selection.git
+
+# Mate Selection
+
+A collection of mate selection methods for evolutionary algorithms
+
+Mate selection algorithms randomly select pairs of individuals from a
+population. The sampling probability of each individuals is a function of its
+reproductive fitness or "score".
+
+* [**pypi.org**](https://pypi.org/project/mate_selection/)
+* [**crates.io**](https://crates.io/crates/mate_selection)
+* [**docs.rs**](https://docs.rs/mate_selection)
+
