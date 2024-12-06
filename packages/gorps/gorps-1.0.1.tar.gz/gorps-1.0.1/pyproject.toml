@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools >= 40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gorps"
+dynamic = ["version"]
+license = {file = "LICENSE"}
+description = "Recipy converter"
+readme = "README.md"
+authors = [
+    {name = "Gerhard Bräunlich", email = "g.braeunlich@disroot.org"},
+]
+keywords = ["cooking"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+requires-python = ">= 3.10"
+dependencies = [
+    "PyYAML",
+]
+
+[project.optional-dependencies]
+openrecipes = ["pillow"]
+dev = ["types-PyYAML", "types-pillow"]
+
+[project.urls]
+Repository = "https://gitlab.com/g-braeunlich/gorps"
+
+[tool.setuptools]
+packages = [
+    "gorps",
+    "gorps.content_types",
+    "gorps.exporters",
+    "gorps.exporters.templating",
+    "gorps.importers",
+    "gorps.importers.deserialize",
+]
+dynamic = {version = {attr = "gorps.__version__"}}
+
+[project.scripts]
+gorps = "gorps.__main__:main"
+
+
+[tool.mypy]
+strict = true
+
+[tool.ruff]
+target-version = "py310"
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+  "ANN", # flake8-annotations (mypy's job)
+  "COM812", # missing-trailing-comma (conflicts with formatter)
+  "CPY", # flake8-copyright
+  "D102", # undocumented-public-method
+  "D103", # undocumented-public-function
+  "D105", # undocumented-magic-method
+  "D107", # undocumented-public-init
+  "D401", # non-imperative-mood
+  "DTZ", # flake8-datetimez
+  "E501", # line-too-long
+  "EM101", # raw-string-in-exception
+  "FIX", # flake8-fixme (flake8-todos is enough)
+  "INP001", # namespace-packages
+  "ISC001", # single-line-implicit-string-concatenation (conflicts with formatter)
+  # "PLR0913", # too-many-arguments
+  "PT009", # pytest-unittest-assertion
+  "PT027", # pytest-unittest-raises-assertion
+  "PTH", # flake8-use-pathlib
+  "S314", # suspicious-xml-element-tree-usage
+  "S603", # subprocess-without-shell-equals-true
+  "TRY003", # raise-vanilla-args
+]

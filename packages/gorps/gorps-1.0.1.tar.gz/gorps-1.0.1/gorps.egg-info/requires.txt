@@ -1,0 +1,8 @@
+PyYAML
+
+[dev]
+types-PyYAML
+types-pillow
+
+[openrecipes]
+pillow
