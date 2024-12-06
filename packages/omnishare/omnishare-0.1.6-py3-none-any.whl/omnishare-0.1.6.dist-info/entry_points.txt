@@ -1,0 +1,3 @@
+[console_scripts]
+omnishare=omnishare.__main__:app
+
