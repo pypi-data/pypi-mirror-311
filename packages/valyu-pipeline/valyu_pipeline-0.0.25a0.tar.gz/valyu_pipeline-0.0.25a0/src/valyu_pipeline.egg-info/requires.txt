@@ -1,0 +1,6 @@
+requests
+PyMuPDF
+tqdm
+Pillow
+IPython
+pydantic
