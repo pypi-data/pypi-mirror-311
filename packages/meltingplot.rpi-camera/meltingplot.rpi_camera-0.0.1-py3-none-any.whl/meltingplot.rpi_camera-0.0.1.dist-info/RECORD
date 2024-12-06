@@ -1,0 +1,14 @@
+meltingplot/__init__.py,sha256=l1LMHWb-t2Q9o2S7eo5WI0b5Ff2l4fCSNPyaH__hCdM,42
+meltingplot/rpi_camera/__init__.py,sha256=c-2V88mwlrMxXoxAi9K81FVcqAwfpFXYAk2EmMQcfA8,127
+meltingplot/rpi_camera/__main__.py,sha256=LySc5jnmlL8jWoofh8chsRVz1LRSbLg_AOI4LUR2lWc,421
+meltingplot/rpi_camera/_version.py,sha256=bknjfULbx8EnrIbV8Re15tu022fzrbhN8vFrCJbMXk0,497
+meltingplot/rpi_camera/server.py,sha256=6Aehfbpt5cfaLADATLb1aqtUCkgs2xiyYiFEo7ei8GQ,11325
+meltingplot/rpi_camera/cli/__init__.py,sha256=jijW03X_SpNS4Vs_BPwNGtNvFYOyiBD1jYA_dZl0RLQ,57
+meltingplot/rpi_camera/cli/install.py,sha256=Tv6t7EBc8Prjs1IKx4bxRRV94lGRzt4YIKPfv9-wCv0,1821
+meltingplot.rpi_camera-0.0.1.data/data/rpi-camera.service,sha256=zUDawjLo-gPUzFaR-i7ngNRvX30cshsyQcEmMEUotEE,321
+meltingplot.rpi_camera-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+meltingplot.rpi_camera-0.0.1.dist-info/METADATA,sha256=A-TFHVaLnBmMYZ8J0eebM8ZEgwrMYvcUO0ByvOPHoCw,15216
+meltingplot.rpi_camera-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+meltingplot.rpi_camera-0.0.1.dist-info/entry_points.txt,sha256=9_VeMTkZSGrFycMJFc0ZOOX3b8HfYCjdXNRQU-MTVTM,68
+meltingplot.rpi_camera-0.0.1.dist-info/top_level.txt,sha256=Flugb-9U0lxl5i6Lsq6PjWBeX7GpQRqcCN6ZRvW21yw,12
+meltingplot.rpi_camera-0.0.1.dist-info/RECORD,,
