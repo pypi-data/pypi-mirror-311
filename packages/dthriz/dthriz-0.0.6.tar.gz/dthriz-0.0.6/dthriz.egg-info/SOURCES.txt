@@ -1,0 +1,7 @@
+LICENCE.txt
+README.md
+setup.py
+dthriz.egg-info/PKG-INFO
+dthriz.egg-info/SOURCES.txt
+dthriz.egg-info/dependency_links.txt
+dthriz.egg-info/top_level.txt
