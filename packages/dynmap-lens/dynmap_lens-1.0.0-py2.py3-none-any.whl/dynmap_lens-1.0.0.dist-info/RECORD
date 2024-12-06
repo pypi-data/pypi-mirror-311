@@ -1,0 +1,11 @@
+dynmap_lens/__init__.py,sha256=fNGhsx0m5s9iq4yMvH6J1tI0vzUKWd62lIQNSnKTGCE,22
+dynmap_lens/dynmap.py,sha256=hlqh_ARFrKt31J3Owjt6JOqXjyzy38M3taTHlMScue8,4591
+dynmap_lens/projection.py,sha256=-RclVad7iNX4OWRoAGpUnFFH7wDVEBynlzCNJ0Ry5L0,2168
+dynmap_lens/simple_downloader.py,sha256=FOzF1iHUL41WNqtiIhJcf-XU7KH4LNCMQN0Sj1pikEM,728
+dynmap_lens/time_machine.py,sha256=Whv3NRy7eZhif_bdTcBIG850bmwx6VuYpOQ2S1ifwo8,2862
+dynmap_lens-1.0.0.data/scripts/dynmap-lens.py,sha256=xRaqL7yaRTdJknK9dPyjqeBX_gNuOZA1PK_eXoAReEg,4468
+dynmap_lens-1.0.0.dist-info/LICENSE,sha256=UECdUWsmouyjpFKNHprQ1DpupzBzy79obiOn1lnPhiI,1112
+dynmap_lens-1.0.0.dist-info/METADATA,sha256=f9udpLhQGaVUqVTcf4WQEwweJS_qcoOdGF1oYWNA1g4,826
+dynmap_lens-1.0.0.dist-info/WHEEL,sha256=pxeNX5JdtCe58PUSYP9upmc7jdRPgvT0Gm9kb1SHlVw,109
+dynmap_lens-1.0.0.dist-info/top_level.txt,sha256=qASHOxVXfwD8vh96RKIaoqsAW7YYxTD5hAsQ5zeYZ88,12
+dynmap_lens-1.0.0.dist-info/RECORD,,
