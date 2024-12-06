@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: NetHyTedk-STT
+Version: 0.1
+Summary: This is a speech-to-text package created by Dipu Sardar
+Author: DIPU SARDAR
+Author-email: sardardipu397@gmail.com
+Requires-Python: >=3.6
+Requires-Dist: selenium
+Requires-Dist: webdriver_manager
