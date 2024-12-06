@@ -1,0 +1,10 @@
+README.md,sha256=_fB9ExYRKNHN5r5R-YdKuhaUXXhK689NGlAyDkU7hUw,3642
+modos_schema/_version.py,sha256=9_PpJA80c3rcLE52V6csAU7dPSLuplcFsvYRebrvqDc,186
+modos_schema/datamodel/__init__.py,sha256=M-exiH83AqrjoKaa42SyjAzyvvahgnrImoPDBEQYM3k,28
+modos_schema/datamodel/modos_schema.py,sha256=OAcCqFdONbaa784ujZnMvlA-8lfJRdv_rsyeohyQVlo,26762
+modos_schema/schema/modos_schema.yaml,sha256=2AfyrauIvmQUSel6ERLQVg16NxUzTJ83cmbNhP-PeYQ,9291
+modos_schema-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+modos_schema-0.3.0.dist-info/METADATA,sha256=pGbAg__qacouBZmJbMRylwMNNgJQ280ezYTVxwnDpFY,4312
+modos_schema-0.3.0.dist-info/NOTICE,sha256=U1GtBkSN-LCB_YNWNxmDiFrN7LyPeLYzkWaNCoz1hhw,194
+modos_schema-0.3.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+modos_schema-0.3.0.dist-info/RECORD,,
