@@ -1,0 +1,54 @@
+# Ascend NPU Utils
+
+A utility library for interacting with Ascend NPUs using the `npu-smi` tool.
+
+## Purpose
+
+`ascend-npu-utils` is designed to provide an easy-to-use interface for accessing and manipulating information from Ascend Neural Processing Units (NPUs). By parsing the output of the `npu-smi info` command, this library allows developers to directly retrieve useful metrics and statistics about NPU devices and their performance in Python applications.
+
+## Features
+
+- **Retrieve NPU Device Information**: Get details about each available NPU, including health status, power consumption, temperature, and memory usage.
+  
+- **Query Power Dissipation**: Access real-time power consumption data for specific NPUs to monitor energy usage.
+
+- **List Running Processes**: Identify processes that are currently utilizing the NPU, helping to manage workloads effectively.
+
+- **Memory Usage Statistics**: Obtain total and used memory information for specified NPU devices, aiding in resource management.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install ascend-npu-utils
+Usage
+Here’s a simple example of how to use the library:
+
+python
+
+from ascend_npu_utils import AscendNPUUtils
+
+# Create an instance of the utility class
+npu_utils = AscendNPUUtils()
+
+# Retrieve NPU information
+npu_info = npu_utils.npu_smi()
+print("NPU Info:", npu_info)
+
+# Query power dissipation for the first NPU
+power_dissipation = npu_utils.npu_smi_query_power(npu_id=0)
+print("Power Dissipation:", power_dissipation)
+
+# List all processes running on the NPU
+npu_processes = npu_utils.list_npu_processes()
+print("NPU Processes:", npu_processes)
+
+# Get memory usage information for the first NPU
+memory_info = npu_utils.get_memory_info(device_index=0)
+print("Memory Info:", memory_info)
+Requirements
+Python 3.6 or higher
+psutil package
+Limitations
+This utility has primarily been tested on the Ascend 310P3 model, and while it aims to support other Ascend NPUs, there may be variations in command outputs that could affect compatibility.
