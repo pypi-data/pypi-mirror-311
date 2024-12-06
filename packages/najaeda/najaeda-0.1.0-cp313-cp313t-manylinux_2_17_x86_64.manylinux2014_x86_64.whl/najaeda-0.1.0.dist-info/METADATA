@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: najaeda
+Version: 0.1.0
+Summary: Naja EDA Python package
+Author-Email: Naja Authors <contact@keplertech.io>
+License: Apache License 2.0
+Project-URL: Homepage, https://github.com/najaeda/naja
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+
+Welcome to Naja Python package
