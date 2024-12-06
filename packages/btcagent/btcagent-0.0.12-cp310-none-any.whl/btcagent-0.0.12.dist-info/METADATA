@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: btcagent
+Version: 0.0.12
+Summary: BTC Agent
+Home-page: https://newavesoft.com
+Author: Péricles Lopes Machado
+Author-email: pericles@newavesoft.com
+License-File: LICENSE
+Requires-Dist: binance
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: yfinance
+
