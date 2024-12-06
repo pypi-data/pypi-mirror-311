@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "adamz"
+version = "0.1.0"
+authors = [
+  { name="Ilia Zaznov", email="izaznov@gmail.com" },
+  { name = "Atta Badii", email = "atta.badii@reading.ac.uk" },
+  { name = "Julian Kunkel", email = "julian.kunkel@gwdg.de" },
+  { name = "Alfonso Dufour", email = "a.dufour@icmacentre.ac.uk" }
+]
+description = "An enhanced Adam optimizer with overshoot and stagnation handling."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["optimizer", "deep learning", "adam", "machine learning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/zaznov/AdamZ"
+Issues = "https://github.com/zaznov/AdamZ/issues"
