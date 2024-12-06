@@ -1,0 +1,3 @@
+[console_scripts]
+ps-events = powersensor_local.events:app
+ps-rawfirehose = powersensor_local.rawfirehose:app

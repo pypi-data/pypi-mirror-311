@@ -1,0 +1,10 @@
+powersensor_local/__init__.py,sha256=ukR7TnVNZlUVUOzehcAfXEs5yjeATS7s3YhGJ0Byga0,621
+powersensor_local/devices.py,sha256=wtIxbWVAaBVa9yV50u20CH0Ii0CP2LeEmzjoEoqWrok,10540
+powersensor_local/events.py,sha256=uDjZ7zyDk4oQ6DkLdwEl5nKUkG4v3X53EpCOWskXIgk,1434
+powersensor_local/listener.py,sha256=o7CQriQoQb-iSfg4ED680REWh1iOFRS7-9d1mfFZ83U,4023
+powersensor_local/rawfirehose.py,sha256=OfXcZejjNwt9jeFHs2itV32kj7HBUS7G_diKbRNDDCw,1392
+powersensor_local-1.0.2.dist-info/METADATA,sha256=JIxZHWs4buxQ8njJyi6FRfwaG2pC1gXeEAOVIIPo6ko,1549
+powersensor_local-1.0.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+powersensor_local-1.0.2.dist-info/entry_points.txt,sha256=QXTQyTuyktKnf11rbLjCclq9orqBXk5fUUM3jbpzKwg,110
+powersensor_local-1.0.2.dist-info/licenses/LICENSE,sha256=LX5Uuq1SJmI92qpd5TMj0WIJ1fsSeWCW-6oO5tcy3Ow,1097
+powersensor_local-1.0.2.dist-info/RECORD,,
