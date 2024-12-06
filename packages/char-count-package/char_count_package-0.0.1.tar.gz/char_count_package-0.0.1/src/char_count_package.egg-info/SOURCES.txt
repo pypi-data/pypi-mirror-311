@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/char_count_package/__init__.py
+src/char_count_package/main.py
+src/char_count_package.egg-info/PKG-INFO
+src/char_count_package.egg-info/SOURCES.txt
+src/char_count_package.egg-info/dependency_links.txt
+src/char_count_package.egg-info/top_level.txt
+tests/test_.py
