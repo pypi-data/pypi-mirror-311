@@ -1,0 +1,12 @@
+irctk/__init__.py,sha256=NWCWWue1EipM6IXH5_edot-0bWXFCDcaegUzLgxq9Lw,66
+irctk/channel.py,sha256=LEaSrogrjjzje-SVYrO3k6tb8XZnCuwolLpqVoMUoPc,3596
+irctk/client.py,sha256=R6wFOOufK6LpOp8wJarVQb1v4JjGeXrn65NQc4whNH8,25924
+irctk/command.py,sha256=_L6CLpr9USPASstFiRB8Qu-2sp4AUmQnL0fcC4gnD3Q,1564
+irctk/isupport.py,sha256=DUbDctyYyhhW1WRtlfO_CcvmYhtMsedzxZ5lBbuDNxM,5900
+irctk/message.py,sha256=R6lHNyUVgHz9SjlQNlPrpL4OYxMuiDlTvVm_nWtxsUM,6337
+irctk/nick.py,sha256=39IJrKQ8HdvePWBSfqC4fGN52550qr04-20qK6DiQQQ,940
+irctk/numerics.py,sha256=PptOqsSjmtz7zwY-yBUvbu2BznH6ZCPQ23-5M1mkSJI,3804
+irc_toolkit-0.4.0.dist-info/LICENSE,sha256=siHbJNog6_5ekZBMdUMS9uVdhYG54Q7T9j8fXPTYyks,1488
+irc_toolkit-0.4.0.dist-info/METADATA,sha256=hyoCvuqU1Qmlyg-NYowLddb_eZpd5ptHvwo8kdjnahY,1935
+irc_toolkit-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+irc_toolkit-0.4.0.dist-info/RECORD,,
