@@ -1,0 +1,63 @@
+--creating database
+--creating Table Student
+USE college;
+CREATE TABLE Student(
+    RollNo CHAR(6) PRIMARY KEY,
+    StudentName VARCHAR(50) NOT NULL,
+    Course VARCHAR(10),
+    DOB DATE
+);
+-- inserting data in a table
+--INSERT INTO TABLE VALUES(column1,column2....);
+INSERT INTO TABLE VALUES("A25018","Aman","BSC CS",'14-05-2004');
+
+--CREATING A TABLE AKA SOCIETY
+CREATE TABLE society(
+    SID CHAR(6) PRIMARY KEY,
+    SOCNAME VARCHAR(50) NOT NULL,
+    MENTORNAME VARCHAR(50),
+    TOTAL_SEATS INT UNSIGNED NOT NULL
+);
+--OTHER WAY
+CREATE TABLE IF NOT EXISTS society(
+    SID CHAR(6) PRIMARY KEY,
+    SOCNAME VARCHAR(50) NOT NULL,
+    MENTORNAME VARCHAR(50),
+    TOTAL_SEATS INT UNSIGNED NOT NULL
+);
+--CREATING A TABLE WITH FOREIGN KEY
+CREATE TABLE ENROLLEMENT(
+	ROLLNO CHAR(6)
+	SID CHAR(6)
+	FOREIGN KEY (ROLLNO) REFERENCES student(ROLLNO),
+	FOREIGN KEY (SID) REFERENCES society(SID)
+);
+--USING A DEFAULT CONSTRAINT;
+salary INT UNSIGNED DEFAULT 50000
+INSERT INTO teacher(teacherId,subject) VALUES('s10002','English')--example of how to use it.
+--chem or CS
+SELECT * FROM student 
+WHERE Course='CS' OR Course="Chemistry";
+--special matching
+SELECT STUDENTNAME FROM student
+WHERE (rollno Like "R%" OR RollNo Like "r%") AND (ROLLNO like "%9")
+
+--Input by user
+SET @N=10;
+
+SELECT * FROM society
+WHERE TOTALSEATS> @N;
+
+--Update command
+UPDATE society 
+SET mentorname='AMIT'
+WHERE mentorname="Mehak"
+
+SELECT s.socname
+FROM society s
+
+CREATE USER 'username' IDENTIFIED BY 'password';
+CREATE ROLE 'newrole';
+GRANT SELECT, INSERT, UPDATE ON mydatabase.* TO 'newrole';
+REVOKE INSERT ON mydatabase.* FROM 'newrole';
+CREATE INDEX StudentName ON student (Studentname);
