@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "RouzbehTheBatman"
+version = "0.1.1"
+description = "A personal package"
+authors = ["Rouzbeh <rzb.shirvani@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/rouzbehshi/RouzbehTheBatman"
+keywords = ["clustering", "preprocessing", "ML"]
+classifiers = [
+    "Topic :: Scientific/Engineering",
+]
+
+[tool.poetry.dependencies]
+
+python = ">=3.9,<4.0"
+pandas = [
+    { version = ">=1.0.0,<2.2.0", python = "<3.9" },
+    { version = ">=2.2.0", python = ">=3.9" }
+]
+
+
+pytest = ">=7.4.0"
+
+
+
+[build-system]
+requires = [
+    "poetry-core"
+]
+build-backend = "poetry.core.masonry.api"
