@@ -1,0 +1,168 @@
+1.NSS Youngest
+SELECT s.StudentName 
+FROM STUDENT s 
+INNER JOIN studentsociety e ON s.RollNo = e.StudentRollNo 
+WHERE e.SID = 'NSS' 
+ORDER BY s.DOB ASC 
+LIMIT 1;
+2.Most Popular Society
+SELECT s.SocName
+FROM SOCIETY s
+JOIN studentsociety e ON s.SID = e.SID
+GROUP BY s.SID
+ORDER BY COUNT(e.StudentRollNo) DESC
+LIMIT 1;
+3.Least Popular Society
+SELECT s.SocName
+FROM SOCIETY s
+JOIN studentsociety e ON s.SID = e.SID
+GROUP BY s.SID
+ORDER BY COUNT(e.StudentRollNo) ASC
+LIMIT 2;
+4.Student in more than 2 society
+SELECT s.StudentName
+FROM STUDENT s
+JOIN studentsociety e ON s.RollNo = e.StudentRollNo
+GROUP BY s.RollNo, s.StudentName
+HAVING COUNT(DISTINCT e.SID) >= 2;
+5.SOcietymaximum students are enrolled
+SELECT s.SocName
+FROM SOCIETY s
+JOIN studentsociety e ON s.SID = e.SID
+GROUP BY s.SocName
+HAVING COUNT(e.StudentRollNo) = (
+    SELECT MAX(member_count)
+    FROM (
+        SELECT COUNT(e1.StudentRollNo) AS member_count
+        FROM SOCIETY s1
+        JOIN studentsociety e1 ON s1.SID = e1.SID
+        GROUP BY s1.SocName
+    ) AS counts
+);
+6.
+Find names of all students who have enrolled in any society and society names in which 
+at least one student h
+
+
+SELECT s.StudentName AS Name, 'Student' AS Type
+FROM STUDENT s
+JOIN studentsociety e ON s.RollNo = e.StudentRollNo
+
+UNION ALL
+
+SELECT s.SocName AS Name, 'Society' AS Type
+FROM SOCIETY s
+JOIN studentsociety e ON s.SID = e.SID;
+7.Find name of student in any 3 society Debating , shashakt , dancing
+SELECT s.StudentName
+FROM STUDENT s
+JOIN studentsociety e ON s.RollNo = e.StudentRollNo
+JOIN SOCIETY soc ON e.SID = soc.SID
+WHERE soc.SocName IN ('NCC', 'MUSIC CLUB', 'ASTRO')
+GROUP BY s.RollNo, s.StudentName
+HAVING COUNT(DISTINCT soc.SocName) = 3;
+8.Find the society names in which the number of enrolled students is only 10% of its 
+capacity
+SELECT s.SocName
+FROM SOCIETY s
+LEFT JOIN studentsociety e ON s.SID = e.SID
+GROUP BY s.SocName, s.TotalSeats
+HAVING COUNT(e.StudentRollNo) < (0.1 * s.TotalSeats);
+9. Display the vacant seats for each society
+SELECT 
+    s.SocName,
+    s.TotalSeats,
+    COALESCE(COUNT(e.StudentRollNo), 0) AS EnrolledStudents,
+    (s.TotalSeats - COALESCE(COUNT(e.StudentRollNo), 0)) AS VacantSeats
+FROM 
+    SOCIETY s
+LEFT JOIN 
+    studentsociety e ON s.SID = e.SID
+GROUP BY 
+    s.SID, s.SocName, s.TotalSeats;
+10.Update capacity+10%
+UPDATE SOCIETY
+SET Capacity = Capacity * 1.10;
+11.Add  column enrollement fees paid yes/no
+ALTER TABLE ENROLLMENT
+ADD EnrollmentFeePaid VARCHAR(3);  -- Adjust the length as necessary 
+UPDATE ENROLLMENT
+SET EnrollmentFeePaid = 'No';  -- Set to 'No' for all existing records
+12.UPDATE Date of enrollement
+UPDATE ENROLLMENT
+SET EnrollmentDate = '2023-10-01'  -- Replace with the desired new date
+WHERE SocietyID = 'S1';  -- Assuming SocietyID is the identifier for the society
+13.CReating a view
+CREATE VIEW SocietyEnrollmentSummary AS
+SELECT 
+    S.SocName,
+    COUNT(E.StudentRollNo) AS TotalStudents  -- Assuming StudentID is the identifier for students
+FROM 
+    SOCIETY S
+LEFT JOIN 
+    studentsociety E ON S.SID = E.SID  -- Joining on SocietyID
+GROUP BY 
+    S.SocName;
+14.to find students enrolled in all societies
+SELECT 
+    S.StudentName
+FROM 
+    STUDENT S
+JOIN 
+    studentsociety E ON S.RollNo = E.StudentRollno
+GROUP BY 
+    S.RollNo, S.StudentName
+HAVING 
+    COUNT(DISTINCT E.SID) = (SELECT COUNT(*) FROM SOCIETY);
+15.More than 5 stud in society
+SELECT 
+    COUNT(*) AS NumberOfSocieties
+FROM 
+    (SELECT 
+        E.SID
+     FROM 
+        studentsociety E
+     GROUP BY 
+        E.SID
+     HAVING 
+        COUNT(E.StudentRollno) > 5) AS SocietiesWithMoreThan5Students;
+16.Add colum with default 999999999
+ALTER TABLE student
+ADD COLUMN phone_number VARCHAR(15) DEFAULT '9999999999';
+17.age more than 20
+SELECT COUNT(*) AS TotalStudents
+FROM STUDENT
+WHERE YEAR(CURDATE()) - YEAR(DOB) - (DATE_FORMAT(CURDATE(), '%m%d') < DATE_FORMAT(DOB, '%m%d')) > 20;
+18.born in 2001 and are enrolled in one society
+SELECT s.StudentName
+FROM STUDENT s
+JOIN studentsociety se ON s.RollNo = se.StudentRollNo
+WHERE YEAR(s.DOB) = 2001
+GROUP BY s.StudentName;
+19.name like S%t and 5 student in it
+SELECT COUNT(*) AS SocietyCount
+FROM SOCIETY s
+JOIN studentsociety se ON s.SID = se.SID
+WHERE s.SocName LIKE 'S%t'
+GROUP BY s.SID
+HAVING COUNT(se.Studentrollno) >= 5;
+20.Display the following information:
+Society name Mentor name Total Capacity Total Enrolled Unfilled Seats
+SELECT 
+    s.SocName,
+    s.MentorName,
+    s.TotalSeats,
+    COUNT(se.StudentRollno) AS TotalEnrolled,
+    (s.TotalSeats - COUNT(se.StudentRollNo)) AS UnfilledSeats
+FROM 
+    SOCIETY s
+LEFT JOIN 
+    studentsociety se ON s.SID = se.SID
+GROUP BY 
+    s.SID, s.SocName, s.MentorName, s.TotalSeats;
+CREATE USER 'username' IDENTIFIED BY 'password';
+CREATE ROLE 'newrole';
+GRANT SELECT, INSERT, UPDATE ON mydatabase.* TO 'newrole';
+REVOKE INSERT ON mydatabase.* FROM 'newrole';
+CREATE INDEX StudentName ON student (Studentname);
+
