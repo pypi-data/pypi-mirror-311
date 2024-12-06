@@ -1,0 +1,12 @@
+sinflow/__init__.py,sha256=zy7h-lRNH3FUQyb8ahk5uxHgzCHO9JbARBJabybPOFE,258
+sinflow/_version.py,sha256=6w1FKdLdik34W03NFx6uNkHvKTmHp9MoEhdJcXr12nw,17
+sinflow/flow.py,sha256=_rgR6sdG3nnE6uUcfw6Fn-r2P2DGrfTtAaDMrzxsCBk,12742
+sinflow/kde.py,sha256=k3x_tXy4d8UaECqoudf-sL76W3fsLk7SS18AWHf2woU,3840
+sinflow/mrqs.py,sha256=5Dq56IcJusaRCEreKsJCOIICuFjeruTYFaOZrVCDIH8,11845
+sinflow/tools.py,sha256=-8SQ1jJytdAqZRVDEgmeMEO51_u_8pcJixYQhmbx2uE,16231
+sinflow/transforms.py,sha256=HXOzHicseOD0qWbiLQaJP6A9MRUQvoF5oQ7BT-ksgX8,11111
+sinflow-0.1.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sinflow-0.1.5.dist-info/METADATA,sha256=G_Pe8epQBN0zKJ7FKkAmvHqktE69lZj7GJOdkyW6PJE,3392
+sinflow-0.1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+sinflow-0.1.5.dist-info/top_level.txt,sha256=R6cw46Z95F8nUoUIt0dTIF5xcvrlZuUly09hLPWWLFo,8
+sinflow-0.1.5.dist-info/RECORD,,
