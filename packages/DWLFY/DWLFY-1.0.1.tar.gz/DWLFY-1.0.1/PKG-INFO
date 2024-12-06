@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: DWLFY
+Version: 1.0.1
+Summary: The dwlfy library is a powerful and user-friendly tool designed to download videos from YouTube with options for video quality and format, along with an integrated MP3 conversion feature. This library is ideal for users who want flexibility in downloading, organizing, and converting YouTube content for offline use.
+Home-page: https://github.com/JkaiPrime/dwlfy
+Author: Lucas Guimaraes Moreira
+Author-email: lucasgmoreira002@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dwlfy
+
+**dwlfy** is a powerful and user-friendly library designed to download videos from YouTube with options for video quality and format, along with an integrated MP3 conversion feature. Ideal for users seeking flexibility in downloading, organizing, and converting YouTube content for offline use.
+
+## Key Features
+
+- **Video Download with Quality Selection**: Specify the desired video quality (such as 1080p, 720p, 480p) before downloading, allowing customization based on device storage and playback requirements.
+
+- **Audio Extraction and MP3 Conversion**: Convert downloaded videos to MP3 format easily. This feature is perfect for users who want to save audio content separately, such as podcasts or music.
+
+- **Cache System for Downloaded Videos**: Prevent redundant downloads with a caching mechanism that detects previously downloaded videos, optimizing storage usage and saving bandwidth.
+
+- **Batch Downloading**: Provide a list of video URLs to download multiple videos sequentially or in parallel, saving time and increasing efficiency.
+
+- **Multithreading Support**: Speed up downloads by enabling simultaneous downloads through multithreading, which significantly boosts download speed.
+
+
+- **Notifications**: Optional notifications (such as email or system alerts) notify you once downloads are complete, providing a seamless and convenient user experience.
+
+## Technologies Used
+
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)**: For video extraction and downloading from YouTube.
+- **[ffmpeg](https://ffmpeg.org/)**: For audio extraction and MP3 conversion.
+
+
+## Installation
+
+To install `dwlfy`, use `pip`:
+```bash
+pip install dwlfy
+```
+You’ll also need to install ffmpeg for audio extraction and conversion. You can download it from ffmpeg.org.
+
+## Usage
+Here's a quick overview of how to use dwlfy.
+1. Validate a YouTube URL
+The YouTubeURLValidator class can help ensure that a given URL is a valid YouTube link.
+```python
+from dwlfy import YouTubeURLValidator
+
+# Initialize the validator
+validator = YouTubeURLValidator()
+
+# Example YouTube URL
+url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+# Validate the URL
+if validator(url):
+    print("This is a valid YouTube URL!")
+else:
+    print("Invalid YouTube URL.")
+```
+
+2. Download a YouTube Video
+Use the Downloader class to download a YouTube video by providing its URL.
+```python
+from dwlfy import Downloader
+
+# Initialize the downloader
+downloader = Downloader()
+
+# Example YouTube URL
+url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+# Download the video to a specific destination
+destination = "/home/user/Downloads"
+downloaded_file = downloader.download_video(
+    url=url,
+    destination=destination,
+    format_option="best",  # Specify video quality, e.g., "best" or "worst"
+    height=720             # Optional: Max video resolution (e.g., 720p)
+)
+
+if downloaded_file:
+    print(f"Video successfully downloaded to: {downloaded_file}")
+else:
+    print("Failed to download the video.")
+```
+
+3. Download and Convert a YouTube Video to MP3
+You can also download a YouTube video and convert it to an audio format, such as MP3.
+```python
+
+from dwlfy import Downloader
+
+# Initialize the downloader
+downloader = Downloader()
+
+# Example YouTube URL
+url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+# Download and convert the video to MP3
+download_dir = "downloads"
+destination = "/home/user/Downloads"
+converted_file = downloader.download_and_convert(
+    url=url,
+    download_dir=download_dir,
+    destination=destination,
+    conversion_format="mp3"  # Specify the target audio format
+)
+
+if converted_file:
+    print(f"Audio successfully downloaded and converted to: {converted_file}")
+else:
+    print("Failed to download or convert the video.")
+```
+## Use Cases
+dwlfy is suitable for anyone looking to download and organize YouTube videos efficiently, whether for offline access, educational purposes, or personal entertainment.
+
