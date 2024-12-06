@@ -1,0 +1,35 @@
+Metadata-Version: 2.3
+Name: ezmsg-zmq
+Version: 1.4.0
+Summary: Zero-MQ pub/sub units for ezmsg
+Author-email: Griffin Milsap <griffin.milsap@gmail.com>, Preston Peranich <pperanich@gmail.com>, Chadwick Boulay <chadwick.boulay@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: ezmsg>=3.6.0
+Requires-Dist: pyzmq>=25.1.2
+Requires-Dist: tornado>=6.4.2; platform_system == 'Windows'
+Provides-Extra: dev
+Requires-Dist: ruff>=0.6.7; extra == 'dev'
+Requires-Dist: typer>=0.13.0; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: numpy>=2.0.2; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest>=8.3.3; extra == 'test'
+Description-Content-Type: text/markdown
+
+# ezmsg.zmq
+
+Zero-MQ pub/sub units for ezmsg
+
+## Installation
+`pip install ezmsg-sigproc`
+
+## Dependencies
+* `ezmsg`
+* `pyzmq`
+
+## Setup (Development)
+1. Install `ezmsg` either using `pip install ezmsg` or set up the repo for development as described in the `ezmsg` readme.
+2. `cd` to this directory (`ezmsg-zmq`) and run `pip install -e .`
+3. Signal processing modules are available under `import ezmsg.zmq`
