@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+pyserver_http/__main__.py
+pyserver_http/server.py
+pyserver_http/utils.py
+pyserver_http.egg-info/PKG-INFO
+pyserver_http.egg-info/SOURCES.txt
+pyserver_http.egg-info/dependency_links.txt
+pyserver_http.egg-info/entry_points.txt
+pyserver_http.egg-info/top_level.txt
