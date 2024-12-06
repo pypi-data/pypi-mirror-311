@@ -1,0 +1,7 @@
+README.md
+setup.py
+firejson.egg-info/PKG-INFO
+firejson.egg-info/SOURCES.txt
+firejson.egg-info/dependency_links.txt
+firejson.egg-info/requires.txt
+firejson.egg-info/top_level.txt
