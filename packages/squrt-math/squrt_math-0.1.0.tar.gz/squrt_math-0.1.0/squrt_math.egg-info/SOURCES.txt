@@ -1,0 +1,8 @@
+licence1
+setup.py
+squrt_math/__init__.py
+squrt_math/module1.py
+squrt_math.egg-info/PKG-INFO
+squrt_math.egg-info/SOURCES.txt
+squrt_math.egg-info/dependency_links.txt
+squrt_math.egg-info/top_level.txt
