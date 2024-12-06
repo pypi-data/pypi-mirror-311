@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tamtam-bot
+Version: 0.1.4
+Summary: 
+Home-page: https://gitverse.ru/smaglyuk/tamtam_bot
+Author: Sergey Smaglyuk
+Author-email: smegloy@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://gitverse.ru/smaglyuk/tamtam_bot
+Description-Content-Type: text/markdown
+
+
