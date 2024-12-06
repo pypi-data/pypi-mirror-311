@@ -1,0 +1,10 @@
+bvtools/argtools.py,sha256=9vbHXBXspwXMMCGEUsaEMd1rT25UMcik-HV7H6l2rYw,501
+bvtools/enum.py,sha256=gIwWCB0L8ln8iOjjNM8RysvOa81sYoSmvf85Y7CZuqg,2701
+bvtools/functoolz.py,sha256=iAINSRVPssP-36Pf8E3Aq2ucncxENJ9m6qPV6-dbins,16606
+bvtools/itertoolz.py,sha256=Z4WaZdWbkIG8Bstj7P2cy59JrcRdwAmwucD3vXbPFpA,33596
+bvtools/misc.py,sha256=l2ngziknTswOcKUY7ZuI46ARHghsrIYoo-PHhTFvv-8,4398
+bvtools/pdf.py,sha256=zBew34_n8N5dQ4oA5w8XwsnFFklk2EhaRr2i6XCU59c,5210
+bvtools/polars.py,sha256=AwY1kxFlp7Thwqigl5eUrVglOOFVvQ89r2xe2wPsLRo,10815
+bvtools-0.1.5.dist-info/METADATA,sha256=2HerYdriMFCzJvabD7_QPYZl9PXj8hS5VmaOA0a8Y0w,523
+bvtools-0.1.5.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+bvtools-0.1.5.dist-info/RECORD,,
