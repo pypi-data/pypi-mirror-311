@@ -1,0 +1,9 @@
+rhino3dm/__init__.py,sha256=evfgXggRKvdqVTogw6r_kpFzikMV0Pdwhfzl9teP4wQ,418
+rhino3dm/__init__.pyi,sha256=jbPusSKERDuaSgnmsDHxTWVwcgrrXEDA7vmCJxNbDac,56608
+rhino3dm/_rhino3dm.cp39-win_amd64.pyd,sha256=VPNxuJ0Gda-5Sv6H4XzkhXb8BlSnOWuFGTRIoVt0NlA,6317568
+rhino3dm/py.typed,sha256=HuLmVkNu_p4Z7NWxnBqRwLkHKmQ7FX_NttG4bJ3T1xs,24
+rhino3dm-8.15.0b0.dist-info/LICENSE,sha256=ya5OqNbXUaTxTzOkjSpPQcbVuF7q1A5JkD1XxabawIQ,1104
+rhino3dm-8.15.0b0.dist-info/METADATA,sha256=h_G5V4RPRl_zEhrambZCmgytIeQbcOjD46K50HazaDo,1416
+rhino3dm-8.15.0b0.dist-info/WHEEL,sha256=EfPXSsrLwp9clrn29v9vbmPfEm-IfFzseSJd0ZtI9XA,99
+rhino3dm-8.15.0b0.dist-info/top_level.txt,sha256=TeHdahSufn5ZzZHnoG6L4YPm3U9UQHwpNnI1mOMvAfk,9
+rhino3dm-8.15.0b0.dist-info/RECORD,,
