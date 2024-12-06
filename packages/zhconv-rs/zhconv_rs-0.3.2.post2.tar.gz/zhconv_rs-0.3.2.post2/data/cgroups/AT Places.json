@@ -1,0 +1,203 @@
+{
+  "name": "AT Places",
+  "description": "奥地利地名",
+  "path": "Module:CGroup/AT Places",
+  "rules": [
+    {
+      "original": "Burgenland",
+      "conv": "zh-cn:布尔根兰; zh-hk:布爾根蘭; zh-tw:布根蘭"
+    },
+    {
+      "original": "Kärnten",
+      "conv": "zh-cn:克恩顿; zh-hk:克恩頓; zh-tw:卡林西亞"
+    },
+    {
+      "original": "Steiermark",
+      "conv": "zh-cn:施泰尔马克; zh-tw:史泰爾馬克;zh-hk:施泰爾馬克;"
+    },
+    {
+      "original": "Styria（Steiermark的英文名）",
+      "conv": "zh-cn:施蒂里亚; zh-hk:施蒂利亞; zh-tw:史泰利亞; 施蒂里亚=>zh-cn:施蒂里亚; 施蒂里亚=>zh-hk:施蒂利亞; 施蒂里亚=>zh-tw:史泰利亞; 施蒂里亞=>zh-cn:施蒂里亚; 施蒂里亞=>zh-hk:施蒂利亞; 施蒂里亞=>zh-tw:史泰利亞;"
+    },
+    {
+      "original": "Tirol",
+      "conv": "zh-hans:蒂罗尔; zh-hk:蒂羅爾; zh-tw:提洛;"
+    },
+    {
+      "original": "Graz",
+      "conv": "zh-cn:格拉茨; zh-tw:格拉茲; zh-hk:格拉茨;"
+    },
+    {
+      "original": "Hallstatt",
+      "conv": "zh-cn:哈尔施塔特; zh-tw:哈修塔特; zh-hk:哈爾施塔特;"
+    },
+    {
+      "original": "Innsbruck",
+      "conv": "zh-cn:因斯布鲁克; zh-tw:茵斯布魯克;"
+    },
+    {
+      "original": "Kitzbühel",
+      "conv": "基茨比尔=>zh-cn:基茨比厄尔;基茨比尔=>zh-sg:基茨比厄尔;基茨比尔=>zh-my:基茨比厄尔;基茨比尔=>zh-tw:基茨比厄爾;基茨比尔=>zh-hk:基茨比厄爾;基茨比尔=>zh-mo:基茨比厄爾;"
+    },
+    {
+      "original": "Kitzbühel",
+      "conv": "基茨比爾=>zh-cn:基茨比厄尔;基茨比爾=>zh-sg:基茨比厄尔;基茨比爾=>zh-my:基茨比厄尔;基茨比爾=>zh-tw:基茨比厄爾;基茨比爾=>zh-hk:基茨比厄爾;基茨比爾=>zh-mo:基茨比厄爾;"
+    },
+    {
+      "original": "Kufstein",
+      "conv": "库夫施泰因=>zh-tw:庫夫斯坦;"
+    },
+    {
+      "original": "Kufstein",
+      "conv": "庫夫施泰因=>zh-tw:庫夫斯坦;"
+    },
+    {
+      "original": "Lienz",
+      "conv": "zh-hans:利恩茨; zh-tw:利恩茲;"
+    },
+    {
+      "original": "Linz",
+      "conv": "zh-hans:林茨; zh-tw:林茲;"
+    },
+    {
+      "original": "Sankt Pölten",
+      "conv": "zh-cn:圣珀尔滕;zh-hk:聖帕爾滕; zh-tw:聖波爾坦;"
+    },
+    {
+      "original": "Salzburg",
+      "conv": "zh-hans:萨尔茨堡; zh-hk:薩爾斯堡; zh-tw:薩爾茲堡;"
+    },
+    {
+      "original": "Salzburg",
+      "conv": "薩爾斯堡=>zh-tw:薩爾茲堡;薩爾斯堡=>zh-hans:萨尔茨堡;"
+    },
+    {
+      "original": "Salzburg",
+      "conv": "薩爾茨堡=>zh-tw:薩爾茲堡;薩爾茨堡=>zh-hk:薩爾斯堡;"
+    },
+    {
+      "original": "Sankt Pölten",
+      "conv": "zh-cn:圣珀尔滕;zh-hk:聖帕爾滕; zh-tw:聖波爾坦;"
+    },
+    {
+      "original": "Steyr",
+      "conv": "zh-cn:施泰尔; zh-hant:施泰爾; zh-tw:斯泰爾;"
+    },
+    {
+      "original": "Bregenz",
+      "conv": "zh-cn:布雷根茨; zh-tw:布雷根茲;"
+    },
+    {
+      "original": "Wolfsberg",
+      "conv": "zh-cn:沃尔夫斯贝格; zh-hant:沃爾夫斯貝格; zh-tw:沃爾夫斯伯格;"
+    },
+    {
+      "original": "Austerlitz",
+      "conv": "zh-hans:奥斯特利茨;zh-hk:奧斯特里茨;zh-tw:奧斯特里茲;"
+    },
+    {
+      "original": "Bodensee",
+      "conv": "zh-hans:博登湖; zh-hk:博登湖;zh-tw:波登湖;"
+    },
+    {
+      "original": "Zugspitze",
+      "conv": "zh-hans:楚格峰; zh-hk:楚格峰; zh-tw:祖格峰; "
+    },
+    {
+      "original": "Gote",
+      "conv": "zh-hans:哥特人;zh-hant:哥德人;"
+    },
+    {
+      "original": "gotisch",
+      "conv": "zh-hans:哥特式;zh-hant:哥德式;"
+    },
+    {
+      "original": "gotisch",
+      "conv": "zh-hans:哥特风;zh-hant:哥德風;"
+    },
+    {
+      "original": "Ostgote",
+      "conv": "zh-hans:东哥特;zh-hant:東哥德;"
+    },
+    {
+      "original": "Westgote",
+      "conv": "zh-hans:西哥特;zh-hant:西哥德;"
+    },
+    {
+      "original": "gotische Sprache",
+      "conv": "zh-hans:哥特语;zh-hant:哥德語;"
+    },
+    {
+      "original": "gotische Alphabet",
+      "conv": "zh-hans:哥特字母;zh-hant:哥德字母;"
+    },
+    {
+      "original": "Burgenland",
+      "conv": "zh-cn:布尔根兰州; zh-hk:布爾根蘭州; zh-tw:布根蘭邦;"
+    },
+    {
+      "original": "Kärnten",
+      "conv": "zh-cn:克恩顿州; zh-hk:克恩頓州; zh-tw:卡林西亞邦; 克恩滕州=>zh-cn:克恩顿州; 克恩滕州=>zh-hk:克恩頓州; 克恩滕州=>zh-tw:卡林西亞邦;"
+    },
+    {
+      "original": "Niederösterreich",
+      "conv": "zh-cn:下奥地利州; zh-hk:下奧地利州; zh-tw:下奧地利邦;"
+    },
+    {
+      "original": "Oberösterreich",
+      "conv": "zh-cn:上奥地利州; zh-hk:上奧地利州; zh-tw:上奧地利邦;"
+    },
+    {
+      "original": "Salzburg",
+      "conv": "zh-cn:萨尔茨堡州; zh-hant:薩爾茨堡州; zh-hk:薩爾斯堡州; zh-tw:薩爾茲堡邦"
+    },
+    {
+      "original": "Steiermark",
+      "conv": "zh-cn:施泰尔马克州;zh-hk:施泰爾馬克州;zh-tw:史泰爾馬克邦;"
+    },
+    {
+      "original": "Styria（Steiermark的英文名）",
+      "conv": "zh-cn:施蒂里亚州; zh-hk:施蒂利亞州; zh-tw:史泰利亞邦; 施蒂里亚州=>zh-cn:施蒂里亚州; 施蒂里亚州=>zh-hk:施蒂利亞州; 施蒂里亚州=>zh-tw:史泰利亞邦; 施蒂里亞州=>zh-cn:施蒂里亚州; 施蒂里亞州=>zh-hk:施蒂利亞州; 施蒂里亞州=>zh-tw:史泰利亞邦;"
+    },
+    {
+      "original": "Tirol",
+      "conv": "zh-cn:蒂罗尔州; zh-hk:蒂羅爾州; zh-tw:提洛邦; "
+    },
+    {
+      "original": "Vorarlberg",
+      "conv": "zh-cn:福拉尔贝格州; zh-hk:福拉爾貝格州; zh-tw:福拉爾貝格邦; "
+    },
+    {
+      "original": "Wien",
+      "conv": "zh-cn:维也纳州; zh-hk:維也納州; zh-tw:維也納邦; "
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦制; zh-hk:聯邦制; zh-tw:聯邦制"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦共和国; zh-hk:聯邦共和國; zh-tw:聯邦共和國"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦总理; zh-hk:聯邦總理; zh-tw:聯邦總理"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦选举; zh-hk:聯邦選舉; zh-tw:聯邦選舉"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦政府; zh-hk:聯邦政府; zh-tw:聯邦政府"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦议会; zh-hk:聯邦議會; zh-tw:聯邦議會"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦宪法; zh-hk:聯邦憲法; zh-tw:聯邦憲法"
+    }
+  ]
+}
