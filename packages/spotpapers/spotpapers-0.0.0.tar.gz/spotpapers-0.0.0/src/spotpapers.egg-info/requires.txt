@@ -1,0 +1,7 @@
+click
+groq
+build
+
+[dev]
+ruff
+twine
