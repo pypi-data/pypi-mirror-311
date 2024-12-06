@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: synthora
+Version: 0.1.1
+Summary: Synthora is a lightweight and extensible framework for LLM-driven Agents and ALM research. It provides essential components to build, test and evaluate agents. At its core, Synthora aims to assemble an agent with a single config, thus minimizing your effort in building, tuning, and sharing agents.
+License: Apache 2.0
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: docstring-parser (>=0.16,<0.17)
+Requires-Dist: openai (>=1.55.0,<2.0.0)
+Requires-Dist: pydantic (>=2.10.1,<3.0.0)
+Requires-Dist: rich (>=13.9.4,<14.0.0)
+Description-Content-Type: text/markdown
+
+<!-- LICENSE HEADER MANAGED BY add-license-header
+
+=========== Copyright 2024 @ SYNTROPIX-AI.org. All Rights Reserved. ===========
+Licensed under the Apache License, Version 2.0 (the “License”);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an “AS IS” BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+=========== Copyright 2024 @ SYNTROPIX-AI.org. All Rights Reserved. ===========
+-->
+
+# Synthora
+[![Read the Docs](https://img.shields.io/readthedocs/synthora)](https://synthora.readthedocs.io/en/latest/)
+
+
+Synthora is a lightweight and extensible framework for LLM-driven Agents and ALM research. It provides essential components to build, test and evaluate agents. At its core, Synthora aims to assemble an agent with a single config, thus minimizing your effort in building, tuning, and sharing agents.
+
+Note: This project is in its very early stages of development. The APIs are unstable and subject to significant changes, which may introduce breaking updates. Use with caution, as there are inherent risks in adopting this framework at its current maturity level. Feedback and contributions are welcome to help improve its stability and functionality.
+
+## Motivation 🧠
+Agent practitioners start to realize the difficulty in tuning a "well-rounded" agent with tons of tools or instructions in a single layer.
+Recent studies like [TinyStories](https://arxiv.org/abs/2301.12726), [Specializing Reasoning](https://arxiv.org/abs/2301.12726), [Let's Verify SbS](https://arxiv.org/abs/2305.20050), [ReWOO](https://arxiv.org/abs/2305.18323), etc. also point us towards an intuitive yet undervalued direction 👉
+
+```
+An LLM is more capable if you create a context/distribution shift specialized to some target tasks.
+```
+Sadly, there is no silver bullet for agent specialization. For example, you can
+- Simply add `Let's think step by step.` in your **prompt** for more accurate Math QA.
+- Give a **few-shot** exemplar in your prompt to guide a better reasoning trajectory for novel plotting.
+- Supervise **fine-tuning** (SFT) your 70B `llama2` like [this](https://arxiv.org/abs/2305.20050) to match reasoning of 175B GPT-3.5.
+- And more ...
+
+Isn't it beautiful if one shares his effort in specialized intelligence, allowing others to reproduce, build on, or interact with it? 🤗 This belief inspires us to build Gentopia,
+**designed for agent *specialization, sharing, and interaction,* to stackingly achieve collective growth towards greater intelligence.**.
+
+## Core Features 💡
+
+- ⚙️ Config-driven agent assembling and chat.
+- 🚀 Large amount of prebuilt agent types, LLM clients, tools, memory systems, and more.
+- 🪶 Lightweight and highly extensible implementation of essential components.
+- 🧪 Aligning with state-of-the-art AI research.
+- 🤝 Enabling multi-agent interactions.
+- 🦁 Unique platform of agent zoo and eval benchmark.
+
+## Installation
+
+To install Syntropix Python Library from PyPI, simply run:
+
+```shell Shell
+ pip install synthora
+```
+
+## Quick Start
+
+
+```python
+
+from synthora.agents import VanillaAgent
+from synthora.configs import AgentConfig
+from synthora.callbacks import RichOutputHandler
+
+import warnings
+warnings.filterwarnings("ignore")
+
+config = AgentConfig.from_file("examples/agents/configs/vanilla_agent.yaml")
+
+agent = VanillaAgent.from_config(config)
+handler = RichOutputHandler()
+agent.callback_manager.add(handler)
+
+agent.run("Search Openai on Wikipedia")
+```
+
