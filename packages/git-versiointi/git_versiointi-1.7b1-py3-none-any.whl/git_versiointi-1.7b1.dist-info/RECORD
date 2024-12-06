@@ -1,0 +1,14 @@
+versiointi/__init__.py,sha256=faDCWdr0yqDZc7Ds3fbwTR8ERQ2dVzbbcDaFQW-15y0,5440
+versiointi/egg_info.py,sha256=iib9Zyd8PX-Az9hWF3JTYSWq2HPgylQG1X2oQpDNWq4,566
+versiointi/kaytanto.py,sha256=nUdCtJqCDcXgmhajSsU-ImTICo9K12VcHcw98tM4QCo,5139
+versiointi/oletus.py,sha256=rCWVRAcEcf0joGi-GGCVgP-WfOY1xXoBN6B8ifNkFOU,1010
+versiointi/parametrit.py,sha256=3pNuk_LKYNmezFWDeTOsOGR6NKU6P7wB5ALAv9Kyn3o,1815
+versiointi/repo.py,sha256=zb46fE6zaB1u6g-0dQ2y1qUlbcHUTDRs0aNFRNzDd9s,5429
+versiointi/tiedostot.py,sha256=CKC31eoEF6Td1pbxHW77cbYcDLSaGfw2oFwmtF7xDyc,2530
+versiointi/versiointi.py,sha256=fDQ7voQY65nTP_4tfH9Z4NrTk4weDw9y5R5AcBy3HAA,3313
+git_versiointi-1.7b1.dist-info/METADATA,sha256=vT-RH7PdiIVZb_-KCEUpGvReVmWrSF4S6luZB1Y8LFM,9112
+git_versiointi-1.7b1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+git_versiointi-1.7b1.dist-info/entry_points.txt,sha256=ZzaXE0jKa50HJR8Y5SHI-GWnjVuMifojjEr2HQ6rHew,247
+git_versiointi-1.7b1.dist-info/historia.json,sha256=3_MQvx9-9CBpapHwY_MoFWMLdKsn9o9vPBOGZ93JRII,9996
+git_versiointi-1.7b1.dist-info/top_level.txt,sha256=KSvDehaoBue1yYOFGQu8cp-01uN6u_JJ2jfiDap9jmw,11
+git_versiointi-1.7b1.dist-info/RECORD,,
