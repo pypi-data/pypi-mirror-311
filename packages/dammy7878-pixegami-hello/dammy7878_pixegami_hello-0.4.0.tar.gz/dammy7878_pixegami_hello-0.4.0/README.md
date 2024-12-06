@@ -1,0 +1,18 @@
+## Publish to PYPI
+
+To publish your python package to PYPI, you can use the twine tool.
+
+
+
+```bash
+
+python setup.py sdist bdist_wheel 
+
+# Local package test
+pip install dist/pixegami_hello-0.4-py3-none-any.whl 
+
+export TWINE_USERNAME=__token__
+export TWINE_PASSWORD=pypi-XXXXXXXXX
+
+twine upload dist/*
+```
