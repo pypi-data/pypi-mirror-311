@@ -1,0 +1,2 @@
+[console_scripts]
+swarmake = swarmake.main:main
