@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: ll-la
+Version: 0.38.0
+Summary: Python API for LivingApps
+Home-page: http://github.com/LivingLogic/LivingApps.Python.LivingAPI
+Author: Walter Doerwald
+Author-email: walter@livinglogic.de
+License: MIT
+Keywords: LivingApps
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+Requires-Dist: ll-xist>=5.75
+Requires-Dist: requests>=2.21.0
+Requires-Dist: geocoder>=1.30.1
+Requires-Dist: Pillow>=6.1.0
+Requires-Dist: validators>=0.18.2
+Provides-Extra: db
+Requires-Dist: cx_Oracle>=8.0; extra == "db"
+Requires-Dist: psycopg[binary]>=3.0.5; extra == "db"
+
+``ll.la`` provides a Python API for the LivingApps system
+(see http://www.living-apps.de/ or http://www.living-apps.com/ for more info).
+
+``ll.la`` allows you to fetch the configured data sources from a template,
+create new records, and update and delete existing records all from your Python
+prompt (or script).
+
+For more info about LivingApps and this Python SDK, see
+https://my.living-apps.de/docs/PythonSDK.html (in german).
+
+
+0.38.0 (2024-11-26)
+-------------------
+
+* Setting a ``BoolField`` to ``"false"``, ``"no"``, ``"0"`` or ``"off"`` now sets the value
+  to ``False``. This is checked in a case insensitive way.
+
+* Setting a ``BoolField`` to an empty string now sets the value to ``None``.
+
+* ``template_url()`` and related methods now support sets as keyword argument values.
+  They will be handled like lists producing multiple parameters.
+
+* ``Control.Mode`` gained three new values: ``READONLY``, ``HIDDEN`` and ``ABSENT``.
+
+* ``Field.mode`` inherits ``Control.mode`` but can be overwritten.
+
+* ``App`` has gained new attributes:
+
+  - ``gramgen``: The grammatical gender of the label of things in this app.
+  - ``typename_nom_sin``: A label for things in this app (nominative singular).
+  - ``typename_gen_sin``: A label for things in this app (genitive singular).
+  - ``typename_dat_sin``: A label for things in this app (dative singular).
+  - ``typename_acc_sin``: A label for things in this app (accusative singular).
+  - ``typename_nom_plu``: A label for things in this app (nominative plural).
+  - ``typename_gen_plu``: A label for things in this app (genitive plural).
+  - ``typename_dat_plu``: A label for things in this app (dative plural).
+  - ``typename_acc_plu``: A label for things in this app (accusative plural).
+
+* Added ``Globals.form``.
+
+* Detail records for a master record are now stored in a new
+  ``RecordChildren`` object. Creating a new empty ``Record``
+  automatically attaches the appropriate ``RecordChildren`` objects to it.
+
+* Added ``MenuItem.on_view_template``.
+
+
