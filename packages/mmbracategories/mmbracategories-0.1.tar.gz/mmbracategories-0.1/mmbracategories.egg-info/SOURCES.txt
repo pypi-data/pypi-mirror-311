@@ -1,0 +1,8 @@
+setup.py
+mmbracategories/__init__.py
+mmbracategories/mmbracategories.py
+mmbracategories.egg-info/PKG-INFO
+mmbracategories.egg-info/SOURCES.txt
+mmbracategories.egg-info/dependency_links.txt
+mmbracategories.egg-info/requires.txt
+mmbracategories.egg-info/top_level.txt
