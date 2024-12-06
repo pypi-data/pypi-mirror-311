@@ -1,0 +1,8 @@
+setup.py
+latex_generator_olex1313/__init__.py
+latex_generator_olex1313/image_generator.py
+latex_generator_olex1313/table_generator.py
+latex_generator_olex1313.egg-info/PKG-INFO
+latex_generator_olex1313.egg-info/SOURCES.txt
+latex_generator_olex1313.egg-info/dependency_links.txt
+latex_generator_olex1313.egg-info/top_level.txt
