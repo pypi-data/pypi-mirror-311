@@ -1,0 +1,49 @@
+[project]
+name = "ultttt"
+version = "0.1.0"
+authors = [{ name = "Jacob Hummer", email = "jcbhmr@outlook.com" }]
+description = "♟️ Ultimate tic-tac-toe game GUI application using Python and PyGame"
+readme = "README.md"
+keywords = [
+    "python",
+    "tic-tac-toe",
+    "pygame",
+    "ultimate-tic-tac-toe",
+    "uv",
+    "gui",
+    "board-game",
+]
+classifiers = [
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Games/Entertainment :: Board Games",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.12"
+dependencies = ["pygame>=2.6.1"]
+
+[project.urls]
+homepage = "https://github.com/jcbhmr/ultttt"
+source = "https://github.com/jcbhmr/ultttt.git"
+download = "https://github.com/jcbhmr/ultttt/releases/latest"
+
+[project.gui-scripts]
+ultttt = "ultttt.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pillow>=11.0.0",
+    "poethepoet>=0.30.0",
+    "pyinstaller>=6.11.1",
+    "pyright>=1.1.389",
+    "ruff>=0.8.0",
+]
+
+[tool.poe.tasks]
+format = "ruff format"
+lint = "ruff check --fix"
+build-exe = "pyinstaller -y --name=ultttt --collect-all=ultttt --icon=src/ultttt/icon.png --windowed src/ultttt/_pyinstaller_ultttt.pyw"

@@ -1,0 +1,55 @@
+name: Create release
+on:
+  workflow_dispatch:
+jobs:
+  pyinstaller:
+    uses: ./.github/workflows/pyinstaller.yml
+  version:
+    outputs:
+      version: ${{ steps.version.outputs.result }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: version
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq '.project.version' 'pyproject.toml'
+  gh-release-create:
+    needs: [pyinstaller, version]
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    env:
+      version: ${{ needs.version.outputs.version }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: ultttt-linux_x86_64
+      - uses: actions/download-artifact@v4
+        with:
+          name: ultttt-macosx_10_9_x86_64
+      - uses: actions/download-artifact@v4
+        with:
+          name: ultttt-macosx_11_0_arm64
+      - uses: actions/download-artifact@v4
+        with:
+          name: ultttt-win_amd64
+      # https://github.com/actions/upload-artifact/issues/38
+      - run: chmod +x ultttt-linux_x86_64-$version/ultttt
+      - run: chmod +x ultttt-macosx_10_9_x86_64-$version/ultttt
+      - run: chmod +x ultttt-macosx_11_0_arm64-$version/ultttt
+      - run: tar czf ultttt-linux_x86_64-$version.tar.gz ultttt-linux_x86_64-$version
+      - run: tar czf ultttt-macosx_10_9_x86_64-$version.tar.gz ultttt-macosx_10_9_x86_64-$version
+      - run: tar czf ultttt-macosx_11_0_arm64-$version.tar.gz ultttt-macosx_11_0_arm64-$version
+      - run: zip -r ultttt-win_amd64-$version.zip ultttt-win_amd64-$version
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create "v$version" \
+            --draft \
+            --generate-notes \
+            ultttt-linux_x86_64-$version.tar.gz \
+            ultttt-macosx_10_9_x86_64-$version.tar.gz \
+            ultttt-macosx_11_0_arm64-$version.tar.gz \
+            ultttt-win_amd64-$version.zip
