@@ -1,0 +1,9 @@
+reasoners/__init__.py,sha256=_XXLXuZnkRXKOY8fC5XQEMcNOA8H8--xd5VYkeMU7Z8,167
+reasoners/base.py,sha256=bzeBQdVLh8c1Ya537TBrw3wY6pI3six5rAqmBBFFnXY,12572
+reasoners/utils.py,sha256=Mbv1n318WaqabGSluT8Bpy6nJYnB_R4I8hfAMm-BAY8,500
+llm_reasoners-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+llm_reasoners-1.0.1.dist-info/METADATA,sha256=9pWOrIR5FUULXA-d9_WIcgFO61gSmSaG93PgJEamwH0,616
+llm_reasoners-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+llm_reasoners-1.0.1.dist-info/entry_points.txt,sha256=aRNPHMv6ZXo0o0Clr2_QsAWFSJpcs38Qgp4I0DaQW4Y,70
+llm_reasoners-1.0.1.dist-info/top_level.txt,sha256=NKwzTwaz200AMqPw_weNJNDyroH8YPAF3udG7dtNtSI,10
+llm_reasoners-1.0.1.dist-info/RECORD,,
