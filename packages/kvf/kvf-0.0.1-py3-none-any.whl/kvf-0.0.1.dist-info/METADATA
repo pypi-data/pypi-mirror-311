@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kvf
+Version: 0.0.1
+Summary: Description
+Author-email: Pyrustic Architect <rusticalex@yahoo.com>
+Maintainer-email: Pyrustic Architect <rusticalex@yahoo.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/pyrustic/kvf
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
