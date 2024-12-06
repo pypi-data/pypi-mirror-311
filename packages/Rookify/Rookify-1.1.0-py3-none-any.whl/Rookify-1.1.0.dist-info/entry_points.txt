@@ -1,0 +1,2 @@
+[console_scripts]
+rookify = rookify.__main__:main
