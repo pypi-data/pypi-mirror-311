@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: ibkr-engine-osy
+Version: 0.0.1
+Summary: An engine that provides a tcp connection with TWS/IB for IBKR
+Project-URL: Homepage, https://github.com/osama-dev-repo/ibkr-engine
+Project-URL: Issues, https://github.com/osama-dev-repo/ibkr-engine/issues
+Author: OSAMA
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+This is an engine that provides openning a tcp socket connection with the IBKR TWS/IB GETWAY.

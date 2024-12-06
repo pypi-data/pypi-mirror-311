@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ibkr-engine-osy"
+version = "0.0.1"
+authors = [
+  { name="OSAMA", email="" },
+]
+description = "An engine that provides a tcp connection with TWS/IB for IBKR"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/osama-dev-repo/ibkr-engine"
+Issues = "https://github.com/osama-dev-repo/ibkr-engine/issues"
