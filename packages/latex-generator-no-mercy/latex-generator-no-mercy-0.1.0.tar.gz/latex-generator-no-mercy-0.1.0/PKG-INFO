@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: latex-generator-no-mercy
+Version: 0.1.0
+Summary: Генерация LaTeX таблиц и картинок
+Home-page: https://github.com/noMercy-q/latex-generator-no-mercy
+Author: Maxim Kirillov
+Author-email: max79kirillov@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6

@@ -1,0 +1,7 @@
+setup.py
+latex_generator-no-mercy/__init__.py
+latex_generator-no-mercy/latex_generator-no-mercy.py
+latex_generator_no_mercy.egg-info/PKG-INFO
+latex_generator_no_mercy.egg-info/SOURCES.txt
+latex_generator_no_mercy.egg-info/dependency_links.txt
+latex_generator_no_mercy.egg-info/top_level.txt
