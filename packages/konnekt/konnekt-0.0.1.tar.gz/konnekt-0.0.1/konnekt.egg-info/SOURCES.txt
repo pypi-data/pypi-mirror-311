@@ -1,0 +1,8 @@
+README.md
+setup.py
+konnekt/HTTPClient.py
+konnekt/__init__.py
+konnekt.egg-info/PKG-INFO
+konnekt.egg-info/SOURCES.txt
+konnekt.egg-info/dependency_links.txt
+konnekt.egg-info/top_level.txt
