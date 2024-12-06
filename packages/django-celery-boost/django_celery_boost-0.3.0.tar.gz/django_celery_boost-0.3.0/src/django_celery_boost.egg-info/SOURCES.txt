@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_celery_boost/__init__.py
+src/django_celery_boost/admin.py
+src/django_celery_boost/models.py
+src/django_celery_boost.egg-info/PKG-INFO
+src/django_celery_boost.egg-info/SOURCES.txt
+src/django_celery_boost.egg-info/dependency_links.txt
+src/django_celery_boost.egg-info/requires.txt
+src/django_celery_boost.egg-info/top_level.txt
+tests/test_admin.py
+tests/test_celery.py
+tests/test_eager.py
+tests/test_model.py
+tests/test_permissions.py
+tests/test_utils.py
