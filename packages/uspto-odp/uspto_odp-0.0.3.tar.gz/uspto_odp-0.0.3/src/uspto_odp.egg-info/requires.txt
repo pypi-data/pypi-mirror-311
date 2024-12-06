@@ -1,0 +1,7 @@
+aiohttp>=3.11.7
+strenum>=0.4.10
+
+[dev]
+pytest>=7.0
+pytest-asyncio
+coverage
