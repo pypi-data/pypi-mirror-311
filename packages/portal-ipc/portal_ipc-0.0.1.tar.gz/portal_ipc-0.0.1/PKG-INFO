@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: portal-ipc
+Version: 0.0.1
+Summary: Inter-process communication library
+Author-email: sean1832 <dev@zekezhang.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/sean1832/portal-ipc
+Project-URL: Issues, https://github.com/sean1832/portal-ipc/issues
+Keywords: ipc,inter-process communication
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32==308
+Requires-Dist: pywin32-stubs==1.0.7
+
+# portal-ipc

@@ -1,0 +1,10 @@
+pyproject.toml
+readme.md
+portal/__init__.py
+portal/connections/pipe_client.py
+portal/connections/pipe_server.py
+portal_ipc.egg-info/PKG-INFO
+portal_ipc.egg-info/SOURCES.txt
+portal_ipc.egg-info/dependency_links.txt
+portal_ipc.egg-info/requires.txt
+portal_ipc.egg-info/top_level.txt

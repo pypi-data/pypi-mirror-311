@@ -1,0 +1,36 @@
+[build-system]
+
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "portal-ipc"
+description = "Inter-process communication library"
+readme = "readme.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "sean1832", email = "dev@zekezhang.com" }]
+requires-python = ">=3.8"
+keywords = ["ipc", "inter-process communication"]
+
+# https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Operating System :: Microsoft :: Windows",
+]
+
+dependencies = ["pywin32==308", "pywin32-stubs==1.0.7"]
+
+[project.scripts]
+# script-name = "module:function"
+
+[project.urls]
+Homepage = "https://github.com/sean1832/portal-ipc"
+Issues = "https://github.com/sean1832/portal-ipc/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "portal.__version__" }
+
+[tool.setuptools]
+# packages = { find = { include = ["portal/*"] } }
