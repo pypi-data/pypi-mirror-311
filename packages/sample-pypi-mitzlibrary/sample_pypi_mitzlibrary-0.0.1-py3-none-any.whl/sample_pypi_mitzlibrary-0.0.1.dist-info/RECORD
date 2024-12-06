@@ -1,0 +1,6 @@
+sample_project/__init__.py,sha256=bN3rpJWYLS1CB9iv4Ztpw2Cz1NBYokn01l5tfGaHcOI,62
+sample_project/sample.py,sha256=v4I0GKaTSmGF3fMEUVQU76obnC8j1EJjBMW1-TMfoUQ,97
+sample_pypi_mitzlibrary-0.0.1.dist-info/METADATA,sha256=6CC0diXTqyTD9Tjm6N5q6tR6WppqZf2UxZxpJzPL5DI,1290
+sample_pypi_mitzlibrary-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+sample_pypi_mitzlibrary-0.0.1.dist-info/top_level.txt,sha256=8mNh8BxjysAiubKZs2uLVYyjI9vWlIpnw74--DTaBMc,15
+sample_pypi_mitzlibrary-0.0.1.dist-info/RECORD,,
