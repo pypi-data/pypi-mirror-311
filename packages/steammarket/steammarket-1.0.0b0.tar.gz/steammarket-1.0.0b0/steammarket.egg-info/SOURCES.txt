@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+steammarket/__init__.py
+steammarket/steammarket.py
+steammarket.egg-info/PKG-INFO
+steammarket.egg-info/SOURCES.txt
+steammarket.egg-info/dependency_links.txt
+steammarket.egg-info/requires.txt
+steammarket.egg-info/top_level.txt
