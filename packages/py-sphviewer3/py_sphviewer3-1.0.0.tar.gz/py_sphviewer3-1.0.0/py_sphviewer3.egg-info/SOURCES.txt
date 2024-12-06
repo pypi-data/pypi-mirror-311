@@ -1,0 +1,9 @@
+setup.py
+py_sphviewer3.egg-info/PKG-INFO
+py_sphviewer3.egg-info/SOURCES.txt
+py_sphviewer3.egg-info/dependency_links.txt
+py_sphviewer3.egg-info/requires.txt
+py_sphviewer3.egg-info/top_level.txt
+sphviewer3/KDTree.py
+sphviewer3/__init__.py
+sphviewer3/sphviewer3.py
