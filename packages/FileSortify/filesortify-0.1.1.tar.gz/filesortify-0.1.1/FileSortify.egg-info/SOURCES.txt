@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+FileSortify.egg-info/PKG-INFO
+FileSortify.egg-info/SOURCES.txt
+FileSortify.egg-info/dependency_links.txt
+FileSortify.egg-info/top_level.txt
+filesortify/__init__.py
+filesortify/organizer.py
