@@ -1,0 +1,116 @@
+Metadata-Version: 2.3
+Name: faststack
+Version: 0.2.2
+Summary: Common utilities for FastAPI apps
+Project-URL: Homepage, https://github.com/rmasters/faststack
+Project-URL: Issues, https://github.com/rmasters/faststack/issues
+Author-email: Ross Masters <ross@rossmasters.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Classifier: Typing :: Typed
+Requires-Python: <4.0,>=3.12
+Requires-Dist: asyncer<1.0,>=0.0.7
+Requires-Dist: fastapi<1.0,>=0.111.0
+Requires-Dist: sqlmodel<1.0,>=0.0.19
+Requires-Dist: typer<1.0,>=0.12.3
+Provides-Extra: apps
+Requires-Dist: pydantic-settings>=2.6.1; extra == 'apps'
+Requires-Dist: sqlmodel>=0.0.22; extra == 'apps'
+Requires-Dist: that-depends>=1.26.0; extra == 'apps'
+Description-Content-Type: text/markdown
+
+# faststack
+
+A set of common utilities that I add to nearly every FastAPI project, including:
+
+- A pure-Python healthcheck,
+- An SQLModel-bound model repository class,
+- An async-friendly Typer base-class, based on discussions in the Typer repo
+
+The intent is to grow this organically into a more fully-featured web stack,
+based on FastAPI, SQLModel, and other async friendly packages.
+
+## Usage: install `faststack`
+
+### SQLModel repository class
+
+The repository class binds to an AsyncSession, and provides a few common methods
+for model retrieval:
+
+*   `get(pk) -> Model | None`
+*   `all() -> Sequence[Model]`
+
+```python
+from typing import Sequence
+from faststack.models import SQLModelRepository
+from sqlalchemy import desc
+from sqlalchemy.orm import selectinload
+from sqlmodel import select
+
+from .models import Article, Comment
+
+class ArticleRepository(SQLModelRepository[Article]): ...
+
+class CommentRepository(SQLModelRepository[Comment]):
+    async def get_for_article(self, article: Article) -> Sequence[Comment]:
+        qry = select(Comment) \
+            .where(Comment.article == article) \
+            .order_by(desc(Comment.posted_at)) \
+            .options(selectinload(Comment.article))
+        return (await self.session.exec(qry)).fetch_all()
+```
+
+This will be extended to add pagination, magic methods, etc.
+
+### Healthchecks
+
+Provides a healthcheck endpoint and a command-line tool to add a container
+healthcheck. The main motivation behind this is to remove the need to add
+cURL to the application container image.
+
+The default healthcheck router adds an endpoint at `/health` that returns a HTTP 204 response.
+
+A command line utility is provided to hit this endpoint, and alert based on status.
+
+```python
+from faststack.healthcheck import build_healthcheck_router
+
+app = FastAPI()
+
+app.include_router(build_healthcheck_router(path="/health"))
+```
+
+```Dockerfile
+HEALTHCHECK CMD ["python", "-m", "faststack.healthcheck"]
+
+# Supported arguments
+EXPOSE 3000
+HEALTHCHECK CMD ["python", "-m", "faststack.healthcheck", "--status=204", "--status=200", "--url=http://localhost:3000/custom-health"]
+```
+
+### Async-friendly Typer
+
+A stop-gap Typer class that supports async commands, based on comments from:
+
+* https://github.com/tiangolo/typer/issues/88
+* https://github.com/tiangolo/typer/issues/80
+
+```
+from faststack.cli import AsyncTyper
+
+app = AsyncTyper()
+
+@app.command()
+async def my_command():
+    await asyncio.sleep(1)
+```
+
