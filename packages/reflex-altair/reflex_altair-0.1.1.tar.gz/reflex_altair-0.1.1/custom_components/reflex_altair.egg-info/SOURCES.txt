@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+custom_components/reflex_altair/__init__.py
+custom_components/reflex_altair/component.py
+custom_components/reflex_altair/serializer.py
+custom_components/reflex_altair/type.py
+custom_components/reflex_altair.egg-info/PKG-INFO
+custom_components/reflex_altair.egg-info/SOURCES.txt
+custom_components/reflex_altair.egg-info/dependency_links.txt
+custom_components/reflex_altair.egg-info/requires.txt
+custom_components/reflex_altair.egg-info/top_level.txt
