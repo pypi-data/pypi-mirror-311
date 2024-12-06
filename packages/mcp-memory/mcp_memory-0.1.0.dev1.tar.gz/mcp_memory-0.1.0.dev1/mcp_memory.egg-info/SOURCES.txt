@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+mcp_memory/__init__.py
+mcp_memory/server.py
+mcp_memory.egg-info/PKG-INFO
+mcp_memory.egg-info/SOURCES.txt
+mcp_memory.egg-info/dependency_links.txt
+mcp_memory.egg-info/requires.txt
+mcp_memory.egg-info/top_level.txt
