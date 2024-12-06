@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: antelop
+Version: 0.1.0
+Summary: Antelope is a data management and processing tool for systems neuroscientists
+Project-URL: Homepage, https://github.com/mtripodi/Antelope
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.9.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==1.23.5
+Requires-Dist: datajoint==0.14.1
+Requires-Dist: ipython==8.18.1
+Requires-Dist: toml==0.10.2
+Requires-Dist: networkx==2.6.3
+Requires-Dist: pynwb==2.5.0
+Requires-Dist: probeinterface==0.2.19
+Requires-Dist: paramiko==3.3.1
+Requires-Dist: jsonschema==4.19.2
+Requires-Dist: pyyaml==6.0.1
+Provides-Extra: gui
+Requires-Dist: urllib3==2.0.7; extra == "gui"
+Requires-Dist: streamlit==1.29.0; extra == "gui"
+Requires-Dist: streamlit-antd-components==0.3.2; extra == "gui"
+Requires-Dist: plotly==5.19.0; extra == "gui"
+Provides-Extra: phy
+Requires-Dist: phy-poetry==0.1.4; extra == "phy"
+Provides-Extra: deeplabcut
+Requires-Dist: scikit-image==0.19.1; extra == "deeplabcut"
+Requires-Dist: protobuf==3.20.3; extra == "deeplabcut"
+Requires-Dist: deeplabcut[gui,tf]==2.3.9; extra == "deeplabcut"
+Provides-Extra: full
+Requires-Dist: urllib3==2.0.7; extra == "full"
+Requires-Dist: streamlit==1.29.0; extra == "full"
+Requires-Dist: streamlit-antd-components==0.3.2; extra == "full"
+Requires-Dist: plotly==5.19.0; extra == "full"
+Requires-Dist: phy-poetry==0.1.4; extra == "full"
+Requires-Dist: scikit-image==0.19.1; extra == "full"
+Requires-Dist: protobuf==3.20.3; extra == "full"
+Requires-Dist: deeplabcut[gui,tf]==2.3.9; extra == "full"
+
+# Antelope
+Antelope is a database for electrophysiology data. It provides a web based GUI, automatic spikesorting, and data analysis tools built in.
+
+Please read our [documentation](https://antelope.readthedocs.io/en/latest/).

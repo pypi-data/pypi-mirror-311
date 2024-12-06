@@ -1,0 +1,4 @@
+[console_scripts]
+antelope = antelope.scripts.run_gui:run
+antelope-config = antelope.scripts.make_config:run
+antelope-python = antelope.scripts.antelope_python:run
