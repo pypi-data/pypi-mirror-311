@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: artypy
+Version: 0.11.0
+Summary: Lightweight library for artistic filters
+Home-page: https://github.com/artypy/arty
+Author: artypy team
+Author-email: ahmatovbulat@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: opencv-python
+Requires-Dist: progressbar
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Provides-Extra: cuda
+Requires-Dist: torch; extra == "cuda"
+
+# artypy - lightweight library for artistic filters
+
+## Installation
+```bash
+pip install artypy
+```
+
+If you want to use cuda for nn module, you should install pytorch with cuda, or simply:
+```bash
+pip install artypy[cuda]
+```
+
+You can see usage examples in the _demo folder of the github repository:
+
+https://github.com/artypy/arty
