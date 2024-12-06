@@ -1,0 +1,2 @@
+[console_scripts]
+mypy-lsp-wrapper = mypy_lsp_wrapper:main
