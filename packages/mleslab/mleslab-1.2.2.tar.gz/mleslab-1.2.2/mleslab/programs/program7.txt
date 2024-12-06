@@ -1,0 +1,44 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+from sklearn.cluster import KMeans
+from sklearn.metrics import accuracy_score, silhouette_score
+data = "C:/Users/Mahesh Kumar/Desktop/Book1.csv"
+df = pd.read_csv(data)
+print(df.dtypes)
+label_encoder = LabelEncoder()
+for column in df.select_dtypes(include=['object']).columns:
+df[column] = label_encoder.fit_transform(df[column])
+X = df.drop('ELIGIBLE', axis=1)
+y = df['ELIGIBLE']
+scaler = MinMaxScaler()
+X_scaled = scaler.fit_transform(X)
+inertia = []
+k_range = range(1, 11)
+for k in k_range:
+kmeans = KMeans(n_clusters=k, random_state=0)
+kmeans.fit(X_scaled)
+inertia.append(kmeans.inertia_)
+plt.plot(k_range, inertia, marker='o')
+plt.title("Elbow Method for Optimal k")
+plt.xlabel("Number of Clusters (k)")
+plt.ylabel("Inertia")
+plt.show()
+optimal_k = 8
+print(f"Using k={optimal_k} for KMeans")
+kmeans = KMeans(n_clusters=optimal_k, random_state=0)
+labels = kmeans.fit_predict(X_scaled)
+accuracy = accuracy_score(y, labels)
+print(f"Accuracy: {accuracy}")
+score = silhouette_score(X_scaled, labels)
+print(f"Silhouette Score: {score}")
+if X_scaled.shape[1] == 2:
+plt.scatter(X_scaled[:, 0], X_scaled[:, 1], c=labels, cmap='viridis')
+plt.title("KMeans Clustering")
+plt.xlabel("Feature 1")
+plt.ylabel("Feature 2")
+plt.show()
+else:
+print("Data has more than 2 features, cannot plot directly. Consider using PCA/t-SNE
+for visualization.")
