@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: datatrails-scitt-samples
+Version: 0.1.1a1
+Summary: DataTrails SCITT Examples
+Home-page: https://github.com/datatrails/datatrails-scitt-samples
+Author: DataTrails Inc.
+Author-email: support@datatrails.ai
+License: MIT
+Project-URL: Source, https://github.com/datatrails/datatrails-scitt-samples
+Project-URL: Tracker, https://github.com/datatrails/datatrails-scitt-samples/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bencode.py~=4.0.0
+Requires-Dist: ecdsa~=0.18.0
+Requires-Dist: jwcrypto~=1.5.0
+Requires-Dist: pycose~=1.0.1
+Requires-Dist: pycryptodome~=3.20.0
+Requires-Dist: requests>=2.32.0
+
+![Logo](https://raw.githubusercontent.com/datatrails/datatrails-scitt-samples/main/DataTrails_Horizontal_Logo_Black.png#gh-light-mode-only)
+![Logo](https://raw.githubusercontent.com/datatrails/datatrails-scitt-samples/main/DataTrails_Horizontal_Logo_White.png#gh-dark-mode-only)
+
+# DataTrails SCITT Examples
+
+The files in this repository can be used to demonstrate how the DataTrails SCITT API works.
+
+For usage, please see [Quickstart: SCITT Statements (Preview)](https://docs.datatrails.ai/developers/developer-patterns/scitt-api/)
+
+The python package produced by this repository is tested to a production standard.
+
+Its purpose is to provide a clear example of how to use the current DataTrails SCITT API's,
+as such, no promise of backwards compatibility is given.
+
+Developers are encouraged to use the sources in this repositor as reference
+material for their own integrations.
