@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: ibb_veri_portali
+Version: 0.2.0
+Summary: Ibb Portal
+Home-page: https://github.com/yunusxxz
+Author: yunusx
+Author-email: isikyunusemre63@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pandas
+Requires-Dist: requests
+
+# Ä°BB Veri PortalÄ±  
+
+**Ä°BB Veri PortalÄ±**, Ä°stanbul BÃ¼yÃ¼kÅŸehir Belediyesiâ€™nin (Ä°BB) Ä°SPARK verilerine kolayca eriÅŸmek ve bu verileri analiz etmek iÃ§in geliÅŸtirilmiÅŸ bir Python kÃ¼tÃ¼phanesidir. KÃ¼tÃ¼phane, Ä°BBâ€™nin saÄŸladÄ±ÄŸÄ± otopark API'sine baÄŸlanmayÄ± kolaylaÅŸtÄ±rÄ±r ve veri iÅŸleme araÃ§larÄ±yla kullanÄ±cÄ± dostu bir deneyim sunar.  
+
+---
+
+## Ã–zellikler  
+
+- **Genel park bilgilerini Ã§ekme:** TÃ¼m Ä°SPARK verilerini tek bir API Ã§aÄŸrÄ±sÄ± ile elde edin.  
+- **Belirli bir parkÄ±n detaylarÄ±na eriÅŸim:** Ä°stediÄŸiniz park ID'sini belirterek detaylÄ± bilgilere ulaÅŸÄ±n.  
+- **Kolay veri analizi:** Verileri `pandas` DataFrame veya Series formatÄ±nda iÅŸleyin.  
+
+---
+
+## Kurulum  
+
+KÃ¼tÃ¼phaneyi PyPI Ã¼zerinden kolayca kurabilirsiniz:  
+```bash
+pip install ibb-veri-portali
+```  
+
+---
+
+## KullanÄ±m  
+
+### 1. Genel Park Verilerini Ã‡ekme  
+TÃ¼m park bilgilerini JSON formatÄ±nda almak iÃ§in:  
+```python
+from ibb_veri_portali import json
+
+veriler = json()
+print(veriler)
+```  
+
+### 2. Belirli Bir ParkÄ±n DetaylarÄ±nÄ± Ã‡ekme  
+Park ID'sine gÃ¶re detaylÄ± bilgi almak iÃ§in:  
+```
+from ibb_veri_portali import series
+
+park_bilgisi = series(882)  # Ã–rnek: Park ID'si 882
+print(park_bilgisi)
+```  
+
+### 3. Verileri DataFrame FormatÄ±nda Kullanma  
+TÃ¼m park verilerini `pandas.DataFrame` olarak almak iÃ§in:  
+```
+from ibb_veri_portali import dataframe
+
+df = dataframe()
+print(df.head())
+```  
+
+---
+
+## Gereksinimler  
+
+- Python 3.8 veya Ã¼stÃ¼  
+- `requests` kÃ¼tÃ¼phanesi  
+- `pandas` kÃ¼tÃ¼phanesi  
+
+---
+
+## KatkÄ±da Bulunma  
+
+Bu projeye katkÄ±da bulunmak isterseniz, GitHub Ã¼zerinden bir **pull request** oluÅŸturabilirsiniz. HatalarÄ± veya iyileÅŸtirme Ã¶nerilerinizi **issues** bÃ¶lÃ¼mÃ¼nde paylaÅŸabilirsiniz.  
+
+---
+
+## Lisans  
+
+Bu proje MIT LisansÄ± ile lisanslanmÄ±ÅŸtÄ±r. Daha fazla bilgi iÃ§in `LICENSE` dosyasÄ±na bakabilirsiniz.  
+
+---
+

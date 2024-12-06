@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+ibb_veri_portali/__init__.py
+ibb_veri_portali/ispark.py
+ibb_veri_portali.egg-info/PKG-INFO
+ibb_veri_portali.egg-info/SOURCES.txt
+ibb_veri_portali.egg-info/dependency_links.txt
+ibb_veri_portali.egg-info/requires.txt
+ibb_veri_portali.egg-info/top_level.txt
