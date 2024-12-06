@@ -1,0 +1,13 @@
+numericalderivative/DerivativeBenchmark.py,sha256=P5AuLES_ZP16KytudsrooGKuTKvk1yDTvIylt3dRyuI,9830
+numericalderivative/DumontetVignes.py,sha256=t4SKjCtEHOThulV_IZlBp6RUoJAYfCoiPziE1l0Hkjc,13239
+numericalderivative/FiniteDifferenceFormula.py,sha256=v4YaPIb8k-uBp0T7J--48EtEa-6Dhpl0W8almf-YhKA,5381
+numericalderivative/FiniteDifferenceOptimalStep.py,sha256=K56dbRUnvgXUHIIPWfgZ3wm5dNkddTlNEZ7svX9adB4,4064
+numericalderivative/GillMurraySaundersWright.py,sha256=ockjVkHx4rX5qRc8seHM0iNU5IPmm4vwiQhFxfKjhUI,11606
+numericalderivative/NumericalDerivative.py,sha256=I2dv8jk_rgP9B_gBxioj0ag6ky1m78_Dc65CBNM60XU,3040
+numericalderivative/SteplemanWinarsky.py,sha256=HYairZCKeU4MfM7FPA7tXt3_e9c9s0u8csiN3MyZ57c,12588
+numericalderivative/__init__.py,sha256=B2D5yeVQuO-StINpQ5EthHE55WEi0XDKiANy6jCI4GY,1265
+numericalderivative-0.1.dist-info/LICENSE.txt,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+numericalderivative-0.1.dist-info/METADATA,sha256=k5X5YTjUkuFOWyyNip64Xrc0AFDM2CRe0WHmBL1cQGA,3124
+numericalderivative-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+numericalderivative-0.1.dist-info/top_level.txt,sha256=y-0FQHHN4s3wFI0_8_YAlB0bmQ7RucJ_ZcxGDTzFmJM,20
+numericalderivative-0.1.dist-info/RECORD,,
