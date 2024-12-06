@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: datarisk_mlops_codex
+Version: 2.2.0rc1
+Summary: Python tools for interact with Datarisk MLOps platform
+Home-page: https://datarisk-io.github.io/mlops_codex/
+Download-URL: https://github.com/datarisk-io/mlops_codex/archive/refs/tags/v2.2.0rc-01.tar.gz
+Author: Datarisk
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests==2.32.3
+Requires-Dist: loguru==0.6.0
+Requires-Dist: pyaml==24.9.0
+Requires-Dist: python-dotenv==0.21.0
+Requires-Dist: cachetools
+Requires-Dist: cloudpickle>=2.0.0
+Requires-Dist: pyarrow>=1.0.0
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: lazy-imports==0.3.1
+
+# MLOps Codex
+
+For the brazilian portuguese README, click [here :brazil:](./README.pt-br.md).
+
+## About
+
+Package for interacting with MLOps, a tool for deploying ML models.
+
+## Getting started
+
+### Install
+
+```
+  pip install datarisk_mlops_codex
+```
+
+### How to use
+
+Check the [documentation](https://datarisk-io.github.io/mlops_codex) page for more information.
+
+There's also some [example](https://github.com/datarisk-io/mlops_codex/tree/master/notebooks) notebooks.
+
+### For developers
+
+Install pipenv
+
+```
+  pip install pipenv
+```
+
+Install the package enviroment
+
+```
+  pipenv update --dev
+  pipenv shell
+```
