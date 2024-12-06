@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/bootstrap-table.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>SJD Babylab</title>
+</head>
+
+<header>
+  <!-- Navbar -->
+  <nav class="navbar bg-primary sticky-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{{ url_for('index') }}">Babylab SJD &nbsp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item"></li>
+          <a class="nav-link" href="{{ url_for('dashboard') }}"><i class="fas fa-rocket"></i>&nbsp&nbspDashboard</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('participants') }}"><i
+                class="fa fa-user"></i>&nbsp&nbspParticipants</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('appointments') }}"><i
+                class="fa fa-calendar"></i>&nbsp&nbspAppointments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://apps.sjdhospitalbarcelona.org/redcap/"><i
+                class="fa fa-database"></i>&nbsp&nbspREDCap</a>
+          </li>
+          <li class="nav-item"></li>
+          <a class="nav-link" target="_blank" href="https://github.com/NeuroDevComp/babylab-redcap"><i
+              class="fa-brands fa-github"></i>&nbsp&nbspGitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('index') }}"><i class="fa-solid fa-rotate"></i>&nbsp&nbspRefresh
+              &nbsp</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+</header>
+
+<body background="{{ url_for('static',filename='sant-joan-2.png' ) }}"
+  style="background-repeat: no-repeat; background-color: #f7c1a1;">
+  <section class="content" style="padding: 2em 5em 5em 5em;">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for cat, msg in messages %}
+    {% if cat=="success" %}
+    <div class="alert alert-success"><i class="fa fa-check"></i>&nbsp&nbsp{{ msg }}</div>
+    {% endif %}
+    {% if cat=="error" %}
+    <div class="alert alert-danger"><i class="fa fa-exclamation"></i>&nbsp&nbsp{{ msg }}</div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    {% block content %} {% endblock %}
+    </ul>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/bootstrap-table.min.js"></script>
+</body>
+
+</html>
