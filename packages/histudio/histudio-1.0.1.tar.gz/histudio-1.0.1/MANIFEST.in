@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include histudio/migrations
+recursive-include histudio/migrations/versions *
+include histudio/migrations/alembic.ini
+include histudio/migrations/script.py.mako
