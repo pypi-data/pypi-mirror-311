@@ -1,0 +1,10 @@
+spdx3_build_gen/__init__.py,sha256=padK4o0BFqq61kxAA1qQ0jYr2SuhA2mf90B3AaRkmJA,37
+spdx3_build_gen/__main__.py,sha256=xWmYOo4S8cDiXgIQFhBg1fdHi1ANIbviMSrbx4LXOAw,173
+spdx3_build_gen/main.py,sha256=VAVSS6RyMEPlfJZ7NUftM-bpO_HccgD64LPbUp_HTKI,13383
+spdx3_build_gen/spdx3.py,sha256=ffvMwaQ74h1yXp61_wM6f6mqwnecZXPUXZGOW6Br0hk,263742
+spdx3_build_gen/version.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+spdx3_build_gen-0.0.1.dist-info/METADATA,sha256=9CR8pac7tIWO94qSNBzL77FhjFcXPyOYdSK_fgJVhiU,1644
+spdx3_build_gen-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+spdx3_build_gen-0.0.1.dist-info/entry_points.txt,sha256=5NFaANGV1AuDDkp4i3w6NmSYFnXsJBzoYDLgqL9_498,57
+spdx3_build_gen-0.0.1.dist-info/licenses/LICENSE,sha256=npUT32k_O0lU4UHJ8ZZ2_Ti0GR1oSbNGRzID9lSWkxs,1068
+spdx3_build_gen-0.0.1.dist-info/RECORD,,

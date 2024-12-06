@@ -1,0 +1,2 @@
+[console_scripts]
+spdx3-build-gen = spdx3_build_gen:main
