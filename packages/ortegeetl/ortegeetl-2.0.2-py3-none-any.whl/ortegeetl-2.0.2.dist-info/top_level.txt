@@ -1,0 +1,8 @@
+aptosetl
+bitcoinetl
+blockchainetl
+ethereumetl
+ordinalsetl
+ortegeetl
+stacketl
+stellaretl
