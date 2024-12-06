@@ -1,0 +1,11 @@
+deep_quality_estimation/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deep_quality_estimation/__init__.py,sha256=pCgdcBCWwIZBL6hBrAKbD-fTxXY4C3wUi4gl51knZ0o,122
+deep_quality_estimation/center_of_mass.py,sha256=aHNUcLGwxRgBoI00KFfQGP3p07uzLpIA-TeK92Jj7Eg,2403
+deep_quality_estimation/data_handler.py,sha256=a_LAnYdHLZ40Y0EsZaqN7GS7NLuBSooNraf9Pu13fu8,5701
+deep_quality_estimation/enums.py,sha256=fFCRNF284p4byB9VzltlnnotmQSDsfZ3mn-LFZbarAc,163
+deep_quality_estimation/model.py,sha256=jpjCWc5kK1g6zJnz0QqbdBWYyXT9sjIQ7mDMm7C6RtI,4234
+deep_quality_estimation/transforms.py,sha256=vzI4XKkDbZLeB34Ifna5tF1CZSqbo1TbNkEg2zjZ_Kg,2704
+deep_quality_estimation/weights/dqe_weights.pth,sha256=bTXsx0CVWU1o1u8uGknndyyEr_nYiC2uhOt8lRaCXyw,28486832
+deep_quality_estimation-0.0.2.dist-info/METADATA,sha256=cQU_cvvLm_62OzupOqQRxAlgjKiGkRUSXtn2mztmHOE,5054
+deep_quality_estimation-0.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+deep_quality_estimation-0.0.2.dist-info/RECORD,,
