@@ -1,0 +1,111 @@
+[tool.poetry]
+name = "connect-reports-core"
+version = "34.0"
+description = "Connect Reports Core"
+authors = ["CloudBlue LLC"]
+license = "Apache-2.0"
+packages = [
+    { include = "connect" },
+]
+readme = "./README.md"
+homepage = "https://connect.cloudblue.com"
+repository = "https://github.com/cloudblue/connect-reports-core"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+    "Topic :: Software Development :: Libraries",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+openpyxl = ">=2.5.14"
+WeasyPrint = ">=59,<64"
+Jinja2 = ">=2,<4"
+jsonschema = ">=3,<5"
+pytz = "*"
+lxml = ">=4.9"
+orjson = ">=3.5.2,<4"
+plotly = ">=5.9.0,<6"
+kaleido = ">=0.4,<1"
+
+[tool.poetry.group.test.dependencies]
+ipython = "^8"
+pytest = ">=6.1.2,<9"
+pytest-cov = ">=2.10.1,<7"
+pytest-mock = "^3.14"
+coverage = {extras = ["toml"], version = ">=5.3,<7"}
+flake8 = ">=3.8,<8"
+flake8-bugbear = ">=20,<25"
+flake8-cognitive-complexity = "^0.1"
+flake8-commas = "^4.0"
+flake8-future-import = "~0.4"
+flake8-broken-line = "^1.0"
+flake8-pyproject = "^1.2.3"
+fs = "^2.4.16"
+pytest-asyncio = "^0.24"
+flake8-isort = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+log_cli = true
+addopts = "--cov=connect.reports --cov-report=term-missing:skip-covered --cov-report=html --cov-report=xml"
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+omit = [
+    "*/migrations/*",
+    "*/config/*",
+    "*/settings/*",
+    "*/manage.py",
+    "*/wsgi.py",
+    "*/urls.py",
+    "*/reports/constants.py"
+]
+
+exclude_lines = [
+    "pragma: no cover",
+    "def __str__",
+    "def __repr__",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
+
+[tool.flake8]
+exclude = [
+    ".idea",
+    ".vscode",
+    ".git",
+    "pg_data",
+    "venv",
+    "*/settings/*.py",
+    "*/migrations/*.py"
+]
+show_source = true
+max_line_length = 100
+max_cognitive_complexity = 15
+ignore = ["FI1", "W503", "B008"]
+
+[tool.isort]
+src_paths = "*"
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+group_by_package = true
+multi_line_output = 3
+force_grid_wrap = 4
+combine_as_imports = true
+use_parentheses = true
+include_trailing_comma = true
+line_length = 100
+lines_after_imports = 2
