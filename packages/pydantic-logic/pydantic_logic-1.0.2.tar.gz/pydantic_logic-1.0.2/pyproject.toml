@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "pydantic-logic"
+description = "Build complex rules, operate them with Pydantic, and execute them in Python"
+version = "1.0.2"
+authors = ["Roman Poltorabatko <r.m.poltorabatko@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["python", "pydantic", "logic", "condition", "validation", "json"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+repository = "https://github.com/barabum0/pydantic-logic"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = ">=2.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+mypy = "^1.10.0"
+isort = "^5.13.2"
+pre-commit = "^3.7.1"
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+src_paths = ["."]
+
+[tool.mypy]
+python_version = "3.10"
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
