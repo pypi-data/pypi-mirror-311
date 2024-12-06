@@ -1,0 +1,14 @@
+djangocms_qrcode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocms_qrcode/apps.py,sha256=lVDtuMlD5xUsBdKi4dlOKR3yDvGJYPL1fMwbYR6WXNM,163
+djangocms_qrcode/cms_plugins.py,sha256=P7mn4h69SdV15BiYlZuYNaSBny3QPJWAsuPJS0WG2GU,1017
+djangocms_qrcode/locale/cs/LC_MESSAGES/django.mo,sha256=eZx8COnGbRsj_NFJIELJCKI17pPguUS1GOU9tVr5OYg,1854
+djangocms_qrcode/locale/cs/LC_MESSAGES/django.po,sha256=uGhQSUMx4RU3-lkpkpcg470say-as-dGBdD_Ukv177Q,3010
+djangocms_qrcode/migrations/0001_initial.py,sha256=eGaQGJrlv7dzKlIkBeJ1ftig-BfXMRwZvLE5n33iV1M,27612
+djangocms_qrcode/migrations/0002_alter_qrcode_alignment_dark_and_more.py,sha256=3avOaKHIfWXjNcqEPXctyocuAtqZxS3rN_dQY4lCYvo,10109
+djangocms_qrcode/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocms_qrcode/models.py,sha256=cwwBW8Lb2GvoVkmvGi76HdtSe4_m--J6dGGIbBDG_V4,5539
+djangocms_qrcode/templates/djangocms-qrcode.html,sha256=TS1YjJailBntdicppp7q7Rv7Jsiv7N1Ye6Eq5TSyHPo,57
+djangocms_qrcode-0.1.0.dist-info/LICENSE,sha256=51w5zBdhL4LS4UUMcrOLetPgah9UP1Dcfllbm09mYU8,1448
+djangocms_qrcode-0.1.0.dist-info/METADATA,sha256=ayy0liLYkKjkkYiPUsOfTq7WtW-l5T0uZI4lBX8aawg,742
+djangocms_qrcode-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+djangocms_qrcode-0.1.0.dist-info/RECORD,,
