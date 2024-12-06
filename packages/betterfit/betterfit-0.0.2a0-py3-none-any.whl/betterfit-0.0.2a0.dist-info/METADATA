@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: betterfit
+Version: 0.0.2a0
+Summary: Regression of data with error propagation
+Home-page: https://github.com/leftgoes/betterfit
+License: MIT
+Keywords: regression,data
+Author: Ha Jong Kim
+Requires-Python: >=3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: matplotlib
+Requires-Dist: numpy (>=2)
+Requires-Dist: sympy
+Requires-Dist: uncertainties (>=3)
+Project-URL: Repository, https://github.com/leftgoes/betterfit
+Description-Content-Type: text/markdown
+
+# Betterfit
+## Installation
+`pip install betterfit`
