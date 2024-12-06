@@ -1,0 +1,12 @@
+Chessnut/__init__.py,sha256=MM8xMDTvhwImZzmHny46mZ1qOMwrryyAvoBXWne_rvA,1455
+Chessnut/board.py,sha256=IEoTH5BQOpp6f2K1r_oU0l_S8xS-AQEDrlRsWVl4eHk,2542
+Chessnut/game.py,sha256=JFXeMCe5usw1M9stKaHyBLnmovO-I6xCThZJbMOmm_4,14160
+Chessnut/moves.py,sha256=WcrvlVVLxJkY2WIBrZkkJisYFmxAaxniIlMIqwOz3qI,5362
+Chessnut/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Chessnut/tests/test_board.py,sha256=aftZ-Q-WAORxZP9pGUSgH9VftFhwawLsddMC3MCHNLs,970
+Chessnut/tests/test_game.py,sha256=uLJ0klLPrVUYbueNVWFmP3Oso3MvQ3T-iHnccMNzmRw,7204
+Chessnut/tests/test_moves.py,sha256=H1XONMVM-u8BmzIC4V61Vf7beOAXlm3J7Tq1YF-LQLo,948
+Chessnut-0.4.1.dist-info/METADATA,sha256=FadaV_kQopEtm2m5hv-VEalJwkrcUdEN2SEollGA6u4,1226
+Chessnut-0.4.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+Chessnut-0.4.1.dist-info/top_level.txt,sha256=BN8hTYPZPJE5MuRZbCJ3XUUaBdzvF6x9aWjnGYSeWtY,9
+Chessnut-0.4.1.dist-info/RECORD,,
