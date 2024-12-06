@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aloha-data-collection
+Version: 0.1.0
+Summary: 
+Author: Shantanu Parab
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyside6 (>=6.8.0.2,<7.0.0.0)
+Description-Content-Type: text/markdown
+
+# ALOHA Data Collection
+
+sudo apt install libxcb-cursor0
+
+
+'.cache/calibration/aloha_default/right_follower.json'
+
+# Install pipx
+
+# Install poetry
+
+
