@@ -1,0 +1,3 @@
+[console_scripts]
+hello-world = meg_qc.test:run_megqc
+
