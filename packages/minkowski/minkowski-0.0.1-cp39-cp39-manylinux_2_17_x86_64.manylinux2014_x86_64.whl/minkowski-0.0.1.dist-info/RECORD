@@ -1,0 +1,9 @@
+minkowski.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+minkowski.libs/libntl-424d9dea.so.44.0.1,sha256=qTOhQI2tfSHiTc3QWdwh54UYiJh_a3JO9mbVIr7yPB0,34808337
+minkowski.libs/libgmp-afec2dd4.so.10.2.0,sha256=MNTiOnu9DKH49DN5Kmd9OeJIpS85qZGJKY__Hy3KWQ0,515857
+minkowski-0.0.1.dist-info/RECORD,,
+minkowski-0.0.1.dist-info/METADATA,sha256=8nvNGxXxdVwhvT1sj8CqPMWxMJ8wFHJvZDGxobXv3Mo,1192
+minkowski-0.0.1.dist-info/WHEEL,sha256=kTiiq_ty6YfCgVTXDxMfzvIhNXkmkVPizZllzkx1WUM,152
+minkowski-0.0.1.dist-info/licenses/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+minkowski/__init__.py,sha256=xpP9pBDVEk7gWFHvWAk8g_z8FPnYbzb-WgZ9gy007Dg,34
+minkowski/_minkowski.cpython-39-x86_64-linux-gnu.so,sha256=PC76LhG_ZTIYR1ph2tT--b3EROZ7fA_LdEjXgUQjlII,308233
