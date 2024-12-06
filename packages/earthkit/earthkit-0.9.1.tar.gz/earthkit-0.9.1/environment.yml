@@ -1,0 +1,14 @@
+name: earthkit
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- earthkit-data>=0.11.2
+- geos
+- pip:
+  - earthkit-geo>=0.3.0
+  - earthkit-meteo>=0.1.1
+  - earthkit-plots>=0.2.5
+  - earthkit-regrid>=0.3.4
+  - earthkit-time>=0.1.6
+  - earthkit-transforms>=0.3.4
