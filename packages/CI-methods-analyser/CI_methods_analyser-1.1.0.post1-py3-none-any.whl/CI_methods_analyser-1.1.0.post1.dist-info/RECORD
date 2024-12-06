@@ -1,0 +1,13 @@
+CI_methods_analyser/CI_efficacy.py,sha256=tUvaQ4sJpcpQZ6EtgAWbfTQu23Spzr-ERavn7Pw2KoQ,5712
+CI_methods_analyser/CI_efficacy_diff_betw_two_proportions.py,sha256=FsXdE3V-IAz6iJUne_srNVCeUavkpWKJVo_deHOCZxk,21526
+CI_methods_analyser/CI_efficacy_proportion.py,sha256=my0uA21yBTYgPOBD8rd0dOnwDEWVUkpD53Vkj9TAtkI,19428
+CI_methods_analyser/__init__.py,sha256=M_oJ6K5krDC-k3n0qOKGwNimdHJt1QkKXiINHS2s3rM,193
+CI_methods_analyser/data_functions.py,sha256=Q1T-EDpwqEyhLfGMcGdLr4zknRl9WilOLBJZKfTLhIo,1104
+CI_methods_analyser/math_functions.py,sha256=p3Psds0j7XgZwxU6sojiwCjuA8HdzSVctnA9popVUrc,4589
+CI_methods_analyser/methods_for_CI_for_diff_betw_two_proportions.py,sha256=obaHW1a45PWQJqHPob2X6hLbyuSli4h-LE7PxxHV8ro,4895
+CI_methods_analyser/methods_for_CI_for_proportion.py,sha256=5f0lAIchEijVVH24NdH1rOMlZftFcD_PxVmlxMS-0WE,4302
+CI_methods_analyser-1.1.0.post1.dist-info/LICENSE,sha256=P8McdBCaAXylkLKucymKchMk-HYs7t1AHT0hm9SZ3b0,1065
+CI_methods_analyser-1.1.0.post1.dist-info/METADATA,sha256=XMdthlshQdGw3qo8CQKUPMrvJzhKLFw6aOqcxDUDfR0,16452
+CI_methods_analyser-1.1.0.post1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+CI_methods_analyser-1.1.0.post1.dist-info/top_level.txt,sha256=uXP-dzFQ5a8WYBLkAkjfVc1_DRkckTjMSDow7y7TzTM,20
+CI_methods_analyser-1.1.0.post1.dist-info/RECORD,,
