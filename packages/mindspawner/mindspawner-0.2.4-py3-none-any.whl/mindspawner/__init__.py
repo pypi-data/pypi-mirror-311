@@ -1,0 +1,1 @@
+from .mindspawner import MindSpawner
