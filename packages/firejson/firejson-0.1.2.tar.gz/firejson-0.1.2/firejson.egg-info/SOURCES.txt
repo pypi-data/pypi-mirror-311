@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+firejson/__init__.py
+firejson/core.py
+firejson/environment_utils.py
+firejson/json_validation_utils.py
+firejson/logging_utils.py
+firejson.egg-info/PKG-INFO
+firejson.egg-info/SOURCES.txt
+firejson.egg-info/dependency_links.txt
+firejson.egg-info/requires.txt
+firejson.egg-info/top_level.txt
