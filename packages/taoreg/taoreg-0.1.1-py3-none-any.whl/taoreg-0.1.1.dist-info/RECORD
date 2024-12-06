@@ -1,0 +1,10 @@
+taoreg/__init__.py,sha256=ta52OHQuBu3YpAp_N421MT1mhZSW229lOqte6r_rXic,99
+taoreg/bootcli.py,sha256=3kxmwt1nujViumo-YLe39ubXrHaoNbDiIkSuMzTl2s4,8509
+taoreg/pcli.py,sha256=zumoEXx6NbwM2WbKDTmOgnRYlrDkyNGJmtzVCHswcsQ,11077
+taoreg/version.py,sha256=yqa_fL4NP4fzY_1_kWbOI0jbIuJpMEqZR43Sr515EmQ,50
+taoreg-0.1.1.dist-info/LICENSE,sha256=UtWDM6w7nMyyFqRyOZnsYCr408jfBPWGJGVXAx8pIKM,1065
+taoreg-0.1.1.dist-info/METADATA,sha256=RNIWfbyfU0L2cgZJZsZtB9jawIYPNjuoZ5566W8OnJk,1288
+taoreg-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+taoreg-0.1.1.dist-info/entry_points.txt,sha256=u0NJvfwS9NDK2Dp8t3LnBWDtvPX5u1yVplN9J3JhDpg,47
+taoreg-0.1.1.dist-info/top_level.txt,sha256=4R3-r5K2tblANhCmFpSMvbaPbaiQGGtInIkbm6gpPtc,7
+taoreg-0.1.1.dist-info/RECORD,,
