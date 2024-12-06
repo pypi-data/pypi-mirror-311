@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: algmatch
+Version: 1.0.0
+Summary: A package containing various matching algorithms, such as stable marriage, hospital-residents, and student-project allocation.
+Project-URL: Homepage, https://github.com/VaradK62442/algmatch
+Project-URL: Issues, https://github.com/VaradK62442/algmatch/issues
+Author-email: Varad Kulkarni <varadkulk123@gmail.com>, Sofiat Olaosebikan <sofiat.olaosebikan@glasgow.ac.uk>, Ben Whitehead <2732382W@student.gla.ac.uk>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Algmatch
+
+A package containing various matching algorithms. 
+- All algorithms check for blocking pairs and return a stable matching if no blocking pair is found, and None otherwise
+- All algorithms implemented have verification testing
+  - Tested by producing random instances
+  - File to brute force all stable matchings
+  - Check algorithm is generating correct stable matchings
+
+The following algorithms are implemented so far:
+- SM: Stable Marriage (both man and woman optimal)
+  - SMI: Stable Marriage with incomplete lists
+- HR: Hospital Residents (both residents and hospital optimal)
+- SPA-S: Student Project Allocation with lecturer preferences over students (both student and lecturer optimal)
+
+Requires Python 3.10 or later.
