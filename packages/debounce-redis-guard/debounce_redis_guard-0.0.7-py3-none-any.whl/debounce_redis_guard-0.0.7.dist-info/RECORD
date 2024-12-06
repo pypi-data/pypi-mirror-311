@@ -1,0 +1,16 @@
+debounce_redis_guard/__init__.py,sha256=_MCMJwWH4n5N9L8XHTsO1LmumKJErXIUlOWX_-9VTQw,200
+debounce_redis_guard/config.toml.py,sha256=O5IbCVCPZAQeMGAeRg1y6OKNwOOiyIEru8lYHOjz1_Q,101
+debounce_redis_guard/common/__init__.py,sha256=EqlCX8ILKHn2ik1yv6C2x6Q9ksJVEZmTEDE09acyE3c,156
+debounce_redis_guard/common/commonModel.py,sha256=-YaJTzzfFLXPuN5LqVIhqMVnVzQipdQO9i6SQXQsWIE,573
+debounce_redis_guard/config/__init__.py,sha256=y7pRxaLxCYk8FQG9H_9TzrdcA9zH_J6Lc0XqJ6DqDKU,137
+debounce_redis_guard/config/redis.py,sha256=zBr3Rv8biQvQF8xnuYVpdX1upyzCN-dD8h-X_7K6aD4,3414
+debounce_redis_guard/src/__init__.py,sha256=O5IbCVCPZAQeMGAeRg1y6OKNwOOiyIEru8lYHOjz1_Q,101
+debounce_redis_guard/src/debouncer.py,sha256=iDBNWO6DXRhycGqNtkAxESIvItFxxBP0knaFh7koF2k,6839
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/http_module.py,sha256=KcM_BeQrQwznfXgFZPI6PCdeOT9uiyuH-clW9f1S0p4,207
+tests/test_http_module.py,sha256=U0EdfrPap9G1ZzYhKeLhrXbiXWcEksxA5sXR60Fo4vY,3258
+debounce_redis_guard-0.0.7.dist-info/LICENSE,sha256=Vn5QZoUAhCKy8rPZlaDLMeILEvifAmE90BG4_Tox2No,1086
+debounce_redis_guard-0.0.7.dist-info/METADATA,sha256=dO1fDVrHfMfp7kftCGyY0IiV1KpQ6C_F87i784HafXk,2483
+debounce_redis_guard-0.0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+debounce_redis_guard-0.0.7.dist-info/top_level.txt,sha256=un3naFIBTCktWh1mOSnctYtpt2xdMdexEdGI4a_u_GY,27
+debounce_redis_guard-0.0.7.dist-info/RECORD,,
