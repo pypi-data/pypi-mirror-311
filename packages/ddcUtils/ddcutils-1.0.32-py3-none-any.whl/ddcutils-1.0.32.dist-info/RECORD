@@ -1,0 +1,10 @@
+ddcUtils/__init__.py,sha256=B27H9HEv4IGWCUlWXetBUff07FGsfZGMS03RV-GzhNM,1348
+ddcUtils/conf_file_utils.py,sha256=qILiPkRoYO9wdvyyf_-xAHOuP8NE_kuDDQJoYxetYiM,6085
+ddcUtils/constants.py,sha256=TByNpek_2_hOhr3Gx1eVMg3uYWQyIGiY_dFF8cGeUfY,205
+ddcUtils/file_utils.py,sha256=XGTwAzQJTNtZtZNrzqiqPgkYN9eNjxXs87GM8VA4lZ8,8703
+ddcUtils/misc_utils.py,sha256=KinK6hdSoUgmbd09owE5gdALPurvkE4oHP14rwqevgA,3024
+ddcUtils/os_utils.py,sha256=rR3V2zyAYMqVJkOx-cNPX2c4--pWCdSZ7XpsHw8oUFs,2217
+ddcutils-1.0.32.dist-info/LICENSE,sha256=3fEBeO1ARuqTVV1QJzrGVVmXZz_okGweH0a-MeA0Qpc,1068
+ddcutils-1.0.32.dist-info/METADATA,sha256=74z0MVLCXWyBRi_yBASzMZFPwjCiJu3Ci-0kjWuW9d4,8041
+ddcutils-1.0.32.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ddcutils-1.0.32.dist-info/RECORD,,
