@@ -1,0 +1,9 @@
+setup.py
+PySpiro.egg-info/PKG-INFO
+PySpiro.egg-info/SOURCES.txt
+PySpiro.egg-info/dependency_links.txt
+PySpiro.egg-info/top_level.txt
+src/GLI_2012.py
+src/GLI_2017.py
+src/__init__.py
+src/reference.py
