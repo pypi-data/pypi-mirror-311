@@ -1,0 +1,4 @@
+setup(
+    packages=["WebServer", "example"],
+    package_data={"": ["example"]},
+)
