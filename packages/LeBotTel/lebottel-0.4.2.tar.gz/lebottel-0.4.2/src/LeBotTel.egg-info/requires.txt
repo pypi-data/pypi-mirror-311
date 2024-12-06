@@ -1,0 +1,11 @@
+requests~=2.31.0
+
+[dev]
+LeBotTel[lint,test]
+
+[lint]
+ruff==0.7.4
+
+[test]
+pytest~=7.4.3
+requests_mock~=1.11.0
