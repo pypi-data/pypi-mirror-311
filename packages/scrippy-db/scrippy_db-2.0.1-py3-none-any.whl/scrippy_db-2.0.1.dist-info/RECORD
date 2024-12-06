@@ -1,0 +1,12 @@
+scrippy_db/__init__.py,sha256=F8YcXc75neQv6X-fU7BrC1G9DELErpPHvzx0R4wk5vc,218
+scrippy_db/connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrippy_db/connector/mysql/__init__.py,sha256=MJ-TT9L7OpRI2eZ_S6pxYmLmMgQ4ei5fz0UJ2iKZ6cs,813
+scrippy_db/connector/oracle/__init__.py,sha256=vkB0KJUiotuRMN_PUym5OLH_nHPJUUFhZzfh06Px4PA,751
+scrippy_db/connector/pgsql/__init__.py,sha256=gPJ46lJfDuWWKJqslOjmfwW5QiGbbtija1UXlYRvVX0,1018
+scrippy_db/connector/sqlite3/__init__.py,sha256=ZMRVgKLQUCef7eWUOePPKkrYOVhi9ApVB9OF-NlcjzY,704
+scrippy_db/db/__init__.py,sha256=9Gg4ohdSIZFz_ol93QUG8DT0m8CPAe0ENMboGDisakw,9335
+scrippy_db-2.0.1.dist-info/LICENSE,sha256=YoZ6HrhPUKE2Cw714ST1-k2uomnzFPET8wcsEO80lcQ,1179
+scrippy_db-2.0.1.dist-info/METADATA,sha256=3pLV7WR9SzEJLA2SyRxbCh-5y2lSTCCaR4JbeYdUQzs,10357
+scrippy_db-2.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+scrippy_db-2.0.1.dist-info/top_level.txt,sha256=5Vl0NCd7qxj2gaqgma3PPA9cc6vtv0yKSSm3LQJuOzA,11
+scrippy_db-2.0.1.dist-info/RECORD,,
