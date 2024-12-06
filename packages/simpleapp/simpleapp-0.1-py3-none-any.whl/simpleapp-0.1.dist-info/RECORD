@@ -1,0 +1,16 @@
+simpleapp/__init__.py,sha256=tMO7vE65xMHw1V0BZ84-0IbXcF5lCeL28588VRqFtdA,87
+simpleapp/argparse.py,sha256=X8NlKCQA1scpOq6nIJQoJofy2hjsCy72t8HZBElFgKo,5046
+simpleapp/pipeline.py,sha256=70CBdOAzpILPwSKR1LmEPu2I7ACAgn3VOz_MqDv6K5E,6932
+simpleapp/project.py,sha256=4qTnb4VNizuBIZooB1zym_iAf8xZit2GyvkUjHkHy4s,2424
+simpleapp/toml.py,sha256=JcejpQTAf1mFpwGFrt7vv86KOVv0O4_TPt_tP0MqrMI,1435
+simpleapp/__pyinstaller/__init__.py,sha256=nolJSsYJJIguagEw-EIV0aUIMVIxvNMg4DPM1XSyyg8,71
+simpleapp/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleapp/examples/nothing.py,sha256=hG90DLp7o9vCTZsbhgoOqIlTvDPcbtP54xCDsME_UZo,668
+simpleapp/examples/runregchanges.py,sha256=joNNbe5T9E19JOWpenZL6VzJVzdMFoEKeyzGyipEWBo,4747
+simpleapp/examples/uniraw.py,sha256=MStUEgk0ZaI1TvU-dF9XzfGIIDltFUAWDjXyMvEPLZs,755
+simpleapp-0.1.dist-info/LICENSE.md,sha256=iTqIuc9cNg9ru7K-5rYe7rYRq5oiCWFG-OhoMM700ng,1067
+simpleapp-0.1.dist-info/METADATA,sha256=pSOgo8HkPVmA97RxB7lpk5OffH3So19-gmqAJol7G9c,4285
+simpleapp-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+simpleapp-0.1.dist-info/entry_points.txt,sha256=19DBwpmjOiziaCs0GwFH1oS_QNFj2flLGV9fxJctK8w,180
+simpleapp-0.1.dist-info/top_level.txt,sha256=k6yY5FCnZClZ8hVooeltJfgYVzjR2SYag9V4ZW5yFUQ,10
+simpleapp-0.1.dist-info/RECORD,,
