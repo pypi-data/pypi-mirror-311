@@ -1,0 +1,2 @@
+[console_scripts]
+uai = uai.main:main
