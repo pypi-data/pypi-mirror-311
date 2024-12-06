@@ -1,0 +1,8 @@
+snowflake-connector-python[secure-local-storage]>=3.7.0
+pyjwt
+
+[snowpark]
+snowflake-snowpark-python
+
+[test]
+pytest
