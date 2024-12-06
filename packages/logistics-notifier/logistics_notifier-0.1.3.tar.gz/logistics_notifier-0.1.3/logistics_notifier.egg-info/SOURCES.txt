@@ -1,0 +1,9 @@
+setup.py
+logistics_notifier/__init__.py
+logistics_notifier/notification_handler.py
+logistics_notifier/notification_manager.py
+logistics_notifier.egg-info/PKG-INFO
+logistics_notifier.egg-info/SOURCES.txt
+logistics_notifier.egg-info/dependency_links.txt
+logistics_notifier.egg-info/requires.txt
+logistics_notifier.egg-info/top_level.txt
