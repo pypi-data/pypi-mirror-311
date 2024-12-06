@@ -1,0 +1,30 @@
+# colorLite
+
+**colorLite** is a lightweight Python logging utility that provides colorful console output for different log levels. It makes it easier to distinguish between various levels of log messages such as `DEBUG`, `INFO`, `WARNING`, `ERROR`, and `CRITICAL`.
+
+## Features
+
+- **Colorful Output**: Each log level is displayed with a unique color for better readability.
+- **Lightweight**: No external dependencies required.
+- **Simple API**: Easy-to-use methods for different log levels.
+
+## Installation
+
+Clone the repository or copy the `Logger` class into your project. No external libraries or dependencies are needed.
+
+## Usage
+
+Below is an example of how to use the `Logger` class:
+
+```python
+from colorLite import Logger
+
+# Create a Logger instance
+logger = Logger()
+
+# Log messages with various levels
+logger.debug("This is a debug message.")
+logger.info("This is an info message.")
+logger.warning("This is a warning message.")
+logger.error("This is an error message.")
+logger.critical("This is a critical message.")

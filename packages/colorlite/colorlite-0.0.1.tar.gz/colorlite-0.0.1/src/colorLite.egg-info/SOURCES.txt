@@ -1,0 +1,10 @@
+LICENSE
+README
+pyproject.toml
+src/colorLite.egg-info/PKG-INFO
+src/colorLite.egg-info/SOURCES.txt
+src/colorLite.egg-info/dependency_links.txt
+src/colorLite.egg-info/top_level.txt
+src/colorlite/__init__.py
+src/colorlite/main.py
+tests/test.py
