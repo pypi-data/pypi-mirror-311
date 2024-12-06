@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flexstream_sdk
+Version: 0.0.5
+Summary: Modbus SDK for automated control and monitoring of Kin-Tek FlexStream device settings and parameters
+Author: Nir Dagan
+Author-email: Nirdagan22@gmail.com
+Requires-Dist: paho-mqtt
