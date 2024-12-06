@@ -1,0 +1,2 @@
+[console_scripts]
+pqg = pqg.__main__:main
