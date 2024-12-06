@@ -1,0 +1,3 @@
+[console_scripts]
+fastbruno=fastbruno.cli:fastbruno_cli
+

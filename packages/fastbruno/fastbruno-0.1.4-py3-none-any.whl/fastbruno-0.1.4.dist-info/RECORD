@@ -1,0 +1,13 @@
+fastbruno/__init__.py,sha256=GX6AjkKxc-K0QOuua_Plgb5769gcOAWfV3CJQRHKrOM,246
+fastbruno/__internal/brunofy.py,sha256=zFaSIkHFI27WiYPE0YytYynoSfraerB-GX1Knh74bNM,4922
+fastbruno/__internal/brunotypes.py,sha256=qCvXFOa-lsH9G5uhcHJl0lKjd6Jx5akJHsBaMhd3sZw,8183
+fastbruno/__internal/fastapi.py,sha256=jLCZozzMInykTev-xL9OhlucwL2lCaCqC5kuU6PpcCA,305
+fastbruno/__internal/fastapiinfo.py,sha256=wQvY1cM7dD9Z80Tc6hz3Vv9xzxeX_0hso70sufZ24Ks,435
+fastbruno/__internal/fastbruno.py,sha256=wDX07_lGCfUVnVWT1W1hXZTvjTZDZcrqGeioFSv2VNM,1781
+fastbruno/__internal/logger.py,sha256=dcMjS3uONZJvBKNQ3oHp4hHoZq0bXqMoQaOhX7Lxcvc,197
+fastbruno/__version__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+fastbruno/cli.py,sha256=zZ5Dx8fTXeMYT6jIn_iQOpFVunOAe2wK586dSo33A80,1526
+fastbruno-0.1.4.dist-info/entry_points.txt,sha256=PvkzkhoT5KHZ2guMs84iFmVBQ7u3EAserG-Ao7AY5aA,57
+fastbruno-0.1.4.dist-info/METADATA,sha256=QJlKPypHEf-P_NwVeZyboG_KPebG1mRT5GwKlI1cIQc,1572
+fastbruno-0.1.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+fastbruno-0.1.4.dist-info/RECORD,,
