@@ -1,0 +1,8 @@
+numpy
+pandas
+re
+scipy
+itertools
+typing
+unittest
+itertools
