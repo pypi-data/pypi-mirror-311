@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ossbomer
+Version: 0.1.0
+Summary: SBOMs quality validator for Open Source License Compliance.
+Home-page: https://github.com/Xpertians/xmonkey-ossbomer
+Author: Oscar Valenzuela
+Author-email: oscar.valenzuela.b@gmail.com
+License: Apache 2.0
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: jsonschema
+Requires-Dist: requests
+

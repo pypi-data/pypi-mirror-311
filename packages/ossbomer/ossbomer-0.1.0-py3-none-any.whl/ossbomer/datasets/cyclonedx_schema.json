@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CycloneDX BOM",
+    "type": "object",
+    "required": ["bomFormat", "specVersion", "components"],
+    "properties": {
+        "bomFormat": {
+            "type": "string",
+            "const": "CycloneDX",
+            "description": "The BOM format type."
+        },
+        "specVersion": {
+            "type": "string",
+            "description": "The CycloneDX specification version."
+        },
+        "components": {
+            "type": "array",
+            "description": "A list of software components.",
+            "items": {
+                "type": "object",
+                "required": ["name", "version"],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The component name."
+                    },
+                    "version": {
+                        "type": "string",
+                        "description": "The component version."
+                    },
+                    "purl": {
+                        "type": "string",
+                        "description": "The Package URL (PURL)."
+                    },
+                    "licenses": {
+                        "type": "array",
+                        "description": "List of licenses associated with the component.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "license": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": "string",
+                                            "description": "SPDX License ID."
+                                        }
+                                    },
+                                    "required": ["id"]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
