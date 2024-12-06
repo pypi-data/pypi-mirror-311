@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: firewheel_repo_tutorials
+Version: 2.7.0
+Summary: This FIREWHEEL Model Component repository contains several MCs which are used as examples in FIREWHEEL tutorials.
+Author-email: FIREWHEEL Developers <firewheel@sandia.gov>
+License: Apache License (2.0)
+Project-URL: Homepage, https://www.sandia.gov/emulytics
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Clustering
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Emulators
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: firewheel
+
+.. _tutorials_mc_repo:
+
+************************
+firewheel_repo_tutorials
+************************
+
+This FIREWHEEL Model Component repository contains several MCs which are used as examples in FIREWHEEL tutorials.
+
+**NOTE:** These reference model components may have slightly different syntax than those referenced in the `FIREWHEEL Tutorials <https://sandialabs.github.io/firewheel/tutorials/index.html>`_ due to various linting/code formatting, but the logic should closely align.
