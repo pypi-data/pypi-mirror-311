@@ -1,0 +1,17 @@
+DYNMO/__init__.py,sha256=d95t4OZOUYJ6nR2NUqYGcFFG85xc0Swzt6jXgMHKpwA,59
+DYNMO/load_data.py,sha256=GUn7q5ezDhhIx4a9w4hBsveomWfvNWJdYH2c1ejeKTc,2540
+webscraping/__init__.py,sha256=L3nnJdi08f1tvP_p6ytF0c7O0NuHJZLRw7hsQJd1hxQ,332
+webscraping/check_seasons.py,sha256=5x6o5gjogQKtreocwXm7CSKD5BcZkydbLxyT4L0WU_4,1873
+webscraping/compile_data.py,sha256=jbQfMAVQy3cZE6_BmjJOeO1SecY6ESJR6e9EPFddQlU,858
+webscraping/constants.py,sha256=9O0EkgJl6OR-7tcDcMzwTlrfCTkn-U3CVLXtYF7CH5c,603
+webscraping/leagues.py,sha256=SCFUSZ34PBE94rh9-t2IuwS_qGdSVaDqeQ2UWN24AYg,1130
+webscraping/match_history.py,sha256=7iz8__JpsjCKtBxILwQjT_VtcmKTNDJojzgWl3XOcuY,3960
+webscraping/process_data.py,sha256=5wKWGmbWn7VSCdbofj78QvZotHz1akcBHMPMfYhZFk8,2523
+webscraping/squads.py,sha256=mTOyYosuU-ySE-1tI5BUMcsJNUj6oTPS5h5TeBmK8V8,1943
+webscraping/standings.py,sha256=dHi6d5n3bOFg_-NBDlxY2lFYCl7w0hEWfr1CMmsMpnc,1651
+webscraping/utils.py,sha256=wFoF0ISdtKIScV9mWsImGMmXWSvrIllMrAsOE7s71-g,1878
+DYNMO-1.0.0.dist-info/LICENSE,sha256=0jkpLr5ybS43sZmhHGPKIyc8fLQkuzFZgXCADWLTAuM,1105
+DYNMO-1.0.0.dist-info/METADATA,sha256=jukz75yEFAzMod81w_Qbt_amO9SAhnMlz0S6Ruhf0w0,1643
+DYNMO-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+DYNMO-1.0.0.dist-info/top_level.txt,sha256=UnDJEmwSs7BpacCYqhrh8xeQt7tqJ1oce7kPgZuir4o,18
+DYNMO-1.0.0.dist-info/RECORD,,

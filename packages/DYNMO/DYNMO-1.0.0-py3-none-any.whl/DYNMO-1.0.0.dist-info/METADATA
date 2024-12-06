@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: DYNMO
+Version: 1.0.0
+Summary: The DYNMO package facilitates game outcome analysis using statistical learning techniques. It is designed for modeling and predicting football match results based on various statistical features.
+Home-page: https://github.com/salvnetto/DYNMOpy
+Maintainer: Salvador Netto
+Maintainer-email: salvv.netto@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/salvnetto/DYNMOpy/issues
+Project-URL: Source Code, https://github.com/salvnetto/DYNMOpy
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Database
+Classifier: Topic :: Internet
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# DYNMO - Dynamic Linear Models for Football
+
+## Overview
+
+The `DYNMO` package facilitates game outcome analysis using statistical learning techniques. It is designed for modeling and predicting football match results based on various statistical features.
+
+## Features
+
+- Web scraping techniques to gather football data.
+- Preprocessing functions for cleaning and transforming data.
+
+## Usage
+
+To use the `DYNMO` package, install it via pip:
+
+```
+pip install DYNMO
+```
+
+### Example: Loading Data
+
+```python
+from DYNMO import loadData
+
+# Load processed match history data for BrasileirÃ£o
+df = loadData('br', 'match_history')
+print(df.head())
+```
