@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: enable-log-streaming-MithunChandrasekar
+Version: 0.0.2
+Summary: A library to enable log streaming for Elastic Beanstalk environments.
+Home-page: https://github.com/MithunChandrasekar/enable-log-streaming-MithunChandrasekar
+Author: Mithun Chandrasekar
+Author-email: mithunxchandrasekar1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3>=1.20.0
+
+# Enable Log Streaming
+
+This library provides a Python function to enable log streaming for AWS Elastic Beanstalk environments and set CloudWatch log retention.
+
+## Installation
+
+```bash
+pip install enable-log-streaming
+
+from enable_log_streaming.enable_log_streaming import enable_log_streaming
+
+response = enable_log_streaming("your-environment-name", retention_days=7)
+print(response)
+
+
+python -m enable_log_streaming.enable_log_streaming your-environment-name --retention_days 7
+
+
+
+---
+
+### Step 5: Build and Publish the Package
+
+1. **Install Build Tools**:
+   ```bash
+   pip install build twine
