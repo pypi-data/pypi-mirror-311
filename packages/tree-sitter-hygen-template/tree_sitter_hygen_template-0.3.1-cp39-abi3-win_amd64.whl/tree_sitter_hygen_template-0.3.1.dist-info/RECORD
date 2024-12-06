@@ -1,0 +1,12 @@
+tree_sitter_hygen_template/__init__.py,sha256=eDL2YlnxMq98BSnSAk9q1xVegrSFYGfsIBGFKSeb_dg,1163
+tree_sitter_hygen_template/__init__.pyi,sha256=oixFm8lXsZZWYa5cRwj6brbqh37_fzN2rLE-dmX9_rA,247
+tree_sitter_hygen_template/_binding.pyd,sha256=eVW_6gAi2vCnycCGR3V1BUI0nf1hNN2Vd7ADOd8hufA,18432
+tree_sitter_hygen_template/binding.c,sha256=dxSaiJzud2-h-TdazuZF9cWYIdLu3rDSr9xTVGHfUOk,699
+tree_sitter_hygen_template/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_hygen_template/queries/highlights.scm,sha256=l4MKIOjuLLMlxg_pRFaDpOoovq2IHYaW8s6aSK6NdUQ,362
+tree_sitter_hygen_template/queries/injections.scm,sha256=KlmQ1l71z1S-6R6zp6Co3DPikT9qyMqA3mr1i6du42Q,278
+tree_sitter_hygen_template-0.3.1.dist-info/LICENSE,sha256=62FSyiUWCaJv-LnpoQjzwxNEpY4aCFckxURFfJyUsG0,1117
+tree_sitter_hygen_template-0.3.1.dist-info/METADATA,sha256=JhgB9TC-DAPGrV8Wn_281cwbrsm_EP0vhJTek0Z5_Xc,4859
+tree_sitter_hygen_template-0.3.1.dist-info/WHEEL,sha256=7S5JW2gN0o7K9D5M4xMLXtFCRFfxaKVbq6uoKW3XVN0,99
+tree_sitter_hygen_template-0.3.1.dist-info/top_level.txt,sha256=VeuQqadvazvsZjzKrgS5ZM67EZ_40OCAra-RgcagOLU,36
+tree_sitter_hygen_template-0.3.1.dist-info/RECORD,,
