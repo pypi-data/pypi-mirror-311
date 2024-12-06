@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: VAssure
+Version: 1.1.0
+Summary: VAssure: A Python-based Selenium and Robot Framework automation framework
+Home-page: https://github.com/yourusername/VAssure
+Author: Sukumar Kutagulla
+Author-email: sukumar@spotline.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: selenium>=4.0.0
+Requires-Dist: pytest>=7.0.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: pytest-xdist>=2.5.0
+Requires-Dist: pytest-html>=3.2.0
+Requires-Dist: bson>=0.5.10
+Requires-Dist: pymongo>=4.5.0
+Requires-Dist: pycryptodome>=3.18.0
+Requires-Dist: pytz>=2023.3
+Requires-Dist: requests>=2.31.0
+Requires-Dist: ratelimit>=2.2.1
+Requires-Dist: robotframework-pabot>=2.0.0
+Requires-Dist: robotframework-seleniumlibrary>=6.0.0
+
+**Author:** Sukumar Kutagulla  
+**Designation:** Automation Architect  
+
+# <center>Welcome To VAssure</center>
+
+---
+
+### Core  
+___
+
+#### Driver Factory:  
+___
+VAssure supports the following browsers:  
+
+- Chrome  
+- Edge  
+- Firefox  
+
+#### ReadDataFromDB:  
+___
+Reads the configuration from the config file and database required for the test to execute.  
+
+---
