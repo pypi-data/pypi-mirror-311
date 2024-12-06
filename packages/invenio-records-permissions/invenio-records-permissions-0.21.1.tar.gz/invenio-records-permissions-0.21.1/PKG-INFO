@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: invenio-records-permissions
+Version: 0.21.1
+Summary: Permission policies for Invenio records.
+Home-page: https://github.com/inveniosoftware/invenio-records-permissions
+Author: CERN
+Author-email: info@inveniosoftware.org
+License: MIT
+Description: ..
+            Copyright (C) 2019 CERN.
+        
+            Invenio-Records-Permissions is free software; you can redistribute it
+            and/or modify it under the terms of the MIT License; see LICENSE file for
+            more details.
+        
+        =============================
+         Invenio-Records-Permissions
+        =============================
+        
+        .. image:: https://github.com/inveniosoftware/invenio-records-permissions/workflows/CI/badge.svg
+                :target: https://github.com/inveniosoftware/invenio-records-permissions/actions?query=workflow%3ACI+branch%3Amaster
+        
+        .. image:: https://img.shields.io/coveralls/inveniosoftware/invenio-records-permissions.svg
+                :target: https://coveralls.io/r/inveniosoftware/invenio-records-permissions
+        
+        .. image:: https://img.shields.io/github/tag/inveniosoftware/invenio-records-permissions.svg
+                :target: https://github.com/inveniosoftware/invenio-records-permissions/releases
+        
+        .. image:: https://img.shields.io/pypi/dm/invenio-records-permissions.svg
+                :target: https://pypi.python.org/pypi/invenio-records-permissions
+        
+        .. image:: https://img.shields.io/github/license/inveniosoftware/invenio-records-permissions.svg
+                :target: https://github.com/inveniosoftware/invenio-records-permissions/blob/master/LICENSE
+        
+        Permission policies for Invenio records.
+        
+        Further documentation is available on
+        https://invenio-records-permissions.readthedocs.io/
+        
+        ..
+            Copyright (C) 2019-2024 CERN.
+            Copyright (C) 2019-2024 Northwestern University.
+        
+            Invenio-Records-Permissions is free software; you can redistribute it
+            and/or modify it under the terms of the MIT License; see LICENSE file for
+            more details.
+        
+        Changes
+        =======
+        
+        Version v0.21.1 (released 2024-11-28)
+        
+        - installation: bump invenio-access
+            * This removes the dependency to invenio-admin.
+        
+        Version v0.21.0 (released 2024-09-30)
+        
+        - setup: move unnecessary `invenio-records` dependency to tests requirements
+        
+        Version v0.20.0 (released 2024-07-31)
+        
+        - record: add create_or_update_many permission
+        
+        
+Keywords: invenio permissions
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Provides-Extra: tests
+Provides-Extra: elasticsearch7
+Provides-Extra: opensearch1
+Provides-Extra: opensearch2
