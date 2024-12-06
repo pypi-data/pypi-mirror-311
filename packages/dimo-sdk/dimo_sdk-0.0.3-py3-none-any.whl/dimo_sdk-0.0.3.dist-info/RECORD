@@ -1,0 +1,10 @@
+dimo_sdk-0.0.3.data/data/requirements.txt,sha256=7HJCDfXfvc5BEfcVyWM43zt8t19Y5HjSRJyXIOVg3ow,8
+hub/__init__.py,sha256=ecOGITH8ZDCkoL0iNJS4EwIImpNL88dr_1qg7J3gaQk,40
+hub/client.py,sha256=NA5wSvKeQR0Ed7nFHsYMEEX6Y8zYeeaFsY2NeTlwJeE,3724
+test/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/client.py,sha256=Z9X8gSEmCqiScBNbHoGpTy1hzI8FHshMeR-2zwVz3UU,4968
+test/usage.py,sha256=lhv0ZVgtSALRBl04bDqGX6VAEfQjSvBCheTF77KyqCY,810
+dimo_sdk-0.0.3.dist-info/METADATA,sha256=ycFbEm4SUEjDWfgQN85TopT_MyQWsgyEFRhdWvhRWIM,1116
+dimo_sdk-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dimo_sdk-0.0.3.dist-info/top_level.txt,sha256=_7yp9mYZaQI86IqtoMcK5GV8ZSVPGiqo67HwMBTaVCU,9
+dimo_sdk-0.0.3.dist-info/RECORD,,
