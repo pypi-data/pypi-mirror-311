@@ -1,0 +1,3 @@
+[console_scripts]
+pandaprint=pandaprint.server:main
+
