@@ -1,0 +1,40 @@
+from __future__ import annotations
+
+from upath import UPath
+
+from llmling.config.models import Config, PathResource, TextResource
+
+
+class TestPathResolution:
+    def test_relative_path_gets_resolved(self, basic_config: Config):
+        """Relative paths should be resolved against config location."""
+        config = basic_config
+        config._config_path = UPath("/home/user/project/config.yml")
+
+        config.resources["docs"] = PathResource(path="./docs/api.md")
+
+        # Trigger resolution (exact mechanism TBD)
+        config.resolve_paths()
+
+        assert config.resources["docs"].path == "/home/user/project/docs/api.md"
+
+    def test_absolute_path_stays_unchanged(self, basic_config: Config):
+        """Absolute paths should not be modified."""
+        config = basic_config
+        config._config_path = UPath("/home/user/project/config.yml")
+
+        abs_path = "/absolute/path/doc.md"
+        config.resources["docs"] = PathResource(path=abs_path)
+
+        config.resolve_paths()
+        assert config.resources["docs"].path == abs_path
+
+    def test_non_path_resources_unaffected(self, basic_config: Config):
+        """Non-path resources should not be modified."""
+        config = basic_config
+        config._config_path = UPath("/home/user/config.yml")
+
+        config.resources["text"] = TextResource(content="Hello")
+
+        config.resolve_paths()
+        assert config.resources["text"].content == "Hello"
