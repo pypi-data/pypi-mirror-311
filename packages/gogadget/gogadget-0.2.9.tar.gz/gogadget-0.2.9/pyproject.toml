@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "gogadget"
+version = "0.2.9"
+description = "gogadget is a toolkit for producing immersion and priming materials for language learning. It is capable of downloading audio and video files, automatically transcribing subtitles from videos and podcasts, and automatically producing filtered Anki decks with sentence audio / translations / screenshots / definitions."
+authors = ["Jonathan Fox"]
+maintainers = ["Jonathan Fox"]
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Topic :: Education",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Text Processing :: Linguistic"
+]
+keywords = ["language learning", "yt-dlp", "whisper", "anki", "frequency analysis", "priming"]
+homepage = "https://gogadget.jonathanfox.co.uk/"
+repository = "https://github.com/jonathanfox5/gogadget"
+documentation = "https://gogadget.jonathanfox.co.uk/"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+typer = "*"
+lemon_tizer = "^0.0.5"
+yt-dlp = "*"
+genanki = "*"
+ffmpeg-python = "*"
+pandas = "*"
+openpyxl = "*"
+pysubs2 = "*"
+numpy = "<2"
+argos-spacy-compatibility = "*"
+whisperx-numpy2-compatibility = "*"
+pip = "*"
+rtoml = "^0.11.0"
+tomlkit = "^0.13.2"
+torch = "==2.5.1"
+torchaudio = "==2.5.1"
+spacy = "==3.7.5"
+faster-whisper = "==1.0.3"
+
+[tool.poetry.scripts]
+gogadget = "gogadget.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+disable_error_code = "import-untyped"
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+target-version = "py310"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.ruff.lint]
+extend-select = ["I"]
