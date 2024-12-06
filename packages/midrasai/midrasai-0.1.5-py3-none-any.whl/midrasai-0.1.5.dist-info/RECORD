@@ -1,0 +1,17 @@
+midrasai/__init__.py,sha256=8i9DQFFxqr-dhd7l8mAyVwDWS61KzRsdvq5aQMFEGh8,85
+midrasai/_abc.py,sha256=XfpswXvNSnT9vhZ54XKHsS0Y9PuebukUVxt0QVYdQXU,3631
+midrasai/_constants.py,sha256=l-DeZljCjgMT0kGkrIAKa12qVFmmU9aX_CMtiie92kM,53
+midrasai/cli.py,sha256=Qq1ZqOBJA-DxLVNa1zeo-3pYVgmPjiHhfeUuaOFBzu4,373
+midrasai/client/__init__.py,sha256=8DgTA7nuHe1NxM0YfhyY5FqcRrG8b5xy5mcsu_zDLPk,90
+midrasai/client/main.py,sha256=SHUiBNpTNscHfE7dyms66azhzUTdcIpRPDVehz2t3jY,5898
+midrasai/local/__init__.py,sha256=fhvnJYhBDxIWCcH-B9sP1rzUgloFP_IoSDuaZ61HX_M,71
+midrasai/local/main.py,sha256=3IrTM-LbEJdKdnk_OaYSO9O_JL4QpjK7mfNQqWS2jhg,2693
+midrasai/local/server.py,sha256=ZslkPjd3-G-bGIZ8nbPOmsk2SPGFuO0T5O51drUrZSg,1285
+midrasai/types.py,sha256=5HYAR2_2L16BdNCmYURl6446Wso2ad4PlSQD-WZdzzc,712
+midrasai/vectordb/__init__.py,sha256=GITC1i3eFw5ogMt86klN4c5b30ygbHMy62H5CLsq7P8,253
+midrasai/vectordb/_qdrant.py,sha256=BeEDpcZ9Ol2HoBWjt_YxK5eW-QDDINVIpcNejItOksc,5023
+midrasai-0.1.5.dist-info/LICENSE,sha256=rNXVp3Rju9JwIOz-krnjsRAERDD6q73ECj8HxdoVZoQ,1070
+midrasai-0.1.5.dist-info/METADATA,sha256=ukAxEodQvf5hxWfq_gQuzkAUTElLCGwc67DqbTYIrZE,4353
+midrasai-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+midrasai-0.1.5.dist-info/entry_points.txt,sha256=XGj3asSFOTBPABHchJGBjNd4gez6Hh6x9Jiqhy_DzJQ,50
+midrasai-0.1.5.dist-info/RECORD,,
