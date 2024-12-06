@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+excelize.py
+libexcelize.amd64.darwin.dylib
+libexcelize.amd64.linux.so
+libexcelize.amd64.windows.dll
+libexcelize.arm64.darwin.dylib
+libexcelize.arm64.linux.so
+setup.py
+types_go.py
+types_py.py
+excelize.egg-info/PKG-INFO
+excelize.egg-info/SOURCES.txt
+excelize.egg-info/dependency_links.txt
+excelize.egg-info/not-zip-safe
+excelize.egg-info/top_level.txt
