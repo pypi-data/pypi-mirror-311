@@ -1,0 +1,11 @@
+teable_nocodb/__about__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+teable_nocodb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teable_nocodb/data_type.py,sha256=T2VCM1BMO3CVPMTYSBDrG4AJNvXyBYbuy4u4Kk5as0Y,2461
+teable_nocodb/nocodb.py,sha256=KqT9ZGACErX_KTcCfg4q2Sd6pW7PdaIkaaN7tZg_kVc,3760
+teable_nocodb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teable_nocodb/teable.py,sha256=b3A43YdEpavT3ZjYs8UkSDsi-fm_KgCE-cQzdoTptwU,6690
+teable_nocodb/utils.py,sha256=8VCIvbL2BS_vtNgx7KOYnAgmzQ7ivefzLJrYUo2y8cM,1751
+teable_nocodb-0.0.5.dist-info/METADATA,sha256=Ljz7gincC37upMHPXQnAh2uyQ3M8Tyzk8evbriUXufw,646
+teable_nocodb-0.0.5.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+teable_nocodb-0.0.5.dist-info/licenses/LICENSE.txt,sha256=b5WOl3a6Gti3d3gAPHP7TybGNScqVDGytjXwwzLIauU,1064
+teable_nocodb-0.0.5.dist-info/RECORD,,
