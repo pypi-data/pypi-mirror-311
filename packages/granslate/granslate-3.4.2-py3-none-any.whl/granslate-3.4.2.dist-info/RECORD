@@ -1,0 +1,13 @@
+granslate/__init__.py,sha256=IIn68wtzM0QMViikDCHBEw_nK98ctnJ0f64J5ujd66w,231
+granslate/client.py,sha256=iwGUrjep-8T1HWuXedFiSwKoAsKVFk3ujBkhxumiO8k,10527
+granslate/constants.py,sha256=cANyC5m55uq7hm6BDciHamjnDqXTf0p8YXsr3wl_qWk,2847
+granslate/gtoken.py,sha256=XM-BcdmzqjK6RLjPg8ydyDR38JnQqJyo-o4xyncebLM,7610
+granslate/models.py,sha256=fzLMalLt-oiMBLaPQHTsGxO8FyDe5CBo_ay4L6n3puQ,1945
+granslate/urls.py,sha256=KzMFi4pJ6b2zWl_99ozHiiK8ih4BFJTmQU_z5BaBKWk,180
+granslate/utils.py,sha256=umXuebO_Ux2KykDI2678wcTu__kfYGy1PwR6xuIEE38,1990
+granslate-3.4.2.data/scripts/translate,sha256=33_UjhUH2pl9TmJ96dR_THLR80sd8mabavqnRqlV614,1342
+granslate-3.4.2.dist-info/LICENSE,sha256=JhNXnf6CyV5ceXrnquwGAYPS8CYUuHEXKt_hCNhE7LY,1105
+granslate-3.4.2.dist-info/METADATA,sha256=uncG5jZ-Lv-N3llOw-BXP3RqML-MJpJYqbRN_cHGao8,1250
+granslate-3.4.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+granslate-3.4.2.dist-info/top_level.txt,sha256=Ql8Wd4w2akSqR9cs1jCav3m6jtw87bcS7ipwu0KA8nc,10
+granslate-3.4.2.dist-info/RECORD,,

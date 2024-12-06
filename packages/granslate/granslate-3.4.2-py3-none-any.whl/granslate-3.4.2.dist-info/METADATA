@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: granslate
+Version: 3.4.2
+Summary: Free Google Translate API for Python. Translates totally free of charge.
+Home-page: https://github.com/adityaprasad502/yafgt
+Author: Simone
+License: MIT
+Keywords: google translate translator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Freeware
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: httpx[http2]==0.25.2
+
+# aiogoogletrans fork
+
+This is a fork of [aiogoogletrans](https://github.com/katlol/aiogoogletrans) which is a fork of [googletrans](https://github.com/ssut/py-googletrans) with minor changes and renamed to granslate? no? :)
+
+```
+for further info and credits, lookup the original repo. Thanks :)
+```
+
+Available on pypi as granslate (`pip install granslate`)<br>
+consider using the original one instead of mine. thanks :)
+
+(name inspired from gmail -> email)
