@@ -1,0 +1,3 @@
+[console_scripts]
+prism-decode = freaky:_decode_wrapper
+prism-encode = freaky:_encode_wrapper

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="freaky"
+authors = [
+	{ name = "Leslie Schumm", email = "lschumm@protonmail.com" }
+]
+description = "tools for frequency domain analysis of audio."
+readme = "README.md"
+license = {text = "GPL-2.0-only"}
+version = "1.0.0a1"
+dynamic = []
+
+[project.scripts]
+prism-encode = "freaky:_encode_wrapper"
+prism-decode = "freaky:_decode_wrapper"
