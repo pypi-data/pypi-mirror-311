@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_notebook_config/__init__.py
+django_notebook_config/main.py
+django_notebook_config.egg-info/PKG-INFO
+django_notebook_config.egg-info/SOURCES.txt
+django_notebook_config.egg-info/dependency_links.txt
+django_notebook_config.egg-info/top_level.txt
+tests/__init__.py
+tests/test_import.py
