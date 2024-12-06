@@ -1,0 +1,2 @@
+[console_scripts]
+gui = pokercraft_local:gui.gui_main
