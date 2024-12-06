@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyacm
+Version: 0.1
+Summary: ACM Term Premium
+Author: Tobias Adrian, Richard K. Crump, Emanuel Moench
+Maintainer: Gustavo Amarante
+Maintainer-email: developer@dsgepy.com
+Keywords: asset pricing,yield curve,term premium
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+
+# pyacm
+Implementation of "Pricing the Term Structure with Linear Regressions" from Adrian, Crump and Moench (2013)
