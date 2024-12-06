@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: selected_words_counter
+Version: 0.7
+Summary: A Python tool that counts specific selected words in a directory of files of different file formats. Outputs the results in a .excel file
+Home-page: https://github.com/Provincie-Zuid-Holland/selected_words_counter
+Author: Michael de Winter
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: extract-msg
+Requires-Dist: openpyxl ==3.1.5
+Requires-Dist: pandas ==2.2.3
+Requires-Dist: pypdf ==5.1.0
+Requires-Dist: python-docx ==1.1.2
+Requires-Dist: python-pptx ==0.6.23
+Requires-Dist: tqdm >=4.66.3
+Requires-Dist: xlrd ==2.0.1
+Requires-Dist: pywin32 ==308 ; sys_platform == "win32"
+
+# Selected Words Counter
+
+**Selected Words Counter** is a Python tool that scans various file formats within a specified directory for occurrences of specific words from a predefined list, outputting the results in an organized Excel file.
+
+## How It Works
+
+1. **File Conversion**: The tool automatically converts supported file formats to `.txt` for streamlined text searching.
+2. **Word Count Analysis**: It then searches each converted file for the words in your word list, creating an Excel report where each column represents a word and each row represents a file, displaying the count of occurrences.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.x
+- Necessary packages (see `requirements.txt`)
+
+### Installation
+Clone this repository and install the dependencies:
+
+```bash
+git clone https://github.com/Provincie-Zuid-Holland/selected_words_counter.git
+cd selected-words-counter
+pip install -r requirements.txt
+pip install -e .
+ ```
+
+If you are on Windows ensure that you have either MS-Office or LibreOffice installed in the default locations for now.
+So "C:\Program Files\Microsoft Office" or "C:/Program Files/LibreOffice/"
+
+### Configuration
+Customize the `config.py` file to specify:
+- Your target directory
+- Supported file formats
+- List of words to search for
+
+### Usage
+Run the tool using:
+
+```bash
+python main.py
+```
+
+The output Excel file will be saved to the specified location, providing a summary of word counts per file.
+
+## Unit Tests
+
+To run unit tests on synthetic data, navigate to the `./tests` folder and run `pytest`:
+
+```bash
+cd tests
+pytest
+```
+
+
+## Author
+Michael de Winter
