@@ -1,0 +1,123 @@
+[project]
+name = "mpcq"
+dynamic = []
+authors = [
+    { name = "Spencer Nelson", email = "spencer@b612foundation.org" },
+    { name = "Nate Tellis", email = "nate@b612foundation.org" },
+    { name = "Alec Koumjian", email = "alec@b612foundation.org" },
+    { name = "Joachim Moeyens", email = "moeyensj@uw.edu" },
+]
+description = "Client library for interacting with an MPC observations database"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+keywords = [
+    "astronomy",
+    "orbital mechanics",
+    "propagation",
+]
+dependencies = [
+    "adam_core>=0.2.5",
+    "astropy",
+    "google-cloud-bigquery",
+    "google-cloud-secret-manager",
+    "numpy",
+    "quivr",
+    "google-cloud-bigquery-storage>=2.27.0",
+    "tqdm>=4.67.1",
+]
+version = "0.3.0"
+
+[project.license]
+file = "LICENSE.md"
+
+[project.urls]
+Documentation = "https://github.com/B612-Asteroid-Institute/mpcq#README.md"
+Issues = "https://github.com/B612-Asteroid-Institute/mpcq/issues"
+Source = "https://github.com/B612-Asteroid-Institute/mpcq"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ipython",
+    "isort",
+    "mypy",
+    "pdm",
+    "pytest-benchmark",
+    "pytest-cov",
+    "pytest-doctestplus",
+    "pytest-mock",
+    "pytest",
+    "ruff",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.build]
+includes = [
+    "src/mpcq/",
+]
+
+[tool.pdm.version]
+source = "scm"
+write_to = "mpcq/_version.py"
+write_template = "__version__ = '{}'"
+
+[tool.pdm.scripts]
+fix = "ruff ./src/mpcq --fix"
+typecheck = "mypy --strict ./src/mpcq"
+test = "pytest --benchmark-disable {args}"
+doctest = "pytest --doctest-plus --doctest-only"
+benchmark = "pytest --benchmark-only"
+coverage = "pytest --cov=mpcq --cov-report=xml"
+
+[tool.pdm.scripts.check]
+composite = [
+    "lint",
+    "typecheck",
+    "test",
+]
+
+[tool.pdm.scripts.format]
+composite = [
+    "black ./src/mpcq",
+    "isort ./src/mpcq",
+]
+
+[tool.pdm.scripts.lint]
+composite = [
+    "ruff check ./src/mpcq",
+    "black --check ./src/mpcq",
+    "isort --check-only ./src/mpcq",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+exclude = [
+    "build",
+]
+
+[tool.ruff.lint]
+ignore = []
+
+[tool.mypy]
+ignore_missing_imports = true
