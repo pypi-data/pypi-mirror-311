@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+example-pkg-zqs1276pkg2/__init__.py
+example_pkg_zqs1276pkg2.egg-info/PKG-INFO
+example_pkg_zqs1276pkg2.egg-info/SOURCES.txt
+example_pkg_zqs1276pkg2.egg-info/dependency_links.txt
+example_pkg_zqs1276pkg2.egg-info/requires.txt
+example_pkg_zqs1276pkg2.egg-info/top_level.txt

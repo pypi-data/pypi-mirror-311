@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: example-pkg-zqs1276pkg2
+Version: 0.1.0
+Summary: This is the second package that depends on zqs1276pkg1
+Home-page: 
+Author: zqs
+Author-email: 
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: example-pkg-zqs1276pkg1
+
+## 开源课程创建软件包2
