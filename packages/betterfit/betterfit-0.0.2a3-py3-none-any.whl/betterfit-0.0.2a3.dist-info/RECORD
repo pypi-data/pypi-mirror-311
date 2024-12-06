@@ -1,0 +1,11 @@
+betterfit/__init__.py,sha256=iN87CKuF1OTMi8z3T7cXoHokjBEa-QELcv4Qf2hxd7Q,56
+betterfit/dataset.py,sha256=3MEpNkLNBVGrUNAt6UYbQ-0ogyf7xb-_vOPoCNQTQRU,1359
+betterfit/fits/__init__.py,sha256=WqBF6l1lAb-vs7h-rscfGNVRQbFIJ2jsF8GqbM-SFVU,29
+betterfit/fits/fit.py,sha256=RXmA92602NICjme6IHipzgnUtPvWwHmSa3wDUdn73v8,4377
+betterfit/fits/linear.py,sha256=G3qK0QIofwyTNQFJsJBng7SRhTje0WT2T5Fqvnwha4I,2635
+betterfit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+betterfit/types.py,sha256=dMiXn2qB6VO9EzRPkYpWBQEg3Da6GM7MJE03FrM-VT4,209
+betterfit-0.0.2a3.dist-info/LICENSE,sha256=NM4gpC29Nbbxei4psJvc_d1OnLNbyhoRk56VQMAFzvc,1058
+betterfit-0.0.2a3.dist-info/METADATA,sha256=eKGQvrODmGBH4hsKFG_mdkReeS4iqBkZEZji2IZyEQo,2591
+betterfit-0.0.2a3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+betterfit-0.0.2a3.dist-info/RECORD,,
