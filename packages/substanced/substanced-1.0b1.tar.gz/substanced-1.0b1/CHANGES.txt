@@ -1,0 +1,118 @@
+1.0b1 (2024-11-27)
+==================
+
+- Fix password check for users created prior to switching to ``bcrypt``.
+  See https://github.com/Pylons/substanced/pull/316
+
+- Fix ``tznames_widget``, b0rken seemingly forever under Python3.
+  See https://github.com/Pylons/substanced/pull/314
+
+- Drop old Python versions (< 3.8), add newer ones (up to 3.12).
+  See: https://github.com/Pylons/substanced/pull/307
+
+- Remove all the "straddle" compatibility stuff FBO Python 2.7
+
+- Pin pyramid < 2.0dev, until it can be reviewed in depth.
+
+- Fix deprecation warnings from pyramid.
+
+- Silence deprecation warnings related to pkg_resources.
+
+- Make ``py.test`` the testrunner (to support the newer Python versions).
+
+- Replace ``cryptacular`` with plain ``bcrypt`` (the ``enscons`` builder
+  that ``cryptacular`` needs barfs on Python 3.12).
+
+- Override ``serialize`` for ``ReferenceIdSchemaNode``.
+  See https://github.com/Pylons/substanced/pull/311
+
+- Get all tests running under ``py.test`` against head of Pyramid's 
+  ``1.10`` branch.  See https://github.com/Pylons/substanced/pull/309
+
+- Add support for Python 3.6 and 3.7; drop support for Python 3.4.
+  See https://github.com/Pylons/substanced/pull/305
+
+1.0.post1 (2018-11-07)
+======================
+
+- Accomodate Pyramid's deprecation of ``confg.set_request_property``.
+  See: https://github.com/Pylons/substanced/pull/303
+
+- Fix type conflict when rendering description of an undoable transaction.
+  See https://github.com/Pylons/substanced/pull/299
+
+- Add ``zh_CN`` translation.
+  See https://github.com/Pylons/substanced/pull/296
+
+- Replace exception, raised due to conflict when renaming an object, with
+  flash message.  See https://github.com/Pylons/substanced/pull/292
+
+- Fix docs build broken by Sphinx 1.4.x.
+  See https://github.com/Pylons/substanced/pull/287
+
+- Replace virtualenv with tox as a testing extra.
+  See https://github.com/Pylons/substanced/pull/275
+
+- Docs cleanups.  See
+  https://github.com/Pylons/substanced/pull/306,
+  https://github.com/Pylons/substanced/pull/289,
+  https://github.com/Pylons/substanced/pull/283,
+  https://github.com/Pylons/substanced/pull/281,
+  https://github.com/Pylons/substanced/pull/280,
+  https://github.com/Pylons/substanced/pull/279,
+  https://github.com/Pylons/substanced/pull/278,
+  https://github.com/Pylons/substanced/pull/277,
+  https://github.com/Pylons/substanced/pull/274,
+  https://github.com/Pylons/substanced/pull/273,
+  https://github.com/Pylons/substanced/pull/271,
+  and https://github.com/Pylons/substanced/pull/265
+
+- Ensure tests run under ``py.test``.
+  See https://github.com/Pylons/substanced/pull/272
+
+- Update tests for compatibilty with WebOb >= 1.6.
+  See https://github.com/Pylons/substanced/pull/269
+
+- Remove support for Python 2.6, 3.2, and 3.3, and add support for Python 3.5.
+  See https://github.com/Pylons/substanced/pull/264
+
+- Show "up" arrow in not-root folder contents views.
+  See https://github.com/Pylons/substanced/pull/253
+
+- Fix typo in references docs.
+  See https://github.com/Pylons/substanced/pull/251
+
+- Omit the ``Upload`` tab for folders which can not contain files.
+  See https://github.com/Pylons/substanced/pull/246
+  and https://github.com/Pylons/substanced/pull/247.
+
+- Added Finnish translation.
+  See https://github.com/Pylons/substanced/pull/248
+
+- Fix variable name in workflow docs.
+  See https://github.com/Pylons/substanced/pull/245
+
+- Fix variable name in cataloging docs.
+  See https://github.com/Pylons/substanced/pull/244
+
+- Fixed bug in scaffold that prevented Document properties tab from showing up
+  in the SDI.
+
+- ``substanced.file.FileUploadPropertySheet`` (which backs the File->Upload
+  property tab) did not properly clear tempfiles from the upload tmpdir.
+
+- ``substanced.file.views.AddFileView`` (which backs the Add -> File form in
+  the SDI) did not properly clear tempfiles from the upload tmpdir.
+
+- Changing a NameSchemaNode property via a propertysheet view (ie.
+  changing the name of an item in a folder via its propertysheet)
+  would fail with an exception if the name you chose was already
+  used within the folder.  It now shows a flash message and prevents
+  the change.
+
+- Removed Python 2.6 compatibility shim ``substanced._compat.total_ordering``.
+  
+1.0a1 (2015-04-17)
+==================
+
+- Initial release.
