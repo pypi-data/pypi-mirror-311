@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: seqret
+Version: 1.0.0
+Summary: GUI for optimizing DNA sequences for improved protein expression.
+Home-page: 
+Author: Nicholas Freitas
+Author-email: nicholas.freitas@ucsf.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: biopython==1.78
+Requires-Dist: dash==2.12.1
+Requires-Dist: dash-bootstrap-components==1.4.2
+Requires-Dist: plotly==5.16.1
+Requires-Dist: dash-bio==1.0.2
+Requires-Dist: dash-core-components==2.0.0
+Requires-Dist: dash-html-components==2.0.0
+Requires-Dist: dash-table==5.0.0
+Requires-Dist: waitress==2.0.0
+
+https://github.com/pinneylab/SeqRET
