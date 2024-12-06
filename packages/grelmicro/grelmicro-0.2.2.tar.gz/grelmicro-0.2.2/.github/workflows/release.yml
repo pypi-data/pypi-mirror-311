@@ -1,0 +1,95 @@
+name: Release
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Generate a token
+        id: generate_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.GRELINFO_ID }}
+          private-key: ${{ secrets.GRELINFO_KEY }}
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+          token: ${{ steps.generate_token.outputs.token }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Get release version
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
+      - name: Get current version
+        run: echo "CURRENT_VERSION=$(uv run hatch version)" >> $GITHUB_ENV
+
+      - name: Bump version if necessary
+        if: ${{ env.RELEASE_VERSION != env.CURRENT_VERSION }}
+        run: uv run hatch version $RELEASE_VERSION
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "grelinfo[bot]"
+          git config user.email "702069+grelinfo[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "🚀 Release $RELEASE_VERSION"
+          git tag -f $RELEASE_VERSION
+          git push origin $RELEASE_VERSION --force
+          git push origin HEAD:main
+
+  publish-docs:
+    runs-on: ubuntu-latest
+    needs: [bump-version]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - name: Configure Git Credentials
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --group docs
+
+      - name: Deploy docs on GitHub Pages
+        run: uv run mkdocs gh-deploy --force
+
+  publish-pypi:
+    needs: [bump-version]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Build
+        run: uv build
+
+      - name: Publish
+        run: uv publish -t ${{ secrets.PYPI_TOKEN }}
