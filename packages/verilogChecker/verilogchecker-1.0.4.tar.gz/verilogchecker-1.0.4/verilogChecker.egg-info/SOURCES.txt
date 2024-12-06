@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+checker/__init__.py
+checker/check.py
+checker/circuit.py
+checker/synthesizer.py
+checker/verilog.py
+verilogChecker.egg-info/PKG-INFO
+verilogChecker.egg-info/SOURCES.txt
+verilogChecker.egg-info/dependency_links.txt
+verilogChecker.egg-info/entry_points.txt
+verilogChecker.egg-info/requires.txt
+verilogChecker.egg-info/top_level.txt
