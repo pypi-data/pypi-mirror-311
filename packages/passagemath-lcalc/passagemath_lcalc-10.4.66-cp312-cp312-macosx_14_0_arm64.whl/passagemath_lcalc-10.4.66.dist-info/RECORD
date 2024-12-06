@@ -1,0 +1,16 @@
+passagemath_lcalc-10.4.66.dist-info/RECORD,,
+passagemath_lcalc-10.4.66.dist-info/WHEEL,sha256=68miiZVF0Vu0w2nj5tXUUyL44VTV0_i5TIpA8LsZ5r4,109
+passagemath_lcalc-10.4.66.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_lcalc-10.4.66.dist-info/METADATA,sha256=ANftG6kmyNLnQBrptZ7jglBk4alImWA4CO5GHrSoxUY,2713
+passagemath_lcalc.dylibs/libgf2x.3.dylib,sha256=Gfeg3Zjcr8eS25t6WF3gG7oRIjyF1UBoNz62D2x6U_g,149776
+passagemath_lcalc.dylibs/libntl.44.dylib,sha256=-xgxnqTlZuZx-UCBLq23_g4a3JCcnabTe6lv9goG69c,2896624
+passagemath_lcalc.dylibs/libLfunction.1.0.1.dylib,sha256=UHhv_5CtyTQ-VQgEkqea0FTdxck2LOd7IgYOGS4xtHU,995040
+passagemath_lcalc.dylibs/libpari-gmp-tls.dylib,sha256=aXEVJNmdalzV48MAg_jhwflWi8xz-vO_GR8N2gtaC6k,9837072
+passagemath_lcalc.dylibs/libgmp.10.dylib,sha256=h5_4kRd1RUAd3rwP0duLC4seGyMP4_n_T2treUqU-J0,606176
+passagemath_lcalc.dylibs/libmpfr.6.dylib,sha256=fuuHbZNVfx0CLXYf8UvsZkeotuRTm4L3GoPQ_gVIwGE,548992
+sage/all__sagemath_lcalc.py,sha256=KQWtVG_LW-OnPa5fWIkPbhXFcSDwkvAILxVmAzMNJyw,44
+sage/lfunctions/all__sagemath_lcalc.py,sha256=SoqrpDKr69vZp_s5EhcbUzvMZ1xWT7kGPVFzwriXHdA,155
+sage/lfunctions/lcalc.py,sha256=qG7k6Ub_AFr_ET5eoBB1UCK37_1yqYC7okqtWcyyaxo,12903
+sage/libs/all__sagemath_lcalc.py,sha256=KQWtVG_LW-OnPa5fWIkPbhXFcSDwkvAILxVmAzMNJyw,44
+sage/libs/lcalc/__init__.py,sha256=KQWtVG_LW-OnPa5fWIkPbhXFcSDwkvAILxVmAzMNJyw,44
+sage/libs/lcalc/lcalc_Lfunction.cpython-312-darwin.so,sha256=Ats0DIQomcGDEsXU0uWfhG-Srm7DuKM934xHpDAgkPU,580256
