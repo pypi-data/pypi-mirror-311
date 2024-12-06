@@ -1,0 +1,10 @@
+run_para/__init__.py,sha256=GsKrAbW5FN0ESMZc_HreqqJVA3dVV9uib0ttZ7t6srw,59
+run_para/run-para,sha256=tVu3dAOWYkLgl_wmUM3_ksP_0DGEfaR-chXNfsiWssY,34071
+run_para/run_para.py,sha256=tVu3dAOWYkLgl_wmUM3_ksP_0DGEfaR-chXNfsiWssY,34071
+run_para/version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+run_para-0.0.4.dist-info/LICENSE,sha256=1--7S2GoikON-diqHbQe-MeXXQGi5Qgv2aSYwRdc1xc,1064
+run_para-0.0.4.dist-info/METADATA,sha256=q-_mxDtxDbCYHhWea3qpp-JXfXYi8FpwiXKqC3rbX4Y,7557
+run_para-0.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+run_para-0.0.4.dist-info/entry_points.txt,sha256=MGVIPJXh4cfOhnDbeDqnNohNfps8agGjbYoMvpZT3Co,52
+run_para-0.0.4.dist-info/top_level.txt,sha256=nCjd11X3MZjiBc82bsorLF8_g5UcZSEjBRF9fRuUp_A,9
+run_para-0.0.4.dist-info/RECORD,,
