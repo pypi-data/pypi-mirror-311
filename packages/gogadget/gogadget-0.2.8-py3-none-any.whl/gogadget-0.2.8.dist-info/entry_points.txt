@@ -1,0 +1,3 @@
+[console_scripts]
+gogadget=gogadget.main:app
+
