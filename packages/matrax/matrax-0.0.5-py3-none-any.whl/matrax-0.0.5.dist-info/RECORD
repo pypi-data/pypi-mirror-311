@@ -1,0 +1,15 @@
+matrax/__init__.py,sha256=inylEMtIYFxt_EzOFEWr8urSPduB7cRo1xQ4Kh4XfBs,2851
+matrax/env.py,sha256=qFCBQNGeF7OoFMKMPdB013Y4M6OQSB-TEMWcuCBICqc,7274
+matrax/types.py,sha256=ozW7Bp9UFQaApDx2XM7e88bRmD-K9UKjVcWeAHuL5pQ,1352
+matrax/version.py,sha256=pWkQK2FKDcF7dKYrpyOSmxqMRyjuxxsCNjJbW8a8xaw,622
+matrax/games/__init__.py,sha256=ocoMxtstJwNahTvz5k4k8SlwkwdQhkMxmqGGACL9BXs,799
+matrax/games/climbing.py,sha256=HhCNhkq-Xni7MNEn8_odjCfZI0u9Uj6H0YS5hVgZyBs,990
+matrax/games/conflict.py,sha256=4rEIN6wo9rX_SwSeL4JkTWXfkq9WwtqIAt8-UyFNXBI,4052
+matrax/games/no_conflict.py,sha256=QX4YVEcDC5V3lBlys7WrrrkgcMCCldBLS1g7jmZUHB0,2297
+matrax/games/penalty.py,sha256=GX9kFSnpOd3qlpEK5GoMBZ_W-RR5gVp3w0u7eqXAp_c,1074
+matrax/games/utils.py,sha256=JGMCX2I2J29k15lYrsuEyWukkW-aL0XrAV8tP6Iy2z0,945
+matrax-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+matrax-0.0.5.dist-info/METADATA,sha256=g516kOcjAlq02Wj3Kmhp6-Y2gV8w7-mvapPlJ-atEjU,7186
+matrax-0.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+matrax-0.0.5.dist-info/top_level.txt,sha256=iz8TyfDJFfn6HiXBr2uEq87esXrXOJpbrdtDeM1mGyI,7
+matrax-0.0.5.dist-info/RECORD,,
