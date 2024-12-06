@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: colorlite
+Version: 0.0.2
+Summary: lightweight color logging package
+Author-email: BWS <blackwallsentinel@gmail.com>
+Project-URL: Homepage, https://github.com//blackwallsentinel/colorLite
+Project-URL: Issues, https://github.com/blackwallsentinel/colorLite/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
