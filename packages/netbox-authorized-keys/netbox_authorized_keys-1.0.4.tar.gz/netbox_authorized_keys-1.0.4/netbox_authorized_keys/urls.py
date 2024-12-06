@@ -1,0 +1,30 @@
+from django.urls import path
+from netbox.views.generic import ObjectChangeLogView
+
+from netbox_authorized_keys import models, views
+
+urlpatterns = [
+    # Authorized Keys
+    path("authorized-keys/", views.AuthorizedKeyListView.as_view(), name="authorizedkey_list"),
+    path("authorized-keys/add/", views.AuthorizedKeyEditView.as_view(), name="authorizedkey_add"),
+    path("authorized-keys/import/", views.AuthorizedKeyBulkImportView.as_view(), name="authorizedkey_import"),
+    path("authorized-keys/edit/", views.AuthorizedKeyBulkEditView.as_view(), name="authorizedkey_bulk_edit"),
+    path("authorized-keys/delete/", views.AuthorizedKeyBulkDeleteView.as_view(), name="authorizedkey_bulk_delete"),
+    path("authorized-keys/<int:pk>/", views.AuthorizedKeyView.as_view(), name="authorizedkey"),
+    path("authorized-keys/<int:pk>/edit/", views.AuthorizedKeyEditView.as_view(), name="authorizedkey_edit"),
+    path("authorized-keys/<int:pk>/delete/", views.AuthorizedKeyDeleteView.as_view(), name="authorizedkey_delete"),
+    path(
+        "authorized-keys/<int:pk>/changelog/",
+        ObjectChangeLogView.as_view(),
+        name="authorizedkey_changelog",
+        kwargs={"model": models.AuthorizedKey},
+    ),
+    # Authorized Key Devices
+    path("authorized-keys/devices/", views.AuthorizedKeyDeviceListView.as_view(), name="authorizedkeydevice_list"),
+    # Authorized Key Virtual Machines
+    path(
+        "authorized-keys/virtual-machines/",
+        views.AuthorizedKeyVirtualMachineListView.as_view(),
+        name="authorizedkeyvirtualmachine_list",
+    ),
+]
