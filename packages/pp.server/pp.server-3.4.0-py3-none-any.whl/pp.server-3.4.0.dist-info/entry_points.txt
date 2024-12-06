@@ -1,0 +1,7 @@
+[console_scripts]
+pdfreactor8 = pp.server.pdfreactor8:main
+pp-server-templates = pp.server.templates:main
+unoconv = pp.server.unoconv:main
+
+[paste.app_factory]
+main = pp.server:main
