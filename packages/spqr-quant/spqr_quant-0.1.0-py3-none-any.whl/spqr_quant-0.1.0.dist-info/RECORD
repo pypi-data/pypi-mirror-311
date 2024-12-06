@@ -1,0 +1,13 @@
+spqr_quant/__init__.py,sha256=Wv1sLWptvGDSwALhS-pRFel-DWXgQII1EOQ2ZyPVRUU,130
+spqr_quant/inference.py,sha256=zM0hCKuLj6fS9s42R8lap9WxRUjvt-dwgYfzE_YL9HI,12647
+spqr_quant/sparse_util.py,sha256=5xxadLVVbHyUoX0vlZrSFGNZMBwhRIpA1kcNyAMBbQo,1582
+spqr_quant/inference_kernels/__init__.py,sha256=zgG9bCA3SkjeHJYBXki-cIntPP3OkSOZaK698Vq7Gec,89
+spqr_quant/inference_kernels/common.cuh,sha256=WUPO3eeWr997dhzoYdXwVlocEdnThAq1yWcczDl0XUE,4253
+spqr_quant/inference_kernels/cuda_kernel.py,sha256=zJPZ0CDzmNL-gJsyhVM6l9JebxyCmVPNhAEXABJZacg,3400
+spqr_quant/inference_kernels/kernel_selector.py,sha256=s4Gb2Cnw3Ahz9azNSoXKAkHoatWyo1mdJ5W_e8dVG0c,467
+spqr_quant/inference_kernels/spqr_cuda.cpp,sha256=nLH6sCaKcr1-3QPhzJ7hNneon1VA90FhjFZDmpcxLec,14641
+spqr_quant/inference_kernels/spqr_cuda_kernel.cu,sha256=se57e6AJG3WEggF5W7_mUhdrXlkMD-9OGRkdqtWv-WE,38535
+spqr_quant-0.1.0.dist-info/METADATA,sha256=KLW24yCOcy1tptXjmcIjiZhlXF1E4iopU0uFC4V6x6A,6337
+spqr_quant-0.1.0.dist-info/WHEEL,sha256=bFJAMchF8aTQGUgMZzHJyDDMPTO3ToJ7x23SLJa1SVo,92
+spqr_quant-0.1.0.dist-info/top_level.txt,sha256=q9S9zbIxWRFURDInj1CKoEeOhDKEB_q0jhNYOxR-lvo,11
+spqr_quant-0.1.0.dist-info/RECORD,,
