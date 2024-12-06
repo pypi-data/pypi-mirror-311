@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+kingspay.egg-info/PKG-INFO
+kingspay.egg-info/SOURCES.txt
+kingspay.egg-info/dependency_links.txt
+kingspay.egg-info/top_level.txt
+sdk/__init__.py
+sdk/flickpay_sdk.py
