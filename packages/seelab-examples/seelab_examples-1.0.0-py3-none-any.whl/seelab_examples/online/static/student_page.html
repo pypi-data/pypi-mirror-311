@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Page</title>
+    <link rel="stylesheet" href="/static/styles.css" type="text/css">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Room</h1>
+        <h2 id="score">Quiz Room</h2>
+
+        <div id="connection-form">
+<!--            <label for="hostname">Socket.IO Hostname:</label>
+            <input type="text" id="hostname" value="http://localhost:8000"><br>
+-->
+            <label for="myname">Your Name:</label>
+            <input type="text" id="myname" placeholder="Enter your name" value="jithin"><br>
+
+            <label for="room_id">Room ID:</label>
+            <input type="text" id="room_id" placeholder="Enter room ID" value="newroom"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" value="newpass"><br>
+
+            <button id="connect-button">Connect</button>
+        </div>
+        <p id="message"></p>
+
+        <div id="question-container"></div><br><br>
+        <div id="choices-container"></div>
+    </div>
+
+<script>
+
+    var room_id = '';
+    var student_name = '';
+
+    document.getElementById('connect-button').onclick = function() {
+        const room_id = document.getElementById('room_id').value;
+        const password = document.getElementById('password').value;
+        const myname = document.getElementById('myname').value;
+
+        // Emit the join_quiz event with user input
+        socket.emit('join_quiz', {
+            'myname': myname,
+            'room_id': room_id,
+            'password': password
+        });
+    };
+
+
+    const socket = io.connect('http://localhost:8000');
+
+
+    socket.on('connect', function() {
+        console.log('Connected to Socket.IO server');
+        //socket.emit('join_quiz', {'room_id': 'newroom', 'password': 'newpass', 'myname':'student'});
+    });
+
+    socket.on('disconnect', function() {
+        console.log('Disconnected from Socket.IO server');
+    });
+
+    socket.on('joined_room', function(data) {
+        document.getElementById('message').innerText = `Joined room! ID: ${data.room_id}, Owner: ${data.owner_name}`;
+        console.log('Joined Room. Owner:' + data.owner_name + ', room id:' + data.room_id);
+        room_id = data.room_id;
+        student_name = data.student_name;
+    });
+
+    socket.on('join_error', function(data) {
+        document.getElementById('message').innerHTML = 'Quiz room does not exist:<br> reload page after it is created ';
+        document.getElementById('score').innerHTML = 'Quiz room does not exist:<br> reload page after it is created ';
+    });
+    socket.on('send_error', function(data) {
+        document.getElementById('message').innerHTML = 'Send Error:<br>Not the room owner. ';
+    });
+
+    socket.on('new_question', function(data) {
+        console.log('new:', data);
+        addQuestion(data.question);
+    });
+    socket.on('new_question_batch', function(data) {
+        console.log('new:', data.questions);
+        enc = new TextDecoder('utf-8')
+        console.log(enc.decode(data.questions));
+    });
+
+    socket.on('score_update', function(data) {
+        console.log('new:', data);
+        document.getElementById('score').innerText = data.score;
+    });
+
+    function addQuestion(questionData) {
+
+        // Create a container for the new question
+        const questionContainer = document.createElement('div');
+        questionContainer.classList.add('question-container');
+        console.log('got :'+questionData);
+
+        // Add question text
+        const questionText = document.createElement('div');
+        questionText.innerText = questionData[0];
+        questionContainer.appendChild(questionText);
+
+        // Create choices container
+        choicenumber=0;
+        questionData[1].forEach(choice => {
+            const choiceButton = document.createElement('button');
+            choiceButton.innerText = choice;
+            choiceButton.classList.add('choice-button');
+            choiceButton.onclick = function() {
+                socket.emit('answer', {'room_id':room_id,'choice':choicenumber++,'id':questionData[2], 'myname': student_name}); // Submit answer
+                //socket.emit('answer', choice); // Submit answer
+                highlightButton(choiceButton); // Highlight the clicked button
+                setTimeout(() => {
+                    questionContainer.style.display = 'none'; // Collapse the question
+                }, 1000); // Wait for 1 second before hiding
+            };
+            questionContainer.appendChild(choiceButton);
+        });
+
+        // Add the new question container to the main container
+        document.getElementById('question-container').appendChild(questionContainer);
+    }
+
+    function highlightButton(button) {
+        button.classList.add('highlight'); // Add highlight effect
+        setTimeout(() => {
+            button.classList.remove('highlight'); // Remove highlight after some time
+        }, 500); // Highlight duration
+    }
+</script>
+</body>
+
+</html>
