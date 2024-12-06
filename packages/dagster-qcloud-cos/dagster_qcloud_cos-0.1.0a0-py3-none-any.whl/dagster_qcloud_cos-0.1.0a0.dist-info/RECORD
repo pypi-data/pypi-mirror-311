@@ -1,0 +1,7 @@
+dagster_qcloud_cos/__init__.py,sha256=nGAKzpLfWI1uDSv6zRFzcpDioR4vgsLgMwqU_0G-J6o,320
+dagster_qcloud_cos/operations.py,sha256=DklMTS0ZXCM6ifU5_LTOBvlKwzXxcxoB-fdlfwWm3RM,1368
+dagster_qcloud_cos/resources.py,sha256=hTSOraH0vGBZEtHrdvc3qB7hOyoCQulpzZbdUP-NL4I,3500
+dagster_qcloud_cos/version.py,sha256=jldWQzdIEKJeLQFG50usL5mny_5BS3lbPjPWGbkKf94,19
+dagster_qcloud_cos-0.1.0a0.dist-info/METADATA,sha256=D8PiQhT6rbYcNZGSupXuEk_7o045nurslZmNTICqNNY,1636
+dagster_qcloud_cos-0.1.0a0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+dagster_qcloud_cos-0.1.0a0.dist-info/RECORD,,
