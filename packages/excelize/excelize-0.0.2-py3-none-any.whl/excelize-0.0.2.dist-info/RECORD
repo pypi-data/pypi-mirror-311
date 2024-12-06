@@ -1,0 +1,12 @@
+excelize.py,sha256=i0I1iAIYr3tjmM-AjlR6nTjp7pPpdd9ht8DXA1uPJao,19315
+libexcelize.amd64.darwin.dylib,sha256=GsyVEIqA4oFN3P3mFuI1barwv7QXAaAlGorjvioan0c,8838088
+libexcelize.amd64.linux.so,sha256=WRpQ1t1JBG0eWSVi05128W73IZZ91w6ZXEJrJ5xHeY4,9756800
+libexcelize.amd64.windows.dll,sha256=D14xOCIzNs1VfajlkrpKtbaM8zC2gBDnC6aQFXTPnqQ,9071616
+libexcelize.arm64.darwin.dylib,sha256=umxvG9Ew2inTulBPhha8AMWa0aCFk224N_T1hCEKxrE,8577074
+libexcelize.arm64.linux.so,sha256=SFiUkJrI9qbdv5QGbjsZbUczwriO5U5O8FXQeWo-XQs,11749000
+types_go.py,sha256=dXbrkxdepoMrfgTwHYT9lahci2h0ruWHqsKnr7LKuhQ,3392
+types_py.py,sha256=sNmZxeDkybwH6oBRMaRPRPC7gzEfrYisnNPuahiXpTM,2508
+excelize-0.0.2.dist-info/METADATA,sha256=cxzIF2GGDx8-_by-gjc3yQIKeN_mDN12AW5gpFHF_VY,3477
+excelize-0.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+excelize-0.0.2.dist-info/top_level.txt,sha256=yU-CGucvggVVfsvHtJjHIMCFyzMF3HA_5r0cJvEjSro,27
+excelize-0.0.2.dist-info/RECORD,,
