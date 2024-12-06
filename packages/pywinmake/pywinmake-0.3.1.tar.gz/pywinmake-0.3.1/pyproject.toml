@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywinmake"
+version = "0.3.1"
+description = "Windows package build system"
+authors = [
+    {name = "Savoir-faire Linux", email = "andreas.traczyk@savoirfairelinux.com"},
+]
+requires-python = ">=3.7"
+dependencies = []
+readme = "README.md"
+
+[tool.setuptools]
+packages = ["pywinmake"]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+python_files = ["test_*.py", "*_test.py", "tests.py"]

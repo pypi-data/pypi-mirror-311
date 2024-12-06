@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pywinmake
+Version: 0.3.1
+Summary: Windows package build system
+Author-email: Savoir-faire Linux <andreas.traczyk@savoirfairelinux.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
