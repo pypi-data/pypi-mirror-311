@@ -1,0 +1,16 @@
+terminaider/__init__.py,sha256=PSXdoeR213koqN60yjBRFx4jorGX0am4cVKutlmqKIY,368
+terminaider/agent.py,sha256=Qi5nT2lRuPHpXMdtuppqD9cJXA0t0b1PzMhnqdaKM98,3702
+terminaider/ai_interface.py,sha256=0rS99NrjX122QazOzIGNR1miWyTFO5aApd82JuvqWX8,2870
+terminaider/config.py,sha256=E2eEHfu__8cqprZj6BWJmhdN2pE8_O6Ql5-oUYj57b4,1880
+terminaider/main.py,sha256=XZjDRihoyOY07SszT4Vz7_wmP2u2DS2xEKPi6kdtOys,2521
+terminaider/prompts.py,sha256=_m41rHoRukOjfAgOCru7TyXB6izAoO8-n0GG6sVSzDA,658
+terminaider/run_chat.py,sha256=SHXKXd5R2GplR-IjCOiDxeRa0yT_kdhY9UqP8vdbaqY,4451
+terminaider/utils.py,sha256=RTaVWZJrqaoJldBEgBcWtC6RIlOToDKURtPkiQvPLd4,3107
+terminaider/themes/__init__.py,sha256=x1gcUD3iUIMyRGenHBgUFpg82RHMdJkfoCgrWAQNCxo,37
+terminaider/themes/themes.py,sha256=JsTn3m6TFScFbKuvt1pkayrymTI7T0okDHwcRK_D3Mo,2912
+terminaider-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+terminaider-0.1.3.dist-info/METADATA,sha256=cw8u1O9TCUg4eFbVgeRDt414eaj0z7VhKrag91Rze-M,20489
+terminaider-0.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+terminaider-0.1.3.dist-info/entry_points.txt,sha256=O8Lp8R7N28_CIq6Dm1CJ2Y9DB83hYzMlSKaLC8JU0pY,44
+terminaider-0.1.3.dist-info/top_level.txt,sha256=TkTj23Z_m0xWrMH20ZD0C82u_H0NFlVnnDgWs2inbQI,12
+terminaider-0.1.3.dist-info/RECORD,,

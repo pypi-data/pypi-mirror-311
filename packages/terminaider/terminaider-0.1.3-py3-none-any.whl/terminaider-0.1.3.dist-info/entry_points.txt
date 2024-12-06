@@ -1,0 +1,2 @@
+[console_scripts]
+ai = terminaider.main:run
