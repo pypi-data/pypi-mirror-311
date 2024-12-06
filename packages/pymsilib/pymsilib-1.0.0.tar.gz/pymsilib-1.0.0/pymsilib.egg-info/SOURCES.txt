@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+pymsilib/__init__.py
+pymsilib/schema.py
+pymsilib/sequence.py
+pymsilib/text.py
+pymsilib.egg-info/PKG-INFO
+pymsilib.egg-info/SOURCES.txt
+pymsilib.egg-info/dependency_links.txt
+pymsilib.egg-info/top_level.txt
+src/_msi.c
