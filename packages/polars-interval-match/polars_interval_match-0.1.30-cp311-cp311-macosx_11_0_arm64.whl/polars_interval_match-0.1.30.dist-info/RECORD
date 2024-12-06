@@ -1,0 +1,5 @@
+polars_interval_match-0.1.30.dist-info/METADATA,sha256=UHxXT7r4COaLS-m53bUuYt4DA7tochEitkR_Qb58OdU,2049
+polars_interval_match-0.1.30.dist-info/WHEEL,sha256=G0UiGw3m33Mk_hYz-jWAoIF2nZyjCvAl7lj9uXFMSyg,104
+polars_interval_match/__init__.py,sha256=65vCR1IZn91P8XNaGMzkxWUSKf04bJgO0DZukJ-p5WI,723
+polars_interval_match/_interval_match.cpython-311-darwin.so,sha256=vwCb6GDZIsR4IGN_d-39Fa5nfHFet246T8dYwv34i2s,14664240
+polars_interval_match-0.1.30.dist-info/RECORD,,
