@@ -1,0 +1,4 @@
+lbuild<2,>=1.21.8
+lxml<6,>=5
+pyelftools<1,>=0.31
+telnetlib3<3,>=2
