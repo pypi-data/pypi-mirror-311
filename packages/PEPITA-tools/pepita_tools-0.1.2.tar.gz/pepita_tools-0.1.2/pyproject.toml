@@ -1,0 +1,40 @@
+[project]
+name = "PEPITA-tools"
+version = "0.1.2"
+description = "Pipeline for quantifying hair cell health in whole-zebrafish images."
+authors = [{name="Ethan Bustad"}]
+maintainers = [{name="Ethan Bustad"}, {name="Braden Griebel"}]
+
+readme = "README.md"
+keywords = ["Zebrafish", "Haircell", "Antibiotic", "Ototoxicity"]
+requires-python = ">=3.9"
+dependencies = [
+    "imagecodecs>=2024.9.22",
+    "matplotlib>=3.9.2",
+    "numpy>=2.0.2",
+    "opencv-python>=4.10.0.84",
+    "pandas>=2.2.3",
+    "pytest>=8.3.3",
+    "scikit-image>=0.18",
+    "scipy>=1.13.1",
+    "seaborn>=0.13.2",
+    "xlsxwriter>=3.2.0",
+]
+
+[project.urls]
+Repository = "https://github.com/Ma-Lab-Seattle-Childrens-CGIDR/PEPITA-tools"
+Homepage = "https://www.seattlechildrens.org/research/centers-programs/global-infectious-disease-research/research-areas-and-labs/ma-lab/"
+Issues = "https://github.com/Ma-Lab-Seattle-Childrens-CGIDR/PEPITA-tools/issues"
+
+[project.scripts]
+pepita = "pepitatools.scripts.pepita_cli:pepita"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+pepitatools = ["data/*"]
+
+[tool.uv]
+package = true
