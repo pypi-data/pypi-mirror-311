@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-memory = mcp_memory:main
