@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "ars-magica"
+version = "0.1.2"
+description = "A Python implementation of Ars Magica 5th Edition mechanics"
+authors = ["bjornaer <max.schulkin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ars"}]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = ["ars magica", "rpg", "game"]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/bjornaer/ars"
+Repository = "https://github.com/bjornaer/ars.git"
+"Bug Tracker" = "https://github.com/bjornaer/ars/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+click = ">=8.0.0"
+rich = ">=10.0.0"
+pyyaml = ">=6.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+ruff = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[tool.poetry.scripts]
+ars = "ars.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ["py310"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 120
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+"ars/adventure.py" = ["C901"]  # Ignore complexity checks for this file
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --cov=ars --cov-report=term-missing"
+testpaths = [
+    "tests",
+]
