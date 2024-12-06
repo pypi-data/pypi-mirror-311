@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "cherpy"
+version = "0.6.2"
+description = "A rest api wrapper for the Cherwell Service management platform"
+authors = ["Josh Sarver <josh.sarver@gmail.com>"]
+license = "GNU GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.0"
+attrs = "^24.2.0"
+PyYAML = "^6.0.2"
+loguru = "^0.7.2"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+search = "cherpy.cli:search_object_cli"
+delete_objects = "cherpy.cli:delete_objects_cli"
+update = "cherpy.cli:update_object_cli"
+create = "cherpy.cli:create_object_cli"
+run-onestep = "cherpy.cli:run_onestep_cli"
+csm = "cherpy.cli:csm"
