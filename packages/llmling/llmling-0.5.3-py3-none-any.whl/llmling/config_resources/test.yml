@@ -1,0 +1,104 @@
+# Resource processors definitions
+context_processors:
+  python_cleaner:
+    type: function
+    import_path: llmling.testing.processors.uppercase_text
+  sanitize:
+    type: function
+    import_path: llmling.testing.processors.multiply
+
+  add_metadata:
+    type: template
+    template: |
+      # Generated at: {{ now() }}
+      # Source: {{ source }}
+      # Version: {{ version }}
+
+      {{ content }}
+
+# Global tools definitions
+tools:
+  analyze_ast:
+    import_path: "llmling.testing.tools.analyze_ast"
+    description: "Analyze Python code structure"
+
+# Resource definitions
+resources:
+  python_guidelines:
+    type: path
+    path: "https://example.com/python-guidelines.md"
+    description: "Python coding standards and best practices"
+    processors:
+      - name: sanitize
+        keyword_args: { remove_emails: true }
+      - name: add_metadata
+        keyword_args:
+          source: "company guidelines"
+          version: "1.2.3"
+
+  my_utils:
+    type: source
+    import_path: "my_project.utils"
+    description: "Utility module source code"
+    recursive: true
+    processors:
+      - name: python_cleaner
+
+  single_module:
+    type: source
+    import_path: "my_project.models.user"
+    description: "User model implementation"
+    recursive: false
+    include_tests: false
+
+  system_info:
+    type: callable
+    import_path: "my_project.utils.system_diagnostics.get_info"
+    description: "Current system information"
+    keyword_args:
+      include_memory: true
+      include_disk: true
+
+  code_review_template:
+    type: path
+    path: "./templates/code_review.txt"
+    description: "Template for code review prompts"
+    processors:
+      - name: python_cleaner
+
+  system_prompt:
+    type: text
+    content: |
+      You are a test assistant. Your task is to generate exactly 100 words
+      of test content. The content should be a simple story about a dog.
+
+      Requirements:
+      1. Exactly 100 words
+      2. Simple narrative structure
+      3. Consistent tone
+      4. No complex vocabulary
+      5. No dialogue
+
+      Begin your response immediately with the story, without any preamble
+      or meta-commentary.
+    description: "Test prompt for consistent output"
+
+  git_diff:
+    type: cli
+    command: "git diff HEAD~1"
+    description: "Current git changes"
+    shell: true
+    processors:
+      - name: python_cleaner
+
+# Resource groups
+resource_groups:
+  code_review_basic:
+    - system_prompt
+    - code_review_template
+
+  code_review_advanced:
+    - system_prompt
+    - code_review_template
+    - python_guidelines
+    - git_diff
