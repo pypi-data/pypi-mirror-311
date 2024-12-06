@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: EasyDictDB
+Version: 1.1.0
+Summary: A simple library to save and load Python dictionaries in SQLite.
+Home-page: https://github.com/mmd-dll/EasyDictDB
+Author: mohammad reza
+Author-email: id.suzuya@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# EasyDictDB
+
+یک کتابخونه ساده برای ذخیره کردن دیکشنری ها در پایگاه داده sql
+
+
+## ویژگی‌ها
+
+- ذخیره سازی و بازیابی اسان دیتاها
+- اسان کردن کارشما در استفاده از اس کیو ال
+- سبک و سریع
+
+
+
+## سوالاتی راجب این کتابخونه
+
+#### آیا متغیر هایی جز دیکشنری رو ذخیره میکنه؟
+
+خیر این کتابخونه برای ذخیره دیکشنری طراحی شده
+
+#### آیا میشه چند دیکشنری رو به صورت جدا ذخیره کرد؟
+
+بله وقتی میخواین دیکشنری رو ذخیره کنید میتونین یک شناسه بهش بدید
+
+
+## نصب
+
+نصب از طریق ترمینال
+
+```bash
+  pip install EasyDictDB
+```
+
+## نمونه کد
+- ذخیره دیتا
+```python
+from EasyDictDB import save,load
+
+data = {'name':'mohammad reza','age':18,'alave':True}
+
+save(data,'my_data')
+#در اینجا یک فایل data_store.db ساخته میشود و دیتا توش ذخیره میشه
+
+```
+
+- لود کردن دیتا
+
+```python
+from EasyDictDB import save,load
+
+data = load('my_data')
+# اگه دیتا وجود داشته باشه دیتا = {'name':'mohammad reza','age':18,'alave':True}
+```

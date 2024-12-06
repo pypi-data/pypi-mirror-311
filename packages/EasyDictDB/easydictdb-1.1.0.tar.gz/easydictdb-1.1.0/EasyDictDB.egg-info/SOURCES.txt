@@ -1,0 +1,8 @@
+README.md
+setup.py
+EasyDictDB/__init__.py
+EasyDictDB/main.py
+EasyDictDB.egg-info/PKG-INFO
+EasyDictDB.egg-info/SOURCES.txt
+EasyDictDB.egg-info/dependency_links.txt
+EasyDictDB.egg-info/top_level.txt
