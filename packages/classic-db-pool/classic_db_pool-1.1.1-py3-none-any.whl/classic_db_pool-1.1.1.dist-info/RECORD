@@ -1,0 +1,9 @@
+classic/db_pool/__init__.py,sha256=vb9hdbY0d5iUgLuQHq13KbJcylKSqAs7w05AXLtfzlw,33
+classic/db_pool/exceptions.py,sha256=ytNjieLkPFx4B8qxmdcIaa9AK1gO9IvD0vO8LPzBSbg,116
+classic/db_pool/pool.py,sha256=530m8fNsWBbAN2IUOaMryRL372j8pdbC4Z8A8-fUAEQ,6268
+classic/db_pool/poolvalidators.py,sha256=6umDwMzcTIE7QkiNOTa03__MnaNjHZrbT1acavqNFDQ,2910
+classic_db_pool-1.1.1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+classic_db_pool-1.1.1.dist-info/METADATA,sha256=bZSTNSdUfKizK1YjDxoJ8-PtsKZDImvfSA-1Wg-m5Vg,2104
+classic_db_pool-1.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+classic_db_pool-1.1.1.dist-info/top_level.txt,sha256=NGd9e95FycaETli7Cs0MwFTtdjK6EYJ3tq_ErbSLNZg,8
+classic_db_pool-1.1.1.dist-info/RECORD,,
