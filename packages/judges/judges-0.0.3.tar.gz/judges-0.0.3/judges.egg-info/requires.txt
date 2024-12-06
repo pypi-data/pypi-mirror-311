@@ -1,0 +1,4 @@
+openai==1.54.5
+
+[dev]
+openai-responses==0.11.2
