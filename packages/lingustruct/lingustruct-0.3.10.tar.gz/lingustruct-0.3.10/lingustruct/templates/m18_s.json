@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "error_type": {
+      "type": "string",
+      "enum": ["Runtime", "Logic", "Network", "Validation", "Unknown"],
+      "description": "Type of error being handled",
+      "priority": 1,
+      "required": true
+    },
+    "recovery_strategy": {
+      "type": "string",
+      "enum": ["Retry", "Fallback", "Abort", "Log Only", "Ignore"],
+      "description": "Strategy to recover from the error",
+      "priority": 2,
+      "required": false
+    },
+    "logging": {
+      "type": "boolean",
+      "description": "Whether logging is enabled for this error type",
+      "priority": 3,
+      "required": false
+    },
+    "notification": {
+      "type": "string",
+      "enum": ["Email", "Slack", "Webhook", "None"],
+      "description": "Notification method to alert about the error",
+      "priority": 4,
+      "required": false
+    }
+  },
+  "required": ["error_type"]
+}

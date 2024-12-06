@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "file_type": {
+      "type": "string",
+      "priority": 1,
+      "required": true
+    },
+    "extension": {
+      "type": "string",
+      "priority": 2,
+      "required": false
+    },
+    "path": {
+      "type": "string",
+      "priority": 3,
+      "required": true
+    },
+    "size": {
+      "type": "integer",
+      "priority": 4,
+      "required": false
+    },
+    "last_modified": {
+      "type": "string",
+      "format": "date-time",
+      "priority": 5,
+      "required": false
+    },
+    "hash": {
+      "type": "string",
+      "priority": 6,
+      "required": false
+    },
+    "content_summary": {
+      "type": "string",
+      "priority": 7,
+      "required": false
+    }
+  },
+  "required": ["file_type", "path"]
+}
+
