@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sp-requests
+Version: 0.0.1
+Author: Pritesh Patel
+License-File: licence
+Requires-Dist: requests
+
