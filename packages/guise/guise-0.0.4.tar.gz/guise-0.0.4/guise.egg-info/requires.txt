@@ -1,0 +1,11 @@
+colour
+dol
+flair
+html2text
+importlib_resources
+lexis
+pandas
+py2store
+requests
+wordcloud
+nltk
