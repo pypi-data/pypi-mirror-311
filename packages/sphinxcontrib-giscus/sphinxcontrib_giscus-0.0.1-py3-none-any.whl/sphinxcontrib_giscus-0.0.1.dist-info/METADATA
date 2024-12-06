@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: sphinxcontrib-giscus
+Version: 0.0.1
+Summary: A sphinx extension that integrate Giscus to your sphinx doc
+Requires-Python: >=3.8
+Requires-Dist: sphinx>=7.1.2
+Description-Content-Type: text/markdown
+
+# sphinxcontrib-giscus
+
+Description
+----------------------
+
+This Sphinx extension allows users to dynamically integrate `Giscus`_ comments into specific pages of a
+Sphinx-generated documentation website.
+
+documentation: 
