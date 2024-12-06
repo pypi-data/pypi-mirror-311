@@ -1,0 +1,10 @@
+golem_cert_companion/__init__.py,sha256=i2qP-9IkZ8Hk63uVPYIpZ8mIjDcPGDopwst4lZGS_CU,336
+golem_cert_companion/binary_manager.py,sha256=S3IcQksMU0yOM5kY7EBS-a7Jv3UZ3u0O9j_rid4q8B4,3971
+golem_cert_companion/certificate_manager.py,sha256=QKefDUQoRIXLGrahO7yEkqdhJRE-xSoVhuaiiiLcoZM,18525
+golem_cert_companion/templates.py,sha256=RDNxXs1Ga-i0G3aZ47Z0DVL17xKcK4nQxR-dvnyGkuI,2353
+golem_cert_companion-0.2.3.dist-info/LICENSE,sha256=jLRnjCIfoTeRGQXlb1NjyLuiryDscvq30bJ42Qwmvi4,1071
+golem_cert_companion-0.2.3.dist-info/METADATA,sha256=s3yOTlFXRfjDX5T1r0bXlrZYotKc3SWXkP8Wv_7zJTE,403
+golem_cert_companion-0.2.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+golem_cert_companion-0.2.3.dist-info/entry_points.txt,sha256=JLDHYuhlkViyYvAdu9WDQewa6Yh0FADgdpX-5kXPhHU,141
+golem_cert_companion-0.2.3.dist-info/top_level.txt,sha256=_meMEl3qIjkIuugruw2LUnCYFgFt0_vkKUWWXhI46OY,21
+golem_cert_companion-0.2.3.dist-info/RECORD,,
