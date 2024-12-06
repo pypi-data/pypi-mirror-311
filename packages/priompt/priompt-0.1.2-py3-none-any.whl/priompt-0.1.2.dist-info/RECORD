@@ -1,0 +1,12 @@
+priompt/__init__.py,sha256=UneqIrtuOzt_K8e9otljs1rmXZWllPFHFx-8Ok0huKw,1413
+priompt/components.py,sha256=auOhk79fuH9fIrFKOZ5fsWb0sbXQPJlO1Dj4Su8IlFQ,13767
+priompt/lib.py,sha256=9ro1qZtO6Xvo5vuJWw1TrP8ri2lrcbJHYwz_gf9lKog,99739
+priompt/openai.py,sha256=JsmooskicDHFWAvkDZujg8_glVxxrSSR1OagcicvkuA,3709
+priompt/output_catcher.py,sha256=0YzIWxqly6Gm9Dvk801rKUsK4l4aYLQo_tQ3-CdrXbE,1583
+priompt/preview.py,sha256=PzQmY-sq43xMBE8qshsg-mhY3ntplt33dvd-fSbjnjA,4854
+priompt/tokenizer.py,sha256=BR1U6-gAatO6qd7jqbeUD7Zs_2lBOmjdeU8kZgIV4ps,18231
+priompt/types.py,sha256=CPyI4WZnazfDH00na69CoQwO3-ke0YhtlS-E5owJFUs,8920
+priompt-0.1.2.dist-info/METADATA,sha256=TxQZucHYKctAsC--GD-JdA7mJf1XG_9r3Pqzwggh7VE,7544
+priompt-0.1.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+priompt-0.1.2.dist-info/licenses/LICENSE.md,sha256=NEbrcH1Oe6x4m5zB9PAvvvDwlbtIcVXnFAuLEnYJV1g,1109
+priompt-0.1.2.dist-info/RECORD,,
