@@ -1,0 +1,2 @@
+certbot>=3.0.0
+dns-lexicon>=3.14.1
