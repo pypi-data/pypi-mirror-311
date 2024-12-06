@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: char_count_package
+Version: 0.0.2
+Summary: A package to count the ocurrency of unique characters in a string or file.
+Author-email: Suelen Karbivnychyy <author@example.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Task 4 CLI
+
+## To use this package
+
+Create and activate a virtual environment.
+```
+virtualenv venv
+venv/scripts/activate
+```
+
+Install the package:
+```
+python -m pip install char_count_package
+```
+
+Now you can import the package:
+```
+import char_count_package
+```
+
+## Usage
+
+From your working directory run:
+```
+python [your_directory.py] --string [your desired string] --filepath [your desired filepath]
+```
+
+Or if you want to work with only string, Run:
+```
+python [your_directory.py] --string [your desired string]
+```
