@@ -1,0 +1,62 @@
+Metadata-Version: 2.3
+Name: exam-marking
+Version: 0.0.10
+Summary: A tool to ease UNSW exam marking (COMP6841 in particular).
+Project-URL: Repository, https://github.com/HamishWHC/exam-marking.git
+Project-URL: Issues, https://github.com/HamishWHC/exam-marking/issues
+Author-email: Hamish Cox <hamish@hamishwhc.com>
+Maintainer-email: Hamish Cox <hamish@hamishwhc.com>
+License: Copyright © 2024 Hamish Cox
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Requires-Dist: click>=8.1.7
+Requires-Dist: flask>=3.1.0
+Description-Content-Type: text/markdown
+
+# exam-marking, a tool to make it easy to mark exam questions.
+
+Built for UNSW COMP6[48]41 tutors, because I want to be able to mark in a single window.
+
+```
+Usage: exam-marking [OPTIONS] MARKS_PATH
+
+  Reads answers and marks from MARKS_PATH and starts a webserver where you can
+  fill in marks. Marks will be saved periodically and when you Ctrl+C the
+  process.
+
+Options:
+  --import-answers FILENAME       Imports answers from the provided txt file.
+                                  Overwrites file at MARKS_PATH. Answers are
+                                  expected to be separated by a block of
+                                  hashes 20 wide, with the center of the
+                                  middle line containing a zID (z[0-9]{7})
+                                  with a single space on either side.
+  --column <TEXT BOOLEAN INTEGER>...
+                                  A set of columns to provide in the marking
+                                  interface. Each column should have a name,
+                                  either true or false to indicate whether it
+                                  is a checkbox or not, and a maximum value
+                                  (or the value for true checkboxes).
+  --port INTEGER                  Port to use for webserver. Defaults to 8000.
+  --help                          Show this message and exit.
+```
