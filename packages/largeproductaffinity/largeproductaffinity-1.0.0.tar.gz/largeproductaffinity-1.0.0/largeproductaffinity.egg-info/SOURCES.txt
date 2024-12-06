@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+largeproductaffinity.egg-info/PKG-INFO
+largeproductaffinity.egg-info/SOURCES.txt
+largeproductaffinity.egg-info/dependency_links.txt
+largeproductaffinity.egg-info/top_level.txt
