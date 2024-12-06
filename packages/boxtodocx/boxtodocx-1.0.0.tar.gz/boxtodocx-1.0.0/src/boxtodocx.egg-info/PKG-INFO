@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: boxtodocx
+Version: 1.0.0
+Summary: Convert Box Notes to Microsoft Word (docx) documents
+Home-page: https://github.com/ujjwal-ibm/boxtodocx
+Author: Ujjwal Kumar
+Author-email: ramuklawjju12321@gmail.com
+Project-URL: Bug Tracker, https://github.com/ujjwal-ibm/boxtodocx/issues
+Project-URL: Documentation, https://github.com/ujjwal-ibm/boxtodocx
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4>=4.9.3
+Requires-Dist: python-docx>=0.8.11
+Requires-Dist: requests>=2.25.1
+Requires-Dist: click>=8.0.0
+Requires-Dist: typing-extensions>=4.0.0
+Requires-Dist: colorlog>=6.7.0
+
+# BoxNote to docx Converter
+
+A Python command-line tool to convert Box Notes to Microsoft Word (docx) documents with preservation of formatting, tables, and images.
+
+## Features
+
+- Convert single BoxNote files to docx
+- Batch convert entire directories of BoxNote files
+- Preserve formatting, tables, and images
+- Support for Box API authentication
+- Simple command-line interface
+
+## Installation
+
+```bash
+
+pip3 install .
+```
+
+## Usage
+
+### Basic Usage
+
+Convert a single file:
+```bash
+boxtodocx example.boxnote
+```
+
+Convert all files in a directory:
+```bash
+boxtodocx /path/to/directory
+```
+
+### Advanced Options
+
+```bash
+boxtodocx --help
+
+Options:
+  -d, --dir TEXT     Work directory for temporary files
+  -t, --token TEXT   Box access token
+  -o, --output TEXT  Output file name (only for single file conversion)
+  -u, --user TEXT    Box user id
+  -v, --verbose      Enable verbose logging
+  --help            Show this message and exit
+```
+
+## Authentication
+
+To use Box API features (like image downloading), you need to provide a Box access token:
+
+```bash
+boxtodocx input.boxnote -t "your_box_token" -u "your_user_id"
+```
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
