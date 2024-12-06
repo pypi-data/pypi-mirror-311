@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dynmap_lens
+Version: 1.0.0
+Summary: Capture the contents of a Minecraft server's Dynmap. (Fork of dynmap_timemachine.)
+Home-page: https://github.com/martinsik/minecraft-dynmap-timemachine
+Author: AtomicAirin
+Author-email: 
+License: MIT
+Classifier: Topic :: Games/Entertainment
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Utilities
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: requests
+
+This package captures the contents of a Minecraft server's Dynmap page; fork of dynmap_timemachine with added support for JPG tile formats.

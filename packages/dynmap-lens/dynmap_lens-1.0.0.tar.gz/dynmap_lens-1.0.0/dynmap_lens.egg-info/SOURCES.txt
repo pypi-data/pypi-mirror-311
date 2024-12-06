@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+dynmap-lens.py
+setup.cfg
+setup.py
+dynmap_lens/__init__.py
+dynmap_lens/dynmap.py
+dynmap_lens/projection.py
+dynmap_lens/simple_downloader.py
+dynmap_lens/time_machine.py
+dynmap_lens.egg-info/PKG-INFO
+dynmap_lens.egg-info/SOURCES.txt
+dynmap_lens.egg-info/dependency_links.txt
+dynmap_lens.egg-info/requires.txt
+dynmap_lens.egg-info/top_level.txt
