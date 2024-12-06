@@ -1,0 +1,13 @@
+LICENSE.txt
+PACKAGING.md
+README.md
+pyproject.toml
+setup.py
+packaging/rpm/parsync.spec
+parsync/__init__.py
+parsync.egg-info/PKG-INFO
+parsync.egg-info/SOURCES.txt
+parsync.egg-info/dependency_links.txt
+parsync.egg-info/entry_points.txt
+parsync.egg-info/top_level.txt
+tests/test_parsync.py

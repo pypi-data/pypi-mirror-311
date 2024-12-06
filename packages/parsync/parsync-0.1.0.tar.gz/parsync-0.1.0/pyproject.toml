@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parsync"
+dynamic = ["version"]
+requires-python = ">= 3.7"
+authors = [{ name = "Nicolas Granger", email = "nicolas.granger@cea.fr" }]
+description = "Recursively copy missing files to a directory"
+readme = "README.md"
+license = { text = "CECILL-C" }
+classifiers = [
+  "License :: CeCILL-C Free Software License Agreement (CECILL-C)",
+  "Topic :: System :: Clustering",
+  "Topic :: System :: Filesystems",
+  "Topic :: System :: Archiving :: Mirroring",
+  "Topic :: Scientific/Engineering"
+]
+
+[project.scripts]
+parsync = "parsync:main"
+
+[tool.setuptools.packages.find]
+include = ["parsync*"]
+
+[tool.setuptools_scm]
