@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+smart_detect/__init__.py
+smart_detect/main.py
+smart_detect/utils.py
+smart_detect.egg-info/PKG-INFO
+smart_detect.egg-info/SOURCES.txt
+smart_detect.egg-info/dependency_links.txt
+smart_detect.egg-info/requires.txt
+smart_detect.egg-info/top_level.txt
