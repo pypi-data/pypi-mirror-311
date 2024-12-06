@@ -1,0 +1,9 @@
+ai_commit/__init__.py,sha256=94wEHbWf23PqxLyP9Ln3DTEt0RwJMDXj0GRs5IXUH-A,708
+ai_commit/app.py,sha256=XxjASAYuneDCl5NGimYK5iVhsJ7oH6G38lWvqzenOHA,5822
+ai_commit/prompts.py,sha256=WSl6E8sGaS-2YlqM2EAp1BxgjAptP8L0GPUkGk6l8w8,1099
+ai_gen_commit-0.0.1.dist-info/LICENSE,sha256=4G8zwpKlJHg6p1e7ISlcLgzStiXhBqMLZJMkQqgG6i8,1072
+ai_gen_commit-0.0.1.dist-info/METADATA,sha256=d52sargIS3iokIGJH6lYVl7PDQ6e7uhHIDbFOB9ce-I,2028
+ai_gen_commit-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ai_gen_commit-0.0.1.dist-info/entry_points.txt,sha256=HlhOoblwFf_81vFM0fq-bze0ok3eYoZxilkI9zn1wXU,42
+ai_gen_commit-0.0.1.dist-info/top_level.txt,sha256=xzo4o4ZjM0T1PlzuuOmsa21x-DJLJKnzk4svgoYI0PM,10
+ai_gen_commit-0.0.1.dist-info/RECORD,,
