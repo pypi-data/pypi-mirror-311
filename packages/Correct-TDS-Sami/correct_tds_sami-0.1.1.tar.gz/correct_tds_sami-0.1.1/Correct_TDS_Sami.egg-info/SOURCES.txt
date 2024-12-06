@@ -1,0 +1,13 @@
+README.md
+setup.py
+Correct_TDS_Sami/__init__.py
+Correct_TDS_Sami/constants.py
+Correct_TDS_Sami/fitc.py
+Correct_TDS_Sami/fitf.py
+Correct_TDS_Sami/interface.py
+Correct_TDS_Sami/opt.py
+Correct_TDS_Sami.egg-info/PKG-INFO
+Correct_TDS_Sami.egg-info/SOURCES.txt
+Correct_TDS_Sami.egg-info/dependency_links.txt
+Correct_TDS_Sami.egg-info/requires.txt
+Correct_TDS_Sami.egg-info/top_level.txt
