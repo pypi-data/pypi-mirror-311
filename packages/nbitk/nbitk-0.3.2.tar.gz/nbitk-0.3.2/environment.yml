@@ -1,0 +1,16 @@
+name: nbitk
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - blast
+  - hmmer
+  - raxml-ng
+  - perl-bio-phylo-forest-dbtree
+  - pip
+  - vsearch
+  - pip:
+    - -r requirements.txt
+    - cutadapt
