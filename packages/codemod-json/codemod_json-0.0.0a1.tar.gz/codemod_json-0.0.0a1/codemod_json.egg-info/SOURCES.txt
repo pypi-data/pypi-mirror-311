@@ -1,0 +1,5 @@
+setup.py
+codemod_json.egg-info/PKG-INFO
+codemod_json.egg-info/SOURCES.txt
+codemod_json.egg-info/dependency_links.txt
+codemod_json.egg-info/top_level.txt
