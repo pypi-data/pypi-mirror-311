@@ -1,0 +1,9 @@
+
+[:sys_platform == "darwin"]
+pyobjc-core==9.2
+pyobjc-framework-Cocoa==9.2
+pyobjc-framework-CoreWLAN==9.2
+
+[:sys_platform == "win32"]
+pywifi>=1.1.12
+comtypes>=1.2.0

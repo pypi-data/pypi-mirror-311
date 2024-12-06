@@ -1,0 +1,2 @@
+[console_scripts]
+py-wifi-helper = py_wifi_helper.cmd:main
