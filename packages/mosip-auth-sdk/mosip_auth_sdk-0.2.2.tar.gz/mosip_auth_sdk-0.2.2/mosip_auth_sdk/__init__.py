@@ -1,0 +1,1 @@
+from mosip_auth_sdk._authenticator import MOSIPAuthenticator
