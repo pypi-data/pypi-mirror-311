@@ -1,0 +1,2 @@
+[console_scripts]
+wip = wip_manager.cli:app
