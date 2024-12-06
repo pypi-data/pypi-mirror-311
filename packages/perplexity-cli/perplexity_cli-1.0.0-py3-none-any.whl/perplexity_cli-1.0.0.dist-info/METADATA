@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: perplexity-cli
+Version: 1.0.0
+Summary: A simple command-line client for the Perplexity API
+Author: Dawid Szewc
+Author-email: dawid_szewc@icloud.com
+License-File: LICENSE
+Requires-Dist: requests
