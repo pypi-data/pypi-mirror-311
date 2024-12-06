@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: phreeqc
+Version: 0.2.1
+Summary: Python bindings for IPHREEQC
+Author: Haohan Yang
+License: MIT License
+        
+        Copyright (c) 2024 Haohan Yang
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://www.usgs.gov/software/phreeqc-version-3
+Project-URL: Repository, https://github.com/haohanyang/phreeqc.git
+Project-URL: Issues, https://github.com/haohanyang/phreeqc/issues
+Requires-Python: >=3.9
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Description-Content-Type: text/markdown
+
+# PHREEQC
+
+Python bindings of [IPHREEQC](https://www.usgs.gov/software/phreeqc-version-3)
+
+## Install
+```
+pip install phreeqc
+```
+## Use
+```py
+from phreeqc import Phreeqc
+
+p = Phreeqc()
+error_count = p.load_database("phreeqc.dat")
+
+if error_count != 0:
+    raise RuntimeError("Failed to load database")
+
+error_count = p.run_string(
+    """
+TITLE Example 2.--Temperature dependence of solubility
+                  of gypsum and anhydrite
+SOLUTION 1 Pure water
+        pH      7.0
+        temp    25.0                
+EQUILIBRIUM_PHASES 1
+        Gypsum          0.0     1.0
+        Anhydrite       0.0     1.0
+REACTION_TEMPERATURE 1
+        25.0 75.0 in 51 steps
+SELECTED_OUTPUT
+        -file   ex2.sel
+        -temperature
+        -si     anhydrite  gypsum
+USER_GRAPH 1 Example 2
+        -headings Temperature Gypsum Anhydrite
+        -chart_title "Gypsum-Anhydrite Stability"
+        -axis_scale x_axis 25 75 5 0
+        -axis_scale y_axis auto 0.05 0.1
+        -axis_titles "Temperature, in degrees celsius" "Saturation index"
+        -initial_solutions false
+  -start
+  10 graph_x TC
+  20 graph_y SI("Gypsum") SI("Anhydrite")
+  -end
+END
+"""
+)
+
+if error_count != 0:
+    raise RuntimeError("Failed to run string")
+
+selected_output = p.get_selected_output()
+
+print(selected_output)
+
+```
+## License
+This project provides Python bindings for the iphreeqc software. The bindings are distributed under the [MIT License](/LICENSE), which applies to the Python and C++ binding code in this repository.
+
+However, please note:
+
+IPHREEQC, the underlying software to which these bindings provide access, is made available by the U.S. Geological Survey (USGS) under the terms described in its [User Rights Notice](/NOTICE). You can also find the full text of the license in the iphreeqc source or documentation.
+By using this project, you agree to comply with the terms outlined in the iphreeqc license as well as the MIT license for the Python bindings.
