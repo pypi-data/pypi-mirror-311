@@ -1,0 +1,3 @@
+[console_scripts]
+gcert = golem_cert_companion.certificate_manager:main
+golem-cert-companion = golem_cert_companion.certificate_manager:main
