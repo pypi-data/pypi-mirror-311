@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: asi-weather
+Version: 2.2.8
+Summary: A Python package for a weather prediction project
+Author: Andrei, Tagir, Yan
+Author-email: s24238@pjwstk.edu.pl
+Requires-Python: >=3.7
