@@ -1,0 +1,8 @@
+phoneshift/sdk_python3.cpython-310-x86_64-linux-gnu.so,sha256=O8CzzoUvY8qBnPI55LlVkUF5eNj_Eu5zxbv2lnBRsYE,10423480
+phoneshift/__init__.py,sha256=46-FeroFVRG5arFVmwNPDN2JNCWtafNwlmQrSuz3zIU,1708
+phoneshift/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phoneshift/tests/test_simple.py,sha256=2aMl9hYJ5wRAVxWaiMhOLMYCI3GoutvD5PmHGXEzN0Y,3150
+phoneshift-0.0.11.dev9.dist-info/top_level.txt,sha256=Zt3MUHIDfUfkCVfGiL0WcncShwG0kFNySztSBjKSU5I,34
+phoneshift-0.0.11.dev9.dist-info/RECORD,,
+phoneshift-0.0.11.dev9.dist-info/METADATA,sha256=8GDeY1itYcDGPkpnUdPUU5GUX708ie4GuVnHwvHMOVY,521
+phoneshift-0.0.11.dev9.dist-info/WHEEL,sha256=m2_gJPr7xnnGfiE013tVzgC-Sc1sFXYskwf7kyqFHXk,151
