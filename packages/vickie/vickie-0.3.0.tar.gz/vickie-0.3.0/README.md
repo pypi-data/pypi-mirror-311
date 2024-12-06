@@ -1,0 +1,46 @@
+<div align="center">
+  <img src="./logo.png" alt="Logo" width="200">
+  <h1>Vickie</h1>
+  <p>THe All-in-One Validator.</p>
+  <a href="https://github.com/walidsa3d/actions/workflows/test.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/walidsa3d/vickie/test.yml?branch=main&style=flat-square" alt="Test Status">
+  </a>
+  <a href="https://github.com/walidsa3d/vickie/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/vickie/stamper?style=flat-square" alt="License">
+  </a>
+</div>
+
+
+**vickie** is a versatile Python library for validating various types of inputs, including URLs, phone numbers, credit cards, and more. It's designed to be easy to use and integrate into your projects, helping ensure that user inputs are accurate and conform to expected formats.
+
+## Features
+
+- **URL Validation**: Check if a given string is a valid URL.
+- **Phone Number Validation**: Validate phone numbers based on international formats.
+- **Credit Card Validation**: Verify the validity of credit card numbers using Luhn's algorithm.
+- **Email Address Validation**
+- **Product ID Validation**
+
+## Installation
+
+You can install vickie via pip:
+
+```bash
+pip install vickie
+```
+
+## Example Usage
+
+```python
+from vickie import Vickie
+is_phone_number = Vickie.is_phone("+14155552671", "US")
+```
+
+## 🧑‍💻 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
