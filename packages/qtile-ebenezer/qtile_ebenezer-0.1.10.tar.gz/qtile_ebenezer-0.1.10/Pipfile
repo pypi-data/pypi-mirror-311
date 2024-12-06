@@ -1,0 +1,44 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+qtile = "*"
+pillow = "*"
+psutil = "*"
+pyyaml = "*"
+cairocffi = "*"
+pytest-cov = "*"
+typer = "*"
+setuptools-scm = "*"
+mypy = "*"
+installer = "*"
+
+[dev-packages]
+black = "*"
+autoflake = "*"
+isort = "*"
+types-pyyaml = "*"
+types-psutil = "*"
+types-requests = "*"
+types-pillow = "*"
+mypy = "*"
+pytest = "*"
+pytest-sugar = "*"
+setuptools = "*"
+wheel = "*"
+twine = "*"
+responses = "*"
+pytest-cov = "*"
+bump2version = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+furo = "*"
+setuptools-scm = "*"
+build = "*"
+installer = "*"
+
+[requires]
+python_version = "3.12"
