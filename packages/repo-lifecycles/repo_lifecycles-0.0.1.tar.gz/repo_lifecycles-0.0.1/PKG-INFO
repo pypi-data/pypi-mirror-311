@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: repo-lifecycles
+Version: 0.0.1
+Summary: Lightweight longitudinal repository data collector.
+Project-URL: Homepage, https://github.com/mjgaughan/repo-lifecycles
+Project-URL: Issues, https://github.com/mjgaughan/repo-lifecycles/issues
+Author-email: Matt Gaughan <mgaughan@proton.me>
+Maintainer-email: Matt Gaughan <mgaughan@proton.me>
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Requires-Dist: argparse
+Requires-Dist: datetime
+Requires-Dist: gitpython
+Requires-Dist: os
+Requires-Dist: pandas
+Requires-Dist: subprocess
+Description-Content-Type: text/markdown
+
+small library to quickly get by-commit software repository history to facilitate modeling of project lifecycles.
+
+there are other vcs analysis tools. this is indended to be:
+- a lightweight, minimum viable data collection tool 
+- support longitudinal data collection out of the box 
