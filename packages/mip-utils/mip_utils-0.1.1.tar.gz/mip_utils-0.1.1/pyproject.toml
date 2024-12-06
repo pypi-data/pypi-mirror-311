@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mip-utils"
+version = "0.1.1"
+description = "A utility package designed to enhance workflows projects that use ticdat."
+authors = ["Mip Wise <contact@mipwise.com>"]
+readme = "README.md"
+license = "LICENSE"
+include = ["mip_utils/*"]
+exclude = ["test_mip_utils/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poetry-dynamic-versioning = "^1.4.1"
+
+[tool.poetry.group.dev.dependencies]
+ticdat = "0.2.24"
+pandas = "2.1.4"
+numpy = "1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+homepage = "https://github.com/mipwise/mip-utils"
+source = "https://github.com/mipwise/mip-utils"
+tracker = "https://github.com/mipwise/mip-utils/issues"
