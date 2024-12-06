@@ -1,0 +1,1 @@
+from ultttt.__main__ import main; main()
