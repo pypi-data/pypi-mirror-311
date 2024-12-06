@@ -1,0 +1,18 @@
+[project]
+name = "Xomics_Clara_Mariam"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "clara", email = "clara.centa@gmail.com" },
+    { name = "mariam"}
+]
+url = "http://pedago-service.univ-lyon1.fr:2325/projet-xomics/xomics.git"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.9.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
