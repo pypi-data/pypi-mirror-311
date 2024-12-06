@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+ticketbookinglib/__init__.py
+ticketbookinglib/bookingalert.py
+ticketbookinglib.egg-info/PKG-INFO
+ticketbookinglib.egg-info/SOURCES.txt
+ticketbookinglib.egg-info/dependency_links.txt
+ticketbookinglib.egg-info/top_level.txt
