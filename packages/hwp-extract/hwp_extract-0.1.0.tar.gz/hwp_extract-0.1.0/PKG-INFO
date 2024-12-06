@@ -1,0 +1,92 @@
+Metadata-Version: 2.3
+Name: hwp-extract
+Version: 0.1.0
+Summary: Simple object extractor for HWP files.
+Project-URL: Documentation, https://github.com/volexity/hwp-extract/blob/master/README.md
+Project-URL: Issues, https://github.com/volexity/hwp-extract/issues
+Project-URL: Source, https://github.com/volexity/hwp-extract
+Author-email: Threat Intel <threatintel@volexity.com>
+License: Modified BSD License
+        ====================
+        
+        _Copyright © `2024`, `Volexity, Inc`_  
+        _All rights reserved._
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright
+           notice, this list of conditions and the following disclaimer.
+        2. Redistributions in binary form must reproduce the above copyright
+           notice, this list of conditions and the following disclaimer in the
+           documentation and/or other materials provided with the distribution.
+        3. Neither the name of the `Volexity, Inc` nor the
+           names of its contributors may be used to endorse or promote products
+           derived from this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL `Volexity, Inc` BE LIABLE FOR ANY
+        DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+        ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Keywords: extractor,hwp
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Requires-Dist: olefile~=0.47
+Requires-Dist: pycryptodome~=3.0
+Description-Content-Type: text/markdown
+
+# HWP Extract
+
+This is a Python utility for extracting objects and metadata from `.hwp` files. This script supports extraction of objects from password
+protected HWP files (assuming a password is provided).
+
+## Installation
+
+To install HWP Extract, you can use something like this:
+
+`python -m pip install hwp-extract`
+
+## Usage as a library
+
+For examples of how to use HWP Extract as a library, review the code in `src/hwpextract/cli.py`
+
+## CLI usage
+
+Following successful installation of HWP Extract a new CLI utility will be available, for usage see:
+
+`hwp-extract --help`
+
+### Extract embedded files
+
+`hwp-extract /path/to/file.hwp --extract-files`
+
+### Display metadata
+
+`hwp-extract /path/to/file.hwp --extract-meta`
+
+### Extract embedded files from a password protected HWP file with password 1234
+
+`hwp-extract /path/to/file.hwp --extract-files --password 1234`
+
+## Disclaimer
+
+There's another great library for working with .hwp files which is published [here](https://github.com/mete0r/pyhwp). The primary reasons to use this library over pyhwp are:
+
+* Simpler CLI interaction
+* Support for password protected HWP files.
+
+If you're looking for a function in this library that doesn't exist, it may well exist in PyHwp.
