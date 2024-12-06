@@ -1,0 +1,33 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+datengeist/Sample_Dataset.py
+datengeist/__init__.py
+datengeist/start.py
+datengeist.egg-info/PKG-INFO
+datengeist.egg-info/SOURCES.txt
+datengeist.egg-info/dependency_links.txt
+datengeist.egg-info/entry_points.txt
+datengeist.egg-info/requires.txt
+datengeist.egg-info/top_level.txt
+datengeist/assets/git_images/Screenshot from 2024-11-13 13-02-23.png
+datengeist/assets/git_images/Screenshot from 2024-11-13 13-02-35.png
+datengeist/assets/git_images/Screenshot from 2024-11-13 13-02-46.png
+datengeist/assets/git_images/Screenshot from 2024-11-13 13-03-58.png
+datengeist/assets/git_images/Screenshot from 2024-11-13 13-04-22.png
+datengeist/assets/logo/logo.png
+datengeist/config/config.py
+datengeist/pages/1_General_Info.py
+datengeist/pages/2_Feature_Info.py
+datengeist/pages/3_Relate_Features.py
+datengeist/utils/calc.py
+datengeist/utils/constants.py
+datengeist/utils/feature_tools.py
+datengeist/utils/helper.py
+datengeist/utils/session_control.py
+datengeist/utils/style.py
+datengeist/visual/comparison_chart.py
+datengeist/visual/corr_chart.py
+datengeist/visual/distribution_chart.py
+datengeist/visual/missing_value.py
