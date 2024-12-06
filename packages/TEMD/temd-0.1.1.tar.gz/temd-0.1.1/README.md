@@ -1,0 +1,162 @@
+
+# TEMD: Error Message Decoder for Python
+
+TEMD is a Python library designed to help beginner Python programmers understand and resolve errors in their code. It provides detailed, user-friendly explanations for common Python errors, making it easier for learners to debug their programs and improve their coding skills. The project leverages machine learning models to interpret and explain error messages, supporting both automatic and wrapped error detection modes.
+
+## Requirements
+
+- Python 3.x
+- `joblib`
+- `requests`
+- `scikit-learn`
+
+## Installation
+
+You can install TEMD directly from PyPI:
+
+```bash
+pip install TEMD
+```
+
+## How to Use
+
+### 1. Initialize TEMD for Global Error Handling
+
+To set up global error handling, import the `TEMD` class and call the `init` method. This will catch and explain errors automatically.
+
+```python
+from TEMD.temd import TEMD
+
+# Initialize TEMD for global error handling
+temd = TEMD()
+temd.init()  # This sets up the global error handler
+
+print("Global error handling active!")
+```
+
+### 2. Example of Automatic Error Handling
+
+Once initialized, TEMD will automatically catch and explain errors that occur during the execution of the program.
+
+```python
+# Example of automatic error handling
+my_list = [1, 2, 3]
+print(my_list[5])  # This will raise an IndexError and TEMD will handle it
+```
+
+### 3. Example of Wrapped Error Handling
+
+You can also wrap specific blocks of code to focus error detection and explanation on those sections.
+
+```python
+user_code = """
+def forloop():
+    my_list = [1, 2, 3]
+    for i in range(5):
+        print(my_list[i])  # This will raise an IndexError when i >= 3
+forloop()
+"""
+
+# Use wrap to execute the code inside a focused error handling scope
+temd.wrap(user_code)  # This will catch errors in the wrapped block and explain them
+```
+
+## Logic and Functionality
+
+### Data Collection
+
+A dataset of Python errors was collected from various sources, including common error messages encountered by beginners. The dataset includes both AST (Abstract Syntax Tree) errors and runtime errors.
+
+### Model Training
+
+Machine learning models were trained using the collected dataset. The models include an AST error model and a runtime error model. These models were trained to recognize and interpret various Python error messages.
+
+### Library Development
+
+A Python library was developed to encapsulate the trained models and provide an interface for error interpretation. The library includes functionality for both automatic error handling and error handling within wrapped code blocks.
+
+### Integration and Testing
+
+The library was integrated into Python projects to test its effectiveness in real-world scenarios. Various test cases were designed to ensure the library provides accurate and helpful error explanations.
+
+### Documentation and Deployment
+
+Comprehensive documentation was created to assist users in integrating and using the TEMD library. The library was packaged and deployed to PyPI (Python Package Index) for easy installation and use.
+
+## How to Train Models
+
+1. **Train the Runtime Error Model**
+
+   Run the following script to train the runtime error model:
+
+   ```bash
+   python train_runtime_error_model.py
+   ```
+
+2. **Train the AST Error Model**
+
+   Run the following script to train the AST error model:
+
+   ```bash
+   python train_ast_error_model.py
+   ```
+
+## How to Run the Main Program
+
+Run the `main_program.py` to trigger and handle errors, and view the error explanations provided by the models:
+
+```bash
+python main_program.py
+```
+
+## Example Usage
+
+```python
+from TEMD.temd import TEMD
+
+# Initialize TEMD for global error handling
+temd = TEMD()
+temd.init()  # This sets up the global error handler
+
+print("Global error handling active!")
+
+# Example of automatic error handling
+my_list = [1, 2, 3]
+print(my_list[5])  # This will raise an IndexError and TEMD will handle it
+
+# Example function that will trigger an IndexError
+def forloop():
+    my_list = [1, 2, 3]
+    for i in range(5):
+        print(my_list[i])
+
+# Calling the function will automatically trigger TEMD's global error handler
+forloop()  # This should trigger an IndexError, and TEMD will explain it
+
+# Focused Error Handling with wrap() (Only this block of code will be monitored)
+user_code = """
+def forloop():
+    my_list = [1, 2, 3]
+    for i in range(5):
+        print(my_list[i])
+forloop()
+"""
+temd.wrap(user_code)  # This will catch errors in the wrapped block and explain them
+```
+
+## Authors
+
+- **Aditya Khair** - *Initial work* - [adityakhair45@gmail.com](mailto:adityakhair45@gmail.com)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the EMD Team and all contributors for their support and guidance.
+- Special thanks to Asst. Prof. [Guide Name] and Prof. Manish Agrawal for their invaluable guidance throughout the project.
+
+---
+
+This README file provides a comprehensive overview of the TEMD project, including installation instructions, usage examples, and the underlying logic and functionality. You can use this as a template for your project's documentation.
