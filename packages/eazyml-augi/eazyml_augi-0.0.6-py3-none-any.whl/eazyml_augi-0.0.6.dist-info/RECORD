@@ -1,0 +1,14 @@
+eazyml_augi/__init__.py,sha256=tgDYyubwfXrRYLTvqrxlBdEZFb6S8Gnjky0V2cfiWxM,116
+eazyml_augi/compiledeazyml.cp310-win_amd64.pyd,sha256=iFZU-n7-Bjfn7hdds-aiQoLduuOfREInUjRuZF_NP1s,1309696
+eazyml_augi/compiledeazyml.cp311-win_amd64.pyd,sha256=HvwZP0AqtbNHxmb395p3zHMZu4jVeTauOJ7qVokKWp8,1313792
+eazyml_augi/compiledeazyml.cp312-win_amd64.pyd,sha256=ejFvoi8JWZxePrO84gOGTQife-5mZFOHtaIIx6t7gow,1289728
+eazyml_augi/compiledeazyml.cp38-win_amd64.pyd,sha256=MHI3Ei08P3hDzKVf-Ot1Lm1kfmhTrGMbs-kAaP-uc4M,1318400
+eazyml_augi/compiledeazyml.cp39-win_amd64.pyd,sha256=NjXYK4SqwYgfgs-FklsZq0NbIVkYh96cv43ytobltDE,1310208
+eazyml_augi/compiledeazyml.cpython-310-x86_64-linux-gnu.so,sha256=OmcNXVDMbkb_fuFKnYMjAIwmqcV74zGZY7gSIyQijUY,2312928
+eazyml_augi/compiledeazyml.cpython-311-x86_64-linux-gnu.so,sha256=6Q__mla5QN_i7gU9f2kukFuiYoHX2mrTcTi7SAHsObc,2321392
+eazyml_augi/compiledeazyml.cpython-38-x86_64-linux-gnu.so,sha256=FnL9EPw0aIMkP85lhKqPt6iadSTZ17hhMQ3N2nGoiQw,19711832
+eazyml_augi/compiledeazyml.cpython-39-x86_64-linux-gnu.so,sha256=qJ__xOK6P3i7vY-HqoVRn5v2eR34330OyvWlK1EAPRE,2308656
+eazyml_augi-0.0.6.dist-info/METADATA,sha256=8gL6fd3y5SY-wf210u5ccCCZgXiOWwPA0KPG9QobqE8,475
+eazyml_augi-0.0.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+eazyml_augi-0.0.6.dist-info/top_level.txt,sha256=stPm-XJ8SNWvbZ7PF31KeV5BeDZYD00_kWZW0xQfkJA,12
+eazyml_augi-0.0.6.dist-info/RECORD,,
