@@ -1,0 +1,8 @@
+opengis/__init__.py,sha256=QUm2bY-pu4zmVqRPhmtTUBHzDGO3UE5KgLBqIyiZg4U,150
+opengis/batch_reprojection_tool.py,sha256=iJ2n91Uda-t_yveWt2yyII4kKKbuawEbSPgyR6mb-sw,4199
+opengis/modis_reprojection_tool.py,sha256=YAK1VrC7n-GB0aqZSfPmPgVc4jr2kKv9-kN-3CdfBPI,5576
+opengis/mosaic.py,sha256=fXrYOWbqj_gUwW-ctNKxbwOQ1Gm32MmZJolDqyABamI,2265
+opengis-3.1.5.dist-info/METADATA,sha256=mOtHdgFVP_xq4_ZoIjowz3qg0xfqfVHRxB8McrGkxOE,2502
+opengis-3.1.5.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+opengis-3.1.5.dist-info/licenses/LICENSE.txt,sha256=1TfVeECEfMP_H5Q3xf4PIAPIzAMMYNUkpU75PbSVPhQ,1101
+opengis-3.1.5.dist-info/RECORD,,
