@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: spfluo-app
+Version: 0.0.9rc15
+Project-URL: Repository, https://github.com/jplumail/spfluo-app.git
+Author-email: Jean Plumail <jplumail@unistra.fr>
+Requires-Python: ==3.11.*
+Requires-Dist: napari[pyqt5]
+Requires-Dist: scipion-app-spfluo
+Requires-Dist: scipion-fluo-singleparticle
+Provides-Extra: cpu
+Requires-Dist: torch==2.5.1+cpu; extra == 'cpu'
+Provides-Extra: cu124
+Requires-Dist: torch==2.5.1+cu124; extra == 'cu124'
