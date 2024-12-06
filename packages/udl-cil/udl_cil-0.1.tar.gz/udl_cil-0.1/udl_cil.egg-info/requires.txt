@@ -1,0 +1,5 @@
+hydra-core
+optuna
+omegaconf
+GPUtil
+rich
