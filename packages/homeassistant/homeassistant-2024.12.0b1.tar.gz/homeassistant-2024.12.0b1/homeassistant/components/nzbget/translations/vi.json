@@ -1,0 +1,16 @@
+{
+    "config": {
+        "abort": {
+            "unknown": "L\u1ed7i kh\u00f4ng mong \u0111\u1ee3i"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "scan_interval": "T\u1ea7n su\u1ea5t c\u1eadp nh\u1eadt (gi\u00e2y)"
+                }
+            }
+        }
+    }
+}
