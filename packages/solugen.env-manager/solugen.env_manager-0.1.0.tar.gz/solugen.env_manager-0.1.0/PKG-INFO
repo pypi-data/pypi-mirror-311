@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: solugen.env_manager
+Version: 0.1.0
+Summary: A Python library to manage environment variables
+Home-page: https://bitbucket.org/solugenai/env-manager
+Author: Elad Laor
+Author-email: elad.l@solugen.ai
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Environment Setup for `env_manager`
+
+To properly use this library, ensure your project contains the following files in its root directory:
+
+1. **`.env.dev`**
+
+   - Used for development environment variables.
+   - **Important**: Add this file to `.gitignore` to avoid committing sensitive data.
+
+2. **`.env.prod`**
+
+   - Used for production environment variables.
+   - **Important**: Add this file to `.gitignore` to avoid committing sensitive data.
+
+3. **`.env.example`**
+   - A template file that details the required environment variables and their structure.
+   - **Do not add this file to `.gitignore`**, as it serves as documentation for other developers, and more importantly - it's necessary for the funtionality, as it loads the key names.
+
+---
+
+## Key Guidelines
+
+- **Never use quotes** (`"` or `'`) in environment variable values. This ensures compatibility and avoids parsing issues.
+
+---
+
+## Running in Development Mode
+
+To run the application in development mode:
+
+- Explicitly set the environment variable `FLASK_DEV_ENV`.
+- The value of `FLASK_DEV_ENV` can be arbitrary (any value is acceptable).
+
+```bash
+export FLASK_DEV_ENV=true
+```

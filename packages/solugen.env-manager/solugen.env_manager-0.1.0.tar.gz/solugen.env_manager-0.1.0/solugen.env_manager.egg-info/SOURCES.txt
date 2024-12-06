@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+env_manager/__init__.py
+env_manager/main.py
+solugen.env_manager.egg-info/PKG-INFO
+solugen.env_manager.egg-info/SOURCES.txt
+solugen.env_manager.egg-info/dependency_links.txt
+solugen.env_manager.egg-info/requires.txt
+solugen.env_manager.egg-info/top_level.txt
