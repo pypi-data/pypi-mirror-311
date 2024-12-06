@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/__init__.py
+teleagent.egg-info/PKG-INFO
+teleagent.egg-info/SOURCES.txt
+teleagent.egg-info/dependency_links.txt
+teleagent.egg-info/requires.txt
+teleagent.egg-info/top_level.txt
