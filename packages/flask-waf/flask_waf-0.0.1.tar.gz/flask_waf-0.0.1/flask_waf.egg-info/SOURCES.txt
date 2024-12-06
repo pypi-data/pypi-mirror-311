@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+flask-waf/__init__.py
+flask_waf.egg-info/PKG-INFO
+flask_waf.egg-info/SOURCES.txt
+flask_waf.egg-info/dependency_links.txt
+flask_waf.egg-info/requires.txt
+flask_waf.egg-info/top_level.txt
