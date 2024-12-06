@@ -1,0 +1,14 @@
+ga4gh/gks/metaschema/scripts/jsy2js.py,sha256=1EMvTaIXCpFluvC8SFVTv9SyAO2SCsdocJ6N5Onxeqw,224
+ga4gh/gks/metaschema/scripts/source2classes.py,sha256=mxXsvFgPCPV8rcxd082j1ogXar8QwzEM52yv-t0oqAk,482
+ga4gh/gks/metaschema/scripts/source2jsy.py,sha256=jlPJYH7x8ODJ1h3uQMl_R0M6w3CxVRaEfP0JEuZ9AX4,290
+ga4gh/gks/metaschema/scripts/source2mergedjsy.py,sha256=SjlhfL1NNhjjtLt2ulznBwtAkjGez12F66_PlMCmV-o,313
+ga4gh/gks/metaschema/scripts/source2splitjs.py,sha256=jEwj7P_PzJ6cfzPq_M2CmmKTOHRucsdhVCMEnocvwb0,4382
+ga4gh/gks/metaschema/scripts/y2t.py,sha256=YRyL0QcTkEmPLyR7gkoyZZux3z7_tk7kwgwig5xhC50,8556
+ga4gh/gks/metaschema/tools/source_proc.py,sha256=DkOnfxQInqYCUb8DxhY1gnmP8ePMqLa9UCuHt2MOgUw,25194
+templates/maturity,sha256=ZRR-f6k4bXwnENqoqs1ByO60UPxjSSPasInymr2YNbU,231
+ga4gh.gks.metaschema-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ga4gh.gks.metaschema-0.3.1.dist-info/METADATA,sha256=_ostzIe-CzMHl5s7ugBTwRXBbTTecGwAt_LForyQzPA,17899
+ga4gh.gks.metaschema-0.3.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ga4gh.gks.metaschema-0.3.1.dist-info/entry_points.txt,sha256=3WqVV6jVGhaTGEXkGGKQe2aSJruAz0xP7ParWs-O5ro,366
+ga4gh.gks.metaschema-0.3.1.dist-info/top_level.txt,sha256=KWxX5GFjb_wySXmiy-XBNHRtFMepkkXaZ-z_tM_JqWk,16
+ga4gh.gks.metaschema-0.3.1.dist-info/RECORD,,
