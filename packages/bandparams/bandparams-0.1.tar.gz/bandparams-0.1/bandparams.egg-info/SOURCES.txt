@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.rst
+bandparams.py
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+bandparams.egg-info/PKG-INFO
+bandparams.egg-info/SOURCES.txt
+bandparams.egg-info/dependency_links.txt
+bandparams.egg-info/entry_points.txt
+bandparams.egg-info/requires.txt
+bandparams.egg-info/top_level.txt
+testing/test_bandparams.py
+testing/testdata/spc1.dat

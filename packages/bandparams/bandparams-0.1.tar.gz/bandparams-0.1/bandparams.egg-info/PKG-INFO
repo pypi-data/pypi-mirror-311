@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bandparams
+Version: 0.1
+Summary: Calculate band parameters, such as max, barycenter, width
+Author: Mariusz Radon
+Author-email: mariusz.radon@uj.edu.pl
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+bandparams
+==========
+Calculate parameters of a band: max, barycenter, width etc
+
+It works for single bands. Works best for unimodal bands (single maximum),
+but may also work for bands having side maxima in addition to the main max.
+In such cases, max_pos and max_val refer to the global maximum.
+FWHM determination may need to be carefully checked in such cases.
