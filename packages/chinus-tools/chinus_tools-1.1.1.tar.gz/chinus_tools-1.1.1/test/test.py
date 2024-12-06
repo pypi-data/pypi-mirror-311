@@ -1,0 +1,3 @@
+import rand
+
+rand.seed()
