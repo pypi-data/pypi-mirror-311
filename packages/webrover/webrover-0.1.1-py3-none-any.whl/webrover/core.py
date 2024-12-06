@@ -1,0 +1,176 @@
+import asyncio
+import aiohttp
+from bs4 import BeautifulSoup
+from pathlib import Path
+from typing import List, Dict, Union
+import json
+import yaml
+import re
+import time
+import random
+from concurrent.futures import ThreadPoolExecutor
+from googlesearch import search
+from .utils import clean_text, extract_content, save_json, load_json, validate_url, create_dataset_entry
+
+class WebRover:
+    def __init__(self, output_dir: str = "final_dataset"):
+        """Initialize WebRover with optional output directory."""
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(exist_ok=True)
+        
+        self.master_urls = {}
+        self.completed_urls = {}
+        self.error_urls = {}
+        self.dataset = []
+
+    def _search_google_sync(self, topic: str) -> List[str]:
+        """Synchronous Google search."""
+        try:
+            urls = []
+            for url in search(topic, num_results=self.urls_per_topic, lang="en"):
+                urls.append(url)
+                time.sleep(2.0)  # Be nice to Google
+            return urls
+        except Exception as e:
+            print(f"Error during search for {topic}: {e}")
+            return []
+
+    async def _search_google(self, topic: str, session: aiohttp.ClientSession) -> List[str]:
+        """Asynchronous wrapper for Google search."""
+        with ThreadPoolExecutor() as executor:
+            urls = await asyncio.get_event_loop().run_in_executor(
+                executor,
+                self._search_google_sync,
+                topic
+            )
+            return urls
+
+    async def _scrape_website(self, url: str, session: aiohttp.ClientSession) -> Dict:
+        """Scrape a single website."""
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+        }
+        
+        try:
+            async with session.get(url, headers=headers, timeout=30) as response:
+                if response.status == 200:
+                    html = await response.text()
+                    content = extract_content(html)
+                    entry = create_dataset_entry(url, content['title'], content['content'])
+                    return entry
+                else:
+                    raise Exception(f"HTTP {response.status}")
+        except Exception as e:
+            self.error_urls[url] = str(e)
+            return None
+
+    async def _process_urls(self):
+        """Process all URLs and scrape websites."""
+        async with aiohttp.ClientSession() as session:
+            # First, collect URLs if master list is empty
+            if not self.master_urls:
+                print("Collecting URLs from Google...")
+                for topic in self.topics:
+                    urls = await self._search_google(topic, session)
+                    for url in urls:
+                        if validate_url(url):
+                            self.master_urls[url] = topic
+                    
+                    # Random delay between topics
+                    await asyncio.sleep(random.uniform(1, 3))
+
+            # Process URLs that haven't been completed or errored
+            pending_urls = [url for url in self.master_urls.keys() 
+                          if url not in self.completed_urls and url not in self.error_urls]
+
+            print(f"Processing {len(pending_urls)} websites...")
+            for url in pending_urls:
+                result = await self._scrape_website(url, session)
+                if result:
+                    self.completed_urls[url] = result
+                    self.dataset.append(result)
+                
+                await asyncio.sleep(random.uniform(0.5, 1.5))
+
+    def scrape_topics(self, topics: Union[str, List[str], Path], num_websites: int = 100) -> None:
+        """Main method to scrape websites based on topics."""
+        # Process topics input
+        if isinstance(topics, (str, Path)) and Path(topics).exists():
+            topics_list = self._load_topics_from_file(topics)
+        elif isinstance(topics, str):
+            topics_list = [t.strip() for t in topics.split(',')]
+        elif isinstance(topics, list):
+            topics_list = topics
+        else:
+            raise ValueError("Invalid topics format")
+
+        self.num_websites = num_websites
+        self.topics = topics_list
+        self.urls_per_topic = num_websites // len(self.topics)
+
+        # Run the scraping
+        asyncio.run(self._process_urls())
+
+    def save_dataset(self, filename: str = "dataset.jsonl") -> None:
+        """Save the scraped dataset to a JSONL file."""
+        output_file = self.output_dir / filename
+        with open(output_file, 'w') as f:
+            for item in self.dataset:
+                f.write(json.dumps(item) + '\n')
+
+    def get_dataset(self) -> List[Dict]:
+        """Get the scraped dataset as a list of dictionaries."""
+        return self.dataset
+
+    def get_stats(self) -> Dict:
+        """Get scraping statistics."""
+        return {
+            'total_urls': len(self.master_urls),
+            'completed': len(self.completed_urls),
+            'errors': len(self.error_urls),
+            'success_rate': len(self.completed_urls) / len(self.master_urls) if self.master_urls else 0
+        }
+
+    @staticmethod
+    def _load_topics_from_file(file_path: Union[str, Path]) -> List[str]:
+        """Load topics from various file formats."""
+        path = Path(file_path)
+        
+        if not path.exists():
+            raise FileNotFoundError(f"File not found: {file_path}")
+        
+        # Handle different file formats
+        if path.suffix == '.json':
+            with open(path, 'r') as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    return data
+                elif isinstance(data, dict) and 'topics' in data:
+                    return data['topics']
+                raise ValueError("JSON file must contain a list or a dict with 'topics' key")
+                
+        elif path.suffix in ['.yaml', '.yml']:
+            with open(path, 'r') as f:
+                data = yaml.safe_load(f)
+                if isinstance(data, list):
+                    return data
+                elif isinstance(data, dict) and 'topics' in data:
+                    return data['topics']
+                raise ValueError("YAML file must contain a list or a dict with 'topics' key")
+                
+        elif path.suffix == '.txt':
+            with open(path, 'r') as f:
+                return [line.strip() for line in f.readlines() if line.strip()]
+                
+        elif path.suffix == '.md':
+            with open(path, 'r') as f:
+                content = f.read()
+                topics = re.findall(r'[-*]\s*(.+)', content)
+                if topics:
+                    return [topic.strip() for topic in topics]
+                return [line.strip() for line in content.split('\n') if line.strip()]
+        
+        else:
+            raise ValueError(f"Unsupported file format: {path.suffix}")
