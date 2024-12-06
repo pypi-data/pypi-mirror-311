@@ -1,0 +1,8 @@
+LICENSE
+README.md
+omero_openlink.egg-info/PKG-INFO
+omero_openlink.egg-info/SOURCES.txt
+omero_openlink.egg-info/dependency_links.txt
+omero_openlink.egg-info/not-zip-safe
+omero_openlink.egg-info/requires.txt
+omero_openlink.egg-info/top_level.txt
