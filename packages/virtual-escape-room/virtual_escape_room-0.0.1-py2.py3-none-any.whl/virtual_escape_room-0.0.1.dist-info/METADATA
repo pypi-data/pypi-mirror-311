@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: virtual_escape_room
+Version: 0.0.1
+Summary: A basic virtual escape room
+Requires-Dist: flask
+Requires-Dist: jsonschema
