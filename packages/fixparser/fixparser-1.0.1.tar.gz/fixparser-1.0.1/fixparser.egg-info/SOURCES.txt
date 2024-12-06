@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+fixparser/__init__.py
+fixparser/cli.py
+fixparser/core.py
+fixparser.egg-info/PKG-INFO
+fixparser.egg-info/SOURCES.txt
+fixparser.egg-info/dependency_links.txt
+fixparser.egg-info/requires.txt
+fixparser.egg-info/top_level.txt
+tests/__init__.py
+tests/test_separator.py

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: fixparser
+Version: 1.0.1
+Summary: A Python library for parsing FIX protocol messages and exporting to text and CSV formats.
+Author: Meet Jethwa
+Author-email: meetjethwa3@gmail.com
+License: MIT
+Keywords: FIX protocol,FIX message parser,CSV export
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# FIXParser
+
+FIXParser is a Python library for parsing FIX protocol messages and exporting them to human-readable text and structured CSV formats.
+
+## Features
+- Parses FIX protocol messages in comma-separated format.
+- Outputs parsed data to text and CSV files.
+- Includes a command-line interface (CLI) for easy usage.
+
+## Installation
+Install the library using pip:
+```bash
+pip install fixparser
+
+Changelog
+==========
+
+1.0.0 (2024-11-27)
+-------------------
+- Added Initial release of the fixparser library.
