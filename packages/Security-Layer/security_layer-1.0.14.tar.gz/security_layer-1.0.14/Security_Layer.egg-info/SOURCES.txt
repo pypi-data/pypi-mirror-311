@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Security_Layer.egg-info/PKG-INFO
+Security_Layer.egg-info/SOURCES.txt
+Security_Layer.egg-info/dependency_links.txt
+Security_Layer.egg-info/requires.txt
+Security_Layer.egg-info/top_level.txt
+Security_Layer_Package/Detection.py
+Security_Layer_Package/__init__.py
