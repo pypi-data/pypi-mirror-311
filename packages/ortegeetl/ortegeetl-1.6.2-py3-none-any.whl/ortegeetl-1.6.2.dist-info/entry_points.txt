@@ -1,0 +1,2 @@
+[console_scripts]
+ortegeetl = ortegeetl.cli:cli
