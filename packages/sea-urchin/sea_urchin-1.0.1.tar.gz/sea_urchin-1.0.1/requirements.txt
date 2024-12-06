@@ -1,0 +1,17 @@
+numpy
+scipy
+ase 
+pandas
+joblib
+dill
+psutil
+networkx
+mdtraj
+hdbscan
+umap-learn
+matplotlib
+seaborn
+colorcet
+scikit-learn
+colorama
+numba
