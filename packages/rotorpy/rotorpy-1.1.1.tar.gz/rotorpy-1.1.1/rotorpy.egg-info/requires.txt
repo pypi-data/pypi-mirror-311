@@ -1,0 +1,12 @@
+cvxopt
+matplotlib
+filterpy==1.4.5
+numpy
+scipy
+pandas
+timeout_decorator
+tqdm
+gymnasium==0.29.1
+
+[learning]
+stable_baselines3
