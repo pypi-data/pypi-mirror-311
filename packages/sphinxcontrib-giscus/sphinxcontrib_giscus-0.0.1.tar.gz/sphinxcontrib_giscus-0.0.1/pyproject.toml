@@ -1,0 +1,13 @@
+[project]
+name = "sphinxcontrib-giscus"
+version = "0.0.1"
+description = "A sphinx extension that integrate Giscus to your sphinx doc"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "sphinx>=7.1.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
