@@ -1,0 +1,7 @@
+setup.py
+ia_upc/__init__.py
+ia_upc/stuff.py
+ia_upc.egg-info/PKG-INFO
+ia_upc.egg-info/SOURCES.txt
+ia_upc.egg-info/dependency_links.txt
+ia_upc.egg-info/top_level.txt
