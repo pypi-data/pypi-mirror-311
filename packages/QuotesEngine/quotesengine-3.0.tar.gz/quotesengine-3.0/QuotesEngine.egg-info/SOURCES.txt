@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+QuotesEngine/__init__.py
+QuotesEngine/quotes.py
+QuotesEngine.egg-info/PKG-INFO
+QuotesEngine.egg-info/SOURCES.txt
+QuotesEngine.egg-info/dependency_links.txt
+QuotesEngine.egg-info/top_level.txt
+tests/test.py
