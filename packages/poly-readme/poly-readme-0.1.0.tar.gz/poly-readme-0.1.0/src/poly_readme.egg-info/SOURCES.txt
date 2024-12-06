@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/poly_readme/__init__.py
+src/poly_readme/cli.py
+src/poly_readme.egg-info/PKG-INFO
+src/poly_readme.egg-info/SOURCES.txt
+src/poly_readme.egg-info/dependency_links.txt
+src/poly_readme.egg-info/entry_points.txt
+src/poly_readme.egg-info/requires.txt
+src/poly_readme.egg-info/top_level.txt

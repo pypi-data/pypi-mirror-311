@@ -1,0 +1,4 @@
+openai>=1.0.0
+questionary>=1.10.0
+keyring>=24.0.0
+PyYAML>=6.0.0
