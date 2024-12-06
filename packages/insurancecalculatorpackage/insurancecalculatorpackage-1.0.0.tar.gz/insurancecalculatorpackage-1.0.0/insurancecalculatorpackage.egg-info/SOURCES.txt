@@ -1,0 +1,8 @@
+README.md
+setup.py
+insurancecalculatorpackage/__init__.py
+insurancecalculatorpackage/insurecalculator.py
+insurancecalculatorpackage.egg-info/PKG-INFO
+insurancecalculatorpackage.egg-info/SOURCES.txt
+insurancecalculatorpackage.egg-info/dependency_links.txt
+insurancecalculatorpackage.egg-info/top_level.txt
