@@ -1,0 +1,8 @@
+README.md
+setup.py
+cognitohashcalculator/__init__.py
+cognitohashcalculator/hashcalculator.py
+cognitohashcalculator.egg-info/PKG-INFO
+cognitohashcalculator.egg-info/SOURCES.txt
+cognitohashcalculator.egg-info/dependency_links.txt
+cognitohashcalculator.egg-info/top_level.txt
