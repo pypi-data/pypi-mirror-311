@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+project1_chk.egg-info/PKG-INFO
+project1_chk.egg-info/SOURCES.txt
+project1_chk.egg-info/dependency_links.txt
+project1_chk.egg-info/requires.txt
+project1_chk.egg-info/top_level.txt
