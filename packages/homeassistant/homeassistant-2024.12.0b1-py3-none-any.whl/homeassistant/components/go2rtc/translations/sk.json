@@ -1,0 +1,33 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Nepodarilo sa pripoji\u0165",
+            "invalid_url": "Neplatn\u00e1 adresa URL",
+            "invalid_url_schema": "Neplatn\u00e1 sch\u00e9ma adresy URL.\nAdresa URL by mala za\u010d\u00edna\u0165 na `http://` alebo `https://`."
+        },
+        "step": {
+            "host": {
+                "data": {
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "Adresa URL va\u0161ej in\u0161tancie go2rtc."
+                }
+            },
+            "url": {
+                "data": {
+                    "url": "URL"
+                },
+                "data_description": {
+                    "url": "Adresa URL va\u0161ej in\u0161tancie go2rtc."
+                }
+            }
+        }
+    },
+    "issues": {
+        "recommended_version": {
+            "description": "Zistili sme, \u017ee pou\u017e\u00edvate zastaran\u00fa verziu servera go2rtc. Aby ste dosiahli \u010do najlep\u0161ie sk\u00fasenosti, odpor\u00fa\u010dame aktualizova\u0165 server go2rtc na verziu `{recommended_version}`.\nV s\u00fa\u010dasnosti pou\u017e\u00edvate verziu `{current_version}`.",
+            "title": "Zistil sa zastaran\u00fd server go2rtc"
+        }
+    }
+}
