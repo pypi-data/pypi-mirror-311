@@ -1,0 +1,2 @@
+[console_scripts]
+hwp-extract = hwp_extract.cli:run
