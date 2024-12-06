@@ -1,0 +1,8 @@
+README.md
+setup.py
+sample_project/__init__.py
+sample_project/sample.py
+sample_pypi_mitzlibrary.egg-info/PKG-INFO
+sample_pypi_mitzlibrary.egg-info/SOURCES.txt
+sample_pypi_mitzlibrary.egg-info/dependency_links.txt
+sample_pypi_mitzlibrary.egg-info/top_level.txt
