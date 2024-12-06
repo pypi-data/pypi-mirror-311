@@ -1,0 +1,9 @@
+discord_webhooks/__init__.py,sha256=4OQTuwojgsesww6UGa0zpugWDzv4Ax_jJPOzPQtBGQs,1663
+discord_webhooks/enums.py,sha256=mAMm0nBm7ADurTk5BiNmILmOaDcsx4kifpmvUs2ipwY,5928
+discord_webhooks/types.py,sha256=0kYft2ZklFasSv2cXq_uq8AB2c_M5igk7vXd7RdTycY,8573
+discord_webhooks/webhook_service.py,sha256=hFkJHWz_RM-O_kpGE-SnEytBShN3w3b3Xrjfcm0MhnI,6165
+discord_webhooks_python-1.0.0.dist-info/LICENSE,sha256=R1a6V6VtdJ6uQGYzZHmo_wB2tAH7vME2RSDPQRf4qHg,1108
+discord_webhooks_python-1.0.0.dist-info/METADATA,sha256=5noOR4ZmizoHz-JXXhOARHEGQJwkF8cQa690asYDeGA,4077
+discord_webhooks_python-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+discord_webhooks_python-1.0.0.dist-info/top_level.txt,sha256=ER19nFyl2t7FMCFZPtqxmJm8gZgeYF2YMRP2X5abPL0,17
+discord_webhooks_python-1.0.0.dist-info/RECORD,,
