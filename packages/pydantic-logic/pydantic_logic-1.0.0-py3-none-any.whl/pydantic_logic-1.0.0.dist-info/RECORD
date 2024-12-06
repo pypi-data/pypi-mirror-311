@@ -1,0 +1,7 @@
+pydantic_logic/__init__.py,sha256=0xtpthz8MitXhZIdoVArEerBbT9uZs5xpNCfs5-zQ9E,155
+pydantic_logic/expression.py,sha256=4xEKFjKV90MAV4uPSXFLfAypp4-AyGHGrDzxxE9CpVI,1426
+pydantic_logic/logic.py,sha256=xB2fUIiCfvTCUwjL2k73zQcWhmwQ2Nh97Zpef9qfDWk,299
+pydantic_logic-1.0.0.dist-info/LICENSE,sha256=NeA2L-bH3u3JrMQUswTRrwlMYHCYYxyrJZ0T0Uu0VLQ,1075
+pydantic_logic-1.0.0.dist-info/METADATA,sha256=Q2-HeZC57JMycD-uaAzTRAtSoJYprDCASKWAC_O42bY,2808
+pydantic_logic-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pydantic_logic-1.0.0.dist-info/RECORD,,
