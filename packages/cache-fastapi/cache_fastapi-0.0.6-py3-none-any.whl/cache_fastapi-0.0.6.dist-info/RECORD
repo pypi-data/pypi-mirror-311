@@ -1,0 +1,12 @@
+cache_fastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cache_fastapi/cacheMiddleware.py,sha256=1kWX_W99OCxeYFtYCmE6W6bzO9aJp9cBAjJWXLxMmUo,4382
+cache_fastapi/utils.py,sha256=Bkuekg0zQGvTAcQ2taPLAYqNNPeviX4DxHbOz6QZpWA,451
+cache_fastapi/wrappers.py,sha256=REJgpNdL5kx2aM5ksRMVJn-1bLYsgrBzzWTqbpYkSss,583
+cache_fastapi/Backends/base_backend.py,sha256=z4P6KAW5FT0v7RhQIu0Yk-4_SrWnwUrSis9OU7m-OqE,375
+cache_fastapi/Backends/memory_backend.py,sha256=hzy9PaGdRvbgHsYkmuowyjtioEq2cvCKUVZb-kpIcKE,811
+cache_fastapi/Backends/redis_backend.py,sha256=ORaE7u94fDOfKjraL6v5aSpF0vw_vP6T_HZXnrqxWJE,842
+cache_fastapi-0.0.6.dist-info/LICENSE,sha256=XmoH8Gysi4qxHXRjDrJhK8W7q2Y--15gmj7NtwffO7s,1069
+cache_fastapi-0.0.6.dist-info/METADATA,sha256=iCppwqbHT46BwlfgV1u09nowIAcmCeXp4BPWNJ4w2uY,859
+cache_fastapi-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cache_fastapi-0.0.6.dist-info/top_level.txt,sha256=Zha8bUvX3IERCcGDPEPMD5DKMPoR0OKYjkpicyCwZlg,14
+cache_fastapi-0.0.6.dist-info/RECORD,,
