@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+excalibur007001/__init__.py
+excalibur007001/module.py
+excalibur007001.egg-info/PKG-INFO
+excalibur007001.egg-info/SOURCES.txt
+excalibur007001.egg-info/dependency_links.txt
+excalibur007001.egg-info/top_level.txt
+tests/__init__.py
+tests/test_module.py
