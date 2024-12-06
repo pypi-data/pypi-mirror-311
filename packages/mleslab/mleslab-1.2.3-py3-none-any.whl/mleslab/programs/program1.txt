@@ -1,0 +1,40 @@
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder, StandardScaler, MinMaxScaler
+import numpy as np
+d1=np.array([[1,2,3],[4,5,6],[7,8,9],[0,1,2],[4,5,6]])
+# Load and analyze data
+print(d1)
+df = pd.read_csv("C:/Users/Mahesh Kumar/Desktop/Book1.csv")
+print(df['AGE'].mean())
+print(df['AGE'].sum())
+print(df['AGE'].min())
+print(df['AGE'].count())
+print(df['AGE'].median())
+print(df['AGE'].var())
+print(df['AGE'].std())
+print( df.head())
+print(df.tail())
+print( df.columns)
+print( df["AGE"].tolist())
+le=LabelEncoder()
+df['GENDER'] = le.fit_transform(df['GENDER'])
+df_duplicated = pd.concat([df] * 2, ignore_index=True)
+df_rem = df_duplicated.drop_duplicates()
+ds = pd.DataFrame({'a1': [63, 45, 'A', 'H', 88],
+'a2': [98, 'J', 'Z', 'Q', 55],
+'a3': ['A', 70, 'A', 56, 85],
+'a4': [62, 74, 'C', 65, 78]})
+ds = ds.apply(pd.to_numeric, errors='coerce')
+ds['a2'] = ds['a2'].bfill()
+ds['a4'] = ds['a4'].fillna(1)
+ds['a2'] = ds['a2'].ffill()
+ds = ds.copy()
+ds['a2'].fillna(ds['a2'].median())
+ds = ds.dropna(axis=1)
+d1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [0, 1, 2], [4, 5, 6]])
+print(d1)
+scaler1 = StandardScaler()
+scaler2 = MinMaxScaler()
+standardized_d1 = scaler1.fit_transform(d1)
+print(standardized_d1)
+normalized_d1 = scaler2.fit_transform(d1)

@@ -1,0 +1,28 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+from sklearn.cluster import KMeans
+from sklearn.metrics import accuracy_score, silhouette_score
+
+data = 'Live_20210128 - Live_20210128.csv'
+df = pd.read_csv(data)
+X = df
+y = df['status_type']
+le = LabelEncoder()
+X['status_type'] = le.fit_transform(X['status_type'])
+y = le.transform(y)
+
+ms = MinMaxScaler()
+X = ms.fit_transform(X)
+X = pd.DataFrame(X, columns=df.columns)
+kmeans = KMeans(n_clusters=8, random_state=0)
+labels = kmeans.fit_predict(X)
+accuracy = accuracy_score(y, labels)
+print(f"Accuracy: {accuracy}")
+score = silhouette_score(X, labels)
+print(f"Silhouette Score: {score}")
+test_data = np.array([[0.45, 0.6, 0.2, 0.3, 0.8, 0.6, 0.5, 0.7, 0.1, 0.3, 0.6, 0.9], [0.65, 0.7, 0.3, 0.4, 0.9, 0.7, 0.6, 0.8, 0.2, 0.4, 0.7, 0.95]])
+test_data_scaled = ms.fit_transform(test_data)
+test_labels = kmeans.predict(test_data_scaled)
+print(test_labels)

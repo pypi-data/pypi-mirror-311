@@ -1,0 +1,22 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+df = pd.read_csv("C:/Users/Mahesh Kumar/Desktop/Book1.csv")
+# Step 2: Define features (X) and target (Y)
+X = df.drop('GENDER', axis=1) # Assuming 'target_column' is the column to predict
+Y = df['AGE'] # Assuming 'time_to_failure' is the target variable
+X_simple = X.iloc[:, [0]] # For example, using only the first column
+X_train, X_test, y_train, y_test = train_test_split(X_simple, Y, test_size=0.3,
+random_state=42)
+model = LinearRegression()
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+print("Predicted values:\n", y_pred, "\n\n")
+mse = mean_squared_error(y_test, y_pred)
+print(f'Mean Squared Error (MSE): {mse}')
+mae = mean_absolute_error(y_test, y_pred)
+print(f'Mean Absolute Error (MAE): {mae}')
+r_squared = r2_score(y_test, y_pred)
+print(f'R-squared (R2): {r_squared}')
+print(f'Model score (R2 score from model): {model.score(X_test, y_test)}')
