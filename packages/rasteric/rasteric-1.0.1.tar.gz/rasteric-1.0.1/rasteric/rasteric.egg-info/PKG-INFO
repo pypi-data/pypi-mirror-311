@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: rasteric
+Version: 1.0.1
+Summary: A Comprehensive Geospatial Library
+Home-page: https://github.com/tnmthai/rasteric
+Author: Thai Tran
+Author-email: me@tnmthai.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/tnmthai/rasteric/issues
+Project-URL: repository, https://github.com/tnmthai/rasteric
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: rasterio>=1.0
+Requires-Dist: matplotlib>=3.0
+Requires-Dist: shapely>=1.7
+Requires-Dist: geopandas>=0.9
+Requires-Dist: numpy>=1.18
+Requires-Dist: pandas>=1.0
+Requires-Dist: scikit-learn>=0.24
+Requires-Dist: rasterstats
+
+# Rasteric: A Comprehensive Geospatial Library
+
+**Rasteric** is a comprehensive library for geospatial data preprocessing, analysis, and modeling. It provides a variety of functions for transforming, analyzing, and manipulating geospatial data, including raster and vector data.
+
+## Supported Data Formats
+
+Rasteric supports multiple geospatial data formats, including:
+
+- **Raster data**: GeoTIFF, TIFF
+- **Vector data**: Shapefiles, GeoJSON
+- **Tabular data**: CSV files with spatial attributes (e.g., latitude and longitude)
+
+---
+
+## Key Features and Functions
+
+### Data Handling
+- **`convpath()`**: Standardizes file paths for cross-platform compatibility.
+- **`stack()`**: Combines multiple raster files into a single multi-band raster.
+- **`mergecsv()`**: Combines multiple CSV files into a single CSV.
+
+### Data Analysis
+- **`zonalstats()`**: Computes zonal statistics for vector polygons based on raster values.
+- **`stats()`**: Provides basic raster statistics (min, max, mean, std).
+- **`ndvi()`**: Computes the Normalized Difference Vegetation Index.
+
+### Data Manipulation
+- **`clip()`**: Clips a raster using a vector file.
+- **`reproject()`**: Reprojects rasters to a specified coordinate reference system.
+- **`resample()`**: Changes raster resolution using a specified scaling factor.
+
+### Data Visualization
+- **`plot()`**: Displays a raster with customizable brightness and band selection.
+- **`contour()`**: Overlays contour lines on a raster image.
+- **`hist()`**: Plots a histogram of raster values.
+
+### Raster to Vector Conversion
+- **`convras()`**: Converts a raster file to vector polygons.
+
+### Extraction and Integration
+- **`extract()`**: Extracts raster values for vector features or CSV spatial points.
+- **`align_to_shp()`**: Aligns a raster's CRS to match a shapefile's CRS.
+
+---
+
+## Example Usage
+
+### Visualizing a Raster
+```python
+from rasteric import raster
+from matplotlib import pyplot
+
+# Plot raster bands with brightness adjustment
+raster.plot('example.tif', bands=(3, 2, 1), title="Example Raster")
+```
+### Stacking Multiple Rasters
+```
+from rasteric import raster
+
+# Stack rasters into a single file
+stacked_file = raster.stack("data_folder", "stacked_output.tif")
+```
+### Extracting Data
+```
+from rasteric import raster
+
+# Extract raster values for vector features
+output_csv = raster.extract("example.tif", "vector.shp")
+
+```
+### Computing NDVI
+```
+from rasteric import raster
+
+# Calculate NDVI and save the result
+ndvi_output = raster.ndvi("example.tif", "ndvi_output.tif", red_band=3, nir_band=4)
+
+```
+## Function Descriptions
+1. convpath(file_path)
+Description: Converts a file path to a cross-platform compatible format.
+
+2. stack(input_folder, output_file)
+Description: Stacks multiple rasters into a single file with multi-band output.
+
+3. mergecsv(path, outfile='combined.csv')
+Description: Merges all CSV files in a directory into one.
+
+4. clip(raster_file, shapefile, output_file)
+Description: Clips a raster using a shapefile's geometry.
+
+5. zonalstats(raster_file, vector_file, stats=['mean', 'max'])
+Description: Calculates statistics for vector polygons over raster values.
+
+6. ndvi(raster_file, output_file, red_band, nir_band)
+Description: Computes the Normalized Difference Vegetation Index.
+
+7. resample(input_raster, output_raster, scale_factor, resampling_method)
+Description: Resamples a raster to a new resolution.
+
+8. extract(input_data, shp, output_csv, all_touched=False)
+Description: Extracts raster values for vector features or CSV points.
+
+9. plot(file, bands, cmap, title, ax, brightness_factor)
+Description: Plots raster data with band selection and brightness control.
+
+10. align_to_shp(input_tif, source_shp, output_tif)
+Description: Reprojects a raster to align its CRS with a shapefile.
+
+### Contributions and Issues
+We welcome contributions and issue reports! Please submit pull requests or report bugs via the GitHub repository.
