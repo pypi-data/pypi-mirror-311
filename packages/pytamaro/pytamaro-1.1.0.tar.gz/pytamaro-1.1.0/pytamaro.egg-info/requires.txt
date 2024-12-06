@@ -1,0 +1,2 @@
+pillow>=11.0.0
+skia-python>=132.0b11
