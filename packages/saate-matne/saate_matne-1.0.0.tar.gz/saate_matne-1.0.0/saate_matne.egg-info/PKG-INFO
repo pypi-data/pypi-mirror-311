@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: saate-matne
+Version: 1.0.0
+Summary: A library for formatted time display in English and Persian with Night and Day themes
+Home-page: UNKNOWN
+Author: Fared Baktash
+Author-email: faredba@outlook.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
