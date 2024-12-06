@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: servitorconnect
+Version: 1.0.0
+Summary: A tool to repeat intentions hourly from a file or direct input.
+Home-page: https://github.com/tsweet77/servitorconnect
+Author: AnthroHeart (Thomas Sweet)
+Author-email: healing@intentionrepeater.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ServitorConnect
+
+A CLI tool for manifesting intentions through repeating an intention hourly.
+It implicitly works with a Servitor to aid in manifestation.
+
+## Installation
+Install via pip: pip install servitorconnect
+
+## For Help
+servitorconnect --help
+
+## Example Runs
+servitorconnect --intent "I am Love." --repeats 8888888 --duration 3600
+
+servitorconnect --file "intentions.txt" --repeats 8888888 --duration 3600
+
+servitorconnect
+
+## Parameters
+--intent The Intention you want to run. (Optional if file is specified.)
+--file The intention file you want to run. (Optional if intent is specified.)
+--repeats Number of times to repeat each hour. Using all 8's is best.
+--duration Number of seconds to run.
+
+If parameters are not given via command line, they will be asked for in the program.
