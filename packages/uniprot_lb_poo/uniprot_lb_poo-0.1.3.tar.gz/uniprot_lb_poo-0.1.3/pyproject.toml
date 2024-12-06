@@ -1,0 +1,22 @@
+[project]
+name = "uniprot_lb_poo"
+version = "0.1.3"
+description = "Parses uniprot entries (from uniprot files) and creates Uniprot objets"
+authors = [
+    { name = "Baptiste Riou & Lorcan BRENDERS", email = "baptiste.riou2@etu.univ-lyon1.fr" }
+]
+maintainers = [
+    { name = "Guillaume Launay & Arnaud Mary", email = "guillaume.launay@univ-lyon1.fr"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.9.2",
+]
+
+keywords = ['Protein', 'Uniprot', 'Parser', 'Bioinformatics']
+
+[project.urls]
+HomePage = "http://pedago-service.univ-lyon1.fr:2325/briou/uniprot.git"
+DOWNLOAD = "http://pedago-service.univ-lyon1.fr:2325/briou/uniprot/-/archive/publish/uniprot-master.tar.gz"
+
