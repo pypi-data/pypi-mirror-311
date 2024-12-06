@@ -1,0 +1,8 @@
+#!python
+
+from solstar.aia_download_n_calib import main
+import os
+
+if __name__ == "__main__":
+    result = main()
+    os._exit(result)
