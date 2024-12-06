@@ -1,0 +1,3 @@
+[console_commands]
+my_command = my_package.my_module:main_function
+
