@@ -1,0 +1,16 @@
+numpy
+h5py
+psycopg2-binary
+pandas
+networkx
+autologging
+scipy
+sqlalchemy
+paramiko
+scikit-learn
+csvsort
+matplotlib
+seaborn
+tqdm
+wget
+munch
