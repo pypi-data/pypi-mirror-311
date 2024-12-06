@@ -1,0 +1,12 @@
+startnewproject-0.1.8.dist-info/METADATA,sha256=DflXUHGreqixzV9p-9DvOgqtg8EbvtFLRWi3qXupkxc,2970
+startnewproject-0.1.8.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+startnewproject-0.1.8.dist-info/entry_points.txt,sha256=shXQnZgaJdRssoCBkoeLZxCCF8GidjMXNUTFzsaQzYg,78
+startnewproject-0.1.8.dist-info/licenses/LICENSE,sha256=Sx-dX1QyPDd3yHNnh20Ot7ZGSGI9Yo4y905zj42g5EM,1074
+startnewproject/__init__.py,sha256=qhmLjkr3krHqJ72BfiFE87fuitT-rtLo6Bmv_EfGeRc,89
+startnewproject/main.py,sha256=twONKsTm6mincZ4CkK7L7KMdvpJ_gdDxmsfpOgGU290,6733
+startnewproject/templates/README.html,sha256=4M9PoHYJRSpQuztA7Riu2Sya8DcOZGhVfexd95f9mCo,1034
+startnewproject/templates/README.md,sha256=OA2N7GlpGUfGnpsebQkqbE6sNQLiA6qLxWBAi5XVkLs,483
+startnewproject/templates/README.txt,sha256=P66hbkFDksOx5Lyh2Awk8cbWXfevZAARTNpQE8lVD08,470
+startnewproject/templates/config.json,sha256=eoRv8NusJsrfiszTOPDGcIS-eJuL8dZk9V0LGysO5JA,2400
+startnewproject/version.py,sha256=C69ADlbQREQlR15trneyA2sk8x0-oH4rDAX5fsv19_U,22
+startnewproject-0.1.8.dist-info/RECORD,,
