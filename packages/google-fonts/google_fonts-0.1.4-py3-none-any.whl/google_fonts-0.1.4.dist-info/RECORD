@@ -1,0 +1,12 @@
+google_fonts/__init__.py,sha256=vxpKJ-6tGVSMPs6UDRbr9a3SaERFDHnmc7pqajEcI38,132
+google_fonts/cli.py,sha256=ER4DN0ZMOyVfwrt27Cnmu7qNX42MlZn4qxHqOrzU2oE,2724
+google_fonts/font/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_fonts/font/install.py,sha256=cqVXmG0Arw4aG3B4d3BxQeh-l0DW2pfodESydE_z-fI,3112
+google_fonts/font/list.py,sha256=3wSqH5QjOVlU4mWrfWNjOEDzXe35-41lWjYm2A4R-dQ,960
+google_fonts/google_fonts.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+google_fonts/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_fonts/utils/font_data.py,sha256=lvPDh0dQu1MNWWOmx-vUmMEg-Jeh4xYvqccoP8OlOHE,4336
+google_fonts-0.1.4.dist-info/METADATA,sha256=dzpzh7X7xy2jAbeoK9prLjUCTD_xK1wMfYmgKiSIAeU,1719
+google_fonts-0.1.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+google_fonts-0.1.4.dist-info/entry_points.txt,sha256=s1OWAZ_cpa1wiPEtlZW43FOuhfwVR_UJSxk7lNPV5A4,53
+google_fonts-0.1.4.dist-info/RECORD,,
