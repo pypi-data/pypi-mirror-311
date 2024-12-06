@@ -1,0 +1,2 @@
+[console_scripts]
+apophenia = apophenia.__init__:main
