@@ -1,0 +1,54 @@
+[project]
+name = "EMToolKit"
+version = "0.1.11"
+description = "This package provides an interface to the EMToolKit through PyPi"
+authors = [
+    { name = "J. Plowman", email = "jplowman@boulder.swri.edu" },
+    { name = "C. Gilly", email = "gilly@swri.org" }
+]
+dependencies = [
+    "astropy>=6.0.1",
+    "scipy>=1.13.1",
+    "ipympl>=0.9.4",
+    "ndcube>=2.2.2",
+    "xrtpy>=0.4.0",
+    "sunpy>=5.1.5",
+    "requests>=2.32.3",
+    "bs4>=0.0.2",
+    "lxml>=5.2.2",
+    "zeep>=4.2.1",
+    "drms>=0.7.1",
+    "reproject>=0.13.0",
+    "ipykernel>=6.29.5",
+    "jupyter",
+    "notebook"
+]
+readme = "README.md"
+requires-python = ">= 3.9, <3.13"
+license = { text = "BSD 3" }
+keywords = ["EMToolKit", "space physics", "package interface"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+
+scripts = { emtest = "EMToolKit.examples:example_run" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+readme-file = "README.md"
+readme-content-type = "text/markdown"
+repository = "https://github.com/jeplowman/EMToolKit"
+
+[tool.hatch.build.targets.wheel]
+packages = ["EMToolKit"]
