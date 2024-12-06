@@ -1,0 +1,9 @@
+ioprocmeta/__init__.py,sha256=LVXLuxtERAxkFaCQUftSPT_oKE8-4JvtJBoufHAzf3g,140
+ioprocmeta/base.py,sha256=9882qxJDFy889u5dlw6S6gxx4DsWB14SUHn_xYc-vZQ,1804
+ioprocmeta/converter.py,sha256=KxphPcGv72Wu6vr8HsVsX15RfBZdQG5RGDdzji9xXf0,1913
+ioprocmeta/oep/__init__.py,sha256=PjFybxBghEV1rglG16BlLLmXaUtdr1FObFF5HqkPuUo,5267
+ioprocmeta/oep/sections.py,sha256=Cqmphfxr7xUeEZqq2ZpIrFhiWGt6yNnRHuIlW0tpYdk,5173
+ioprocmeta-2.1.1.dist-info/METADATA,sha256=11Jk7jaccAYuH2STq40sU8Jv7dxnSB6eGIXxI6INtbY,10119
+ioprocmeta-2.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+ioprocmeta-2.1.1.dist-info/licenses/LICENSE,sha256=dB4_Ah_2YaaxOM7MzxXp20v4KaR_5D-bbpzKwWPCSEU,1585
+ioprocmeta-2.1.1.dist-info/RECORD,,
