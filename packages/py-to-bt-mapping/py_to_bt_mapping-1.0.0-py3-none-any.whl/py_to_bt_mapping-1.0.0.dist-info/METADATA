@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: py_to_bt_mapping
+Version: 1.0.0
+Summary: BT-Basic to Python Mapping
+Home-page: https://bitbucket.it.keysight.com/projects/I3070SM/repos/i3070_2025/browse/BT_Basic_Mapping/operations.py?at=refs%2Fheads%2Ffeature%2FBT-Basic-to-Python-Mapping
+Keywords: maps BT-Basic functions
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+Requires-Dist: pywin32>=306
+Requires-Dist: pyserial>=3
+
+py_to_bt_mapping
+================
+
+A simple Python package that maps BT-Basic commands. Use it to call BT-Basic methods.
+
+Installation
+------------
+
+Install using pip:
+
+::
+
+    py -m pip install py_to_bt_mapping
+
+Example
+-------
+
+Here is an example usage:
+
+.. code-block:: python
+
+    from mapping import operations
+
+    # Get decimal integer version of a binary number:
+    result = operations.bti("00101")
+    print(result)  # Output: 5
