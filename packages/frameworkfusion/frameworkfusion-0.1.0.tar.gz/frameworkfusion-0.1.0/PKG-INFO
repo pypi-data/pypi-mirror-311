@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: frameworkfusion
+Version: 0.1.0
+Summary: This tool use API OpenCRE to compare frameworks, example ISO 27001, OWASP SAMM and more.
+License: MIT
+Author: Cristiano Henrique dos Santos
+Author-email: cristianovisk@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: opencre-lib (>=0.1.2,<0.2.0)
+Requires-Dist: openpyxl (>=3.1.5,<4.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: rich (>=13.9.4,<14.0.0)
+Requires-Dist: typer (>=0.13.1,<0.14.0)
+Project-URL: Bug Tracker, https://github.com/cristianovisk/FrameworkFusion/issues
+Project-URL: Code, https://github.com/cristianovisk/FrameworkFusion
+Project-URL: Documentation, https://github.com/cristianovisk/FrameworkFusion/blob/main/README.md
+Description-Content-Type: text/markdown
+
+# FrameworkFusion
+
+FrameworkFusion is a tool designed to leverage the [OpenCRE Library](https://github.com/cristianovisk/opencre_lib) to correlate and visualize relationships between security frameworks mapped in the [OpenCRE](https://www.opencre.org/) database. It aims to simplify the task of understanding compliance overlaps and aligning security controls across multiple frameworks.
+
+## 📚 Features
+
+- Correlate controls across different security frameworks.
+- Generate and visualize mapping tables for frameworks.
+- Easy-to-use interface for querying relationships.
+- Built on top of the powerful [OpenCRE Library](https://github.com/cristianovisk/opencre_lib).
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Python 3.8 or higher installed.
+
+### Installation
+
+1. Install using PIP:
+   ```bash
+   pip3 install frameworkfusion
+
+2. How use:
+    ```bash
+    framework_fusion compare --primary 12 --secundary 4 --output compare.xlsx
+
+3. To see frameworks supported:
+    ```bash
+    framework_fusion example
