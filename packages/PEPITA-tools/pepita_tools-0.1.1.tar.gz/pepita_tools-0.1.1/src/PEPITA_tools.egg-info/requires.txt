@@ -1,0 +1,10 @@
+imagecodecs>=2024.9.22
+matplotlib>=3.9.2
+numpy>=2.0.2
+opencv-python>=4.10.0.84
+pandas>=2.2.3
+pytest>=8.3.3
+scikit-image>=0.18
+scipy>=1.13.1
+seaborn>=0.13.2
+xlsxwriter>=3.2.0

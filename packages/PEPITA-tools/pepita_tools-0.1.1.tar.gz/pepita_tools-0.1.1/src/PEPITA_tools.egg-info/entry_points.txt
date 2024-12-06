@@ -1,0 +1,2 @@
+[console_scripts]
+pepita = pepitatools.scripts.pepita_cli:pepita
