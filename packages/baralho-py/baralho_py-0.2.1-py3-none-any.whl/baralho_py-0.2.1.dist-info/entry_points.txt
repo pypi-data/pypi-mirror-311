@@ -1,0 +1,2 @@
+[console_scripts]
+baralho-py = baralho_py.main:main
