@@ -1,0 +1,11 @@
+picows/__init__.py,sha256=QdybIToBaOTAXBV6IFIahyfz5NM7Ydzo5fuWq9qCucc,658
+picows/picows.c,sha256=vPxpTLR9JLUy8IRzCzKusTDLn-QJLIKO4I7Ona3e-NI,2985283
+picows/picows.cp39-win32.pyd,sha256=Br0xozyIaflexnnuDOj9ALd0fhR1yJ9DhCsRYu7C4Pg,421376
+picows/picows.pyi,sha256=PU9TniSaJzU5rokJMFueizGieBbbQRCXnkqIih8wif4,5254
+picows/picows_compat.h,sha256=ikHAKliZDhBS7Z7xvi3IjDYsCbiNbNxPB7VmSQ0ItQo,3711
+picows/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picows-1.7.0.dist-info/LICENSE,sha256=WXov4Mk5Fg00Fko0ZBHaMDwvVa3etfS6zish_LE49hM,1126
+picows-1.7.0.dist-info/METADATA,sha256=YV1VXICCVjIxybvn8ePE-q3Qsierj4hWlHCeXi3rmow,8651
+picows-1.7.0.dist-info/WHEEL,sha256=uIt2rWmgA-iArqraHKJlTj0JKyNuTJXoB0gCO60ou14,95
+picows-1.7.0.dist-info/top_level.txt,sha256=hUbNrhLiUJGRlf0OcYhDotazR5iQ87-5WHc8Qasz0pQ,7
+picows-1.7.0.dist-info/RECORD,,
