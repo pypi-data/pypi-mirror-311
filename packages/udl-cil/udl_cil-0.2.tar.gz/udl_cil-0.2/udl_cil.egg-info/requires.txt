@@ -1,0 +1,8 @@
+hydra-core
+optuna
+omegaconf
+GPUtil
+rich
+yapf==0.40.2
+hydra-joblib-launcher
+colorlog

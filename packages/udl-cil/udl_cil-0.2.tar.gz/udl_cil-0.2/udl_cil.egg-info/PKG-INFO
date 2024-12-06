@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: udl-cil
+Version: 0.2
+Summary: General parallel runner and manager, initially designed for https://github.com/XiaoXiao-Woo/UDL
+Home-page: UNKNOWN
+Author: XiaoXiao-Woo
+Author-email: wxwsx1997@gmail.com
+License: GPLv3
+Description: General parallel runner and manager, initially designed for https://github.com/XiaoXiao-Woo/UDL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
