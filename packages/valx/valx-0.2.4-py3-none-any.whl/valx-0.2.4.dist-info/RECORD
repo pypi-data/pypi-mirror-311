@@ -1,0 +1,9 @@
+valx/__init__.py,sha256=eEOyE2VRbUBKEDEmBaxKiSQvRZtn-wr9O2xZnwbT13Q,47625
+valx/models/classifier_upgraded.pkl,sha256=zVAyIqadtinlBqRdowqGEIc2-RMtlNef6jqXatWLHj4,388690
+valx/models/count_vectorizer.sav,sha256=-aZLo4xabTf7mPuZvz1JLnmKRwnGvn_q5IPGF3je1iI,440447
+valx/models/decision_tree_model.sav,sha256=dtWxu0zq4w94gjZ6xf8aJDWntVrmwf4LAYjP4VnuhN8,353410
+valx-0.2.4.dist-info/LICENSE,sha256=ZIftxnYzzlrappVuiyXoFI6QAiB1s2fzg9w07mxF-QI,949
+valx-0.2.4.dist-info/METADATA,sha256=7yd5tQlYSsqKfnn_INkRvQRJrQo1bQD7fDLL6-XdyzI,8006
+valx-0.2.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+valx-0.2.4.dist-info/top_level.txt,sha256=f7iYFENO9qsqWY-4UfyLj3SMJClzGAJjVjBkIUtdaiA,5
+valx-0.2.4.dist-info/RECORD,,
