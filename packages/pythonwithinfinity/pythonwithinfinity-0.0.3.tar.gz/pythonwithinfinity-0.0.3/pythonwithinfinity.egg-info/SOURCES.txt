@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+PyInfinity/DELETE-ALL-PYCASHE!.py
+PyInfinity/__init__.py
+PyInfinity/__main__.py
+PyInfinity/constants.py
+PyInfinity/getpip.py
+PyInfinity/init.py
+PyInfinity/option.py
+PyInfinity/randoms.py
+PyInfinity/randoms.pyi
+pythonwithinfinity.egg-info/PKG-INFO
+pythonwithinfinity.egg-info/SOURCES.txt
+pythonwithinfinity.egg-info/dependency_links.txt
+pythonwithinfinity.egg-info/top_level.txt
