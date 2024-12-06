@@ -1,0 +1,12 @@
+[tool.black]
+target-version = ["py311", "py312", "py313"]
+
+[tool.coverage.report]
+fail_under = 100
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[tool.pyright]
+include = ["datatrails_scitt_samples"]
+typeCheckingMode = "basic"
