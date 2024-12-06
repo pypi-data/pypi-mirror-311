@@ -1,0 +1,10 @@
+[django_countries.Country]
+income_level = django_countries_hdx:regions.get_income_level
+ldc = django_countries_hdx:regions.is_ldc
+lldc = django_countries_hdx:regions.is_lldc
+preferred_name = django_countries_hdx:regions.get_preferred_name
+region = django_countries_hdx:regions.country_region
+region_name = django_countries_hdx:regions.country_region_name
+sids = django_countries_hdx:regions.is_sids
+subregion = django_countries_hdx:regions.country_subregion
+subregion_name = django_countries_hdx:regions.country_subregion_name
