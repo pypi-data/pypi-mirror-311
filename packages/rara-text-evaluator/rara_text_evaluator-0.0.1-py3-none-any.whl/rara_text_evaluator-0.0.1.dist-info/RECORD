@@ -1,0 +1,11 @@
+rara_text_evaluator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rara_text_evaluator/ngram_model_builder.py,sha256=XjExLax0emRqTo8NfdPwixKxfvFuFr-rvEv_RqF7JGo,3578
+rara_text_evaluator/quality_validator.py,sha256=AcF_eN_KYnV-odAE2uEgmWZw3Us3dWxNGZuZCRcdo_s,7770
+rara_text_evaluator/models/text_validator_ngram_3_en.pkl,sha256=xbuqeH_vpxAUtsy2zh-V6kk4eIVqkgJyeW2hjT5siYE,940521
+rara_text_evaluator/models/text_validator_ngram_3_et.pkl,sha256=d3JRch8hyqnVArCTbFnwp5mP75KsTF4rY-tWxyHJWMo,1680257
+rara_text_evaluator/models/text_validator_ngram_3_fallback.pkl,sha256=UECvZ-4Gz5nyQz88RVftCjRT8rVeEmBO1xUGlRG8hqs,1687481
+rara_text_evaluator-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rara_text_evaluator-0.0.1.dist-info/METADATA,sha256=BHQNaq4RVZaAYrHhUqudEAHujlRDmCx04D_9W9TMr-k,5842
+rara_text_evaluator-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+rara_text_evaluator-0.0.1.dist-info/top_level.txt,sha256=q1GPZHQntGBZvMy-V_zsAM8zgTvQzu3Ns1Luu8DSVQc,20
+rara_text_evaluator-0.0.1.dist-info/RECORD,,
