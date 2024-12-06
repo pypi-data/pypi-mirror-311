@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+maf_counter/__init__.py
+maf_counter/cli.py
+maf_counter.egg-info/PKG-INFO
+maf_counter.egg-info/SOURCES.txt
+maf_counter.egg-info/dependency_links.txt
+maf_counter.egg-info/entry_points.txt
+maf_counter.egg-info/top_level.txt
+maf_counter/bin/maf_counter

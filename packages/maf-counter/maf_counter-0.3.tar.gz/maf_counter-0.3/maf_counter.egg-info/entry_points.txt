@@ -1,0 +1,2 @@
+[console_scripts]
+maf_counter = maf_counter.cli:main
