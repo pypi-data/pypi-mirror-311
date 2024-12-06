@@ -1,0 +1,11 @@
+checksum_dict/__init__.py,sha256=xFCTG_YfbINghyLhconIDQCO6CXYMn2d_z0dfgIMtCY,415
+checksum_dict/_key.py,sha256=dsFgIt7FMxvmN15QpYI04mgBaMfxQdbgkm65H9BR8VU,5583
+checksum_dict/base.py,sha256=DvXpfXYZHhHucmPBqxnAEYJyLWaKwLBVnq76ueEw6aU,2614
+checksum_dict/default.py,sha256=W9f2GhU3wdf2UyGmZQKJCFC-anEGLak3fi4R_u4GoYE,1133
+checksum_dict/exceptions.py,sha256=kIMJooC6ghgdeKvLK9N-x9HJnX_RRe7JXRxv6WAL-ls,147
+checksum_dict/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checksum_dict/singleton.py,sha256=-8ySn8HEK3YvZuJUcVEMEbl5qUT6zGiSoOmqfGMHcP0,2040
+checksum_dict-1.2.4.dist-info/METADATA,sha256=RFZli66__w3FPmn4G8FS75dUwK5Uu5RBZ-1QufJKECQ,369
+checksum_dict-1.2.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+checksum_dict-1.2.4.dist-info/top_level.txt,sha256=fgiobPYbBTviW7KPln32NAo8dLfEkAtOe_2sSNDkBa0,14
+checksum_dict-1.2.4.dist-info/RECORD,,
