@@ -1,0 +1,19 @@
+
+====================================================================
+                            MXgap Report                           
+====================================================================
+
+Date:            2024-10-16 10:44:58
+Model Used:      GBC+RFR_onlygap
+Folder Path:     None
+CONTCAR file:    ./CONTCAR
+DOSCAR file:     ./DOSCAR
+
+====================================================================
+    
+Predicted ML_isgap  =  1 (Semiconductor)
+Predicted ML_gap    =  1.961
+
+Finished successfully in 0.07s
+Predicted ML_isgap  =  1 (Semiconductor)
+Predicted ML_gap    =  1.961

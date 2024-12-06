@@ -1,0 +1,6 @@
+recursive-include mxgap *
+recursive-include tutorials *
+
+include README.md
+include LICENSE
+include requeriments.txt
