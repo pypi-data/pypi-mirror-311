@@ -1,0 +1,10 @@
+numpy
+matplotlib
+tqdm
+opencv-python
+progressbar
+scipy
+scikit-learn
+
+[cuda]
+torch
