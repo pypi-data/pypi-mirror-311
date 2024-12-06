@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pytreebuilder/__init__.py
+pytreebuilder/pytreebuilder.py
+pytreebuilder/utils.py
+pytreebuilder.egg-info/PKG-INFO
+pytreebuilder.egg-info/SOURCES.txt
+pytreebuilder.egg-info/dependency_links.txt
+pytreebuilder.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pytreebuilder.py
