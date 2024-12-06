@@ -1,0 +1,5 @@
+langsmith_pyo3-0.1.0rc1.dist-info/METADATA,sha256=XhBquUpjK5l9mb51M5lwWeOabjsU6YOXVY5EXShVcjM,1078
+langsmith_pyo3-0.1.0rc1.dist-info/WHEEL,sha256=8A8KunuSSxLGTf3yLFKNqMcF_kcQ5sThZBZ3mMpYr0g,94
+langsmith_pyo3/__init__.py,sha256=3Gttcl7XJq0PCszwjrNjYyPjvpcbiXfS19E1UZ_uXdE,139
+langsmith_pyo3/langsmith_pyo3.cp38-win_amd64.pyd,sha256=2kzpgr3soBLeCDv-vP-EeNyB4QbuYKj9cR9rpJKhIz4,5015552
+langsmith_pyo3-0.1.0rc1.dist-info/RECORD,,
