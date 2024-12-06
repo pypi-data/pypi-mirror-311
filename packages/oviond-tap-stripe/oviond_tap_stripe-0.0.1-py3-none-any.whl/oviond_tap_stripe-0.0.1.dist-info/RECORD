@@ -1,0 +1,10 @@
+tap_stripe/__init__.py,sha256=N5k-ZYHaztxIq-c5cbYgiPzJrRPCl6iIWnY4jrqpcwY,22
+tap_stripe/__main__.py,sha256=r0YamVXj_VCK9G98lK7yRwXDV5hd0vrZKq6vY9aDGS0,117
+tap_stripe/client.py,sha256=f4nhAQHHsn2jLUtWGtLs008G4QvgUp7vyFe0fmyCOq0,2762
+tap_stripe/schemas/__init__.py,sha256=4L_j2w9G0RLeNu1IvmrlYD685cMULZhpvOezBL0leR8,42
+tap_stripe/streams.py,sha256=K0-ELy_mZ0eCyR7n2A9txK2oGXb0ZXs23T-e-USi5Eo,4807
+tap_stripe/tap.py,sha256=ujzP9fnp_23N981wBxTS3_toWLrSpyFwDdyFbaOLwCc,1019
+oviond_tap_stripe-0.0.1.dist-info/METADATA,sha256=EQfoxiYAc9_UlQAx7CE7gYqWorexn8he9TGw6b2V1Jw,3999
+oviond_tap_stripe-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+oviond_tap_stripe-0.0.1.dist-info/entry_points.txt,sha256=_CVxbut4P3NZqbvZ6E6hx_VppsHfnaq9AJNmtxbslOY,59
+oviond_tap_stripe-0.0.1.dist-info/RECORD,,
