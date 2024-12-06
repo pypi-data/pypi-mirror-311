@@ -1,0 +1,11 @@
+recursive-include hiphive *
+
+include CONTRIBUTING.md
+include LICENSE
+include MANIFEST.in
+include README.rst
+include setup.py
+
+prune tests
+prune **/__pycache__ 
+prune **/*ipynb_checkpoints
