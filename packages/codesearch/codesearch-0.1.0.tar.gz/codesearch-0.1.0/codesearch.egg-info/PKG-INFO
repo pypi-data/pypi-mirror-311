@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: codesearch
+Version: 0.1.0
+Summary: A fast code search tool using Tantivy
+Home-page: https://github.com/yourusername/codesearch
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tantivy
+Requires-Dist: loguru
+
+# CodeSearch
+
+A fast and efficient code search tool powered by Tantivy, allowing you to search through your codebase with ease.
+
+## Installation
+
+```bash
+pip install codesearch
+```
+
+## Usage
+
+Index your code:
+```bash
+codesearch --index /path/to/your/code --extensions py,js,ts
+```
+
+Search in your indexed code:
+```bash
+codesearch --search "your search query"
+```
+
+## Features
+
+- Fast full-text search in your codebase
+- Support for multiple file extensions
+- Preview of search results
+- Configurable search options
+
+## Requirements
+
+- Python 3.7+
+- Tantivy
+- Loguru
+
+## License
+
+MIT License 

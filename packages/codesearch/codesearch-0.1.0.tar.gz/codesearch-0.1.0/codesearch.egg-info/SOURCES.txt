@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+codesearch/__init__.py
+codesearch/cli.py
+codesearch/indexer.py
+codesearch.egg-info/PKG-INFO
+codesearch.egg-info/SOURCES.txt
+codesearch.egg-info/dependency_links.txt
+codesearch.egg-info/entry_points.txt
+codesearch.egg-info/requires.txt
+codesearch.egg-info/top_level.txt
