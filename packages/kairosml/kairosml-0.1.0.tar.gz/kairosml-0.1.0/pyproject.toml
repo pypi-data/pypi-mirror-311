@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "kairosml"
+version = "0.1.0"
+description = "Python library for the core causal modelling functionality of our products."
+authors = ["Jordan Hart <jordan@causa.tech>"]
+readme = "README.md"
+packages = [
+    { include = "kairosml", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.26.4"
+scikit-learn = "^1.3.1"
+pygam = "^0.9.1"
+networkx = "^3.2.1"
+pandas = "^2.2.1"
+seaborn = "^0.13.2"
+dill = "^0.3.8"
+statsmodels = "^0.14.1"
+tqdm = "^4.66.2"
+openai = "^1.23.2"
+mkdocs-awesome-pages-plugin = "^2.9.3"
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.8.3"
+jupyter = "^1.0.0"
+pytest = "^8.0.2"
+pytest-cov = "^4.1.0"
+mkdocs-material = "^9.5.13"
+mkdocstrings-python = "^1.9.0"
+mknotebooks = "^0.8.0"
+doubleml = "^0.7.1"
+xgboost = "^2.0.3"
+shap = "^0.45.0"
+tensorflow = "^2.16.1"
+geopandas = "^0.14.3"
+contextily = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
