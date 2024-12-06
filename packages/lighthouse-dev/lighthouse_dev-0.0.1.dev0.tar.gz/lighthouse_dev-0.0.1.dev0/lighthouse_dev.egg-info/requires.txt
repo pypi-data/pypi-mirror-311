@@ -1,0 +1,16 @@
+pydantic==2.10.2
+sqlmodel==0.0.22
+pydantic-settings==2.6.1
+pydantic_core==2.27.1
+rich==13.9.4
+SQLAlchemy==2.0.36
+
+[dev]
+mypy>=1.11
+pytest>=7
+mkdocs==1.6.1
+mkdocs-material==9.5.39
+sqlalchemy2-stubs==0.0.2a38
+pre-commit==3.8.0
+twine==5.1.1
+build==1.2.2.post1
