@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ubuntu-terminal-agent
+Version: 0.1.0
+Summary: A Python agent for Ubuntu that generates and executes terminal commands using Hugging Face models.
+Home-page: https://github.com/yourusername/ubuntu-terminal-agent
+Author: Agents Valley
+Author-email: agentsvalley@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: huggingface_hub>=0.14.1
