@@ -1,0 +1,9 @@
+fixparser/__init__.py,sha256=E_3QTPLVo42nH5IFKPB7Z18issUNx_wKclB_l6SKFJI,27
+fixparser/cli.py,sha256=0GPD7YNUKvZoIBc_GECwZoXuvAt9cdfNk6t7BfTbQUs,672
+fixparser/core.py,sha256=Mx4CyhLegsKe_kYTyY-9yuE8jSa5sKZ84xw117rfdQs,2056
+fixparser/setup.py,sha256=YpMELbHrZ_-wH0NaiI4uQbIsg4_Bl8meMh8HeTRx-js,838
+fixparser-0.0.0.dist-info/LICENSE,sha256=vFlNHXy1UscBcOLeWCcki8pI9sqHDvUG0D05ncndeFM,624
+fixparser-0.0.0.dist-info/METADATA,sha256=UI4N204QQzeBKHt_4oaSFOaF5hTQLkt6OJjFVuRWwJ4,75
+fixparser-0.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+fixparser-0.0.0.dist-info/top_level.txt,sha256=hCy15-qhlzJVpB6o2w3nlLB2DkX2ft3k6NGkauSWJcg,10
+fixparser-0.0.0.dist-info/RECORD,,
