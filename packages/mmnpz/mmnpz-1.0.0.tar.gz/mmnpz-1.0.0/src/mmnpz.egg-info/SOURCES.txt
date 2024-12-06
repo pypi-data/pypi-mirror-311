@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/mmnpz/__init__.py
+src/mmnpz/py.typed
+src/mmnpz/reading.py
+src/mmnpz/version.py
+src/mmnpz/writing.py
+src/mmnpz.egg-info/PKG-INFO
+src/mmnpz.egg-info/SOURCES.txt
+src/mmnpz.egg-info/dependency_links.txt
+src/mmnpz.egg-info/requires.txt
+src/mmnpz.egg-info/top_level.txt
+tests/test_reading.py
+tests/test_writing.py
