@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+test/test_experimental.py
+test/test_jax.py
+test/test_sympy.py
+tme/__init__.py
+tme/base_jax.py
+tme/base_sympy.py
+tme/base_tf.py
+tme/experimental.py
+tme/typings.py
+tme.egg-info/PKG-INFO
+tme.egg-info/SOURCES.txt
+tme.egg-info/dependency_links.txt
+tme.egg-info/requires.txt
+tme.egg-info/top_level.txt
