@@ -1,0 +1,9 @@
+ettayi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ettayi/cli.py,sha256=Z-ebqm2md6KiHQCGjlrdi9H6NG7zzpnLHbNP-QFypJ8,1217
+ettayi/interpreter.py,sha256=AXbyPrFmAKa6h_evlpoJ-fvPOu_bQHwtreTmNS4KfTs,13610
+ettayi/parser.py,sha256=kdz5DzUIqY2nOmeZGd9nY1P-guRysp6BrQRdZirHRC8,8297
+ettayi-1.0.0.dist-info/METADATA,sha256=1QIkZT-RzGI4fim6HqmCjRjfMxcJvwI5rgNWpzvnR4s,464
+ettayi-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ettayi-1.0.0.dist-info/entry_points.txt,sha256=FqQmkLgJ8ECU5-HC1yTLwnu5MbQE7-PzMq_v_nprF6k,43
+ettayi-1.0.0.dist-info/top_level.txt,sha256=vlbV9_blWSfFSRRIBr227TtH_13flBVkgR1RuM0LEls,7
+ettayi-1.0.0.dist-info/RECORD,,
