@@ -1,0 +1,13 @@
+tangbao/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tangbao/apollo.py,sha256=wgDDE0J_Gn9LqiYRJV_pODrOqO6NFIEYQkZBVa1tR8A,15304
+tangbao/azure.py,sha256=rLSZBGwJDQVfUic9LD9xNpCX817d4ImrVIRdXZt1D2c,2160
+tangbao/config.py,sha256=-B9xhC8bcsiXSNoFcP-JzXZe6x5BKZV2omNBoO8JFVs,793
+tangbao/parse_docs.py,sha256=VqCvbVocs53EpGBtZoq5hy_VsepD_UbZ_H9TaKvM84Y,5798
+tangbao/utils.py,sha256=wdxTiH4ZK7b8b7YAF0-blNoORh4SMoJaMuvzVkbqjWg,3850
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_apollo.py,sha256=vA9Rsjod1WZ3BiKQ1BV3niYMGNd_D61SSiVY2b1ck-0,4057
+tangbao-0.1.8.dist-info/LICENSE,sha256=vOHnbZLOq-MFNP3SFZbpDd0nsrnIvxz2QRnLMM_BN2s,1070
+tangbao-0.1.8.dist-info/METADATA,sha256=VMjImmncvFhQXWIpcnG-O7pnHa8tYepSbCzVDDgn5qw,12536
+tangbao-0.1.8.dist-info/WHEEL,sha256=bFJAMchF8aTQGUgMZzHJyDDMPTO3ToJ7x23SLJa1SVo,92
+tangbao-0.1.8.dist-info/top_level.txt,sha256=VgCCjy6OBPD1j8muh3my8hOPPAHWcoPgxCAbftUmD8o,14
+tangbao-0.1.8.dist-info/RECORD,,
