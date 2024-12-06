@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+bakaweb_rozvrh.egg-info/PKG-INFO
+bakaweb_rozvrh.egg-info/SOURCES.txt
+bakaweb_rozvrh.egg-info/dependency_links.txt
+bakaweb_rozvrh.egg-info/requires.txt
+bakaweb_rozvrh.egg-info/top_level.txt
