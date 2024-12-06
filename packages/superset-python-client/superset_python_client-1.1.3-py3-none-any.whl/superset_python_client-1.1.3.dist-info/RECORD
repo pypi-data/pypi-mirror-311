@@ -1,0 +1,15 @@
+supersetapiclient/__init__.py,sha256=Op7Ai0ISqzlh-YcI1q4bsouO8Wjpra2_zYVh2Gk1Xis,206
+supersetapiclient/assets.py,sha256=2h5rnYBMt4WIliYxgC-Hul-qEOVS3Q8QA0aaXrwYnbo,2342
+supersetapiclient/base.py,sha256=98z8lzfpiNKEjiLWRi5Izb2GmepaCBL60uQnCgps_Ck,10004
+supersetapiclient/charts.py,sha256=1OJLgQOicfWYNlgbD0-GVpK6KBIB19gXm9omL4k3R6I,1322
+supersetapiclient/client.py,sha256=eQj2nsUcikPoFeIJ0Gq-OqDMU7vTI7B6UvEBOsTTukw,9761
+supersetapiclient/css_templates.py,sha256=tMY1HMoowpK3HYmUmSvjWwdVPAUeTNT_wv-bPGC8oIs,404
+supersetapiclient/dashboards.py,sha256=BtxfHhbEYSGt-tSy9PBKfE7aQOxnLin3rA5tu7v3FAg,3124
+supersetapiclient/databases.py,sha256=9o-sjnMC3MAcjR7hjaMQxC6Xu6eYro6qYg2asI-cUqI,2142
+supersetapiclient/datasets.py,sha256=SMo8cGVK-PZPURR0AUPSsJIMy4WdKLY28SHY_U05xiU,1400
+supersetapiclient/exceptions.py,sha256=0dWM2rNyNrxOzjLC-CBFWDc6hw8OL4hb5yRHUUek5OQ,838
+supersetapiclient/saved_queries.py,sha256=b1y9k9aT0S61fnEjf4tiuGTFPAP4p41KrtbHbB4gVOg,980
+superset_python_client-1.1.3.dist-info/LICENSE,sha256=RFhQPdSOiMTguUX7JSoIuTxA7HVzCbj_p8WU36HjUQQ,10947
+superset_python_client-1.1.3.dist-info/METADATA,sha256=XPFj-tgm6gXd5WaljVWkPXv619k0KC7NqnLb1RpS-QI,4361
+superset_python_client-1.1.3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+superset_python_client-1.1.3.dist-info/RECORD,,
