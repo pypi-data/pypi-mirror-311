@@ -1,0 +1,3 @@
+[console_scripts]
+aios-basic-demo = cerebrum.example.aios_demo:main
+aios-concurrent-demo = cerebrum.example.aios_demo_concurrent
