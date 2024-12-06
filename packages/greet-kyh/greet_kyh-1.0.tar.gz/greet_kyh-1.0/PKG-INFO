@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: greet_kyh
+Version: 1.0
+Summary: a python package for ... 
+Author: kongyonghui
+Author-email: yonghiu315@163.com
+Keywords: python,linux,windows
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Greet Package
+
+A simple Python package to greet people.
+
+## Installation
+
+```bash
+pip install greet_kyh
