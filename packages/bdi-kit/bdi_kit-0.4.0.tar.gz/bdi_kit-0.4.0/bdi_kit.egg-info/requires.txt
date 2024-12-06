@@ -1,0 +1,15 @@
+polyfuzz
+valentine>0.2.0
+openai
+torch
+transformers
+tqdm
+scikit-learn
+flair>=0.14.0
+requests
+scipy<1.13
+matplotlib<3.9
+panel!=1.4.3
+Levenshtein
+autofj
+nltk>=3.9.1
