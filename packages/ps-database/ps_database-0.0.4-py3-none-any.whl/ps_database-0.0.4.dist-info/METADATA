@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ps-database
+Version: 0.0.4
+License-File: licence
+Requires-Dist: requests
+
