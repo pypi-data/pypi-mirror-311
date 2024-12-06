@@ -1,0 +1,11 @@
+django_remake_migrations/__init__.py,sha256=CpK8IH_dCUAwg9tqv7zm9FxbBFkxCnED1JUiRe7cftU,22
+django_remake_migrations/apps.py,sha256=nmmnVLuRgL30-OxbYPTTW11cZ3DP7kSNwCEX_Q9njiQ,266
+django_remake_migrations/conf.py,sha256=7EuuOB3K27Kjrn5vCJl5x_Q3kuFtZTiuHA1iCKBxz_s,2557
+django_remake_migrations/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_remake_migrations/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_remake_migrations/management/commands/remakemigrations.py,sha256=_X2qiDmtaKjBdREYwWpaQGk-RHYxPXZy1CH19BCHR88,9264
+django_remake_migrations/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_remake_migrations-2.3.0.dist-info/LICENSE,sha256=75IDnaoxsz1elYBbkoAFGKOYiyKir9h8mkK3WLyfr6w,1068
+django_remake_migrations-2.3.0.dist-info/METADATA,sha256=LzNfaPCPRKrqA5ravNpToAxLiN6MSGsvI8yAg_Jqtiw,6714
+django_remake_migrations-2.3.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+django_remake_migrations-2.3.0.dist-info/RECORD,,
