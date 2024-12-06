@@ -1,0 +1,8 @@
+slanggen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slanggen/custom_logger.py,sha256=V7JPkB8ORViFPR0ph1bzH-ddxJH2HOXCPCM81AXVAc4,1577
+slanggen/datatools.py,sha256=DouLDKgvMhQ-fBmyY29Kza-mw0IfZxvJBd8XcuHChcM,2902
+slanggen/main.py,sha256=RNH8hNQojk79Maza5I8-Y2biO2B0zaPDIfly4V9u_kQ,3290
+slanggen/models.py,sha256=snyQIRJ74Fa5aL5dxdRIRp8DzQLwEhJWLDcZ7nlg64k,3323
+slanggen-0.3.1.dist-info/METADATA,sha256=mghsv5jMzWe_XCEt3_oXTJW4LZjvZSoFHeIqv8QucxU,457
+slanggen-0.3.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+slanggen-0.3.1.dist-info/RECORD,,
