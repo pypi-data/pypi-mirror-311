@@ -1,0 +1,9 @@
+solugenerics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solugenerics/env_manager/__init__.py,sha256=piXbnVGS_ypBl3Y4D3jCFEFOUMGx9-vvz5pu1O_zi2Y,29
+solugenerics/env_manager/main.py,sha256=4zOT3pVX-fsRau1zQzet8w7XX6XGLa5ewnrrAGPUZzo,1788
+solugenerics/generic_response/__init__.py,sha256=vCQ4Mouc2iTj2ybnwymE31zHt5xcUaWx3pfm04ETGbs,34
+solugenerics/generic_response/main.py,sha256=JzYbmdQehNDala5EcMjL13vkyswCftriPAzxkxoicOc,701
+solugenerics-0.1.0.dist-info/METADATA,sha256=YCnUchOTDqa4Bg-KGrP82N2rWgLPJv_JEyUVRMn31zs,490
+solugenerics-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+solugenerics-0.1.0.dist-info/top_level.txt,sha256=JCSERI0BBZgWQpVQNB6UqxI9VawBwRBT_lTng-wZqEw,13
+solugenerics-0.1.0.dist-info/RECORD,,
