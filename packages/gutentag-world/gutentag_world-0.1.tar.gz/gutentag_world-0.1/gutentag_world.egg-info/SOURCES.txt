@@ -1,0 +1,6 @@
+setup.py
+gutentag_world/__init__.py
+gutentag_world.egg-info/PKG-INFO
+gutentag_world.egg-info/SOURCES.txt
+gutentag_world.egg-info/dependency_links.txt
+gutentag_world.egg-info/top_level.txt

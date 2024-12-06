@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gutentag_world
+Version: 0.1
+Summary: A simple package that prints 'Gutentag, World!'
+Author: SAm Gutentag
+Author-email: sam@gutentag.dev
+License: MIT
