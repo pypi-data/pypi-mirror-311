@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: spectre-core
+Version: 0.0.1
+Maintainer-email: Jimmy Fitzpatrick <jcfitzpatrick12@gmail.com>
+Project-URL: Homepage, https://github.com/jcfitzpatrick12/spectre-core
+Project-URL: Issues, https://github.com/jcfitzpatrick12/spectre-core/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==1.24.0
+Requires-Dist: scipy==1.12.0
+Requires-Dist: astropy==6.0.1
+Requires-Dist: matplotlib==3.5.0
+Requires-Dist: watchdog==4.0.0
+
+# spectre-core
+
+## Description
+  
+:loudspeaker: **This project is under active development. Contributors welcome.** :loudspeaker:  
+
+```spectre-core``` provides a SDR receiver-agnostic digital signal processing framework. It is the core Python package used by the [`spectre`](https://github.com/jcfitzpatrick12/spectre.git) program. 
+
+
+## Installation
+Typically, installation of ```spectre-core``` is managed in the ```spectre``` back-end. In any case, if you would like, simply call:  
+```pip install spectre-core```. 
+
+Alternatively, you can clone the repository in your preferred directory:  
+```git clone https://github.com/jcfitzpatrick12/spectre-core.git && cd spectre-core```  
+
+Then run:  
+```pip install -e .```
+
+
+## Contributing
+This repository is in active development. If you are interested, feel free to contact  jcfitzpatrick12@gmail.com :)
