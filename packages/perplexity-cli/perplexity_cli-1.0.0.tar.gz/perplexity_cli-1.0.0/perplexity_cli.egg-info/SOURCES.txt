@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+perplexity_cli.egg-info/PKG-INFO
+perplexity_cli.egg-info/SOURCES.txt
+perplexity_cli.egg-info/dependency_links.txt
+perplexity_cli.egg-info/requires.txt
+perplexity_cli.egg-info/top_level.txt
