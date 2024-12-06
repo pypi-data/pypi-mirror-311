@@ -1,0 +1,12 @@
+License
+README.md
+setup.py
+forkEntropy/ForkEntropy.py
+forkEntropy/__init__.py
+forkEntropy.egg-info/PKG-INFO
+forkEntropy.egg-info/SOURCES.txt
+forkEntropy.egg-info/dependency_links.txt
+forkEntropy.egg-info/requires.txt
+forkEntropy.egg-info/top_level.txt
+forkEntropyTest/__init__.py
+forkEntropyTest/test_example.py
