@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+honu/__init__.py
+honu/version.py
+honudb.egg-info/PKG-INFO
+honudb.egg-info/SOURCES.txt
+honudb.egg-info/dependency_links.txt
+honudb.egg-info/top_level.txt
+honudb.egg-info/zip-safe
+tests/__init__.py
+tests/requirements.txt
+tests/test_version.py
