@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/libreria_experimental/__init__.py
+src/libreria_experimental/_functions.py
+src/libreria_experimental.egg-info/PKG-INFO
+src/libreria_experimental.egg-info/SOURCES.txt
+src/libreria_experimental.egg-info/dependency_links.txt
+src/libreria_experimental.egg-info/requires.txt
+src/libreria_experimental.egg-info/top_level.txt
