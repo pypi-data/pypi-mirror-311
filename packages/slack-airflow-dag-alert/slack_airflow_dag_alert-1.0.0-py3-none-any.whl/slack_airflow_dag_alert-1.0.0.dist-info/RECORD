@@ -1,0 +1,6 @@
+slack_airflow_dag_alert/__init__.py,sha256=0p_CBr8j28jfiP4iOVPSmH11aXIU7ARRFaDdKMVqZB0,54
+slack_airflow_dag_alert/slack_airflow_dag_alert.py,sha256=p_OAX3q7EYFSDTnM4uTrBv-Xxqzp_lIZPaWcilqs97k,973
+slack_airflow_dag_alert-1.0.0.dist-info/METADATA,sha256=LoV7aSrq1qe54bZj2lyFlz8FwtRaZ9OtZA_6JZslTOk,146
+slack_airflow_dag_alert-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+slack_airflow_dag_alert-1.0.0.dist-info/top_level.txt,sha256=PEboeLh7_rt_xI1EcPcC6z1SuKFdWkC1ibAXWHX2jJY,24
+slack_airflow_dag_alert-1.0.0.dist-info/RECORD,,
