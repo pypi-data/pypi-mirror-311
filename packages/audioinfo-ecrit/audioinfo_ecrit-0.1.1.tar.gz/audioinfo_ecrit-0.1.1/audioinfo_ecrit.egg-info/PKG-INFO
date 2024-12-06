@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: audioinfo-ecrit
+Version: 0.1.1
+Requires-Dist: typer==0.13.1
+Requires-Dist: mutagen==1.47.0
+Requires-Dist: librosa==0.10.2.post1
+Requires-Dist: numpy==2.0.2
+Requires-Dist: pyloudnorm==0.1.1

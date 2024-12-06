@@ -1,0 +1,10 @@
+pyproject.toml
+audioinfo/__init__.py
+audioinfo/__main__.py
+audioinfo/main.py
+audioinfo_ecrit.egg-info/PKG-INFO
+audioinfo_ecrit.egg-info/SOURCES.txt
+audioinfo_ecrit.egg-info/dependency_links.txt
+audioinfo_ecrit.egg-info/entry_points.txt
+audioinfo_ecrit.egg-info/requires.txt
+audioinfo_ecrit.egg-info/top_level.txt
