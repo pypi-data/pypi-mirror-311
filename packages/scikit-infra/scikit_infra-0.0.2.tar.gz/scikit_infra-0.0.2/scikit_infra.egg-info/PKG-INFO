@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: scikit-infra
+Version: 0.0.2
+Summary: 所谓大学者，非谓有大楼之谓也，有大师之谓也。
+Home-page: https://pypi.python.org/pypi/scholarly_infrastructure/
+Author: 叶璨铭 (Ye Canming)
+Author-email: ycm24@mails.tsinghua.edu.cn
+Maintainer: 叶璨铭 (Ye Canming)
+Maintainer-email: ycm24@mails.tsinghua.edu.cn
+Platform: all
+Requires-Dist: scholarly_infrastructure
+
+This library is an alias for the `scholarly_infrastructure <https://pypi.python.org/pypi/scholarly_infrastructure/>`_ library. See `scholarly_infrastructure <https://pypi.python.org/pypi/scholarly_infrastructure/>`_ for more information.
