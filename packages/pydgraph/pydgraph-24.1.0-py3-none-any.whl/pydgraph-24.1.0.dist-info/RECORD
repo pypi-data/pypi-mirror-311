@@ -1,0 +1,16 @@
+pydgraph/__init__.py,sha256=fiTHx0fsQhsr-zFBKrf4HXI1c_EzHsM_H4HqnmpdvcQ,849
+pydgraph/client.py,sha256=0MM5RvgiEDcJ15tZnCvIGYWVxOhhNtaPPWXfI3NMw0Y,6637
+pydgraph/client_stub.py,sha256=UvJ5Bar5A6X_fab59kW-011PPyP72Hq2jjNl3QBW578,4966
+pydgraph/convert.py,sha256=beRAbskfsVuplPsUbWgIauwP4AKeIeerukMcBTVXd4Q,2876
+pydgraph/errors.py,sha256=Ow-Rgf7t9CiFv05BpX4HVnmAw-fOl2Yge9JNpV8fZSk,1724
+pydgraph/meta.py,sha256=kWOTETQgGscu7i-x6tQ2q075ExTv3GR9kSr1I7xZB88,636
+pydgraph/txn.py,sha256=uvg9gu08bd2ROAe53QaveUQOIrBpJ-huRW7rEuJK-FU,12602
+pydgraph/util.py,sha256=vpHEYJ0WnMuNXyszRIA0eTSCQ2T6q-Df2q2f95npE_w,1941
+pydgraph/proto/__init__.py,sha256=6yctiPXmmJoOKbS_j62vB6_SCldrjl2imaLjEhoeZv4,80
+pydgraph/proto/api_pb2.py,sha256=S9d-tG33ZcytsrstQY6m9Q85jqcDTjfV8qCHuoR3JR8,9176
+pydgraph/proto/api_pb2_grpc.py,sha256=CWmynWqZS2Ec8jf6uEDJSnjowx-V7DFOKFrt7E3zzSs,9468
+pydgraph-24.1.0.dist-info/LICENSE,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+pydgraph-24.1.0.dist-info/METADATA,sha256=mSVAu4xqX6Wz_VIjLG1ptL5TRe9ntgz5kjFEfalEfrI,29348
+pydgraph-24.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pydgraph-24.1.0.dist-info/top_level.txt,sha256=Ips9LCSAX39qgXwDIiB5OCwAsofZjhUimfiW0hcIgzw,9
+pydgraph-24.1.0.dist-info/RECORD,,
