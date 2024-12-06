@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: pyefa
+Version: 0.0.3
+Summary: Python API for EFA(Elektronische Fahrplanauskunft) async requests
+Author-email: Alex Jung <jungdevelop@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Alex Jung 
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/alex-jung/pyefa
+Project-URL: Documentation, https://github.com/alex-jung/pyefa
+Project-URL: Repository, https://github.com/alex-jung/pyefa
+Project-URL: Issues, https://github.com/alex-jung/pyefa/issues
+Keywords: efa,vgn,gtfs,public transport,traffic
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp==3.11.7
+Requires-Dist: voluptuous==0.15.2
+Requires-Dist: tzdata==2024.2
+Provides-Extra: tests
+Requires-Dist: coverage>=5.0.3; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-benchmark[histogram]>=3.2.1; extra == "tests"
+
+# pyefa
+[![Python package](https://github.com/alex-jung/pyefa/actions/workflows/python-package.yml/badge.svg)](https://github.com/alex-jung/pyefa/actions/workflows/python-package.yml)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Installation
+
+# Known EFA endpoints
+* [Verkehrsverbund Großraum Nürnberg](https://efa.vgn.de/vgnExt_oeffi/) (VGN)
+* [Verkehrsverbund Rhein-Ruhr](https://efa.vrr.de/vrr/) (VRR)
+
+# Features
+## System info
+Get API system information
+``` python
+info: SystemInfo = None
+
+async with EfaClient("https://efa.vgn.de/vgnExt_oeffi/") as client:
+    info = await client.info()
+
+print(info.version)
+print(info.data_format)
+print(info.valid_from)
+print(info.valid_to)
+```
+Output:
+```python
+
+```
+## Find stop
+
+## Get departures
+
+# Usage
+``` python
+import asyncio
+from pyefa import EfaClient
+from pprint import pprint
+
+async def main():
+    async with EfaClient("https://efa.vgn.de/vgnExt_oeffi/") as client:
+        result = await asyncio.gather(
+            client.info(),
+            client.stops("Nürnberg Plärrer"),
+            client.departures("de:09564:704", limit=10, date="20241126 16:30"),
+        )
+
+    print("System Info".center(60, "-"))
+    pprint(result[0])
+
+    print("Plärrer stops".center(60, "-"))
+    pprint(result[1])
+
+    print("Plärrer departures - 26 Nov. 16:30".center(60, "-"))
+    pprint(result[2])
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+# Open points
+* Implement find stop by coordinates
+* Implementd xml parsing for APIs not supporting rapid JSON
+
+# Documentation
+> s. pydoc in code
