@@ -1,0 +1,3 @@
+[console_scripts]
+ovos-docs-viewer = ovos_docs_viewer.ovos_docs:launch
+
