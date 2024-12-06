@@ -1,0 +1,12 @@
+CHANGELOG.txt
+MANIFEST.in
+README.md
+setup.py
+tests/__init__.py
+tests/test_separator.py
+vokal/__init__.py
+vokal/separator.py
+vokal.egg-info/PKG-INFO
+vokal.egg-info/SOURCES.txt
+vokal.egg-info/dependency_links.txt
+vokal.egg-info/top_level.txt
