@@ -1,0 +1,8 @@
+README.md
+setup.py
+vokal/__init__.py
+vokal/separator.py
+vokal.egg-info/PKG-INFO
+vokal.egg-info/SOURCES.txt
+vokal.egg-info/dependency_links.txt
+vokal.egg-info/top_level.txt
