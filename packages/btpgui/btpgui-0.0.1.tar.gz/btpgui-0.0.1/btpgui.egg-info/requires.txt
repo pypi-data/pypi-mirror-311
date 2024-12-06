@@ -1,0 +1,5 @@
+packaging
+matplotlib
+Pillow
+tk
+BoltZtraP2
