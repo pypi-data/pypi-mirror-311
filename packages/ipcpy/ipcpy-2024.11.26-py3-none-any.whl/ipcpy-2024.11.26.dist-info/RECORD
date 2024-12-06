@@ -1,0 +1,7 @@
+ipcpy/__init__.py,sha256=L_3eQjmJ0ZEPtDrJgztK1bgIWaiT2_c9W0PZRb0inKI,420
+ipcpy/ip.py,sha256=Xk2yRFYAl7mYAQtGYZPDEpGLcDGaBYZr2v7Ox9tq-Gs,825
+ipcpy/message.py,sha256=aQn1XeMXNLpjWVtqwR43vYtPwv1wfqZOiK9DWYeLMBA,3133
+ipcpy/udpsocket.py,sha256=ha-_M8JVBr3mbk6VDKZcsCAJ2CIVD29d8AHci201t98,6302
+ipcpy-2024.11.26.dist-info/METADATA,sha256=rtg7-rrluWAS6B_9DyKTDMpjyqKBfj2fBojMoshWoy0,3762
+ipcpy-2024.11.26.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ipcpy-2024.11.26.dist-info/RECORD,,
