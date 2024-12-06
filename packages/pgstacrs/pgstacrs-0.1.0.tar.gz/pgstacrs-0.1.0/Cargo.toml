@@ -1,0 +1,26 @@
+[package]
+name = "pgstacrs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "pgstacrs"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.23.2"
+tokio-postgres = { version = "0.7.12", features = ["with-serde_json-1"] }
+pyo3-async-runtimes = { version = "0.23.0", features = [
+    "tokio",
+    "tokio-runtime",
+] }
+tokio = "1.41.1"
+thiserror = "2.0.3"
+bb8 = "0.8.6"
+bb8-postgres = "0.8.1"
+serde_json = "1.0.133"
+pythonize = "0.23.0"
+stac-api = "0.6.2"
+stac = "0.11.0"
+serde = "1.0.215"
+geojson = "0.24.1"

@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    services:
+      pgstac:
+        image: ghcr.io/stac-utils/pgstac:v0.9.1
+        env:
+          POSTGRES_USER: username
+          POSTGRES_PASSWORD: password
+          POSTGRES_DB: pgstac
+          PGUSER: username
+          PGPASSWORD: password
+          PGDATABASE: pgstac
+        ports:
+          - 5432:5432
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - uses: Swatinem/rust-cache@v2
+      - name: Install postgis
+        run: sudo apt-get install postgis
+      - name: Sync dev
+        run: uv sync --only-dev
+      - name: Lint
+        run: scripts/lint
+      - name: Test
+        run: scripts/test --external
