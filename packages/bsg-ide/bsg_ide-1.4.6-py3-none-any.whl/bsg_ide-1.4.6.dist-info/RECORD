@@ -1,0 +1,13 @@
+bsg_ide/BSG_IDE.py,sha256=x-7xSndKfgQGaSoYZKFm8YDdd9nhXc8jjhLr5UJAEIY,318036
+bsg_ide/BSG_IDE_v1.py,sha256=IasycAa-fA1lZ4qKmpsV58olN_e_peIXElxe0-yxiBY,250702
+bsg_ide/BSG_IDE_v2.py,sha256=1NaZktcvHT_XWt-fRuB77V2WvEy5tut0kHJTEyEnMLg,315395
+bsg_ide/BeamerSlideGenerator.py,sha256=UOWy6M_3GTFrxccBDET13Lg6vAI9bW_ZR4ujtlxCkN0,91650
+bsg_ide/BeamerSlideGenerator_v2.py,sha256=hkivdcENEP6uol5IpglhJbkPYec2X-i8ItgYCL4khn8,92509
+bsg_ide/__init__.py,sha256=w67h6nXiac602YI7t9__LmYhwuzrMadibjM5FV-ONQc,725
+bsg_ide/requirements.txt,sha256=dKeTazLnN-JuLVKn0SuYkwS3Ruk1cE0EHCdYy6xI9sk,653
+bsg_ide-1.4.6.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+bsg_ide-1.4.6.dist-info/METADATA,sha256=Soa5AovFuW1H69ihfweST-wTOtYLVmld30PH5xsC3A0,1740
+bsg_ide-1.4.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bsg_ide-1.4.6.dist-info/entry_points.txt,sha256=NEJOfdbdI-2B8i-s_K4bjqWZkU5ON6EzzRJUmCouOo0,49
+bsg_ide-1.4.6.dist-info/top_level.txt,sha256=2vBAg11sh1HE4T69-TYdOiQ-ePvrOhhXIUU5m8qPR40,8
+bsg_ide-1.4.6.dist-info/RECORD,,
