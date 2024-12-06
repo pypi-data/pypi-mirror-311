@@ -1,0 +1,11 @@
+numpy
+torch
+matplotlib
+seaborn
+scikit-learn
+catboost
+joblib
+Pillow
+py7zr
+shap
+mplfinance
