@@ -1,0 +1,43 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = true
+name = "betterfit"
+version = "0.0.2a1"
+description = "Regression of data with error propagation"
+license = "MIT"
+authors = [
+    "Ha Jong Kim"
+]
+readme = "README.md"
+repository = "https://github.com/leftgoes/betterfit"
+keywords = ["regression", "data"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.13"
+]
+[tool.poetry.dependencies]
+python = ">=3.12"
+matplotlib = "*"
+numpy = ">= 2"
+sympy = "*"
+uncertainties = ">= 3"
+
+[options.package_data]
+betterfit = ["py.typed"]
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+pytest-cov = "*"
+mypy = "*"
+
+
+[tool.pytest.ini_options]
+addopts = ["--cov=betterfit"]
+testpaths = [
+    "tests",
+]
