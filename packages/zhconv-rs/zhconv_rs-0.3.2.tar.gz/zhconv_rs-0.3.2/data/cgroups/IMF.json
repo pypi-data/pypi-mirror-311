@@ -1,0 +1,79 @@
+{
+  "name": "IMF\n",
+  "description": "碟中谍",
+  "path": "Template:CGroup/IMF",
+  "rules": [
+    {
+      "original": "Mission: Impossible",
+      "conv": "zh-cn:碟中谍; zh-hk:職業特工隊; zh-tw:不可能的任務; zh-sg:不可能的任务; zh-my:不可能的任务;"
+    },
+    {
+      "original": "Mission: Impossible – Ghost Protocol",
+      "conv": "zh-cn:碟中谍4; zh-tw:不可能的任務：鬼影行動; zh-hk:職業特工隊：鬼影約章; zh-sg:不可能的任务：鬼影行动;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:鬼影約章; zh-tw:鬼影行動; zh-hk:鬼影約章; zh-sg:鬼影行动;"
+    },
+    {
+      "original": "Mission Impossible – Rogue Nation",
+      "conv": "zh-cn:碟中谍5：神秘国度; zh-tw:不可能的任務：失控國度; zh-hk:職業特工隊：叛逆帝國; zh-sg:不可能的任务：失控国度;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:神秘国度; zh-tw:失控國度; zh-hk:叛逆帝國; zh-sg:失控国度;"
+    },
+    {
+      "original": "Mission Impossible – Rogue Nation",
+      "conv": "zh-cn:碟中谍6：全面瓦解; zh-hk:職業特工隊：叛逆之謎; zh-tw:不可能的任務：全面瓦解; zh-sg:不可能的任务：全面瓦解;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:全面瓦解; zh-tw:全面瓦解; zh-hk:叛逆之謎;"
+    },
+    {
+      "original": "Mission Impossible – Dead Reckoning Part One",
+      "conv": "zh-tw:不可能的任務：致命清算 第一章; zh-sg:不可能的任务：致命清算 第一章; zh-my:不可能的任务：致命清算 第一章; zh-hk:職業特工隊：死亡清算上集; zh-cn:碟中谍7：致命清算（上）;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:致命清算 第一章; zh-sg:致命清算 第一章; zh-my:致命清算 第一章; zh-hk:死亡清算上集; zh-cn:致命清算（上）;"
+    },
+    {
+      "original": "Mission Impossible – Dead Reckoning Part Two",
+      "conv": "zh-tw:不可能的任務：致命清算 第二章; zh-sg:不可能的任务：致命清算 第二章; zh-my:不可能的任务：致命清算 第二章; zh-hk:職業特工隊：死亡清算下集; zh-cn:碟中谍8：致命清算（下）;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:致命清算 第二章; zh-sg:致命清算 第二章; zh-my:致命清算 第二章; zh-hk:死亡清算下集; zh-cn:致命清算（下）;"
+    },
+    {
+      "original": "Tom Cruise",
+      "conv": "zh-cn:汤姆·克鲁斯;zh-sg:汤姆·克鲁斯;zh-my:汤·告鲁斯;zh-hk:湯·告魯斯;zh-tw:湯姆·克魯斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:伊森; zh-tw:伊森; zh-hk:伊頓"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亨特; zh-tw:韓特; zh-sg:杭特; zh-hk:亨特"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:班吉; zh-hk:班治"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:伊爾莎; zh-hk:曉莎"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:福斯特; zh-hk:梵詩"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:麥奎里; zh-hk:麥哥利; zh-cn:迈考利"
+    }
+  ]
+}
