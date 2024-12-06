@@ -1,0 +1,4 @@
+[console_scripts]
+excited_state_analysis=polaritonic_index.main_TDDFT:action
+ground_state_analysis=polaritonic_index.main_groundstate:action
+
