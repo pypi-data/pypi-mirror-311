@@ -1,0 +1,9 @@
+README.md
+setup.py
+mindspawner/__init__.py
+mindspawner/mindspawner.py
+mindspawner.egg-info/PKG-INFO
+mindspawner.egg-info/SOURCES.txt
+mindspawner.egg-info/dependency_links.txt
+mindspawner.egg-info/requires.txt
+mindspawner.egg-info/top_level.txt
