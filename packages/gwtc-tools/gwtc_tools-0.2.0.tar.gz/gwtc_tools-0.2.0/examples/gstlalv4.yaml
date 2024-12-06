@@ -1,0 +1,11 @@
+- gid: G730382
+  extra:
+  - message: "Signal SNR chisq PDF for H1"
+    filename: gstlal_H1_injection_pdf_snrchi.png
+    tag_name: "background"
+    displayName: "signal snr chisq"
+  - message: "LR SNR chisq PDF for H1"
+    filename: gstlal_H1_LR_snrchi.png
+    tag_name: ["background", "psd"]
+    displayName: ["LR for H1", "not really psd, just an example of lists"]
+- gid: G730381
