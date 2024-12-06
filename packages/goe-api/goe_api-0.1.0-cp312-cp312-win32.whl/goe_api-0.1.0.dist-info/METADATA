@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: goe_api
+Version: 0.1.0
+Summary: python wrapper to interact with g-api driver
+Author-email: Philip Pastrik <develop@pastrik.com>
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# GAPIWrapper
+
+## Overview
+
+GAPIWrapper is a Python package designed to facilitate communication with Göpel Hardware using the G-API software. This package provides a convenient interface for developers to interact with Göpel devices, making it easier to integrate and control hardware components in your projects.
+
+## Features
+
+The current version of GAPIWrapper covers the following features of the G-API software:
+
+- **G-API**: Entry Point for Handles and Methodes
+- **G-API Common**: Most init features and basic interaction with Devices
+- **G-API CAN**: CAN Protocoll specific Methods
+- **G-API DIAG**: Features to run Diagnose Requests
+- **G-API Net2Run**: Restbus-Simulation
+
+## Installation
+
+To install GAPIWrapper, use pip:
+
+```bash
+pip install goe_api
+```
+
+## Usage
+
+Here is a basic example of how to use GAPIWrapper to communicate with Göpel Hardware:
+
+```python
+from goe_api import g_api
+from goe_api import g_api_common
+from goe_api import g_api_can
+from goe_api import g_api_diag
+from goe_api import g_api_net2run
+
+```
+
+## Documentation
+
+For detailed documentation and advanced usage, please refer to the [official documentation](https://www.goepel.com/automotive-test-solutions/support/software/g-api-software).
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or support, please contact [support@example.com](mailto:support@goepel.com).
