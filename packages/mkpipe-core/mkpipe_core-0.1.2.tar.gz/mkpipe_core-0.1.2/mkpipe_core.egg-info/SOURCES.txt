@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mkpipe_core/__init__.py
+mkpipe_core/config.py
+mkpipe_core/core.py
+mkpipe_core.egg-info/PKG-INFO
+mkpipe_core.egg-info/SOURCES.txt
+mkpipe_core.egg-info/dependency_links.txt
+mkpipe_core.egg-info/top_level.txt
+mkpipe_core/plugins/__init__.py
+mkpipe_core/plugins/registry.py
+mkpipe_core/utils/__init__.py
+mkpipe_core/utils/logger.py
+tests/test_core.py
