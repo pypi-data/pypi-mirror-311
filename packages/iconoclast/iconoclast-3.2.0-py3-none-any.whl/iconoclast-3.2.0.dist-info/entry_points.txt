@@ -1,0 +1,10 @@
+[console_scripts]
+icl = iconoclast.cli.cli:app
+iconoclast = iconoclast.cli.cli:app
+
+[gui_scripts]
+
+[mkdocs.plugins]
+iconocards = iconoclast.plugins.cards:IconocardsPlugin
+iconoclast = iconoclast.plugins.main:IconoclastPlugin
+
