@@ -1,0 +1,146 @@
+# djangoCMS QR Code
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: djangocms-qrcode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-24 03:27+0200\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: djangocms_qrcode/cms_plugins.py:9
+msgid "QR Codes"
+msgstr "QR kódy"
+
+#: djangocms_qrcode/cms_plugins.py:23
+msgid "Simple QR Code"
+msgstr "Jednoduchý QR kód"
+
+#: djangocms_qrcode/cms_plugins.py:29
+msgid "Link to a file"
+msgstr "Odkaz na soubor"
+
+#: djangocms_qrcode/cms_plugins.py:35
+msgid "Link to a page"
+msgstr "Odkaz na stránku"
+
+#: djangocms_qrcode/models.py:24
+msgid "error correction level"
+msgstr "míra korekce chyby"
+
+#: djangocms_qrcode/models.py:27
+#, python-format
+msgid "recovers 7% of data"
+msgstr "obnoví 7% dat"
+
+#: djangocms_qrcode/models.py:28
+#, python-format
+msgid "recovers 15% of data"
+msgstr "obnoví 15% dat"
+
+#: djangocms_qrcode/models.py:29
+#, python-format
+msgid "recovers 25% of data"
+msgstr "obnoví 25% dat"
+
+#: djangocms_qrcode/models.py:30
+#, python-format
+msgid "recovers 30% of data"
+msgstr "obnoví 30% dat"
+
+#: djangocms_qrcode/models.py:35
+msgid "version"
+msgstr "verze"
+
+#: djangocms_qrcode/models.py:37 djangocms_qrcode/models.py:44
+#: djangocms_qrcode/models.py:57
+msgid "auto"
+msgstr "automaticky"
+
+#: djangocms_qrcode/models.py:41
+msgid "mode"
+msgstr "mód"
+
+#: djangocms_qrcode/models.py:45
+msgid "numeric"
+msgstr "numerický"
+
+#: djangocms_qrcode/models.py:46
+msgid "alphanumeric"
+msgstr "alfanumerický"
+
+#: djangocms_qrcode/models.py:47
+msgid "byte"
+msgstr "datový"
+
+#: djangocms_qrcode/models.py:48
+msgid "kanji"
+msgstr "kanji"
+
+#: djangocms_qrcode/models.py:49
+msgid "hanzi"
+msgstr "hanzi"
+
+#: djangocms_qrcode/models.py:55
+msgid "data mask"
+msgstr "maskování dat"
+
+#: djangocms_qrcode/models.py:60
+msgid "scale"
+msgstr "velikost"
+
+#: djangocms_qrcode/models.py:61
+msgid "border"
+msgstr "rámeček"
+
+#: djangocms_qrcode/models.py:62
+msgid "dark color"
+msgstr "tmavá barva"
+
+#: djangocms_qrcode/models.py:63
+msgid "light color"
+msgstr "světlá barva"
+
+#: djangocms_qrcode/models.py:64
+msgid "border color"
+msgstr "barva rámečku"
+
+#: djangocms_qrcode/models.py:65
+msgid "alignment dark color"
+msgstr "tmavá barva zarovnání"
+
+#: djangocms_qrcode/models.py:66
+msgid "alignment light color"
+msgstr "světlá barva zarovnání"
+
+#: djangocms_qrcode/models.py:67
+msgid "finder dark color"
+msgstr "tmavá barva hledáčků"
+
+#: djangocms_qrcode/models.py:68
+msgid "finder light color"
+msgstr "světlá barva hledáčků"
+
+#: djangocms_qrcode/models.py:69
+msgid "logo"
+msgstr "logo"
+
+#: djangocms_qrcode/models.py:71
+msgid "background"
+msgstr "pozadí"
+
+#: djangocms_qrcode/models.py:126
+msgid "content"
+msgstr "obsah"
+
+#: djangocms_qrcode/models.py:133
+msgid "page"
+msgstr "stránka"
+
+#: djangocms_qrcode/models.py:140
+msgid "file"
+msgstr "soubor"
