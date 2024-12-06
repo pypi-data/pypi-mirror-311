@@ -1,0 +1,13 @@
+plastik/__init__.py,sha256=OmY8DnRo0VrOfaTD6JR7ffBAQPL9MxGVd9mKkuGn9JY,452
+plastik/axes.py,sha256=OX7mfcSEYXosAL2Qov2Fn5niIldJBYg6AmsGiHRQlMU,1119
+plastik/colors.py,sha256=CsWF_yW9byAc7GvdSLnoV6alAWB5JBFwI5skUhS3Qj8,11694
+plastik/default.mplstyle,sha256=AhZnk4taW5sTcT1ExrOYNUrKfPBtEwLVw_sRZ-Xzuco,1005
+plastik/grid.py,sha256=TYXfn5kiQGlu5Rwbiz8HKNPy5cGNycCrqTuw34n4D6k,7960
+plastik/legends.py,sha256=CTcND5kFbZaqwPegDAUMUsv0B6Tc8Byrznpb2w-M6rA,5695
+plastik/lines.py,sha256=3d8hUWOy3pQuyv3vzug8rXsMVCpyvlW4On5Esloeu6Y,1175
+plastik/percentiles.py,sha256=efo9CpetcJdwASBG8eDyixpHKTomVk5tPINI43stnM0,2596
+plastik/ridge.py,sha256=s5qlEXXdNkqOoI5K8n-Z-HRzxArNy8yMmDNmoLIq678,12781
+plastik-0.8.3.dist-info/METADATA,sha256=ctLExvhxvNjqjg3cLijn6RXtZJW200k9syif6ZwUhLk,42493
+plastik-0.8.3.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+plastik-0.8.3.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+plastik-0.8.3.dist-info/RECORD,,
