@@ -1,0 +1,17 @@
+[project]
+name = "TensorLibrary"
+version = "1.0.0"
+authors = [
+  { name="Gabriel Picard", email="gab_picard@yahoo.com" },
+]
+description = "A package made to handle and manipulate tensors"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/gabPicard/Tensor-Library"

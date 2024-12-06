@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/TensorLibrary.egg-info/PKG-INFO
+src/TensorLibrary.egg-info/SOURCES.txt
+src/TensorLibrary.egg-info/dependency_links.txt
+src/TensorLibrary.egg-info/top_level.txt
+src/tensor_library/TensorLibrary.py
+src/tensor_library/__innit__.py
