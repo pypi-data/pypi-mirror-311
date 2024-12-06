@@ -1,0 +1,11 @@
+co_agent/__init__.py,sha256=hzbBPvvsC9Gz0Kt7htn_aFNwioQJIpeyeNCly3M9LXE,172
+co_agent/agents.py,sha256=X6QwtWNPfK41pEyk_hLdXyM_uW-usPCDuoqZbfnetP8,7309
+co_agent/config.py,sha256=1jHbyCwthtTghQ3HUYsmv0O5gajcUS0hsufC4V2y27s,283
+co_agent/database.py,sha256=MmKcF8IaGimQycX6FJjYHrlJ8XoBZ0cUeIzyeyZDa3o,4006
+co_agent/scraper.py,sha256=APa_8rAdry1tcuAvvLCahHjqNaMeennaMWnpjEdOEGA,439
+co_agent/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coagent_framework-0.1.1.dist-info/entry_points.txt,sha256=JhlPnB36ArbVPZ7T6YIvTbUtUWXsE_GrsGc7VGTnSVI,51
+coagent_framework-0.1.1.dist-info/LICENSE,sha256=XDtWwLwQ3hHkUjRZPt1SOOAnRuOUpNgIU35F0LuGb2Y,1089
+coagent_framework-0.1.1.dist-info/METADATA,sha256=1nRp8ufwbGiQXke-gwTVoRQ8Px12goFyoQDKT4THep0,677
+coagent_framework-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+coagent_framework-0.1.1.dist-info/RECORD,,
