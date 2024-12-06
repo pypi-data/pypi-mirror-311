@@ -1,0 +1,10 @@
+deeptools:
+  doi: 10.5281/zenodo.13946521
+  binaries: deeptools
+  zenodo_id: 13946522
+  releases:
+    3.5.5:
+      download: https://zenodo.org/record/13946522/files/deeptools_3.5.5.img
+      md5sum: ba1991995f21f095c72ba8bc963912d9
+      doi: 10.5281/zenodo.13946522
+      filesize: 275537920
