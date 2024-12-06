@@ -1,0 +1,2 @@
+[console_scripts]
+emtest = EMToolKit.examples:example_run
