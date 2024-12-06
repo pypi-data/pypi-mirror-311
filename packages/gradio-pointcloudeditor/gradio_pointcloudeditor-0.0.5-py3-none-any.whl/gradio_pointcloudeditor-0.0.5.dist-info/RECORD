@@ -1,0 +1,10 @@
+gradio_pointcloudeditor/__init__.py,sha256=7HdEgPspoLdPvUcuH23ifnST4ty53Uf-4QBR25IWiXg,80
+gradio_pointcloudeditor/pointcloudeditor.py,sha256=6KbHTIKKV5-K1Zp4VCpTcj8v5dvLcPIxQkV_3_falQw,5131
+gradio_pointcloudeditor/pointcloudeditor.pyi,sha256=D_7ILspJ1WxMXCsc8-xvr7UVfeUnSrpB1g07-ftZXHA,14956
+gradio_pointcloudeditor/templates/component/index.js,sha256=NMQHQaR9Xi9og8YWeZcEnAvzoehyPW33RK3g3TYEQK4,669307
+gradio_pointcloudeditor/templates/component/style.css,sha256=TruPh3a_4zesgwHaWZb-yMoOCPlkoPmibRQAx3dyIAY,14395
+gradio_pointcloudeditor/templates/example/index.js,sha256=Ko27osLGIsuzuMQvnq7UfKP5w6OsazJi_YA1JL2nq2I,1908
+gradio_pointcloudeditor/templates/example/style.css,sha256=mYAwrHyE1tKaU_TTL4b5NlBVwgzZHJWKPfy03Z-SE4w,307
+gradio_pointcloudeditor-0.0.5.dist-info/METADATA,sha256=bBN6JFsXMDaCf4U21Vu3jd-th_jGTXzLZ7AdN_1C9_Y,1439
+gradio_pointcloudeditor-0.0.5.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+gradio_pointcloudeditor-0.0.5.dist-info/RECORD,,
