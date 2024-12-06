@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: solugen_generic_flask_response
+Version: 0.1.0
+Summary: A simple utility to create JSON success/error responses for Flask.
+Home-page: https://pypi.org/project/generic-response/
+Author: Your Name
+Author-email: your_email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask>=2.0.0
+
+# Generic Response Library
+
+A Python utility to generate JSON responses for Flask APIs.

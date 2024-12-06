@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+generic_response/__init__.py
+generic_response/response.py
+solugen_generic_flask_response.egg-info/PKG-INFO
+solugen_generic_flask_response.egg-info/SOURCES.txt
+solugen_generic_flask_response.egg-info/dependency_links.txt
+solugen_generic_flask_response.egg-info/requires.txt
+solugen_generic_flask_response.egg-info/top_level.txt
