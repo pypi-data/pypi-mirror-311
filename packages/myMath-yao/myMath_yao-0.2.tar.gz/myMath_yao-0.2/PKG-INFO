@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: myMath_yao
+Version: 0.2
+Summary: A simple math package
+Home-page: https://github.com/yourusername/mymath
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MyMath
+
+MyMath is a simple Python package that provides basic math functions like addition and multiplication.
+
+## Installation
+
+You can install the package using pip:
+
+```
+pip install mymath
+```
+
+## Usage
+
+```python
+from mymath import add, multiply
+
+print(add(2, 3))  # 输出: 5
+print(multiply(2, 3))  # 输出: 6
+```
+
+
