@@ -1,0 +1,18 @@
+[project]
+name = "win11_notificationbar"
+version = "0.0.1"
+authors = [
+    { name="UF4", email="uf4hp@foxmail.com" },
+]
+description = "win11_notificationbar"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/UF4OVER"
+Issues = "https://github.com/UF4OVER"
