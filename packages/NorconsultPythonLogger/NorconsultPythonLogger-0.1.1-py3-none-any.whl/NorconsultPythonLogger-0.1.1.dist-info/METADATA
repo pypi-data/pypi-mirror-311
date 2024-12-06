@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: NorconsultPythonLogger
+Version: 0.1.1
+Summary: Package for logging application data
+Home-page: 
+Author: Norconsult
+Author-email: eskil.ravnanger.landet@norconsult.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE.txt
+
