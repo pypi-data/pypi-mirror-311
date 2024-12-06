@@ -1,0 +1,7 @@
+click>=8.1.6
+pyfzf-iter
+
+[testing]
+flake8
+mypy
+pytest

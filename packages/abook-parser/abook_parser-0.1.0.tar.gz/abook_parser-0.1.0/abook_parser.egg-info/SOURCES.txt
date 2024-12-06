@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+abook_parser/__init__.py
+abook_parser/__main__.py
+abook_parser/parser.py
+abook_parser/py.typed
+abook_parser.egg-info/PKG-INFO
+abook_parser.egg-info/SOURCES.txt
+abook_parser.egg-info/dependency_links.txt
+abook_parser.egg-info/entry_points.txt
+abook_parser.egg-info/requires.txt
+abook_parser.egg-info/top_level.txt
+tests/test_abook.py
