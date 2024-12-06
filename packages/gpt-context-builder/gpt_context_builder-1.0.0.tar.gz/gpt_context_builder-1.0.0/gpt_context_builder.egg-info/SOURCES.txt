@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+gpt_context_builder/__init__.py
+gpt_context_builder/cli.py
+gpt_context_builder/server.py
+gpt_context_builder.egg-info/PKG-INFO
+gpt_context_builder.egg-info/SOURCES.txt
+gpt_context_builder.egg-info/dependency_links.txt
+gpt_context_builder.egg-info/entry_points.txt
+gpt_context_builder.egg-info/top_level.txt
+gpt_context_builder/templates/index.html
+tests/test_cli.py
