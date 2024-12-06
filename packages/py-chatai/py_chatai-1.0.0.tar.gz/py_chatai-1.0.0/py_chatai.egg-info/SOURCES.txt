@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+py_chatai.egg-info/PKG-INFO
+py_chatai.egg-info/SOURCES.txt
+py_chatai.egg-info/dependency_links.txt
+py_chatai.egg-info/requires.txt
+py_chatai.egg-info/top_level.txt
+pychatai/__init__.py
+pychatai/pyansi3.py
