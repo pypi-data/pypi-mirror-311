@@ -1,0 +1,2 @@
+[console_scripts]
+servitorconnect = servitorconnect.cli:main
