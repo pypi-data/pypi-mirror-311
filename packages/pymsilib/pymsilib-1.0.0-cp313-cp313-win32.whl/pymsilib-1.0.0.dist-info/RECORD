@@ -1,0 +1,11 @@
+msilib/_msi.cp313-win32.pyd,sha256=iNgJjbMM5Pf51igCeZ9cknEMju-s3kCoXzcouCs5_sc,24064
+pymsilib/__init__.py,sha256=wUWIyQV4nHSwi_CpRabdcmRN_rQILvbpiMSu36vsuMw,17735
+pymsilib/_msi.cp313-win32.pyd,sha256=jEJlBg39nlCRTzqrgjkni7qellcNgP_CyRmIkUU3J0U,24064
+pymsilib/schema.py,sha256=-_goRUiLvin7DU_FVo3vYzPzW-AlragCvshtVtGEry8,82586
+pymsilib/sequence.py,sha256=Z0Nn1IOMqO0wHVVVLHrNT4c5fyz38N66b7XFHI7KQVU,4055
+pymsilib/text.py,sha256=DG0D4CzBgr-RLhIH9xCA2P4iLEN7axphLL-7UaFZyjU,9147
+pymsilib-1.0.0.dist-info/LICENSE,sha256=dxIfBOFEU4wNGg64lt2EFREy6BnXlvR8xPkU5_RMpB4,14086
+pymsilib-1.0.0.dist-info/METADATA,sha256=S__a7AnD9r_ItS68CoFr4g4vPoCddIRi0RdtrB0SLwU,1823
+pymsilib-1.0.0.dist-info/WHEEL,sha256=pUXSsnGWJ09R6rv65E7mPoM8rWovBqrkySmEuK3ly_A,97
+pymsilib-1.0.0.dist-info/top_level.txt,sha256=N555yCbFOBAKZ4lC_xlBC9sQoUZbPqM03_xeX2q5wvw,9
+pymsilib-1.0.0.dist-info/RECORD,,
