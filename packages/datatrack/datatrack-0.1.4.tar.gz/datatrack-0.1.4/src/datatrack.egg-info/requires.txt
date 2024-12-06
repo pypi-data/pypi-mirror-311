@@ -1,0 +1,6 @@
+psycopg
+boto3[crt]
+docopt
+
+[:python_version < "3.11"]
+tomli

@@ -1,0 +1,38 @@
+[project]
+name = "datatrack"
+version = "0.1.4"
+description = "Tracks your data transformations."
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "romk"}]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Operating System :: MacOS :: MacOS X",
+  "Operating System :: POSIX :: Linux",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License (GPL)",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Topic :: Software Development",
+]
+
+requires-python = ">=3.9"
+dependencies = [
+  "psycopg",
+  "boto3[crt]",
+  "tomli; python_version<'3.11'",
+  "docopt",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/romk/datatrack"
+
+[project.optional-dependencies]
+
+[project.scripts]
+dt = "datatrack.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
