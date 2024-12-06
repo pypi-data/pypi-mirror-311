@@ -1,0 +1,939 @@
+{
+  "name": "Psychology",
+  "description": "心理学",
+  "path": "Module:CGroup/Psychology",
+  "rules": [
+    {
+      "original": "disorder",
+      "conv": "疾患=>zh-cn:障碍;"
+    },
+    {
+      "original": "disorder",
+      "conv": "障礙症=>zh-cn:障碍;"
+    },
+    {
+      "original": "symptom",
+      "conv": "zh-hans:症状;zh-hk:徵狀;zh-tw:症狀;"
+    },
+    {
+      "original": "prevalence",
+      "conv": "zh-cn:患病率;zh-tw:盛行率;"
+    },
+    {
+      "original": "ICD",
+      "conv": "zh-cn:疾病和有关健康问题的国际统计分类;zh-hk:疾病和有關健康問題的國際統計分類;zh-tw:國際疾病與相關健康問題統計分類"
+    },
+    {
+      "original": "DSM",
+      "conv": "zh-cn:精神障碍诊断与统计手册;zh-tw:精神疾病診斷與統計手冊;"
+    },
+    {
+      "original": "Neurodevelopmental disorders",
+      "conv": "zh-cn:神经发育障碍; zh-tw:神經發展疾患;"
+    },
+    {
+      "original": "autism",
+      "conv": "zh-hans:自闭症; zh-cn:孤独症; zh-tw:自閉症;"
+    },
+    {
+      "original": "autism spectrum",
+      "conv": "zh-tw:自閉症類群; zh-hk:自閉症譜系; zh-cn:孤独症谱系;"
+    },
+    {
+      "original": "Asperger syndrome",
+      "conv": "zh-tw:亞斯伯格症候群; zh-hk:亞氏保加症;  zh-cn:阿斯伯格综合征"
+    },
+    {
+      "original": "Aspergers disorder",
+      "conv": "zh-tw:亞斯伯格症; zh-hk:亞氏保加症; zh-cn:阿斯伯格障碍;"
+    },
+    {
+      "original": "Asperger",
+      "conv": "zh-tw:亞斯伯格; zh-hk:亞氏保加; zh-cn:阿斯伯格;"
+    },
+    {
+      "original": "Rett syndrome",
+      "conv": "zh-tw:蕾特氏症; zh-cn:Rett综合征;"
+    },
+    {
+      "original": "PDD",
+      "conv": "zh-tw:廣泛性發展障礙;zh-cn:广泛性发育障碍;"
+    },
+    {
+      "original": "ADHD",
+      "conv": "zh-cn:注意缺陷多动障碍; zh-tw:注意力不足過動症; zh-hk:專注力失調或過度活躍症;"
+    },
+    {
+      "original": "psychosis",
+      "conv": "思覺失調=>zh-tw:精神病;"
+    },
+    {
+      "original": "psychosis",
+      "conv": "思覺失調=>zh-cn:精神病;"
+    },
+    {
+      "original": "schizophrenia",
+      "conv": "zh-cn:精神分裂症; zh-hk:精神分裂症; zh-tw:思覺失調症;"
+    },
+    {
+      "original": "thought disorder",
+      "conv": "zh-cn:思维障碍; zh-tw:思想障礙;"
+    },
+    {
+      "original": "schizoaffective disorder",
+      "conv": "zh-cn:分裂情感性障碍; zh-tw:情感思覺失調症;"
+    },
+    {
+      "original": "schizoaffective disorder",
+      "conv": "分裂情感障碍=>zh-tw:情感思覺失調症;"
+    },
+    {
+      "original": "delusional disorder",
+      "conv": "zh-cn:妄想障碍; zh-tw:妄想症;"
+    },
+    {
+      "original": "delusional disorder",
+      "conv": "妄想疾患=>zh-cn:妄想障碍;"
+    },
+    {
+      "original": "affective disorder",
+      "conv": "zh-tw:情感性疾患;zh-cn:情感障碍;"
+    },
+    {
+      "original": "depressive disorder",
+      "conv": "zh-cn:抑郁障碍;zh-tw:憂鬱疾患;"
+    },
+    {
+      "original": "depressive disorder",
+      "conv": "憂鬱性疾患=>zh-cn:抑郁障碍;"
+    },
+    {
+      "original": "depression",
+      "conv": "zh-hans:抑郁;zh-hk:抑鬱;zh-tw:憂鬱;"
+    },
+    {
+      "original": "melancholia",
+      "conv": "zh-cn:忧郁症;zh-tw:憂鬱病;"
+    },
+    {
+      "original": "MDD",
+      "conv": "zh-cn:重性抑郁障碍;zh-tw:嚴重憂鬱疾患;"
+    },
+    {
+      "original": "MDD",
+      "conv": "zh-cn:重度抑郁症;zh-tw:重度憂鬱症;"
+    },
+    {
+      "original": "Dysthymic disorder",
+      "conv": "zh-cn:恶劣心境障碍;zh-tw:神經官能性憂鬱障礙;"
+    },
+    {
+      "original": "persistent depressive disorder",
+      "conv": "zh-cn:持续性抑郁障碍;zh-tw:持續性憂鬱症;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-hant:雙相障礙; zh-hans:双相障碍;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-hant:雙相情感障礙; zh-hans:双相情感障碍;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "雙相情緒障礙症=>zh-cn:双相障碍;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "雙極性情感性精神病=>zh-cn:双相障碍;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "雙相症=>zh-cn:双相障碍;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "躁鬱症=>zh-cn:双相障碍;"
+    },
+    {
+      "original": "cyclothymia",
+      "conv": "zh-hant:循環性情感疾患; zh-hans:环性心境障碍;"
+    },
+    {
+      "original": "mania",
+      "conv": "狂躁=>zh-cn:躁狂;"
+    },
+    {
+      "original": "anxiety disorder",
+      "conv": "zh-cn:焦虑障碍;zh-tw:焦慮症;"
+    },
+    {
+      "original": "Generalized Anxiety Disorder",
+      "conv": "zh-cn:广泛性焦虑症;zh-tw:廣泛性焦慮疾患;"
+    },
+    {
+      "original": "Generalized Anxiety Disorder",
+      "conv": "zh-hans:广泛性焦虑障碍;zh-hant:廣泛性焦慮障礙;"
+    },
+    {
+      "original": "agoraphobia",
+      "conv": "zh-hk:廣場恐懼症;zh-hans:广场恐惧症;zh-cn:场所恐惧症;zh-tw:特定場所畏懼症;"
+    },
+    {
+      "original": "Panic disorder",
+      "conv": "zh-cn:惊恐障碍;zh-tw:恐慌症;"
+    },
+    {
+      "original": "Panic attack",
+      "conv": "zh-cn:惊恐发作;zh-tw:恐慌發作;"
+    },
+    {
+      "original": "specific phobia",
+      "conv": "zh-cn:特定恐惧症; zh-tw:特定對象畏懼症;zh-sg:特定对象畏惧症;"
+    },
+    {
+      "original": "specific phobia",
+      "conv": "特定恐怖症=>zh-tw:特定對象畏懼症"
+    },
+    {
+      "original": "Social anxiety disorder",
+      "conv": "zh-cn:社交焦虑障碍; zh-tw:社交焦慮症;zh-hk:社交恐懼症;"
+    },
+    {
+      "original": "Hoarding disorder",
+      "conv": "zh-cn:囤积障碍;zh-tw:儲物症;"
+    },
+    {
+      "original": "PTSD",
+      "conv": "zh-cn:创伤后应激障碍;zh-tw:創傷後壓力症;zh-hk:創傷後壓力症;"
+    },
+    {
+      "original": "Complex PTSD",
+      "conv": "zh-cn:复合性创伤后应激障碍;zh-tw:複雜性創傷後壓力症候群;zh-hk:複雜性創傷後壓力症候群;"
+    },
+    {
+      "original": "dissociative disorder",
+      "conv": "zh-tw:解離症; zh-cn:分离障碍;"
+    },
+    {
+      "original": "dissociative identity disorder",
+      "conv": "zh-tw:解離性身分疾患; zh-hk:解離性身份疾患; zh-cn:分离性身份障碍;"
+    },
+    {
+      "original": "Dissociative amnesia",
+      "conv": "zh-tw:解離性失憶症; zh-cn:分离性遗忘症;"
+    },
+    {
+      "original": "bulimia nervosa",
+      "conv": "zh-tw:心因性暴食症; zh-cn:神经性贪食;"
+    },
+    {
+      "original": "bulimia nervosa",
+      "conv": "暴食症=>zh-cn:神经性贪食;"
+    },
+    {
+      "original": "binge eating disorder",
+      "conv": "zh-tw:嗜食症; zh-cn:暴食障碍;"
+    },
+    {
+      "original": "Kleptomania",
+      "conv": "zh-tw:竊盜癖; zh-cn:偷窃狂;"
+    },
+    {
+      "original": "Intermittent explosive disorder",
+      "conv": "zh-tw:間歇性暴怒症; zh-cn:间歇性暴怒障碍;"
+    },
+    {
+      "original": "Oppositional defiant disorder",
+      "conv": "zh-tw:對立反抗症; zh-cn:对立违抗障碍;"
+    },
+    {
+      "original": "personality disorder",
+      "conv": "zh:人格障礙;zh-cn:人格障碍; zh-tw:人格障礙症;"
+    },
+    {
+      "original": "personality disorder",
+      "conv": "人格疾患=>zh-cn:人格障碍;"
+    },
+    {
+      "original": "personality disorder",
+      "conv": "人格違常=>zh-cn:人格障碍;"
+    },
+    {
+      "original": "schizoid personality disorder",
+      "conv": "zh-tw:孤僻型人格障礙症; zh-cn:分裂样人格障碍;"
+    },
+    {
+      "original": "schizoid personality disorder",
+      "conv": "类精神分裂型人格障碍=>zh-tw:孤僻型人格障礙症;"
+    },
+    {
+      "original": "schizotypal personality disorder",
+      "conv": "zh-cn:分裂型人格障碍; zh-tw:思覺失調人格障礙症;"
+    },
+    {
+      "original": "schizotypal personality disorder",
+      "conv": "分裂型人格=>zh-tw:思覺失調人格障礙症;"
+    },
+    {
+      "original": "schizotypal disorder",
+      "conv": "zh-cn:分裂型障碍; zh-tw:思覺失調障礙症;"
+    },
+    {
+      "original": "antisocial personality disorder",
+      "conv": "zh-cn:反社会型人格障碍; zh-tw:反社會型人格障礙症;"
+    },
+    {
+      "original": "Histrionic personality disorder",
+      "conv": "zh-cn:表演型人格障碍; zh-tw:做作型人格疾患;"
+    },
+    {
+      "original": "HPD",
+      "conv": "表演型人格=>zh-tw:做作型人格疾患;"
+    },
+    {
+      "original": "Factitious disorders",
+      "conv": "zh-cn:做作性障碍; zh-tw:人為疾患;"
+    },
+    {
+      "original": "Factitious disorders",
+      "conv": "做作障碍=>zh-tw:人為疾患;"
+    },
+    {
+      "original": "factitious disorder imposed on another",
+      "conv": "zh-cn:对他人的做作性障碍; zh-tw:代理型孟喬森症候群;"
+    },
+    {
+      "original": "factitious disorder imposed on self",
+      "conv": "zh-cn:对自身的做作性障碍; zh-tw:孟喬森症候群;"
+    },
+    {
+      "original": "amnesia",
+      "conv": "失憶症=>zh-cn:健忘症;"
+    },
+    {
+      "original": "amnesia",
+      "conv": "遗忘症=>zh-tw:健忘症;"
+    },
+    {
+      "original": "Dementia",
+      "conv": "zh-hans:痴呆;zh-hant:癡呆;zh-cn:痴呆;zh-hk:認知障礙症;zh-tw:失智症;zh-mo:腦退化症;"
+    },
+    {
+      "original": "psychological counseling",
+      "conv": "zh-cn:心理咨询; zh-tw:心理諮商;"
+    },
+    {
+      "original": "psychological counseling",
+      "conv": "諮商=>zh-cn:心理咨询;"
+    },
+    {
+      "original": "mood stabilizer",
+      "conv": "zh-cn:心境稳定剂; zh-tw:情緒穩定劑;"
+    },
+    {
+      "original": "adult psychology",
+      "conv": "zh-cn:成年心理学; zh-tw:成人心理學;"
+    },
+    {
+      "original": "aerospace psychology",
+      "conv": "zh-cn:航空航天心理学; zh-tw:航太心理學;"
+    },
+    {
+      "original": "associational psychology",
+      "conv": "zh-cn:联想心理学; zh-tw:聯結心理學;"
+    },
+    {
+      "original": "counseling psychology ； consulting psychology",
+      "conv": "zh-cn:咨询心理学; zh-tw:諮商心理學;"
+    },
+    {
+      "original": "cyber psychology",
+      "conv": "zh-cn:网络心理学; zh-tw:網路心理學;"
+    },
+    {
+      "original": "disaster psychology",
+      "conv": "zh-cn:灾害心理学; zh-tw:災難心理學;"
+    },
+    {
+      "original": "evolutionary developmental psychology",
+      "conv": "zh-cn:进化发展心理学; zh-tw:演化發展心理學;"
+    },
+    {
+      "original": "evolutionary psychology",
+      "conv": "zh-cn:进化心理学; zh-tw:演化心理學;"
+    },
+    {
+      "original": "folk psychology",
+      "conv": "zh-cn:民族心理学; zh-tw:庶民心理學;"
+    },
+    {
+      "original": "group psychology",
+      "conv": "zh-cn:群体心理学; zh-tw:團體心理學;"
+    },
+    {
+      "original": "occupational health psychology",
+      "conv": "zh-cn:职业健康心理学; zh-tw:職場健康心理學;"
+    },
+    {
+      "original": "police psychology",
+      "conv": "zh-cn:警察心理学; zh-tw:員警心理學;"
+    },
+    {
+      "original": "positive psychology",
+      "conv": "zh-cn:积极心理学; zh-tw:正向心理學; zh-hk:正面心理學;"
+    },
+    {
+      "original": "rehabilitation psychology",
+      "conv": "zh-cn:康复心理学; zh-tw:復健心理學;"
+    },
+    {
+      "original": "space psychology",
+      "conv": "zh-cn:航天心理学; zh-tw:太空心理學;"
+    },
+    {
+      "original": "structural psychology",
+      "conv": "zh-cn:构造心理学; zh-tw:結構心理學;"
+    },
+    {
+      "original": "topological psychology",
+      "conv": "zh-cn:拓扑心理学; zh-tw:拓樸心理學;"
+    },
+    {
+      "original": "interpersonal attraction",
+      "conv": "zh-cn:人际吸引; zh-tw:人際吸引力;"
+    },
+    {
+      "original": "mental image",
+      "conv": "zh-cn:表象; zh-tw:心像;"
+    },
+    {
+      "original": "reinforcement",
+      "conv": "zh-cn:强化; zh-tw:增強;"
+    },
+    {
+      "original": "schema",
+      "conv": "zh-cn:图式; zh-tw:基模;"
+    },
+    {
+      "original": "Classical conditioning",
+      "conv": "zh-cn:经典条件反射; zh-tw:古典制約; zh-hk:經典條件反射;"
+    },
+    {
+      "original": "operant conditioning",
+      "conv": "zh-cn:操作性条件反射; zh-tw:操作制約; zh-hk:操作性條件反射;"
+    },
+    {
+      "original": "operant conditioning",
+      "conv": "zh-cn:对抗性条件反射; zh-tw:反制約作用; zh-hk:對抗性條件反射;"
+    },
+    {
+      "original": "Syndrome",
+      "conv": "zh-tw:症候群; zh-hk:綜合症; zh-cn:综合征; zh-sg:综合症;"
+    },
+    {
+      "original": "ABC model",
+      "conv": "zh-cn:ABC模型; zh-tw:ABC模式;"
+    },
+    {
+      "original": "activation model",
+      "conv": "zh-cn:启动模型; zh-tw:激發模式;"
+    },
+    {
+      "original": "arousal-affect model",
+      "conv": "zh-cn:唤醒-情感模型; zh-tw:喚起-情感模式;"
+    },
+    {
+      "original": "associative network model",
+      "conv": "zh-cn:联想网络模型; zh-tw:聯想網路模式;"
+    },
+    {
+      "original": "attitude-toward-behavior model",
+      "conv": "zh-cn:行为态度模型; zh-tw:行為態度模式;"
+    },
+    {
+      "original": "attitude-toward-object model",
+      "conv": "zh-cn:目标物态度模型; zh-tw:標的態度模式;"
+    },
+    {
+      "original": "attitude-toward-the-ad model",
+      "conv": "zh-cn:广告态度模型; zh-tw:廣告態度模式;"
+    },
+    {
+      "original": "attribution model",
+      "conv": "zh-cn:归因模型; zh-tw:歸因模式;"
+    },
+    {
+      "original": "cognition response model",
+      "conv": "zh-cn:认知反应模型; zh-tw:認知反應模式;"
+    },
+    {
+      "original": "competency model",
+      "conv": "zh-cn:胜任模型; zh-tw:職能模式;"
+    },
+    {
+      "original": "competing model",
+      "conv": "zh-cn:竞争模型; zh-tw:競爭模式;"
+    },
+    {
+      "original": "diathesis-stress model",
+      "conv": "zh-cn:素质-压力模型; zh-tw:素質-壓力模式;"
+    },
+    {
+      "original": "early selective model",
+      "conv": "zh-cn:早期选择模型; zh-tw:早期選擇模式;"
+    },
+    {
+      "original": "feedback model",
+      "conv": "zh-cn:回馈模型; zh-tw:回饋模式;"
+    },
+    {
+      "original": "five-factor model",
+      "conv": "zh-cn:五大因素模型; zh-tw:五大因素模式;"
+    },
+    {
+      "original": "five-factor personality model",
+      "conv": "zh-cn:人格五因素模型; zh-tw:五大人格因素模式;"
+    },
+    {
+      "original": "general linear model",
+      "conv": "zh-cn:一般线性模型; zh-tw:一般線性模式;"
+    },
+    {
+      "original": "generalized linear model",
+      "conv": "zh-cn:广义线性模型; zh-tw:廣義線性模式;"
+    },
+    {
+      "original": "goodness of fit model",
+      "conv": "zh-cn:拟合优度模型; zh-tw:適配模式;"
+    },
+    {
+      "original": "growth curve model",
+      "conv": "zh-cn:生长曲线模型; zh-tw:成長曲線模式;"
+    },
+    {
+      "original": "hierarchical linear model (HLM)",
+      "conv": "zh-cn:多层线性模型; zh-tw:階層線性模式;"
+    },
+    {
+      "original": "hierarchical network model",
+      "conv": "zh-cn:层次网络模型; zh-tw:階層網路模式;"
+    },
+    {
+      "original": "information processing model",
+      "conv": "zh-cn:信息加工模型; zh-tw:訊息處理模式;"
+    },
+    {
+      "original": "interactive-activation model",
+      "conv": "zh-cn:交互启动模型; zh-tw:交互激發模式;"
+    },
+    {
+      "original": "internal working model",
+      "conv": "zh-cn:内部工作模型; zh-tw:內在運作模式;"
+    },
+    {
+      "original": "job characteristic model (JCM)",
+      "conv": "zh-cn:工作特征模型; zh-tw:工作特性模式;"
+    },
+    {
+      "original": "linear model",
+      "conv": "zh-cn:线性模型; zh-tw:線性模式;"
+    },
+    {
+      "original": "logistic model",
+      "conv": "zh-cn:逻辑斯谛模型; zh-tw:對數模式;"
+    },
+    {
+      "original": "parallel distributed processing model ； PDP model",
+      "conv": "zh-cn:并行分布加工模型; zh-tw:平行分散處理模式;"
+    },
+    {
+      "original": "random effect model",
+      "conv": "zh-cn:随机效应模型; zh-tw:隨機效果模式;"
+    },
+    {
+      "original": "recursive model",
+      "conv": "zh-cn:递归模型; zh-tw:遞迴模型;"
+    },
+    {
+      "original": "set-theoretical model",
+      "conv": "zh-cn:定势理论模型; zh-tw:集合理論模式;"
+    },
+    {
+      "original": "seven-factor personality model",
+      "conv": "zh-cn:人格七因素模型; zh-tw:人格七因素模式;"
+    },
+    {
+      "original": "shared mental model",
+      "conv": "zh-cn:共享心智模型; zh-tw:共用心智模式;"
+    },
+    {
+      "original": "spreading activation model",
+      "conv": "zh-cn:启动扩散模型; zh-tw:擴散激發模式;"
+    },
+    {
+      "original": "associationism",
+      "conv": "zh-cn:联想主义; zh-tw:聯結主義;"
+    },
+    {
+      "original": "authoritarianism",
+      "conv": "zh-cn:权威主义; zh-tw:威權主義;"
+    },
+    {
+      "original": "sensationalism",
+      "conv": "zh-cn:感觉主义; zh-tw:感官主義;"
+    },
+    {
+      "original": "universalism",
+      "conv": "zh-cn:普适主义; zh-tw:普世主義;"
+    },
+    {
+      "original": "ABC attitude hierarchies of effect",
+      "conv": "zh-cn:ABC态度层级效应; zh-tw:ABC態度階層效果;"
+    },
+    {
+      "original": "abstinence violation effect (AVE)",
+      "conv": "zh-cn:破堤效应; zh-tw:違反禁戒效應;"
+    },
+    {
+      "original": "activational effect of hormone",
+      "conv": "zh-cn:激素启动效应; zh-tw:激素啟動效果;"
+    },
+    {
+      "original": "advertising wearout",
+      "conv": "zh-cn:广告疲倦效应; zh-tw:廣告疲乏;"
+    },
+    {
+      "original": "anchoring effect",
+      "conv": "zh-cn:锚定效应; zh-tw:定錨效應;"
+    },
+    {
+      "original": "autokinetic effect",
+      "conv": "zh-cn:自动效应; zh-tw:自動效果;"
+    },
+    {
+      "original": "bandwagon effect",
+      "conv": "zh-cn:从众效应; zh-tw:浪潮效應;"
+    },
+    {
+      "original": "block effect",
+      "conv": "zh-cn:区组效应; zh-tw:區組效果;"
+    },
+    {
+      "original": "boomerang effect",
+      "conv": "zh-cn:反弹效应; zh-tw:回彈效應;"
+    },
+    {
+      "original": "context effect",
+      "conv": "zh-cn:上下文效应; zh-tw:脈絡效應;"
+    },
+    {
+      "original": "Coolidge effect",
+      "conv": "zh-cn:库利奇效应; zh-tw:柯立茲效應;"
+    },
+    {
+      "original": "direct effect",
+      "conv": "zh-cn:直接效应; zh-tw:直接效果;"
+    },
+    {
+      "original": "effect coding",
+      "conv": "zh-cn:效应编码; zh-tw:效果編碼;"
+    },
+    {
+      "original": "effector",
+      "conv": "zh-cn:效应器; zh-tw:反應器;"
+    },
+    {
+      "original": "false consensus effect　",
+      "conv": "zh-cn:虚假共识效应; zh-tw:錯誤的同意性效果;"
+    },
+    {
+      "original": "group effect",
+      "conv": "zh-cn:群体效应; zh-tw:團體效應;"
+    },
+    {
+      "original": "halo effect",
+      "conv": "zh-cn:光环效应; zh-tw:月暈效果;"
+    },
+    {
+      "original": "implicit bystander effect",
+      "conv": "zh-cn:内隐旁观者效应; zh-tw:內隱的旁觀者效應;"
+    },
+    {
+      "original": "indirect effect",
+      "conv": "zh-cn:间接效应; zh-tw:間接效果;"
+    },
+    {
+      "original": "interaction effect",
+      "conv": "zh-cn:交互效应; zh-tw:交互作用;"
+    },
+    {
+      "original": "interference effect",
+      "conv": "zh-cn:干扰效应; zh-tw:幹擾效果;"
+    },
+    {
+      "original": "Lee-Boot effect",
+      "conv": "zh-cn:李-布特效应; zh-tw:李布氏效應;"
+    },
+    {
+      "original": "main effect",
+      "conv": "zh-cn:主效应; zh-tw:主要效果;"
+    },
+    {
+      "original": "noise effect",
+      "conv": "zh-cn:噪声效应; zh-tw:雜訊效應;"
+    },
+    {
+      "original": "observer-actor effect",
+      "conv": "zh-cn:观察者-行为者效应; zh-tw:觀察者-行為者效果;"
+    },
+    {
+      "original": "overjustification effect",
+      "conv": "zh-cn:过度理由效应; zh-tw:過度辯證效應;"
+    },
+    {
+      "original": "partial reinforcement effect (PRE)",
+      "conv": "zh-cn:部分强化效应; zh-tw:部分增強效應;"
+    },
+    {
+      "original": "placebo effect",
+      "conv": "zh-cn:安慰剂效应; zh-tw:安慰劑效果;"
+    },
+    {
+      "original": "primacy effect ； primary effect",
+      "conv": "zh-cn:首因效应; zh-tw:初始效應;"
+    },
+    {
+      "original": "priming effect",
+      "conv": "zh-cn:启动效应; zh-tw:促發效果;"
+    },
+    {
+      "original": "random effect model",
+      "conv": "zh-cn:随机效应模型; zh-tw:隨機效果模式;"
+    },
+    {
+      "original": "recency effect",
+      "conv": "zh-cn:近因效应; zh-tw:新近效應;"
+    },
+    {
+      "original": "self-reference effect",
+      "conv": "zh-cn:自我参照效应; zh-tw:自我參照效果;"
+    },
+    {
+      "original": "serial position effect",
+      "conv": "zh-cn:序列位置效应; zh-tw:序列位置效應;"
+    },
+    {
+      "original": "sleeper effect",
+      "conv": "zh-cn:睡眠者效应; zh-tw:睡眠效應;"
+    },
+    {
+      "original": "social loafing",
+      "conv": "zh-cn:社会惰怠效应; zh-tw:社會閒散;"
+    },
+    {
+      "original": "Stroop effect",
+      "conv": "zh-cn:斯特鲁普效应; zh-tw:史楚普效應;"
+    },
+    {
+      "original": "typicality effect",
+      "conv": "zh-cn:典型性效应; zh-tw:典型性效果;"
+    },
+    {
+      "original": "weapons effect",
+      "conv": "zh-cn:武器效应; zh-tw:武器效果;"
+    },
+    {
+      "original": "word inferiority effect",
+      "conv": "zh-cn:词劣效应; zh-tw:詞劣效果;"
+    },
+    {
+      "original": "word superiority effect",
+      "conv": "zh-cn:词优势效应; zh-tw:詞優效果;"
+    },
+    {
+      "original": "Zeigarnik effect",
+      "conv": "zh-cn:蔡加尼克效应; zh-tw:蔡加尼克效應;"
+    },
+    {
+      "original": "ABC model of behavior",
+      "conv": "zh-cn:行为ABC模型; zh-tw:行為的ABC模式;"
+    },
+    {
+      "original": "agonistic behavior",
+      "conv": "zh-cn:争胜行为; zh-tw:敵對行為;"
+    },
+    {
+      "original": "attitude-toward-behavior model",
+      "conv": "zh-cn:行为态度模型; zh-tw:行為態度模式;"
+    },
+    {
+      "original": "behavior disorder",
+      "conv": "zh-cn:行为障碍; zh-tw:行為異常;"
+    },
+    {
+      "original": "behavior modification principle",
+      "conv": "zh-cn:行为矫正原理; zh-tw:行為改變原則;"
+    },
+    {
+      "original": "behavior modification therapy",
+      "conv": "zh-cn:行为矫正疗法; zh-tw:行為改變治療法;"
+    },
+    {
+      "original": "behavioral activation",
+      "conv": "zh-cn:行为启动; zh-tw:行為活化;"
+    },
+    {
+      "original": "behavioral activation therapy (BA therapy)",
+      "conv": "zh-cn:行为启动疗法; zh-tw:行為活化治療;"
+    },
+    {
+      "original": "behavioral assessment",
+      "conv": "zh-cn:行为评价; zh-tw:行為評量;"
+    },
+    {
+      "original": "behavioral couple therapy",
+      "conv": "zh-cn:行为取向伴侣疗法; zh-tw:行為取向的伴侶治療;"
+    },
+    {
+      "original": "behavioral cue",
+      "conv": "zh-cn:行为线索; zh-tw:行為線索;"
+    },
+    {
+      "original": "behavioral learning approach",
+      "conv": "zh-cn:行为学习法; zh-tw:行為學習觀點;"
+    },
+    {
+      "original": "behavioral marital therapy",
+      "conv": "zh-cn:行为取向婚姻疗法; zh-tw:行為取向的婚姻治療;"
+    },
+    {
+      "original": "behavioral theory of leadership",
+      "conv": "zh-cn:领导行为理论; zh-tw:領導行為論;"
+    },
+    {
+      "original": "behavioral variable",
+      "conv": "zh-cn:行为变量; zh-tw:行為變項;"
+    },
+    {
+      "original": "cognitive behavioral modification (CBM)",
+      "conv": "zh-cn:认知行为矫正; zh-tw:認知行為矯治法;"
+    },
+    {
+      "original": "cognitive-behavioral self-management training",
+      "conv": "zh-cn:认知行为自我管理训练; zh-tw:認知行為之自我管理訓練;"
+    },
+    {
+      "original": "cognitive-behavioral therapy (CBT)",
+      "conv": "zh-cn:认知行为疗法; zh-tw:認知行為治療;"
+    },
+    {
+      "original": "continuity of behavior",
+      "conv": "zh-cn:行为连续性; zh-tw:行為的連續性;"
+    },
+    {
+      "original": "coping behavior",
+      "conv": "zh-cn:应对行为; zh-tw:因應行為;"
+    },
+    {
+      "original": "defensive behavior",
+      "conv": "zh-cn:防御行为; zh-tw:防衛行為;"
+    },
+    {
+      "original": "delinquency",
+      "conv": "zh-cn:违规行为; zh-tw:犯罪行為;"
+    },
+    {
+      "original": "dialectical behavior therapy (DBT)",
+      "conv": "zh-cn:辩证行为疗法; zh-tw:辯證式行為治療;"
+    },
+    {
+      "original": "exploratory behavior",
+      "conv": "zh-cn:探究行为; zh-tw:探索行為;"
+    },
+    {
+      "original": "group behavior",
+      "conv": "zh-cn:群体行为; zh-tw:團體行為;"
+    },
+    {
+      "original": "narcissistic behavior disorder",
+      "conv": "zh-cn:自恋型行为障碍; zh-tw:自戀行為疾患;"
+    },
+    {
+      "original": "operant behavior",
+      "conv": "zh-cn:操作性行为; zh-tw:操作行為;"
+    },
+    {
+      "original": "prosocial behavior",
+      "conv": "zh-cn:亲社会行为; zh-tw:利社會行為;"
+    },
+    {
+      "original": "rational-emotive behavior therapy (REBT)",
+      "conv": "zh-cn:理情行为疗法; zh-tw:理情行為治療法;"
+    },
+    {
+      "original": "REM behavior disorder (RBD)",
+      "conv": "zh-cn:快速眼动期行为障碍; zh-tw:快速眼動睡眠行為疾患;"
+    },
+    {
+      "original": "self-handicapping behavior",
+      "conv": "zh-cn:自我设障行为; zh-tw:自我設限行為;"
+    },
+    {
+      "original": "species-specific behavior",
+      "conv": "zh-cn:物种特异行为; zh-tw:物種特定行為;"
+    },
+    {
+      "original": "territorial behavior",
+      "conv": "zh-cn:领地行为; zh-tw:領域行為;"
+    },
+    {
+      "original": "behavior pattern",
+      "conv": "zh-cn:行为类型; zh-tw:行為模式;"
+    },
+    {
+      "original": "altered state of consciousness (ASC)",
+      "conv": "zh-cn:意识变异状态; zh-tw:意識的變化狀態;"
+    },
+    {
+      "original": "group consciousness",
+      "conv": "zh-cn:群体意识; zh-tw:團體意識;"
+    },
+    {
+      "original": "intentional memorization",
+      "conv": "zh-cn:有意识记; zh-tw:有意識之記憶;"
+    },
+    {
+      "original": "nonconscious ； sunconscious",
+      "conv": "zh-cn:无意识; zh-tw:潛意識;"
+    },
+    {
+      "original": "personal unconscious",
+      "conv": "zh-cn:个体无意识; zh-tw:個人潛意識;"
+    },
+    {
+      "original": "public self-consciousness",
+      "conv": "zh-cn:公我意识; zh-tw:公眾自我意識;"
+    },
+    {
+      "original": "unconscious inference",
+      "conv": "zh-cn:无意识推理; zh-tw:無意識推論;"
+    },
+    {
+      "original": "unconscious motivation",
+      "conv": "zh-cn:无意识动机; zh-tw:潛意識動機;"
+    },
+    {
+      "original": "Skinner",
+      "conv": "zh-cn:斯金纳; zh-tw:史金納; zh-hk:斯金納;"
+    },
+    {
+      "original": "Csíkszentmihályi",
+      "conv": "zh-cn:奇克森特米哈伊; zh-tw:契克森米哈伊;"
+    },
+    {
+      "original": "through",
+      "conv": "zh-cn:通过; zh-tw:透過;"
+    }
+  ]
+}
