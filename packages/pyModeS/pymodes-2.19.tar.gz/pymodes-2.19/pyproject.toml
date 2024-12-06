@@ -1,0 +1,59 @@
+[project]
+name = "pyModeS"
+version = "2.19"
+description = "Python Mode-S and ADS-B Decoder"
+authors = [{ name = "Junzi Sun", email = "j.sun-1@tudelft.nl" }]
+license = { text = "GNU GPL v3" }
+readme = "README.rst"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.26", "pyzmq>=24.0"]
+
+[project.optional-dependencies]
+rtlsdr = ["pyrtlsdr>=0.2.93"]
+
+
+[tool.uv]
+dev-dependencies = [
+    "mypy>=0.991",
+    "flake8>=5.0.0",
+    "black>=22.12.0",
+    "isort>=5.11.4",
+    "pytest>=7.2.0",
+    "pytest-cov>=4.0.0",
+    "codecov>=2.1.12",
+]
+
+[project.scripts]
+modeslive = "pyModeS.streamer.modeslive:main"
+
+[tool.ruff]
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "W",      # pycodestyle
+    "F",      # pyflakes
+    "I",      # isort
+    "NPY",    # numpy
+    "NPY201", # numpy
+    # "PD",  # pandas
+    "DTZ", # flake8-datetimez
+    "RUF",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["numpy", "pandas", "pyproj", "shapely"]
+
+
+[build-system]
+requires = ["hatchling", "Cython>=0.29.32", "setuptools>=69.1.1"]
+build-backend = "hatchling.build"
