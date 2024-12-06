@@ -1,0 +1,15 @@
+shareplumfreightplusio/__init__.py,sha256=y-E5nu7UERfTWflmj1PfBA5-tngYXI0LeTH5YuixAF4,385
+shareplumfreightplusio/errors.py,sha256=hSDf1QOffxGtePtuRtAcs7n4se1PBmWllzzxkTEZgwU,261
+shareplumfreightplusio/folder.py,sha256=xAu641dssI8JZtgyoDby_XSO7M_dOopycuOjy-6CzDM,5041
+shareplumfreightplusio/list.py,sha256=KZHRq5HsinNPW-qI8Go5KrioXjexhgUaTE-sv21KX-A,24428
+shareplumfreightplusio/list_dict.py,sha256=AuH5QOFz7uaya0SU2ABrWSEkrd6UrtwTRcuXmEWIFI4,2360
+shareplumfreightplusio/office365.py,sha256=PMbVM9oGUw4Y8QQlazsxBzP9ZFBMeha3QEe1m8y0o4w,4212
+shareplumfreightplusio/request_helper.py,sha256=eXCnGvTEVlXrw0bJ7-MiFoBDFbROO-nz51cSAGbxqJg,633
+shareplumfreightplusio/site.py,sha256=2ZfD3OyIkHiPQg1DkNeh3GLKyvTs7JgKWk0hT-NtzNA,20398
+shareplumfreightplusio/soap.py,sha256=gsu9SKR9ynQc0g_pTydVL-WEUpVhNUM_GFXxHnYwveU,4659
+shareplumfreightplusio/version.py,sha256=lDz-opl8U1Z5f8eu5PasmXoD9WSZ1qLc9eRa0actOe4,23
+shareplumfreightplusio-0.5.3.dist-info/LICENSE.txt,sha256=zYkwh0rsvZjL3C0LCRFH2K2-WsaAboQoR263DN1SpnE,1089
+shareplumfreightplusio-0.5.3.dist-info/METADATA,sha256=94K7R0kewz4AGVbjNxN-cvNlN71-QPNtWR5dzPhTrqc,4028
+shareplumfreightplusio-0.5.3.dist-info/WHEEL,sha256=OpXWERl2xLPRHTvd2ZXo_iluPEQd8uSbYkJ53NAER_Y,109
+shareplumfreightplusio-0.5.3.dist-info/top_level.txt,sha256=pewMS6zTS4oMaHqxWdpQmL22BEbwVmcxGLxIGeWg3a4,23
+shareplumfreightplusio-0.5.3.dist-info/RECORD,,
