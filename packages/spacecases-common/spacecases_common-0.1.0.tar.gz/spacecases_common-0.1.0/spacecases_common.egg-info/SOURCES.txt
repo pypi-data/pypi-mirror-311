@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+spacecases_common/__init__.py
+spacecases_common.egg-info/PKG-INFO
+spacecases_common.egg-info/SOURCES.txt
+spacecases_common.egg-info/dependency_links.txt
+spacecases_common.egg-info/top_level.txt
+tests/test_condition.py
+tests/test_get_all_conditions_for_float_range.py
+tests/test_get_best_condition_idx.py
+tests/test_get_worst_condition_idx.py
+tests/test_remove_skin_name_formatting.py
