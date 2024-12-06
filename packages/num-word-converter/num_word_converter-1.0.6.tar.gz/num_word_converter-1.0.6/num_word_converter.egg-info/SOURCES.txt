@@ -1,0 +1,16 @@
+README.md
+setup.py
+num_word_converter/__init__.py
+num_word_converter/consts.py
+num_word_converter/errors.py
+num_word_converter/num2word.py
+num_word_converter/word2num.py
+num_word_converter.egg-info/PKG-INFO
+num_word_converter.egg-info/SOURCES.txt
+num_word_converter.egg-info/dependency_links.txt
+num_word_converter.egg-info/top_level.txt
+tests/__init__.py
+tests/num2word_tests/__init__.py
+tests/num2word_tests/tests.py
+tests/word2num_tests/__init__.py
+tests/word2num_tests/tests.py
