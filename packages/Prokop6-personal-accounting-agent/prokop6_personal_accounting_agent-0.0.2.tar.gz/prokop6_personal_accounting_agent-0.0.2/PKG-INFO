@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Prokop6_personal_accounting_agent
+Version: 0.0.2
+Author-email: Marcin Prokop <mr.prokop.6@brown.edu>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml

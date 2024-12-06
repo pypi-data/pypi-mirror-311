@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+personal_accounting_agent/Prokop6_personal_accounting_agent.egg-info/PKG-INFO
+personal_accounting_agent/Prokop6_personal_accounting_agent.egg-info/SOURCES.txt
+personal_accounting_agent/Prokop6_personal_accounting_agent.egg-info/dependency_links.txt
+personal_accounting_agent/Prokop6_personal_accounting_agent.egg-info/requires.txt
+personal_accounting_agent/Prokop6_personal_accounting_agent.egg-info/top_level.txt

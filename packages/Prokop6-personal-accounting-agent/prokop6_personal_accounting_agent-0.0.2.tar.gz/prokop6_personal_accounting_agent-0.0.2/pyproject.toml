@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Prokop6_personal_accounting_agent"
+authors = [
+    {name = "Marcin Prokop", email = "mr.prokop.6@brown.edu"},
+]
+#description = "My package description"
+readme = "README.md"
+requires-python = ">=3.13"
+#keywords = ["one", "two"]
+#license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "pyyaml"
+]
+dynamic = ["version"]
+
+#[project.optional-dependencies]
+#pdf = ["ReportLab>=1.2", "RXP"]
+#rest = ["docutils>=0.3", "pack ==1.1, ==1.3"]
+
+#[project.scripts]
+#my-script = "my_package.module:function"
+
+[tool.setuptools.packages.find]
+where = ["personal_accounting_agent"]
+exclude = ["personal_accounting_agent.tests"]
+
+#[tool.setuptools]
+#packages = ["personal_accounting_agent"]
+
+[tool.setuptools.dynamic]
+version = {attr = "personal_accounting_agent.__version__"} 
+
+#[tool.setuptools.package_data]
+#"personal_accounting_agent" = ["personal_accounting_agent/config.toml"]
