@@ -1,0 +1,12 @@
+easyxtb/__init__.py,sha256=c2NRpxKbKVT7iggQ7aONUUdsAnk8gWjOqetFeP1YBtA,489
+easyxtb/calculate.py,sha256=bRBZrIeeIWtJ6K0a35wkb4iZfk-H98ZTTxOdkyPlll8,21146
+easyxtb/configuration.py,sha256=eZ8B4Ds0xEG85m10Ko7vHnQAyyv8xssqJ2-UwyaiD-w,8254
+easyxtb/convert.py,sha256=1ya7IpBfcy9S4J3I-1SoGiWYfFvChi1lfpx49ujt6lk,9560
+easyxtb/default_config.json,sha256=uw1F8v-Z-bvPsNnJ4W4QP_bBZMw14lUkFC07_MYkk8Q,106
+easyxtb/format.py,sha256=ar4xohdE3wfQpNnrAx2wgWh4WnKht2NkHY_vhR-TrK0,1983
+easyxtb/geometry.py,sha256=3sVDN-xlsfF_n0nDJq07UD0nkOy9uUhdq18D54M_S-Q,10816
+easyxtb/parse.py,sha256=IzWkIq4BMzxbXtxroKTgm1DLI0BJlmMhdqAhHxfZOQs,5094
+easyxtb-0.7.0.dist-info/METADATA,sha256=NltHNtqKvPt7aJXxFODGIA46Elho37UIVCbvtoA02fg,11308
+easyxtb-0.7.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+easyxtb-0.7.0.dist-info/licenses/LICENSE,sha256=hAereQbyrGbJ15HJbyYD7cY95EGgpn1ttwp7rXFAWUM,1509
+easyxtb-0.7.0.dist-info/RECORD,,
