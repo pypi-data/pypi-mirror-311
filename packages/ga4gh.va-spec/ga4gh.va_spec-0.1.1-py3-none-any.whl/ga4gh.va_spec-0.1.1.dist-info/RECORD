@@ -1,0 +1,11 @@
+ga4gh/va_spec/__init__.py,sha256=40H6xDoo0lhdx0jQUnt90JTRhSdKz-Cd6oLNSQy3zBk,48
+ga4gh/va_spec/profiles/__init__.py,sha256=zNIE-9jG2MzEEV0LydeLm80vIHjLObAbTCNgZwUKj30,1499
+ga4gh/va_spec/profiles/assay_var_effect.py,sha256=2xMpiF0LMuLuRpi4bF0HWWO5V5mXreyOnw_vXKNwIng,5454
+ga4gh/va_spec/profiles/caf_study_result.py,sha256=8bwY3TPv1vB06J76cstoD3t37HGSo-j2BvaeCS_VNTs,2141
+ga4gh/va_spec/profiles/var_path_stmt.py,sha256=EvuhwRSuBA-4k_CXRYdYVnpQpo23cHfpc99Nii859BM,2394
+ga4gh/va_spec/profiles/var_study_stmt.py,sha256=xvtiS0yFoPakrKAf4ONMVfvAteVhD1MV-Y2i2ZRJ-Zc,8749
+ga4gh.va_spec-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ga4gh.va_spec-0.1.1.dist-info/METADATA,sha256=DzwjXZ6-OjxORrZMSFmXnMZQaBY2cbKWiaNRhpwsfoQ,18055
+ga4gh.va_spec-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ga4gh.va_spec-0.1.1.dist-info/top_level.txt,sha256=dcwOVyhs_HDiP72Eg7DskeWMdcbw70-OwDmjxNuwNKg,6
+ga4gh.va_spec-0.1.1.dist-info/RECORD,,
