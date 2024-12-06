@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+nsst/__init__.py
+nsst/cli.py
+nsst.egg-info/PKG-INFO
+nsst.egg-info/SOURCES.txt
+nsst.egg-info/dependency_links.txt
+nsst.egg-info/entry_points.txt
+nsst.egg-info/requires.txt
+nsst.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_nsst.py
