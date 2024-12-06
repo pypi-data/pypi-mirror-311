@@ -1,0 +1,12 @@
+examples/simple.py,sha256=eSwtBvFgJkgNzPV5ukniH5rDWW01wiOTqiYjMaEO4AI,503
+tracesql/__init__.py,sha256=bsHngMPtCrFGQyEp8VcQp7Q5eoKS-rmjDePsoCZ3370,83
+tracesql/client.py,sha256=-6eEWqqhxAz83elXxT2xSwhe1iW5wWUrC35lb4neeG0,792
+tracesql/functions.py,sha256=N5vcun_UY4iSMtt7UCl_OUR-zwFTMtEQrIQhfXi_HdE,227
+tracesql/model.py,sha256=A3bzi7qkCmHuKJu6Ns5aIujooOOZr006hoxiHYnBnvc,1280
+tracesql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracesql/version.py,sha256=q_9uB9WWkqCjks0siAltWEIy5CVwZdDMlInZebftmko,407
+tracesql-0.1.5.dist-info/LICENSE,sha256=YvuKOpYh3COIF0yqq-nCMXtpS7mh1GyYvPVlW2j1G-M,11359
+tracesql-0.1.5.dist-info/METADATA,sha256=toOreCEHppOly-IeR0jl515J32Tq6lWpyet7g-9g0Zk,14620
+tracesql-0.1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tracesql-0.1.5.dist-info/top_level.txt,sha256=NULtyhkvFQkOlVSEuMnJeWclPIRIgS3Akp_NlcCjmGw,18
+tracesql-0.1.5.dist-info/RECORD,,
