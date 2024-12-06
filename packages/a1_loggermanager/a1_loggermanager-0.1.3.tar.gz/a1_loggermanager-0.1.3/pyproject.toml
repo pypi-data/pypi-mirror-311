@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "a1_loggermanager"
+version = "0.1.3"
+description = ""
+authors = ["a1p <mike@a1publishing.com>"]
+readme = "README.md"
+packages = [{include = "a1_loggermanager", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
