@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: gradio_pointcloudeditor
+Version: 0.0.8
+Summary: A simple point cloud editor support moving and recoloring points.
+Author-email: Mark Boss <hello@markboss.me>
+License: Apache-2.0
+Keywords: 3d,color,edit,editing,gradio-custom-component,gradio-template-Model3D,model,pointcloud,points
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+Requires-Dist: gradio<6.0,>=4.0
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+---
+tags: [gradio-custom-component, ]
+title: gradio_pointcloudeditor
+short_description: A gradio custom component
+colorFrom: blue
+colorTo: yellow
+sdk: gradio
+pinned: false
+app_file: space.py
+---
+
+# gradio_pointcloudeditor
+
+You can auto-generate documentation for your custom component with the `gradio cc docs` command.
+You can also edit this file however you like.
