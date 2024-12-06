@@ -1,0 +1,21 @@
+# teable-nocodb
+
+[![PyPI - Version](https://img.shields.io/pypi/v/teable-nocodb.svg)](https://pypi.org/project/teable-nocodb)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/teable-nocodb.svg)](https://pypi.org/project/teable-nocodb)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install teable-nocodb
+```
+
+## License
+
+`teable-nocodb` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
