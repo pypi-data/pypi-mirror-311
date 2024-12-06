@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pythonlibs/__init__.py
+pythonlibs/github_api.py
+pythonlibs.egg-info/PKG-INFO
+pythonlibs.egg-info/SOURCES.txt
+pythonlibs.egg-info/dependency_links.txt
+pythonlibs.egg-info/not-zip-safe
+pythonlibs.egg-info/requires.txt
+pythonlibs.egg-info/top_level.txt
