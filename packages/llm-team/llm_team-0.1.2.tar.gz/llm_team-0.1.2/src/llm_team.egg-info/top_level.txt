@@ -1,0 +1,10 @@
+agents
+config
+conversations
+data
+database
+projects
+resources
+teams
+telemetry
+utils
