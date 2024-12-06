@@ -1,0 +1,8 @@
+exam_marking/__init__.py,sha256=6lXj05J6WuBiidAgZWe1BNPMjNO5bFzI-kXWfJuM-Bs,4133
+exam_marking/routes.py,sha256=uFDh0x3uBpY8G4gBLAtwKtdNT17QaIho49XPRpAFEys,1019
+exam_marking/templates/index.html,sha256=T77nAJXYTJUEWUFIae1s50baOAOss6S9UXoGoZk1lMs,2836
+exam_marking-0.0.8.dist-info/METADATA,sha256=ZHsr3hhRtLai9yH317wf3emHOOA7N6_0VkLsWY1zK18,3681
+exam_marking-0.0.8.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+exam_marking-0.0.8.dist-info/entry_points.txt,sha256=UuNK0EQMxTNAkJp0e05d11yTqbhOnHdQDzdNJeqUkj8,51
+exam_marking-0.0.8.dist-info/licenses/LICENSE,sha256=6XGa9nIX1nqdkWIVWW8i3KTcTJg4_Qha5Sw-g5HdqG4,1060
+exam_marking-0.0.8.dist-info/RECORD,,
