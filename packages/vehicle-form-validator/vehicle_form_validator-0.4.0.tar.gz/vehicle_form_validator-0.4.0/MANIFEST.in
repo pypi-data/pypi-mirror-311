@@ -1,0 +1,10 @@
+# Exclude virtual environment folders (venv, env, .env, etc.)
+exclude venv/*
+exclude env/*
+exclude .env/*
+
+# Include necessary files
+include setup.py
+include README.md
+include LICENSE
+recursive-include vehicle_form_validator *.py

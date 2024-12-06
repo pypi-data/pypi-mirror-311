@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: vehicle_form_validator
+Version: 0.4.0
+Summary: A library to validate vehicle and user details
+Home-page: https://github.com/rhegisan/vehicle_form_validator
+Author: Rhegisan Jebas
+Author-email: rhegisanjebas71@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Vehicle Form Validation Library
+
+The library allows you to validate your form inputs using OOPS principles. It has cutomized fields like vehicle make, vehicle type etc also it provides liscence validations specific to country. In addtion to vehicles it provides user details validations.
+
+
+## Installation
+
+Install the library with:
+pip install vehicle_form_validator
+
+## USAGE
+
+from vehicle_form_validator import FieldValidator
+
+# Vehicle Type Validation
+vehicle_type = "Car"
+if FieldValidator.validate_vehicle_type(vehicle_type):
+    print(f"'{vehicle_type}' is a valid vehicle type.")
+else:
+    print(f"'{vehicle_type}' is an invalid vehicle type.")
+
+# Vehicle Make Validation
+vehicle_make = "Toyota"
+if FieldValidator.validate_vehicle_make(vehicle_make):
+    print(f"'{vehicle_make}' is a valid vehicle make.")
+else:
+    print(f"'{vehicle_make}' is an invalid vehicle make.")
+
+# License Plate Validation (Ireland)
+license_plate = "12-34ABC"
+if FieldValidator.validate_license_plate(license_plate, country_code="IE"):
+    print(f"'{license_plate}' is a valid license plate for Ireland.")
+else:
+    print(f"'{license_plate}' is an invalid license plate for Ireland.")
+
+# Phone Number Validation (Ireland)
+phone_number = "+353123456789"
+if FieldValidator.validate_phone_number(phone_number, country_code="IE"):
+    print(f"'{phone_number}' is a valid Irish phone number.")
+else:
+    print(f"'{phone_number}' is an invalid Irish phone number.")
+
+# Email Validation
+email = "test@example.com"
+if FieldValidator.validate_email(email):
+    print(f"'{email}' is a valid email address.")
+else:
+    print(f"'{email}' is an invalid email address.")
+
+# Password Validation
+password = "Password123!"
+confirm_password = "Password123!"
+valid, message = FieldValidator.validate_password(password, confirm_password)
+if valid:
+    print("Password is valid.")
+else:
+    print(f"Password is invalid: {message}")
+
+# Full Name Validation
+full_name = "John Doe"
+if FieldValidator.validate_full_name(full_name):
+    print(f"'{full_name}' is a valid full name.")
+else:
+    print(f"'{full_name}' is an invalid full name.")
