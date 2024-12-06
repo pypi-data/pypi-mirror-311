@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: p115qrcode
+Version: 0.0.1
+Summary: 115 网盘二维码扫码登录.
+Home-page: https://github.com/ChenyangGao/web-mount-packs/tree/main/python-module/p115qrcode
+License: MIT
+Keywords: python-115,qrcode
+Author: ChenyangGao
+Author-email: wosiwujm@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx
+Requires-Dist: httpx_request (>=0.0.9)
+Requires-Dist: orjson
+Requires-Dist: python-startfile (>=0.0.2)
+Requires-Dist: qrcode
+Project-URL: Repository, https://github.com/ChenyangGao/web-mount-packs/tree/main/python-module/p115qrcode
+Description-Content-Type: text/markdown
+
+# 115 网盘二维码扫码登录.
+
+## 安装
+
+你可以通过 [pypi](https://pypi.org/project/p115qrcode/) 安装
+
+```console
+pip install -U p115qrcode
+```
+
