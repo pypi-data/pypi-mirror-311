@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: udl-cil
+Version: 0.1
+Summary: general parallel runner and manager, initially designed for https://github.com/XiaoXiao-Woo/UDL
+Author: XiaoXiao-Woo
+Author-email: wxwsx1997@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: hydra-core
+Requires-Dist: optuna
+Requires-Dist: omegaconf
+Requires-Dist: GPUtil
+Requires-Dist: rich
+
