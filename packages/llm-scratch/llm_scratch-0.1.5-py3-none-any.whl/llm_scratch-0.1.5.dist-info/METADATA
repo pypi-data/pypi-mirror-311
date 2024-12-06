@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: llm_scratch
+Version: 0.1.5
+Summary: A collection of LLM utils
+Home-page: https://github.com/randerzander/llm_scratch
+Author: Randy Gelhausen
+Author-email: rgelhau@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Scratch pip package for common llm tool
+
+nvcf hosted mixtral, smaug
+
+llama-cpp
+
+downloading and extracting text content from webpage
+
+using ragatouille for reranking
