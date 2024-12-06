@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ filename }} - YAML View</title>
+    <style>
+        {{ pygments_css }}
+
+        /* Style for highlighted line */
+        .highlight .line-highlight {
+            background-color: #00ff00 !important;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="yaml-content">
+    {{ highlighted_code | safe }}
+</div>
+
+<script>
+    /**
+     * Handles line highlighting and scrolling in YAML viewer
+     *
+     * When the page loads, this script:
+     * 1. Checks for a line number in the URL hash (#L{number})
+     * 2. Finds the corresponding code line element
+     * 3. Scrolls to that line and highlights it
+     * 4. Removes the highlight after a delay
+     */
+    document.addEventListener('DOMContentLoaded', function() {
+        const hash = window.location.hash;
+        if (hash) {
+            // Extract line number from hash (#L{number})
+            const lineNumber = hash.replace('#L', '');
+            console.log('Looking for line:', lineNumber);
+
+            // Find the target line's code block using its ID
+            const codeBlock = document.querySelector(`.highlight span[id="line-${lineNumber}"]`);
+            console.log('Found code block:', codeBlock);
+
+            if (codeBlock) {
+                // Smooth scroll to center the target line
+                codeBlock.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+
+                // Add highlight class for visual feedback
+                codeBlock.classList.add('line-highlight');
+                console.log('Added highlight class');
+
+                // Remove highlight after 6 seconds
+                setTimeout(() => {
+                    codeBlock.classList.remove('line-highlight');
+                    console.log('Removed highlight class');
+                }, 6000);
+            }
+        }
+    });
+</script>
+</body>
+</html>

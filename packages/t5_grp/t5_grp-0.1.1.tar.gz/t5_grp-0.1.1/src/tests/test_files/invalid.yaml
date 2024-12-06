@@ -1,0 +1,54 @@
+stages:
+  - build
+  - test
+  - documentation
+  - deploy
+  - review
+
+
+compile:
+  stage:
+  needs: ["validation"]
+  script:
+    - echo "Compile application"
+  artifacts:
+    paths:
+      - app/build/classes/*
+
+comp:
+
+validation:
+  stage: build
+  script:
+    - echo "Running validations"
+  artifacts:
+    paths:
+      - app/build/reports/*
+
+testing:
+  stage: test
+  script:
+    - echo "Running unit tests... "
+
+  artifacts:
+    paths:
+      - app/build/reports/*
+
+javadoc:
+  stage: documentation
+  script:
+    - echo "Generate Javadocs"
+    - gradle javadoc
+  artifacts:
+    paths:
+      - app/build/docs/*
+
+distribution:
+  stage: deploy
+  script:
+    - echo "Create distribution"
+  artifacts:
+    paths:
+      - app/build/distributions/*
+      - app/build/docs/*
+      - app/build/reports/*

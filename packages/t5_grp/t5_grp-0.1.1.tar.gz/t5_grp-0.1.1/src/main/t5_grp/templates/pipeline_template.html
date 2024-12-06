@@ -1,0 +1,120 @@
+<!-- Pipeline Visualization Template
+================================================
+This template renders a visual representation of a CI/CD pipeline with:
+- Stages and jobs layout
+- Job dependencies visualization
+- Artifact tracking
+- Interactive tooltips
+-->
+
+<!DOCTYPE html>
+<html lang="en" data-theme="{{ theme }}">
+<head>
+    <!-- Standard meta tags and resource links -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ pipeline.name }}</title>
+    <link rel="stylesheet" href="{{ asset_path }}/main.css">
+    <link rel="icon" href="{{ asset_path }}/favicon.ico" type="image/x-icon">
+    {% if custom_css %}
+        <link rel="stylesheet" href="{{ custom_css }}">
+    {% endif %}
+    <style>
+        :root {
+            --stage-gap: {{ stage_gap }}px;
+        }
+    </style>
+</head>
+<body>
+<!-- Dynamic title for the pipeline -->
+<h1 id="pipeline-title">{{ pipeline.name }}</h1>
+
+<!-- Main pipeline visualization container -->
+<div class="pipeline">
+    <!-- Stages container - Holds all pipeline stages and SVG arrows -->
+    <div class="stages-container">
+        <!-- Stage iteration - Each stage contains jobs and artifacts -->
+        {% for stage in pipeline.stages %}
+            <!-- Individual stage wrapper with jobs and artifacts -->
+            <div class="stage-wrapper">
+                <div class="stage">
+                    <div class="stage-title">{{ stage.name }}</div>
+                    <!-- Loop through each job and check its stage -->
+                    {% for job_name, job in stage.jobs %}
+                        <div class="job"
+                             data-order="{{ loop.index0 }}"
+                             id="job_{{ job_name }}"
+                             data-job-name="{{ job_name }}"
+                             data-stage="{{ job.stage }}"
+                             data-needs="{{ job.needs|join(',') if job.needs else '' }}"
+                             data-allow-failure="{{ job.allow_failure|default(false)|string|lower }}">
+                            {{ job_name }}
+                            <div class="job-tooltip">
+                                <div><strong>Stage:</strong> {{ job.stage }}</div>
+                                <div><strong>Dependencies:</strong> {{ job.needs|join(', ') or 'None' }}</div>
+                                <div><strong>Allow Failure:</strong> {{ job.allow_failure|default(false)|string|lower }}</div>
+                                <div><strong>Source:</strong> <a href="{{ yaml_path }}#L{{ job.__line_info.start_line }}" target="_blank" class="job-link">
+                                    View in YAML
+                                </a>
+                                </div>
+                                {% if job.artifacts %}
+                                    <div><strong>Artifacts:</strong>
+                                        <ul>
+                                            {% for artifact in job.artifacts %}
+                                                <li>{{ artifact }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% if stage.name in pipeline.artifacts and pipeline.artifacts[stage.name] %}
+                    <div class="stage-artifacts">
+                        <div class="artifacts-box">
+                            <div class="artifacts-title">{{stage.name}} Artifacts</div>
+                            <ul class="artifacts-list">
+                                {% for artifact in pipeline.artifacts[stage.name] %}
+                                    <li>{{ artifact }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+        <!-- All Artifacts -->
+        <div class="stage-wrapper">
+            <div class="stage empty-stage">
+                <!-- empty stage -->
+            </div>
+            <div class="stage-artifacts">
+                <div class="artifacts-box">
+                    <div class="artifacts-title">All Artifacts</div>
+                    <ul class="artifacts-list">
+                        {% for artifact in pipeline.all_artifacts %}
+                            <li>{{ artifact }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- SVG element for drawing arrows between jobs -->
+        <svg class="arrows" width="100%" height="100%" preserveAspectRatio="xMinYMin meet">
+            <defs>
+                <marker id="arrowhead-down" markerWidth="10" markerHeight="8"
+                        refX="9" refY="4" orient="auto">
+                    <polygon points="0 0, 10 4, 0 8" fill="#666"/>
+                </marker>
+                <marker id="arrowhead-up" markerWidth="10" markerHeight="8"
+                        refX="9" refY="4" orient="auto-start-reverse">
+                    <polygon points="0 0, 10 4, 0 8" fill="#666"/>
+                </marker>
+            </defs>
+        </svg>
+    </div>
+</div>
+<script src="{{ asset_path }}/main.js"></script>
+</body>
+</html>

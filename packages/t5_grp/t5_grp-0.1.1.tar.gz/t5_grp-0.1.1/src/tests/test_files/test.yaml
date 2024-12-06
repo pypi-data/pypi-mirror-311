@@ -1,0 +1,120 @@
+pipeline:
+  name: Full Stack Application Pipeline
+
+stages:
+  - prepare
+  - build
+  - test
+  - security
+  - doc
+  - deploy
+
+jobs:
+  - name: install_dependencies
+    stage: prepare
+    script:
+      - npm install
+      - pip install -r requirements.txt
+    artifacts:
+      paths:
+        - node_modules/*
+        - venv/*
+
+  - name: static_analysis
+    stage: prepare
+    script:
+      - eslint src/
+      - pylint src/
+    allow_failure: true
+
+  - name: compile_frontend
+    stage: build
+    needs: [install_dependencies, static_analysis]
+    script:
+      - npm run build
+    artifacts:
+      paths:
+        - dist/*
+        - build/frontend/*
+
+  - name: compile_backend
+    stage: build
+    needs: [install_dependencies]
+    script:
+      - python setup.py build
+    artifacts:
+      paths:
+        - build/backend/*
+        - dist/*.whl
+
+  - name: unit_test_frontend
+    stage: test
+    needs: [compile_frontend]
+    script:
+      - npm run test
+    artifacts:
+      paths:
+        - coverage/frontend/*
+
+  - name: unit_test_backend
+    stage: test
+    needs: [compile_backend]
+    script:
+      - pytest tests/
+    artifacts:
+      paths:
+        - coverage/backend/*
+
+  - name: integration_test
+    stage: test
+    needs: [unit_test_frontend, unit_test_backend]
+    script:
+      - npm run integration-test
+    artifacts:
+      paths:
+        - test-results/*
+
+  - name: security_scan
+    stage: security
+    needs: [compile_frontend, compile_backend]
+    script:
+      - snyk test
+      - owasp-dependency-check
+    allow_failure: true
+    artifacts:
+      paths:
+        - security-reports/*
+
+  - name: generate_docs
+    stage: doc
+    needs: [integration_test]
+    script:
+      - npm run docs
+      - sphinx-build docs/ build/docs
+    artifacts:
+      paths:
+        - build/docs/*
+        - api-docs/*
+
+  - name: deploy_staging
+    stage: deploy
+    needs: [security_scan, generate_docs]
+    script:
+      - deploy-to-staging.sh
+    environment: staging
+
+  - name: deploy_production
+    stage: deploy
+    needs: [deploy_staging]
+    script:
+      - deploy-to-production.sh
+    environment: production
+    when: manual
+
+default:
+  before_script:
+    - echo "Starting job..."
+    - setup-environment.sh
+  after_script:
+    - echo "Job finished."
+    - cleanup-workspace.sh

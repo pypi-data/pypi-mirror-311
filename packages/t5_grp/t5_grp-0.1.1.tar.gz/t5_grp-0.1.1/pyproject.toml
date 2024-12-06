@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "t5_grp"
+version = "0.1.1"
+description = "A tool to generate and visualize pipeline diagrams"
+authors = ["Yoyo <wu.yuanyu@northeastern.edu>"]
+license = "MIT"
+readme = "README.md"
+
+packages = [
+    { include = "t5_grp", from = "src/main" },
+    { include = "tests", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyyaml = "^6.0.2"
+jinja2 = "^3.1.4"
+selenium = "^4.26.1"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.4"
+pytest-cov = "^4.0.0"
+black = "^24.10.0"
+flake8 = ">=6.0.0,<8.0.0"
+nox = "^2024.4.15"
+nox-poetry = "^1.0.3"
+webdriver-manager = "^3.8.0"
+Pygments = "^2.17.2"
+
+
+[tool.poetry.scripts]
+cicd = "t5_grp.main:cli"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "src/tests"
+]
+pythonpath = [
+    ".",
+    "./src"
+]
+[tool.black]
+line-length = 88
+target-version = ['py36', 'py37', 'py38', 'py39', 'py310']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
