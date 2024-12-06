@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+moseh/moseh.py
+moseh.egg-info/PKG-INFO
+moseh.egg-info/SOURCES.txt
+moseh.egg-info/dependency_links.txt
+moseh.egg-info/top_level.txt
