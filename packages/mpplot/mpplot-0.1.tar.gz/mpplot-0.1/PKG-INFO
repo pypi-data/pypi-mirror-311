@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: MPplot
+Version: 0.1
+Summary: MPplot that connect matplotlib and matlab
+Author: kevin
+Author-email: kevin2059@163.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: h5py>=3.12.1
+Requires-Dist: matplotlib>=3.9.2

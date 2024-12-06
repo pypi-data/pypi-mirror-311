@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+MPplot.egg-info/PKG-INFO
+MPplot.egg-info/SOURCES.txt
+MPplot.egg-info/dependency_links.txt
+MPplot.egg-info/entry_points.txt
+MPplot.egg-info/requires.txt
+MPplot.egg-info/top_level.txt
