@@ -1,0 +1,12 @@
+conflictfree/__init__.py,sha256=GNXixCpdf6PFjl1DPsiueS64qfxCIutbKI-ZDO4XkMc,107
+conflictfree/grad_operator.py,sha256=zBQezhN7DmsrQof3ZDls4c6TQr_oxpJPMkdh3LMR3CI,16081
+conflictfree/length_model.py,sha256=n-xgHr4hQAF0963AO_tU2Bguhz2ULf8BL94lficSmtg,11036
+conflictfree/loss_recorder.py,sha256=xeVKzxRY3ZJ8HxeayWH3ubN_N-ajI9JIZbfZx2nJkh0,4416
+conflictfree/momentum_operator.py,sha256=DGLC96Q_u4Vwo-4X6I1dKVdVKfEz0CrByI6Web_AUvk,17317
+conflictfree/utils.py,sha256=12QUDIoZfor59jBIZ14o01Wpz4ejy5HoOpA2K3XQQZM,12827
+conflictfree/weight_model.py,sha256=pM3MlTSxaAkR4cdPclOhgdoreJ4rbql26giWSHmaMrQ,1759
+conflictfree-0.1.6.dist-info/LICENSE,sha256=I6uJnCiRqNp57yjbXPMw53QOTf2-tE0AZRFwMBVevmM,1084
+conflictfree-0.1.6.dist-info/METADATA,sha256=juaEfuf82ltxIgDFpmOBe36Q4a0ZXERdGZ75730P0EI,6899
+conflictfree-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+conflictfree-0.1.6.dist-info/top_level.txt,sha256=-vplSF7xsJDpdYdG1fqsCE5eH4H4twc66UIzYXCh4dk,13
+conflictfree-0.1.6.dist-info/RECORD,,
