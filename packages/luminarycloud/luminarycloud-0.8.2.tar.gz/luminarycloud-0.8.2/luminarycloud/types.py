@@ -1,0 +1,8 @@
+# Copyright 2024 Luminary Cloud, Inc. All Rights Reserved.
+from typing import NewType
+
+ProjectID = NewType("ProjectID", str)
+MeshID = NewType("MeshID", str)
+SimulationID = NewType("SimulationID", str)
+SolutionID = NewType("SolutionID", str)
+SimulationTemplateID = NewType("SimulationTemplateID", str)
