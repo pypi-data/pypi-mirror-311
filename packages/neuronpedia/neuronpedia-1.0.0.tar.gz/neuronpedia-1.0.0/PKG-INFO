@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: neuronpedia
+Version: 1.0.0
+Summary: Official Neuronpedia Python Library
+Author: Johnny Lin
+Author-email: johnny@neuronpedia.org
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+
