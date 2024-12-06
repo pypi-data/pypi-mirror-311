@@ -1,0 +1,2 @@
+[console_scripts]
+annotation = gff_tpg_pack:main

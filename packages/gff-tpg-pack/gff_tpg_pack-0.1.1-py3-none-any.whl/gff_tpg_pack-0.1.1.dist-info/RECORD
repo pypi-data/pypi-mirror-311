@@ -1,0 +1,16 @@
+gff_tpg_pack/.python-version,sha256=ekGkE1SrgEkJHvGgAlPKAFZ_Wh0_mu9VAsC0tc6a5wc,5
+gff_tpg_pack/__init__.py,sha256=EAqm5m5mQ6aIs5kMYWRARHJnP9_IkrZuWC7w65RDp2s,25
+gff_tpg_pack/annotation.py,sha256=a8UHuU95KbJrfk73qPm6u8rJK1-4jCrquHZArPysMM0,16320
+gff_tpg_pack/gene_uniprot_interop/README.md,sha256=i4RCAK1jzO8L4SktUsdNaSOPVMOU3t4_ctPDX1WJask,10486
+gff_tpg_pack/gene_uniprot_interop/assets/indice.jpg,sha256=O2AnulCIpB7ABUKmOmqqCzznr57OHWN_iktjyUQUaqI,65427
+gff_tpg_pack/gene_uniprot_interop/data/proteins_uniprot.txt.gz,sha256=46dchuj8FPJ7ET4gxNxRuQmdc71p3HLQJUSQROUNjYA,2724195
+gff_tpg_pack/gene_uniprot_interop/data/countings/countings1.tsv,sha256=X8wbJ9mWEEEEkgvSTr5mjCPLqFG4CAihjHOjo-DjUC8,17220
+gff_tpg_pack/gene_uniprot_interop/data/countings/countings2.tsv,sha256=bdD-8xonVk5YigEcaLo4CxbdeWnXrknrgFhvkkdiIC8,17241
+gff_tpg_pack/gene_uniprot_interop/data/countings/countings3.tsv,sha256=KNWzeM-mE_IN24Il3zImNyRxH148jsCp-DYrxzVG9Cw,17368
+gff_tpg_pack/gene_uniprot_interop/data/countings/countings4.tsv,sha256=EcEknOeTQ5zC8_hZqF60GrmRmNVf0zzxBg6EL5qZiHU,17168
+gff_tpg_pack/gene_uniprot_interop/data/countings/countings5.tsv,sha256=K7I_Je6zy1WbRQ28XmpJtfzgSSD4l7qK2LNd9MMhnUY,17702
+gff_tpg_pack/gene_uniprot_interop/data/genes_annotations/annotation.gff,sha256=MoFO8BdxPMR1vO64qpKPsl8_S8Tl0P4cAfvNluD4pX0,2702417
+gff_tpg_pack-0.1.1.dist-info/METADATA,sha256=pLe5nGREi_NwGE5SwyLUolGWZZuYP6byDyagXisWgVw,4528
+gff_tpg_pack-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+gff_tpg_pack-0.1.1.dist-info/entry_points.txt,sha256=kIEMf8vVCRpG73h9mc98YaEYgwrJRKBuVQ7igra_fDg,49
+gff_tpg_pack-0.1.1.dist-info/RECORD,,
