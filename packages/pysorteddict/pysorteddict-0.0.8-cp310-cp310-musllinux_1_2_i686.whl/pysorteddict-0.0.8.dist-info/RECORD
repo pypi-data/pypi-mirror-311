@@ -1,0 +1,9 @@
+pysorteddict.abi3.so,sha256=H12qNJuC_a9HFWMLHYnplriwJNWGJZBN4UNfrHu05Sk,191589
+pysorteddict.libs/libstdc++-d2a021ba.so.6.0.32,sha256=1zr_iwGwEBe95gyKdgiw7C4Y1RR9ijV40j66rk4elzg,3537349
+pysorteddict.libs/libgcc_s-f3fb5a36.so.1,sha256=SrjjCCuY7RHj-T9JLrY9XFMgCCpYD9Qmezr4uoJGVEQ,168321
+pysorteddict-0.0.8.dist-info/top_level.txt,sha256=7ZNZyBgOg-S8hFnJwZRa7h_5hGtT_FOQjNCsgWkMcaA,13
+pysorteddict-0.0.8.dist-info/RECORD,,
+pysorteddict-0.0.8.dist-info/COPYING.md,sha256=_xqQ0XlH8kCEkOc40n7pmwQ1GhOgTJah3l8qvp5bX1Q,31917
+pysorteddict-0.0.8.dist-info/METADATA,sha256=gIh75K-e_Z-X2Dhz86j929plC50PT0SvxW_mVbj_NA0,4253
+pysorteddict-0.0.8.dist-info/WHEEL,sha256=LxbOFmZynDfAxeh1h9HNFqTeZuGGGbr15P2eMJGa0BU,110
+pysorteddict/pysorteddict.cc,sha256=iNnI5e4p97rFGravoztoReNCWNXa0gybdr9bn6SKCA8,13470
