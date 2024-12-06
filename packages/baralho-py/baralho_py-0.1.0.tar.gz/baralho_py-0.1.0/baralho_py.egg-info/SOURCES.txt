@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+baralho-py/__init__.py
+baralho-py/baralho.py
+baralho_py.egg-info/PKG-INFO
+baralho_py.egg-info/SOURCES.txt
+baralho_py.egg-info/dependency_links.txt
+baralho_py.egg-info/top_level.txt
