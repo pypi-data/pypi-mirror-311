@@ -1,0 +1,2 @@
+sentry==24.*
+opensearch-py==2.*
