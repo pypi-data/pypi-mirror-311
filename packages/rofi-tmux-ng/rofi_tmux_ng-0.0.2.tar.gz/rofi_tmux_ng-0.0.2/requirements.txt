@@ -1,0 +1,5 @@
+-e .
+sphinx
+sphinx-autobuild
+sphinxnotes-strike
+sphinx_rtd_theme
