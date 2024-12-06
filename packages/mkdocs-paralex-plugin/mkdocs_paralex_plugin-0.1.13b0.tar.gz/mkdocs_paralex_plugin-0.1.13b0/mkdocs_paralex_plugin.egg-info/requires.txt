@@ -1,0 +1,8 @@
+mkdocs
+pandas>=2.2.0
+frictionless>=5.16.0
+unidecode
+tqdm
+paralex>=1.0.16
+minify_html
+pybtex
