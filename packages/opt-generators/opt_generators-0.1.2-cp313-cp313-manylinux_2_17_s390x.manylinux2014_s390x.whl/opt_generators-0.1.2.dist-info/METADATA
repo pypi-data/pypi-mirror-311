@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: opt_generators
+Version: 0.1.2
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-benchmark ; extra == 'dev'
+Provides-Extra: dev
+License-File: LICENSE
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Opt-Generators
