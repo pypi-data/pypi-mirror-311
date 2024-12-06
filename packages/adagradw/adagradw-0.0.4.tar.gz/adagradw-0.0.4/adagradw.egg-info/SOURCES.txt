@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+requirements.txt
+adagradw/__init__.py
+adagradw/adagradw.py
+adagradw.egg-info/PKG-INFO
+adagradw.egg-info/SOURCES.txt
+adagradw.egg-info/dependency_links.txt
+adagradw.egg-info/requires.txt
+adagradw.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+# adagradw - Decoupled Weight Decay for Adagrad
+
+The Adagrad optimizer preconditions the gradient update by the accumulated sum of squares of gradients.
+Assuming a batch size of 1 and learning rate of 0, this accumulated sum of squares of gradients is a
+diagonal approximation to the Empirical Fisher information matrix.
+However, using weight decay, the original PyTorch implementation updates the gradient with the gradient
+of the regularization term before computing the squared gradient, in which case the earlier equivalence
+to the empirical Fisher information does not hold anymore.
+This implementation applies the same trick as the AdamW optimizer to decouple weight decay and learning 
+rate in Adam, by directly applying the regularizer's gradient step rather than combining gradients,
+thus recovering the equivalence with approximate computation of the Empirical Fisher information even when
+using weight decay.
+
+## Usage
+
+Install with `pip install adagradw` and then just use as drop-in replacement
+```python3
+- optim = torch.optim.Adagrad(model.parameters(), lr=1e-3)
++ optim = adagradw.AdagradW(model.parameters(), lr=1e-3)
+
+  for x, y in train_dataloader:
+      loss = loss_fn(model(x), y)
+      
+      optim.zero_grad()
+      loss.backward()
+      optim.step()
+```
+

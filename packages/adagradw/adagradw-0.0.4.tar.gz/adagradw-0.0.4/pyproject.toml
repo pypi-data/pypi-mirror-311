@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-git-versioning<2", ]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools-git-versioning]
+enabled = true
+dev_template = "{tag}+git.{sha}"
+dirty_template = "{tag}+git.{sha}.dirty"
+
+[tool.setuptools]
+packages = ["adagradw"]
+
+[project]
+name = "adagradw"
+authors = [
+  { name="Richard D. Paul", email="richard@los-paul.eu" },
+]
+description = "AdagradW - Decoupled Weight Decay in Adagrad"
+readme = "README.md"
+
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies", "version"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+#[project.urls]
+#"Homepage" = "https://jugit.fz-juelich.de/ias-8/baytorch/"
+#"Bug Tracker" = "https://jugit.fz-juelich.de/ias-8/baytorch/-/issues/"
