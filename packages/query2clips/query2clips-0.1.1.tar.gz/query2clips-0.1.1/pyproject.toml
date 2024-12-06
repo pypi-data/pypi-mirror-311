@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "query2clips"
+version = "0.1.1"
+description = "Query2Clips"
+authors = [
+  "Hanch Han <cndghks15@gmail.com>"
+]
+repository = "https://github.com/hanchchch/query2clips"
+documentation = "https://github.com/hanchchch/query2clips"
+license = "Apache-2.0"
+readme = "README.md"
+
+[[tool.poetry.packages]]
+include = "query2clips"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+python-dotenv = "^1.0.1"
+boto3 = "^1.35.35"
+requests = "^2.32.3"
+ffmpeg-python = "^0.2.0"
+tqdm = "^4.66.5"
+cython = "^3.0.11"
+numpy = "<2.0.0"
+scenedetect = "^0.6.4"
+yt-dlp = "^2024.11.18"
+opencv-python = "^4.10.0.84"
+py7zr = "^0.22.0"
+
+[tool.poetry.group.gemini.dependencies]
+google-generativeai = "^0.8.3"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "2.1.0"
+flake8 = "7.0.0"
+pytest = "8.1.1"
+pytest-sugar = "1.0.0"
+
+[build-system]
+requires = [ "poetry-core" ]
+build-backend = "poetry.core.masonry.api"
