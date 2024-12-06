@@ -1,0 +1,3 @@
+[console_scripts]
+jazyk=jazyk.main:translate_text
+
