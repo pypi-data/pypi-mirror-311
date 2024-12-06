@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: query2clips
+Version: 0.1.2
+Summary: Query2Clips
+Home-page: https://github.com/hanchchch/query2clips
+License: Apache-2.0
+Author: Hanch Han
+Author-email: cndghks15@gmail.com
+Requires-Python: >=3.9,<3.14
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: boto3 (>=1.35.35,<2.0.0)
+Requires-Dist: cython (>=3.0.11,<4.0.0)
+Requires-Dist: ffmpeg-python (>=0.2.0,<0.3.0)
+Requires-Dist: numpy (<2.0.0)
+Requires-Dist: opencv-python (>=4.10.0.84,<5.0.0.0)
+Requires-Dist: py7zr (>=0.22.0,<0.23.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: scenedetect (>=0.6.4,<0.7.0)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Requires-Dist: yt-dlp (>=2024.11.18,<2025.0.0)
+Project-URL: Documentation, https://github.com/hanchchch/query2clips
+Project-URL: Repository, https://github.com/hanchchch/query2clips
+Description-Content-Type: text/markdown
+
+# Query2Clips
+
+Query2Clips is a tool to generate clips and captions based on a query.
+
+## Installation
+
+```bash
+pip install query2clips
+```
+
+## Usage
+
+```bash
+python3 -m query2clips --query "a cat playing piano"
+```
+
