@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sgd_boost/__init__.py
+sgd_boost/__version__.py
+sgd_boost/sgd_boost.py
+sgd_boost.egg-info/PKG-INFO
+sgd_boost.egg-info/SOURCES.txt
+sgd_boost.egg-info/dependency_links.txt
+sgd_boost.egg-info/top_level.txt
