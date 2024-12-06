@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: siliconperception
+Version: 0.0.9
+Summary: Single chip image encoder models with pretrained weights from HuggingFace
+Project-URL: Homepage, https://www.siliconperception.com
+Project-URL: Issues, https://github.com/siliconperception/models
+Author-email: Rob Liston <rliston@siliconperception.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# models
+PyTorch models for Silicon Perception single chip image encoders
