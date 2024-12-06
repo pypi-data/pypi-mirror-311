@@ -1,0 +1,4 @@
+[console_scripts]
+checkcli=sjcli:cli
+checkme=clarity:cli
+
