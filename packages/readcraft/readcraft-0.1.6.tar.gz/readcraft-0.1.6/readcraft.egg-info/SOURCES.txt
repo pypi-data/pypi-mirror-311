@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+readcraft/__init__.py
+readcraft/readme_generator.py
+readcraft.egg-info/PKG-INFO
+readcraft.egg-info/SOURCES.txt
+readcraft.egg-info/dependency_links.txt
+readcraft.egg-info/entry_points.txt
+readcraft.egg-info/requires.txt
+readcraft.egg-info/top_level.txt
+tests/test_generate_readme.py
