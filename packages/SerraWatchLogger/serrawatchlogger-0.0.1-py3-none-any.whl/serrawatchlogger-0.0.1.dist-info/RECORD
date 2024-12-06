@@ -1,0 +1,8 @@
+SerraWatchLogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SerraWatchLogger/backend/SerraWatchLogger.py,sha256=EgWmilHu5iVTFOBo2KtFgKC0mKqkEW-AVmmokjMPwqU,2430
+SerraWatchLogger/backend/__init__.py,sha256=M8HaT3Fv4Y_boIvvnwOffCxIYMlRrVtaUtP0Na5NBzs,24
+SerraWatchLogger/config/__init__.py,sha256=dTK2G-leZUedHEZ82Ljk3bbc8b9bnfuwHnum_AzwzZY,33
+SerraWatchLogger/config/config.yaml,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+serrawatchlogger-0.0.1.dist-info/METADATA,sha256=efssooYnTFi_9aoo_DnA3YLES_oXlidRYhBAuMTQdDs,692
+serrawatchlogger-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+serrawatchlogger-0.0.1.dist-info/RECORD,,
