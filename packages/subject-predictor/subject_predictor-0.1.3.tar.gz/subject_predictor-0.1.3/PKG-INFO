@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: subject-predictor
+Version: 0.1.3
+Summary: Text subject prediction using embedding models
+Project-URL: Homepage, https://github.com/seekh-app/subject-classifier-package
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: sentence-transformers>=2.2.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: boto3>=1.18.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.0; extra == "dev"
+Requires-Dist: twine>=3.4.0; extra == "dev"
+
+# Subject Predictor
+
+A Python package for predicting text subjects using advanced embedding techniques.
+
+## Installation
+
+```bash
+pip install subject-predictor
