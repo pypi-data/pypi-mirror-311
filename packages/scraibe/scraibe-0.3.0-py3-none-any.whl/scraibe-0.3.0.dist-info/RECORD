@@ -1,0 +1,15 @@
+scraibe/__init__.py,sha256=TaaKsCFKNOq6swoA5ZWPkEILMFYtxj4-vF-RDawyE5Q,216
+scraibe/_version.py,sha256=5mDtfU2t04ATmg92S5B-scUcdjCy1ZBq620y3GmpdtQ,21
+scraibe/audio.py,sha256=oOQu1Ef9Tlrpo9E5_qXYuFW_mAw9FIDsOPvX5ORk_p8,4529
+scraibe/autotranscript.py,sha256=lk2Ar3kErzAUyY1Iw-1wDWVvx4FoNv4sZBEcljrU70A,13545
+scraibe/cli.py,sha256=HZPDskX6e-gNawmsjAHQ0p1ELHyrwtSlnyzZQgYVbw8,6893
+scraibe/diarisation.py,sha256=4CAXHLZxb68Knr1GBR-XDfaCKn7PG1mqF_-cb1S3PIE,11601
+scraibe/hallucinations.py,sha256=QeuEwWUws3CCuoHO9WHZq4xWOudoMZz6OrrqQ_tYH-A,4056
+scraibe/misc.py,sha256=H-ho_nsFu7whetVgdCYEFUIfVxEetDM9Bo2guOcHKZg,3338
+scraibe/transcriber.py,sha256=RlAv9n9KoEVdANeHcJF2jUIWgYxoE6K9qGpjVbhGV58,16911
+scraibe/transcript_exporter.py,sha256=_rPT-Y2-dYmS2jUi5e71Kl6zEVcBh_w2rrJcnutuK5I,10167
+scraibe-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scraibe-0.3.0.dist-info/METADATA,sha256=A8dAgF8VxHv6-Oo-V_QnpMhEXEffowuC2AUdaRpm6aM,44798
+scraibe-0.3.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+scraibe-0.3.0.dist-info/entry_points.txt,sha256=eTWrydGt1j7HEz14iJq5gCHCF7mHKAzmjI8bDitov0g,43
+scraibe-0.3.0.dist-info/RECORD,,
