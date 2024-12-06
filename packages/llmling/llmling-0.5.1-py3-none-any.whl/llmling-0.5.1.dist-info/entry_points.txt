@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-llmling = llmling.server.__main__:run
