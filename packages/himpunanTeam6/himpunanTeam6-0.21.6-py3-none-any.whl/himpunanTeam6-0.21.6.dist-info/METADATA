@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: himpunanTeam6
+Version: 0.21.6
+Summary: Package Python untuk operasi himpunan menggunakan teori himpunan dasar
+Author: Team 6_Leonard_Apryadi
+Author-email: leowidj@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
