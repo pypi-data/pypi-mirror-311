@@ -1,0 +1,9 @@
+refractulator/__init__.py,sha256=wvhVFq2LzfMV3hLgO6xeJHX_kKoZMR39HC477zmpMEg,125
+refractulator/calculate.py,sha256=l0-eyneEC5BXNqUOl3m9CZ4cwp0lyvik5gCDAZYpjbA,5798
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_calculate.py,sha256=zy9pxGxOrQjtLT9yC3lv6bTxtWvr1aT-1TjGIdy_sFA,2419
+refractulator-0.1.0.dist-info/LICENSE,sha256=eQkZIGih1bxB5FqtImz625o6H2YFY-iMRnhZIy8RLc8,1091
+refractulator-0.1.0.dist-info/METADATA,sha256=gBPdjGghGL14-JmIElv_piuSPn_j7V66Yg5nsiLQ9qU,1690
+refractulator-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+refractulator-0.1.0.dist-info/top_level.txt,sha256=gArycF7F08zJhtTlaslbsJyevD2UZGRzORQ4yp2GJaU,20
+refractulator-0.1.0.dist-info/RECORD,,
