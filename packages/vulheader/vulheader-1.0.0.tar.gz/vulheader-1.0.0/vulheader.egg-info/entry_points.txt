@@ -1,0 +1,2 @@
+[console_scripts]
+vulheader = vulheader.cli:main

@@ -1,0 +1,11 @@
+README.md
+setup.py
+vulheader/__init__.py
+vulheader/cli.py
+vulheader/header_checker.py
+vulheader.egg-info/PKG-INFO
+vulheader.egg-info/SOURCES.txt
+vulheader.egg-info/dependency_links.txt
+vulheader.egg-info/entry_points.txt
+vulheader.egg-info/requires.txt
+vulheader.egg-info/top_level.txt
