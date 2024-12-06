@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "mlcs-assignments"
+version = "0.1.0"
+description = ""
+authors = [
+    "Julius Neuffer",
+    "Zurab Mujirishvili <zurab.mujirishvili@fau.de>",
+    "Shuli Zhou",
+    "Fazal Feroz Kadri",
+    "Johannes Bellman",
+    "Lars Ullrich",
+]
+readme = "README.md"
+packages = [
+    { include = "templates", from = "." },
+    { include = "helpers", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+notebook = "^7.2.1"
+numpy = "^2.0.1"
+plotly = "^5.23.0"
+scipy = "^1.14.0"
+sympy = "^1.13.1"
+click = "^8.1.7"
+jinja2 = "^3.1.4"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+pyright = "^1.1.380"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs = "^1.6.1"
+mkdocstrings = {extras = ["python"], version = "^0.27.0"}
+mkdocs-material = "^9.5.46"
+black = "^24.10.0"
+
+[tool.ruff]
+extend-include = ["*.ipynb"]
+lint.ignore = ["E731", "E741", "F811", "F841"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "helpers", "tests"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
