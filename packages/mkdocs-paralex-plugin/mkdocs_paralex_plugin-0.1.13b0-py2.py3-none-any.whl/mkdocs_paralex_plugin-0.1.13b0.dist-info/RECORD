@@ -1,0 +1,14 @@
+mkdocs_paralex_plugin/__init__.py,sha256=tjgqCQ65sqnqjDJE0TUqbmzz06IDd5fv4ND_sBqzIEI,21
+mkdocs_paralex_plugin/convert.py,sha256=iHEoB6dy6m-dERa-EAd4NdxjM5uyWRP0GnauGLBeTv0,7121
+mkdocs_paralex_plugin/paralex.png,sha256=axQYXvOYM_FuJfi5Y6i7XhKUIEC-aEe5IV4f0K0391Q,1082
+mkdocs_paralex_plugin/plugin.py,sha256=eJL8PGqV7YsRPJfL18nopO4_evJyNgdDgfCpUh4jn3A,14432
+mkdocs_paralex_plugin/utils.py,sha256=YvhYTZ9cazDBMLttzoKCM0A6qP43qTAznEyUiJaMMwY,1213
+mkdocs_paralex_plugin/css/paralex_styles.css,sha256=_i05xx03J0y8CAxafzrb985FRPE0YlRtsv7SxfxAml8,2496
+mkdocs_paralex_plugin/templates/paradigm.md,sha256=lmB9bJ5ebi9VvI_SHOQR_4DT0rhwGaCJSBcHLI2tbl0,3125
+mkdocs_paralex_plugin/templates/table.md,sha256=i5ceBkLc-zOG-an4Bc0t6lL64QXj9SgR_uzN7aoUQgM,4000
+mkdocs_paralex_plugin-0.1.13b0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mkdocs_paralex_plugin-0.1.13b0.dist-info/METADATA,sha256=NOVZJgCrWLWCeWntbsD1zB_xk4XnGn_YfvdPYtEMHm4,3975
+mkdocs_paralex_plugin-0.1.13b0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+mkdocs_paralex_plugin-0.1.13b0.dist-info/entry_points.txt,sha256=AbaBAUiWQXTVcPrRV_zAi_usE78_EsUhxLOYoRTJ5ek,68
+mkdocs_paralex_plugin-0.1.13b0.dist-info/top_level.txt,sha256=yDPWui6qqfCdlco7oVL0fASiubkUzQb1KG9uCOCG8Xc,22
+mkdocs_paralex_plugin-0.1.13b0.dist-info/RECORD,,
