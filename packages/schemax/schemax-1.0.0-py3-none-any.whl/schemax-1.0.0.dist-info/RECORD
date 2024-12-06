@@ -1,0 +1,14 @@
+schemax/__init__.py,sha256=LjWpL7V9US7eN-gSdyOA1xni4RwRd0ZDXP1vRAFREbI,1049
+schemax/__main__.py,sha256=qZVZJonpU2InPlM0ckiI8CfRmvvFioi4SNqEoiavEos,2847
+schemax/__version__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+schemax/_from_json_schema.py,sha256=vq4Cmc9pIwKp0jaRVxcbGKFyWoEMBT5cUBouq6ODxb4,9156
+schemax/_generator.py,sha256=yj2nRvIR3s1aEn0pcwLr8Kyi6xZTyqOnk_7SJJJEQVQ,6470
+schemax/_translator.py,sha256=_6V4nwPy0Ty2F3e38Thg2RzUQpZHmaAneSbikBQ2HZQ,7061
+schemax/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schemax/supported_props.py,sha256=RDW2JYht1j0wDk6GsEIF-RFbx1rlkhba55Wm1PANJV4,417
+schemax-1.0.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+schemax-1.0.0.dist-info/METADATA,sha256=WIsRq5w8t5URfHxMtjecj1zr3qdq1VDtl1QfUWm4H6M,8269
+schemax-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+schemax-1.0.0.dist-info/entry_points.txt,sha256=vAAVzVbYQHUXXphpwgjjM9Uv6A9IKOkhVQC5f8O5T-8,50
+schemax-1.0.0.dist-info/top_level.txt,sha256=GS7YK_QA5u6Fwy4DCk1qx687r8COAg5FMRTsCAMfZCw,8
+schemax-1.0.0.dist-info/RECORD,,
