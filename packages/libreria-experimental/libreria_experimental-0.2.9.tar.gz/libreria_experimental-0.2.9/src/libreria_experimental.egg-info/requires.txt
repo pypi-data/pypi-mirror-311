@@ -1,0 +1,6 @@
+sympy
+matplotlib
+numpy
+statistics
+scipy
+mathematica
