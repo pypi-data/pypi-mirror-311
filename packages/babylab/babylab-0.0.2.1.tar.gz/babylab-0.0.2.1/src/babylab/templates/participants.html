@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<a href="{{ url_for('participant_new') }}"><button type="button" class="btn btn-primary"
+    style="float: right; margin-bottom: 2em;"><i class="fa fa-plus"></i>&nbsp&nbspNew
+    participant</button></a>
+<br><br><br>
+<hr class="my-4">
+{% endblock %}
+
+{% block content %}
+
+<body>
+  <div class="card" style="width: 100%;">
+    <h5 class="card-header">Participants</h5>
+    <div class="card-body">
+      <h6 class="card-subtitle mb-2 text-muted">Click IDs to see a participant's profile</h6>
+      <div style="text-align: left" width="10%">
+        {{ table|safe }}
+      </div>
+    </div>
+  </div>
+</body>
+{% endblock %}
