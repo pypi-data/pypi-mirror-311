@@ -1,0 +1,10 @@
+sendfile/__main__.py,sha256=u17RpEqJhF0Eh9o3tzPBCdYzzM57IjXLxvdBBYldiJI,1444
+sendfile/client.py,sha256=SLqHIHXKopH4sqn16VFjADOeMkkfkRfE1XKObigd2E8,655
+sendfile/server.py,sha256=SK5R0qRJHRobYFBAZfnAEon3q5fBZO5bPWoAZ0lKd4A,647
+sendfile/utils.py,sha256=rTjTLXTSjcmkEmjRZummElLi3_rXrZzUY503PfUsZns,251
+sendfile-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+sendfile-0.1.0.dist-info/METADATA,sha256=SMaMwa-MjKrfLbg9rLkX8sHVNC15ZoHYO6DfLGMVYRQ,2939
+sendfile-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+sendfile-0.1.0.dist-info/entry_points.txt,sha256=7wjbCEbsAcKmSi7ptGVJN_EjclRu_gKbKewHvNY72_4,52
+sendfile-0.1.0.dist-info/top_level.txt,sha256=SEFqbAzfYdEjMje_fJlDCMCkmvYQ8FsGqcb-rY4q_JY,9
+sendfile-0.1.0.dist-info/RECORD,,
