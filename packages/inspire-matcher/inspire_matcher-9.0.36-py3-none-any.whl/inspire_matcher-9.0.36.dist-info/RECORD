@@ -1,0 +1,14 @@
+inspire_matcher/__init__.py,sha256=o4rl0XVe-PQehVEESDwX6_w66tzcANSqRiojRxa__1Y,1110
+inspire_matcher/api.py,sha256=POwCJp9MlNiw7Hmsy4vZnZEorUJ1fPNSx3iYEgCxoTU,4379
+inspire_matcher/config.py,sha256=82uMAAVPHNWOBpoA5H82hvL46tscgWh_cFMnJ2_iJ4U,2404
+inspire_matcher/core.py,sha256=O1a11qwpj3gLDp3sFxnbkWzb71E8Uh4ASyhmvIB6owQ,7653
+inspire_matcher/ext.py,sha256=gCN1OH9Qj5HwBmVqhsa_k1PFqXr_v1Z4gneJEUQ_BaQ,1421
+inspire_matcher/utils.py,sha256=jSonXg7EBBZ8PEeJJyvitPKxS8s-bPPjCKwOmrRfTpY,3908
+inspire_matcher/validators.py,sha256=RM9ipYpg-NlF-kNeEYZv6g7pu8-jicPvGJthebpN-FE,4436
+inspire_matcher-9.0.36.dist-info/AUTHORS,sha256=y4_3zZBroKDsCcsBKNiMVrTpViWC7NAJi_jYLQ_oprE,764
+inspire_matcher-9.0.36.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+inspire_matcher-9.0.36.dist-info/METADATA,sha256=S9r1wZ_tBM6Mf25411s0e_PiOJIf-GxNPLACMuB6H-k,4397
+inspire_matcher-9.0.36.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+inspire_matcher-9.0.36.dist-info/entry_points.txt,sha256=VsBDr5P6l8GKxfjD4jZWYs2Ko4JBKXPlWJz-XSUjsYQ,69
+inspire_matcher-9.0.36.dist-info/top_level.txt,sha256=xA0T3JLu07vCpu3jhSz-k-ducd_4LTFQqgCfWx2xpPs,16
+inspire_matcher-9.0.36.dist-info/RECORD,,
