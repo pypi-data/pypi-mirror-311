@@ -1,0 +1,8 @@
+example_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package/example.py,sha256=Yzlv1iZRQCKZXSDVZNMt_6mRkenIobE5eMChDExLB_U,58
+example_package_shahbaz/__init__.py,sha256=ramnPOy-IALbh5K__K3nSW-JZSMoy-d9OMK1YCql5dI,29
+example_package_shahbaz/example.py,sha256=Yzlv1iZRQCKZXSDVZNMt_6mRkenIobE5eMChDExLB_U,58
+example_package_shahbaz-0.2.dist-info/METADATA,sha256=fOritPO_xnQc7zp24K5CLmDlGYUGS0iM8zQtNmx_L4c,68
+example_package_shahbaz-0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+example_package_shahbaz-0.2.dist-info/top_level.txt,sha256=0IIhzXCBYPhlj7N5bteh7w66ayHetlSCglXgCf915GE,24
+example_package_shahbaz-0.2.dist-info/RECORD,,
