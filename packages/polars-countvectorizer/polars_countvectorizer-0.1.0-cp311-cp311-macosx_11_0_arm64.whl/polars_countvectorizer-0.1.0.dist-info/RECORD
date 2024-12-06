@@ -1,0 +1,6 @@
+polars_countvectorizer-0.1.0.dist-info/METADATA,sha256=9meslO2WpKTL786grVMB3jHRsKbR4G_c_mRHRthFvXE,1814
+polars_countvectorizer-0.1.0.dist-info/WHEEL,sha256=t7r-1M1tAzi-h6yEDb421LiJ15eV0ua8o_iPrtyBDuk,104
+polars_countvectorizer-0.1.0.dist-info/licenses/LICENSE,sha256=lUDxI2CUtRuOAvk52gCqVeIickUfLLm5DKqA3l-6ioo,1069
+polars_countvectorizer/__init__.py,sha256=A83u60HyBAXhXWU6ZHX3MR2D3Dgt_gP3wzMnZ964Ra4,171
+polars_countvectorizer/polars_countvectorizer.cpython-311-darwin.so,sha256=xLZvb4DDvo-3Q6mn-wN51ECEiDrq1rspFh7Vsn3uVyM,62131152
+polars_countvectorizer-0.1.0.dist-info/RECORD,,
