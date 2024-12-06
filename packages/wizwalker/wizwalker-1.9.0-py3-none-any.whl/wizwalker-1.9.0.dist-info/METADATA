@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: wizwalker
+Version: 1.9.0
+Summary: Wizard101 scripting library
+Home-page: https://github.com/StarrFox/wizwalker
+License: GPL-3.0-or-later
+Author: StarrFox
+Author-email: starrfox6312@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0)
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: click_default_group (>=1.2.4,<2.0.0)
+Requires-Dist: janus (>=1.0.0,<2.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: pefile (>=2023.2.7,<2024.0.0)
+Requires-Dist: pymem (==1.13.1)
+Requires-Dist: regex (>=2024.5.15,<2025.0.0)
+Project-URL: Repository, https://github.com/StarrFox/wizwalker
+Description-Content-Type: text/markdown
+
+# WizWalker
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Wizard101 scripting library
+
+## Installation
+`pip install wizwalker`
+
+## Documentation
+you can find the documentation [here](https://starrfox.github.io/wizwalker/)
+
+## Discord
+you can join the offical discord [here](https://discord.gg/JHrdCNK)
+
+## Console commands
+```shell
+wizwalker start-wiz # start wizard101 instances
+wizwalker wad       # edit and extract wizard101 wad files
+```
+
