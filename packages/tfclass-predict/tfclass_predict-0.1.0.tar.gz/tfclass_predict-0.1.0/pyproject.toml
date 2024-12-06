@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tfclass_predict"
+version = "0.1.0"
+authors = [
+    { name="Hazal Timucin", email="hazal.timucin@med.uni-goettingen.de" },
+    { name="Christian Ickes", email="christian.ickes@med.uni-goettingen.de" },
+]
+description = "tfclass_predict allows to estimate transcription factor bindingsites in the TFClass hierarchy."
+readme = "README.md"
+requires-python = ">=3.9"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: Unix"
+]
+
+dependencies = [
+    "transformers >= 4.20.0",
+    "tensorflow >= 2.17.0",
+    "pysam",
+    "tf-keras >= 2.17.0",
+    "numpy",
+    "pandas",
+
+]
+
+[project.urls]
+Homepage = "https://gitlab.gwdg.de/hti/tfclass_dnabert"
+Issues = "https://gitlab.gwdg.de/hti/tfclass_dnabert/-/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["test*"]
+namespaces = false
+
+[project.scripts]
+tfclass_predict = "tfclass_predict.cli_interface:entry"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]

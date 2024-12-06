@@ -1,0 +1,2 @@
+[console_scripts]
+tfclass_predict = tfclass_predict.cli_interface:entry
