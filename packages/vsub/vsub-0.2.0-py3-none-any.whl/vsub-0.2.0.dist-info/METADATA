@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: vsub
+Version: 0.2.0
+Summary: Bash-style variable substitution: Python wrapper for C library vsub.
+Author-email: Michael Makukha <m.makukha@gmail.com>
+License: MIT
+Project-URL: Documentation, https://vsub.readthedocs.io
+Project-URL: Repository, https://github.com/makukha/vsub
+Project-URL: Issues, https://github.com/makukha/vsub/issues
+Project-URL: Changelog, https://github.com/makukha/vsub/releases
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# vsub
+
+> Bash-style variable substitution C library and tool.
+
+
+# Development
+
+Requires [Docker](https://www.docker.com) and [Task](https://taskfile.dev).
+
+Build and enter *development environment*:
+
+```shell
+# host system
+$ task dev
+```
+
+## Development environment
+
+```shell
+# docker container
+root@vsub:/build$ task compile  # compile and execute 🚀
+root@vsub:/build$ vsub --help
+root@vsub:/build$ task test     # run tests 🔥
+root@vsub:/build$ task debug    # debug 🚑
+```
+
+## Syntax research
+
+```shell
+# host system
+$ task research
+```
