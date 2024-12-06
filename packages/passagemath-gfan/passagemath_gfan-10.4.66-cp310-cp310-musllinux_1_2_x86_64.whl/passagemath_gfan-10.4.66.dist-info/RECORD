@@ -1,0 +1,11 @@
+passagemath_gfan-10.4.66.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_gfan-10.4.66.dist-info/RECORD,,
+passagemath_gfan-10.4.66.dist-info/METADATA,sha256=8ATcNIZfOXTkeVM7JVKxw5bfl1Lead0ukFwfq9Fh6gw,2595
+passagemath_gfan-10.4.66.dist-info/WHEEL,sha256=0z-dx3WjYQPNrkQK_QYzYKZwBXfy6u9GDaL6ineKHwA,112
+sage/all__sagemath_gfan.py,sha256=NQrbAZYhanka6mlj7yi5oOcCtnUslYiEDnS-wB-XkOE,43
+sage/libs/all__sagemath_gfan.py,sha256=NQrbAZYhanka6mlj7yi5oOcCtnUslYiEDnS-wB-XkOE,43
+sage/libs/gfan.cpython-310-x86_64-linux-gnu.so,sha256=VwMPD_mE6FI1ebLVwElZZI1FiF8YErLAYORtWQvJcpU,65048
+sage/interfaces/all__sagemath_gfan.py,sha256=NQrbAZYhanka6mlj7yi5oOcCtnUslYiEDnS-wB-XkOE,43
+sage/rings/all__sagemath_gfan.py,sha256=NQrbAZYhanka6mlj7yi5oOcCtnUslYiEDnS-wB-XkOE,43
+sage/rings/polynomial/all__sagemath_gfan.py,sha256=NQrbAZYhanka6mlj7yi5oOcCtnUslYiEDnS-wB-XkOE,43
+sage/rings/polynomial/groebner_fan.py,sha256=B0NMiPj5v0en46lxibal34cONTWYdlGd-hW1GIOrl2Q,68566
