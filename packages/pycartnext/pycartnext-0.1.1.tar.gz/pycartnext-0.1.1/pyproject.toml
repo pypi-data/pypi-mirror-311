@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pycartnext"
+version = "0.1.1"
+description = ""
+authors = ["MahmudulHassan5809 <mahmudul.hassan240@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+redis = "^5.2.0"
+pydantic = "^2.10.1"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+pre-commit = "^4.0.1"
+pylint = "^3.3.1"
+black = "^24.10.0"
+pytest = "^8.3.3"
+pytest-asyncio = "^0.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
