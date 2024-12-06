@@ -1,0 +1,16 @@
+cltoolkit/__init__.py,sha256=V6vlXVt52UWWGlhj0ZugWJfXEsNk3Dn-rAJhpAa9pFw,79
+cltoolkit/log.py,sha256=NdGuYLlnCV5LrsfLQ8rABbkzpIkN4cnFSf4QJaEGF5s,1611
+cltoolkit/models.py,sha256=r5eqe4WI_5tJHGRt5ZL3oJ096DibpBJuX-NqmGUdaXo,14514
+cltoolkit/util.py,sha256=pM4rUREx9NrWFivYdl8TAnQf_URQdspL3W7kbDiudoY,4633
+cltoolkit/wordlist.py,sha256=g3vxCO7QbTzUxB5wEK3wSGpKWxO3OfrsglWXgSWKj24,14290
+cltoolkit/features/__init__.py,sha256=5n8ttOs9TqNGlEISC9bjKUd-SIRJ9bib1L0mvyukJ9w,16055
+cltoolkit/features/collection.py,sha256=PSmtzct8RtiRIuvGunZRcwy8erX09AinpxYk3Z4WFh4,3704
+cltoolkit/features/lexicon.py,sha256=SHF97-UgdWzfEuXUDzsmtsVmBLUO_9pcRfootIf_GNs,4624
+cltoolkit/features/phonology.py,sha256=ulupxrOnGy6xw4xTwE98DZawvhTp_zmFT0jdu-w76po,20592
+cltoolkit/features/reqs.py,sha256=JSr2_yE5YUHaheS1tsQ54vCk-T9bUFZ7OgY4L5AQfPo,2717
+cltoolkit/features/util.py,sha256=etaGWmd7UwX4_uKdDCzCojLnvprHk5htXsU1x7K7wVY,917
+cltoolkit-0.2.0.dist-info/LICENSE,sha256=nRjJLcR7o1vjNW2MTRak8C6V92z3r28c-aK5nkmWCGw,1086
+cltoolkit-0.2.0.dist-info/METADATA,sha256=rufvw6A4O-xY2ghXRDOK7SzSENopTZ2d2pEFt863IN8,4534
+cltoolkit-0.2.0.dist-info/WHEEL,sha256=TJ49d73sNs10F0aze1W_bTW2P_X7-F4YXOlBqoqA-jY,109
+cltoolkit-0.2.0.dist-info/top_level.txt,sha256=JbYi95WAAJreIBljNt1jI6iHO3RfumCifR4VX6gJFaU,10
+cltoolkit-0.2.0.dist-info/RECORD,,
