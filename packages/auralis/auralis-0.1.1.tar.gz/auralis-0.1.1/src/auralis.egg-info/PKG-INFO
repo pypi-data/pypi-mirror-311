@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: auralis
+Version: 0.1.1
+Summary: This is a faster implementation for TTS models, to be used in highly async environment
+Home-page: https://github.com/astramind.ai/auralis
+Author: Marco Lironi
+Author-email: marcolironi@astramind.ai
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: aiofiles==24.1.0
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: cachetools==5.3.3
+Requires-Dist: colorama==0.4.6
+Requires-Dist: cutlet==0.4.0
+Requires-Dist: EbookLib==0.18
+Requires-Dist: einops==0.8.0
+Requires-Dist: fastapi==0.115.5
+Requires-Dist: ffmpeg==1.4
+Requires-Dist: fsspec==2024.10.0
+Requires-Dist: hangul_romanize==0.1.0
+Requires-Dist: huggingface_hub==0.26.1
+Requires-Dist: ipython==8.12.3
+Requires-Dist: networkx==3.4.2
+Requires-Dist: num2words==0.5.13
+Requires-Dist: opencc==1.1.9
+Requires-Dist: packaging==24.2
+Requires-Dist: pypinyin==0.53.0
+Requires-Dist: pytest==8.3.3
+Requires-Dist: safetensors==0.4.5
+Requires-Dist: setuptools==75.1.0
+Requires-Dist: vllm==0.6.4.post1
+Requires-Dist: sounddevice==0.5.1
+Requires-Dist: soundfile==0.12.1
+Requires-Dist: spacy==3.7.5
+Requires-Dist: torch==2.5.1
+Requires-Dist: torchaudio==2.5.1
+Requires-Dist: triton==3.1.0
+Requires-Dist: langid
+Requires-Dist: librosa
+Requires-Dist: numpy
+Requires-Dist: pyloudnorm
+Requires-Dist: tokenizers
+Requires-Dist: transformers
