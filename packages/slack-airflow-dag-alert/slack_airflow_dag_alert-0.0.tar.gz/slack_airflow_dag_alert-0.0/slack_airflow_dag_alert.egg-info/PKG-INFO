@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: slack_airflow_dag_alert
+Version: 0.0
+Summary: Send airflow dag alerts in slack
+Author-email: suyogkokaje6@gmail.com

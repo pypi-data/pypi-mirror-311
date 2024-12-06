@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+slack_airflow_dag_alert/__init__.py
+slack_airflow_dag_alert/slack_airflow_dag_alert.py
+slack_airflow_dag_alert.egg-info/PKG-INFO
+slack_airflow_dag_alert.egg-info/SOURCES.txt
+slack_airflow_dag_alert.egg-info/dependency_links.txt
+slack_airflow_dag_alert.egg-info/not-zip-safe
+slack_airflow_dag_alert.egg-info/top_level.txt
