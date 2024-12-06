@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: create-server-app
+Version: 1.0.6.1
+Summary: A CLI tool to create a server app project.
+Home-page: https://github.com/FloresTristan/create-server-app
+Author: Michael
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: flask
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: pymongo
+
+this is a sample server template package for Employee Profile
