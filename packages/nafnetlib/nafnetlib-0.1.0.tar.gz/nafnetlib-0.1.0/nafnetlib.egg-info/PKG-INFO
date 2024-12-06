@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nafnetlib
+Version: 0.1.0
+Summary: A streamlined implementation of inference for the megvii-research/NAFNet model, focusing solely on straightforward prediction tasks without additional features like training or fine-tuning.
+Home-page: https://github.com/mikecokina/nafnetlib
+Author: Michal Cokina
+Author-email: mikecokina@gmail.com
+License: MIT
+Keywords: nafnet,artificial intelligence,image processing,computer vision,deep learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: torch<=2.5.1,>=2.3.0
+Requires-Dist: torchvision<=0.20.1,>=0.18.0
+Requires-Dist: numpy<=2.1.3,>=1.26.4
+Requires-Dist: opencv-python<=4.10.0.84,>=4.8.1.78
+Requires-Dist: pillow<=11.0.0,>=10.4.0
+Provides-Extra: dev
+Provides-Extra: test
+
+For more information visit https://github.com/mikecokina/nafnetlib/blob/master/README.md
