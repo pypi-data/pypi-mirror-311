@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+gfix/__init__.py
+gfix/main.py
+gfix.egg-info/PKG-INFO
+gfix.egg-info/SOURCES.txt
+gfix.egg-info/dependency_links.txt
+gfix.egg-info/entry_points.txt
+gfix.egg-info/not-zip-safe
+gfix.egg-info/requires.txt
+gfix.egg-info/top_level.txt
