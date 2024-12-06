@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+jaii/__init__.py
+jaiii.egg-info/PKG-INFO
+jaiii.egg-info/SOURCES.txt
+jaiii.egg-info/dependency_links.txt
+jaiii.egg-info/top_level.txt

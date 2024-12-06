@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jaiii
+Version: 1.0.0
+Summary: A module with details and interesting facts about Jaisrinivasan J.
+Home-page: https://github.com/jaiisrinivasan
+Author: Jaisrinivasan J
+Author-email: jaiisrinivasan2305@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jaii Module
+
+The `jaii` module provides functions to access personal details and interesting facts about Jaisrinivasan J.
+
+## Installation
+Install the module via pip:
