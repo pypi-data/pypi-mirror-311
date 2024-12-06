@@ -1,0 +1,8 @@
+pyproject.toml
+golden_record_T1.egg-info/PKG-INFO
+golden_record_T1.egg-info/SOURCES.txt
+golden_record_T1.egg-info/dependency_links.txt
+golden_record_T1.egg-info/requires.txt
+golden_record_T1.egg-info/top_level.txt
+golden_record_exe/__init__.py
+golden_record_exe/__main__.py
