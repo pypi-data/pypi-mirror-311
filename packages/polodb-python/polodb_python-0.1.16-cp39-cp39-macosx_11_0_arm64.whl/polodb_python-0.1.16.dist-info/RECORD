@@ -1,0 +1,10 @@
+polodb_python-0.1.16.dist-info/METADATA,sha256=DgsSgSgOYAOTc3yOQ-j0ui5MMtv3oxItB_0b1EKzFkI,1723
+polodb_python-0.1.16.dist-info/WHEEL,sha256=44IYv0yFZcKzOuKGvFoow8Ttm9ak_Egiu5qUs3-gxko,102
+polodb_python-0.1.16.dist-info/license_files/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+polodb_python-0.1.16.dist-info/license_files/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+polodb/__init__.py,sha256=3t1CpHwqTAIPXP4fU5MWZEwVM_n66bbrDP0u59T2Fno,121
+polodb/core.py,sha256=zq6-auWT1d8X5k_jHvw9-dhp-oXu6Du6Bm1jtxFkbgY,2239
+polodb/version.py,sha256=W4gexdiMwYzZ-RKdshTe7eMrO35ye7ShaPXRklCt9L8,324
+rust_polodb/__init__.py,sha256=-ig8jYr92i4AtyXCjSvTlWC5SVQwKSz8uRW1cbeXkZY,127
+rust_polodb/rust_polodb.cpython-39-darwin.so,sha256=OKwbM05XKLwDfKdmznEHIv5IdVQKq0Z4VCH210lzlS8,10057496
+polodb_python-0.1.16.dist-info/RECORD,,
