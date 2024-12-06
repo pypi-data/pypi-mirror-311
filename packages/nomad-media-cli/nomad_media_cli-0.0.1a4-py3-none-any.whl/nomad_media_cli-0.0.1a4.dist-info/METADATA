@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: nomad_media_cli
+Version: 0.0.1a4
+Summary: Nomad Media Cli
+Author: Nomad Media
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.0,<9.0)
+Requires-Dist: nomad-media-pip (>=0.1.1,<0.2.0)
+Requires-Dist: platformdirs (>=4.0.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Nomad Media CLI Tool
+
+Command line interface for managing Nomad Media media assets.
+
+## Installation
+
+```bash
+pip install nomad-media-cli
+```
+
+## Configuration
+- Default config location: %APPDATA%\Local\nomad_media_cli\config.json
+- Custom config location: Use --config-path option
+
+## Commands
+
+### init
+Initializes CLI configuration
+
+Options:
+- `--username`: Login username (required)
+- `--password`: Login password (required)
+- `--service-api-url`: API endpoint URL (required)
+- `--api-type`: API type [admin|portal]
+- `--debug-mode`: Enable debug logging [true|false]
+- `--singleton`: Enable singleton mode [true|false]
+
+### update-config
+Updates CLI configuration
+
+Options:
+- `--username`: Login username
+- `--password`: Login password
+- `--service-api-url`: API endpoint URL
+- `--api-type`: API type [admin|portal]
+- `--debug-mode`: Enable debug logging [true|false]
+- `--singleton`: Enable singleton mode [true|false]
+
+### list-assets
+List assets by ID or path
+
+Options:
+- `--id`: Asset UUID, collection ID, or saved search ID
+- `--path`: Object key path (format: bucket::path)
