@@ -1,0 +1,2 @@
+[console_scripts]
+ubuntu-terminal-agent = agent.main:main
