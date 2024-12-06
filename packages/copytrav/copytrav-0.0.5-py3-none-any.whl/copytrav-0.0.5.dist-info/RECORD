@@ -1,0 +1,12 @@
+copytrav/__init__.py,sha256=XoPZNdPM4fAGmoJ28_Elc6lyQAHpBHVJy5QPjIAl5Sc,2000
+copytrav/data/one/data1.rst,sha256=dpLDrTVAu4A8Ags67mbNiIcSMjTqDG5xQ8Ct1z_0Me0,3
+copytrav/data/one/data1.txt,sha256=dpLDrTVAu4A8Ags67mbNiIcSMjTqDG5xQ8Ct1z_0Me0,3
+copytrav/data/two/data2.rst,sha256=dpLDrTVAu4A8Ags67mbNiIcSMjTqDG5xQ8Ct1z_0Me0,3
+copytrav/data/two/data2.txt,sha256=dpLDrTVAu4A8Ags67mbNiIcSMjTqDG5xQ8Ct1z_0Me0,3
+copytrav/data/two/even_more_data/data3.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copytrav/data/two/even_more_data/data3.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copytrav-0.0.5.dist-info/LICENSE,sha256=xubgYsblbg_-MR-Z5aSJTsWNpCxjrQp6cnG0PqQ6n0M,1070
+copytrav-0.0.5.dist-info/METADATA,sha256=abgLZpkKHHCFRw_4ZpNZdwWcFi0mxTfop3_Kf9xXhR4,1870
+copytrav-0.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+copytrav-0.0.5.dist-info/top_level.txt,sha256=pNKV6H4Om687XhVh6t1F0bgpHkPC3bQvK4RYSuBgaWg,9
+copytrav-0.0.5.dist-info/RECORD,,
