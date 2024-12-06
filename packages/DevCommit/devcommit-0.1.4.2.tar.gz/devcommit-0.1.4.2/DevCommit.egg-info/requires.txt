@@ -1,0 +1,4 @@
+inquirerpy
+google-generativeai
+rich
+python-decouple
