@@ -1,0 +1,5 @@
+guidance
+chromadb
+sentence_transformers
+numpy
+autopep8
