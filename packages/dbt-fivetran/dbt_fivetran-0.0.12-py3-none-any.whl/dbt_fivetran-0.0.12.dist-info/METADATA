@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dbt-fivetran
+Version: 0.0.12
+Summary: dbt (data build tool) adapter for Fivetran Datalake
+Home-page: https://github.com/fivetran/dbt-fivetran
+Author: emrah diril
+Author-email: emrah.diril@fivetran.com
+Description-Content-Type: text/markdown
+Requires-Dist: dbt-core>=1.0.0
+Requires-Dist: dbt-duckdb==1.8.3
+Requires-Dist: dbt-common<2.0,>=1.0.4
+Requires-Dist: dbt-adapters<2.0,>=1.1.1
+Requires-Dist: boto3>=1.28.16
+Requires-Dist: pyarrow>=18.0.0
+Requires-Dist: pyiceberg==0.7.1
+
+long_description
