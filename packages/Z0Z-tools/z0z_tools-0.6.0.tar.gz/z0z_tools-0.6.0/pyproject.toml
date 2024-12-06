@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Z0Z_tools"
+description = "Audio processing, data structure, and package management tools."
+dynamic = [
+    "version", 
+    ]
+requires-python = ">= 3.10"
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "packaging",
+    "resampy",
+    "soundfile",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[project.urls]
+"Homepage" = "https://github.com/hunterhogan/Z0Z_tools"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "Z0Z_tools.__version__" }
