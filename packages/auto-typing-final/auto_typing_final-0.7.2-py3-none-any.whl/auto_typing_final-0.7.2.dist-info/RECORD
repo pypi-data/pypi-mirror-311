@@ -1,0 +1,10 @@
+auto_typing_final/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_typing_final/finder.py,sha256=xEKVUPbj9nR4Ru1N97IFTOUoeoi1a85lKSU6Z12jXMw,9226
+auto_typing_final/lsp.py,sha256=AmPEkzOXIOXr1cmfoL3i4vfr8jHgg1jPhEW6YA3d5pg,10601
+auto_typing_final/main.py,sha256=OMq_fPpuxMq88YQ__zAIxnukZyQ1NHi-cOnY-XxYae8,3352
+auto_typing_final/transform.py,sha256=VnuViGh-Z0UqXYN-vdp5vhL9TrSqTRrLMdlGcZVEOmA,8383
+auto_typing_final-0.7.2.dist-info/METADATA,sha256=Pr-TzNb7vMqpYgGVjeLz68KJwtdWpfno-GY_Sn07r8I,2765
+auto_typing_final-0.7.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+auto_typing_final-0.7.2.dist-info/entry_points.txt,sha256=6JA2n0zvKw9ciFMtiImpEqZBMgTLhCv4wrWQGdqG4QQ,124
+auto_typing_final-0.7.2.dist-info/licenses/LICENSE,sha256=yRjHcVk5oiyAVD9dQFvWTrp-oIP1GlWoG5D4oKaZn1c,1091
+auto_typing_final-0.7.2.dist-info/RECORD,,
