@@ -1,0 +1,12 @@
+html_login_field_detector-0.1.1.data/data/dataset/training_urls.json,sha256=eLu9ATXE1YKBfmgMJqaFoNT_kO0Ny7Cxqul1r-oTr3k,21745
+html_login_field_detector-0.1.1.data/data/docs/README.md,sha256=yz9cY7_AbaNc6T6LB3U0mZhBjfWDxx0DenB-hfOAeBU,5288
+login_field_detector/__init__.py,sha256=McuS5zxOI6jWhMW9rEOlld_MmZlJfp_zk7mje8gFAow,166
+login_field_detector/field_detector.py,sha256=vBh0_j7Ist8MdZXhOA5sfuBoCMSRlIg7TzmZ3D_RkLw,14698
+login_field_detector/html_feature_extractor.py,sha256=OU3NLQlL5fC5s6ZZ2xpO41cDO4mZYFFrHBRLSGMTPzM,7584
+login_field_detector/html_fetcher.py,sha256=ubD33g5yZVZUfX_-xYrBkddAKWs7eOrQScMV1ucQX-I,3848
+login_field_detector/keywords.json,sha256=f9TINyCDjCP3Xewa_sKjVX_OAHrr92CDOs05aaonkf4,1397
+login_field_detector/utils.py,sha256=nct9wzfs9eqLo-2ruaZXAlrv73ykav_H-op03aQYGUg,690
+html_login_field_detector-0.1.1.dist-info/METADATA,sha256=RJ9IJt4-UDKN7yvTz9VXGH3HBhYI14XMPTgwPd9sDII,5838
+html_login_field_detector-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+html_login_field_detector-0.1.1.dist-info/top_level.txt,sha256=0dDeBx66qFpB-n_uAoMORmrBryvyiU5XFENyUynvhew,21
+html_login_field_detector-0.1.1.dist-info/RECORD,,
