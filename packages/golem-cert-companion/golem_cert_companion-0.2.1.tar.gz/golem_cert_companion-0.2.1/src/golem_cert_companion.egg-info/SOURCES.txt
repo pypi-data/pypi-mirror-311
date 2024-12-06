@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/golem_cert_companion/__init__.py
+src/golem_cert_companion/binary_manager.py
+src/golem_cert_companion/certificate_manager.py
+src/golem_cert_companion/templates.py
+src/golem_cert_companion.egg-info/PKG-INFO
+src/golem_cert_companion.egg-info/SOURCES.txt
+src/golem_cert_companion.egg-info/dependency_links.txt
+src/golem_cert_companion.egg-info/entry_points.txt
+src/golem_cert_companion.egg-info/requires.txt
+src/golem_cert_companion.egg-info/top_level.txt
