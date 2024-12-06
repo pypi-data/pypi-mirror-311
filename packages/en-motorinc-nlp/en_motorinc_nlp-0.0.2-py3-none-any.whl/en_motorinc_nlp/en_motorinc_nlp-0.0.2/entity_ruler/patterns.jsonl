@@ -1,0 +1,761 @@
+{"label":"ProductType","pattern":[{"TEXT":{"FUZZY1":"cars"}}]}
+{"label":"ProductType","pattern":[{"TEXT":{"FUZZY1":"4 wheelers"}}]}
+{"label":"ProductType","pattern":[{"TEXT":{"FUZZY1":"2 wheelers"}}]}
+{"label":"ProductType","pattern":[{"TEXT":{"FUZZY1":"bikes"}}]}
+{"label":"ProductType","pattern":[{"TEXT":{"FUZZY1":"motorcycles"}}]}
+{"label":"ProductType","pattern":[{"TEXT":{"FUZZY1":"2 wheeler"}}]}
+{"label":"ProductType","pattern":[{"TEXT":{"FUZZY1":"4 wheeler"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"duke 390"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"adventure 390"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm duke 390"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm adventure 390"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm duke 390 2017"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm adventure 390 2019"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm duke 390 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha r15"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha r3"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha r15 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha r15"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha r3 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha aerox"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"v strom"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"v-strom"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"nexon"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"magnite"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"grand vitara"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"taisor"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"super meteor 650"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jawa 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jupiter 125"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tucson"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"fronx"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"baleno"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"slavia"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"elevate"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"city"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"glanza"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yzf-r15"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"g 310 rr"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"scrambler 400x"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"450x"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"rc 200"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"390 duke"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"xtreme 160r 4v"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"swift"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"activa"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"rizta"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"alcazar"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"carens"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"alto k10"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"city e:hev"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jimny"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hunter 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ninja 400"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ntorq 125"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bullet 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"fz-fi"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"speed 400"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jupiter 110"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"indie"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"activa 6g"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"venue"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"dzire"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"invicto"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"rumion"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"aerox 155"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"classic 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"rc 390"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ev6"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"grand i10 nios"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"x-trail"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"speed t4"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"verna"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"i20 n line"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"brezza"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"compass"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mavrick 440"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"meteor 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"xoom 110"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"chetak"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"v-strom sx"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"curvv"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ciaz"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"scorpio n"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"creta"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kwid"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyryder"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"c3"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"nexon ev"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"x440"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"continental gt650"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"rs 457"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"vitpilen 250"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"creta n line"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"aura"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"venue n line"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ignis"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"wagonr"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"eeco"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"taigun"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"meridian"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"seltos"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ioniq 5"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"harrier"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"shotgun 650"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"f77"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"safari"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mt-03"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"guerrilla 450"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"s-presso"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ertiga"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"pulsar n125"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"thar"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"innova hycross"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"triber"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"xuv 400"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"sonet"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kiger"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"xuv 3xo"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"exter"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"punch"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"c3 aircross"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"xuv 700"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"250 duke"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ronin"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"apache rtr 310"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"fascino 125i hybrid"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"xpulse 200t"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"gixxer 250"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"himalayan"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"interceptor 650"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"160"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"gixxer (160)"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"pulsar ns160"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"pulsar n250"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"karizma xmr"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"access 125"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"svartpilen 401"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"pulsar n160"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"390 adventure"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"w175"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yzf-r3"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"apache rr 310"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"pulsar ns200"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"450s"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"xtreme 125r"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"iqube"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"i20"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"virtus"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"altroz racer"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"freedom 125 ng04"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"celerio"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"xl6"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata nexon 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"nissan magnite 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki grand vitara 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota taisor 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield super meteor 650 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jawa jawa 350 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs jupiter 125 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai tucson"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki fronx 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki baleno 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"skoda slavia 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda elevate 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda city 2020"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota glanza 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha yzf-r15 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bmw g 310 rr 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"triumph scrambler 400x 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ather 450x 2000"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm rc 200 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm 390 duke  2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero xtreme 160r 4v 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki swift 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda activa"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ather rizta 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai alcazar 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm 390 duke 2017"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia carens 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki alto k10 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda city e:hev 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki jimny 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield hunter 350 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kawasaki ninja 400 2000"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs ntorq 125 2018"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield bullet 350 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha fz-fi 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"triumph speed 400 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs jupiter 110 2013"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"river indie 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda activa 6g 2020"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai venue 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki dzire 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki invicto 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota rumion 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha aerox 155 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield classic 350 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm rc 390 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia ev6  2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai grand i10 nios"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"nissan x-trail"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"triumph speed t4 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai verna 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai i20 n line 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki brezza 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jeep compass 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero mavrick 440 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield meteor 350 2020"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero xoom 110 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"chetak chetak"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"suzuki v-strom sx 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata curvv 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki ciaz"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra scorpio n 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai creta 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"renault kwid 2016"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota hyryder 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"citroen c3   2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata nexon ev 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"harley-davidson x440 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield continental gt650 2017"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"aprilia rs 457 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"husqvarna vitpilen 250 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai creta n line 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai aura 2020"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai venue n line"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki ignis"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki wagonr"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki eeco"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"volkswagen taigun 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jeep meridian 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia seltos 2020"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai ioniq 5 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata harrier 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield shotgun 650 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ultraviolette f77  2000"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata safari  2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha mt-03 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield guerrilla 450 2004"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki s-presso 2019"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki ertiga"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar n125 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra thar 2020"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota innova hycross 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"renault triber 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra xuv 400 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia sonet 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"renault kiger 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra xuv 3xo 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai exter 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata punch 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"citroen c3 aircross 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra xuv 700 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm 250 duke 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs ronin 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs apache rtr 310 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha fascino 125i hybrid 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero xpulse 200t 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"suzuki gixxer 250 2019"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield himalayan 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield interceptor 650 2017"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"suzuki gixxer (160) 2014"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar ns160 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar n250 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero karizma xmr 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"suzuki access 125 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"husqvarna svartpilen 401 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar n160 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm 390 adventure 2019"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kawasaki w175 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha yzf-r3 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs apache rr 310 2021"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar ns200 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia sonet 2020"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ather 450s 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero xtreme 125r 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs iqube"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai i20"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"volkswagen virtus 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata altroz racer 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata safari 2023"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj freedom 125 ng04 2024"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"nissan magnite    2025"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki celerio 2022"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki xl6"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata nexon"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"nissan magnite"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki grand vitara"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota taisor"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield super meteor 650"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jawa jawa 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs jupiter 125"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki fronx"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki baleno"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"skoda slavia"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda elevate"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda city"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota glanza"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha yzf-r15"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bmw g 310 rr"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"triumph scrambler 400x"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ather 450x"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm rc 200"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm 390 duke"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero xtreme 160r 4v"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki swift"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ather rizta"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai alcazar"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia carens"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki alto k10"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda city e:hev"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki jimny"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield hunter 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kawasaki ninja 400"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs ntorq 125"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield bullet 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha fz-fi"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"triumph speed 400"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs jupiter 110"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"river indie"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"honda activa 6g"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai venue"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki dzire"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki invicto"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota rumion"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha aerox 155"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield classic 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm rc 390"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia ev6"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"triumph speed t4"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai verna"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai i20 n line"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki brezza"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jeep compass"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero mavrick 440"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield meteor 350"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero xoom 110"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"suzuki v-strom sx"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata curvv"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra scorpio n"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai creta"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"renault kwid"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota hyryder"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"citroen c3"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata nexon ev"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"harley-davidson x440"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield continental gt650"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"aprilia rs 457"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"husqvarna vitpilen 250"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai creta n line"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai aura"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"volkswagen taigun"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"jeep meridian"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia seltos"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai ioniq 5"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata harrier"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield shotgun 650"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ultraviolette f77"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata safari"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha mt-03"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield guerrilla 450"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki s-presso"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar n125"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra thar"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"toyota innova hycross"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"renault triber"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra xuv 400"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kia sonet"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"renault kiger"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra xuv 3xo"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hyundai exter"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata punch"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"citroen c3 aircross"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"mahindra xuv 700"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm 250 duke"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs ronin"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs apache rtr 310"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha fascino 125i hybrid"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero xpulse 200t"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"suzuki gixxer 250"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield himalayan"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"royal enfield interceptor 650"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"suzuki gixxer (160)"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar ns160"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar n250"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero karizma xmr"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"suzuki access 125"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"husqvarna svartpilen 401"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar n160"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ktm 390 adventure"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"kawasaki w175"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"yamaha yzf-r3"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tvs apache rr 310"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj pulsar ns200"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"ather 450s"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"hero xtreme 125r"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"volkswagen virtus"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"tata altroz racer"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"bajaj freedom 125 ng04"}}]}
+{"label":"Vehicle","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki celerio"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"nissan"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"husqvarna"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"bajaj"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"renault"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"skoda"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"jawa"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"river"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"citroen"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"triumph"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"ather"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"volkswagen"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"yamaha"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"hero"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"hyundai"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"royal enfield"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"bmw"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"jeep"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"maruti suzuki"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"toyota"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"mahindra"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"suzuki"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"tvs"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"honda"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"ktm"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"ultraviolette"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"kia"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"tata"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"kawasaki"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"harley-davidson"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"aprilia"}}]}
+{"label":"Brand","pattern":[{"TEXT":{"FUZZY1":"chetak"}}]}
+{"label":"FuelType","pattern":[{"TEXT":{"FUZZY1":"cng"}}]}
+{"label":"FuelType","pattern":[{"TEXT":{"FUZZY1":"petrol"}}]}
+{"label":"FuelType","pattern":[{"TEXT":{"FUZZY1":"diesel"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"van"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"vans"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"commuter"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"commuters"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"sports bikes"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"sports bike"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"scrambler"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"scramblers"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"retros"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"retro"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"adventures"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"adventure"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"street naked"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"street nakeds"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"supermotards"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"supermotard"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"suvs"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"suv"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"sedan"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"sedans"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"hatchback"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"hatchbacks"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"mpv"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"mpvs"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"scooter"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"scooters"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"cruiser"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"cruisers"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"cafe racers"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"cafe racer"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"dual sport"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"dual sports"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"testing category"}}]}
+{"label":"VehicleCategory","pattern":[{"TEXT":{"FUZZY1":"testing categorys"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"measurement unit"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"inertial measurement unit"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"program esp"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electronic stability program (esp)"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electronic stability program esp"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"esp"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"stability program esp"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"rear parking sensors"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"parking sensors"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"360 camera"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"360\u00b0 camera"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"door ajar warning"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"ajar warning"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"central locking"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"lid opener"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"remote fuel lid opener"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"fuel lid opener"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"ottoman seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"climate control"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"automatic climate control"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"front power windows"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"power windows"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"front centre armrest"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"centre armrest"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"led taillights"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"steering mounted audio controls"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"mounted audio controls"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"audio controls"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"zone climate control"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"dual zone climate control"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wheels tubeless"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"spoked wheels (tubeless)"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tubeless"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"spoked wheels tubeless"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"navigation tbt"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"turn by turn navigation tbt"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"turn-by-turn navigation (tbt)"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"turn navigation tbt"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"by turn navigation tbt"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tbt"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"premium music system"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"music system"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"steering adjustment"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"telescopic steering adjustment"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"panoramic sunroof"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"rear wiper washer"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wiper washer"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"led drls"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"halogen headlights"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"fin antenna"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"shark fin antenna"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"phone connectivity"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wired phone connectivity"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"double overhead camshafts dohc"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"camshafts dohc"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"dohc"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"double overhead camshafts (dohc)"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"overhead camshafts dohc"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"cruise control"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"adaptive cruise control"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"over protection"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"roll over protection"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"clip on handlebars"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"clip-on handlebars"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"on handlebars"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"heads up display"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"up display"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"heads-up-display"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"foldable rear seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"rear seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"alloy wheels"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"leatherette seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"adjustable underthigh support"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"underthigh support"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"spoked wheels (tubed)"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wheels tubed"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tubed"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"spoked wheels tubed"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"traction control"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electronic brake force distribution ebd"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"force distribution ebd"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"brake force distribution ebd"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"distribution ebd"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electronic brake-force distribution (ebd)"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"ebd"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"ventilated seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"starter motor generator"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"motor generator"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tyre pressure monitoring system"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"pressure monitoring system"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"monitoring system"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"collision brakes"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"multi collision brakes"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"sensing auto door unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"door unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"impact sensing auto door unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"auto door unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"belt with pretensioners"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"seat belt with pretensioners"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"with pretensioners"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electrically adjustable driver seat"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"driver seat"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"adjustable driver seat"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wireless phone connectivity"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"led headlights"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"auto wiper"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"ambient lighting"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"passenger vanity mirror"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"vanity mirror"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"led reading lamps"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"reading lamps"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"connected car tech"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"car tech"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"removable pillion seat"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"pillion seat"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"front disc brakes"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"disc brakes"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"quickshifter"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"seat belt reminders"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"belt reminders"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"engine immobiliser"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"change indicator"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"one touch lane change indicator"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"one-touch lane change indicator"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"lane change indicator"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"touch lane change indicator"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"adas"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"seat height adjustment"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"height adjustment"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"rear centre armrest"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tilt steering adjustment"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"airbags"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"removable seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electrically foldable orvms"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"foldable orvms"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"folding rear seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"60:40 split folding rear seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"60 40 split folding rear seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"40 split folding rear seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"split folding rear seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wrapped steering wheel"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"steering wheel"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"leather wrapped steering wheel"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tall windshield"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"brake disc wiping"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"disc wiping"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"reversing camera"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"isofix system"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"collapsible steering column"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"steering column"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wireless charger"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"power steering"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"adventure statistics"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"sliding middle row"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"middle row"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"uv cut glass"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"cut glass"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"projector headlights"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"halogen projector headlights"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tailgate release"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electric tailgate release"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"co driver seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electrically adjustable driver and co driver seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"adjustable driver and co driver seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electrically adjustable driver and co-driver seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"driver seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"driver and co driver seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"and co driver seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"pillion backrest"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"steel wheels"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"maps navigation"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"semi-active suspension"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"active suspension"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"semi active suspension"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"rear defogger"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"sunroof"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"paddle shifter"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"roll cage"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"cooled storage"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"automatic headlights"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"adjustable headrests"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"push start stop"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"engine push start stop"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"start stop"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"engine push start/stop"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"luggage lamp"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"anti-lock braking system (abs)"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"anti lock braking system abs"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"abs"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"system abs"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"lock braking system abs"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"braking system abs"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"dead pedal"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tubeless tyres"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"start assist"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"hill start assist"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"hill-start assist"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"door lock unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"auto door lock unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"speed sensing auto door lock unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"lock unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"sensing auto door lock unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"speed sensing auto door lock/unlock"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"with load limiter"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"seat belt with load limiter"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"belt with load limiter"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"load limiter"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"emergency stop signal"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"stop signal"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"speed alert"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"over speed alert"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"touchscreen infotainment system"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"infotainment system"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"passive keyless entry"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"keyless entry"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"locking differential"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electronic locking differential"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electronic parking brake"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"parking brake"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"parking brake with auto hold"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electronic parking brake with auto hold"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"auto hold"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"with auto hold"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"brake with auto hold"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"heated seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"rear ac vents"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"ac vents"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"remote keyless entry"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"all power windows"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"instrument cluster"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"digital instrument cluster"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"sunshades"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"electrically adjustable orvms"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"adjustable orvms"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wheel cover"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"wheels with wheel cover"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"steel wheels with wheel cover"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"with wheel cover"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"fabric seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"semi-leatherette seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"semi leatherette seats"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"bottom steering wheel"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"flat bottom steering wheel"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"led projector headlights"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"rear parcel tray"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"parcel tray"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"day/night irvm"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"night irvm"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"day night irvm"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"auto dimming irvm"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"dimming irvm"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"auto-dimming irvm"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"roof rails"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"drive modes"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"traction control modes"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"control modes"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"smart key"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"idle stop start"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"stop start"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"sunglass holder"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"cooled glovebox"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"bluetooth connectivity"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"backseat recline adjustment"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"recline adjustment"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"seatbelt reminder"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"cornering lights"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"tyre deflation warning"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"deflation warning"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"usb port"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"stop and go"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"smart cruise control with stop and go"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"cruise control with stop and go"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"with stop and go"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"and go"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"control with stop and go"}}]}
+{"label":"Feature","pattern":[{"TEXT":{"FUZZY1":"music player"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"exterior"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"performance"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"terminology"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"interior"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"luxury"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"4\u00d74"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"safety"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"comfort"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"convenience"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"infotainment"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"basics"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"electrics"}}]}
+{"label":"FeatureCategory","pattern":[{"TEXT":{"FUZZY1":"electronics"}}]}
+{"label":"EngineDisplacement","pattern":[{"TEXT":{"REGEX":"^[0-9]+cc$"}}]}
+{"label":"EngineDisplacement","pattern":[{"TEXT":{"REGEX":"^[0-9]+$"}},{"LOWER":"cc"}]}
+{"label":"EngineDisplacement","pattern":[{"TEXT":{"REGEX":"^[0-9]+(\\.[0-9]+)?[lL]$|^[0-9]+(\\.[0-9]+)?(?:litre|liter)$"}}]}
+{"label":"EngineDisplacement","pattern":[{"TEXT":{"REGEX":"^[0-9]+(\\.[0-9]+)?$"}},{"IS_SPACE":true,"OP":"?"},{"LOWER":{"IN":["litre","liter","l","L"]}}]}
