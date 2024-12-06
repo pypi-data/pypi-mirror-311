@@ -1,0 +1,11 @@
+tme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tme/base_jax.py,sha256=EjzCmC5jmJAf0lmsM0JUnRMjNm_qqpqJJY5aBZJ5bvM,11049
+tme/base_sympy.py,sha256=j_e7vnGCjC4PXNy--HdvprNjyM1_0pvqxLNkZ9l-eDE,10592
+tme/base_tf.py,sha256=63YA-NkppP5jlYoLZ57v21MCxahPbrYz3EGfzwcp1tc,52
+tme/experimental.py,sha256=yGchLG453yIfeB2sWIlXvgQLbtWHiU4-PvGYe7dSZ7g,1483
+tme/typings.py,sha256=DunwmUwKYx-Hk0JTjHMURdX7I2PaAVquMxHxdi__q8A,538
+tme-0.2.0.dist-info/LICENSE,sha256=s9acQqt74kIsPLeb-GAveB83OOYMHR5dQGtdNXx8Cn0,684
+tme-0.2.0.dist-info/METADATA,sha256=T4XMSFZt0J3g8F8BgJ1teQAzT41BB3jWjL_4hPp2tUY,2932
+tme-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tme-0.2.0.dist-info/top_level.txt,sha256=j63Mo93v1HYe3jaBesLoBssArSKOMkpf_aDObPfOkWo,4
+tme-0.2.0.dist-info/RECORD,,

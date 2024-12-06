@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: tme
+Version: 0.2.0
+Summary: Taylor moment expansion in Python
+Author-email: Zheng Zhao <zz@zabemon.com>
+License: Taylor moment expansion (TME) in Python
+        Copyright (C) 2021 Zheng Zhao
+        
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <https://www.gnu.org/licenses/>.
+        
+Project-URL: homepage, https://github.com/zgbkdlm/tme
+Project-URL: documentation, https://tme.readthedocs.io
+Project-URL: repository, https://github.com/zgbkdlm/tme
+Keywords: Markov models,stochastic differential equations,statistics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.19.2
+Requires-Dist: scipy>=1.5.2
+Requires-Dist: sympy>=1.8
+Provides-Extra: test
+Requires-Dist: pytest==8.3.3; extra == "test"
+
+# Taylor moment expansion (TME) in Python
+
+Please see the documentation of the package in https://tme.readthedocs.io.
+
+# Install
+
+Install via `pip install tme` or `python setup.py install` (Please note that if you would like to use JaX, please
+install `jax` by yourself beforehand).
+
+# Examples
+
+```python
+import tme.base_jax as tme
+import jax.numpy as jnp
+from jax import jit, vmap
+
+# Define SDE coefficients.
+alp = 1.
+
+
+def drift(x):
+    return jnp.array([x[1],
+                      x[0] * (alp - x[0] ** 2) - x[1]])
+
+
+def dispersion(x):
+    return jnp.array([0, x[0]])
+
+
+# Jit the 3-order TME mean and cov approximation functions
+@jit
+def tme_m_cov(x, dt):
+    return tme.mean_and_cov(x, dt, drift, dispersion, order=3)
+
+
+# Compute E[X(t) | X(0)=x0]
+x0 = jnp.array([0., -1])
+ts = jnp.array([0.25, 0.5, 1.])
+
+m_t, cov_t = vmap(tme_m_cov, in_axes=[None, 0])(x0, ts)
+```
+
+Inside folder `examples`, there are a few Jupyter notebooks showing how to use the TME method (in SymPy and JaX).
+
+# License
+
+The GNU General Public License v3 or later
