@@ -1,0 +1,11 @@
+# Include only the README file, docs, and other necessary files
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml
+include docs/*
+
+# Exclude Python source files and tests
+global-exclude *.py
+global-exclude */*.py
+exclude tests/*

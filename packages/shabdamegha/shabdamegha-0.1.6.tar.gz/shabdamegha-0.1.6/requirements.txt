@@ -1,0 +1,4 @@
+Pillow
+harfbuzz
+freetype-py
+numpy
