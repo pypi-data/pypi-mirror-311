@@ -1,0 +1,2 @@
+[console_scripts]
+ssh-para = run_para.run_para:main
