@@ -1,0 +1,10 @@
+govee_h6199_ble/__init__.py,sha256=D2OJYWCpo6Mw0AEr-JyBOPKVotUrF6R-x_rqkomqyXQ,83
+govee_h6199_ble/base.py,sha256=IyQZsVVpKgTBah-J3ysiDphIcd_oXlPN-p9QO-EBIpA,348
+govee_h6199_ble/commands.py,sha256=NJwOqlT-RB5aP5Jq8GcKkICQpZPbwN0dTBD0WMBY8Oo,5098
+govee_h6199_ble/const.py,sha256=cIg2z07NrFp3rdeUwQR9A9Uxs0jwA_nj5suRRFdR32U,578
+govee_h6199_ble/device.py,sha256=pBLqS5Po7X0kyH5aNINBbaKNexBgGd87KKKZtySVGQE,3739
+govee_h6199_ble/util.py,sha256=w3sc550Q-uKvPRlTfSDRGIrVPlsc5H2R-h7YFUg5kck,300
+govee_h6199_ble-0.1.0.dist-info/LICENSE,sha256=4SKKsBjTe2EnIFjAuCJXINYdLh1guCs7dbMR1hIfBPo,1086
+govee_h6199_ble-0.1.0.dist-info/METADATA,sha256=ZTvr-xRbrB0vmm0_v6PO0QGR-15g6Tk-1ea0pdbeif0,3067
+govee_h6199_ble-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+govee_h6199_ble-0.1.0.dist-info/RECORD,,
