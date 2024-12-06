@@ -1,0 +1,8 @@
+create_server_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_server_app/cli.py,sha256=cGDonesNOVNUEzri58w_vInSW2QzgIp3T_YUafkzIfc,371
+create_server_app/create_server.py,sha256=8DQT7k9Tf5StE_K1oA5Zjeb1fdlZlg4gP-8SxvyHf2o,18169
+create_server_app-1.0.6.dist-info/METADATA,sha256=Q06jj1ZjHnCdlSCLWIbADYMokLJCWlL9qipGF7Wrgo0,509
+create_server_app-1.0.6.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+create_server_app-1.0.6.dist-info/entry_points.txt,sha256=O5Vzuk-b4bewo155D9y3y8GwoOIbdTxpsQvgROdZTMU,65
+create_server_app-1.0.6.dist-info/top_level.txt,sha256=jCJNd-3R5sknbwuCeuu8dAKKwd2P-8Cd4WPzVPK7IoQ,18
+create_server_app-1.0.6.dist-info/RECORD,,
