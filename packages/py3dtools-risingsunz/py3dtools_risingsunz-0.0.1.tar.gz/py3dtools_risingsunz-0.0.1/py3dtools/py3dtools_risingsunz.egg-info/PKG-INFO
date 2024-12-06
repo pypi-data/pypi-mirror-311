@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py3dtools_risingsunz
+Version: 0.0.1
+Summary: py3dtools has methods for converting from OpenSim VTP file format to STL and OBJ. it also has some convenience methods for manipulating OBJ files.
+Author-email: Aravind Sundararajan <aravind.sundararajan@protonmail.com>
+Project-URL: Homepage, https://github.com/Aravind-Sundararajan/3dtools
+Project-URL: Issues, https://github.com/Aravind-Sundararajan/3dtools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 3dtools
+batch converting from .vtp to .obj and other things
+[documentation](https://aravind-sundararajan.github.io/3dtools/)

@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "py3dtools_risingsunz"
+version = "0.0.1"
+authors = [
+  { name="Aravind Sundararajan", email="aravind.sundararajan@protonmail.com" },
+]
+description = "py3dtools has methods for converting from OpenSim VTP file format to STL and OBJ. it also has some convenience methods for manipulating OBJ files."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+py-modules = ['py3dtools']
+
+[tool.setuptools.packages.find]
+where = ["py3dtools"]
+include = [
+    "py3dtools",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Aravind-Sundararajan/3dtools"
+Issues = "https://github.com/Aravind-Sundararajan/3dtools/issues"
+
