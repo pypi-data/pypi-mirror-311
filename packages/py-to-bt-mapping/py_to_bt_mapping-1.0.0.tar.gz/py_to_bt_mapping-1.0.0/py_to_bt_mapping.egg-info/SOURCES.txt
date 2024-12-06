@@ -1,0 +1,9 @@
+README.md
+setup.py
+mapping/__init__.py
+mapping/operations.py
+py_to_bt_mapping.egg-info/PKG-INFO
+py_to_bt_mapping.egg-info/SOURCES.txt
+py_to_bt_mapping.egg-info/dependency_links.txt
+py_to_bt_mapping.egg-info/requires.txt
+py_to_bt_mapping.egg-info/top_level.txt
