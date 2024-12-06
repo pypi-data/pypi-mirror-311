@@ -1,0 +1,14 @@
+pygimli
+scikit-learn
+numpy
+matplotlib>3.6
+obspy
+statsmodels
+colorcet
+PyQt5
+signal
+copy
+datetime
+
+[gui]
+PyQt5
