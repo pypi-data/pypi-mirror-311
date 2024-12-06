@@ -1,0 +1,11 @@
+aio_insight/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aio_insight/aio_api_client.py,sha256=7cyRh7UWUNBi-xQUNwA90Ak6s9UcTFL6rIzO0Tr5btU,22315
+aio_insight/aio_insight.py,sha256=ODLA2hZpkWFtafRfZOCtxxdfL8S23sp3ScNt4JMGSB0,25332
+aio_insight/aio_query_insight.py,sha256=BQyJyoTCVK2R3YsNvWcIZLcCUj3fpG7UvfdvFpiFhNM,5843
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aio_insight.py,sha256=2q4fBBVR4VNtUb5e5oBpbhsLq3Imy5czCdAKHDZVqOI,8344
+aio_insight-1.0.6.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aio_insight-1.0.6.dist-info/METADATA,sha256=uKh1ZzI5n_3Y2YM-NkCulM3lzWJw1V4C7ooDfPfLU48,10762
+aio_insight-1.0.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aio_insight-1.0.6.dist-info/top_level.txt,sha256=kp5qXyIdnbm6sE049lyISAaUGX4DFD-NSoaDLdws_uw,18
+aio_insight-1.0.6.dist-info/RECORD,,
