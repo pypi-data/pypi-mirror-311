@@ -1,0 +1,3 @@
+- [x] Set up initial folders
+- [x] Set up service class - adv and simple
+- [x] Set up board classes - arrival, departure board
