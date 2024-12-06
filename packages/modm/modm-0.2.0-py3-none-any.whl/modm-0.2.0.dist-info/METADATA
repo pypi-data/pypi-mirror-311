@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: modm
+Version: 0.2.0
+Summary: modm command-line interface
+Author-email: Niklas Hauser <niklas@salkinium.com>
+License: MPL-2.0
+Project-URL: GitHub, https://github.com/modm-ext/modm-cli
+Project-URL: Homepage, https://modm.io
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Embedded Systems
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lbuild<2,>=1.21.8
+Requires-Dist: lxml<6,>=5
+Requires-Dist: pyelftools<1,>=0.31
+Requires-Dist: telnetlib3<3,>=2
+
+# modm dependency package
+
+This repository currently only contains a simple PyPi package to group modm
+dependencies.
+
+```
+pip3 install modm
+```
+
+is equivalent to
+
+```
+pip3 install lbuild lxml pyelftools telnetlib3
+```
