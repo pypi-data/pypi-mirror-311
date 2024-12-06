@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ddata
+Version: 0.1.2
+Summary: A Python data package
+Home-page: https://github.com/flyphant/ddata
+Author: flyphant
+Author-email: your_email@example.com
+License: UNKNOWN
+Description: # ddata
+        
+        #### 介绍
+        python 工具包
+        
+        
+        #### 安装教程
+        
+        1.  xxxx
+        2.  xxxx
+        3.  xxxx
+        
+        #### 使用说明
+        
+        
+        
+        #### 参与贡献
+        
+        
+        
+        
+        #### 特技
+        
+        
+        
+Keywords: python,package,sample
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
