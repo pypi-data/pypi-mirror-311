@@ -1,0 +1,11 @@
+git_gerrit/__init__.py,sha256=DSPvWaHjLK2yTxD-FYz68g5LqoyND7IVKkuucbYRCWc,18445
+git_gerrit/cli.py,sha256=Y4JexdG0k5llsH7XUaOf14F-Awn6XtYMCC2VobKF2xc,15562
+git_gerrit/config.py,sha256=Dw7TsM8ZVMbsOEUefgtgPhnvzihUugzPRbO0t-MpKdw,2487
+git_gerrit/error.py,sha256=NDNCaHQOa9-erYXinS5BY8-j7NQNmaLHwgrl2hHbKu8,1554
+git_gerrit/unicode.py,sha256=OmhR5PCl_jlmWQsRfA_k53kLAUR_qVbsmBk-mSqW-N4,2599
+git_gerrit-2.1.0.dist-info/LICENSE.txt,sha256=egoQCHPYOUkkxzKrMKMhA4eK1wsDxj0RifOpGPDDDxM,1018
+git_gerrit-2.1.0.dist-info/METADATA,sha256=Yr8uMgcwP7LWlyElfSDJ2FashvkaUvpmK4_KK4bGtXA,7837
+git_gerrit-2.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+git_gerrit-2.1.0.dist-info/entry_points.txt,sha256=6kevlPHQ11zQnET7kXcGSKfrylU-ixNp5awj_axf8Qo,568
+git_gerrit-2.1.0.dist-info/top_level.txt,sha256=eVTszMXASdIjEX--ii8UjoMX1qHNODbhPKH16zsPIFI,11
+git_gerrit-2.1.0.dist-info/RECORD,,
