@@ -1,0 +1,22 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="buaa_open_source_22371550_test_package2",
+    version="0.2",
+    packages=find_packages(),
+    install_requires=[
+        'buaa_open_source_22371550_test_package1',  # 依赖 package1
+        'requests',
+    ],
+    author="lhc",
+    author_email="1500518009@qq.com",
+    description="Package2 depends on package1 for functionality",
+    long_description="test_package2",
+    long_description_content_type="text/markdown",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
+)
