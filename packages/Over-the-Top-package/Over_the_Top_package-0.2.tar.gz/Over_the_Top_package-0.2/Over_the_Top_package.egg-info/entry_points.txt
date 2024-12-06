@@ -1,0 +1,3 @@
+[console_scripts]
+Over_the_Top = Over_the_Top.__main__:main
+

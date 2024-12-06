@@ -1,0 +1,5 @@
+{
+    "names_of_nations": ["Tutorial","Germans","British","French","Russians","Austro-Hungarians","Americans","Ottomans","Greeks","Italians","Bulgarians","Serbians"],
+    "flags_of_nations": ["default_flag1.png","germany.png","britain.png","france.png","russia.png","austro-hungary.png","america.png","ottoman.png","greece.png","italy.png","bulgaria.png","serbia.png" ],
+    "status_of_nations":["Open","Soon","Soon","Soon","Soon","Soon","Soon","Soon","Soon","Soon","Soon","Soon"]
+}

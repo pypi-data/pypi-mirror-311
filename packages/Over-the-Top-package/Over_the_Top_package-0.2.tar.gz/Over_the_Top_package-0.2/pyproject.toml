@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "Over_the_Top_package" 
+version = "0.2.0"
+authors = [
+  { name="daniel908009", email="krizdaniel151@gmail.com" },
+]
+description = "A 2d WW1 styled trench game, made with Pygame library"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pygame",
+]
+
+[project.urls]
+Homepage = "https://github.com/Daniel908009/Stormy-Seas"

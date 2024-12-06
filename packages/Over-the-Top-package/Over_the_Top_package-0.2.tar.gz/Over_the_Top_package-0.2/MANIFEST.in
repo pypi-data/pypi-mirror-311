@@ -1,0 +1,5 @@
+include Over_the_Top_package/main.py
+include Over_the_Top_package/classes.py
+include Over_the_Top_package/assets/*
+include Over_the_Top_package/levels/*
+include Over_the_Top_package/levels/Tutorial/*
