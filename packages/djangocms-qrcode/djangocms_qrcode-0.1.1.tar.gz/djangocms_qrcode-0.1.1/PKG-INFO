@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: djangocms-qrcode
+Version: 0.1.1
+Summary: Django CMS content plugin that allows to put QR codes in the pages
+License: BSD
+Author: Jakub Dorňák
+Author-email: jakub.dornak@qbsoftware.cz
+Requires-Python: >=3.9,<4
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: django-cms (>=3)
+Requires-Dist: django-colorfield
+Requires-Dist: django-filer
+Requires-Dist: pillow
+Requires-Dist: segno
