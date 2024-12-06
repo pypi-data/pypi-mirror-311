@@ -1,0 +1,10 @@
+celery>=5.4.0
+django-admin-extra-buttons>=1.5.8
+django-concurrency>=2.6
+django>=4
+
+[docs]
+mkdocs>=1.6.1
+mkdocs-material>=9.5.36
+mkdocs-awesome-pages-plugin>=2.9.3
+mkdocstrings-python
