@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: libreria_experimental
+Version: 0.2.10
+Summary: Libreria de ayuda para la asignatura de física experimental
+Author-email: Álvaro Jiménez Redondo <jimenezredondoalvaro@gmail.com>
+Maintainer-email: Álvaro Jiménez Redondo <jimenezredondoalvaro@gmail.com>
+Project-URL: Engage Física UCLM, https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMDE2Mjg5OTk2ODAifQ/new
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: sympy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: statistics
+Requires-Dist: scipy
+Requires-Dist: mathematica
