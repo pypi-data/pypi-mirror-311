@@ -1,0 +1,28 @@
+Bootstrap: docker
+From: python:3.11-slim
+
+%post
+    # Update the package lists and install dependencies for deepTools
+    apt-get update && apt-get install -y --no-install-recommends \
+        gcc \
+        libz-dev \
+        libpng-dev \
+        libfreetype6-dev \
+      && pip install --no-cache-dir "deeptools==3.5.5" \
+      && apt-get remove --purge -y \
+            libz-dev \
+            libpng-dev \
+            libfreetype6-dev \
+            && apt-get autoremove -y \
+            && apt-get clean \
+            && rm -rf /var/lib/apt/lists/*
+
+%environment
+    export LC_ALL=C
+    export LANG=C
+    export PATH=/usr/local/bin:$PATH
+
+%runscript
+    # Default command to run when the container is executed
+    exec deeptools "$@"
+
