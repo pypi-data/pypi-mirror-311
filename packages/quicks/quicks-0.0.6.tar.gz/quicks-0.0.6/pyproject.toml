@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "quicks"
+version = "0.0.6"
+description = "Quicks Project Generator"
+authors = ["Danil Akhtarov <daxartio@gmail.com>"]
+license = "MIT"
+readme = 'README.md'
+repository = "https://github.com/daxartio/quicks"
+homepage = "https://pypi.org/project/quicks"
+keywords = []
+
+[tool.poetry.scripts]
+quicks = 'quicks.cli.main:run'
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+jinja2 = "^3"
+PyYAML = "^6"
+
+[tool.poetry.dev-dependencies]
+mypy = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-deadfixtures = "*"
+pytest-mock = "*"
+ruff = "*"
+
+[tool.poetry.group.dev.dependencies]
+types-pyyaml = "^6.0.12.20240917"
+
+[build-system]
+requires = ["poetry>=1"]
+build-backend = "poetry.masonry.api"
