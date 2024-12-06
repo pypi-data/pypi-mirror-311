@@ -1,0 +1,17 @@
+
+[dev]
+cffconvert
+
+[doc_generation]
+sphinx
+sphinx_rtd_theme
+nbsphinx
+sphinx-mdinclude==0.5.4
+
+[tests]
+mypy
+testbook
+ipython
+ipykernel
+numpy
+matplotlib
