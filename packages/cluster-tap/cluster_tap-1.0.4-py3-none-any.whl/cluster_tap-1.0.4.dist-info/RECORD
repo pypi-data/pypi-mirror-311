@@ -1,0 +1,9 @@
+cluster_tap/__init__.py,sha256=vyTSdKmiEjE0IwQujUSXp6Ua_lJaK2tEgmVZRebz5BE,29968
+cluster_tap/cli.py,sha256=aZxS0FRhGUXU9c0y5dYxTWIFb93SDf_C-4YXW7yxNag,1348
+cluster_tap/common_imports.py,sha256=GAOgyhhzXWP_7NDstqMjdG3-lvwaWdtuXTNZXt0VWGY,309
+cluster_tap-1.0.4.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+cluster_tap-1.0.4.dist-info/METADATA,sha256=TUxxFfd33uq_tuVfPGsoApC6Hyrq3N-oOIZ_65k_bkc,371
+cluster_tap-1.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cluster_tap-1.0.4.dist-info/entry_points.txt,sha256=XCGBURB8kHPUG5LJBZQ1Se0qht7lpPnq1qggZqKBhhI,53
+cluster_tap-1.0.4.dist-info/top_level.txt,sha256=1WynTuZs433XTCyrqYaFamggGvoLiCasKoxCIdgUD64,12
+cluster_tap-1.0.4.dist-info/RECORD,,
