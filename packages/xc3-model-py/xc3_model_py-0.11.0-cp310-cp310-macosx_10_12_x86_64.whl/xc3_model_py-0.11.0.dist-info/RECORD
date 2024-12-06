@@ -1,0 +1,12 @@
+xc3_model_py-0.11.0.dist-info/METADATA,sha256=lNSYQKlrxQ_xHyDUO0JIe5qwSifJqp99LLQYpCzdRBc,8041
+xc3_model_py-0.11.0.dist-info/WHEEL,sha256=MeKD3nQdYf_tiuW1obl-otNCZH2PeKRHBhm-IMW70RU,106
+xc3_model_py/__init__.pyi,sha256=VMwRRg-YvjtfxgRd0s5qCW4XML0HRDPzL7z0ISRJinU,9222
+xc3_model_py/shader_database.pyi,sha256=39ClmJqDnJ4WKVLUquH0u7OzzuEWoEkTvOWywHKDHd4,1829
+xc3_model_py/monolib.pyi,sha256=jN0cy9_K4Xc5RdRf-c9Knc7kzgO6D8r2WKHCywQLtl8,326
+xc3_model_py/__init__.py,sha256=Ow7cCnkvafyxv7qT2L0gcTwkvJcKw2Vvgr4_mNBYgI4,28
+xc3_model_py/skinning.pyi,sha256=_Sz3ogG8lsgrJI3tFfJyvYTmF3F7uV4rg5HiOffE-U8,2264
+xc3_model_py/vertex.pyi,sha256=thWuVqm8rUszn_NYif-IsgFl1VW_UTFJLrohJ8Wjrv0,3107
+xc3_model_py/material.pyi,sha256=wSKOC87w_bumrIJWzq3o_XUIqT6JQqlK9n1rueyVYcQ,5873
+xc3_model_py/animation.pyi,sha256=ij85iLZ-GTjdImq96TIiHhaV7sY5EYX3ac8hvn3Tm2U,1738
+xc3_model_py/xc3_model_py.cpython-310-darwin.so,sha256=PwfiIMRADXdpR-AhivzvFHbLwtYsBjmBlOzHUnJ8ers,15628360
+xc3_model_py-0.11.0.dist-info/RECORD,,
