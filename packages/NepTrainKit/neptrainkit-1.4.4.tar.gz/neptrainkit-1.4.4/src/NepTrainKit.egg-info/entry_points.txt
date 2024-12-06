@@ -1,0 +1,2 @@
+[console_scripts]
+NepTrainKit = NepTrainKit.main:main
