@@ -1,0 +1,2 @@
+numpy>=1.21.0
+example-pkg-test-test-test>=0.0.1

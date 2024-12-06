@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dependency-test-test
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/turuzidankii/compiler
+Author: LinBei
+Author-email: 1249094042@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: example-pkg-test-test-test>=0.0.1

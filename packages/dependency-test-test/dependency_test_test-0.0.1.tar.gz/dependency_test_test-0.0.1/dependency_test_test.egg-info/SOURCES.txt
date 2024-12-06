@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dependency_test_test.egg-info/PKG-INFO
+dependency_test_test.egg-info/SOURCES.txt
+dependency_test_test.egg-info/dependency_links.txt
+dependency_test_test.egg-info/requires.txt
+dependency_test_test.egg-info/top_level.txt
+example_pkg/__init__.py
+example_pkg/depen.py
