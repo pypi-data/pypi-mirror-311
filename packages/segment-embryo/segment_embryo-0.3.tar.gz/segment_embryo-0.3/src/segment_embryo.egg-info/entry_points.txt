@@ -1,0 +1,2 @@
+[napari.manifest]
+segment-embryo = segment_embryo:napari.yaml
