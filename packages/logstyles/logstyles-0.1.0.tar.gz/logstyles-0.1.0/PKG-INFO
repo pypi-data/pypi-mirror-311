@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: logstyles
+Version: 0.1.0
+Summary: A logging styling library for Loguru with customizable themes and formats.
+Home-page: https://github.com/jaylann/logstyles
+Author: Justin Lanfermann
+Author-email: Justin@Lanfermann.dev
+License: MIT
+Project-URL: Bug Reports, https://github.com/jaylann/logstyles/issues
+Project-URL: Source, https://github.com/jaylann/logstyles/
+Keywords: logging loguru log styles themes formats
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru>=0.5.3
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: flake8>=3.8; extra == "dev"
+Requires-Dist: black>=21.0; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == "test"
+Requires-Dist: flake8>=3.8; extra == "test"
