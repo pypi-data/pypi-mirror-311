@@ -1,0 +1,2 @@
+[console_scripts]
+shoots-bynet = shoots_bynet:shoots_bynet

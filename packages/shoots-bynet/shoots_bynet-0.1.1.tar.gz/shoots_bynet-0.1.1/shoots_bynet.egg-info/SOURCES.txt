@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+shoots_bynet/__init__.py
+shoots_bynet.egg-info/PKG-INFO
+shoots_bynet.egg-info/SOURCES.txt
+shoots_bynet.egg-info/dependency_links.txt
+shoots_bynet.egg-info/entry_points.txt
+shoots_bynet.egg-info/top_level.txt
