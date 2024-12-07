@@ -1,0 +1,48 @@
+Metadata-Version: 2.3
+Name: pydashi
+Version: 2.0.1
+Summary: TODO
+Project-URL: Homepage, https://github.com/emiddell/dashi
+Author-email: The dashi developers <eike@middell.net>
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+Requires-Dist: docutils>=0.12
+Requires-Dist: jinja2>=2.7.3
+Requires-Dist: markupsafe>=0.23
+Requires-Dist: matplotlib>=3.0.0
+Requires-Dist: mock>=1.0.1
+Requires-Dist: nose>=1.3.4
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: pygments>=2.0.2
+Requires-Dist: pyparsing>=2.0.3
+Requires-Dist: python-dateutil>=2.4.0
+Requires-Dist: pytz>=2014.10
+Requires-Dist: scipy>=0.15.1
+Requires-Dist: six>=1.9.0
+Requires-Dist: sphinx>=1.2.3
+Description-Content-Type: text/markdown
+
+# dashi 
+
+
+Elaborate data analyses are possible with the functionality offered by the great
+`numpy <http://numpy.scipy.org/>`_, `matplotlib
+<http://matplotlib.sourceforge.net/>`_, and `pytables
+<http://www.pytables.org/moin>`_ libraries. However their support for
+HEP-typical problems (histograms, fitting routines,visualization of those,..) is
+limited. Dashi is intended to be a thin wrapper around these libraries to
+provide some useful tools for these problems without obstructing the user the access
+to the underlying libraries and without being a dependency sink.
+
+# Installation
+
+The easiest way to install dashi is with `pip`::
+
+	pip install pydashi
+
+# Documentation
+
