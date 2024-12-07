@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: evilcouncil_lib
+Version: 0.0.1
+Summary: Standard library for EvilCouncil Python projects.
+Author-email: Jon Heise <heise@evilcouncil.org>
+Project-URL: Homepage, https://github.com/EvilCouncil/evilcouncil_lib
+Project-URL: Bug Tracker, https://github.com/EvilCouncil/evilcouncil_lib/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12.3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pika

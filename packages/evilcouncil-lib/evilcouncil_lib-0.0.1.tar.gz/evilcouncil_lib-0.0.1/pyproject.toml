@@ -1,0 +1,27 @@
+[project]
+name = "evilcouncil_lib"
+version = "0.0.1"
+authors = [
+  { name="Jon Heise", email="heise@evilcouncil.org" },
+]
+dependencies = [
+  "requests",
+  "pika"
+]
+description = "Standard library for EvilCouncil Python projects."
+readme = "README.md"
+requires-python = ">=3.12.3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/EvilCouncil/evilcouncil_lib"
+"Bug Tracker" = "https://github.com/EvilCouncil/evilcouncil_lib/issues"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]
