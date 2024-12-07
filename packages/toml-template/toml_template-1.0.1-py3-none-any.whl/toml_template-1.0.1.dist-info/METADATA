@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: toml_template
+Version: 1.0.1
+Summary: A library to load a toml config using a template file for defaults.
+Author-email: Fakesum <worldanvilbild+github@gmail.com>
+Project-URL: Homepage, https://github.com/Fakesum/toml_template
+Project-URL: Bug Tracker, https://github.com/Fakesum/toml_template/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# toml_template
+A library to load a toml config using a template file for defaults. 
