@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: imfapi
+Version: 0.1.1
+Summary: Add your description here
+Project-URL: Repository, https://github.com/phcsoares/imfapi
+Author-email: Pedro Soares <phcastrosoares@gmail.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Requires-Dist: joblib>=1.4.2
+Requires-Dist: pandas>=2
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+# imfapi
