@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mdtk
+Version: 0.1.0
+Summary: Markdown Toolkit - Tools for working with markdown files
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: ruff; extra == "test"
+
+# mdtk (Markdown Toolkit)
+
+Tools for working with markdown files.
+
+## Installation
+
+```bash
+pip install mdtk
+```
+
+## Features
+
+- Chrome bookmarks to markdown converter
