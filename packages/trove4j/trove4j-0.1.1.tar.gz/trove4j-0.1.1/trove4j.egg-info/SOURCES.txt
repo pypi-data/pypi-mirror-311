@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+trove4j/__init__.py
+trove4j.egg-info/PKG-INFO
+trove4j.egg-info/SOURCES.txt
+trove4j.egg-info/dependency_links.txt
+trove4j.egg-info/entry_points.txt
+trove4j.egg-info/top_level.txt
