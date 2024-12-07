@@ -1,0 +1,8 @@
+include deteasypaddleocr/README.md
+include deteasypaddleocr/config.json
+recursive-include deteasypaddleocr/custom_easyocr *
+recursive-include deteasypaddleocr/custom_paddleocr *
+exclude .venv
+exclude .vscode
+exclude dist/
+exclude *.egg-info/
