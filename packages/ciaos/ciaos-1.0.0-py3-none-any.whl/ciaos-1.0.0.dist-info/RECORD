@@ -1,0 +1,13 @@
+ciaos/__init__.py,sha256=GgqY4q6lFfeVi4GngjXOgPbQaqlvqZ7ge6m9OwTQckw,84
+ciaos/client.py,sha256=EZCLOOuQrQhfZ71Ai8dDeG1xLfiruVmk-x4q6-jCt-g,8416
+ciaos/config.py,sha256=AOHTGCiufh1f1CviBNflfuZOcORMl6nj8guwOvKsxr4,373
+ciaos/test.py,sha256=xsAyZeSRgiwOZNtBwUB0CQf8f5FEYW7FeS9OjA9i86I,7612
+ciaos/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ciaos/util/flatbuffer/FileData.py,sha256=8dKZ0kNnZe6fXKT8H4MF86L3oWKAtJlARkUWtZCLO8M,2230
+ciaos/util/flatbuffer/FileDataList.py,sha256=YNgVplu0jt_exIRaNnRvxn5bpPPOKAIrSSLEu3UJtfk,2187
+ciaos/util/flatbuffer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ciaos/util/flatbuffer/flatbuffer_handler.py,sha256=lMbuGo1324H1ljNDy_hhxbkPb-q2xECMzbzblt8Lx6w,3328
+ciaos-1.0.0.dist-info/METADATA,sha256=xHi_k79hIYXP8HpWDNXJZj0duwpD1cie6z-23fdYP_Q,116
+ciaos-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ciaos-1.0.0.dist-info/top_level.txt,sha256=n1JTrwMcjYAUb0XXqVs0FOfE5YWt_d4AdXO5WdfKbSQ,6
+ciaos-1.0.0.dist-info/RECORD,,
