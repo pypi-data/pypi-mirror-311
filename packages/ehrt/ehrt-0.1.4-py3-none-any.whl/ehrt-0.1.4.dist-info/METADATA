@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ehrt
+Version: 0.1.4
+Summary: EHR Processing Toolkit
+Author: Vidul Ayakulangara Panickan
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: petehr
+
+# EHRT
+
+**Warning:** This package is a redirect. Please install `petehr` directly:
