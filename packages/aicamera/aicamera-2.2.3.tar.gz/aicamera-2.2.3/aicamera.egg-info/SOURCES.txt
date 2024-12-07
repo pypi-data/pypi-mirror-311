@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+aicamera/__init__.py
+aicamera/cameraSocket.py
+aicamera/image.py
+aicamera/lcd.py
+aicamera/rtsp.py
+aicamera/udp.py
+aicamera/util.py
+aicamera/wifi.py
+aicamera.egg-info/PKG-INFO
+aicamera.egg-info/SOURCES.txt
+aicamera.egg-info/dependency_links.txt
+aicamera.egg-info/top_level.txt
