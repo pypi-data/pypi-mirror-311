@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+config.yaml
+setup.py
+simexp.egg-info/PKG-INFO
+simexp.egg-info/SOURCES.txt
+simexp.egg-info/dependency_links.txt
+simexp.egg-info/entry_points.txt
+simexp.egg-info/requires.txt
+simexp.egg-info/top_level.txt
