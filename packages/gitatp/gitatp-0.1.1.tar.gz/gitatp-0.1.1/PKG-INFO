@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: gitatp
+Version: 0.1.1
+Summary: Git over ATProto
+Author-email: Public Domain <publicdomainrelay@protonmail.com>
+Requires-Python: >=3.12
+Requires-Dist: atproto>=0.0.55
