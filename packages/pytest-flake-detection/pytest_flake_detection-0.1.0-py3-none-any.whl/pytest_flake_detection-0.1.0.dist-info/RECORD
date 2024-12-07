@@ -1,0 +1,8 @@
+pytest_flake_detection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_flake_detection/plugin.py,sha256=ohy-5M18g2DT4vfuS2NNQtWozlkDCP3M4_zgG7KSkY8,3203
+pytest_flake_detection-0.1.0.dist-info/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+pytest_flake_detection-0.1.0.dist-info/METADATA,sha256=vgAnifdaUxglGW6yHMUIu6b-ZOjl0jLyGM1YC74qjIU,16386
+pytest_flake_detection-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pytest_flake_detection-0.1.0.dist-info/entry_points.txt,sha256=FDWoMfq3C4AfXv_uW8DHYHJKt1hMz9xkKtX6pcs_PNk,135
+pytest_flake_detection-0.1.0.dist-info/top_level.txt,sha256=TFSvbgfIrzt-FS8Pm4PsjFwzmmPR4BCqDsSezb6xW4I,23
+pytest_flake_detection-0.1.0.dist-info/RECORD,,
