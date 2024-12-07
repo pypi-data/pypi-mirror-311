@@ -1,0 +1,22 @@
+[build-system]
+requires = [ "toml", "setuptools>=42",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toml_template"
+version = "1.0.2"
+description = "A library to load a toml config using a template file for defaults."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent",]
+[[project.authors]]
+name = "Ansh Mathur"
+email = "worldanvilbild+github@gmail.com"
+
+[[project.authors]]
+name = "Medha Sharan"
+email = "mc5695@srmist.edu.in"
+
+[project.urls]
+Homepage = "https://github.com/Fakesum/toml_template"
+"Bug Tracker" = "https://github.com/Fakesum/toml_template/issues"
