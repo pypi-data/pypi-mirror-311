@@ -1,0 +1,2 @@
+[console_scripts]
+hermes = altxria.hermes.cli:cli
