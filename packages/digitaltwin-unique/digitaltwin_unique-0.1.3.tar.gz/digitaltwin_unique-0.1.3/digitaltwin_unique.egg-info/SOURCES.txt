@@ -1,0 +1,6 @@
+README.md
+setup.py
+digitaltwin_unique.egg-info/PKG-INFO
+digitaltwin_unique.egg-info/SOURCES.txt
+digitaltwin_unique.egg-info/dependency_links.txt
+digitaltwin_unique.egg-info/top_level.txt
