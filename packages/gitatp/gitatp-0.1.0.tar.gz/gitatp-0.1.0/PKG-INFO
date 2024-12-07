@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: gitatp
+Version: 0.1.0
+Summary: Git over ATProto
+Author-email: John Andersen <johnandersen777@protonmail.com>
+Requires-Python: >=3.12

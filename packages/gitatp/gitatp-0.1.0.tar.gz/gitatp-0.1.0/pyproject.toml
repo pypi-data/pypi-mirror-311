@@ -1,0 +1,20 @@
+[project]
+name = "gitatp"
+version = "0.1.0"
+description = "Git over ATProto"
+long_description = "# Git over ATProto"
+long_description_content_type = "text/markdown"
+readme = {file = "README.md", content-type = "text/markdown"}
+authors = [
+    { name = "John Andersen", email = "johnandersen777@protonmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[project.scripts]
+gitatp = "gitatp.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
