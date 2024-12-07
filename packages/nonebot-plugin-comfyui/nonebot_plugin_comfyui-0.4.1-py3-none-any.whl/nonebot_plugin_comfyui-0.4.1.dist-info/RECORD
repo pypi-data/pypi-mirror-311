@@ -1,0 +1,14 @@
+nonebot_plugin_comfyui-0.4.1.dist-info/METADATA,sha256=H4_0Jz3pf_DQ5OzRFRQaAFChfLxaeT6j8X8HIA6JzOk,7030
+nonebot_plugin_comfyui-0.4.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+nonebot_plugin_comfyui-0.4.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+nonebot_plugin_comfyui/__init__.py,sha256=BY5rCMAXrE_h-khYQYpU2K6r620tEEwP96ZaAkuSEww,8477
+nonebot_plugin_comfyui/backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot_plugin_comfyui/backend/comfyui.py,sha256=R1wc9UAhsuc1LMOXvzM3Ow9ITp4NXVJvVV1ozdQMro0,29937
+nonebot_plugin_comfyui/backend/help.py,sha256=369qwNgn9oVMfotGWmuyiwZ8PvLYb1Cil0eOTsmh38g,4157
+nonebot_plugin_comfyui/backend/preset.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot_plugin_comfyui/backend/pw.py,sha256=CLyP4m5wwFGsLWshKI9DPGOBNwqTPgSjFTJvWW9UF8o,1125
+nonebot_plugin_comfyui/backend/utils.py,sha256=ab49saGKPcmSEHTGilHPcshi3xf2IzwZ44CmTrYGOkc,4242
+nonebot_plugin_comfyui/comfyui_api.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot_plugin_comfyui/config.py,sha256=caZUPDd9bIJj7t3DYKBq3OySzVAyMdCHKyN7YjG8-UA,881
+nonebot_plugin_comfyui/handler.py,sha256=xQp6vTc-BONGmZ7kHfJwI6H4eoidtAeoiLjqTPlLXdQ,3749
+nonebot_plugin_comfyui-0.4.1.dist-info/RECORD,,
