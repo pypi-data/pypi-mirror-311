@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "streamlit-subprocess"
+version = "0.1.0"
+description = "Run subprocesses with live output in Streamlit"
+authors = ["Uli Köhler <github@techoverflow.net>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/ulikoehler/streamlit-subprocess"
+
+packages = [
+    { include = "streamlit_subprocess" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+streamlit = "^1.40.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
