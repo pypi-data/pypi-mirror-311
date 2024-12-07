@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: seagliderOG1
+Version: 0.0.1a3
+Summary: Convert from Seaglider basestation to OG1 format
+Maintainer-email: Eleanor Frajka-Williams <eleanorfrajka@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Eleanor Frajka-Williams
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: documentation, https://github.com/eleanorfrajka/seagliderOG1
+Project-URL: homepage, https://github.com/eleanorfrajka/seagliderOG1
+Project-URL: repository, https://github.com/eleanorfrajka/seagliderOG1
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: netcdf4
+Requires-Dist: pooch
+Requires-Dist: xarray
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: cmocean
+Requires-Dist: skyfield
+Requires-Dist: tqdm
+Requires-Dist: gsw
+Requires-Dist: sgp4>=2.14
+Requires-Dist: cartopy
+Requires-Dist: importlib_resources
+
+# seagliderOG1
+
+This repository is intended to convert Seaglider basestation files (`pSSSDDDD*.nc`) into [OG1 format](https://oceangliderscommunity.github.io/OG-format-user-manual/OG_Format.html).
+
+Code is based on code from [votoutils](https://github.com/voto-ocean-knowledge/votoutils/blob/main/votoutils/glider/convert_to_og1.py).
+
+### Organisation
+
+Scripts within the `seagliderOG1` package are divided by functionality:
+
+- **readers.py** reads basestation files (`*.nc`) from a server or local directory
+- **writers.py** writes OG1 `*.nc` files, default directory `data/`
+- **plotters.py** contains some basic plotting and viewing functions
+- **convertOG1.py** converts the basestation files to OG1 format
+- **vocabularies.py** contains some of the vocabulary translation (might be better as a YAML file)
+- *seaglider_registr.txt* has checksums for data files
+- **tools.py** functions the user may want to use
+- **utilities.py** functions the user probably will never need to call (only used in other functions)
+
+### Directory 
+File directory structure is as follows.
+
+seagliderOG1/
+- .github/
+- config/
+    - OG1_author.yaml
+    - OG1_global_attrs.yaml
+    - OG1_global_attrs.yaml
+    -  OG1_sensor_attrs.yaml
+    - OG1_var_names.yaml
+    - OG1_vocab_attrs.yaml
+    - mission_yaml.yaml
+- data/
+    - test.nc
+- notebooks/
+    - dev_notebooks/
+        - dev-troubleshoot.ipynb
+        - download_and_register.ipynb
+    - demo.ipynb
+- seagliderOG1/
+    - convertOG1.py
+    - plotters.py
+    - readers.py
+    - seaglider_registry.txt
+    - tools.py
+    - utilities.py
+    - vocabularies.py
+    - writers.py
+- tests/
+    - test_readers.py
+- .gitignore
+- LICENSE
+- README.md
+- requirements-dev.txt
+- requirements.txt
+
+
+### Status
+
+Active development by one.  Many things may break - not yet ready for collaboration.
