@@ -1,0 +1,13 @@
+true/__init__.py,sha256=I28QjmlVBVckMS_rQ1di4YRAd8TbxcNYMcwt8i04aMM,1484
+true/collections.py,sha256=QppKXh65EWy2V4qW0lFskfqCmr2FlP7RaSCKXBBxgXY,51109
+true/enum_registry.py,sha256=-QDvZ4jdIbgYVhpkDJ7nZdKuS1xt8tWVK5WI5UBhEy0,24469
+true/enums_toolkits.py,sha256=adxB4DAouMWwxQNDVVRViEe-1OT_Lv_5MPS5Kaa1_I4,20136
+true/exceptions.py,sha256=1-aQ0ueTZ_vdbOjca3xo0U69waWR0piOwq83J9MWEqw,3770
+true/re.py,sha256=mG9NROITXR1HnZxw67L7IwnrrCfMCT5UkvSUfCRNDqo,18671
+true/time.py,sha256=BpKTXrCiI4bOOzSfdRlFMjoX-ZjCmr_uyTYzRJqo0-8,25819
+true/toolkits.py,sha256=FVbKA4sryvit8iiO2zU8GdWjFuoRHmsqs6w1y_DnCAY,34156
+true/types.py,sha256=q-vqxZwrWvJOxeZwOSTafQ45cWTL4DR8tkLBQpWFfcA,18810
+true_core-0.1.1.dist-info/LICENSE.txt,sha256=GYe_XE2Sl_jHmanWgPTDMDPBMkdsDZD-WPkIRHU5Fpk,1097
+true_core-0.1.1.dist-info/METADATA,sha256=ui3hNHG1qNELjqJpNsJVjSI9GXzNH2vG8u9t_B6nV24,5516
+true_core-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+true_core-0.1.1.dist-info/RECORD,,
