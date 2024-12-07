@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: LinguAI
+Version: 0.1.0
+Summary: 一个用于大语言模型处理的Python包
+Home-page: https://github.com/XiaomingX/LinguAI
+Author: xiaomingx
+Author-email: support@uhaka.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LinguAI
+
+这是一个用于大语言模型处理的 Python 包。
+
+## 安装
+
+```bash
+pip install LinguAI

@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+LinguAI/__init__.py
+LinguAI.egg-info/PKG-INFO
+LinguAI.egg-info/SOURCES.txt
+LinguAI.egg-info/dependency_links.txt
+LinguAI.egg-info/top_level.txt
