@@ -1,0 +1,6 @@
+include README.md
+include deteasypaddleocr/config.json
+exclude .venv
+exclude .vscode
+exclude dist/
+exclude *.egg-info/

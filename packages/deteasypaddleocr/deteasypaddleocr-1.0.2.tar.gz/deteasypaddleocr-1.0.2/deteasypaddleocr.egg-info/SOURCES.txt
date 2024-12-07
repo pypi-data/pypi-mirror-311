@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+deteasypaddleocr/__init__.py
+deteasypaddleocr/config.json
+deteasypaddleocr/ocr_detection.py
+deteasypaddleocr.egg-info/PKG-INFO
+deteasypaddleocr.egg-info/SOURCES.txt
+deteasypaddleocr.egg-info/dependency_links.txt
+deteasypaddleocr.egg-info/requires.txt
+deteasypaddleocr.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+from ocr_detection import OCRDetector, process_image
