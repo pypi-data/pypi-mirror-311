@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: qube_nic
+Version: 0.2.0
+Summary: NIC tool for flashing NICs
+Author: Apoorva Singh
+Author-email: apoorvasingh157@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: esptool (>=4.8.1,<5.0.0)
+Requires-Dist: nuitka (>=2.4.11,<3.0.0)
+Requires-Dist: rich (>=13.9.4,<14.0.0)
+Requires-Dist: textual (>=0.85.2,<0.86.0)
+Description-Content-Type: text/markdown
+
+# NIC Flashing Tool
+This tool is used to flash the NIC firmware on Qube devices.
+
+## Build
+Note that you have to build the project once for each operating system you want to support.
+```
+pex esptool rich -o nic.pex -e flasher -D .
+```
+
+## Development
+Install `poetry`, install dependencies and run the tool:
+
+```
+pip install poetry
+poetry install
+poetry run python flasher.py
+```

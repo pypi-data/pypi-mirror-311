@@ -1,0 +1,8 @@
+{
+  "wifi_ssid": "qube",
+  "wifi_password": "12345678",
+  "hardware_id": 1327,
+  "device_manufacturer_code": 101102,
+  "firmware_file_path": "wifi-nic-r3-v2.5.2.bin",
+  "serial_port": "/dev/tty.usbserial-A5XK3RJT"
+}
