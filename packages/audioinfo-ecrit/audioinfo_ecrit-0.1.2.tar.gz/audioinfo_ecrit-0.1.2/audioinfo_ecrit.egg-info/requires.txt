@@ -1,0 +1,5 @@
+typer==0.13.1
+mutagen==1.47.0
+librosa==0.10.2.post1
+numpy==2.0.2
+pyloudnorm==0.1.1
