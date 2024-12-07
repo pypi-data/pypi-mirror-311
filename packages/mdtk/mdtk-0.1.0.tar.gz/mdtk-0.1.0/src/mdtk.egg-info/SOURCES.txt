@@ -1,0 +1,17 @@
+.gitignore
+README.md
+Setup.md
+pyproject.toml
+.github/workflows/ci.yml
+.github/workflows/publish.yml
+src/mdtk/__init__.py
+src/mdtk/_version.py
+src/mdtk/bookmarks.py
+src/mdtk.egg-info/PKG-INFO
+src/mdtk.egg-info/SOURCES.txt
+src/mdtk.egg-info/dependency_links.txt
+src/mdtk.egg-info/entry_points.txt
+src/mdtk.egg-info/requires.txt
+src/mdtk.egg-info/top_level.txt
+tests/__init__.py
+tests/test_bookmarks.py
