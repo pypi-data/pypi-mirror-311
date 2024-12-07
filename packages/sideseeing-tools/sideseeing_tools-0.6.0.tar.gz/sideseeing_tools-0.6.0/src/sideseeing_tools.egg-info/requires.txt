@@ -1,0 +1,12 @@
+folium
+imageio
+librosa
+matplotlib
+moviepy
+numpy
+opencv-python
+pandas
+reverse-geocode
+
+[dev]
+pytest
