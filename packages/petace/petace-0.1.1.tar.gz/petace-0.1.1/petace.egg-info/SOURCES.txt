@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+petace/__init__.py
+petace.egg-info/PKG-INFO
+petace.egg-info/SOURCES.txt
+petace.egg-info/dependency_links.txt
+petace.egg-info/entry_points.txt
+petace.egg-info/top_level.txt
