@@ -1,0 +1,16 @@
+altxria/hermes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+altxria/hermes/cli.py,sha256=MUCVPUxMIq9Yj7ra94ylekbVQxfpRsmnlGmvAY2BaQs,6868
+altxria/hermes/config.py,sha256=goZftQNRrHmlo_LbJF3RWeden878J0vS_oFUgoas1BA,3277
+altxria/hermes/database.py,sha256=lHAPy2n1yVJJ5k1-XgfHnIlNw6y2Pg7KFYitDn3oKZU,6925
+altxria/hermes/exceptions.py,sha256=wyuVtijZ74l15Iv7Bx43dhxEXmIxpBdc1En7HL7FH4Q,2934
+altxria/hermes/fields.py,sha256=AjdGCu11vWPZFjl74Nn4_FmrkDDQa4FdUPV94vNS9DU,5385
+altxria/hermes/migrations.py,sha256=_o5iFDzayOcH26t_8dFS_N7OlU9nbilpD6SaAL5iRdI,16422
+altxria/hermes/model.py,sha256=o6Hffjc7TyC3dNRIS-Ns0VmRg04JCQ-XEB_AunbbfJg,26674
+altxria/hermes/query_builder.py,sha256=P8G8gQqblQ4_vFmIpV0X--zcmpSsJ-1RPyu2wSWfA_g,7471
+altxria/hermes/relations.py,sha256=Qu4VDheskGM2nB60EACZrJoyWVoUOrpA_X1DWtGyTec,6025
+hermes_orm-0.1.6.dist-info/LICENSE,sha256=i8xEGbjrLjDix0UDvo7U7-Mgb-riQ2jxX2Jozaz4U9k,18829
+hermes_orm-0.1.6.dist-info/METADATA,sha256=sH1SJVSz0xt2thkTcJYMxdn8onSOX7gZBFVVWFUQADQ,5761
+hermes_orm-0.1.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+hermes_orm-0.1.6.dist-info/entry_points.txt,sha256=_DdSIyjLT9FXjfSt2tWayHSzDAo_W7xoRkv9OrxfBbA,50
+hermes_orm-0.1.6.dist-info/top_level.txt,sha256=sjiKl6gBUVUywBzJBkCJz0UgIa4ncwR9aHESUoP3vts,8
+hermes_orm-0.1.6.dist-info/RECORD,,
