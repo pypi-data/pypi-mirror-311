@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+simexp/__init__.py
+simexp/archiver.py
+simexp/imp_clip.py
+simexp/processor.py
+simexp/simex.py
+simexp/simfetcher.py
+simexp.egg-info/PKG-INFO
+simexp.egg-info/SOURCES.txt
+simexp.egg-info/dependency_links.txt
+simexp.egg-info/entry_points.txt
+simexp.egg-info/requires.txt
+simexp.egg-info/top_level.txt
