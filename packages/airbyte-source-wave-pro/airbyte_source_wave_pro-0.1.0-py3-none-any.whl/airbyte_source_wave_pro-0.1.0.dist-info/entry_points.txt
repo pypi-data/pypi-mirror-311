@@ -1,0 +1,3 @@
+[console_scripts]
+airbyte-source-wave-pro=airbyte_source_wave_pro.run:run
+
