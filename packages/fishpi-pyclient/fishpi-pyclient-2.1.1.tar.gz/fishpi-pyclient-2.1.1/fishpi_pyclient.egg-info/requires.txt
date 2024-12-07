@@ -1,0 +1,12 @@
+requests
+websocket-client
+click
+schedule
+objprint
+colorama
+termcolor
+prettytable
+bs4
+html2text
+plyer
+pyobjus
