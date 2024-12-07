@@ -1,0 +1,11 @@
+packing3d/__init__.py,sha256=oPzRr-Ff0agk7T7RUUlQx2DtLwki3sHsGh1Vr7hF58c,1312
+packing3d/cartesian.py,sha256=7EVa-q0lVcRuELLoNSErpoTggQszfCQXBig_zyBwfNU,12369
+packing3d/cylindrical.py,sha256=5EGU5L38rejHinhjyUxvIeeExeczUJNeAMt8IebYmZA,15289
+packing3d/geometry.py,sha256=WKpygHF9uvpc8RvZA2Qycx6ukeMnNL9fJ3o4LQ4DnbI,27949
+packing3d/io.py,sha256=p8TyhzXIgGAfnLkr-VB64nzCz85m1Q3rGh_YbykuylE,1448
+packing3d/utils.py,sha256=yUlDhofQbOBbpfqhBDwcc08P3A9gy5JSXj0gkSQP2Ng,18395
+packing3d-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+packing3d-0.1.1.dist-info/METADATA,sha256=_oiEegKEobRekuuRmzwWq3AeQAWQrSB0m1HaOkf3cHc,50747
+packing3d-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+packing3d-0.1.1.dist-info/top_level.txt,sha256=8bl5T7IqUTKbYCzE4YFW5ZsZpgA-odV9YIQj-s5K2C4,10
+packing3d-0.1.1.dist-info/RECORD,,
