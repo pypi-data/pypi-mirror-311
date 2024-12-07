@@ -1,0 +1,6 @@
+mcsp/__init__.py,sha256=6-wFt5oDIOzj_bHBFbGZJEpdDdOnQxh-DL90OTtsn7I,18
+mcsp/mcsp.cp310-win_amd64.pyd,sha256=6KWqs9dZSRiZEpyiXh9t73kxb8FeJse3F32i3Yoz6EA,99328
+mcsp-1.1.1.dist-info/METADATA,sha256=5Vi3t6h6Hoow2O46yV4ecOpxwOsb10ibc4wkGqA-uQc,287
+mcsp-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mcsp-1.1.1.dist-info/top_level.txt,sha256=42FMn0QGo6UJcdrrXI9xWidl9xdxfp3h4Eq7i-C0kko,5
+mcsp-1.1.1.dist-info/RECORD,,
