@@ -1,0 +1,107 @@
+[
+    [
+        {
+            "app_name": "autotest_dde_file_manager",
+            "git": {
+                "url": "ssh://ut001203@gerrit.uniontech.com:29418/autotest_dde_file_manager",
+                "branch": "at-develop/eagle"
+            },
+            "framework": "youqu2",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.15.20"
+            ],
+            "order": 1
+        }
+    ],
+    [
+        {
+            "app_name": "autotest_deepin_kwin",
+            "git": {
+                "url": "ssh://ut001203@gerrit.uniontech.com:29418/autotest_deepin_kwin",
+                "branch": "at-develop/eagle"
+            },
+            "framework": "youqu2",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.15.20"
+            ],
+            "order": 2
+        }
+    ],
+    [
+        {
+            "app_name": "kernel",
+            "git": {
+                "url": "ssh://ut001203@gerrit.uniontech.com:29418/autotest-uos-v25",
+                "branch": "at-develop/v25"
+            },
+            "framework": "youqu3",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.15.20"
+            ],
+            "order": 3
+        }
+    ],
+    [
+        {
+            "app_name": "autotest_deepin_music",
+            "git": {
+                "url": "ssh://ut001203@gerrit.uniontech.com:29418/autotest_deepin_music",
+                "branch": "at-develop/eagle"
+            },
+            "framework": "youqu2",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.15.20"
+            ],
+            "order": 4
+        }
+    ],
+    [
+        {
+            "app_name": "autotest_deepin_screen_recorder",
+            "git": {
+                "url": "ssh://ut001203@gerrit.uniontech.com:29418/autotest_deepin_screen_recorder",
+                "branch": "at-develop/eagle"
+            },
+            "framework": "youqu3",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.15.20"
+            ],
+            "order": 5
+        }
+    ],
+    [
+        {
+            "app_name": "autotest_deepin_draw",
+            "git": {
+                "url": "ssh://ut001203@gerrit.uniontech.com:29418/autotest_deepin_draw",
+                "branch": "at-develop/eagle"
+            },
+            "framework": "youqu2",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.15.20"
+            ],
+            "order": 6
+        }
+    ],
+    [
+        {
+            "app_name": "autotest_deepin_movie",
+            "git": {
+                "url": "ssh://ut001203@gerrit.uniontech.com:29418/autotest_deepin_movie",
+                "branch": "at-develop/eagle"
+            },
+            "framework": "youqu2",
+            "split_run": false,
+            "clients": [
+                "uos@10.8.15.20"
+            ],
+            "order": 7
+        }
+    ]
+]
