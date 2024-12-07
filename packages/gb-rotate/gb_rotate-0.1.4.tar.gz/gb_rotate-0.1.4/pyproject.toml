@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gb_rotate"
+requires-python = ">=3.8"
+authors = [
+    { name = "Katie E. Herron", email = "kherronism@gmail.com" }
+]
+maintainers = [
+    { name = "Katie E. Herron", email = "kherronism@gmail.com" }
+]
+description = "A command-line utility to rotate and reverse complement GenBank files."
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+keywords = ["genbank", "bioinformatics", "sequence", "rotation", "reverse-complement"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+dependencies = [
+    "typer",
+]
+
+[project.scripts]
+gb_rotate = "gb_rotate.main:cli"
+
+[project.urls]
+"Homepage" = "https://github.com/kherronism/gb_rotate"
+
+[tool.setuptools.dynamic]
+version = {attr = "gb_rotate.__version__"}

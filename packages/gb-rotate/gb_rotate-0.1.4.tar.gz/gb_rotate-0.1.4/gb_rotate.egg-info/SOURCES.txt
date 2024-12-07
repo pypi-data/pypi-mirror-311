@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+gb_rotate/__init__.py
+gb_rotate/gb_rotate.py
+gb_rotate/main.py
+gb_rotate.egg-info/PKG-INFO
+gb_rotate.egg-info/SOURCES.txt
+gb_rotate.egg-info/dependency_links.txt
+gb_rotate.egg-info/entry_points.txt
+gb_rotate.egg-info/requires.txt
+gb_rotate.egg-info/top_level.txt

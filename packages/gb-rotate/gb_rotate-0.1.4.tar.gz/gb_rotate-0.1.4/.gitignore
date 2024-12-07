@@ -1,0 +1,12 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Distribution files
+dist/
+build/
+*.egg-info/
+
+# IDE files
+.idea/

@@ -1,0 +1,2 @@
+[console_scripts]
+gb_rotate = gb_rotate.main:cli
