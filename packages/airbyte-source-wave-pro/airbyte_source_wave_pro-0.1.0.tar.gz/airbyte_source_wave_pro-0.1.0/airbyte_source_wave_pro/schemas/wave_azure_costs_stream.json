@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "account": { "type": "string" },
+    "groupId": { "type": "string" },
+    "date": { "type": "string" },
+    "serviceName": { "type": "string" },
+    "productName": { "type": "string" },
+    "region": { "type": "string" },
+    "chargeType": { "type": "string" },
+    "description": { "type": "string" },
+    "billableQuantity": { "type": "number" },
+    "effectiveUnitPrice": { "type": "number" },
+    "cost": { "type": "number" },
+    "baseCurrency": { "type": "string" },
+    "exchangeRate": { "type": "number" },
+    "targetCost": { "type": "number" },
+    "targetCurrency": { "type": "string" },
+    "timeInterval": { "type": "string" },
+    "billingType": { "type": "string" },
+    "alternateId": { "type": "string" },
+    "domainName": { "type": "string" },
+    "operation": { "type": "string" },
+    "usageType": { "type": "string" },
+    "instanceType": { "type": "string" },
+    "category": { "type": "string" },
+    "subscriptionId": { "type": "string" },
+    "entitlementId": { "type": "string" }
+  }
+}

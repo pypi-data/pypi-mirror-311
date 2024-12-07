@@ -1,0 +1,34 @@
+[virtualenvs]
+in-project = true
+
+[build-system]
+requires = [ "poetry-core>=1.0.0",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+version = "0.1.0"
+name = "airbyte-source-wave-pro"
+description = "Source implementation for airbyte-source-wave-pro."
+authors = [ "kesompochy",]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/kesompochy/airbyte-source-wave-pro"
+packages = [ 
+    { include = "airbyte_source_wave_pro" },
+    { include = "main.py" } 
+]
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.12"
+airbyte-cdk = "^0"
+
+[tool.poetry.scripts]
+airbyte-source-wave-pro = "airbyte_source_wave_pro.run:run"
+
+[tool.poetry.group.dev.dependencies]
+requests-mock = "*"
+pytest-mock = "*"
+pytest = "*"
+black = "^24.10.0"
+isort = "^5.13.2"
+

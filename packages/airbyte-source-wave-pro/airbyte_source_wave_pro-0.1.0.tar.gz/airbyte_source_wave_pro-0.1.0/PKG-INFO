@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: airbyte-source-wave-pro
+Version: 0.1.0
+Summary: Source implementation for airbyte-source-wave-pro.
+Home-page: https://github.com/kesompochy/airbyte-source-wave-pro
+License: MIT
+Author: kesompochy
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: airbyte-cdk (>=0,<1)
+Project-URL: Repository, https://github.com/kesompochy/airbyte-source-wave-pro
+Description-Content-Type: text/markdown
+
+# Airbyte Source Wave Pro
+
+## Usage
+
+In your airbyte workspace, create a new source from a docker image.
+
+## Supported Features
+
+- Reads the usage-based cost details of AWS, GCP, and Azure.
+

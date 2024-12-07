@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "account": { "type": "string" },
+    "groupId": { "type": "string" },
+    "date": { "type": "string" },
+    "invoiceMonth": { "type": "string" },
+    "service": { "type": "string" },
+    "sku": { "type": "string" },
+    "region": { "type": "string" },
+    "zone": { "type": "string" },
+    "creditsType": { "type": "string" },
+    "creditsName": { "type": "string" },
+    "usageUnit": { "type": "string" },
+    "usageAmount": { "type": "number" },
+    "baseCurrency": { "type": "string" },
+    "cost": { "type": "number" }
+  }
+}
