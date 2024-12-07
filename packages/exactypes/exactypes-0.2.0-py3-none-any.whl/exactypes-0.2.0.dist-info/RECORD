@@ -1,0 +1,14 @@
+exactypes/__init__.py,sha256=n1nlnGpUHX2uM9YEtoZFKFemaf-g8gu682too2VpdjA,409
+exactypes/array.py,sha256=9SRyQlw06jjWLM_4Pzm3OFOGiuVM_56pSwbxsxrgBfY,20848
+exactypes/exceptions.py,sha256=GV5C69qRNh4NxOOyU5FtTgyT1vzgTpQkIMA5V96a2L4,397
+exactypes/types.py,sha256=DaQTMIrioHZ5okEQ8nIW_V7knLBy0yVD3e385pKUKmw,1304
+exactypes/cdataobject/__init__.py,sha256=tkfRGE9Tiy2rAIFHQ0jHcOLH11gNWPwfA5OGPGMFJUQ,11207
+exactypes/cdataobject/datafield.py,sha256=mhnP7j5tTDaBQrdlr3uTD67TQXz5uyStCb_rSi2L0Q8,10033
+exactypes/cdataobject/refsolver.py,sha256=lczzqiOzrPkPmqH3BEVpESh0MftJefKjWo0cmF7wonA,2703
+exactypes/cfuncs/__init__.py,sha256=Hop9megMjMG5YRhzOZpfwDth4v1gh71oHagYOHh3dP0,11776
+exactypes/cfuncs/argtypes.py,sha256=fEKiO9xyBvm4YXk4qQdm2ZIeKmn_eo6rIhyQKzjRr8I,4121
+exactypes/cfuncs/restype.py,sha256=jkdkKOHsbc5IZwD72kvCrHJI3KHbrtJiImAfHh7xP9I,2351
+exactypes-0.2.0.dist-info/METADATA,sha256=WAUTWh5tZJfI_Aa66_s6bpxkRLXQYy4oIlMZam4E5Tc,624
+exactypes-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+exactypes-0.2.0.dist-info/top_level.txt,sha256=n_s0V9kkvhi2p_N2smneTKqPGS_EXtxNeu14KAu53LQ,10
+exactypes-0.2.0.dist-info/RECORD,,
