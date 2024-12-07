@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: onenode
+Version: 0.1.0
+Summary: The official Python library for the OneNode API
+Author: OneNode
+Author-email: hello@onenode.ai
+Requires-Python: >=3.8
+License-File: LICENSE

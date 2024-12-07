@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+onenode.egg-info/PKG-INFO
+onenode.egg-info/SOURCES.txt
+onenode.egg-info/dependency_links.txt
+onenode.egg-info/top_level.txt
