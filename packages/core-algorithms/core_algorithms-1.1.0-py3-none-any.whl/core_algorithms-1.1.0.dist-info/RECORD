@@ -1,0 +1,12 @@
+core_algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core_algorithms/sorting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core_algorithms/sorting/bubble_sort.py,sha256=6NKwRfOGE_bc_DBrbnmIRRV-2mVyoK1eTSwAlPNZCpQ,433
+core_algorithms/sorting/insertion_sort.py,sha256=1np2_DTPaeGBEkKcZlzMpnZTdqvu6EitvUHK1v2MuJQ,314
+core_algorithms/sorting/merge_sort.py,sha256=xg1JsUujp5uLRFyKTWfNWcNB3GMqSfLgXLS55TWmLZI,1096
+core_algorithms/sorting/quick_sort.py,sha256=yqf9K1ZYGbtdADComQbDPmJ97T-_FNnAJrqPwe8Rxqs,783
+core_algorithms/sorting/selection_sort.py,sha256=9xmmUngvhGsa9BmfwR3_hrIpFnDkl7OkFsyMMXI5FmI,437
+core_algorithms-1.1.0.dist-info/LICENSE,sha256=dj8Wz7OWOIOTyLJzaYLn8RFz_W5uYWSGR2xS5lHNAl4,1082
+core_algorithms-1.1.0.dist-info/METADATA,sha256=6ob8mBlefnT5FHnHWWuSnq1c9UJlsDEyWG6wI0tzR1o,2004
+core_algorithms-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+core_algorithms-1.1.0.dist-info/top_level.txt,sha256=dWLAO82o4oE-78VzxAvdog7WvjwchVOzKnZzVQsdjPw,16
+core_algorithms-1.1.0.dist-info/RECORD,,
