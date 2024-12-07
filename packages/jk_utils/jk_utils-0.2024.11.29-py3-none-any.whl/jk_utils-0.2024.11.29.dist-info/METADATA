@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: jk_utils
+Version: 0.2024.11.29
+Summary: This python module provides various utility functions and classes.
+Keywords: utilities
+Author-email: Jürgen Knauth <pubsrc@binary-overflow.de>
+Maintainer-email: Jürgen Knauth <pubsrc@binary-overflow.de>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: sortedcontainers
+Requires-Dist: jk_simpleexec
+Requires-Dist: jk_logging
+Requires-Dist: jk_version
+
+jk_utils
+========
+
+Introduction
+------------
+
+This python module provides various utility functions and classes.
+
+Information about this module can be found here:
+
+* [github.org](https://github.com/jkpubsrc/python-module-jk-utils)
+* [pypi.python.org](https://pypi.python.org/pypi/jk_utils)
+
+How to use this module
+----------------------
+
+### ....
+
+....
+
+Contact Information
+-------------------
+
+This is Open Source code. That not only gives you the possibility of freely using this code it also
+allows you to contribute. Feel free to contact the author(s) of this software listed below, either
+for comments, collaboration requests, suggestions for improvement or reporting bugs:
+
+* Jürgen Knauth: jknauth@uni-goettingen.de, pubsrc@binary-overflow.de
+
+License
+-------
+
+This software is provided under the following license:
+
+* Apache Software License 2.0
+
+
+
+
