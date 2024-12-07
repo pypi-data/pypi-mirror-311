@@ -1,0 +1,10 @@
+baldwin/__init__.py,sha256=ux4ISsgwGJ4D3cMIalVSzT-uqBFCWIMN5PH7GFCGMFw,62
+baldwin/main.py,sha256=fO29h5JiXQbXwrBW2nc99EyLoblD5qdsuh9srSaMNIU,5842
+baldwin/resources/default_gitattributes.txt,sha256=uGoWTSVgPmdGB2EUIROkTz3FikGpNGhdS95SuuvoCRo,984
+baldwin/resources/default_gitignore.txt,sha256=oyxukNyK6F778C2jc7oIwosP7ou1WTdbuWwkpgGZtJA,3022
+baldwin/resources/prettier.config.json,sha256=-Hher3B02YflULYn0IYOG_a-rDxpaaaQ0QXD30-5IgQ,387
+baldwin/utils.py,sha256=gOtDvylunSQoZ8QN8RvEeafPCw8Xn42vOflTMxciHtg,2330
+baldwin-0.0.4.dist-info/METADATA,sha256=pMG6p1T4p-Jx3_Ub3q77uKKq78FGF5Ng6uTQRDd5Rkc,3659
+baldwin-0.0.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+baldwin-0.0.4.dist-info/entry_points.txt,sha256=Whfij6CPUG0wuXRYWf3VGkluV1jV32ysrGFdlWjFy9o,70
+baldwin-0.0.4.dist-info/RECORD,,
