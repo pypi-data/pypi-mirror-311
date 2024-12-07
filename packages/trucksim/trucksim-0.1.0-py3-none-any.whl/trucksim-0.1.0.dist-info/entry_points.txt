@@ -1,0 +1,4 @@
+[console_scripts]
+candump = trucksim.cli.candump:main
+cangen = trucksim.cli.cangen:main
+cansend = trucksim.cli.cansend:main
