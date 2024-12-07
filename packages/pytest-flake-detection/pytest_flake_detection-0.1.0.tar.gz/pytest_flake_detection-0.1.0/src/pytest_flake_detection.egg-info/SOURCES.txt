@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+src/pytest_flake_detection/__init__.py
+src/pytest_flake_detection/plugin.py
+src/pytest_flake_detection.egg-info/PKG-INFO
+src/pytest_flake_detection.egg-info/SOURCES.txt
+src/pytest_flake_detection.egg-info/dependency_links.txt
+src/pytest_flake_detection.egg-info/entry_points.txt
+src/pytest_flake_detection.egg-info/requires.txt
+src/pytest_flake_detection.egg-info/top_level.txt
+tests/test_flake_detection.py
