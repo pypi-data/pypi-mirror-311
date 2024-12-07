@@ -1,0 +1,14 @@
+Django>=3.1
+
+[sendgrid]
+sendgrid
+jinja2
+relattrs
+
+[serializers]
+djangorestframework
+
+[sms]
+django-sms[twilio]
+jinja2
+relattrs
