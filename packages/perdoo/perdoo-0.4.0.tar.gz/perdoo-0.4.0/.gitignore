@@ -1,0 +1,17 @@
+# =====Folders=====
+__pycache__/
+__pypackages__/
+.idea/
+.ruff_cache/
+.venv/
+build/
+dist/
+logs/
+
+# =====Files=====
+*.iml
+*.log
+.pdm-python
+.python-version
+pdm.lock
+uv.lock
