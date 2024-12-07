@@ -1,0 +1,154 @@
+# Smart Steganography Library
+
+***
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/smart_steganography_lib)](https://github.com/smartlegionlab/smart_steganography_lib/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/smart_steganography_lib?label=pypi%20downloads)](https://pypi.org/project/smart_steganography_lib/)
+![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/smart_steganography_lib)
+[![PyPI](https://img.shields.io/pypi/v/smart_steganography_lib)](https://pypi.org/project/smart_steganography_lib)
+[![GitHub](https://img.shields.io/github/license/smartlegionlab/smart_steganography_lib)](https://github.com/smartlegionlab/smart_steganography_lib/blob/master/LICENSE)
+[![PyPI - Format](https://img.shields.io/pypi/format/smart_steganography_lib)](https://pypi.org/project/smart_steganography_lib)
+
+---
+
+Smart Steganography Library is a cross-platform library that allows you to hide and extract text messages in images.
+
+Unlock the hidden world of communication with our steganography tool, designed to seamlessly encode and decode secret messages within images. Safeguard your confidential information while enjoying the art of digital concealment
+
+---
+
+## Disclaimer of liability:
+    This steganography library is intended solely for lawful use and educational purposes. 
+    The developers and owners of this software accept no responsibility 
+    for any actions taken by users in connection with this software, 
+    including but not limited to illegal encryption, storage, or transmission of information. 
+    Users are fully responsible for complying with all applicable laws 
+    and regulations regarding the use of this tool. 
+    The use of this software for any unlawful purposes is strictly prohibited, 
+    and we strongly advise users to operate within the bounds of the law. 
+    By using this tool, you acknowledge and agree that the developers and owners of this software 
+    shall not be held liable for any consequences arising from its use, 
+    including but not limited to legal actions, damages, or losses incurred by any party. 
+    This disclaimer applies to all users, regardless of their intent or the context in which the software is used.
+
+
+---
+
+## Features: 
+
+- **Encode Secret Messages**: Embed text messages into images using steganography to hide information from prying eyes.
+  
+- **Decode Hidden Messages**: Extract hidden messages from images that have been encoded with your tool.
+
+- **Check for Existing Data**: Check if the image already contains encoded data to avoid overwriting.
+
+- **Clear Encoded Data**: Remove encrypted messages from images, restoring them to their original state.
+
+- **Support for PNG Format**: Work with PNG images, which are suitable for steganography due to their transparency support and losslessness.
+
+- **User-Friendly Interface**: Easy to use interface for performing encoding and decoding operations.
+
+- **Cross-Platform Compatibility**: Works on various operating systems, including Windows, macOS and Linux.
+
+- **Educational Tool**: Suitable for learning steganography and basic image manipulation.
+
+- **Privacy Protection**:Keeps your messages private by hiding them in images.
+
+- **Lightweight and Fast**: Perform image operations quickly and without significant resource consumption.
+
+---
+
+## Usage:
+
+- **Install**: `pip install smart_steganography_lib`
+
+### Example 1: Encoding a message into an image:
+
+```python
+from smart_steganography_lib import SteganographyTool
+stego_tool = SteganographyTool("path/to/your/image.png")
+
+secret_message = "Hello, this is a secret message!"
+try:
+    stego_tool.encode(secret_message)
+    print("The message has been successfully encoded into the image.")
+except ValueError as e:
+    print(f"Error: {e}")
+```
+
+### Example 2: Decoding a message from an image:
+
+```python
+from smart_steganography_lib import SteganographyTool
+stego_tool = SteganographyTool("path/to/your/image.png")
+
+try:
+    hidden_message = stego_tool.decode()
+    print(f"Hidden message: {hidden_message}")
+except ValueError as e:
+    print(f"Error: {e}")
+```
+
+### Example 3: Cleaning Encoded Data from an Image:
+
+```python
+from smart_steganography_lib import SteganographyTool
+stego_tool = SteganographyTool("path/to/your/image.png")
+
+try:
+    stego_tool.clear()
+    print("The encoded data has been successfully cleared from the image.")
+except ValueError as e:
+    print(f"Error: {e}")
+```
+
+### Example 4: Checking if an image contains encoded data:
+
+```python
+from smart_steganography_lib import SteganographyTool
+stego_tool = SteganographyTool("path/to/your/image.png")
+
+if stego_tool.is_encoded():
+    print("The image contains encoded data.")
+else:
+    print("The image does not contain any encoded data.")
+```
+
+### Notes:
+- Make sure the image path is correct and the file exists.
+- Use steganography-supporting formats, such as PNG, to work with images.
+- Handle possible exceptions to avoid program crashes.
+
+### Examples app:
+
+- [Smart Steganography Tool (Console app) ](https://github.com/smartlegionlab/smart_steganography_tool_cli)
+
+***
+
+## For developers:
+
+- `python -m build`
+- `twine upload dist/*`
+
+***
+
+
+## Disclaimer of liability:
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+    CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+***
+
+    Licensed under the terms of the BSD 3-Clause License
+    (see LICENSE for details).
+    Copyright © 2018-2024, A.A. Suvorov
+    All rights reserved.
