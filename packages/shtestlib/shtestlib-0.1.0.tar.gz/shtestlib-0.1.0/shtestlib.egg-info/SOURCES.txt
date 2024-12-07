@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+shtestlib/__init__.py
+shtestlib/shtestlib.py
+shtestlib.egg-info/PKG-INFO
+shtestlib.egg-info/SOURCES.txt
+shtestlib.egg-info/dependency_links.txt
+shtestlib.egg-info/requires.txt
+shtestlib.egg-info/top_level.txt
