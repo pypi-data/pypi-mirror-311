@@ -1,0 +1,233 @@
+#title {
+    content-align: center middle;
+    padding: 1;
+    background: $boost;
+    color: $text;
+    text-style: bold;
+    width: 100%;
+}
+
+#main-container {
+    align: center middle;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1;
+}
+
+#menu {
+    width: 100%;
+    height: auto;
+    border: solid $primary;
+    padding: 1;
+}
+
+ListView > ListItem {
+    padding: 1 2;
+    width: 100%;
+    height: 4;
+    margin: 1 0;
+}
+
+ListView > ListItem:hover {
+    background: $accent;
+    color: $text;
+}
+
+ListView > ListItem.-selected {
+    background: $secondary;
+    color: $text;
+    text-style: bold;
+}
+
+DeviceInfo {
+    width: 100%;
+    height: 100%;
+    padding: 1;
+}
+
+#main-panels {
+    width: 100%;
+    height: 100%;
+}
+
+#left-panel {
+    width: 35%;
+    height: 100%;
+    padding: 1;
+    display: block;
+    align: center top;
+    overflow: hidden;
+}
+
+#right-panel {
+    width: 65%;
+    height: 100%;
+    padding: 1;
+    border-left: solid $primary;
+}
+
+#device-title {
+    background: $panel;
+    padding: 1;
+    text-align: center;
+    text-style: bold;
+    color: $text;
+    width: 100%;
+}
+
+#device-details {
+    margin: 1;
+    padding: 0;
+    border: solid $primary;
+    width: 100%;
+    height: 20;
+    overflow: auto;
+}
+
+#device-details Label {
+    padding: 1;
+    width: 100%;
+}
+
+StatusLabel {
+    margin-top: 2;
+    padding: 2;
+    content-align: center middle;
+    min-height: 7;
+    text-style: bold;
+    border: solid $primary;
+    width: 100%;
+    background: $surface;
+    display: block;
+}
+
+StatusLabel > .static-text {
+    text-align: center;
+    width: 100%;
+    background: $surface;
+    padding: 1;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+Log {
+    height: 100%;
+    border: solid $primary;
+    padding: 1;
+    background: $surface;
+    color: $text;
+    overflow-y: scroll;
+    width: 100%;
+    margin: 1;
+}
+
+Log > .log--content {
+    color: $text;
+    background: transparent;
+    padding: 0 1;
+    width: 100%;
+}
+
+#config-title {
+    background: $boost;
+    color: $text;
+    text-style: bold;
+    text-align: center;
+    padding: 1;
+    margin-bottom: 0;
+    border-bottom: solid $primary;
+}
+
+#config-details {
+    padding: 0;
+    width: 100%;
+}
+
+VerticalScroll {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow-y: scroll;
+}
+
+.key {
+    color: $text-muted;
+    padding: 0 1;
+    text-style: bold;
+    display: block;
+}
+
+.value {
+    color: $text;
+    padding: 0 1;
+    background: $panel;
+    display: block;
+}
+
+#config-details Label {
+    /* margin: 1; */
+    width: 100%;
+    display: block;
+}
+
+.scroll-container {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#left-panel {
+    width: 35%;
+    height: 100%;
+    padding: 1;
+    display: block;
+    align: center top;
+    overflow: hidden;
+}
+
+#modal-title {
+    dock: top;
+    padding: 1 2;
+    background: $boost;
+    color: $text;
+    text-style: bold;
+    width: 100%;
+    height: 3;
+    content-align: center middle;
+}
+
+#port-dialog {
+    background: $surface;
+    padding: 1;
+    border: thick $primary;
+    grid-size: 1;
+    grid-rows: 3 1fr;
+    align: center middle;
+    width: 60;
+    height: 30;
+}
+
+#port-list {
+    width: 100%;
+    height: 100%;
+    border: solid $primary;
+    background: $surface;
+    padding: 0 1;
+    overflow-y: auto;
+}
+
+SelectionList > SelectionItem {
+    padding: 1;
+    width: 100%;
+    height: 3;
+    margin: 0 0;
+}
+
+SelectionList > SelectionItem:hover {
+    background: $accent;
+}
+
+SelectionList > SelectionItem.-selected {
+    background: $secondary;
+    color: $text;
+}

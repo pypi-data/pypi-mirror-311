@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qube_nic"
+version = "0.1.0"
+description = "NIC tool for flashing NICs"
+authors = ["Apoorva Singh <apoorvasingh157@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+esptool = "^4.8.1"
+rich = "^13.9.4"
+nuitka = "^2.4.11"
+textual = "^0.85.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
