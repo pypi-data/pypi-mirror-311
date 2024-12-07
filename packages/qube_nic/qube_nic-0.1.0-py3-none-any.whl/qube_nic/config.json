@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Qube One NIC",
+        "description": "Firmware v2.5.2",
+        "wifi_ssid": "qube",
+        "wifi_password": "12345678",
+        "hardware_id": 1345,
+        "device_manufacturer_code": 101102,
+        "firmware_file_path": "wifi-nic-r3-v2.5.2.bin",
+        "serial_port": "/dev/tty.usbserial-A5XK3RJT"
+    },
+    {
+        "name": "Sunstar Two Phase",
+        "description": "Firmware v2.2.2",
+        "wifi_ssid": "qube",
+        "wifi_password": "12345678",
+        "hardware_id": 1327,
+        "device_manufacturer_code": 112200,
+        "firmware_file_path": "wifi-nic-r3-v2.2.2.bin",
+        "serial_port": "/dev/tty.usbserial-A5XK3RJT"
+    },
+    {
+        "name": "Sunstar Three Phase",
+        "description": "Firmware v2.2.2",
+        "wifi_ssid": "qube",
+        "wifi_password": "12345678",
+        "hardware_id": 1327,
+        "device_manufacturer_code": 113300,
+        "firmware_file_path": "wifi-nic-r3-v2.2.2.bin",
+        "serial_port": "/dev/tty.usbserial-A5XK3RJT"
+    },
+    {
+        "name": "Sunstar Two Phase (No Button)",
+        "description": "Firmware v2.5.3",
+        "wifi_ssid": "qube",
+        "wifi_password": "12345678",
+        "hardware_id": 1327,
+        "device_manufacturer_code": 112200,
+        "firmware_file_path": "wifi-nic-r3-v2.2.2.bin",
+        "serial_port": "/dev/tty.usbserial-A5XK3RJT"
+    },
+    {
+        "name": "Sunstar Three Phase (No Button)",
+        "description": "Firmware v2.5.3",
+        "wifi_ssid": "qube",
+        "wifi_password": "12345678",
+        "hardware_id": 1327,
+        "device_manufacturer_code": 113300,
+        "firmware_file_path": "wifi-nic-r3-v2.2.2.bin",
+        "serial_port": "/dev/tty.usbserial-A5XK3RJT"
+    }
+]

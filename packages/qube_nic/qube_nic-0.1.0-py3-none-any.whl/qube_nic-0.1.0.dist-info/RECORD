@@ -1,0 +1,11 @@
+qube_nic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qube_nic/config.json,sha256=fzVtc5thn_0SDBK1KmHV1kCW6d5Lw1Hypvv7OESjJ78,1725
+qube_nic/configuration.json,sha256=-uw4epDEwQKY-nPyIPm99dpyoMxUOoY1L95zVMPhZVE,215
+qube_nic/eeprom.py,sha256=ZAUBUpFnkJYkEy_dV_nw0tSmMiOjCfd3HCSDtbFt1XU,2849
+qube_nic/flasher.py,sha256=D_eXPeDckwI7MOl_C5OQw9OB3OBHCZqEMuFKztDiKkQ,6130
+qube_nic/menu.tcss,sha256=CtKZgdhORqhKlbAheyv7abM3kXP_56bbBv-h4Hs5HtY,3537
+qube_nic/ui.py,sha256=ZqzRvT5lyy3S3PC_mllIwe3oMPodz1vnqQlHmKkNivE,16169
+qube_nic/wifi-nic-r3-v2.5.2.bin,sha256=A03Idulm79I13N-_xCAD7EzrnkLYxseBhswUDEzmyq4,425136
+qube_nic-0.1.0.dist-info/METADATA,sha256=edPCvgG3AHkLwiu0Q3wTMuWPvNv4wtF022SoYbQCvfc,962
+qube_nic-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+qube_nic-0.1.0.dist-info/RECORD,,
