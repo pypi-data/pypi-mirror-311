@@ -1,0 +1,1 @@
+from .easyocr_custom_lib import Reader
