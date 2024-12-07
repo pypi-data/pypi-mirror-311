@@ -1,0 +1,15 @@
+
+---
+
+### **7. Build the Package**
+Use `setuptools` to build the package.
+
+1. Open a terminal in the root directory (where `setup.py` is located).
+2. Run the following commands:
+
+```bash
+# Install the build tools
+pip install setuptools wheel
+
+# Build the package
+python setup.py sdist bdist_wheel

@@ -1,0 +1,2 @@
+[console_scripts]
+launch-eda-dashboard = eda_module.eda_visualization
