@@ -1,0 +1,5 @@
+[console_scripts]
+pytest-flake-detect = pytest_flake_detection.plugin:main
+
+[pytest11]
+flake-detection = pytest_flake_detection.plugin

@@ -1,0 +1,46 @@
+[build-system]
+requires = [
+  "setuptools>=61.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytest-flake-detection"
+description = "Continuously runs your tests to detect flaky tests"
+version = "0.1.1"
+readme = "README.rst"
+requires-python = ">=3.8"
+authors = [
+    { name = "Charles Turner", email = "charles.turner@anu.edu.au" },
+]
+maintainers = [
+    { name = "Charles Turner", email = "charles.turner@anu.edu.au" },
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "Framework :: Pytest",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "pytest>=6.2.0",
+]
+[project.urls]
+Repository = "https://github.com/charles-turner-1/pytest-flake-detection"
+[project.entry-points.pytest11]
+flake-detection = "pytest_flake_detection.plugin"
+
+[project.scripts]
+pytest-flake-detect = "pytest_flake_detection.plugin:main"
