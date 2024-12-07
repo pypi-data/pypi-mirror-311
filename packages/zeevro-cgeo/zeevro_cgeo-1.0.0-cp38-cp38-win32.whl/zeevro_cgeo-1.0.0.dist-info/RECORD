@@ -1,0 +1,8 @@
+cgeo/__init__.py,sha256=UfYW4KIPdlN6gEfKBpf45HdI1BO9xw6uEb5vEeMSTlo,129
+cgeo/_cgeo.cp38-win32.pyd,sha256=DuUE5lSI7YXKJ9CWLMU6L4ez4AHuTGIKZh_pfJYgb78,11264
+cgeo/_cgeo.py,sha256=-MuvIPew49y99_UJNyIWQrxOJlV8ZAHCW0BoWkDPaas,1535
+cgeo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zeevro_cgeo-1.0.0.dist-info/METADATA,sha256=6CUjsC38SR54BXfQuXRZthOmgUFxajeqenqn-SuBjFg,1002
+zeevro_cgeo-1.0.0.dist-info/WHEEL,sha256=vBXc8Yz61rk4PXr558q4bsp34y-RMVJ3b9QU_ECAK-o,95
+zeevro_cgeo-1.0.0.dist-info/top_level.txt,sha256=dBfrmJ3_bDYsNOhZMUEJZugcb03bcLc9t_pFWlmNP-4,5
+zeevro_cgeo-1.0.0.dist-info/RECORD,,
