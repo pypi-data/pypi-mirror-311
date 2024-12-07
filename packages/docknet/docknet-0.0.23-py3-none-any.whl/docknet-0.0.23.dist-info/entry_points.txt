@@ -1,0 +1,2 @@
+[console_scripts]
+docknet = docknet._cli:cli
