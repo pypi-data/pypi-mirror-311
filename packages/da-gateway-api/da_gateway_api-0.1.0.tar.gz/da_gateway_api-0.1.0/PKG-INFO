@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: da-gateway-api
+Version: 0.1.0
+Summary: 
+Author: Al DAmico
+Author-email: JavaWiz1@hotmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dt-foundation
+Requires-Dist: dt-net
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+GatewayAPI
+
+Common entrypoints
+- discover()
+    List of devices
+
+- turn_on()
+- turn_off()
+
+- get_power_state()  
+    on/off/standby
+
+- get_device_info() -> Dict
+    name, ip, mac, type, model,...
+
+- get_device_status() -> Dict
+    power_state, other
+        switch      - 
+        light       - brightness, color
+        receiver    - volume, muted, whats_playing, input_src
+
+- is_available() -> bool
+    Is API up, is device online?
+
+- _call_api()
+- 

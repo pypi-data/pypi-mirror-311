@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "da-gateway-api"
+version = "0.1.0"
+description = ""
+authors = ["Al DAmico <JavaWiz1@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "dagwapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "*"
+dt-foundation = "*"
+dt-net = "*"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[[tool.poetry.source]]
+name = "da-pypi"
+url = "http://raspberrypi/simple"
+priority = "supplemental"
+
+[[tool.poetry.source]]
+name = "da-pypi-publish"
+url = "http://raspberrypi/publish"
+priority = "supplemental"
+
+[[tool.poetry.source]]
+name = "piwheels"
+url = "https://www.piwheels.org/simple"
+priority = "supplemental"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
