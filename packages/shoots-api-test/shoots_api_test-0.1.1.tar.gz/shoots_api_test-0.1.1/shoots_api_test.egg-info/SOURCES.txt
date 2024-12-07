@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+shoots_api_test/__init__.py
+shoots_api_test.egg-info/PKG-INFO
+shoots_api_test.egg-info/SOURCES.txt
+shoots_api_test.egg-info/dependency_links.txt
+shoots_api_test.egg-info/entry_points.txt
+shoots_api_test.egg-info/top_level.txt

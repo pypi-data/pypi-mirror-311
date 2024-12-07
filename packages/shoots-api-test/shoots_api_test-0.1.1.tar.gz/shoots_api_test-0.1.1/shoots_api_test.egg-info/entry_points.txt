@@ -1,0 +1,2 @@
+[console_scripts]
+shoots-api-test = shoots_api_test:shoots_api_test
