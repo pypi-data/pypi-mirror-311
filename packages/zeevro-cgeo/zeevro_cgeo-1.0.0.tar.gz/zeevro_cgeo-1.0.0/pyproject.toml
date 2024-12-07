@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zeevro-cgeo"
+version = "1.0.0"
+requires-python = ">=3.8"
+authors = [{ name = "Zeev Rotshtein", email = "zeevro@gmail.com" }]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: Public Domain",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Repository = "https://github.com/zeevro/cgeo"
+
+[tool.ruff]
+line-length = 150
+output-format = "concise"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "W191", # tab-indentation - conflicts with formatter
+    "E111", # indentation-with-invalid-multiple - conflicts with formatter
+    "E114", # indentation-with-invalid-multiple-comment - conflicts with formatter
+    "E117", # over-indented - conflicts with formatter
+    "D206", # indent-with-spaces - conflicts with formatter
+    "D300", # triple-single-quotes - conflicts with formatter
+    "Q000", # bad-quotes-inline-string - conflicts with formatter
+    "Q001", # bad-quotes-multiline-string - conflicts with formatter
+    "Q002", # bad-quotes-docstring - conflicts with formatter
+    "Q003", # avoidable-escaped-quote - conflicts with formatter
+    "COM812", # missing-trailing-comma - conflicts with formatter
+    "COM819", # prohibited-trailing-comma - conflicts with formatter
+    "ISC001", # single-line-implicit-string-concatenation - conflicts with formatter
+    "ISC002", # multi-line-implicit-string-concatenation - conflicts with formatter
+    "E501", # line-too-long - see formatter documentation
+
+    "D", # linter: pydocstyle
+    "PT", # linter: flake8-pytest-style
+
+    "B028", # no-explicit-stacklevel
+]
+
+[tool.ruff.lint.isort]
+force-sort-within-sections = true
+lines-after-imports = 2
+
+[tool.ruff.lint.flake8-type-checking]
+exempt-modules = ["collections.abc", "typing"]
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.cibuildwheel]
+build-frontend = "build[uv]"
+free-threaded-support = true
+test-command = "python -W \"error:Could not import cgeo C extension\" {package}/test.py -v"
+test-skip = ["*arm64"]
+
+[tool.cibuildwheel.linux]
+archs = ["x86_64", "i686", "aarch64"]
+before-build = "rm -rf {project}/build"
+
+[tool.cibuildwheel.macos]
+archs = ["x86_64", "arm64", "universal2"]
+before-all = "curl -LsSf https://astral.sh/uv/install.sh | sh"
+before-build = "rm -rf {project}/build"
+
+[tool.cibuildwheel.windows]
+before-all = "pip install uv"
+before-build = "if exist build rmdir /s /q build"

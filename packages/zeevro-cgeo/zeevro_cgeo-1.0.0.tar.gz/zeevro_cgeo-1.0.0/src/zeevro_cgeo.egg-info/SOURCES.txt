@@ -1,0 +1,11 @@
+README.md
+cgeo.c
+pyproject.toml
+setup.py
+src/cgeo/__init__.py
+src/cgeo/_cgeo.py
+src/cgeo/py.typed
+src/zeevro_cgeo.egg-info/PKG-INFO
+src/zeevro_cgeo.egg-info/SOURCES.txt
+src/zeevro_cgeo.egg-info/dependency_links.txt
+src/zeevro_cgeo.egg-info/top_level.txt
