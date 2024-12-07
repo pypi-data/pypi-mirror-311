@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: fh-frankenui
+Version: 0.0.2
+Summary: Wrapper for FrankenUI in python
+Home-page: https://github.com/Isaac-Flath/fh-frankenui
+Author: isaac flath
+Author-email: isaac.flath@gmail.com
+License: Apache Software License 2.0
+Keywords: nbdev jupyter notebook python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-fasthtml
+Requires-Dist: fastcore
+Provides-Extra: dev
+Requires-Dist: pandas; extra == "dev"
+Requires-Dist: jinja2; extra == "dev"
+Requires-Dist: llms-txt; extra == "dev"
+Requires-Dist: pysymbol_llm; extra == "dev"
+Requires-Dist: lxml; extra == "dev"
+Requires-Dist: mistletoe; extra == "dev"
+
+# Fh-FrankenUI
+
+> [!WARNING]
+>
+> This library is still in active development, however there are many
+> great things you can do with it already. We’d really like you try to
+> it and tell us how it works for you!
+
+## Installation
+
+To install this library, uses
+
+`pip install git+https://github.com/AnswerDotAI/fh-frankenui.git`
+
+Check out the docs [here](https://fh-frankenui.answer.ai/)
+
+## Getting Started
+
+To get started, check out:
+
+1.  Start by importing the modules as follows:
+
+``` python
+from fasthtml.common import *
+from fh_frankenui.core import *
+```
+
+2.  Instantiate the app with the fh-frankenui headers
+
+``` python
+app = FastHTML(hdrs=Theme.slate.headers())
+
+# Alternatively, using the fast_app method
+app, rt = fast_app(pico=False, hdrs=Theme.slate.headers())
+```
+
+> *The color option can be any of the theme options available out of the box*
+
+
+More resources and improvements to the documentation will be added here
+soon!
