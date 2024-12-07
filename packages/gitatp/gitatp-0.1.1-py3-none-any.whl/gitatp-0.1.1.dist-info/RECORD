@@ -1,0 +1,7 @@
+gitatp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitatp/cli.py,sha256=RcBy3edi22JkKBL_ksk2mD2k-Hj1PCM0p24UzllTAXs,518
+gitatp/git_http_backend.py,sha256=kzLGnNwEtkqkO8I8e2dwkn5JiRkzSMtrTCAWXYs1_J0,19961
+gitatp-0.1.1.dist-info/METADATA,sha256=4yJPKIvFoQNCilCSJgqWXcWCwgjQdzpKO1hzz3s2v08,194
+gitatp-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+gitatp-0.1.1.dist-info/entry_points.txt,sha256=vL2FhPG92hCj3PEfdODMUnLKfcbSunfhgrqXOmKihYo,43
+gitatp-0.1.1.dist-info/RECORD,,
