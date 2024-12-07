@@ -1,0 +1,15 @@
+ailia_llm/LICENSE_AILIA_EN.pdf,sha256=1DzVViPnw1uAS8gJ5a8uN3iZNNR5I1ItIXmezHfUpeM,70149
+ailia_llm/LICENSE_AILIA_JA.pdf,sha256=s628QN47S2bNqIfuSjm2LBf0vIluv2df6MSemn6Ksmw,174134
+ailia_llm/__init__.py,sha256=nE8Xbbn6eeNREsAN6ZUPlrNbCNpf30UoPqrJraEMiAc,6793
+ailia_llm/linux/x64/libailia_llm.so,sha256=9Vdyq4y8WSzuNKWJHmN2g286rALpFzgcoYLp0jnd3sU,2659864
+ailia_llm/mac/libailia_llm.dylib,sha256=HypCcgqZQGZe2cb-NVWs7bQo0rBgRyqgQFyihlyGdbI,5314640
+ailia_llm/oss/LICENSE_LLAMA_CPP.txt,sha256=qL2JoOrGbBXVvkfESFiBvg_osIcQjFlhPXp_UD4cIOo,1080
+ailia_llm/windows/x64/ailia_llm.dll,sha256=VjuISvDUczlE6_APZosHqaneKfHPGFqk3zvWTae8ijs,32768
+ailia_llm/windows/x64/ailia_llm_fallback.dll,sha256=wk941WfOh11gvjKXRwjnLSw63vPYCxEHXJ6YDkWg_yk,1533440
+ailia_llm/windows/x64/ggml.dll,sha256=C2bTEQngmf40s6iK9mNtLALwZeclT0NyY6EVgzSoAx0,3243008
+ailia_llm/windows/x64/llama.dll,sha256=uDLrk7hDkNeuP0GCQJ8nXifczDUO2zRaetN-5vgSWbc,1432576
+ailia_llm-1.2.1.0.data/scripts/__init__.py,sha256=nE8Xbbn6eeNREsAN6ZUPlrNbCNpf30UoPqrJraEMiAc,6793
+ailia_llm-1.2.1.0.dist-info/METADATA,sha256=BWmivIqeHyMMj96uW25Wa0YwdlCv18qWYOMR2fV1Sos,1785
+ailia_llm-1.2.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ailia_llm-1.2.1.0.dist-info/top_level.txt,sha256=CGf8TH0eFG8X0zXya13ky0bpj3ZWwplGmnWukZ5CNlk,10
+ailia_llm-1.2.1.0.dist-info/RECORD,,
