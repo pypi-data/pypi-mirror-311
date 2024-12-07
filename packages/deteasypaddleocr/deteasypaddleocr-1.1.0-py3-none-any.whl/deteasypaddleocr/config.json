@@ -1,0 +1,7 @@
+{
+    "ocr_type": "easyocr",
+    "model_paths": {
+        "easyocr": "models/easyocr/",
+        "paddleocr": "models/paddleocr/"
+    }
+}
