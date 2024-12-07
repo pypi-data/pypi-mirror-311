@@ -1,0 +1,199 @@
+import base64
+import logging
+from contextlib import suppress
+
+import aiohttp
+from urllib3.exceptions import LocationParseError
+from urllib3.util import Url, parse_url
+
+from ..http.client import request
+from ..http.validations import HTTPValidationError
+from .classes import InvalidParameter
+from .codecommit_utils import call_codecommit_ls_remote
+from .https_utils import call_https_ls_remote
+from .ssh_utils import call_ssh_ls_remote
+
+LOGGER = logging.getLogger(__name__)
+
+
+def _format_redirected_url(
+    original_url: Url,
+    redirect_url: Url,
+) -> str:
+    return (
+        redirect_url._replace(
+            query=None,
+            path=(redirect_url.path or "").removesuffix("info/refs"),
+        ).url
+        if original_url.host == redirect_url.host
+        else original_url.url
+    )
+
+
+async def get_redirected_url(
+    url: str,
+    user: str | None,
+    password: str | None,
+    token: str | None,
+    is_pat: bool,
+) -> str:
+    if user is not None and password is not None:
+        with suppress(LocationParseError):
+            return await _get_redirected_url(
+                parse_url(url)._replace(auth=None).url,
+                authorization="Basic "
+                + base64.b64encode(f"{user}:{password}".encode()).decode(),
+            )
+        return await _get_redirected_url(
+            url,
+            authorization="Basic "
+            + base64.b64encode(f"{user}:{password}".encode()).decode(),
+        )
+    if token is not None and is_pat:
+        return await _get_redirected_url(
+            url,
+            authorization=(
+                "Basic "
+                + base64.b64encode(f":{token}".encode()).decode()
+            ),
+        )
+    if token is not None and not is_pat:
+        return await _get_redirected_url(url, authorization=f"Bearer {token}")
+    if url.startswith("http"):
+        return await _get_redirected_url(url)
+    raise InvalidParameter()
+
+
+async def _get_redirected_url(
+    url: str,
+    authorization: str | None = None,
+) -> str:
+    try:
+        return await _get_url(url, authorization=authorization)
+    except (
+        TimeoutError,
+        ValueError,
+        aiohttp.ClientError,
+        HTTPValidationError,
+    ) as exc:
+        LOGGER.warning(
+            "Failed to get redirected-url",
+            extra={"extra": {"url": url, "exc": exc}},
+        )
+        return url
+
+
+async def _get_url(
+    original_url: str,
+    *,
+    redirect_url: str = "",
+    max_retries: int = 5,
+    authorization: str | None = None,
+) -> str:
+    try:
+        original = parse_url(original_url.removesuffix("/"))
+        url = (
+            parse_url(redirect_url.removesuffix("/"))
+            if redirect_url else original
+        )
+    except LocationParseError as exc:
+        raise HTTPValidationError(f"Invalid URL {redirect_url}") from exc
+
+    if max_retries < 1:
+        return _format_redirected_url(original, url)
+
+    # https://git-scm.com/book/en/v2/Git-Internals-Transfer-Protocols
+    url = (
+        url._replace(path=(url.path or "") + "/info/refs")
+        if not (url.path or "").endswith("info/refs")
+        else url
+    )
+    url = url._replace(query="service=git-upload-pack")
+
+    result = await request(
+        url.url,
+        method="GET",
+        headers={
+            "Host": url.host or "",
+            "Accept": "*/*",
+            "Accept-Encoding": "deflate, gzip",
+            "Pragma": "no-cache",
+            "Accept-Language": "*",
+            **({"Authorization": authorization} if authorization else {}),
+        },
+    )
+    if result.status == 200:
+        return _format_redirected_url(original, url)
+    if (
+        result.status > 300
+        and result.status < 400
+        and "Location" in result.headers
+    ):
+        with suppress(LocationParseError):
+            _url = parse_url(result.headers["Location"])
+            return await _get_url(
+                original_url,
+                redirect_url=result.headers["Location"],
+                max_retries=max_retries - 1,
+                authorization=authorization if _url.host == url.host else None,
+            )
+
+        return await _get_url(
+            original_url,
+            redirect_url=result.headers["Location"],
+            max_retries=max_retries - 1,
+        )
+
+    return _format_redirected_url(original, url)
+
+
+async def ls_remote(
+    repo_url: str,
+    repo_branch: str,
+    *,
+    credential_key: str | None = None,
+    user: str | None = None,
+    password: str | None = None,
+    token: str | None = None,
+    provider: str | None = None,
+    is_pat: bool = False,
+    arn: str | None = None,
+    org_external_id: str | None = None,
+    follow_redirects: bool = True,
+) -> str | None:
+    last_commit: str | None = None
+    if credential_key is not None:
+        last_commit = await call_ssh_ls_remote(
+            repo_url,
+            credential_key,
+            repo_branch,
+        )
+    elif arn is not None and org_external_id is not None:
+        last_commit = await call_codecommit_ls_remote(
+            repo_url,
+            arn,
+            repo_branch,
+            org_external_id=org_external_id,
+            follow_redirects=follow_redirects,
+        )
+    else:
+        if not follow_redirects:
+            repo_url = await get_redirected_url(
+                repo_url,
+                user=user,
+                password=password,
+                token=token,
+                is_pat=is_pat,
+            )
+        last_commit = await call_https_ls_remote(
+            repo_url=repo_url,
+            user=user,
+            password=password,
+            token=token,
+            branch=repo_branch,
+            provider=provider,
+            is_pat=is_pat,
+            follow_redirects=follow_redirects,
+        )
+
+    return last_commit
