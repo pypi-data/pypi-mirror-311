@@ -1,0 +1,7 @@
+click>=8.0
+aiosqlite>=0.17
+
+[dev]
+pytest>=7.0
+black>=23.0
+flake8>=6.0
