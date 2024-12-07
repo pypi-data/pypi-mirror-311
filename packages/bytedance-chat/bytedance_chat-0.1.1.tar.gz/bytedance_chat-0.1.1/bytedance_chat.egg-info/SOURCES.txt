@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bytedance_chat/__init__.py
+bytedance_chat.egg-info/PKG-INFO
+bytedance_chat.egg-info/SOURCES.txt
+bytedance_chat.egg-info/dependency_links.txt
+bytedance_chat.egg-info/entry_points.txt
+bytedance_chat.egg-info/top_level.txt

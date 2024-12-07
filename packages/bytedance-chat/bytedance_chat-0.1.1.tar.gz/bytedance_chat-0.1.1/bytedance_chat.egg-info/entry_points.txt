@@ -1,0 +1,2 @@
+[console_scripts]
+bytedance-chat = bytedance_chat:bytedance_chat
