@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pylint_redis/__init__.py
+pylint_redis.egg-info/PKG-INFO
+pylint_redis.egg-info/SOURCES.txt
+pylint_redis.egg-info/dependency_links.txt
+pylint_redis.egg-info/entry_points.txt
+pylint_redis.egg-info/top_level.txt
