@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+example/N4047_examples.ipynb
+example/NGC4047.co.smo7gain.fits.gz
+example/NGC4047.co.smo7msk.fits.gz
+maskmoment/__init__.py
+maskmoment/maskmoment.py
+maskmoment/momfuncs.py
+maskmoment.egg-info/PKG-INFO
+maskmoment.egg-info/SOURCES.txt
+maskmoment.egg-info/dependency_links.txt
+maskmoment.egg-info/requires.txt
+maskmoment.egg-info/top_level.txt
